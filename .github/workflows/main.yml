@@ -26,5 +26,5 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: dri
-        run: node index.js
+      - name: dri |
+        run: echo $URI && node index.js
