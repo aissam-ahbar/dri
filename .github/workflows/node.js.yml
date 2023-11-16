@@ -12,6 +12,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v3
-    - run: node index.js
+    - name: Set up Node.js
+      uses: actions/setup-node@v14
+      with:
+        node-version: 14
+
+    - name: Set environment variable
+      run: echo "URI=${{ secrets.URI }}" >> $GITHUB_ENV
+
+    - name: Run script
+      run: node index.js
