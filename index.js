@@ -1,5 +1,5 @@
 // index.js
 
-const myVariable = process.env.MY_VARIABLE;
+const myVariable = process.env.URI;
 
 console.log(`The value of MY_VARIABLE is: ${myVariable}`);
