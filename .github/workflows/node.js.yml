@@ -8,14 +8,15 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
+    - run : echo ${{ vars.URI }}
     - name: Set environment variable
-      run: echo "URI=$URI" >> $GITHUB_ENV
+      run: echo "URI=$REPO_VARIABLE" >> $GITHUB_ENV
     - name: Run script
       run: node index.js
