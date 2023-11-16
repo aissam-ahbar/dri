@@ -4,7 +4,7 @@ const URI = process.env.URI;
 console.log(`The value of MY_VARIABLE is: ${URI}`);
 
 let items = [];
-await https.get(URI, resp => {
+https.get(URI, resp => {
     var data = "";
 
     // A chunk of data has been recieved.
