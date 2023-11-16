@@ -1,1 +1,1 @@
-echo $URI
+echo env.$URI
