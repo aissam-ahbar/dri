@@ -17,6 +17,6 @@ jobs:
     - uses: actions/checkout@v3
     - run : echo ${{ vars.URI }}
     - name: Set environment variable
-      run: echo "URI=$REPO_VARIABLE" >> $GITHUB_ENV
+      run: echo "URI=${{ vars.URI }}" >> $GITHUB_ENV
     - name: Run script
       run: node index.js
