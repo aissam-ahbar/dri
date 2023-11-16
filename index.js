@@ -18,10 +18,10 @@ https.get(URI, resp => {
     resp.on("end", () => {
       try {
         var items = JSON.parse(data);
-
+        console.log(items.length);
           items.forEach((item) => {
             const ville = item.ville.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-                      console.log(ville)
+                      //console.log(ville)
            });
         
    
