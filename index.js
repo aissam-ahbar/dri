@@ -36,8 +36,6 @@ https.get(URI, resp => {
 
 
 
-          
-          })
       } catch (error) {
         console.error("Error parsing JSON:", error);
       }   
