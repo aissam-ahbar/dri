@@ -1,7 +1,7 @@
 const https = require("https");
 const URI = process.env.URI;
 
-console.log(`The value of MY_VARIABLE is: ${myVariable}`);
+console.log(`The value of MY_VARIABLE is: ${URI}`);
 
 https.get(URI, resp => {
     let data = "";
