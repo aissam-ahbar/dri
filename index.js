@@ -22,12 +22,12 @@ https.get(URI, resp => {
           items.forEach((item) => {
             const ville = item.ville.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
             console.log(ville);
-          }
+          })
       } catch (error) {
         console.error("Error parsing JSON:", error);
       }   
     });
-  })
+  });
   .on("error", err => {
     console.log("Error: " + err.message);
   });
