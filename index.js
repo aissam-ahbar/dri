@@ -27,7 +27,7 @@ https.get(URI, resp => {
         console.error("Error parsing JSON:", error);
       }   
     });
-  });
+  })
   .on("error", err => {
     console.log("Error: " + err.message);
   });
