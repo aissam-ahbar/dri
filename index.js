@@ -19,11 +19,31 @@ await https.get(URI, resp => {
       } catch (error) {
         console.error("Error parsing JSON:", error);
       }   
+
+      console.log(JSON.stringify(items));
+
+        let itemsByVille = {};
+        
+        // Group items by "ville"
+        items.forEach((item) => {
+        
+          const ville = item.ville.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+          if (!itemsByVille[ville]) {
+            itemsByVille[ville] = [];
+          }
+          itemsByVille[ville].push(item);
+        });
+        
+        for (const ville in itemsByVille) {
+          const fileName = ville + '.json';
+          const fileContent = JSON.stringify(itemsByVille[ville], null, 2); // 2 is for indentation
+          // Append the JSON data to the file
+         console.log(fileName)
+        }
     });
   })
   .on("error", err => {
     console.log("Error: " + err.message);
   });
 
-console.log(JSON.stringify(items));
 
