@@ -13,8 +13,12 @@ https.get(URI, resp => {
 
     // The whole response has been received. Print out the result.
     resp.on("end", () => {
-      var data = JSON.parse(data);
-      console.log(JSON.stringify(data));      
+      try {
+        var jsonData = JSON.parse(data);
+        console.log(JSON.stringify(jsonData));
+      } catch (error) {
+        console.error("Error parsing JSON:", error);
+      }   
     });
   })
   .on("error", err => {
