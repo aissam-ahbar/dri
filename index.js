@@ -3,6 +3,7 @@ const URI = process.env.URI;
 
 console.log(`The value of MY_VARIABLE is: ${URI}`);
 
+let items = [];
 https.get(URI, resp => {
     var data = "";
 
@@ -14,8 +15,7 @@ https.get(URI, resp => {
     // The whole response has been received. Print out the result.
     resp.on("end", () => {
       try {
-        var jsonData = JSON.parse(data);
-        console.log(JSON.stringify(jsonData));
+        var items = JSON.parse(data);
       } catch (error) {
         console.error("Error parsing JSON:", error);
       }   
@@ -24,3 +24,6 @@ https.get(URI, resp => {
   .on("error", err => {
     console.log("Error: " + err.message);
   });
+
+        console.log(JSON.stringify(items));
+
