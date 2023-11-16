@@ -21,19 +21,19 @@ https.get(URI, resp => {
 
           items.forEach((item) => {
             const ville = item.ville.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-              if (!itemsByVille[ville]) {
-                itemsByVille[ville] = [];
-              }
-              itemsByVille[ville].push(item);
+                      if (ville && !itemsByVille[ville]) {
+                        itemsByVille[ville] = [];
+                      }
+                      itemsByVille[ville].push(item);
            });
-
-        for (const ville in itemsByVille) {
-          const fileName = ville + '.json';
-          const fileContent = JSON.stringify(itemsByVille[ville], null, 2); // 2 is for indentation
-          // Append the JSON data to the file
-            console.log(fileName)
-        }
-
+        
+            for (const ville in itemsByVille) {
+              const fileName = ville + '.json';
+              const fileContent = JSON.stringify(itemsByVille[ville], null, 2); // 2 is for indentation
+              // Append the JSON data to the file
+                console.log(fileName)
+            }
+    
 
 
       } catch (error) {
