@@ -20,7 +20,7 @@ https.get(URI, resp => {
         var items = JSON.parse(data);
           items.forEach((item) => {
             console.log(JSON.stringify(item));
-            const ville = item.ville.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+            const ville = item.ville.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
                       //console.log(ville)
            });
         
