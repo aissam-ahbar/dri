@@ -19,12 +19,30 @@ https.get(URI, resp => {
       try {
         var items = JSON.parse(data);
           items.forEach((item) => {
-            console.log(JSON.stringify(item));
             const ville = item.ville.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-                      //console.log(ville)
+              if (!itemsByVille[ville]) {
+                itemsByVille[ville] = [];
+              }
+              itemsByVille[ville].push(item);
            });
         
-   
+            // Loop through the grouped items and append them to files
+            var id = 0;
+            for (const ville in itemsByVille) {
+              const fileName = ville + '.json';
+              const fileContent = JSON.stringify(itemsByVille[ville], null, 2); // 2 is for indentation
+              // Append the JSON data to the file
+                if(id ==0) {
+                  fs.writeFile('output/' + fileName.toLowerCase(), fileContent, (err) => {
+                    if (err) {
+                      console.error(`Error appending to ${fileName}: ${err}`);
+                    } else {
+                      console.log(`Data appended to ${fileName}.`);
+                    }
+                      id++;
+                  });
+                }
+            }   
 
 
       } catch (error) {
