@@ -22,7 +22,7 @@ jobs:
     - run : echo ${{ vars.URI }}
     - name: Set up Git
       run: |
-        git config --global user.name aissam-ahbar
+        git config --global user.name ${{ secrets.USERNAME }}
         git config --global user.email aissam.ahbar@gmail.com
           
     - name: Set environment variable
