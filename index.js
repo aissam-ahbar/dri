@@ -19,11 +19,13 @@ https.get(URI, resp => {
       try {
         var items = JSON.parse(data);
           items.forEach((item) => {
-            const ville = item.ville.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-              if (!itemsByVille[ville]) {
-                itemsByVille[ville] = [];
-              }
-              itemsByVille[ville].push(item);
+              if(item && item.ville) {
+                const ville = item.ville.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+                  if (!itemsByVille[ville]) {
+                    itemsByVille[ville] = [];
+                  }
+                  itemsByVille[ville].push(item);
+              }    
            });
         
             // Loop through the grouped items and append them to files
