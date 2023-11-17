@@ -20,12 +20,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - run : echo ${{ vars.USERNAME }}
     - name: Set up Git
       run: |
         git config --global user.name ${{ vars.USERNAME }}
         git config --global user.email ${{ vars.EMAIL }}
           
-    - run : echo ${{ vars.URI }}
     - name: Set environment variable
       run: echo "URI=${{ vars.URI }}" >> $GITHUB_ENV
     - name: Run script
