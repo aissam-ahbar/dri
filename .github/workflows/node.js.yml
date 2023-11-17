@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run : echo $URI
+    - run : echo ${{ vars.URI }}
     - name: Set up Git
       run: |
         git config --global user.name ${{ vars.USERNAME }}
