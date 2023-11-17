@@ -30,4 +30,5 @@ jobs:
     - name: Run script
       run: node index.js
     - name: push
-      run: git add output && git commit -a -m "fetch" && git push https://aissam-ahbar:${{secrets.TOKEN_DRI}}@github.com/aissam-ahbar/dri.git
+      run: git add output && git commit -a -m "fetch" && echo "https://${{ secrets.TOKEN_DRI }}@github.com" > .git-credentials
+
