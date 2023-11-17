@@ -9,31 +9,31 @@
     "ville": "Lanta",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-10-11 08:31:37\", \"@valeur\": \"1.950\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 13:54:03\", \"@valeur\": \"1.950\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 13:54:03\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 13:54:03\", \"@valeur\": \"1.910\"}]",
     "geom": {
       "lon": 1.65919,
       "lat": 43.56136
     },
-    "gazole_maj": "2023-10-11 08:31:37",
+    "gazole_maj": "2023-11-17 13:54:03",
     "gazole_prix": "1.950",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "sp95_maj": "2023-11-17 13:54:03",
+    "sp95_prix": "1.940",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2023-11-17 13:54:03",
+    "e10_prix": "1.910",
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95",
+      "E10"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
-      "E10",
       "SP98"
     ],
     "horaires_automate_24_24": "Non",

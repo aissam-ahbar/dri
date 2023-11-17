@@ -1,36 +1,46 @@
 [
   {
-    "id": 26400006,
-    "latitude": "4472905.13",
-    "longitude": 502916.515,
+    "id": 26400003,
+    "latitude": "4473819.0981442",
+    "longitude": 500456.75214729,
     "cp": "26400",
     "pop": "R",
-    "adresse": "Rue Georges BOVET",
+    "adresse": "ZAC LA CONDAMINE",
     "ville": "Crest",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": null,
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Aire de camping-cars\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 07:25:10\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-13 07:55:42\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-13 07:55:43\", \"@valeur\": \"1.929\"}]",
     "geom": {
-      "lon": 5.02916515,
-      "lat": 44.7290513
+      "lon": 5.0045675214729,
+      "lat": 44.738190981441996
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2023-11-17 07:25:10",
+    "gazole_prix": "1.839",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "e10_maj": "2023-11-13 07:55:42",
+    "e10_prix": "1.849",
+    "sp98_maj": "2023-11-13 07:55:43",
+    "sp98_prix": "1.929",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "DAB (Distributeur automatique de billets)"
+      "Station de gonflage",
+      "Aire de camping-cars",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Drôme",
     "code_departement": "26",
@@ -144,54 +154,6 @@
     "code_region": "84"
   },
   {
-    "id": 26400003,
-    "latitude": "4473819.0981442",
-    "longitude": 500456.75214729,
-    "cp": "26400",
-    "pop": "R",
-    "adresse": "ZAC LA CONDAMINE",
-    "ville": "Crest",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Aire de camping-cars\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-15 08:38:34\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-13 07:55:42\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-13 07:55:43\", \"@valeur\": \"1.929\"}]",
-    "geom": {
-      "lon": 5.0045675214729,
-      "lat": 44.738190981441996
-    },
-    "gazole_maj": "2023-11-15 08:38:34",
-    "gazole_prix": "1.829",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-13 07:55:42",
-    "e10_prix": "1.849",
-    "sp98_maj": "2023-11-13 07:55:43",
-    "sp98_prix": "1.929",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Aire de camping-cars",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Drôme",
-    "code_departement": "26",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 26400005,
     "latitude": "4473800",
     "longitude": 499000,
@@ -231,6 +193,44 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Drôme",
+    "code_departement": "26",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 26400006,
+    "latitude": "4472905.13",
+    "longitude": 502916.515,
+    "cp": "26400",
+    "pop": "R",
+    "adresse": "Rue Georges BOVET",
+    "ville": "Crest",
+    "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": null,
+    "geom": {
+      "lon": 5.02916515,
+      "lat": 44.7290513
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Drôme",

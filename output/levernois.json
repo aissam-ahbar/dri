@@ -8,33 +8,33 @@
     "adresse": "ZA LA Berlhotte - RD 113",
     "ville": "Levernois",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-15 08:58:36\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-15 08:58:36\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-15 08:58:36\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-15 08:58:36\", \"@valeur\": \"1.869\"}]",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 08:43:36\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 08:43:37\", \"@valeur\": \"0.979\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-17 08:46:58\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 08:43:37\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 08:43:37\", \"@valeur\": \"1.869\"}]",
     "geom": {
       "lon": 4.854,
       "lat": 46.999
     },
-    "gazole_maj": "2023-11-15 08:58:36",
+    "gazole_maj": "2023-11-17 08:43:36",
     "gazole_prix": "1.759",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-15 08:58:36",
+    "e85_maj": "2023-11-17 08:43:37",
     "e85_prix": "0.979",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-15 08:58:36",
+    "gplc_maj": "2023-11-17 08:46:58",
+    "gplc_prix": "0.999",
+    "e10_maj": "2023-11-17 08:43:37",
     "e10_prix": "1.779",
-    "sp98_maj": "2023-11-15 08:58:36",
+    "sp98_maj": "2023-11-17 08:43:37",
     "sp98_prix": "1.869",
     "carburants_disponibles": [
       "Gazole",
       "E85",
+      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
+      "SP95"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -45,6 +45,7 @@
       "Restauration sur place",
       "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"

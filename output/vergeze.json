@@ -9,7 +9,7 @@
     "ville": "Vergèze",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 08:52:17\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 08:59:05\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 09:00:44\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-16 08:52:17\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 08:52:17\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 08:59:05\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 16:46:41\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 09:00:44\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-16 08:52:17\", \"@valeur\": \"1.829\"}]",
     "geom": {
       "lon": 4.221,
       "lat": 43.742
@@ -18,8 +18,8 @@
     "gazole_prix": "1.749",
     "sp95_maj": "2023-11-14 08:59:05",
     "sp95_prix": "1.799",
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2023-11-17 16:46:41",
+    "e85_prix": "0.994",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2023-11-10 09:00:44",
@@ -29,11 +29,11 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Oui",

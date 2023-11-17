@@ -1,45 +1,47 @@
 [
   {
-    "id": 12100010,
-    "latitude": "4411354",
-    "longitude": 308262,
+    "id": 12100004,
+    "latitude": "4409100",
+    "longitude": 307700,
     "cp": "12100",
     "pop": "R",
-    "adresse": "25 AV EDOUARD ALFRED MARTEL",
+    "adresse": "AVENUE DU PONT LEROUGE",
     "ville": "Millau",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-13 10:28:07\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-09 10:10:41\", \"@valeur\": \"1.827\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-13 10:28:07\", \"@valeur\": \"1.872\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 10:07:30\", \"@valeur\": \"1.738\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 10:07:31\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 10:07:31\", \"@valeur\": \"1.825\"}]",
     "geom": {
-      "lon": 3.08262,
-      "lat": 44.11354
+      "lon": 3.077,
+      "lat": 44.091
     },
-    "gazole_maj": "2023-11-13 10:28:07",
-    "gazole_prix": "1.758",
-    "sp95_maj": "2023-11-09 10:10:41",
-    "sp95_prix": "1.827",
+    "gazole_maj": "2023-11-17 10:07:30",
+    "gazole_prix": "1.738",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-13 10:28:07",
-    "sp98_prix": "1.872",
+    "e10_maj": "2023-11-17 10:07:31",
+    "e10_prix": "1.748",
+    "sp98_maj": "2023-11-17 10:07:31",
+    "sp98_prix": "1.825",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Vente de fioul domestique",
+      "Boutique alimentaire",
+      "Vente de pétrole lampant",
+      "Location de véhicule",
+      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
@@ -87,108 +89,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 12100011,
-    "latitude": "4411610.7512374",
-    "longitude": 307011.91240553,
-    "cp": "12100",
-    "pop": "R",
-    "adresse": "150 bd Georges Brassens",
-    "ville": "Millau",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-13 10:06:09\", \"@valeur\": \"1.722\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-11 18:05:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-11 18:05:00\", \"@valeur\": \"1.830\"}]",
-    "geom": {
-      "lon": 3.0701191240553,
-      "lat": 44.116107512374
-    },
-    "gazole_maj": "2023-11-13 10:06:09",
-    "gazole_prix": "1.722",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-11 18:05:00",
-    "e10_prix": "1.749",
-    "sp98_maj": "2023-11-11 18:05:00",
-    "sp98_prix": "1.830",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Automate CB 24/24"
-    ],
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 12100004,
-    "latitude": "4409100",
-    "longitude": 307700,
-    "cp": "12100",
-    "pop": "R",
-    "adresse": "AVENUE DU PONT LEROUGE",
-    "ville": "Millau",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-13 11:22:50\", \"@valeur\": \"1.718\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-13 08:36:57\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-13 08:36:57\", \"@valeur\": \"1.799\"}]",
-    "geom": {
-      "lon": 3.077,
-      "lat": 44.091
-    },
-    "gazole_maj": "2023-11-13 11:22:50",
-    "gazole_prix": "1.718",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-13 08:36:57",
-    "e10_prix": "1.739",
-    "sp98_maj": "2023-11-13 08:36:57",
-    "sp98_prix": "1.799",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Vente de pétrole lampant",
-      "Location de véhicule",
-      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
@@ -246,6 +146,106 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
+    ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 12100011,
+    "latitude": "4411610.7512374",
+    "longitude": 307011.91240553,
+    "cp": "12100",
+    "pop": "R",
+    "adresse": "150 bd Georges Brassens",
+    "ville": "Millau",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 07:44:23\", \"@valeur\": \"1.742\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 07:44:23\", \"@valeur\": \"1.756\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 07:44:23\", \"@valeur\": \"1.833\"}]",
+    "geom": {
+      "lon": 3.0701191240553,
+      "lat": 44.116107512374
+    },
+    "gazole_maj": "2023-11-17 07:44:23",
+    "gazole_prix": "1.742",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-17 07:44:23",
+    "e10_prix": "1.756",
+    "sp98_maj": "2023-11-17 07:44:23",
+    "sp98_prix": "1.833",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Automate CB 24/24"
+    ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 12100010,
+    "latitude": "4411354",
+    "longitude": 308262,
+    "cp": "12100",
+    "pop": "R",
+    "adresse": "25 AV EDOUARD ALFRED MARTEL",
+    "ville": "Millau",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-13 10:28:07\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-09 10:10:41\", \"@valeur\": \"1.827\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-13 10:28:07\", \"@valeur\": \"1.872\"}]",
+    "geom": {
+      "lon": 3.08262,
+      "lat": 44.11354
+    },
+    "gazole_maj": "2023-11-13 10:28:07",
+    "gazole_prix": "1.758",
+    "sp95_maj": "2023-11-09 10:10:41",
+    "sp95_prix": "1.827",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-13 10:28:07",
+    "sp98_prix": "1.872",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Vente de fioul domestique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aveyron",
     "code_departement": "12",

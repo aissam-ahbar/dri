@@ -1,5 +1,52 @@
 [
   {
+    "id": 77190004,
+    "latitude": "4850900",
+    "longitude": 260400,
+    "cp": "77190",
+    "pop": "R",
+    "adresse": "544 Avenue André Ampère",
+    "ville": "Dammarie-les-Lys",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 14:55:47\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 14:55:47\", \"@valeur\": \"1.820\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-17 14:55:48\", \"@valeur\": \"1.002\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 14:55:48\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 14:55:48\", \"@valeur\": \"1.860\"}]",
+    "geom": {
+      "lon": 2.604,
+      "lat": 48.509
+    },
+    "gazole_maj": "2023-11-17 14:55:47",
+    "gazole_prix": "1.785",
+    "sp95_maj": "2023-11-17 14:55:47",
+    "sp95_prix": "1.820",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-11-17 14:55:48",
+    "gplc_prix": "1.002",
+    "e10_maj": "2023-11-17 14:55:48",
+    "e10_prix": "1.765",
+    "sp98_maj": "2023-11-17 14:55:48",
+    "sp98_prix": "1.860",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 77190005,
     "latitude": "4851881.2310534",
     "longitude": 265430.5293398,
@@ -38,53 +85,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 77190004,
-    "latitude": "4850900",
-    "longitude": 260400,
-    "cp": "77190",
-    "pop": "R",
-    "adresse": "544 Avenue André Ampère",
-    "ville": "Dammarie-les-Lys",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-15 11:19:20\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-15 11:19:21\", \"@valeur\": \"1.845\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-15 11:19:21\", \"@valeur\": \"1.004\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-15 11:19:21\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-15 11:19:21\", \"@valeur\": \"1.865\"}]",
-    "geom": {
-      "lon": 2.604,
-      "lat": 48.509
-    },
-    "gazole_maj": "2023-11-15 11:19:20",
-    "gazole_prix": "1.785",
-    "sp95_maj": "2023-11-15 11:19:21",
-    "sp95_prix": "1.845",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-11-15 11:19:21",
-    "gplc_prix": "1.004",
-    "e10_maj": "2023-11-15 11:19:21",
-    "e10_prix": "1.792",
-    "sp98_maj": "2023-11-15 11:19:21",
-    "sp98_prix": "1.865",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",
