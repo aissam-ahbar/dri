@@ -1,4 +1,8 @@
+console.log("start program...", new Date());
+
 const https = require("https");
+const fs = require('fs');
+
 const URI = process.env.URI;
 
 console.log(`The value of MY_VARIABLE is: ${URI}`);
