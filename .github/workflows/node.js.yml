@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run : echo $TOKEN_DRI
+    - run : echo $URI
     - name: Set up Git
       run: |
         git config --global user.name ${{ vars.USERNAME }}
