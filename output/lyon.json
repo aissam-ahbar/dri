@@ -44,6 +44,58 @@
     "code_region": "84"
   },
   {
+    "id": 69002006,
+    "latitude": "4573460.33",
+    "longitude": 481825.02,
+    "cp": "69002",
+    "pop": "R",
+    "adresse": "84 QUAI PERRACHE",
+    "ville": "Lyon",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-10 15:50:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-15 12:45:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-15 12:45:00\", \"@valeur\": \"2.039\"}]",
+    "geom": {
+      "lon": 4.8182502000000005,
+      "lat": 45.7346033
+    },
+    "gazole_maj": "2023-11-10 15:50:00",
+    "gazole_prix": "1.929",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-15 12:45:00",
+    "e10_prix": "1.919",
+    "sp98_maj": "2023-11-15 12:45:00",
+    "sp98_prix": "2.039",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 69005002,
     "latitude": "4575400",
     "longitude": 477900,
@@ -90,58 +142,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 69002006,
-    "latitude": "4573460.33",
-    "longitude": 481825.02,
-    "cp": "69002",
-    "pop": "R",
-    "adresse": "84 QUAI PERRACHE",
-    "ville": "Lyon",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-10 15:50:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-15 12:45:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-15 12:45:00\", \"@valeur\": \"2.039\"}]",
-    "geom": {
-      "lon": 4.8182502000000005,
-      "lat": 45.7346033
-    },
-    "gazole_maj": "2023-11-10 15:50:00",
-    "gazole_prix": "1.929",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-15 12:45:00",
-    "e10_prix": "1.919",
-    "sp98_maj": "2023-11-15 12:45:00",
-    "sp98_prix": "2.039",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Rhône",
     "code_departement": "69",
@@ -305,50 +305,6 @@
     "code_region": "84"
   },
   {
-    "id": 69007006,
-    "latitude": "4573519",
-    "longitude": 483936,
-    "cp": "69007",
-    "pop": "R",
-    "adresse": "112/116 RUE DE GERLAND",
-    "ville": "Lyon",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.877\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.906\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 4.83936,
-      "lat": 45.73519
-    },
-    "gazole_maj": "2023-11-17 00:01:00",
-    "gazole_prix": "1.877",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-17 00:01:00",
-    "e10_prix": "1.906",
-    "sp98_maj": "2023-11-17 00:01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 69008007,
     "latitude": "4573700",
     "longitude": 486900,
@@ -397,6 +353,50 @@
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 69007006,
+    "latitude": "4573519",
+    "longitude": 483936,
+    "cp": "69007",
+    "pop": "R",
+    "adresse": "112/116 RUE DE GERLAND",
+    "ville": "Lyon",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.877\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.906\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 4.83936,
+      "lat": 45.73519
+    },
+    "gazole_maj": "2023-11-17 00:01:00",
+    "gazole_prix": "1.877",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-17 00:01:00",
+    "e10_prix": "1.906",
+    "sp98_maj": "2023-11-17 00:01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Rhône",
     "code_departement": "69",
     "region": "Auvergne-Rhône-Alpes",
@@ -558,58 +558,6 @@
     "code_region": "84"
   },
   {
-    "id": 69004015,
-    "latitude": "4578100",
-    "longitude": 482700,
-    "cp": "69004",
-    "pop": "R",
-    "adresse": "71 BOULEVARD DES CANUTS",
-    "ville": "Lyon",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-09 15:55:00\", \"@valeur\": \"1.909\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-03-21 12:45:00\", \"@valeur\": \"1.089\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 15:40:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-10 15:40:00\", \"@valeur\": \"2.039\"}]",
-    "geom": {
-      "lon": 4.827,
-      "lat": 45.781
-    },
-    "gazole_maj": "2023-11-09 15:55:00",
-    "gazole_prix": "1.909",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-03-21 12:45:00",
-    "gplc_prix": "1.089",
-    "e10_maj": "2023-11-10 15:40:00",
-    "e10_prix": "1.919",
-    "sp98_maj": "2023-11-10 15:40:00",
-    "sp98_prix": "2.039",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 69007007,
     "latitude": "4574714",
     "longitude": 485069,
@@ -706,6 +654,59 @@
     "code_region": "84"
   },
   {
+    "id": 69007009,
+    "latitude": "4572602",
+    "longitude": 483973,
+    "cp": "69007",
+    "pop": "R",
+    "adresse": "AVENUE TONY GARNIER",
+    "ville": "Lyon",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.859\"}]",
+    "geom": {
+      "lon": 4.83973,
+      "lat": 45.72602
+    },
+    "gazole_maj": "2023-11-17 00:01:00",
+    "gazole_prix": "1.769",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-17 00:01:00",
+    "e10_prix": "1.794",
+    "sp98_maj": "2023-11-17 00:01:00",
+    "sp98_prix": "1.859",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 69004016,
     "latitude": "4577900",
     "longitude": 482800,
@@ -757,52 +758,51 @@
     "code_region": "84"
   },
   {
-    "id": 69007009,
-    "latitude": "4572602",
-    "longitude": 483973,
-    "cp": "69007",
+    "id": 69004015,
+    "latitude": "4578100",
+    "longitude": 482700,
+    "cp": "69004",
     "pop": "R",
-    "adresse": "AVENUE TONY GARNIER",
+    "adresse": "71 BOULEVARD DES CANUTS",
     "ville": "Lyon",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.859\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-09 15:55:00\", \"@valeur\": \"1.909\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-03-21 12:45:00\", \"@valeur\": \"1.089\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 15:40:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-10 15:40:00\", \"@valeur\": \"2.039\"}]",
     "geom": {
-      "lon": 4.83973,
-      "lat": 45.72602
+      "lon": 4.827,
+      "lat": 45.781
     },
-    "gazole_maj": "2023-11-17 00:01:00",
-    "gazole_prix": "1.769",
+    "gazole_maj": "2023-11-09 15:55:00",
+    "gazole_prix": "1.909",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-17 00:01:00",
-    "e10_prix": "1.794",
-    "sp98_maj": "2023-11-17 00:01:00",
-    "sp98_prix": "1.859",
+    "gplc_maj": "2023-03-21 12:45:00",
+    "gplc_prix": "1.089",
+    "e10_maj": "2023-11-10 15:40:00",
+    "e10_prix": "1.919",
+    "sp98_maj": "2023-11-10 15:40:00",
+    "sp98_prix": "2.039",
     "carburants_disponibles": [
       "Gazole",
+      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "GPLc"
+      "E85"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "Relais colis",
       "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Restauration à emporter",
       "Station de gonflage",
       "Carburant additivé",
       "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Rhône",
     "code_departement": "69",

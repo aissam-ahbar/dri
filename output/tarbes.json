@@ -106,6 +106,65 @@
     "code_region": "76"
   },
   {
+    "id": 65000007,
+    "latitude": "4322000",
+    "longitude": 8000,
+    "cp": "65000",
+    "pop": "R",
+    "adresse": "1 rue Jean Perrin",
+    "ville": "Tarbes",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Carburant additivé\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.798\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.048\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.793\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.884\"}]",
+    "geom": {
+      "lon": 0.08,
+      "lat": 43.22
+    },
+    "gazole_maj": "2023-11-17 01:17:00",
+    "gazole_prix": "1.768",
+    "sp95_maj": "2023-11-17 01:17:00",
+    "sp95_prix": "1.798",
+    "e85_maj": "2023-11-17 01:17:00",
+    "e85_prix": "1.048",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-17 01:17:00",
+    "e10_prix": "1.793",
+    "sp98_maj": "2023-11-17 01:17:00",
+    "sp98_prix": "1.884",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Bar",
+      "Vente de pétrole lampant",
+      "Carburant additivé",
+      "Espace bébé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Wifi",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Hautes-Pyrénées",
+    "code_departement": "65",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 65000004,
     "latitude": "4322300",
     "longitude": 5800,
@@ -240,65 +299,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Hautes-Pyrénées",
-    "code_departement": "65",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 65000007,
-    "latitude": "4322000",
-    "longitude": 8000,
-    "cp": "65000",
-    "pop": "R",
-    "adresse": "1 rue Jean Perrin",
-    "ville": "Tarbes",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Carburant additivé\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 08:50:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-16 08:50:00\", \"@valeur\": \"1.798\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 08:50:00\", \"@valeur\": \"1.048\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-16 08:50:00\", \"@valeur\": \"1.793\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-16 08:50:00\", \"@valeur\": \"1.884\"}]",
-    "geom": {
-      "lon": 0.08,
-      "lat": 43.22
-    },
-    "gazole_maj": "2023-11-16 08:50:00",
-    "gazole_prix": "1.768",
-    "sp95_maj": "2023-11-16 08:50:00",
-    "sp95_prix": "1.798",
-    "e85_maj": "2023-11-16 08:50:00",
-    "e85_prix": "1.048",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-16 08:50:00",
-    "e10_prix": "1.793",
-    "sp98_maj": "2023-11-16 08:50:00",
-    "sp98_prix": "1.884",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Bar",
-      "Vente de pétrole lampant",
-      "Carburant additivé",
-      "Espace bébé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Hautes-Pyrénées",
     "code_departement": "65",

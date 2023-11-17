@@ -1,5 +1,54 @@
 [
   {
+    "id": 49300014,
+    "latitude": "4705900",
+    "longitude": -89000,
+    "cp": "49300",
+    "pop": "R",
+    "adresse": "Avenue Francis Bouet",
+    "ville": "Cholet",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-15 12:40:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-09 15:55:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-09 15:55:00\", \"@valeur\": \"1.929\"}]",
+    "geom": {
+      "lon": -0.89,
+      "lat": 47.059
+    },
+    "gazole_maj": "2023-11-15 12:40:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-09 15:55:00",
+    "e10_prix": "1.829",
+    "sp98_maj": "2023-11-09 15:55:00",
+    "sp98_prix": "1.929",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Maine-et-Loire",
+    "code_departement": "49",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 49300016,
     "latitude": "4707185.51328",
     "longitude": -85676.8078224,
@@ -99,55 +148,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Wifi"
-    ],
-    "departement": "Maine-et-Loire",
-    "code_departement": "49",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 49300014,
-    "latitude": "4705900",
-    "longitude": -89000,
-    "cp": "49300",
-    "pop": "R",
-    "adresse": "Avenue Francis Bouet",
-    "ville": "Cholet",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-15 12:40:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-09 15:55:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-09 15:55:00\", \"@valeur\": \"1.929\"}]",
-    "geom": {
-      "lon": -0.89,
-      "lat": 47.059
-    },
-    "gazole_maj": "2023-11-15 12:40:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-09 15:55:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2023-11-09 15:55:00",
-    "sp98_prix": "1.929",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Automate CB 24/24"
     ],
     "departement": "Maine-et-Loire",
     "code_departement": "49",
@@ -368,12 +368,12 @@
     "ville": "Cholet",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 09:32:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-16 09:32:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-16 09:32:00\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 01:17:00\", \"@valeur\": \"1.829\"}]",
     "geom": {
       "lon": -0.85,
       "lat": 47.052
     },
-    "gazole_maj": "2023-11-16 09:32:00",
+    "gazole_maj": "2023-11-17 01:17:00",
     "gazole_prix": "1.739",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -381,9 +381,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-16 09:32:00",
+    "e10_maj": "2023-11-17 01:17:00",
     "e10_prix": "1.772",
-    "sp98_maj": "2023-11-16 09:32:00",
+    "sp98_maj": "2023-11-17 01:17:00",
     "sp98_prix": "1.829",
     "carburants_disponibles": [
       "Gazole",
