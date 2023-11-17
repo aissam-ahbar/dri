@@ -8,6 +8,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  schedule:
+    - cron: '0 1 * * *' # Runs every day at 1 AM UTC
   
 jobs:
   build:
@@ -20,3 +22,5 @@ jobs:
       run: echo "URI=${{ vars.URI }}" >> $GITHUB_ENV
     - name: Run script
       run: node index.js
+    - name: push
+      run: git add output && git commit -a -m "fetch" && git push 
