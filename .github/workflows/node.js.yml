@@ -22,12 +22,12 @@ jobs:
     - run : echo ${{ vars.URI }}
     - name: Set up Git
       run: |
-        git config --global user.name ${{ secrets.USERNAME }}
-        git config --global user.email ${{ secrets.EMAIL }}
+        git config --global user.name aissam-ahbar
+        git config --global user.email aissam.ahbar@gmail.com
           
     - name: Set environment variable
       run: echo "URI=${{ vars.URI }}" >> $GITHUB_ENV
     - name: Run script
       run: node index.js
     - name: push
-      run: git add output && git commit -a -m "fetch" && git push https://aissam-ahbar:${{secrets.TOKEN_DRI}}@github.com/aissam-ahbar/dri.git
+      run: git add output && git commit -a -m "fetch" && git push https://aissam-ahbar:${{secrets.TOKEN_DRI}}@github.com/aissam-ahbar/dri.git main
