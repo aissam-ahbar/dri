@@ -9,22 +9,22 @@
     "ville": "Auterive",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 00:01:00\", \"@valeur\": \"1.859\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.762\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.859\"}]",
     "geom": {
       "lon": 1.4697,
       "lat": 43.35226
     },
-    "gazole_maj": "2023-11-17 00:01:00",
-    "gazole_prix": "1.772",
+    "gazole_maj": "2023-11-18 00:01:00",
+    "gazole_prix": "1.762",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-17 00:01:00",
+    "e85_maj": "2023-11-18 00:01:00",
     "e85_prix": "0.994",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-17 00:01:00",
+    "e10_maj": "2023-11-18 00:01:00",
     "e10_prix": "1.784",
-    "sp98_maj": "2023-11-17 00:01:00",
+    "sp98_maj": "2023-11-18 00:01:00",
     "sp98_prix": "1.859",
     "carburants_disponibles": [
       "Gazole",
@@ -38,53 +38,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 31190002,
-    "latitude": "4334838.13042",
-    "longitude": 147203.766924,
-    "cp": "31190",
-    "pop": "R",
-    "adresse": "RN20",
-    "ville": "Auterive",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 07:24:27\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-10 05:46:04\", \"@valeur\": \"1.850\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 05:46:04\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-10 05:46:05\", \"@valeur\": \"1.855\"}]",
-    "geom": {
-      "lon": 1.47203766924,
-      "lat": 43.348381304200004
-    },
-    "gazole_maj": "2023-11-16 07:24:27",
-    "gazole_prix": "1.769",
-    "sp95_maj": "2023-11-10 05:46:04",
-    "sp95_prix": "1.850",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-10 05:46:04",
-    "e10_prix": "1.780",
-    "sp98_maj": "2023-11-10 05:46:05",
-    "sp98_prix": "1.855",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
     "departement": "Haute-Garonne",
     "code_departement": "31",
     "region": "Occitanie",
@@ -134,6 +87,53 @@
       "Location de véhicule",
       "Piste poids lourds",
       "Lavage automatique",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 31190002,
+    "latitude": "4334838.13042",
+    "longitude": 147203.766924,
+    "cp": "31190",
+    "pop": "R",
+    "adresse": "RN20",
+    "ville": "Auterive",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 07:24:27\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-10 05:46:04\", \"@valeur\": \"1.850\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 05:46:04\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-10 05:46:05\", \"@valeur\": \"1.855\"}]",
+    "geom": {
+      "lon": 1.47203766924,
+      "lat": 43.348381304200004
+    },
+    "gazole_maj": "2023-11-16 07:24:27",
+    "gazole_prix": "1.769",
+    "sp95_maj": "2023-11-10 05:46:04",
+    "sp95_prix": "1.850",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-10 05:46:04",
+    "e10_prix": "1.780",
+    "sp98_maj": "2023-11-10 05:46:05",
+    "sp98_prix": "1.855",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Garonne",

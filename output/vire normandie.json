@@ -40,53 +40,49 @@
     "code_region": "28"
   },
   {
-    "id": 14500001,
-    "latitude": "4885800",
-    "longitude": -89300,
+    "id": 14500008,
+    "latitude": "4884670",
+    "longitude": -88722,
     "cp": "14500",
     "pop": "R",
-    "adresse": "RTE DE CAEN",
+    "adresse": "Rue Colbert",
     "ville": "Vire Normandie",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 07:39:08\", \"@valeur\": \"1.882\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-17 07:39:08\", \"@valeur\": \"0.880\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 07:39:08\", \"@valeur\": \"1.888\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 07:39:09\", \"@valeur\": \"1.990\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-07 09:45:07\", \"@valeur\": \"1.889\"}",
     "geom": {
-      "lon": -0.893,
-      "lat": 48.858
+      "lon": -0.88722,
+      "lat": 48.8467
     },
-    "gazole_maj": "2023-11-17 07:39:08",
-    "gazole_prix": "1.882",
+    "gazole_maj": "2023-11-07 09:45:07",
+    "gazole_prix": "1.889",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2023-11-17 07:39:08",
-    "gplc_prix": "0.880",
-    "e10_maj": "2023-11-17 07:39:08",
-    "e10_prix": "1.888",
-    "sp98_maj": "2023-11-17 07:39:09",
-    "sp98_prix": "1.990",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole",
+      "Gazole"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Automate CB 24/24",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Calvados",
@@ -147,6 +143,61 @@
     "code_region": "28"
   },
   {
+    "id": 14500001,
+    "latitude": "4885800",
+    "longitude": -89300,
+    "cp": "14500",
+    "pop": "R",
+    "adresse": "RTE DE CAEN",
+    "ville": "Vire Normandie",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 07:39:08\", \"@valeur\": \"1.882\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-17 07:39:08\", \"@valeur\": \"0.880\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 07:39:08\", \"@valeur\": \"1.888\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 07:39:09\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": -0.893,
+      "lat": 48.858
+    },
+    "gazole_maj": "2023-11-17 07:39:08",
+    "gazole_prix": "1.882",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-11-17 07:39:08",
+    "gplc_prix": "0.880",
+    "e10_maj": "2023-11-17 07:39:08",
+    "e10_prix": "1.888",
+    "sp98_maj": "2023-11-17 07:39:09",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Calvados",
+    "code_departement": "14",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 14500003,
     "latitude": "4884700",
     "longitude": -88700,
@@ -187,57 +238,6 @@
     "services_service": [
       "Station de gonflage",
       "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Calvados",
-    "code_departement": "14",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 14500008,
-    "latitude": "4884670",
-    "longitude": -88722,
-    "cp": "14500",
-    "pop": "R",
-    "adresse": "Rue Colbert",
-    "ville": "Vire Normandie",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-07 09:45:07\", \"@valeur\": \"1.889\"}",
-    "geom": {
-      "lon": -0.88722,
-      "lat": 48.8467
-    },
-    "gazole_maj": "2023-11-07 09:45:07",
-    "gazole_prix": "1.889",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
