@@ -1,5 +1,53 @@
 [
   {
+    "id": 33402001,
+    "latitude": "4479956",
+    "longitude": -58415,
+    "cp": "33400",
+    "pop": "R",
+    "adresse": "Rue Pacaris BP 109",
+    "ville": "Talence",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 09:22:27\", \"@valeur\": \"1.738\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-18 09:22:27\", \"@valeur\": \"1.748\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 09:22:28\", \"@valeur\": \"1.709\"}]",
+    "geom": {
+      "lon": -0.58415,
+      "lat": 44.79956
+    },
+    "gazole_maj": "2023-11-18 09:22:27",
+    "gazole_prix": "1.738",
+    "sp95_maj": "2023-11-18 09:22:27",
+    "sp95_prix": "1.748",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-18 09:22:28",
+    "e10_prix": "1.709",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 33400008,
     "latitude": "4481000",
     "longitude": -57400,
@@ -42,54 +90,6 @@
       "Station de gonflage",
       "Carburant additivé",
       "Automate CB 24/24"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 33402001,
-    "latitude": "4479956",
-    "longitude": -58415,
-    "cp": "33400",
-    "pop": "R",
-    "adresse": "Rue Pacaris BP 109",
-    "ville": "Talence",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 09:53:07\", \"@valeur\": \"1.738\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 09:53:07\", \"@valeur\": \"1.772\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:53:07\", \"@valeur\": \"1.739\"}]",
-    "geom": {
-      "lon": -0.58415,
-      "lat": 44.79956
-    },
-    "gazole_maj": "2023-11-17 09:53:07",
-    "gazole_prix": "1.738",
-    "sp95_maj": "2023-11-17 09:53:07",
-    "sp95_prix": "1.772",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-17 09:53:07",
-    "e10_prix": "1.739",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Gironde",
     "code_departement": "33",
@@ -159,23 +159,23 @@
     "ville": "Talence",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"22.00\"}}]}",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 07:09:42\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 07:09:42\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 07:09:42\", \"@valeur\": \"1.929\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 08:01:54\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 08:01:55\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 08:01:55\", \"@valeur\": \"1.919\"}]",
     "geom": {
       "lon": -0.591,
       "lat": 44.807
     },
-    "gazole_maj": "2023-11-17 07:09:42",
-    "gazole_prix": "1.809",
+    "gazole_maj": "2023-11-18 08:01:54",
+    "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-17 07:09:42",
-    "e10_prix": "1.819",
-    "sp98_maj": "2023-11-17 07:09:42",
-    "sp98_prix": "1.929",
+    "e10_maj": "2023-11-18 08:01:55",
+    "e10_prix": "1.799",
+    "sp98_maj": "2023-11-18 08:01:55",
+    "sp98_prix": "1.919",
     "carburants_disponibles": [
       "Gazole",
       "E10",

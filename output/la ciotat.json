@@ -62,12 +62,12 @@
     "ville": "La Ciotat",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.853\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-19 00:01:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-19 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-19 00:01:00\", \"@valeur\": \"1.853\"}]",
     "geom": {
       "lon": 5.63252,
       "lat": 43.18899
     },
-    "gazole_maj": "2023-11-18 00:01:00",
+    "gazole_maj": "2023-11-19 00:01:00",
     "gazole_prix": "1.754",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -75,9 +75,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-18 00:01:00",
+    "e10_maj": "2023-11-19 00:01:00",
     "e10_prix": "1.779",
-    "sp98_maj": "2023-11-18 00:01:00",
+    "sp98_maj": "2023-11-19 00:01:00",
     "sp98_prix": "1.853",
     "carburants_disponibles": [
       "Gazole",
@@ -221,6 +221,53 @@
     "code_region": "93"
   },
   {
+    "id": 13600014,
+    "latitude": "4319048.6495313",
+    "longitude": 560222.89543933,
+    "cp": "13600",
+    "pop": "R",
+    "adresse": "Lieu-dit Pignet de Rohan",
+    "ville": "La Ciotat",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 07:35:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-14 05:55:25\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 07:35:00\", \"@valeur\": \"1.839\"}]",
+    "geom": {
+      "lon": 5.602228954393301,
+      "lat": 43.190486495313
+    },
+    "gazole_maj": "2023-11-18 07:35:00",
+    "gazole_prix": "1.829",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-14 05:55:25",
+    "e85_prix": "0.989",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-18 07:35:00",
+    "e10_prix": "1.839",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13600005,
     "latitude": "4318800",
     "longitude": 560200,
@@ -324,53 +371,6 @@
       "Bornes électriques",
       "Vente d'additifs carburants",
       "Wifi",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13600014,
-    "latitude": "4319048.6495313",
-    "longitude": 560222.89543933,
-    "cp": "13600",
-    "pop": "R",
-    "adresse": "Lieu-dit Pignet de Rohan",
-    "ville": "La Ciotat",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 07:49:04\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-14 05:55:25\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 07:49:04\", \"@valeur\": \"1.849\"}]",
-    "geom": {
-      "lon": 5.602228954393301,
-      "lat": 43.190486495313
-    },
-    "gazole_maj": "2023-11-17 07:49:04",
-    "gazole_prix": "1.849",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-14 05:55:25",
-    "e85_prix": "0.989",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-17 07:49:04",
-    "e10_prix": "1.849",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
