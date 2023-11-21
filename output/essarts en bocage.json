@@ -1,5 +1,58 @@
 [
   {
+    "id": 85140001,
+    "latitude": "4676500",
+    "longitude": -123500,
+    "cp": "85140",
+    "pop": "R",
+    "adresse": "CC  LES CHARMETTES",
+    "ville": "Essarts en Bocage",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 08:58:59\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-20 08:58:59\", \"@valeur\": \"0.954\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 08:58:59\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 08:58:59\", \"@valeur\": \"1.815\"}]",
+    "geom": {
+      "lon": -1.235,
+      "lat": 46.765
+    },
+    "gazole_maj": "2023-11-20 08:58:59",
+    "gazole_prix": "1.739",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-20 08:58:59",
+    "e85_prix": "0.954",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-20 08:58:59",
+    "e10_prix": "1.735",
+    "sp98_maj": "2023-11-20 08:58:59",
+    "sp98_prix": "1.815",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vendée",
+    "code_departement": "85",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 85140004,
     "latitude": "4680300",
     "longitude": -113200,
@@ -9,22 +62,22 @@
     "ville": "Essarts en Bocage",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 00:01:00\", \"@valeur\": \"1.946\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 00:01:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-21 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 00:01:00\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 00:01:00\", \"@valeur\": \"1.946\"}]",
     "geom": {
       "lon": -1.132,
       "lat": 46.803
     },
-    "gazole_maj": "2023-11-18 00:01:00",
+    "gazole_maj": "2023-11-21 00:01:00",
     "gazole_prix": "1.829",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-18 00:01:00",
+    "e85_maj": "2023-11-21 00:01:00",
     "e85_prix": "0.994",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-18 00:01:00",
+    "e10_maj": "2023-11-21 00:01:00",
     "e10_prix": "1.836",
-    "sp98_maj": "2023-11-18 00:01:00",
+    "sp98_maj": "2023-11-21 00:01:00",
     "sp98_prix": "1.946",
     "carburants_disponibles": [
       "Gazole",
@@ -49,59 +102,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
-    ],
-    "departement": "Vendée",
-    "code_departement": "85",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 85140001,
-    "latitude": "4676500",
-    "longitude": -123500,
-    "cp": "85140",
-    "pop": "R",
-    "adresse": "CC  LES CHARMETTES",
-    "ville": "Essarts en Bocage",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 09:18:15\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 09:05:14\", \"@valeur\": \"0.954\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-16 09:05:14\", \"@valeur\": \"1.757\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 09:18:16\", \"@valeur\": \"1.835\"}]",
-    "geom": {
-      "lon": -1.235,
-      "lat": 46.765
-    },
-    "gazole_maj": "2023-11-17 09:18:15",
-    "gazole_prix": "1.739",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-16 09:05:14",
-    "e85_prix": "0.954",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-16 09:05:14",
-    "e10_prix": "1.757",
-    "sp98_maj": "2023-11-17 09:18:16",
-    "sp98_prix": "1.835",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vendée",
     "code_departement": "85",

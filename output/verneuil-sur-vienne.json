@@ -1,58 +1,5 @@
 [
   {
-    "id": 87430001,
-    "latitude": "4584676.1971122",
-    "longitude": 117201.2858808,
-    "cp": "87430",
-    "pop": "R",
-    "adresse": "RN141",
-    "ville": "Verneuil-sur-Vienne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 06:59:56\", \"@valeur\": \"1.972\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 06:59:56\", \"@valeur\": \"1.081\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 06:59:56\", \"@valeur\": \"1.906\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 06:59:56\", \"@valeur\": \"1.987\"}]",
-    "geom": {
-      "lon": 1.172012858808,
-      "lat": 45.846761971122
-    },
-    "gazole_maj": "2023-11-17 06:59:56",
-    "gazole_prix": "1.972",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-17 06:59:56",
-    "e85_prix": "1.081",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-17 06:59:56",
-    "e10_prix": "1.906",
-    "sp98_maj": "2023-11-17 06:59:56",
-    "sp98_prix": "1.987",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Haute-Vienne",
-    "code_departement": "87",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 87430003,
     "latitude": "4585575.5905985",
     "longitude": 114585.57262421,
@@ -98,6 +45,59 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Vienne",
+    "code_departement": "87",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 87430001,
+    "latitude": "4584676.1971122",
+    "longitude": 117201.2858808,
+    "cp": "87430",
+    "pop": "R",
+    "adresse": "RN141",
+    "ville": "Verneuil-sur-Vienne",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 09:08:14\", \"@valeur\": \"1.945\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-20 09:08:14\", \"@valeur\": \"1.044\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 09:08:14\", \"@valeur\": \"1.871\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 09:08:14\", \"@valeur\": \"1.951\"}]",
+    "geom": {
+      "lon": 1.172012858808,
+      "lat": 45.846761971122
+    },
+    "gazole_maj": "2023-11-20 09:08:14",
+    "gazole_prix": "1.945",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-20 09:08:14",
+    "e85_prix": "1.044",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-20 09:08:14",
+    "e10_prix": "1.871",
+    "sp98_maj": "2023-11-20 09:08:14",
+    "sp98_prix": "1.951",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Haute-Vienne",
     "code_departement": "87",

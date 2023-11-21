@@ -1,45 +1,51 @@
 [
   {
-    "id": 32100002,
-    "latitude": "4395976",
-    "longitude": 37835,
+    "id": 32100003,
+    "latitude": "4396500",
+    "longitude": 36700,
     "cp": "32100",
     "pop": "R",
-    "adresse": "rue Bonnemaison",
+    "adresse": "lieu dit hontaut",
     "ville": "Condom",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 08:30:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 08:30:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 08:30:00\", \"@valeur\": \"1.789\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 16:25:23\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:25:31\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 08:37:16\", \"@valeur\": \"1.941\"}]",
     "geom": {
-      "lon": 0.37835,
-      "lat": 43.95976
+      "lon": 0.367,
+      "lat": 43.965
     },
-    "gazole_maj": "2023-11-17 08:30:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": "2023-11-17 08:30:00",
-    "sp95_prix": "1.809",
+    "gazole_maj": "2023-11-20 16:25:23",
+    "gazole_prix": "1.789",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-17 08:30:00",
+    "e10_maj": "2023-11-17 09:25:31",
     "e10_prix": "1.789",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2023-11-20 08:37:16",
+    "sp98_prix": "1.941",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Toilettes publiques",
+      "Laverie",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Gers",
     "code_departement": "32",
@@ -103,52 +109,46 @@
     "code_region": "76"
   },
   {
-    "id": 32100003,
-    "latitude": "4396500",
-    "longitude": 36700,
+    "id": 32100002,
+    "latitude": "4395976",
+    "longitude": 37835,
     "cp": "32100",
     "pop": "R",
-    "adresse": "lieu dit hontaut",
+    "adresse": "rue Bonnemaison",
     "ville": "Condom",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 09:25:31\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:25:31\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-11 09:11:12\", \"@valeur\": \"1.950\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 14:45:41\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 08:30:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 08:30:00\", \"@valeur\": \"1.789\"}]",
     "geom": {
-      "lon": 0.367,
-      "lat": 43.965
+      "lon": 0.37835,
+      "lat": 43.95976
     },
-    "gazole_maj": "2023-11-17 09:25:31",
-    "gazole_prix": "1.799",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2023-11-20 14:45:41",
+    "gazole_prix": "1.769",
+    "sp95_maj": "2023-11-17 08:30:00",
+    "sp95_prix": "1.809",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-17 09:25:31",
+    "e10_maj": "2023-11-17 08:30:00",
     "e10_prix": "1.789",
-    "sp98_maj": "2023-11-11 09:11:12",
-    "sp98_prix": "1.950",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "SP95",
+      "E10"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Gers",
     "code_departement": "32",

@@ -52,6 +52,53 @@
     "code_region": "28"
   },
   {
+    "id": 61200007,
+    "latitude": "4873700",
+    "longitude": -3100,
+    "cp": "61200",
+    "pop": "R",
+    "adresse": "Avenue de la 2ème D.B.",
+    "ville": "Argentan",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 09:21:13\", \"@valeur\": \"1.764\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 09:21:13\", \"@valeur\": \"1.794\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 09:33:50\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 09:21:14\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 09:21:14\", \"@valeur\": \"1.816\"}]",
+    "geom": {
+      "lon": -0.031,
+      "lat": 48.737
+    },
+    "gazole_maj": "2023-11-20 09:21:13",
+    "gazole_prix": "1.764",
+    "sp95_maj": "2023-11-20 09:21:13",
+    "sp95_prix": "1.794",
+    "e85_maj": "2023-11-16 09:33:50",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-20 09:21:14",
+    "e10_prix": "1.774",
+    "sp98_maj": "2023-11-20 09:21:14",
+    "sp98_prix": "1.816",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Orne",
+    "code_departement": "61",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 61200006,
     "latitude": "4875200",
     "longitude": -1300,
@@ -61,23 +108,23 @@
     "ville": "Argentan",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 08:58:10\", \"@valeur\": \"1.722\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 08:58:10\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 08:58:10\", \"@valeur\": \"1.783\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 09:00:00\", \"@valeur\": \"1.757\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 09:00:00\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 09:00:00\", \"@valeur\": \"1.844\"}]",
     "geom": {
       "lon": -0.013,
       "lat": 48.752
     },
-    "gazole_maj": "2023-11-17 08:58:10",
-    "gazole_prix": "1.722",
-    "sp95_maj": "2023-11-17 08:58:10",
-    "sp95_prix": "1.754",
+    "gazole_maj": "2023-11-20 09:00:00",
+    "gazole_prix": "1.757",
+    "sp95_maj": "2023-11-20 09:00:00",
+    "sp95_prix": "1.790",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2023-11-17 08:58:10",
-    "sp98_prix": "1.783",
+    "sp98_maj": "2023-11-20 09:00:00",
+    "sp98_prix": "1.844",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -102,53 +149,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Orne",
-    "code_departement": "61",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 61200007,
-    "latitude": "4873700",
-    "longitude": -3100,
-    "cp": "61200",
-    "pop": "R",
-    "adresse": "Avenue de la 2ème D.B.",
-    "ville": "Argentan",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 09:14:11\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 09:14:17\", \"@valeur\": \"1.822\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 09:33:50\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:14:22\", \"@valeur\": \"1.802\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 09:14:28\", \"@valeur\": \"1.845\"}]",
-    "geom": {
-      "lon": -0.031,
-      "lat": 48.737
-    },
-    "gazole_maj": "2023-11-17 09:14:11",
-    "gazole_prix": "1.774",
-    "sp95_maj": "2023-11-17 09:14:17",
-    "sp95_prix": "1.822",
-    "e85_maj": "2023-11-16 09:33:50",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-17 09:14:22",
-    "e10_prix": "1.802",
-    "sp98_maj": "2023-11-17 09:14:28",
-    "sp98_prix": "1.845",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Orne",
