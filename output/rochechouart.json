@@ -1,57 +1,5 @@
 [
   {
-    "id": 87600003,
-    "latitude": "4583500",
-    "longitude": 83700,
-    "cp": "87600",
-    "pop": "R",
-    "adresse": "8 RUE FRANCOIS MITTERRAND",
-    "ville": "Rochechouart",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Bornes électriques\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-14 07:09:41\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 07:09:41\", \"@valeur\": \"1.960\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-14 07:09:41\", \"@valeur\": \"1.980\"}]",
-    "geom": {
-      "lon": 0.837,
-      "lat": 45.835
-    },
-    "gazole_maj": "2023-11-14 07:09:41",
-    "gazole_prix": "1.940",
-    "sp95_maj": "2023-11-14 07:09:41",
-    "sp95_prix": "1.960",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-14 07:09:41",
-    "sp98_prix": "1.980",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Bornes électriques",
-      "Vente d'additifs carburants"
-    ],
-    "departement": "Haute-Vienne",
-    "code_departement": "87",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 87600004,
     "latitude": "4583272.8746586",
     "longitude": 83143.151685127,
@@ -91,6 +39,58 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"
+    ],
+    "departement": "Haute-Vienne",
+    "code_departement": "87",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 87600003,
+    "latitude": "4583500",
+    "longitude": 83700,
+    "cp": "87600",
+    "pop": "R",
+    "adresse": "8 RUE FRANCOIS MITTERRAND",
+    "ville": "Rochechouart",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Bornes électriques\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 07:24:21\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-21 07:24:22\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 07:24:22\", \"@valeur\": \"1.930\"}]",
+    "geom": {
+      "lon": 0.837,
+      "lat": 45.835
+    },
+    "gazole_maj": "2023-11-21 07:24:21",
+    "gazole_prix": "1.930",
+    "sp95_maj": "2023-11-21 07:24:22",
+    "sp95_prix": "1.920",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-21 07:24:22",
+    "sp98_prix": "1.930",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Bornes électriques",
+      "Vente d'additifs carburants"
     ],
     "departement": "Haute-Vienne",
     "code_departement": "87",

@@ -56,7 +56,7 @@
     "ville": "Crépy-en-Valois",
     "horaires": null,
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 16:38:21\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 16:38:22\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-20 16:38:22\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 16:38:22\", \"@valeur\": \"1.853\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 16:38:22\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 16:38:21\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 16:38:22\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-20 16:38:22\", \"@valeur\": \"0.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 16:38:22\", \"@valeur\": \"1.889\"}]",
     "geom": {
       "lon": 2.9054913758613,
       "lat": 49.224659428094
@@ -69,19 +69,19 @@
     "e85_prix": "0.959",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-20 16:38:22",
-    "e10_prix": "1.853",
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2023-11-20 16:38:22",
     "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

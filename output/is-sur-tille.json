@@ -47,6 +47,53 @@
     "code_region": "27"
   },
   {
+    "id": 21120005,
+    "latitude": "4753000",
+    "longitude": 511500,
+    "cp": "21120",
+    "pop": "R",
+    "adresse": "20 rue François Mitterand",
+    "ville": "Is-sur-Tille",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 08:48:03\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-02 09:02:01\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 09:34:17\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 09:34:18\", \"@valeur\": \"1.830\"}]",
+    "geom": {
+      "lon": 5.115,
+      "lat": 47.53
+    },
+    "gazole_maj": "2023-11-20 08:48:03",
+    "gazole_prix": "1.760",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-02 09:02:01",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-21 09:34:17",
+    "e10_prix": "1.769",
+    "sp98_maj": "2023-11-21 09:34:18",
+    "sp98_prix": "1.830",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 21120003,
     "latitude": "4752800",
     "longitude": 511300,
@@ -56,16 +103,16 @@
     "ville": "Is-sur-Tille",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Services réparation / entretien\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-10 08:03:58\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-10 08:03:59\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-14 08:09:54\", \"@valeur\": \"1.050\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 07:43:45\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-21 07:43:46\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-21 07:43:46\", \"@valeur\": \"1.050\"}]",
     "geom": {
       "lon": 5.113,
       "lat": 47.528
     },
-    "gazole_maj": "2023-11-10 08:03:58",
-    "gazole_prix": "1.860",
-    "sp95_maj": "2023-11-10 08:03:59",
+    "gazole_maj": "2023-11-21 07:43:45",
+    "gazole_prix": "1.820",
+    "sp95_maj": "2023-11-21 07:43:46",
     "sp95_prix": "1.860",
-    "e85_maj": "2023-11-14 08:09:54",
+    "e85_maj": "2023-11-21 07:43:46",
     "e85_prix": "1.050",
     "gplc_maj": null,
     "gplc_prix": null,
@@ -90,53 +137,6 @@
       "Location de véhicule",
       "Services réparation / entretien",
       "Automate CB 24/24"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21120005,
-    "latitude": "4753000",
-    "longitude": 511500,
-    "cp": "21120",
-    "pop": "R",
-    "adresse": "20 rue François Mitterand",
-    "ville": "Is-sur-Tille",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}]}",
-    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 08:48:03\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-02 09:02:01\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 08:48:03\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 08:48:03\", \"@valeur\": \"1.845\"}]",
-    "geom": {
-      "lon": 5.115,
-      "lat": 47.53
-    },
-    "gazole_maj": "2023-11-20 08:48:03",
-    "gazole_prix": "1.760",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-02 09:02:01",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-20 08:48:03",
-    "e10_prix": "1.759",
-    "sp98_maj": "2023-11-20 08:48:03",
-    "sp98_prix": "1.845",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Côte-d'Or",
     "code_departement": "21",
