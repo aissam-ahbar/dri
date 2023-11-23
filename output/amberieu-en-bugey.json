@@ -49,6 +49,58 @@
     "code_region": "84"
   },
   {
+    "id": 1500007,
+    "latitude": "4597200",
+    "longitude": 533800,
+    "cp": "01500",
+    "pop": "R",
+    "adresse": "CENTRE COMMERCIAL DE L'AVIATIONRAIS",
+    "ville": "Ambérieu-en-Bugey",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 10:00:26\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 08:13:07\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-26 16:23:30\", \"@valeur\": \"1.047\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 09:48:14\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:48:14\", \"@valeur\": \"1.864\"}]",
+    "geom": {
+      "lon": 5.338,
+      "lat": 45.972
+    },
+    "gazole_maj": "2023-11-20 10:00:26",
+    "gazole_prix": "1.754",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-03 08:13:07",
+    "e85_prix": "0.959",
+    "gplc_maj": "2023-10-26 16:23:30",
+    "gplc_prix": "1.047",
+    "e10_maj": "2023-11-22 09:48:14",
+    "e10_prix": "1.794",
+    "sp98_maj": "2023-11-22 09:48:14",
+    "sp98_prix": "1.864",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Vente de pétrole lampant",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 1500001,
     "latitude": "4596243.9754254",
     "longitude": 535907.07856714,
@@ -144,58 +196,6 @@
       "Lavage automatique",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 1500007,
-    "latitude": "4597200",
-    "longitude": 533800,
-    "cp": "01500",
-    "pop": "R",
-    "adresse": "CENTRE COMMERCIAL DE L'AVIATIONRAIS",
-    "ville": "Ambérieu-en-Bugey",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 10:00:26\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 08:13:07\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-26 16:23:30\", \"@valeur\": \"1.047\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 10:00:27\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 10:00:27\", \"@valeur\": \"1.854\"}]",
-    "geom": {
-      "lon": 5.338,
-      "lat": 45.972
-    },
-    "gazole_maj": "2023-11-20 10:00:26",
-    "gazole_prix": "1.754",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-03 08:13:07",
-    "e85_prix": "0.959",
-    "gplc_maj": "2023-10-26 16:23:30",
-    "gplc_prix": "1.047",
-    "e10_maj": "2023-11-20 10:00:27",
-    "e10_prix": "1.784",
-    "sp98_maj": "2023-11-20 10:00:27",
-    "sp98_prix": "1.854",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Vente de pétrole lampant",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Ain",
