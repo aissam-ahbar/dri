@@ -1,5 +1,54 @@
 [
   {
+    "id": 20250009,
+    "latitude": "4230122.61",
+    "longitude": 915054.31,
+    "cp": "20250",
+    "pop": "R",
+    "adresse": "10 faubourg saint Antoine",
+    "ville": "Corte",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-07-26 08:11:19\", \"@valeur\": \"1.870\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-07-26 08:11:20\", \"@valeur\": \"2.000\"}]",
+    "geom": {
+      "lon": 9.1505431,
+      "lat": 42.3012261
+    },
+    "gazole_maj": "2023-07-26T10:11:19+02:00",
+    "gazole_prix": "1.870",
+    "sp95_maj": "2023-07-26T10:11:20+02:00",
+    "sp95_prix": "2.000",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Wifi"
+    ],
+    "departement": "Haute-Corse",
+    "code_departement": "2B",
+    "region": "Corse",
+    "code_region": "94"
+  },
+  {
     "id": 20250002,
     "latitude": "4231350.70462",
     "longitude": 915173.144133,
@@ -14,9 +63,9 @@
       "lon": 9.15173144133,
       "lat": 42.3135070462
     },
-    "gazole_maj": "2023-11-16 14:22:27",
+    "gazole_maj": "2023-11-16T15:22:27+01:00",
     "gazole_prix": "1.940",
-    "sp95_maj": "2023-11-16 14:23:05",
+    "sp95_maj": "2023-11-16T15:23:05+01:00",
     "sp95_prix": "1.950",
     "e85_maj": null,
     "e85_prix": null,
@@ -54,61 +103,6 @@
     "code_region": "94"
   },
   {
-    "id": 20250003,
-    "latitude": "4231700",
-    "longitude": 915900,
-    "cp": "20250",
-    "pop": "R",
-    "adresse": "RN 193 - lieu dit Pentone",
-    "ville": "Corte",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-19 10:50:00\", \"@valeur\": \"1.950\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 17:34:54\", \"@valeur\": \"1.950\"}]",
-    "geom": {
-      "lon": 9.159,
-      "lat": 42.317
-    },
-    "gazole_maj": "2023-11-19 10:50:00",
-    "gazole_prix": "1.950",
-    "sp95_maj": "2023-11-14 17:34:54",
-    "sp95_prix": "1.950",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Bar",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Corse",
-    "code_departement": "2B",
-    "region": "Corse",
-    "code_region": "94"
-  },
-  {
     "id": 20250001,
     "latitude": "4230179.0177065",
     "longitude": 915751.78955876,
@@ -123,13 +117,13 @@
       "lon": 9.1575178955876,
       "lat": 42.301790177065
     },
-    "gazole_maj": "2023-11-19 11:42:29",
+    "gazole_maj": "2023-11-19T12:42:29+01:00",
     "gazole_prix": "1.950",
-    "sp95_maj": "2023-11-19 11:42:38",
+    "sp95_maj": "2023-11-19T12:42:38+01:00",
     "sp95_prix": "1.950",
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2022-06-30 10:02:29",
+    "gplc_maj": "2022-06-30T12:02:29+02:00",
     "gplc_prix": "1.250",
     "e10_maj": null,
     "e10_prix": null,
@@ -165,24 +159,24 @@
     "code_region": "94"
   },
   {
-    "id": 20250009,
-    "latitude": "4230122.61",
-    "longitude": 915054.31,
+    "id": 20250003,
+    "latitude": "4231700",
+    "longitude": 915900,
     "cp": "20250",
     "pop": "R",
-    "adresse": "10 faubourg saint Antoine",
+    "adresse": "RN 193 - lieu dit Pentone",
     "ville": "Corte",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-07-26 08:11:19\", \"@valeur\": \"1.870\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-07-26 08:11:20\", \"@valeur\": \"2.000\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-19 10:50:00\", \"@valeur\": \"1.950\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 17:34:54\", \"@valeur\": \"1.950\"}]",
     "geom": {
-      "lon": 9.1505431,
-      "lat": 42.3012261
+      "lon": 9.159,
+      "lat": 42.317
     },
-    "gazole_maj": "2023-07-26 08:11:19",
-    "gazole_prix": "1.870",
-    "sp95_maj": "2023-07-26 08:11:20",
-    "sp95_prix": "2.000",
+    "gazole_maj": "2023-11-19T11:50:00+01:00",
+    "gazole_prix": "1.950",
+    "sp95_maj": "2023-11-14T18:34:54+01:00",
+    "sp95_prix": "1.950",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -203,10 +197,16 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Boutique alimentaire",
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Bar",
+      "Vente de fioul domestique",
       "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
-      "Wifi"
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Corse",
     "code_departement": "2B",

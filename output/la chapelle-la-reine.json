@@ -1,51 +1,5 @@
 [
   {
-    "id": 77760001,
-    "latitude": "4832400",
-    "longitude": 257700,
-    "cp": "77760",
-    "pop": "R",
-    "adresse": "Rue de l'Avenir",
-    "ville": "La Chapelle-la-Reine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:40:28\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 09:40:28\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:40:29\", \"@valeur\": \"1.969\"}]",
-    "geom": {
-      "lon": 2.577,
-      "lat": 48.324
-    },
-    "gazole_maj": "2023-11-22 09:40:28",
-    "gazole_prix": "1.849",
-    "sp95_maj": "2023-11-22 09:40:28",
-    "sp95_prix": "1.899",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-22 09:40:29",
-    "sp98_prix": "1.969",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 77760002,
     "latitude": "4832000",
     "longitude": 257500,
@@ -60,9 +14,9 @@
       "lon": 2.575,
       "lat": 48.32
     },
-    "gazole_maj": "2023-11-17 18:20:07",
+    "gazole_maj": "2023-11-17T19:20:07+01:00",
     "gazole_prix": "1.914",
-    "sp95_maj": "2023-11-17 18:20:08",
+    "sp95_maj": "2023-11-17T19:20:08+01:00",
     "sp95_prix": "1.925",
     "e85_maj": null,
     "e85_prix": null,
@@ -92,6 +46,52 @@
       "Lavage automatique",
       "Services réparation / entretien",
       "Wifi"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 77760001,
+    "latitude": "4832400",
+    "longitude": 257700,
+    "cp": "77760",
+    "pop": "R",
+    "adresse": "Rue de l'Avenir",
+    "ville": "La Chapelle-la-Reine",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:40:28\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 09:40:28\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:40:29\", \"@valeur\": \"1.969\"}]",
+    "geom": {
+      "lon": 2.577,
+      "lat": 48.324
+    },
+    "gazole_maj": "2023-11-22T10:40:28+01:00",
+    "gazole_prix": "1.849",
+    "sp95_maj": "2023-11-22T10:40:28+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-22T10:40:29+01:00",
+    "sp98_prix": "1.969",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
     ],
     "departement": "Seine-et-Marne",
     "code_departement": "77",

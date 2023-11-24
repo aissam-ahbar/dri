@@ -1,103 +1,50 @@
 [
   {
-    "id": 10120001,
-    "latitude": "4824100",
-    "longitude": 402200,
+    "id": 10120004,
+    "latitude": "4826151.9408403",
+    "longitude": 403420.37717194,
     "cp": "10120",
     "pop": "R",
-    "adresse": "184 Route Nationale 77 - Chevillele",
+    "adresse": "150 RUE DE TROYES",
     "ville": "Saint-Germain",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 23:31:00\", \"@valeur\": \"1.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 23:31:00\", \"@valeur\": \"1.885\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 23:31:00\", \"@valeur\": \"1.990\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 08:07:50\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-21 08:07:50\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 08:07:51\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 08:07:51\", \"@valeur\": \"1.859\"}]",
     "geom": {
-      "lon": 4.022,
-      "lat": 48.241
+      "lon": 4.0342037717194,
+      "lat": 48.261519408403004
     },
-    "gazole_maj": "2023-11-20 23:31:00",
-    "gazole_prix": "1.890",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2023-11-21T09:07:50+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2023-11-21T09:07:50+01:00",
+    "sp95_prix": "1.849",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-20 23:31:00",
-    "e10_prix": "1.885",
-    "sp98_maj": "2023-11-20 23:31:00",
-    "sp98_prix": "1.990",
+    "e10_maj": "2023-11-21T09:07:51+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2023-11-21T09:07:51+01:00",
+    "sp98_prix": "1.859",
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
       "Piste poids lourds",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi"
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aube",
     "code_departement": "10",
     "region": "Grand Est",
     "code_region": "44"
-  },
-  {
-    "id": 86310003,
-    "latitude": "4656370.6917392",
-    "longitude": 87017.519193499,
-    "cp": "86310",
-    "pop": "R",
-    "adresse": "12 AVENUE DE L'EUROPE",
-    "ville": "Saint-Germain",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-10-27 14:00:00\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-10-27 14:00:00\", \"@valeur\": \"1.980\"}]",
-    "geom": {
-      "lon": 0.87017519193499,
-      "lat": 46.563706917392
-    },
-    "gazole_maj": "2023-10-27 14:00:00",
-    "gazole_prix": "1.940",
-    "sp95_maj": "2023-10-27 14:00:00",
-    "sp95_prix": "1.980",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Vienne",
-    "code_departement": "86",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
   },
   {
     "id": 70200007,
@@ -143,46 +90,99 @@
     "code_region": "27"
   },
   {
-    "id": 10120004,
-    "latitude": "4826151.9408403",
-    "longitude": 403420.37717194,
-    "cp": "10120",
+    "id": 86310003,
+    "latitude": "4656370.6917392",
+    "longitude": 87017.519193499,
+    "cp": "86310",
     "pop": "R",
-    "adresse": "150 RUE DE TROYES",
+    "adresse": "12 AVENUE DE L'EUROPE",
     "ville": "Saint-Germain",
-    "horaires": null,
-    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 08:07:50\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-21 08:07:50\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 08:07:51\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 08:07:51\", \"@valeur\": \"1.859\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-10-27 14:00:00\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-10-27 14:00:00\", \"@valeur\": \"1.980\"}]",
     "geom": {
-      "lon": 4.0342037717194,
-      "lat": 48.261519408403004
+      "lon": 0.87017519193499,
+      "lat": 46.563706917392
     },
-    "gazole_maj": "2023-11-21 08:07:50",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2023-11-21 08:07:50",
-    "sp95_prix": "1.849",
+    "gazole_maj": "2023-10-27T16:00:00+02:00",
+    "gazole_prix": "1.940",
+    "sp95_maj": "2023-10-27T16:00:00+02:00",
+    "sp95_prix": "1.980",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-21 08:07:51",
-    "e10_prix": "1.789",
-    "sp98_maj": "2023-11-21 08:07:51",
-    "sp98_prix": "1.859",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Vienne",
+    "code_departement": "86",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 10120001,
+    "latitude": "4824100",
+    "longitude": 402200,
+    "cp": "10120",
+    "pop": "R",
+    "adresse": "184 Route Nationale 77 - Chevillele",
+    "ville": "Saint-Germain",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 20:56:27\", \"@valeur\": \"1.894\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 20:56:28\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 20:56:28\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 4.022,
+      "lat": 48.241
+    },
+    "gazole_maj": "2023-11-23T21:56:27+01:00",
+    "gazole_prix": "1.894",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-23T21:56:28+01:00",
+    "e10_prix": "1.880",
+    "sp98_maj": "2023-11-23T21:56:28+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
       "Piste poids lourds",
-      "DAB (Distributeur automatique de billets)"
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi"
     ],
     "departement": "Aube",
     "code_departement": "10",

@@ -1,57 +1,5 @@
 [
   {
-    "id": 44140002,
-    "latitude": "4705500",
-    "longitude": -151100,
-    "cp": "44140",
-    "pop": "R",
-    "adresse": "1 Avenue de la Vendée",
-    "ville": "Geneston",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:04:13\", \"@valeur\": \"1.752\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-02 08:54:35\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 09:04:13\", \"@valeur\": \"1.741\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:04:13\", \"@valeur\": \"1.797\"}]",
-    "geom": {
-      "lon": -1.511,
-      "lat": 47.055
-    },
-    "gazole_maj": "2023-11-22 09:04:13",
-    "gazole_prix": "1.752",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-02 08:54:35",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-22 09:04:13",
-    "e10_prix": "1.741",
-    "sp98_maj": "2023-11-22 09:04:13",
-    "sp98_prix": "1.797",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loire-Atlantique",
-    "code_departement": "44",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
     "id": 44140006,
     "latitude": "4705200",
     "longitude": -150900,
@@ -66,7 +14,7 @@
       "lon": -1.509,
       "lat": 47.052
     },
-    "gazole_maj": "2023-11-21 19:30:08",
+    "gazole_maj": "2023-11-21T20:30:08+01:00",
     "gazole_prix": "1.919",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -74,9 +22,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-21 19:30:08",
+    "e10_maj": "2023-11-21T20:30:08+01:00",
     "e10_prix": "1.896",
-    "sp98_maj": "2023-11-21 19:30:09",
+    "sp98_maj": "2023-11-21T20:30:09+01:00",
     "sp98_prix": "1.951",
     "carburants_disponibles": [
       "Gazole",
@@ -102,6 +50,58 @@
       "Vente d'additifs carburants",
       "Wifi",
       "Automate CB 24/24"
+    ],
+    "departement": "Loire-Atlantique",
+    "code_departement": "44",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
+    "id": 44140002,
+    "latitude": "4705500",
+    "longitude": -151100,
+    "cp": "44140",
+    "pop": "R",
+    "adresse": "1 Avenue de la Vendée",
+    "ville": "Geneston",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:04:13\", \"@valeur\": \"1.752\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-02 08:54:35\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 09:04:13\", \"@valeur\": \"1.741\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:04:13\", \"@valeur\": \"1.797\"}]",
+    "geom": {
+      "lon": -1.511,
+      "lat": 47.055
+    },
+    "gazole_maj": "2023-11-22T10:04:13+01:00",
+    "gazole_prix": "1.752",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-02T09:54:35+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-22T10:04:13+01:00",
+    "e10_prix": "1.741",
+    "sp98_maj": "2023-11-22T10:04:13+01:00",
+    "sp98_prix": "1.797",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Loire-Atlantique",
     "code_departement": "44",

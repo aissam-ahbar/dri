@@ -1,5 +1,52 @@
 [
   {
+    "id": 84600002,
+    "latitude": "4437318",
+    "longitude": 498125,
+    "cp": "84600",
+    "pop": "R",
+    "adresse": "Route d'Orange",
+    "ville": "Valréas",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 09:07:48\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-18 09:07:54\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 09:07:59\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 09:08:04\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": 4.98125,
+      "lat": 44.37318
+    },
+    "gazole_maj": "2023-11-18T10:07:48+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-18T10:07:54+01:00",
+    "e85_prix": "0.999",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-18T10:07:59+01:00",
+    "e10_prix": "1.839",
+    "sp98_maj": "2023-11-18T10:08:04+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 84601001,
     "latitude": "4438600",
     "longitude": 500700,
@@ -9,22 +56,22 @@
     "ville": "Valréas",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:00:00\", \"@valeur\": \"1.695\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-22 09:00:00\", \"@valeur\": \"0.953\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 09:00:00\", \"@valeur\": \"1.733\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:00:00\", \"@valeur\": \"1.815\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 09:00:00\", \"@valeur\": \"1.695\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-23 09:00:00\", \"@valeur\": \"0.953\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 09:00:00\", \"@valeur\": \"1.733\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 09:00:00\", \"@valeur\": \"1.815\"}]",
     "geom": {
       "lon": 5.007,
       "lat": 44.386
     },
-    "gazole_maj": "2023-11-22 09:00:00",
+    "gazole_maj": "2023-11-23T10:00:00+01:00",
     "gazole_prix": "1.695",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-22 09:00:00",
+    "e85_maj": "2023-11-23T10:00:00+01:00",
     "e85_prix": "0.953",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-22 09:00:00",
+    "e10_maj": "2023-11-23T10:00:00+01:00",
     "e10_prix": "1.733",
-    "sp98_maj": "2023-11-22 09:00:00",
+    "sp98_maj": "2023-11-23T10:00:00+01:00",
     "sp98_prix": "1.815",
     "carburants_disponibles": [
       "Gazole",
@@ -51,53 +98,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 84600002,
-    "latitude": "4437318",
-    "longitude": 498125,
-    "cp": "84600",
-    "pop": "R",
-    "adresse": "Route d'Orange",
-    "ville": "Valréas",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 09:07:48\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-18 09:07:54\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 09:07:59\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 09:08:04\", \"@valeur\": \"1.899\"}]",
-    "geom": {
-      "lon": 4.98125,
-      "lat": 44.37318
-    },
-    "gazole_maj": "2023-11-18 09:07:48",
-    "gazole_prix": "1.799",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-18 09:07:54",
-    "e85_prix": "0.999",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-18 09:07:59",
-    "e10_prix": "1.839",
-    "sp98_maj": "2023-11-18 09:08:04",
-    "sp98_prix": "1.899",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vaucluse",

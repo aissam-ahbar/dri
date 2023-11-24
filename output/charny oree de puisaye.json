@@ -1,5 +1,51 @@
 [
   {
+    "id": 89120001,
+    "latitude": "4788700",
+    "longitude": 309600,
+    "cp": "89120",
+    "pop": "R",
+    "adresse": "34 GRANDE RUE",
+    "ville": "Charny Orée de Puisaye",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:34:19\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 09:34:19\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:34:19\", \"@valeur\": \"1.949\"}]",
+    "geom": {
+      "lon": 3.096,
+      "lat": 47.887
+    },
+    "gazole_maj": "2023-11-22T10:34:19+01:00",
+    "gazole_prix": "1.829",
+    "sp95_maj": "2023-11-22T10:34:19+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-22T10:34:19+01:00",
+    "sp98_prix": "1.949",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Yonne",
+    "code_departement": "89",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 89120003,
     "latitude": "4787700",
     "longitude": 309500,
@@ -14,17 +60,17 @@
       "lon": 3.095,
       "lat": 47.877
     },
-    "gazole_maj": "2023-11-17 19:00:48",
+    "gazole_maj": "2023-11-17T20:00:48+01:00",
     "gazole_prix": "1.815",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-11 18:22:17",
+    "e85_maj": "2023-11-11T19:22:17+01:00",
     "e85_prix": "0.959",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-17 19:00:48",
+    "e10_maj": "2023-11-17T20:00:48+01:00",
     "e10_prix": "1.819",
-    "sp98_maj": "2023-11-11 18:22:18",
+    "sp98_maj": "2023-11-11T19:22:18+01:00",
     "sp98_prix": "1.899",
     "carburants_disponibles": [
       "Gazole",
@@ -44,52 +90,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Yonne",
-    "code_departement": "89",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 89120001,
-    "latitude": "4788700",
-    "longitude": 309600,
-    "cp": "89120",
-    "pop": "R",
-    "adresse": "34 GRANDE RUE",
-    "ville": "Charny Orée de Puisaye",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:34:19\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 09:34:19\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:34:19\", \"@valeur\": \"1.949\"}]",
-    "geom": {
-      "lon": 3.096,
-      "lat": 47.887
-    },
-    "gazole_maj": "2023-11-22 09:34:19",
-    "gazole_prix": "1.829",
-    "sp95_maj": "2023-11-22 09:34:19",
-    "sp95_prix": "1.899",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-22 09:34:19",
-    "sp98_prix": "1.949",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
     ],
     "departement": "Yonne",
     "code_departement": "89",

@@ -14,17 +14,17 @@
       "lon": 4.67995,
       "lat": 45.69128
     },
-    "gazole_maj": "2023-11-22 09:26:36",
+    "gazole_maj": "2023-11-22T10:26:36+01:00",
     "gazole_prix": "1.861",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-10 08:45:07",
+    "e85_maj": "2023-11-10T09:45:07+01:00",
     "e85_prix": "1.099",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-17 18:05:53",
+    "e10_maj": "2023-11-17T19:05:53+01:00",
     "e10_prix": "1.899",
-    "sp98_maj": "2023-11-13 08:47:44",
+    "sp98_maj": "2023-11-13T09:47:44+01:00",
     "sp98_prix": "1.989",
     "carburants_disponibles": [
       "Gazole",
@@ -41,6 +41,55 @@
       "Toilettes publiques",
       "Station de gonflage",
       "Carburant additivé"
+    ],
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 69510004,
+    "latitude": "4569700",
+    "longitude": 468500,
+    "cp": "69510",
+    "pop": "R",
+    "adresse": "104 ROUTE DES MONTS DU LYONNAIS",
+    "ville": "Messimy",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 18:39:45\", \"@valeur\": \"1.867\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-09-13 15:56:52\", \"@valeur\": \"1.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 18:27:26\", \"@valeur\": \"1.906\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-07-13 14:14:17\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 4.685,
+      "lat": 45.697
+    },
+    "gazole_maj": "2023-11-17T19:39:45+01:00",
+    "gazole_prix": "1.867",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-09-13T17:56:52+02:00",
+    "e85_prix": "1.099",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-10T19:27:26+01:00",
+    "e10_prix": "1.906",
+    "sp98_maj": "2023-07-13T16:14:17+02:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Automate CB 24/24"
     ],
     "departement": "Rhône",
     "code_departement": "69",
@@ -78,55 +127,6 @@
     "carburants_indisponibles": null,
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 69510004,
-    "latitude": "4569700",
-    "longitude": 468500,
-    "cp": "69510",
-    "pop": "R",
-    "adresse": "104 ROUTE DES MONTS DU LYONNAIS",
-    "ville": "Messimy",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 18:39:45\", \"@valeur\": \"1.867\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-09-13 15:56:52\", \"@valeur\": \"1.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 18:27:26\", \"@valeur\": \"1.906\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-07-13 14:14:17\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 4.685,
-      "lat": 45.697
-    },
-    "gazole_maj": "2023-11-17 18:39:45",
-    "gazole_prix": "1.867",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-09-13 15:56:52",
-    "e85_prix": "1.099",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-10 18:27:26",
-    "e10_prix": "1.906",
-    "sp98_maj": "2023-07-13 14:14:17",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Automate CB 24/24"
-    ],
     "departement": "Rhône",
     "code_departement": "69",
     "region": "Auvergne-Rhône-Alpes",

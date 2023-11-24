@@ -1,5 +1,49 @@
 [
   {
+    "id": 13210003,
+    "latitude": "4378936",
+    "longitude": 483339,
+    "cp": "13210",
+    "pop": "R",
+    "adresse": "35 BD MIRABEAU",
+    "ville": "Saint-Rémy-de-Provence",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 18:27:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 18:27:12\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 18:27:21\", \"@valeur\": \"1.989\"}]",
+    "geom": {
+      "lon": 4.83339,
+      "lat": 43.78936
+    },
+    "gazole_maj": "2023-11-20T19:27:00+01:00",
+    "gazole_prix": "1.919",
+    "sp95_maj": "2023-11-20T19:27:12+01:00",
+    "sp95_prix": "1.959",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-20T19:27:21+01:00",
+    "sp98_prix": "1.989",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13210001,
     "latitude": "4378873",
     "longitude": 483540,
@@ -9,32 +53,32 @@
     "ville": "Saint-Rémy-de-Provence",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 19:33:58\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 19:33:58\", \"@valeur\": \"1.959\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 19:33:58\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 14:08:12\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 14:08:12\", \"@valeur\": \"1.989\"}]",
     "geom": {
       "lon": 4.8354,
       "lat": 43.78873
     },
-    "gazole_maj": "2023-11-20 19:33:58",
+    "gazole_maj": "2023-11-20T20:33:58+01:00",
     "gazole_prix": "1.919",
-    "sp95_maj": "2023-11-20 19:33:58",
-    "sp95_prix": "1.959",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-11-23T15:08:12+01:00",
+    "e10_prix": "1.959",
+    "sp98_maj": "2023-11-23T15:08:12+01:00",
+    "sp98_prix": "1.989",
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
       "E10",
       "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
@@ -55,50 +99,6 @@
     "code_region": "93"
   },
   {
-    "id": 13210003,
-    "latitude": "4378936",
-    "longitude": 483339,
-    "cp": "13210",
-    "pop": "R",
-    "adresse": "35 BD MIRABEAU",
-    "ville": "Saint-Rémy-de-Provence",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 18:27:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 18:27:12\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 18:27:21\", \"@valeur\": \"1.989\"}]",
-    "geom": {
-      "lon": 4.83339,
-      "lat": 43.78936
-    },
-    "gazole_maj": "2023-11-20 18:27:00",
-    "gazole_prix": "1.919",
-    "sp95_maj": "2023-11-20 18:27:12",
-    "sp95_prix": "1.959",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-20 18:27:21",
-    "sp98_prix": "1.989",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 13210002,
     "latitude": "4379300",
     "longitude": 482700,
@@ -108,23 +108,23 @@
     "ville": "Saint-Rémy-de-Provence",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 08:22:20\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 08:31:35\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 08:27:11\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 08:27:11\", \"@valeur\": \"1.869\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 08:22:20\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-23 08:32:45\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 08:32:45\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 08:32:45\", \"@valeur\": \"1.879\"}]",
     "geom": {
       "lon": 4.827,
       "lat": 43.793
     },
-    "gazole_maj": "2023-11-22 08:22:20",
+    "gazole_maj": "2023-11-22T09:22:20+01:00",
     "gazole_prix": "1.769",
-    "sp95_maj": "2023-11-20 08:31:35",
-    "sp95_prix": "1.829",
+    "sp95_maj": "2023-11-23T09:32:45+01:00",
+    "sp95_prix": "1.839",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-21 08:27:11",
-    "e10_prix": "1.789",
-    "sp98_maj": "2023-11-21 08:27:11",
-    "sp98_prix": "1.869",
+    "e10_maj": "2023-11-23T09:32:45+01:00",
+    "e10_prix": "1.809",
+    "sp98_maj": "2023-11-23T09:32:45+01:00",
+    "sp98_prix": "1.879",
     "carburants_disponibles": [
       "Gazole",
       "SP95",

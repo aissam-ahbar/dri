@@ -1,51 +1,5 @@
 [
   {
-    "id": 45320001,
-    "latitude": "4804200",
-    "longitude": 306800,
-    "cp": "45320",
-    "pop": "R",
-    "adresse": "ROUTE DE SENS",
-    "ville": "Courtenay",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:37:36\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 09:37:36\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:37:36\", \"@valeur\": \"1.969\"}]",
-    "geom": {
-      "lon": 3.068,
-      "lat": 48.042
-    },
-    "gazole_maj": "2023-11-22 09:37:36",
-    "gazole_prix": "1.839",
-    "sp95_maj": "2023-11-22 09:37:36",
-    "sp95_prix": "1.899",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-22 09:37:36",
-    "sp98_prix": "1.969",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Loiret",
-    "code_departement": "45",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 45320004,
     "latitude": "4803700",
     "longitude": 304700,
@@ -60,7 +14,7 @@
       "lon": 3.047,
       "lat": 48.037
     },
-    "gazole_maj": "2023-11-11 19:00:00",
+    "gazole_maj": "2023-11-11T20:00:00+01:00",
     "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -68,9 +22,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-11 19:00:00",
+    "e10_maj": "2023-11-11T20:00:00+01:00",
     "e10_prix": "1.839",
-    "sp98_maj": "2023-11-11 19:00:00",
+    "sp98_maj": "2023-11-11T20:00:00+01:00",
     "sp98_prix": "1.899",
     "carburants_disponibles": [
       "Gazole",
@@ -97,6 +51,52 @@
     "code_region": "24"
   },
   {
+    "id": 45320001,
+    "latitude": "4804200",
+    "longitude": 306800,
+    "cp": "45320",
+    "pop": "R",
+    "adresse": "ROUTE DE SENS",
+    "ville": "Courtenay",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:37:36\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 09:37:36\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:37:36\", \"@valeur\": \"1.969\"}]",
+    "geom": {
+      "lon": 3.068,
+      "lat": 48.042
+    },
+    "gazole_maj": "2023-11-22T10:37:36+01:00",
+    "gazole_prix": "1.839",
+    "sp95_maj": "2023-11-22T10:37:36+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-22T10:37:36+01:00",
+    "sp98_prix": "1.969",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Loiret",
+    "code_departement": "45",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 45320005,
     "latitude": "4804100",
     "longitude": 306300,
@@ -111,17 +111,17 @@
       "lon": 3.063,
       "lat": 48.041
     },
-    "gazole_maj": "2023-11-07 08:28:04",
+    "gazole_maj": "2023-11-07T09:28:04+01:00",
     "gazole_prix": "1.970",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-07 08:28:05",
+    "e85_maj": "2023-11-07T09:28:05+01:00",
     "e85_prix": "1.190",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-07 08:28:05",
+    "e10_maj": "2023-11-07T09:28:05+01:00",
     "e10_prix": "1.970",
-    "sp98_maj": "2023-11-07 08:28:05",
+    "sp98_maj": "2023-11-07T09:28:05+01:00",
     "sp98_prix": "2.070",
     "carburants_disponibles": [
       "Gazole",

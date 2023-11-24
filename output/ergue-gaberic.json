@@ -1,5 +1,51 @@
 [
   {
+    "id": 29500004,
+    "latitude": "4799656.8",
+    "longitude": -402711.42,
+    "cp": "29500",
+    "pop": "R",
+    "adresse": "ZA DE QUILLIHUEC",
+    "ville": "Ergué-Gabéric",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 14:23:55\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-10 15:10:35\", \"@valeur\": \"2.009\"}]",
+    "geom": {
+      "lon": -4.0271142,
+      "lat": 47.996567999999996
+    },
+    "gazole_maj": "2023-11-23T15:23:55+01:00",
+    "gazole_prix": "1.939",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-10T16:10:35+01:00",
+    "sp98_prix": "2.009",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Finistère",
+    "code_departement": "29",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
     "id": 29500003,
     "latitude": "4799900",
     "longitude": -405300,
@@ -14,9 +60,9 @@
       "lon": -4.053,
       "lat": 47.999
     },
-    "gazole_maj": "2023-11-22 08:48:24",
+    "gazole_maj": "2023-11-22T09:48:24+01:00",
     "gazole_prix": "1.766",
-    "sp95_maj": "2023-11-22 08:48:24",
+    "sp95_maj": "2023-11-22T09:48:24+01:00",
     "sp95_prix": "1.789",
     "e85_maj": null,
     "e85_prix": null,
@@ -24,7 +70,7 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2023-11-22 08:48:25",
+    "sp98_maj": "2023-11-22T09:48:25+01:00",
     "sp98_prix": "1.829",
     "carburants_disponibles": [
       "Gazole",
@@ -46,52 +92,6 @@
       "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Finistère",
-    "code_departement": "29",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
-    "id": 29500004,
-    "latitude": "4799656.8",
-    "longitude": -402711.42,
-    "cp": "29500",
-    "pop": "R",
-    "adresse": "ZA DE QUILLIHUEC",
-    "ville": "Ergué-Gabéric",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 13:44:45\", \"@valeur\": \"1.969\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-10 15:10:35\", \"@valeur\": \"2.009\"}]",
-    "geom": {
-      "lon": -4.0271142,
-      "lat": 47.996567999999996
-    },
-    "gazole_maj": "2023-11-22 13:44:45",
-    "gazole_prix": "1.969",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-10 15:10:35",
-    "sp98_prix": "2.009",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
     ],
     "departement": "Finistère",
     "code_departement": "29",

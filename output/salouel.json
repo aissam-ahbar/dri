@@ -1,49 +1,5 @@
 [
   {
-    "id": 80480001,
-    "latitude": "4987000",
-    "longitude": 224100,
-    "cp": "80480",
-    "pop": "R",
-    "adresse": "2 Route de Normandie",
-    "ville": "Salouël",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 05:31:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 05:31:00\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 05:31:00\", \"@valeur\": \"1.929\"}]",
-    "geom": {
-      "lon": 2.241,
-      "lat": 49.87
-    },
-    "gazole_maj": "2023-11-22 05:31:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-22 05:31:00",
-    "e10_prix": "1.849",
-    "sp98_maj": "2023-11-22 05:31:00",
-    "sp98_prix": "1.929",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Somme",
-    "code_departement": "80",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 80480002,
     "latitude": "4987100",
     "longitude": 226100,
@@ -58,7 +14,7 @@
       "lon": 2.261,
       "lat": 49.871
     },
-    "gazole_maj": "2023-11-18 07:23:58",
+    "gazole_maj": "2023-11-18T08:23:58+01:00",
     "gazole_prix": "1.744",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -66,7 +22,7 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-20 07:04:30",
+    "e10_maj": "2023-11-20T08:04:30+01:00",
     "e10_prix": "1.739",
     "sp98_maj": null,
     "sp98_prix": null,
@@ -94,6 +50,50 @@
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
+    "departement": "Somme",
+    "code_departement": "80",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 80480001,
+    "latitude": "4987000",
+    "longitude": 224100,
+    "cp": "80480",
+    "pop": "R",
+    "adresse": "2 Route de Normandie",
+    "ville": "Salouël",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 05:31:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 05:31:00\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 05:31:00\", \"@valeur\": \"1.929\"}]",
+    "geom": {
+      "lon": 2.241,
+      "lat": 49.87
+    },
+    "gazole_maj": "2023-11-22T06:31:00+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-22T06:31:00+01:00",
+    "e10_prix": "1.849",
+    "sp98_maj": "2023-11-22T06:31:00+01:00",
+    "sp98_prix": "1.929",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Somme",
     "code_departement": "80",
     "region": "Hauts-de-France",

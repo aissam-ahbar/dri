@@ -1,5 +1,52 @@
 [
   {
+    "id": 59490001,
+    "latitude": "5035800",
+    "longitude": 327800,
+    "cp": "59490",
+    "pop": "R",
+    "adresse": "Rue Pierre Sémard",
+    "ville": "Somain",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.015\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.859\"}]",
+    "geom": {
+      "lon": 3.278,
+      "lat": 50.358
+    },
+    "gazole_maj": "2023-11-22T17:15:40+01:00",
+    "gazole_prix": "1.769",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-22T17:15:40+01:00",
+    "e85_prix": "1.015",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-22T17:15:40+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2023-11-22T17:15:40+01:00",
+    "sp98_prix": "1.859",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59490002,
     "latitude": "5034813.69944",
     "longitude": 328197.334524,
@@ -14,17 +61,17 @@
       "lon": 3.28197334524,
       "lat": 50.348136994399994
     },
-    "gazole_maj": "2023-11-18 09:42:26",
+    "gazole_maj": "2023-11-18T10:42:26+01:00",
     "gazole_prix": "1.769",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2023-10-25 12:34:04",
+    "gplc_maj": "2023-10-25T14:34:04+02:00",
     "gplc_prix": "0.979",
-    "e10_maj": "2023-11-20 11:44:56",
+    "e10_maj": "2023-11-20T12:44:56+01:00",
     "e10_prix": "1.779",
-    "sp98_maj": "2023-11-18 09:42:27",
+    "sp98_maj": "2023-11-18T10:42:27+01:00",
     "sp98_prix": "1.859",
     "carburants_disponibles": [
       "Gazole",
@@ -41,53 +88,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59490001,
-    "latitude": "5035800",
-    "longitude": 327800,
-    "cp": "59490",
-    "pop": "R",
-    "adresse": "Rue Pierre Sémard",
-    "ville": "Somain",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.015\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 16:15:40\", \"@valeur\": \"1.859\"}]",
-    "geom": {
-      "lon": 3.278,
-      "lat": 50.358
-    },
-    "gazole_maj": "2023-11-22 16:15:40",
-    "gazole_prix": "1.769",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-22 16:15:40",
-    "e85_prix": "1.015",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-22 16:15:40",
-    "e10_prix": "1.779",
-    "sp98_maj": "2023-11-22 16:15:40",
-    "sp98_prix": "1.859",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Nord",
     "code_departement": "59",

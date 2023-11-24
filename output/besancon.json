@@ -1,5 +1,289 @@
 [
   {
+    "id": 25000022,
+    "latitude": "4724936",
+    "longitude": 603193,
+    "cp": "25000",
+    "pop": "R",
+    "adresse": "60 rue de belfort",
+    "ville": "Besançon",
+    "horaires": null,
+    "services": "{\"service\": [\"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-09-21 19:11:27\", \"@valeur\": \"1.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-09-21 19:11:28\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-09-21 19:11:28\", \"@valeur\": \"2.099\"}]",
+    "geom": {
+      "lon": 6.03193,
+      "lat": 47.24936
+    },
+    "gazole_maj": "2023-09-21T21:11:27+02:00",
+    "gazole_prix": "1.979",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-09-21T21:11:28+02:00",
+    "e10_prix": "1.989",
+    "sp98_maj": "2023-09-21T21:11:28+02:00",
+    "sp98_prix": "2.099",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage automatique",
+      "Lavage manuel",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 25000007,
+    "latitude": "4723329",
+    "longitude": 598521,
+    "cp": "25000",
+    "pop": "R",
+    "adresse": "17 Rue de l'Amitié",
+    "ville": "Besançon",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 08:41:48\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-10 08:32:31\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-04 19:34:17\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 08:32:31\", \"@valeur\": \"1.789\"}]",
+    "geom": {
+      "lon": 5.98521,
+      "lat": 47.23329
+    },
+    "gazole_maj": "2023-11-21T09:41:48+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": "2023-11-10T09:32:31+01:00",
+    "sp95_prix": "1.819",
+    "e85_maj": "2023-11-04T20:34:17+01:00",
+    "e85_prix": "0.999",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-10T09:32:31+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 25000009,
+    "latitude": "4723100",
+    "longitude": 599400,
+    "cp": "25000",
+    "pop": "R",
+    "adresse": "110 Rue de Dole",
+    "ville": "Besançon",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 07:34:01\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-10 07:06:51\", \"@valeur\": \"1.029\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-14 10:10:24\", \"@valeur\": \"1.849\"}]",
+    "geom": {
+      "lon": 5.994,
+      "lat": 47.231
+    },
+    "gazole_maj": "2023-11-22T08:34:01+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-10T08:06:51+01:00",
+    "e85_prix": "1.029",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-14T11:10:24+01:00",
+    "e10_prix": "1.849",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 25000023,
+    "latitude": "4724700",
+    "longitude": 602000,
+    "cp": "25000",
+    "pop": "R",
+    "adresse": "2 RUE DE VESOUL",
+    "ville": "Besançon",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.867\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.896\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 6.02,
+      "lat": 47.247
+    },
+    "gazole_maj": "2023-11-23T01:01:00+01:00",
+    "gazole_prix": "1.867",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-23T01:01:00+01:00",
+    "e10_prix": "1.896",
+    "sp98_maj": "2023-11-23T01:01:00+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 25000027,
+    "latitude": "4721616.7028634",
+    "longitude": 594474.58628906,
+    "cp": "25000",
+    "pop": "R",
+    "adresse": "2 RUE RENE CHAR",
+    "ville": "Besançon",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 10:52:57\", \"@valeur\": \"1.731\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 10:52:57\", \"@valeur\": \"1.756\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 10:52:58\", \"@valeur\": \"1.820\"}]",
+    "geom": {
+      "lon": 5.944745862890599,
+      "lat": 47.216167028634
+    },
+    "gazole_maj": "2023-11-21T11:52:57+01:00",
+    "gazole_prix": "1.731",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-21T11:52:57+01:00",
+    "e10_prix": "1.756",
+    "sp98_maj": "2023-11-21T11:52:58+01:00",
+    "sp98_prix": "1.820",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 25000011,
+    "latitude": "4721800",
+    "longitude": 597000,
+    "cp": "25000",
+    "pop": "R",
+    "adresse": "8 Place René Cassin",
+    "ville": "Besançon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:00:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-11 18:30:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.896\"}]",
+    "geom": {
+      "lon": 5.97,
+      "lat": 47.218
+    },
+    "gazole_maj": "2023-11-22T10:00:00+01:00",
+    "gazole_prix": "1.761",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-11T19:30:00+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-17T10:00:00+01:00",
+    "e10_prix": "1.829",
+    "sp98_maj": "2023-11-17T10:00:00+01:00",
+    "sp98_prix": "1.896",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 25000020,
     "latitude": "4725700",
     "longitude": 601200,
@@ -14,17 +298,17 @@
       "lon": 6.012,
       "lat": 47.257
     },
-    "gazole_maj": "2023-11-22 07:00:00",
+    "gazole_maj": "2023-11-22T08:00:00+01:00",
     "gazole_prix": "1.839",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-22 07:00:00",
+    "e85_maj": "2023-11-22T08:00:00+01:00",
     "e85_prix": "0.999",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-22 07:00:00",
+    "e10_maj": "2023-11-22T08:00:00+01:00",
     "e10_prix": "1.879",
-    "sp98_maj": "2023-11-22 07:00:00",
+    "sp98_maj": "2023-11-22T08:00:00+01:00",
     "sp98_prix": "1.979",
     "carburants_disponibles": [
       "Gazole",
@@ -56,96 +340,6 @@
     "code_region": "27"
   },
   {
-    "id": 25000008,
-    "latitude": "4725934.2056163",
-    "longitude": 602921.83816135,
-    "cp": "25000",
-    "pop": "R",
-    "adresse": "50 Boulevard Léon Blum",
-    "ville": "Besançon",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-14 11:52:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-14 11:52:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-14 11:52:00\", \"@valeur\": \"1.939\"}]",
-    "geom": {
-      "lon": 6.0292183816135,
-      "lat": 47.259342056163
-    },
-    "gazole_maj": "2023-11-14 11:52:00",
-    "gazole_prix": "1.809",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-14 11:52:00",
-    "e10_prix": "1.859",
-    "sp98_maj": "2023-11-14 11:52:00",
-    "sp98_prix": "1.939",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25000016,
-    "latitude": "4723686",
-    "longitude": 598434,
-    "cp": "25000",
-    "pop": "R",
-    "adresse": "1 Rue Berthelot",
-    "ville": "Besançon",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 08:03:26\", \"@valeur\": \"1.768\"}",
-    "geom": {
-      "lon": 5.98434,
-      "lat": 47.23686
-    },
-    "gazole_maj": "2023-11-22 08:03:26",
-    "gazole_prix": "1.768",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 25000024,
     "latitude": "4722200",
     "longitude": 596300,
@@ -160,17 +354,17 @@
       "lon": 5.963,
       "lat": 47.222
     },
-    "gazole_maj": "2023-11-23 00:01:00",
+    "gazole_maj": "2023-11-23T01:01:00+01:00",
     "gazole_prix": "1.867",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-23 00:01:00",
+    "e85_maj": "2023-11-23T01:01:00+01:00",
     "e85_prix": "0.999",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-23 00:01:00",
+    "e10_maj": "2023-11-23T01:01:00+01:00",
     "e10_prix": "1.896",
-    "sp98_maj": "2023-11-23 00:01:00",
+    "sp98_maj": "2023-11-23T01:01:00+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -202,235 +396,45 @@
     "code_region": "27"
   },
   {
-    "id": 25000009,
-    "latitude": "4723100",
-    "longitude": 599400,
+    "id": 25000016,
+    "latitude": "4723686",
+    "longitude": 598434,
     "cp": "25000",
     "pop": "R",
-    "adresse": "110 Rue de Dole",
-    "ville": "Besançon",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 07:34:01\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-10 07:06:51\", \"@valeur\": \"1.029\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-14 10:10:24\", \"@valeur\": \"1.849\"}]",
-    "geom": {
-      "lon": 5.994,
-      "lat": 47.231
-    },
-    "gazole_maj": "2023-11-22 07:34:01",
-    "gazole_prix": "1.819",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-10 07:06:51",
-    "e85_prix": "1.029",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-14 10:10:24",
-    "e10_prix": "1.849",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25000007,
-    "latitude": "4723329",
-    "longitude": 598521,
-    "cp": "25000",
-    "pop": "R",
-    "adresse": "17 Rue de l'Amitié",
+    "adresse": "1 Rue Berthelot",
     "ville": "Besançon",
     "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 08:41:48\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-10 08:32:31\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-04 19:34:17\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 08:32:31\", \"@valeur\": \"1.789\"}]",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 08:03:26\", \"@valeur\": \"1.768\"}",
     "geom": {
-      "lon": 5.98521,
-      "lat": 47.23329
+      "lon": 5.98434,
+      "lat": 47.23686
     },
-    "gazole_maj": "2023-11-21 08:41:48",
-    "gazole_prix": "1.759",
-    "sp95_maj": "2023-11-10 08:32:31",
-    "sp95_prix": "1.819",
-    "e85_maj": "2023-11-04 19:34:17",
-    "e85_prix": "0.999",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-10 08:32:31",
-    "e10_prix": "1.789",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25000026,
-    "latitude": "4724405.6447311",
-    "longitude": 598407.01230549,
-    "cp": "25000",
-    "pop": "R",
-    "adresse": "5 route de Gray",
-    "ville": "Besançon",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 10:59:16\", \"@valeur\": \"1.758\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-13 09:57:07\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 16:58:37\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 16:26:03\", \"@valeur\": \"1.864\"}]",
-    "geom": {
-      "lon": 5.9840701230549,
-      "lat": 47.244056447310996
-    },
-    "gazole_maj": "2023-11-21 10:59:16",
-    "gazole_prix": "1.758",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-13 09:57:07",
-    "e85_prix": "1.049",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-10 16:58:37",
-    "e10_prix": "1.788",
-    "sp98_maj": "2023-11-17 16:26:03",
-    "sp98_prix": "1.864",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25000011,
-    "latitude": "4721800",
-    "longitude": 597000,
-    "cp": "25000",
-    "pop": "R",
-    "adresse": "8 Place René Cassin",
-    "ville": "Besançon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 09:00:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-11 18:30:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.896\"}]",
-    "geom": {
-      "lon": 5.97,
-      "lat": 47.218
-    },
-    "gazole_maj": "2023-11-22 09:00:00",
-    "gazole_prix": "1.761",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-11 18:30:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-17 09:00:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2023-11-17 09:00:00",
-    "sp98_prix": "1.896",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25000023,
-    "latitude": "4724700",
-    "longitude": 602000,
-    "cp": "25000",
-    "pop": "R",
-    "adresse": "2 RUE DE VESOUL",
-    "ville": "Besançon",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.867\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.896\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 6.02,
-      "lat": 47.247
-    },
-    "gazole_maj": "2023-11-23 00:01:00",
-    "gazole_prix": "1.867",
+    "gazole_maj": "2023-11-22T09:03:26+01:00",
+    "gazole_prix": "1.768",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-23 00:01:00",
-    "e10_prix": "1.896",
-    "sp98_maj": "2023-11-23 00:01:00",
-    "sp98_prix": "1.990",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Doubs",
     "code_departement": "25",
@@ -474,32 +478,32 @@
     "code_region": "27"
   },
   {
-    "id": 25000022,
-    "latitude": "4724936",
-    "longitude": 603193,
+    "id": 25000008,
+    "latitude": "4725934.2056163",
+    "longitude": 602921.83816135,
     "cp": "25000",
     "pop": "R",
-    "adresse": "60 rue de belfort",
+    "adresse": "50 Boulevard Léon Blum",
     "ville": "Besançon",
-    "horaires": null,
-    "services": "{\"service\": [\"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-09-21 19:11:27\", \"@valeur\": \"1.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-09-21 19:11:28\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-09-21 19:11:28\", \"@valeur\": \"2.099\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-14 11:52:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-14 11:52:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-14 11:52:00\", \"@valeur\": \"1.939\"}]",
     "geom": {
-      "lon": 6.03193,
-      "lat": 47.24936
+      "lon": 6.0292183816135,
+      "lat": 47.259342056163
     },
-    "gazole_maj": "2023-09-21 19:11:27",
-    "gazole_prix": "1.979",
+    "gazole_maj": "2023-11-14T12:52:00+01:00",
+    "gazole_prix": "1.809",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-09-21 19:11:28",
-    "e10_prix": "1.989",
-    "sp98_maj": "2023-09-21 19:11:28",
-    "sp98_prix": "2.099",
+    "e10_maj": "2023-11-14T12:52:00+01:00",
+    "e10_prix": "1.859",
+    "sp98_maj": "2023-11-14T12:52:00+01:00",
+    "sp98_prix": "1.939",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -511,51 +515,47 @@
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage automatique",
-      "Lavage manuel",
-      "DAB (Distributeur automatique de billets)"
-    ],
+    "services_service": null,
     "departement": "Doubs",
     "code_departement": "25",
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27"
   },
   {
-    "id": 25000027,
-    "latitude": "4721616.7028634",
-    "longitude": 594474.58628906,
+    "id": 25000026,
+    "latitude": "4724405.6447311",
+    "longitude": 598407.01230549,
     "cp": "25000",
     "pop": "R",
-    "adresse": "2 RUE RENE CHAR",
+    "adresse": "5 route de Gray",
     "ville": "Besançon",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 10:52:57\", \"@valeur\": \"1.731\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 10:52:57\", \"@valeur\": \"1.756\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 10:52:58\", \"@valeur\": \"1.820\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 10:59:16\", \"@valeur\": \"1.758\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-23 12:30:05\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-10 16:58:37\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 16:26:03\", \"@valeur\": \"1.864\"}]",
     "geom": {
-      "lon": 5.944745862890599,
-      "lat": 47.216167028634
+      "lon": 5.9840701230549,
+      "lat": 47.244056447310996
     },
-    "gazole_maj": "2023-11-21 10:52:57",
-    "gazole_prix": "1.731",
+    "gazole_maj": "2023-11-21T11:59:16+01:00",
+    "gazole_prix": "1.758",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2023-11-23T13:30:05+01:00",
+    "e85_prix": "0.999",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-21 10:52:57",
-    "e10_prix": "1.756",
-    "sp98_maj": "2023-11-21 10:52:58",
-    "sp98_prix": "1.820",
+    "e10_maj": "2023-11-10T17:58:37+01:00",
+    "e10_prix": "1.788",
+    "sp98_maj": "2023-11-17T17:26:03+01:00",
+    "sp98_prix": "1.864",
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",

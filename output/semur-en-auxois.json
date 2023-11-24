@@ -1,44 +1,44 @@
 [
   {
-    "id": 21140001,
-    "latitude": "4749200",
-    "longitude": 433700,
+    "id": 21140002,
+    "latitude": "4749163",
+    "longitude": 433834,
     "cp": "21140",
     "pop": "R",
-    "adresse": "Rue Champ de la Perdrix",
+    "adresse": "ROUTE DE DIJON",
     "ville": "Semur-en-Auxois",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 10:00:25\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 10:00:25\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 10:00:26\", \"@valeur\": \"1.969\"}]",
+    "horaires": null,
+    "services": "{\"service\": \"Lavage manuel\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 10:20:55\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 10:20:56\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 10:20:56\", \"@valeur\": \"1.130\"}]",
     "geom": {
-      "lon": 4.337,
-      "lat": 47.492
+      "lon": 4.33834,
+      "lat": 47.49163
     },
-    "gazole_maj": "2023-11-22 10:00:25",
-    "gazole_prix": "1.849",
-    "sp95_maj": "2023-11-22 10:00:25",
-    "sp95_prix": "1.899",
-    "e85_maj": null,
-    "e85_prix": null,
+    "gazole_maj": "2023-11-17T11:20:55+01:00",
+    "gazole_prix": "1.940",
+    "sp95_maj": "2023-11-17T11:20:56+01:00",
+    "sp95_prix": "1.940",
+    "e85_maj": "2023-11-17T11:20:56+01:00",
+    "e85_prix": "1.130",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2023-11-22 10:00:26",
-    "sp98_prix": "1.969",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "SP98"
+      "E85"
     ],
     "carburants_indisponibles": [
-      "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Automate CB 24/24"
+      "Lavage manuel"
     ],
     "departement": "Côte-d'Or",
     "code_departement": "21",
@@ -60,15 +60,15 @@
       "lon": 4.34084,
       "lat": 47.4923
     },
-    "gazole_maj": "2023-11-20 12:29:58",
+    "gazole_maj": "2023-11-20T13:29:58+01:00",
     "gazole_prix": "1.779",
-    "sp95_maj": "2023-11-20 12:29:58",
+    "sp95_maj": "2023-11-20T13:29:58+01:00",
     "sp95_prix": "1.829",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-20 12:29:58",
+    "e10_maj": "2023-11-20T13:29:58+01:00",
     "e10_prix": "1.789",
     "sp98_maj": null,
     "sp98_prix": null,
@@ -93,45 +93,45 @@
     "code_region": "27"
   },
   {
-    "id": 21140002,
-    "latitude": "4749163",
-    "longitude": 433834,
+    "id": 21140001,
+    "latitude": "4749200",
+    "longitude": 433700,
     "cp": "21140",
     "pop": "R",
-    "adresse": "ROUTE DE DIJON",
+    "adresse": "Rue Champ de la Perdrix",
     "ville": "Semur-en-Auxois",
-    "horaires": null,
-    "services": "{\"service\": \"Lavage manuel\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 10:20:55\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-17 10:20:56\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 10:20:56\", \"@valeur\": \"1.130\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 10:00:25\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 10:00:25\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 10:00:26\", \"@valeur\": \"1.969\"}]",
     "geom": {
-      "lon": 4.33834,
-      "lat": 47.49163
+      "lon": 4.337,
+      "lat": 47.492
     },
-    "gazole_maj": "2023-11-17 10:20:55",
-    "gazole_prix": "1.940",
-    "sp95_maj": "2023-11-17 10:20:56",
-    "sp95_prix": "1.940",
-    "e85_maj": "2023-11-17 10:20:56",
-    "e85_prix": "1.130",
+    "gazole_maj": "2023-11-22T11:00:25+01:00",
+    "gazole_prix": "1.849",
+    "sp95_maj": "2023-11-22T11:00:25+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2023-11-22T11:00:26+01:00",
+    "sp98_prix": "1.969",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
       "SP98"
     ],
-    "horaires_automate_24_24": "Non",
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Lavage manuel"
+      "Automate CB 24/24"
     ],
     "departement": "Côte-d'Or",
     "code_departement": "21",
