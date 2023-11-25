@@ -1,5 +1,52 @@
 [
   {
+    "id": 60800003,
+    "latitude": "4922700",
+    "longitude": 288400,
+    "cp": "60800",
+    "pop": "R",
+    "adresse": "BD KENNEDY",
+    "ville": "Crépy-en-Valois",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 11:35:55\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-09 15:13:37\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-09 15:13:37\", \"@valeur\": \"1.889\"}]",
+    "geom": {
+      "lon": 2.884,
+      "lat": 49.227
+    },
+    "gazole_maj": "2023-11-16T12:35:55+01:00",
+    "gazole_prix": "1.839",
+    "sp95_maj": "2023-11-09T16:13:37+01:00",
+    "sp95_prix": "1.859",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-09T16:13:37+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Oise",
+    "code_departement": "60",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 60800005,
     "latitude": "4922465.9428094",
     "longitude": 290549.13758613,
@@ -89,53 +136,6 @@
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Oise",
-    "code_departement": "60",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 60800003,
-    "latitude": "4922700",
-    "longitude": 288400,
-    "cp": "60800",
-    "pop": "R",
-    "adresse": "BD KENNEDY",
-    "ville": "Crépy-en-Valois",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-16 11:35:55\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-09 15:13:37\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-09 15:13:37\", \"@valeur\": \"1.889\"}]",
-    "geom": {
-      "lon": 2.884,
-      "lat": 49.227
-    },
-    "gazole_maj": "2023-11-16T12:35:55+01:00",
-    "gazole_prix": "1.839",
-    "sp95_maj": "2023-11-09T16:13:37+01:00",
-    "sp95_prix": "1.859",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-09T16:13:37+01:00",
-    "sp98_prix": "1.889",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Oise",
     "code_departement": "60",

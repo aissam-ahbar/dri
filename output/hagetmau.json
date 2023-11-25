@@ -1,5 +1,60 @@
 [
   {
+    "id": 40700003,
+    "latitude": "4363700",
+    "longitude": -61400,
+    "cp": "40700",
+    "pop": "R",
+    "adresse": "Centre Commercial Intermarché",
+    "ville": "Hagetmau",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.788\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"0.998\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-28 18:30:00\", \"@valeur\": \"1.030\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.848\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.897\"}]",
+    "geom": {
+      "lon": -0.614,
+      "lat": 43.637
+    },
+    "gazole_maj": "2023-11-17T10:00:00+01:00",
+    "gazole_prix": "1.788",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-17T10:00:00+01:00",
+    "e85_prix": "0.998",
+    "gplc_maj": "2023-10-28T20:30:00+02:00",
+    "gplc_prix": "1.030",
+    "e10_maj": "2023-11-17T10:00:00+01:00",
+    "e10_prix": "1.848",
+    "sp98_maj": "2023-11-17T10:00:00+01:00",
+    "sp98_prix": "1.897",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Vente de fioul domestique",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Landes",
+    "code_departement": "40",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 40700001,
     "latitude": "4365853.88198",
     "longitude": -59109.674408,
@@ -93,61 +148,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Automate CB 24/24"
-    ],
-    "departement": "Landes",
-    "code_departement": "40",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 40700003,
-    "latitude": "4363700",
-    "longitude": -61400,
-    "cp": "40700",
-    "pop": "R",
-    "adresse": "Centre Commercial Intermarché",
-    "ville": "Hagetmau",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.788\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"0.998\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-28 18:30:00\", \"@valeur\": \"1.030\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.848\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-17 09:00:00\", \"@valeur\": \"1.897\"}]",
-    "geom": {
-      "lon": -0.614,
-      "lat": 43.637
-    },
-    "gazole_maj": "2023-11-17T10:00:00+01:00",
-    "gazole_prix": "1.788",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-17T10:00:00+01:00",
-    "e85_prix": "0.998",
-    "gplc_maj": "2023-10-28T20:30:00+02:00",
-    "gplc_prix": "1.030",
-    "e10_maj": "2023-11-17T10:00:00+01:00",
-    "e10_prix": "1.848",
-    "sp98_maj": "2023-11-17T10:00:00+01:00",
-    "sp98_prix": "1.897",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Vente de fioul domestique",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Landes",
     "code_departement": "40",

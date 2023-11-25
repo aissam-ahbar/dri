@@ -1,5 +1,53 @@
 [
   {
+    "id": 55300001,
+    "latitude": "4889000",
+    "longitude": 555100,
+    "cp": "55300",
+    "pop": "R",
+    "adresse": "RUE DU DOCTEUR THIERRY",
+    "ville": "Saint-Mihiel",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-04-03 09:31:12\", \"@valeur\": \"1.817\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-04-03 09:31:13\", \"@valeur\": \"2.008\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-04-03 09:31:13\", \"@valeur\": \"2.031\"}]",
+    "geom": {
+      "lon": 5.551,
+      "lat": 48.89
+    },
+    "gazole_maj": "2023-04-03T11:31:12+02:00",
+    "gazole_prix": "1.817",
+    "sp95_maj": "2023-04-03T11:31:13+02:00",
+    "sp95_prix": "2.008",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-04-03T11:31:13+02:00",
+    "sp98_prix": "2.031",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Meuse",
+    "code_departement": "55",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 55300002,
     "latitude": "4888800",
     "longitude": 554000,
@@ -47,54 +95,6 @@
       "Services réparation / entretien",
       "Vente d'additifs carburants",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Meuse",
-    "code_departement": "55",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 55300001,
-    "latitude": "4889000",
-    "longitude": 555100,
-    "cp": "55300",
-    "pop": "R",
-    "adresse": "RUE DU DOCTEUR THIERRY",
-    "ville": "Saint-Mihiel",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-04-03 09:31:12\", \"@valeur\": \"1.817\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-04-03 09:31:13\", \"@valeur\": \"2.008\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-04-03 09:31:13\", \"@valeur\": \"2.031\"}]",
-    "geom": {
-      "lon": 5.551,
-      "lat": 48.89
-    },
-    "gazole_maj": "2023-04-03T11:31:12+02:00",
-    "gazole_prix": "1.817",
-    "sp95_maj": "2023-04-03T11:31:13+02:00",
-    "sp95_prix": "2.008",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-04-03T11:31:13+02:00",
-    "sp98_prix": "2.031",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Meuse",

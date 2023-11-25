@@ -1,5 +1,51 @@
 [
   {
+    "id": 84300013,
+    "latitude": "4383519.894804",
+    "longitude": 504422.03664398,
+    "cp": "84300",
+    "pop": "R",
+    "adresse": "250 route de pertuis",
+    "ville": "Cavaillon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-14 12:28:04\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 12:28:04\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-17 13:23:10\", \"@valeur\": \"1.029\"}]",
+    "geom": {
+      "lon": 5.0442203664398,
+      "lat": 43.83519894804
+    },
+    "gazole_maj": "2023-11-14T13:28:04+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": "2023-11-14T13:28:04+01:00",
+    "sp95_prix": "1.849",
+    "e85_maj": "2023-10-17T15:23:10+02:00",
+    "e85_prix": "1.029",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 84300003,
     "latitude": "4385600",
     "longitude": 501800,
@@ -50,52 +96,6 @@
       "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 84300013,
-    "latitude": "4383519.894804",
-    "longitude": 504422.03664398,
-    "cp": "84300",
-    "pop": "R",
-    "adresse": "250 route de pertuis",
-    "ville": "Cavaillon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-14 12:28:04\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 12:28:04\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-17 13:23:10\", \"@valeur\": \"1.029\"}]",
-    "geom": {
-      "lon": 5.0442203664398,
-      "lat": 43.83519894804
-    },
-    "gazole_maj": "2023-11-14T13:28:04+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": "2023-11-14T13:28:04+01:00",
-    "sp95_prix": "1.849",
-    "e85_maj": "2023-10-17T15:23:10+02:00",
-    "e85_prix": "1.029",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
     ],
     "departement": "Vaucluse",
     "code_departement": "84",
@@ -158,6 +158,61 @@
     "code_region": "93"
   },
   {
+    "id": 84300011,
+    "latitude": "4383100",
+    "longitude": 505400,
+    "cp": "84300",
+    "pop": "R",
+    "adresse": "264 Avenue de Cheval Blanc",
+    "ville": "Cavaillon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.753\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.833\"}]",
+    "geom": {
+      "lon": 5.054,
+      "lat": 43.831
+    },
+    "gazole_maj": "2023-11-24T01:01:00+01:00",
+    "gazole_prix": "1.753",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-11-24T01:01:00+01:00",
+    "gplc_prix": "0.949",
+    "e10_maj": "2023-11-24T01:01:00+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2023-11-24T01:01:00+01:00",
+    "sp98_prix": "1.833",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 84300006,
     "latitude": "4382900",
     "longitude": 503500,
@@ -206,61 +261,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 84300011,
-    "latitude": "4383100",
-    "longitude": 505400,
-    "cp": "84300",
-    "pop": "R",
-    "adresse": "264 Avenue de Cheval Blanc",
-    "ville": "Cavaillon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 00:01:00\", \"@valeur\": \"1.843\"}]",
-    "geom": {
-      "lon": 5.054,
-      "lat": 43.831
-    },
-    "gazole_maj": "2023-11-23T01:01:00+01:00",
-    "gazole_prix": "1.749",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-11-23T01:01:00+01:00",
-    "gplc_prix": "0.949",
-    "e10_maj": "2023-11-23T01:01:00+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2023-11-23T01:01:00+01:00",
-    "sp98_prix": "1.843",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "Automate CB 24/24"
     ],
     "departement": "Vaucluse",
     "code_departement": "84",

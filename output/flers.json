@@ -1,5 +1,53 @@
 [
   {
+    "id": 61100008,
+    "latitude": "4873000",
+    "longitude": -57900,
+    "cp": "61100",
+    "pop": "R",
+    "adresse": "route de domfront",
+    "ville": "Flers",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}]}",
+    "services": "{\"service\": [\"Aire de camping-cars\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 14:04:51\", \"@valeur\": \"1.717\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 00:00:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 00:00:00\", \"@valeur\": \"1.765\"}]",
+    "geom": {
+      "lon": -0.579,
+      "lat": 48.73
+    },
+    "gazole_maj": "2023-11-22T15:04:51+01:00",
+    "gazole_prix": "1.717",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-23T01:00:00+01:00",
+    "e10_prix": "1.699",
+    "sp98_maj": "2023-11-21T01:00:00+01:00",
+    "sp98_prix": "1.765",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Aire de camping-cars",
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Orne",
+    "code_departement": "61",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 61100005,
     "latitude": "4874200",
     "longitude": -56300,
@@ -254,54 +302,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Orne",
-    "code_departement": "61",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 61100008,
-    "latitude": "4873000",
-    "longitude": -57900,
-    "cp": "61100",
-    "pop": "R",
-    "adresse": "route de domfront",
-    "ville": "Flers",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}]}",
-    "services": "{\"service\": [\"Aire de camping-cars\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-22 14:04:51\", \"@valeur\": \"1.717\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 00:00:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 00:00:00\", \"@valeur\": \"1.765\"}]",
-    "geom": {
-      "lon": -0.579,
-      "lat": 48.73
-    },
-    "gazole_maj": "2023-11-22T15:04:51+01:00",
-    "gazole_prix": "1.717",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-23T01:00:00+01:00",
-    "e10_prix": "1.699",
-    "sp98_maj": "2023-11-21T01:00:00+01:00",
-    "sp98_prix": "1.765",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Aire de camping-cars",
-      "Piste poids lourds",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Orne",
