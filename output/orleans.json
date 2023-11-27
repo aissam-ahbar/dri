@@ -1,5 +1,54 @@
 [
   {
+    "id": 45100006,
+    "latitude": "4783100",
+    "longitude": 192800,
+    "cp": "45100",
+    "pop": "R",
+    "adresse": "32 Avenue de la Bolière",
+    "ville": "Orléans",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 12:10:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 12:00:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 12:00:00\", \"@valeur\": \"1.879\"}]",
+    "geom": {
+      "lon": 1.928,
+      "lat": 47.831
+    },
+    "gazole_maj": "2023-11-21T13:10:00+01:00",
+    "gazole_prix": "1.779",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-22T13:00:00+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2023-11-22T13:00:00+01:00",
+    "sp98_prix": "1.879",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Loiret",
+    "code_departement": "45",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 45100001,
     "latitude": "4788200",
     "longitude": 190300,
@@ -92,50 +141,6 @@
     "code_region": "24"
   },
   {
-    "id": 45000008,
-    "latitude": "4790280",
-    "longitude": 189362,
-    "cp": "45000",
-    "pop": "R",
-    "adresse": "25 BOULEVARD JEAN JAURES",
-    "ville": "Orléans",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.844\"}]",
-    "geom": {
-      "lon": 1.89362,
-      "lat": 47.9028
-    },
-    "gazole_maj": "2023-11-24T01:01:00+01:00",
-    "gazole_prix": "1.766",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-24T01:01:00+01:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-24T01:01:00+01:00",
-    "e10_prix": "1.759",
-    "sp98_maj": "2023-11-24T01:01:00+01:00",
-    "sp98_prix": "1.844",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Loiret",
-    "code_departement": "45",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 45100008,
     "latitude": "4784264",
     "longitude": 192524,
@@ -191,49 +196,44 @@
     "code_region": "24"
   },
   {
-    "id": 45100006,
-    "latitude": "4783100",
-    "longitude": 192800,
-    "cp": "45100",
+    "id": 45000008,
+    "latitude": "4790280",
+    "longitude": 189362,
+    "cp": "45000",
     "pop": "R",
-    "adresse": "32 Avenue de la Bolière",
+    "adresse": "25 BOULEVARD JEAN JAURES",
     "ville": "Orléans",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 12:10:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-22 12:00:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 12:00:00\", \"@valeur\": \"1.879\"}]",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-24 00:01:00\", \"@valeur\": \"1.844\"}]",
     "geom": {
-      "lon": 1.928,
-      "lat": 47.831
+      "lon": 1.89362,
+      "lat": 47.9028
     },
-    "gazole_maj": "2023-11-21T13:10:00+01:00",
-    "gazole_prix": "1.779",
+    "gazole_maj": "2023-11-24T01:01:00+01:00",
+    "gazole_prix": "1.766",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2023-11-24T01:01:00+01:00",
+    "e85_prix": "0.994",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-22T13:00:00+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2023-11-22T13:00:00+01:00",
-    "sp98_prix": "1.879",
+    "e10_maj": "2023-11-24T01:01:00+01:00",
+    "e10_prix": "1.759",
+    "sp98_maj": "2023-11-24T01:01:00+01:00",
+    "sp98_prix": "1.844",
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc"
     ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Automate CB 24/24"
-    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Loiret",
     "code_departement": "45",
     "region": "Centre-Val de Loire",
