@@ -1,54 +1,5 @@
 [
   {
-    "id": 35770002,
-    "latitude": "4805300",
-    "longitude": -161000,
-    "cp": "35770",
-    "pop": "R",
-    "adresse": "ROUTE DE RENNES",
-    "ville": "Vern-sur-Seiche",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 08:40:22\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 08:40:23\", \"@valeur\": \"1.840\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 08:40:23\", \"@valeur\": \"1.900\"}]",
-    "geom": {
-      "lon": -1.61,
-      "lat": 48.053
-    },
-    "gazole_maj": "2023-11-20T09:40:22+01:00",
-    "gazole_prix": "1.850",
-    "sp95_maj": "2023-11-20T09:40:23+01:00",
-    "sp95_prix": "1.840",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-20T09:40:23+01:00",
-    "sp98_prix": "1.900",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Automate CB 24/24"
-    ],
-    "departement": "Ille-et-Vilaine",
-    "code_departement": "35",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
     "id": 35770006,
     "latitude": "4805500",
     "longitude": -161100,
@@ -99,6 +50,55 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Ille-et-Vilaine",
+    "code_departement": "35",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
+    "id": 35770002,
+    "latitude": "4805300",
+    "longitude": -161000,
+    "cp": "35770",
+    "pop": "R",
+    "adresse": "ROUTE DE RENNES",
+    "ville": "Vern-sur-Seiche",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 08:40:22\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 08:40:23\", \"@valeur\": \"1.840\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 08:40:23\", \"@valeur\": \"1.900\"}]",
+    "geom": {
+      "lon": -1.61,
+      "lat": 48.053
+    },
+    "gazole_maj": "2023-11-20T09:40:22+01:00",
+    "gazole_prix": "1.850",
+    "sp95_maj": "2023-11-20T09:40:23+01:00",
+    "sp95_prix": "1.840",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-11-20T09:40:23+01:00",
+    "sp98_prix": "1.900",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Carburant additivé",
       "Automate CB 24/24"
     ],
     "departement": "Ille-et-Vilaine",
