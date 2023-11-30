@@ -1,5 +1,49 @@
 [
   {
+    "id": 34170004,
+    "latitude": "4364238.77",
+    "longitude": 390297.89,
+    "cp": "34170",
+    "pop": "R",
+    "adresse": "1001 avenue de l'Industrie",
+    "ville": "Castelnau-le-Lez",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 14:05:50\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-18 14:05:50\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 14:05:50\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 14:05:51\", \"@valeur\": \"1.925\"}]",
+    "geom": {
+      "lon": 3.9029789,
+      "lat": 43.64238769999999
+    },
+    "gazole_maj": "2023-11-18T15:05:50+01:00",
+    "gazole_prix": "1.815",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-18T15:05:50+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-18T15:05:50+01:00",
+    "e10_prix": "1.829",
+    "sp98_maj": "2023-11-18T15:05:51+01:00",
+    "sp98_prix": "1.925",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Hérault",
+    "code_departement": "34",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 34170005,
     "latitude": "4363900",
     "longitude": 392700,
@@ -58,50 +102,6 @@
     "code_region": "76"
   },
   {
-    "id": 34170004,
-    "latitude": "4364238.77",
-    "longitude": 390297.89,
-    "cp": "34170",
-    "pop": "R",
-    "adresse": "1001 avenue de l'Industrie",
-    "ville": "Castelnau-le-Lez",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 14:05:50\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-18 14:05:50\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-18 14:05:50\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-18 14:05:51\", \"@valeur\": \"1.925\"}]",
-    "geom": {
-      "lon": 3.9029789,
-      "lat": 43.64238769999999
-    },
-    "gazole_maj": "2023-11-18T15:05:50+01:00",
-    "gazole_prix": "1.815",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-18T15:05:50+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-18T15:05:50+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2023-11-18T15:05:51+01:00",
-    "sp98_prix": "1.925",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Hérault",
-    "code_departement": "34",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 34170001,
     "latitude": "4362300",
     "longitude": 389800,
@@ -111,23 +111,23 @@
     "ville": "Castelnau-le-Lez",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 08:24:52\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-23 08:24:52\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 08:24:52\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 08:24:53\", \"@valeur\": \"1.909\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 06:35:17\", \"@valeur\": \"1.788\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-29 06:35:17\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 06:35:17\", \"@valeur\": \"1.798\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-29 06:35:17\", \"@valeur\": \"1.898\"}]",
     "geom": {
       "lon": 3.898,
       "lat": 43.623
     },
-    "gazole_maj": "2023-11-23T09:24:52+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2023-11-29T07:35:17+01:00",
+    "gazole_prix": "1.788",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-11-23T09:24:52+01:00",
+    "e85_maj": "2023-11-29T07:35:17+01:00",
     "e85_prix": "0.999",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-23T09:24:52+01:00",
-    "e10_prix": "1.809",
-    "sp98_maj": "2023-11-23T09:24:53+01:00",
-    "sp98_prix": "1.909",
+    "e10_maj": "2023-11-29T07:35:17+01:00",
+    "e10_prix": "1.798",
+    "sp98_maj": "2023-11-29T07:35:17+01:00",
+    "sp98_prix": "1.898",
     "carburants_disponibles": [
       "Gazole",
       "E85",

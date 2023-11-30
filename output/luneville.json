@@ -1,5 +1,59 @@
 [
   {
+    "id": 54300002,
+    "latitude": "4859664",
+    "longitude": 647738,
+    "cp": "54300",
+    "pop": "R",
+    "adresse": "60 Boulevard Georges Pompidou",
+    "ville": "Lunéville",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-25 06:08:34\", \"@valeur\": \"1.911\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-28 07:18:27\", \"@valeur\": \"1.871\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-28 07:18:27\", \"@valeur\": \"1.981\"}]",
+    "geom": {
+      "lon": 6.47738,
+      "lat": 48.59664
+    },
+    "gazole_maj": "2023-11-25T07:08:34+01:00",
+    "gazole_prix": "1.911",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-28T08:18:27+01:00",
+    "e10_prix": "1.871",
+    "sp98_maj": "2023-11-28T08:18:27+01:00",
+    "sp98_prix": "1.981",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Meurthe-et-Moselle",
+    "code_departement": "54",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 54300008,
     "latitude": "4859700",
     "longitude": 648200,
@@ -97,60 +151,6 @@
     "code_region": "44"
   },
   {
-    "id": 54300002,
-    "latitude": "4859664",
-    "longitude": 647738,
-    "cp": "54300",
-    "pop": "R",
-    "adresse": "60 Boulevard Georges Pompidou",
-    "ville": "Lunéville",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-18 07:06:03\", \"@valeur\": \"1.902\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 09:33:40\", \"@valeur\": \"1.871\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 09:33:41\", \"@valeur\": \"1.981\"}]",
-    "geom": {
-      "lon": 6.47738,
-      "lat": 48.59664
-    },
-    "gazole_maj": "2023-11-18T08:06:03+01:00",
-    "gazole_prix": "1.902",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-21T10:33:40+01:00",
-    "e10_prix": "1.871",
-    "sp98_maj": "2023-11-21T10:33:41+01:00",
-    "sp98_prix": "1.981",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Meurthe-et-Moselle",
-    "code_departement": "54",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 54300006,
     "latitude": "4860000",
     "longitude": 649200,
@@ -160,23 +160,23 @@
     "ville": "Lunéville",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 09:21:00\", \"@valeur\": \"1.805\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-09 09:16:40\", \"@valeur\": \"0.995\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 09:21:01\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:21:02\", \"@valeur\": \"1.893\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 09:25:14\", \"@valeur\": \"1.824\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-09 09:16:40\", \"@valeur\": \"0.995\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 09:25:14\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-29 09:25:15\", \"@valeur\": \"1.914\"}]",
     "geom": {
       "lon": 6.492,
       "lat": 48.6
     },
-    "gazole_maj": "2023-11-23T10:21:00+01:00",
-    "gazole_prix": "1.805",
+    "gazole_maj": "2023-11-29T10:25:14+01:00",
+    "gazole_prix": "1.824",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-11-09T10:16:40+01:00",
     "e85_prix": "0.995",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-23T10:21:01+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2023-11-22T10:21:02+01:00",
-    "sp98_prix": "1.893",
+    "e10_maj": "2023-11-29T10:25:14+01:00",
+    "e10_prix": "1.825",
+    "sp98_maj": "2023-11-29T10:25:15+01:00",
+    "sp98_prix": "1.914",
     "carburants_disponibles": [
       "Gazole",
       "E85",

@@ -53,6 +53,57 @@
     "code_region": "32"
   },
   {
+    "id": 62280003,
+    "latitude": "5073300",
+    "longitude": 166900,
+    "cp": "62280",
+    "pop": "R",
+    "adresse": "Route Nationale 42",
+    "ville": "Saint-Martin-Boulogne",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-27 10:11:47\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-27 10:11:47\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-24 10:05:51\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": 1.669,
+      "lat": 50.733
+    },
+    "gazole_maj": "2023-11-27T11:11:47+01:00",
+    "gazole_prix": "1.765",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-27T11:11:47+01:00",
+    "e10_prix": "1.745",
+    "sp98_maj": "2023-11-24T11:05:51+01:00",
+    "sp98_prix": "1.829",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Aire de camping-cars",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 62280001,
     "latitude": "5070586",
     "longitude": 161382,
@@ -94,57 +145,6 @@
       "Toilettes publiques",
       "Boutique alimentaire",
       "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 62280003,
-    "latitude": "5073300",
-    "longitude": 166900,
-    "cp": "62280",
-    "pop": "R",
-    "adresse": "Route Nationale 42",
-    "ville": "Saint-Martin-Boulogne",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 09:41:46\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 09:10:58\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 09:41:47\", \"@valeur\": \"1.855\"}]",
-    "geom": {
-      "lon": 1.669,
-      "lat": 50.733
-    },
-    "gazole_maj": "2023-11-20T10:41:46+01:00",
-    "gazole_prix": "1.760",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-21T10:10:58+01:00",
-    "e10_prix": "1.759",
-    "sp98_maj": "2023-11-20T10:41:47+01:00",
-    "sp98_prix": "1.855",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Aire de camping-cars",
-      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
