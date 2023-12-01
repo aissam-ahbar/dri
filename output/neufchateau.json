@@ -1,49 +1,5 @@
 [
   {
-    "id": 88300008,
-    "latitude": "4835392.25",
-    "longitude": 570669.3,
-    "cp": "88300",
-    "pop": "R",
-    "adresse": "24 AVENUE HERRINGEN",
-    "ville": "Neufchâteau",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 00:01:00\", \"@valeur\": \"1.803\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-30 00:01:00\", \"@valeur\": \"1.009\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 00:01:00\", \"@valeur\": \"1.868\"}]",
-    "geom": {
-      "lon": 5.7066930000000005,
-      "lat": 48.3539225
-    },
-    "gazole_maj": "2023-11-30T01:01:00+01:00",
-    "gazole_prix": "1.803",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-30T01:01:00+01:00",
-    "e85_prix": "1.009",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-30T01:01:00+01:00",
-    "sp98_prix": "1.868",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Vosges",
-    "code_departement": "88",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 88300005,
     "latitude": "4836668",
     "longitude": 570118,
@@ -185,6 +141,60 @@
     "code_region": "44"
   },
   {
+    "id": 88300004,
+    "latitude": "4835400",
+    "longitude": 568800,
+    "cp": "88300",
+    "pop": "R",
+    "adresse": "401 QUAI JEAN MOULIN",
+    "ville": "Neufchâteau",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 16:58:18\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 16:58:18\", \"@valeur\": \"1.919\"}]",
+    "geom": {
+      "lon": 5.688,
+      "lat": 48.354
+    },
+    "gazole_maj": "2023-11-20T17:58:18+01:00",
+    "gazole_prix": "1.849",
+    "sp95_maj": "2023-11-20T17:58:18+01:00",
+    "sp95_prix": "1.919",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Bornes électriques",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vosges",
+    "code_departement": "88",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 88300006,
     "latitude": "4835000",
     "longitude": 569400,
@@ -237,54 +247,44 @@
     "code_region": "44"
   },
   {
-    "id": 88300004,
-    "latitude": "4835400",
-    "longitude": 568800,
+    "id": 88300008,
+    "latitude": "4835392.25",
+    "longitude": 570669.3,
     "cp": "88300",
     "pop": "R",
-    "adresse": "401 QUAI JEAN MOULIN",
+    "adresse": "24 AVENUE HERRINGEN",
     "ville": "Neufchâteau",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 16:58:18\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-20 16:58:18\", \"@valeur\": \"1.919\"}]",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.807\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.009\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.876\"}]",
     "geom": {
-      "lon": 5.688,
-      "lat": 48.354
+      "lon": 5.7066930000000005,
+      "lat": 48.3539225
     },
-    "gazole_maj": "2023-11-20T17:58:18+01:00",
-    "gazole_prix": "1.849",
-    "sp95_maj": "2023-11-20T17:58:18+01:00",
-    "sp95_prix": "1.919",
-    "e85_maj": null,
-    "e85_prix": null,
+    "gazole_maj": "2023-12-01T01:01:00+01:00",
+    "gazole_prix": "1.807",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-01T01:01:00+01:00",
+    "e85_prix": "1.009",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2023-12-01T01:01:00+01:00",
+    "sp98_prix": "1.876",
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
       "E85",
-      "GPLc",
-      "E10",
       "SP98"
     ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Services réparation / entretien",
-      "Bornes électriques",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "E10"
     ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Vosges",
     "code_departement": "88",
     "region": "Grand Est",

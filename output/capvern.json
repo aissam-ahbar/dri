@@ -9,32 +9,32 @@
     "ville": "Capvern",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-25 19:15:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-25 19:15:00\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-10 10:18:20\", \"@valeur\": \"0.959\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 14:23:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-30 14:23:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 14:23:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 14:23:00\", \"@valeur\": \"1.839\"}]",
     "geom": {
       "lon": 0.356,
       "lat": 43.112
     },
-    "gazole_maj": "2023-11-25T20:15:00+01:00",
+    "gazole_maj": "2023-11-30T15:23:00+01:00",
     "gazole_prix": "1.794",
-    "sp95_maj": "2023-11-25T20:15:00+01:00",
-    "sp95_prix": "1.839",
-    "e85_maj": "2023-11-10T11:18:20+01:00",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-30T15:23:00+01:00",
     "e85_prix": "0.959",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-11-30T15:23:00+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2023-11-30T15:23:00+01:00",
+    "sp98_prix": "1.839",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
+      "E85",
       "E10",
       "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [

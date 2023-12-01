@@ -1,5 +1,53 @@
 [
   {
+    "id": 14125001,
+    "latitude": "4916300",
+    "longitude": -29800,
+    "cp": "14120",
+    "pop": "R",
+    "adresse": "3 Rue Ambroise Croizat",
+    "ville": "Mondeville",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 20:17:00\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-30 20:17:00\", \"@valeur\": \"1.801\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 20:17:00\", \"@valeur\": \"1.767\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 20:17:00\", \"@valeur\": \"1.815\"}]",
+    "geom": {
+      "lon": -0.298,
+      "lat": 49.163
+    },
+    "gazole_maj": "2023-11-30T21:17:00+01:00",
+    "gazole_prix": "1.758",
+    "sp95_maj": "2023-11-30T21:17:00+01:00",
+    "sp95_prix": "1.801",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-30T21:17:00+01:00",
+    "e10_prix": "1.767",
+    "sp98_maj": "2023-11-30T21:17:00+01:00",
+    "sp98_prix": "1.815",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Calvados",
+    "code_departement": "14",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 14120001,
     "latitude": "4917356",
     "longitude": -32807,
@@ -42,54 +90,6 @@
       "Vente de pétrole lampant",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Calvados",
-    "code_departement": "14",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 14125001,
-    "latitude": "4916300",
-    "longitude": -29800,
-    "cp": "14120",
-    "pop": "R",
-    "adresse": "3 Rue Ambroise Croizat",
-    "ville": "Mondeville",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 20:07:00\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-29 20:07:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 20:07:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-29 20:07:00\", \"@valeur\": \"1.808\"}]",
-    "geom": {
-      "lon": -0.298,
-      "lat": 49.163
-    },
-    "gazole_maj": "2023-11-29T21:07:00+01:00",
-    "gazole_prix": "1.774",
-    "sp95_maj": "2023-11-29T21:07:00+01:00",
-    "sp95_prix": "1.795",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-29T21:07:00+01:00",
-    "e10_prix": "1.761",
-    "sp98_maj": "2023-11-29T21:07:00+01:00",
-    "sp98_prix": "1.808",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Calvados",
     "code_departement": "14",
