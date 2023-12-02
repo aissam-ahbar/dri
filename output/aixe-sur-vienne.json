@@ -1,51 +1,46 @@
 [
   {
-    "id": 87700005,
-    "latitude": "4579800",
-    "longitude": 112400,
+    "id": 87700004,
+    "latitude": "4579090",
+    "longitude": 113539,
     "cp": "87700",
     "pop": "R",
-    "adresse": "zac du grand rieux",
+    "adresse": "RUE JEANNE PICHENAUD",
     "ville": "Aixe-sur-Vienne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 07:36:33\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-05 06:44:30\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-28 07:36:33\", \"@valeur\": \"1.755\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-28 07:36:34\", \"@valeur\": \"1.839\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-25 18:55:38\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-25 18:55:38\", \"@valeur\": \"1.829\"}]",
     "geom": {
-      "lon": 1.124,
-      "lat": 45.798
+      "lon": 1.13539,
+      "lat": 45.7909
     },
-    "gazole_maj": "2023-11-28T08:36:33+01:00",
+    "gazole_maj": "2023-11-25T19:55:38+01:00",
     "gazole_prix": "1.749",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-05T07:44:30+01:00",
-    "e85_prix": "0.999",
+    "sp95_maj": "2023-11-25T19:55:38+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-28T08:36:33+01:00",
-    "e10_prix": "1.755",
-    "sp98_maj": "2023-11-28T08:36:34+01:00",
-    "sp98_prix": "1.839",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
       "E85",
+      "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de pétrole lampant",
       "Station de gonflage",
-      "Piste poids lourds",
       "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Haute-Vienne",
     "code_departement": "87",
@@ -104,47 +99,52 @@
     "code_region": "75"
   },
   {
-    "id": 87700004,
-    "latitude": "4579090",
-    "longitude": 113539,
+    "id": 87700005,
+    "latitude": "4579800",
+    "longitude": 112400,
     "cp": "87700",
     "pop": "R",
-    "adresse": "RUE JEANNE PICHENAUD",
+    "adresse": "zac du grand rieux",
     "ville": "Aixe-sur-Vienne",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-25 18:55:38\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-25 18:55:38\", \"@valeur\": \"1.829\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 07:36:33\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-05 06:44:30\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-28 07:36:33\", \"@valeur\": \"1.755\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-28 07:36:34\", \"@valeur\": \"1.839\"}]",
     "geom": {
-      "lon": 1.13539,
-      "lat": 45.7909
+      "lon": 1.124,
+      "lat": 45.798
     },
-    "gazole_maj": "2023-11-25T19:55:38+01:00",
+    "gazole_maj": "2023-11-28T08:36:33+01:00",
     "gazole_prix": "1.749",
-    "sp95_maj": "2023-11-25T19:55:38+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-05T07:44:30+01:00",
+    "e85_prix": "0.999",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-11-28T08:36:33+01:00",
+    "e10_prix": "1.755",
+    "sp98_maj": "2023-11-28T08:36:34+01:00",
+    "sp98_prix": "1.839",
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
       "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
-    "horaires_automate_24_24": "Non",
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Vente de pétrole lampant",
       "Station de gonflage",
+      "Piste poids lourds",
       "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Vienne",
     "code_departement": "87",

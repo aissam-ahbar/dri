@@ -9,13 +9,13 @@
     "ville": "Castelnaudary",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 08:49:53\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-15 07:34:52\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 08:49:53\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 05:30:28\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-15 07:34:52\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 08:49:53\", \"@valeur\": \"1.829\"}]",
     "geom": {
       "lon": 1.95867,
       "lat": 43.30462
     },
-    "gazole_maj": "2023-11-30T09:49:53+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2023-12-01T06:30:28+01:00",
+    "gazole_prix": "1.769",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-11-15T08:34:52+01:00",
@@ -100,6 +100,61 @@
     "code_region": "76"
   },
   {
+    "id": 11400006,
+    "latitude": "4332400",
+    "longitude": 193700,
+    "cp": "11400",
+    "pop": "R",
+    "adresse": "1033 Avenue Martin dauch",
+    "ville": "Castelnaudary",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-14 08:39:16\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 08:39:17\", \"@valeur\": \"1.979\"}]",
+    "geom": {
+      "lon": 1.937,
+      "lat": 43.324
+    },
+    "gazole_maj": "2023-11-14T09:39:16+01:00",
+    "gazole_prix": "1.899",
+    "sp95_maj": "2023-11-14T09:39:17+01:00",
+    "sp95_prix": "1.979",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Bar",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants"
+    ],
+    "departement": "Aude",
+    "code_departement": "11",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 11400004,
     "latitude": "4331100",
     "longitude": 197100,
@@ -149,61 +204,6 @@
       "Services réparation / entretien",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aude",
-    "code_departement": "11",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 11400006,
-    "latitude": "4332400",
-    "longitude": 193700,
-    "cp": "11400",
-    "pop": "R",
-    "adresse": "1033 Avenue Martin dauch",
-    "ville": "Castelnaudary",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-14 08:39:16\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 08:39:17\", \"@valeur\": \"1.979\"}]",
-    "geom": {
-      "lon": 1.937,
-      "lat": 43.324
-    },
-    "gazole_maj": "2023-11-14T09:39:16+01:00",
-    "gazole_prix": "1.899",
-    "sp95_maj": "2023-11-14T09:39:17+01:00",
-    "sp95_prix": "1.979",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Bar",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants"
     ],
     "departement": "Aude",
     "code_departement": "11",

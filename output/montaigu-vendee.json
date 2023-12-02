@@ -50,6 +50,58 @@
     "code_region": "52"
   },
   {
+    "id": 85600003,
+    "latitude": "4696900",
+    "longitude": -133100,
+    "cp": "85600",
+    "pop": "R",
+    "adresse": "ROND POINT PORTE DE BOUFFERE",
+    "ville": "Montaigu-Vendée",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 15:19:50\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-27 14:56:51\", \"@valeur\": \"0.954\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-27 19:13:01\", \"@valeur\": \"0.952\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 15:19:50\", \"@valeur\": \"1.694\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 15:19:50\", \"@valeur\": \"1.783\"}]",
+    "geom": {
+      "lon": -1.331,
+      "lat": 46.969
+    },
+    "gazole_maj": "2023-11-30T16:19:50+01:00",
+    "gazole_prix": "1.710",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-27T15:56:51+01:00",
+    "e85_prix": "0.954",
+    "gplc_maj": "2023-10-27T21:13:01+02:00",
+    "gplc_prix": "0.952",
+    "e10_maj": "2023-11-30T16:19:50+01:00",
+    "e10_prix": "1.694",
+    "sp98_maj": "2023-11-30T16:19:50+01:00",
+    "sp98_prix": "1.783",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Vendée",
+    "code_departement": "85",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 85600002,
     "latitude": "4697987.89",
     "longitude": -129923.37729927,
@@ -240,58 +292,6 @@
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Vendée",
-    "code_departement": "85",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 85600003,
-    "latitude": "4696900",
-    "longitude": -133100,
-    "cp": "85600",
-    "pop": "R",
-    "adresse": "ROND POINT PORTE DE BOUFFERE",
-    "ville": "Montaigu-Vendée",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 15:19:50\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-27 14:56:51\", \"@valeur\": \"0.954\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-27 19:13:01\", \"@valeur\": \"0.952\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 15:19:50\", \"@valeur\": \"1.694\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 15:19:50\", \"@valeur\": \"1.783\"}]",
-    "geom": {
-      "lon": -1.331,
-      "lat": 46.969
-    },
-    "gazole_maj": "2023-11-30T16:19:50+01:00",
-    "gazole_prix": "1.710",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-27T15:56:51+01:00",
-    "e85_prix": "0.954",
-    "gplc_maj": "2023-10-27T21:13:01+02:00",
-    "gplc_prix": "0.952",
-    "e10_maj": "2023-11-30T16:19:50+01:00",
-    "e10_prix": "1.694",
-    "sp98_maj": "2023-11-30T16:19:50+01:00",
-    "sp98_prix": "1.783",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Vendée",
     "code_departement": "85",
