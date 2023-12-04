@@ -61,7 +61,7 @@
     "ville": "Albertville",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 10:56:22\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 09:23:53\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-14 09:23:53\", \"@valeur\": \"1.899\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 10:56:22\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-14 09:23:53\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 10:24:58\", \"@valeur\": \"1.889\"}]",
     "geom": {
       "lon": 6.37303,
       "lat": 45.66783
@@ -76,8 +76,8 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2023-11-14T10:23:53+01:00",
-    "sp98_prix": "1.899",
+    "sp98_maj": "2023-12-02T11:24:58+01:00",
+    "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -160,57 +160,6 @@
     "code_region": "84"
   },
   {
-    "id": 73200006,
-    "latitude": "4567265",
-    "longitude": 639194,
-    "cp": "73200",
-    "pop": "R",
-    "adresse": "20 AVENUE DES CHASSEURS ALPINS",
-    "ville": "Albertville",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.778\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.798\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.891\"}]",
-    "geom": {
-      "lon": 6.39194,
-      "lat": 45.67265
-    },
-    "gazole_maj": "2023-12-01T01:01:00+01:00",
-    "gazole_prix": "1.778",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-01T01:01:00+01:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-01T01:01:00+01:00",
-    "e10_prix": "1.798",
-    "sp98_maj": "2023-12-01T01:01:00+01:00",
-    "sp98_prix": "1.891",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Savoie",
-    "code_departement": "73",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 73200005,
     "latitude": "4566100",
     "longitude": 638200,
@@ -254,6 +203,57 @@
       "Station de gonflage",
       "Location de véhicule",
       "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Savoie",
+    "code_departement": "73",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 73200006,
+    "latitude": "4567265",
+    "longitude": 639194,
+    "cp": "73200",
+    "pop": "R",
+    "adresse": "20 AVENUE DES CHASSEURS ALPINS",
+    "ville": "Albertville",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.775\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.879\"}]",
+    "geom": {
+      "lon": 6.39194,
+      "lat": 45.67265
+    },
+    "gazole_maj": "2023-12-03T01:01:00+01:00",
+    "gazole_prix": "1.775",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-03T01:01:00+01:00",
+    "e85_prix": "0.994",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-03T01:01:00+01:00",
+    "e10_prix": "1.786",
+    "sp98_maj": "2023-12-03T01:01:00+01:00",
+    "sp98_prix": "1.879",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

@@ -1,49 +1,5 @@
 [
   {
-    "id": 76200002,
-    "latitude": "4991600",
-    "longitude": 107500,
-    "cp": "76200",
-    "pop": "R",
-    "adresse": "78 RUE GAMBETTA",
-    "ville": "Dieppe",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-26 03:02:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-26 03:02:00\", \"@valeur\": \"1.753\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-26 03:02:00\", \"@valeur\": \"1.833\"}]",
-    "geom": {
-      "lon": 1.075,
-      "lat": 49.916
-    },
-    "gazole_maj": "2023-11-26T04:02:00+01:00",
-    "gazole_prix": "1.768",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-26T04:02:00+01:00",
-    "e10_prix": "1.753",
-    "sp98_maj": "2023-11-26T04:02:00+01:00",
-    "sp98_prix": "1.833",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Seine-Maritime",
-    "code_departement": "76",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
     "id": 76200003,
     "latitude": "4991900",
     "longitude": 108600,
@@ -96,6 +52,50 @@
     "code_region": "28"
   },
   {
+    "id": 76200004,
+    "latitude": "4990522",
+    "longitude": 107678,
+    "cp": "76200",
+    "pop": "R",
+    "adresse": "AVENUE DES CANADIENS",
+    "ville": "Dieppe",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.756\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}]",
+    "geom": {
+      "lon": 1.07678,
+      "lat": 49.90522
+    },
+    "gazole_maj": "2023-12-03T01:01:00+01:00",
+    "gazole_prix": "1.756",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-03T01:01:00+01:00",
+    "e85_prix": "0.994",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Seine-Maritime",
+    "code_departement": "76",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 76371001,
     "latitude": "4991000",
     "longitude": 107700,
@@ -105,13 +105,13 @@
     "ville": "Dieppe",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-27 08:26:46\", \"@valeur\": \"1.775\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-20 09:55:40\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-20 09:55:40\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 07:34:52\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-27 08:26:47\", \"@valeur\": \"1.837\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 08:00:00\", \"@valeur\": \"1.767\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-20 09:55:40\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-20 09:55:40\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 07:34:52\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-27 08:26:47\", \"@valeur\": \"1.837\"}]",
     "geom": {
       "lon": 1.077,
       "lat": 49.91
     },
-    "gazole_maj": "2023-11-27T09:26:46+01:00",
-    "gazole_prix": "1.775",
+    "gazole_maj": "2023-12-01T09:00:00+01:00",
+    "gazole_prix": "1.767",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-11-20T10:55:40+01:00",
@@ -156,50 +156,6 @@
     "code_region": "28"
   },
   {
-    "id": 76200004,
-    "latitude": "4990522",
-    "longitude": 107678,
-    "cp": "76200",
-    "pop": "R",
-    "adresse": "AVENUE DES CANADIENS",
-    "ville": "Dieppe",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.753\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 00:01:00\", \"@valeur\": \"1.837\"}]",
-    "geom": {
-      "lon": 1.07678,
-      "lat": 49.90522
-    },
-    "gazole_maj": "2023-12-01T01:01:00+01:00",
-    "gazole_prix": "1.768",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-01T01:01:00+01:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-01T01:01:00+01:00",
-    "e10_prix": "1.753",
-    "sp98_maj": "2023-12-01T01:01:00+01:00",
-    "sp98_prix": "1.837",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Seine-Maritime",
-    "code_departement": "76",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
     "id": 76370001,
     "latitude": "4992600",
     "longitude": 111500,
@@ -209,14 +165,14 @@
     "ville": "Dieppe",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 08:34:04\", \"@valeur\": \"1.837\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-30 08:34:04\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 08:34:05\", \"@valeur\": \"1.874\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 09:21:01\", \"@valeur\": \"1.837\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 09:21:01\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 09:21:01\", \"@valeur\": \"1.874\"}]",
     "geom": {
       "lon": 1.115,
       "lat": 49.926
     },
-    "gazole_maj": "2023-11-30T09:34:04+01:00",
+    "gazole_maj": "2023-12-01T10:21:01+01:00",
     "gazole_prix": "1.837",
-    "sp95_maj": "2023-11-30T09:34:04+01:00",
+    "sp95_maj": "2023-12-01T10:21:01+01:00",
     "sp95_prix": "1.850",
     "e85_maj": null,
     "e85_prix": null,
@@ -224,7 +180,7 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2023-11-30T09:34:05+01:00",
+    "sp98_maj": "2023-12-01T10:21:01+01:00",
     "sp98_prix": "1.874",
     "carburants_disponibles": [
       "Gazole",
@@ -244,6 +200,50 @@
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
+    "departement": "Seine-Maritime",
+    "code_departement": "76",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
+    "id": 76200002,
+    "latitude": "4991600",
+    "longitude": 107500,
+    "cp": "76200",
+    "pop": "R",
+    "adresse": "78 RUE GAMBETTA",
+    "ville": "Dieppe",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 03:17:00\", \"@valeur\": \"1.756\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 03:17:00\", \"@valeur\": \"1.753\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 03:17:00\", \"@valeur\": \"1.833\"}]",
+    "geom": {
+      "lon": 1.075,
+      "lat": 49.916
+    },
+    "gazole_maj": "2023-12-02T04:17:00+01:00",
+    "gazole_prix": "1.756",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-02T04:17:00+01:00",
+    "e10_prix": "1.753",
+    "sp98_maj": "2023-12-02T04:17:00+01:00",
+    "sp98_prix": "1.833",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Seine-Maritime",
     "code_departement": "76",
     "region": "Normandie",

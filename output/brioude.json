@@ -9,15 +9,15 @@
     "ville": "Brioude",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 07:52:37\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-25 07:07:16\", \"@valeur\": \"1.923\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 07:05:49\", \"@valeur\": \"1.854\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-02 07:05:50\", \"@valeur\": \"1.914\"}]",
     "geom": {
       "lon": 3.369,
       "lat": 45.289
     },
-    "gazole_maj": "2023-11-28T08:52:37+01:00",
-    "gazole_prix": "1.859",
-    "sp95_maj": "2023-11-25T08:07:16+01:00",
-    "sp95_prix": "1.923",
+    "gazole_maj": "2023-12-02T08:05:49+01:00",
+    "gazole_prix": "1.854",
+    "sp95_maj": "2023-12-02T08:05:50+01:00",
+    "sp95_prix": "1.914",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -55,6 +55,52 @@
     "code_region": "84"
   },
   {
+    "id": 43100003,
+    "latitude": "4528982",
+    "longitude": 338717,
+    "cp": "43100",
+    "pop": "R",
+    "adresse": "Avenue Léon Blum",
+    "ville": "Brioude",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de fioul domestique\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 08:25:37\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 08:25:37\", \"@valeur\": \"1.959\"}]",
+    "geom": {
+      "lon": 3.38717,
+      "lat": 45.28982
+    },
+    "gazole_maj": "2023-12-02T09:25:37+01:00",
+    "gazole_prix": "1.839",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-02T09:25:37+01:00",
+    "sp98_prix": "1.959",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 43100004,
     "latitude": "4530000",
     "longitude": 338000,
@@ -64,7 +110,7 @@
     "ville": "Brioude",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-24 07:59:17\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-24 07:59:17\", \"@valeur\": \"1.946\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-27 08:27:54\", \"@valeur\": \"1.196\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-24 07:59:17\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-24 07:59:17\", \"@valeur\": \"1.946\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 07:49:30\", \"@valeur\": \"1.096\"}]",
     "geom": {
       "lon": 3.38,
       "lat": 45.3
@@ -73,8 +119,8 @@
     "gazole_prix": "1.866",
     "sp95_maj": "2023-11-24T08:59:17+01:00",
     "sp95_prix": "1.946",
-    "e85_maj": "2023-11-27T09:27:54+01:00",
-    "e85_prix": "1.196",
+    "e85_maj": "2023-12-01T08:49:30+01:00",
+    "e85_prix": "1.096",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -104,52 +150,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 43100003,
-    "latitude": "4528982",
-    "longitude": 338717,
-    "cp": "43100",
-    "pop": "R",
-    "adresse": "Avenue Léon Blum",
-    "ville": "Brioude",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de fioul domestique\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 08:40:22\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 08:40:23\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-29 08:40:23\", \"@valeur\": \"1.979\"}]",
-    "geom": {
-      "lon": 3.38717,
-      "lat": 45.28982
-    },
-    "gazole_maj": "2023-11-29T09:40:22+01:00",
-    "gazole_prix": "1.859",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-29T09:40:23+01:00",
-    "e10_prix": "1.889",
-    "sp98_maj": "2023-11-29T09:40:23+01:00",
-    "sp98_prix": "1.979",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique"
     ],
     "departement": "Haute-Loire",
     "code_departement": "43",
