@@ -9,13 +9,13 @@
     "ville": "Carqueiranne",
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": null,
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 07:03:43\", \"@valeur\": \"1.759\"}",
     "geom": {
       "lon": 6.07816,
       "lat": 43.09261
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2023-12-04T08:03:43+01:00",
+    "gazole_prix": "1.759",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -26,8 +26,16 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "carburants_disponibles": [
+      "Gazole"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"

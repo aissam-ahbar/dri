@@ -54,6 +54,57 @@
     "code_region": "75"
   },
   {
+    "id": 17201001,
+    "latitude": "4563165.8119",
+    "longitude": -99245.4955339,
+    "cp": "17200",
+    "pop": "R",
+    "adresse": "Rue Laurent-Antoine de Lavoisier",
+    "ville": "Royan",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 08:00:00\", \"@valeur\": \"1.701\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-13 08:00:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-30 08:00:00\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 08:00:00\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 08:00:00\", \"@valeur\": \"1.795\"}]",
+    "geom": {
+      "lon": -0.992454955339,
+      "lat": 45.631658119
+    },
+    "gazole_maj": "2023-11-29T09:00:00+01:00",
+    "gazole_prix": "1.701",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-13T09:00:00+01:00",
+    "e85_prix": "0.949",
+    "gplc_maj": "2023-10-30T09:00:00+01:00",
+    "gplc_prix": "0.849",
+    "e10_maj": "2023-12-04T09:00:00+01:00",
+    "e10_prix": "1.725",
+    "sp98_maj": "2023-12-04T09:00:00+01:00",
+    "sp98_prix": "1.795",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Charente-Maritime",
+    "code_departement": "17",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 17200003,
     "latitude": "4564756.29563",
     "longitude": -102447.404804,
@@ -63,13 +114,13 @@
     "ville": "Royan",
     "horaires": null,
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 09:00:41\", \"@valeur\": \"1.868\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-27 09:12:20\", \"@valeur\": \"1.926\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 08:00:20\", \"@valeur\": \"1.858\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-27 09:12:20\", \"@valeur\": \"1.926\"}]",
     "geom": {
       "lon": -1.02447404804,
       "lat": 45.64756295629999
     },
-    "gazole_maj": "2023-11-28T10:00:41+01:00",
-    "gazole_prix": "1.868",
+    "gazole_maj": "2023-12-04T09:00:20+01:00",
+    "gazole_prix": "1.858",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -142,57 +193,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Charente-Maritime",
-    "code_departement": "17",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 17201001,
-    "latitude": "4563165.8119",
-    "longitude": -99245.4955339,
-    "cp": "17200",
-    "pop": "R",
-    "adresse": "Rue Laurent-Antoine de Lavoisier",
-    "ville": "Royan",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 08:00:00\", \"@valeur\": \"1.701\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-13 08:00:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-30 08:00:00\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 08:00:00\", \"@valeur\": \"1.695\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-29 08:00:00\", \"@valeur\": \"1.770\"}]",
-    "geom": {
-      "lon": -0.992454955339,
-      "lat": 45.631658119
-    },
-    "gazole_maj": "2023-11-29T09:00:00+01:00",
-    "gazole_prix": "1.701",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-13T09:00:00+01:00",
-    "e85_prix": "0.949",
-    "gplc_maj": "2023-10-30T09:00:00+01:00",
-    "gplc_prix": "0.849",
-    "e10_maj": "2023-11-29T09:00:00+01:00",
-    "e10_prix": "1.695",
-    "sp98_maj": "2023-11-29T09:00:00+01:00",
-    "sp98_prix": "1.770",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
     "departement": "Charente-Maritime",
     "code_departement": "17",
     "region": "Nouvelle-Aquitaine",

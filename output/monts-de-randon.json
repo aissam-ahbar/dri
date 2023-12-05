@@ -9,32 +9,32 @@
     "ville": "Monts-de-Randon",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 10:26:54\", \"@valeur\": \"1.840\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-06 09:37:37\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-10-07 11:19:29\", \"@valeur\": \"2.100\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 10:26:54\", \"@valeur\": \"1.840\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 11:11:44\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-10-07 11:19:29\", \"@valeur\": \"2.100\"}]",
     "geom": {
       "lon": 3.47619,
       "lat": 44.63336
     },
     "gazole_maj": "2023-11-20T11:26:54+01:00",
     "gazole_prix": "1.840",
-    "sp95_maj": "2023-11-06T10:37:37+01:00",
-    "sp95_prix": "1.930",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2023-12-04T12:11:44+01:00",
+    "e10_prix": "1.930",
     "sp98_maj": "2023-10-07T13:19:29+02:00",
     "sp98_prix": "2.100",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

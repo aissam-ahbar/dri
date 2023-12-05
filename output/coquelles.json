@@ -54,6 +54,55 @@
     "code_region": "32"
   },
   {
+    "id": 62901001,
+    "latitude": "5093700",
+    "longitude": 180900,
+    "cp": "62231",
+    "pop": "R",
+    "adresse": "1001 BOULEVARD DU KENT",
+    "ville": "Coquelles",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 08:12:06\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-04 08:12:06\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-04 08:12:06\", \"@valeur\": \"1.019\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-04 08:12:06\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 08:12:06\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 08:12:06\", \"@valeur\": \"1.839\"}]",
+    "geom": {
+      "lon": 1.809,
+      "lat": 50.937
+    },
+    "gazole_maj": "2023-12-04T09:12:06+01:00",
+    "gazole_prix": "1.779",
+    "sp95_maj": "2023-12-04T09:12:06+01:00",
+    "sp95_prix": "1.815",
+    "e85_maj": "2023-12-04T09:12:06+01:00",
+    "e85_prix": "1.019",
+    "gplc_maj": "2023-12-04T09:12:06+01:00",
+    "gplc_prix": "0.990",
+    "e10_maj": "2023-12-04T09:12:06+01:00",
+    "e10_prix": "1.759",
+    "sp98_maj": "2023-12-04T09:12:06+01:00",
+    "sp98_prix": "1.839",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Aire de camping-cars",
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 62100025,
     "latitude": "5093400.83071",
     "longitude": 181756.520355,
@@ -149,55 +198,6 @@
     "services_service": [
       "Piste poids lourds",
       "Vente d'additifs carburants"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 62901001,
-    "latitude": "5093700",
-    "longitude": 180900,
-    "cp": "62231",
-    "pop": "R",
-    "adresse": "1001 BOULEVARD DU KENT",
-    "ville": "Coquelles",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 07:59:30\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 07:59:31\", \"@valeur\": \"1.835\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 07:59:31\", \"@valeur\": \"1.019\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-01 07:59:31\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 07:59:31\", \"@valeur\": \"1.783\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 07:59:31\", \"@valeur\": \"1.869\"}]",
-    "geom": {
-      "lon": 1.809,
-      "lat": 50.937
-    },
-    "gazole_maj": "2023-12-01T08:59:30+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": "2023-12-01T08:59:31+01:00",
-    "sp95_prix": "1.835",
-    "e85_maj": "2023-12-01T08:59:31+01:00",
-    "e85_prix": "1.019",
-    "gplc_maj": "2023-12-01T08:59:31+01:00",
-    "gplc_prix": "0.990",
-    "e10_maj": "2023-12-01T08:59:31+01:00",
-    "e10_prix": "1.783",
-    "sp98_maj": "2023-12-01T08:59:31+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": null,
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Aire de camping-cars",
-      "Piste poids lourds",
-      "Automate CB 24/24"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",
