@@ -103,59 +103,6 @@
     "code_region": "93"
   },
   {
-    "id": 6400001,
-    "latitude": "4355530",
-    "longitude": 702483,
-    "cp": "06400",
-    "pop": "R",
-    "adresse": "26 Boulevard de la République",
-    "ville": "Cannes",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 09:11:02\", \"@valeur\": \"1.884\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 09:11:08\", \"@valeur\": \"1.897\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-24 09:18:46\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 7.02483,
-      "lat": 43.5553
-    },
-    "gazole_maj": "2023-12-02T10:11:02+01:00",
-    "gazole_prix": "1.884",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-02T10:11:08+01:00",
-    "e10_prix": "1.897",
-    "sp98_maj": "2023-11-24T10:18:46+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Alpes-Maritimes",
-    "code_departement": "06",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 6150004,
     "latitude": "4355000",
     "longitude": 697000,
@@ -205,6 +152,59 @@
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Alpes-Maritimes",
+    "code_departement": "06",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 6400001,
+    "latitude": "4355530",
+    "longitude": 702483,
+    "cp": "06400",
+    "pop": "R",
+    "adresse": "26 Boulevard de la République",
+    "ville": "Cannes",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 09:11:02\", \"@valeur\": \"1.884\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 09:11:08\", \"@valeur\": \"1.897\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-24 09:18:46\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 7.02483,
+      "lat": 43.5553
+    },
+    "gazole_maj": "2023-12-02T10:11:02+01:00",
+    "gazole_prix": "1.884",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-02T10:11:08+01:00",
+    "e10_prix": "1.897",
+    "sp98_maj": "2023-11-24T10:18:46+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Alpes-Maritimes",
     "code_departement": "06",
@@ -362,50 +362,6 @@
     "code_region": "93"
   },
   {
-    "id": 6400004,
-    "latitude": "4354700",
-    "longitude": 704600,
-    "cp": "06400",
-    "pop": "R",
-    "adresse": "106 Avenue Maréchal Juin",
-    "ville": "Cannes",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 11:52:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 11:52:00\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 11:52:00\", \"@valeur\": \"1.932\"}]",
-    "geom": {
-      "lon": 7.046,
-      "lat": 43.547
-    },
-    "gazole_maj": "2023-12-02T12:52:00+01:00",
-    "gazole_prix": "1.812",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-02T12:52:00+01:00",
-    "e10_prix": "1.852",
-    "sp98_maj": "2023-12-02T12:52:00+01:00",
-    "sp98_prix": "1.932",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Alpes-Maritimes",
-    "code_departement": "06",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 6400010,
     "latitude": "4355857",
     "longitude": 700235,
@@ -452,6 +408,50 @@
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
+    "departement": "Alpes-Maritimes",
+    "code_departement": "06",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 6400004,
+    "latitude": "4354700",
+    "longitude": 704600,
+    "cp": "06400",
+    "pop": "R",
+    "adresse": "106 Avenue Maréchal Juin",
+    "ville": "Cannes",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 11:52:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 11:52:00\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 11:52:00\", \"@valeur\": \"1.932\"}]",
+    "geom": {
+      "lon": 7.046,
+      "lat": 43.547
+    },
+    "gazole_maj": "2023-12-02T12:52:00+01:00",
+    "gazole_prix": "1.812",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-02T12:52:00+01:00",
+    "e10_prix": "1.852",
+    "sp98_maj": "2023-12-02T12:52:00+01:00",
+    "sp98_prix": "1.932",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Alpes-Maritimes",
     "code_departement": "06",
     "region": "Provence-Alpes-Côte d'Azur",

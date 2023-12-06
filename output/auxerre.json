@@ -87,6 +87,53 @@
     "code_region": "27"
   },
   {
+    "id": 89000012,
+    "latitude": "4779555.94",
+    "longitude": 358449.08,
+    "cp": "89000",
+    "pop": "R",
+    "adresse": "BD DE VERDUN",
+    "ville": "Auxerre",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-24 08:00:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 08:30:00\", \"@valeur\": \"1.849\"}]",
+    "geom": {
+      "lon": 3.5844908,
+      "lat": 47.7955594
+    },
+    "gazole_maj": "2023-12-01T09:30:00+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-24T09:00:00+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-01T09:30:00+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2023-12-01T09:30:00+01:00",
+    "sp98_prix": "1.849",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Yonne",
+    "code_departement": "89",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 89000001,
     "latitude": "4781522.6277037",
     "longitude": 357263.98863196,
@@ -233,53 +280,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Yonne",
-    "code_departement": "89",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 89000012,
-    "latitude": "4779555.94",
-    "longitude": 358449.08,
-    "cp": "89000",
-    "pop": "R",
-    "adresse": "BD DE VERDUN",
-    "ville": "Auxerre",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-24 08:00:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 08:30:00\", \"@valeur\": \"1.849\"}]",
-    "geom": {
-      "lon": 3.5844908,
-      "lat": 47.7955594
-    },
-    "gazole_maj": "2023-12-01T09:30:00+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-24T09:00:00+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-01T09:30:00+01:00",
-    "e10_prix": "1.799",
-    "sp98_maj": "2023-12-01T09:30:00+01:00",
-    "sp98_prix": "1.849",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Automate CB 24/24"
     ],
     "departement": "Yonne",
     "code_departement": "89",

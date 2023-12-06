@@ -100,6 +100,62 @@
     "code_region": "32"
   },
   {
+    "id": 62100002,
+    "latitude": "5095300",
+    "longitude": 185300,
+    "cp": "62100",
+    "pop": "R",
+    "adresse": "23 Rue Paul Bert",
+    "ville": "Calais",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"13.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 07:10:41\", \"@valeur\": \"1.862\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 07:10:42\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 07:10:42\", \"@valeur\": \"1.957\"}]",
+    "geom": {
+      "lon": 1.853,
+      "lat": 50.953
+    },
+    "gazole_maj": "2023-12-04T08:10:41+01:00",
+    "gazole_prix": "1.862",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-04T08:10:42+01:00",
+    "e10_prix": "1.847",
+    "sp98_maj": "2023-12-04T08:10:42+01:00",
+    "sp98_prix": "1.957",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 62100024,
     "latitude": "5095575",
     "longitude": 190807,
@@ -196,62 +252,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 62100002,
-    "latitude": "5095300",
-    "longitude": 185300,
-    "cp": "62100",
-    "pop": "R",
-    "adresse": "23 Rue Paul Bert",
-    "ville": "Calais",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"13.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 07:10:41\", \"@valeur\": \"1.862\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 07:10:42\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 07:10:42\", \"@valeur\": \"1.957\"}]",
-    "geom": {
-      "lon": 1.853,
-      "lat": 50.953
-    },
-    "gazole_maj": "2023-12-04T08:10:41+01:00",
-    "gazole_prix": "1.862",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-04T08:10:42+01:00",
-    "e10_prix": "1.847",
-    "sp98_maj": "2023-12-04T08:10:42+01:00",
-    "sp98_prix": "1.957",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Pas-de-Calais",
