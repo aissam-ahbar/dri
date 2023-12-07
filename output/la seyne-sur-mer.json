@@ -207,55 +207,6 @@
     "code_region": "93"
   },
   {
-    "id": 83500005,
-    "latitude": "4308300",
-    "longitude": 589400,
-    "cp": "83500",
-    "pop": "R",
-    "adresse": "Chemin de l'evescat aux sablettes",
-    "ville": "La Seyne-sur-Mer",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.738\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.813\"}]",
-    "geom": {
-      "lon": 5.894,
-      "lat": 43.083
-    },
-    "gazole_maj": "2023-12-04T11:19:14+01:00",
-    "gazole_prix": "1.735",
-    "sp95_maj": "2023-12-04T11:19:14+01:00",
-    "sp95_prix": "1.809",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-04T11:19:14+01:00",
-    "e10_prix": "1.738",
-    "sp98_maj": "2023-12-04T11:19:14+01:00",
-    "sp98_prix": "1.813",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 83500013,
     "latitude": "4310800",
     "longitude": 586800,
@@ -304,6 +255,55 @@
       "Vente d'additifs carburants",
       "Wifi",
       "Automate CB 24/24"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 83500005,
+    "latitude": "4308300",
+    "longitude": 589400,
+    "cp": "83500",
+    "pop": "R",
+    "adresse": "Chemin de l'evescat aux sablettes",
+    "ville": "La Seyne-sur-Mer",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.738\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 10:19:14\", \"@valeur\": \"1.813\"}]",
+    "geom": {
+      "lon": 5.894,
+      "lat": 43.083
+    },
+    "gazole_maj": "2023-12-04T11:19:14+01:00",
+    "gazole_prix": "1.735",
+    "sp95_maj": "2023-12-04T11:19:14+01:00",
+    "sp95_prix": "1.809",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-04T11:19:14+01:00",
+    "e10_prix": "1.738",
+    "sp98_maj": "2023-12-04T11:19:14+01:00",
+    "sp98_prix": "1.813",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Var",
     "code_departement": "83",

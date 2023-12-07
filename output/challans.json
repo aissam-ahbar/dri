@@ -1,5 +1,56 @@
 [
   {
+    "id": 85300001,
+    "latitude": "4684600",
+    "longitude": -188200,
+    "cp": "85300",
+    "pop": "R",
+    "adresse": "3 Boulevard des F.f.i.",
+    "ville": "Challans",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 08:00:00\", \"@valeur\": \"1.909\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-28 11:40:46\", \"@valeur\": \"1.929\"}]",
+    "geom": {
+      "lon": -1.882,
+      "lat": 46.846
+    },
+    "gazole_maj": "2023-11-29T09:00:00+01:00",
+    "gazole_prix": "1.909",
+    "sp95_maj": "2023-11-28T12:40:46+01:00",
+    "sp95_prix": "1.929",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage manuel",
+      "Services réparation / entretien"
+    ],
+    "departement": "Vendée",
+    "code_departement": "85",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 85300005,
     "latitude": "4684834.725",
     "longitude": -187706.86875252,
@@ -106,57 +157,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vendée",
-    "code_departement": "85",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 85300001,
-    "latitude": "4684600",
-    "longitude": -188200,
-    "cp": "85300",
-    "pop": "R",
-    "adresse": "3 Boulevard des F.f.i.",
-    "ville": "Challans",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 08:00:00\", \"@valeur\": \"1.909\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-28 11:40:46\", \"@valeur\": \"1.929\"}]",
-    "geom": {
-      "lon": -1.882,
-      "lat": 46.846
-    },
-    "gazole_maj": "2023-11-29T09:00:00+01:00",
-    "gazole_prix": "1.909",
-    "sp95_maj": "2023-11-28T12:40:46+01:00",
-    "sp95_prix": "1.929",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage manuel",
-      "Services réparation / entretien"
     ],
     "departement": "Vendée",
     "code_departement": "85",

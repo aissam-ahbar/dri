@@ -1,5 +1,62 @@
 [
   {
+    "id": 59114006,
+    "latitude": "5082600",
+    "longitude": 258600,
+    "cp": "59114",
+    "pop": "A",
+    "adresse": "AUTOROUTE A25 - AIRE DE ST LAURENT",
+    "ville": "Steenvoorde",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"GNV\", \"Bornes électriques\", \"Wifi\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 12:35:00\", \"@valeur\": \"1.941\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-17 13:15:00\", \"@valeur\": \"1.125\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-28 12:35:00\", \"@valeur\": \"1.942\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-28 12:35:00\", \"@valeur\": \"2.058\"}]",
+    "geom": {
+      "lon": 2.586,
+      "lat": 50.826
+    },
+    "gazole_maj": "2023-11-28T13:35:00+01:00",
+    "gazole_prix": "1.941",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-10-17T15:15:00+02:00",
+    "gplc_prix": "1.125",
+    "e10_maj": "2023-11-28T13:35:00+01:00",
+    "e10_prix": "1.942",
+    "sp98_maj": "2023-11-28T13:35:00+01:00",
+    "sp98_prix": "2.058",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Espace bébé",
+      "GNV",
+      "Bornes électriques",
+      "Wifi"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59114003,
     "latitude": "5080000",
     "longitude": 259200,
@@ -97,63 +154,6 @@
       "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59114006,
-    "latitude": "5082600",
-    "longitude": 258600,
-    "cp": "59114",
-    "pop": "A",
-    "adresse": "AUTOROUTE A25 - AIRE DE ST LAURENT",
-    "ville": "Steenvoorde",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"GNV\", \"Bornes électriques\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 12:35:00\", \"@valeur\": \"1.941\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-17 13:15:00\", \"@valeur\": \"1.125\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-28 12:35:00\", \"@valeur\": \"1.942\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-28 12:35:00\", \"@valeur\": \"2.058\"}]",
-    "geom": {
-      "lon": 2.586,
-      "lat": 50.826
-    },
-    "gazole_maj": "2023-11-28T13:35:00+01:00",
-    "gazole_prix": "1.941",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-10-17T15:15:00+02:00",
-    "gplc_prix": "1.125",
-    "e10_maj": "2023-11-28T13:35:00+01:00",
-    "e10_prix": "1.942",
-    "sp98_maj": "2023-11-28T13:35:00+01:00",
-    "sp98_prix": "2.058",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Espace bébé",
-      "GNV",
-      "Bornes électriques",
-      "Wifi"
     ],
     "departement": "Nord",
     "code_departement": "59",

@@ -57,52 +57,96 @@
     "code_region": "76"
   },
   {
-    "id": 31200023,
-    "latitude": "4365800",
-    "longitude": 141900,
-    "cp": "31200",
+    "id": 31300007,
+    "latitude": "4359914",
+    "longitude": 141729,
+    "cp": "31300",
     "pop": "R",
-    "adresse": "353 AVENUE DES ETATS UNIS",
+    "adresse": "104 AV GDE BRETAGNE",
     "ville": "Toulouse",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.904\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.852\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.863\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.861\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.971\"}]",
     "geom": {
-      "lon": 1.419,
-      "lat": 43.658
+      "lon": 1.41729,
+      "lat": 43.59914
     },
     "gazole_maj": "2023-12-03T01:01:00+01:00",
-    "gazole_prix": "1.766",
+    "gazole_prix": "1.863",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-12-03T01:01:00+01:00",
     "e85_prix": "0.994",
-    "gplc_maj": "2023-12-03T01:01:00+01:00",
-    "gplc_prix": "0.904",
+    "gplc_maj": null,
+    "gplc_prix": null,
     "e10_maj": "2023-12-03T01:01:00+01:00",
-    "e10_prix": "1.792",
+    "e10_prix": "1.861",
     "sp98_maj": "2023-12-03T01:01:00+01:00",
-    "sp98_prix": "1.852",
+    "sp98_prix": "1.971",
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95"
+      "SP95",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "Toilettes publiques",
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Station de gonflage",
       "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 31200008,
+    "latitude": "4364000",
+    "longitude": 142900,
+    "cp": "31200",
+    "pop": "R",
+    "adresse": "168 Avenue des États-Unis",
+    "ville": "Toulouse",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 11:51:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 11:51:00\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 11:51:00\", \"@valeur\": \"1.876\"}]",
+    "geom": {
+      "lon": 1.429,
+      "lat": 43.64
+    },
+    "gazole_maj": "2023-12-04T12:51:00+01:00",
+    "gazole_prix": "1.766",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-04T12:51:00+01:00",
+    "e10_prix": "1.796",
+    "sp98_maj": "2023-12-04T12:51:00+01:00",
+    "sp98_prix": "1.876",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Haute-Garonne",
     "code_departement": "31",
     "region": "Occitanie",
@@ -153,6 +197,58 @@
       "Lavage automatique",
       "Lavage manuel",
       "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 31200023,
+    "latitude": "4365800",
+    "longitude": 141900,
+    "cp": "31200",
+    "pop": "R",
+    "adresse": "353 AVENUE DES ETATS UNIS",
+    "ville": "Toulouse",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.904\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.852\"}]",
+    "geom": {
+      "lon": 1.419,
+      "lat": 43.658
+    },
+    "gazole_maj": "2023-12-03T01:01:00+01:00",
+    "gazole_prix": "1.766",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-03T01:01:00+01:00",
+    "e85_prix": "0.994",
+    "gplc_maj": "2023-12-03T01:01:00+01:00",
+    "gplc_prix": "0.904",
+    "e10_maj": "2023-12-03T01:01:00+01:00",
+    "e10_prix": "1.792",
+    "sp98_maj": "2023-12-03T01:01:00+01:00",
+    "sp98_prix": "1.852",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Haute-Garonne",
@@ -466,102 +562,6 @@
     "code_region": "76"
   },
   {
-    "id": 31300007,
-    "latitude": "4359914",
-    "longitude": 141729,
-    "cp": "31300",
-    "pop": "R",
-    "adresse": "104 AV GDE BRETAGNE",
-    "ville": "Toulouse",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.863\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.861\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.971\"}]",
-    "geom": {
-      "lon": 1.41729,
-      "lat": 43.59914
-    },
-    "gazole_maj": "2023-12-03T01:01:00+01:00",
-    "gazole_prix": "1.863",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-03T01:01:00+01:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-03T01:01:00+01:00",
-    "e10_prix": "1.861",
-    "sp98_maj": "2023-12-03T01:01:00+01:00",
-    "sp98_prix": "1.971",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 31200008,
-    "latitude": "4364000",
-    "longitude": 142900,
-    "cp": "31200",
-    "pop": "R",
-    "adresse": "168 Avenue des États-Unis",
-    "ville": "Toulouse",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 11:51:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 11:51:00\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 11:51:00\", \"@valeur\": \"1.876\"}]",
-    "geom": {
-      "lon": 1.429,
-      "lat": 43.64
-    },
-    "gazole_maj": "2023-12-04T12:51:00+01:00",
-    "gazole_prix": "1.766",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-04T12:51:00+01:00",
-    "e10_prix": "1.796",
-    "sp98_maj": "2023-12-04T12:51:00+01:00",
-    "sp98_prix": "1.876",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 31400013,
     "latitude": "4357505.7110189",
     "longitude": 145602.75656588,
@@ -768,52 +768,6 @@
     "code_region": "76"
   },
   {
-    "id": 31400008,
-    "latitude": "4357413",
-    "longitude": 147360,
-    "cp": "31400",
-    "pop": "R",
-    "adresse": "170 Avenue de Lespinet",
-    "ville": "Toulouse",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"1.900\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 11:35:35\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"1.930\"}]",
-    "geom": {
-      "lon": 1.4736,
-      "lat": 43.57413
-    },
-    "gazole_maj": "2023-12-04T15:00:00+01:00",
-    "gazole_prix": "1.790",
-    "sp95_maj": "2023-12-04T15:00:00+01:00",
-    "sp95_prix": "1.900",
-    "e85_maj": "2023-12-04T15:00:00+01:00",
-    "e85_prix": "0.990",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-04T12:35:35+01:00",
-    "e10_prix": "1.900",
-    "sp98_maj": "2023-12-04T15:00:00+01:00",
-    "sp98_prix": "1.930",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 31000003,
     "latitude": "4363600",
     "longitude": 143300,
@@ -907,6 +861,106 @@
       "Station de gonflage",
       "Carburant additivé",
       "Lavage manuel",
+      "Vente d'additifs carburants"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 31400008,
+    "latitude": "4357413",
+    "longitude": 147360,
+    "cp": "31400",
+    "pop": "R",
+    "adresse": "170 Avenue de Lespinet",
+    "ville": "Toulouse",
+    "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"1.900\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 11:35:35\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 14:00:00\", \"@valeur\": \"1.930\"}]",
+    "geom": {
+      "lon": 1.4736,
+      "lat": 43.57413
+    },
+    "gazole_maj": "2023-12-04T15:00:00+01:00",
+    "gazole_prix": "1.790",
+    "sp95_maj": "2023-12-04T15:00:00+01:00",
+    "sp95_prix": "1.900",
+    "e85_maj": "2023-12-04T15:00:00+01:00",
+    "e85_prix": "0.990",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-04T12:35:35+01:00",
+    "e10_prix": "1.900",
+    "sp98_maj": "2023-12-04T15:00:00+01:00",
+    "sp98_prix": "1.930",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 31100010,
+    "latitude": "4358000",
+    "longitude": 139500,
+    "cp": "31100",
+    "pop": "R",
+    "adresse": "222 ROUTE DE SAINT SIMON",
+    "ville": "Toulouse",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.842\"}]",
+    "geom": {
+      "lon": 1.395,
+      "lat": 43.58
+    },
+    "gazole_maj": "2023-12-03T01:01:00+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-03T01:01:00+01:00",
+    "gplc_prix": "0.939",
+    "e10_maj": "2023-12-03T01:01:00+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2023-12-03T01:01:00+01:00",
+    "sp98_prix": "1.842",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants"
     ],
     "departement": "Haute-Garonne",
@@ -1048,60 +1102,6 @@
       "Carburant additivé",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 31100010,
-    "latitude": "4358000",
-    "longitude": 139500,
-    "cp": "31100",
-    "pop": "R",
-    "adresse": "222 ROUTE DE SAINT SIMON",
-    "ville": "Toulouse",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.842\"}]",
-    "geom": {
-      "lon": 1.395,
-      "lat": 43.58
-    },
-    "gazole_maj": "2023-12-03T01:01:00+01:00",
-    "gazole_prix": "1.759",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-03T01:01:00+01:00",
-    "gplc_prix": "0.939",
-    "e10_maj": "2023-12-03T01:01:00+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2023-12-03T01:01:00+01:00",
-    "sp98_prix": "1.842",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants"
     ],
     "departement": "Haute-Garonne",
     "code_departement": "31",
