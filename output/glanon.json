@@ -1,5 +1,56 @@
 [
   {
+    "id": 21250009,
+    "latitude": "4703100",
+    "longitude": 510800,
+    "cp": "21250",
+    "pop": "A",
+    "adresse": "AIRE DU BOIS GUILLEROT",
+    "ville": "Glanon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Piste poids lourds\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 14:53:29\", \"@valeur\": \"1.984\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 14:53:29\", \"@valeur\": \"1.994\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 14:53:29\", \"@valeur\": \"2.094\"}]",
+    "geom": {
+      "lon": 5.108,
+      "lat": 47.031
+    },
+    "gazole_maj": "2023-11-30T15:53:29+01:00",
+    "gazole_prix": "1.984",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-30T15:53:29+01:00",
+    "e10_prix": "1.994",
+    "sp98_maj": "2023-11-30T15:53:29+01:00",
+    "sp98_prix": "2.094",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Bornes électriques",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 21250005,
     "latitude": "4703200",
     "longitude": 510600,
@@ -51,57 +102,6 @@
       "Bornes électriques",
       "Vente d'additifs carburants",
       "Wifi",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21250009,
-    "latitude": "4703100",
-    "longitude": 510800,
-    "cp": "21250",
-    "pop": "A",
-    "adresse": "AIRE DU BOIS GUILLEROT",
-    "ville": "Glanon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Piste poids lourds\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-30 14:53:29\", \"@valeur\": \"1.984\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-30 14:53:29\", \"@valeur\": \"1.994\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-30 14:53:29\", \"@valeur\": \"2.094\"}]",
-    "geom": {
-      "lon": 5.108,
-      "lat": 47.031
-    },
-    "gazole_maj": "2023-11-30T15:53:29+01:00",
-    "gazole_prix": "1.984",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-30T15:53:29+01:00",
-    "e10_prix": "1.994",
-    "sp98_maj": "2023-11-30T15:53:29+01:00",
-    "sp98_prix": "2.094",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Bornes électriques",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],

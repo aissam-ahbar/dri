@@ -1,5 +1,63 @@
 [
   {
+    "id": 38080007,
+    "latitude": "4561200",
+    "longitude": 521000,
+    "cp": "38080",
+    "pop": "A",
+    "adresse": "A43 AIRE DE L'ISLE-D'ABEAU SUD",
+    "ville": "L'Isle-d'Abeau",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.984\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.329\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.083\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.994\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"2.094\"}]",
+    "geom": {
+      "lon": 5.21,
+      "lat": 45.612
+    },
+    "gazole_maj": "2023-12-02T07:00:00+01:00",
+    "gazole_prix": "1.984",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-02T07:00:00+01:00",
+    "e85_prix": "1.329",
+    "gplc_maj": "2023-12-02T07:00:00+01:00",
+    "gplc_prix": "1.083",
+    "e10_maj": "2023-12-02T07:00:00+01:00",
+    "e10_prix": "1.994",
+    "sp98_maj": "2023-12-02T07:00:00+01:00",
+    "sp98_prix": "2.094",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Espace bébé",
+      "Bornes électriques",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Isère",
+    "code_departement": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 38080006,
     "latitude": "4561300",
     "longitude": 521300,
@@ -102,64 +160,6 @@
       "Location de véhicule",
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Isère",
-    "code_departement": "38",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 38080007,
-    "latitude": "4561200",
-    "longitude": 521000,
-    "cp": "38080",
-    "pop": "A",
-    "adresse": "A43 AIRE DE L'ISLE-D'ABEAU SUD",
-    "ville": "L'Isle-d'Abeau",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.984\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.329\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.083\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"1.994\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 06:00:00\", \"@valeur\": \"2.094\"}]",
-    "geom": {
-      "lon": 5.21,
-      "lat": 45.612
-    },
-    "gazole_maj": "2023-12-02T07:00:00+01:00",
-    "gazole_prix": "1.984",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-02T07:00:00+01:00",
-    "e85_prix": "1.329",
-    "gplc_maj": "2023-12-02T07:00:00+01:00",
-    "gplc_prix": "1.083",
-    "e10_maj": "2023-12-02T07:00:00+01:00",
-    "e10_prix": "1.994",
-    "sp98_maj": "2023-12-02T07:00:00+01:00",
-    "sp98_prix": "2.094",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Espace bébé",
-      "Bornes électriques",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Isère",

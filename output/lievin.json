@@ -1,53 +1,5 @@
 [
   {
-    "id": 62800001,
-    "latitude": "5042200",
-    "longitude": 277400,
-    "cp": "62800",
-    "pop": "R",
-    "adresse": "2 Rue Marie Liétard",
-    "ville": "Liévin",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 07:10:44\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 06:55:02\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 06:55:03\", \"@valeur\": \"0.932\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-01 06:55:03\", \"@valeur\": \"0.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 07:10:44\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 06:55:03\", \"@valeur\": \"1.800\"}]",
-    "geom": {
-      "lon": 2.774,
-      "lat": 50.422
-    },
-    "gazole_maj": "2023-12-04T08:10:44+01:00",
-    "gazole_prix": "1.725",
-    "sp95_maj": "2023-12-01T07:55:02+01:00",
-    "sp95_prix": "1.818",
-    "e85_maj": "2023-12-01T07:55:03+01:00",
-    "e85_prix": "0.932",
-    "gplc_maj": "2023-12-01T07:55:03+01:00",
-    "gplc_prix": "0.921",
-    "e10_maj": "2023-12-04T08:10:44+01:00",
-    "e10_prix": "1.743",
-    "sp98_maj": "2023-12-01T07:55:03+01:00",
-    "sp98_prix": "1.800",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": null,
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 62800004,
     "latitude": "5041800",
     "longitude": 276900,
@@ -92,6 +44,54 @@
       "Station de gonflage",
       "Carburant additivé",
       "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 62800001,
+    "latitude": "5042200",
+    "longitude": 277400,
+    "cp": "62800",
+    "pop": "R",
+    "adresse": "2 Rue Marie Liétard",
+    "ville": "Liévin",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 07:10:44\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 06:55:02\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 06:55:03\", \"@valeur\": \"0.932\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-01 06:55:03\", \"@valeur\": \"0.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 07:10:44\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 06:55:03\", \"@valeur\": \"1.800\"}]",
+    "geom": {
+      "lon": 2.774,
+      "lat": 50.422
+    },
+    "gazole_maj": "2023-12-04T08:10:44+01:00",
+    "gazole_prix": "1.725",
+    "sp95_maj": "2023-12-01T07:55:02+01:00",
+    "sp95_prix": "1.818",
+    "e85_maj": "2023-12-01T07:55:03+01:00",
+    "e85_prix": "0.932",
+    "gplc_maj": "2023-12-01T07:55:03+01:00",
+    "gplc_prix": "0.921",
+    "e10_maj": "2023-12-04T08:10:44+01:00",
+    "e10_prix": "1.743",
+    "sp98_maj": "2023-12-01T07:55:03+01:00",
+    "sp98_prix": "1.800",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
