@@ -9,16 +9,16 @@
     "ville": "Bayonne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 18:50:32\", \"@valeur\": \"1.858\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 18:50:32\", \"@valeur\": \"1.918\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 18:50:32\", \"@valeur\": \"0.994\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 18:41:28\", \"@valeur\": \"1.816\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 18:41:28\", \"@valeur\": \"1.895\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-08 18:41:28\", \"@valeur\": \"0.994\"}]",
     "geom": {
       "lon": -1.44,
       "lat": 43.512
     },
-    "gazole_maj": "2023-12-01T19:50:32+01:00",
-    "gazole_prix": "1.858",
-    "sp95_maj": "2023-12-01T19:50:32+01:00",
-    "sp95_prix": "1.918",
-    "e85_maj": "2023-12-01T19:50:32+01:00",
+    "gazole_maj": "2023-12-08T19:41:28+01:00",
+    "gazole_prix": "1.816",
+    "sp95_maj": "2023-12-08T19:41:28+01:00",
+    "sp95_prix": "1.895",
+    "e85_maj": "2023-12-08T19:41:28+01:00",
     "e85_prix": "0.994",
     "gplc_maj": null,
     "gplc_prix": null,
@@ -56,6 +56,58 @@
     "code_region": "75"
   },
   {
+    "id": 64100014,
+    "latitude": "4350489",
+    "longitude": -146719,
+    "cp": "64100",
+    "pop": "R",
+    "adresse": "6 AVENUE LOUIS DE FOIX",
+    "ville": "Bayonne",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"1.718\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": -1.46719,
+      "lat": 43.50489
+    },
+    "gazole_maj": "2023-12-09T01:01:00+01:00",
+    "gazole_prix": "1.718",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-09T01:01:00+01:00",
+    "e85_prix": "0.994",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-09T01:01:00+01:00",
+    "e10_prix": "1.747",
+    "sp98_maj": "2023-12-09T01:01:00+01:00",
+    "sp98_prix": "1.829",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Pyrénées-Atlantiques",
+    "code_departement": "64",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 64100013,
     "latitude": "4348200",
     "longitude": -148300,
@@ -65,23 +117,23 @@
     "ville": "Bayonne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 13:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 17:25:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 17:25:00\", \"@valeur\": \"1.969\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-05 12:55:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 12:05:00\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 12:05:00\", \"@valeur\": \"1.949\"}]",
     "geom": {
       "lon": -1.483,
       "lat": 43.482
     },
-    "gazole_maj": "2023-12-04T14:00:00+01:00",
-    "gazole_prix": "1.799",
+    "gazole_maj": "2023-12-05T13:55:00+01:00",
+    "gazole_prix": "1.769",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-01T18:25:00+01:00",
-    "e10_prix": "1.869",
-    "sp98_maj": "2023-12-01T18:25:00+01:00",
-    "sp98_prix": "1.969",
+    "e10_maj": "2023-12-08T13:05:00+01:00",
+    "e10_prix": "1.849",
+    "sp98_maj": "2023-12-08T13:05:00+01:00",
+    "sp98_prix": "1.949",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -105,6 +157,153 @@
     "code_region": "75"
   },
   {
+    "id": 64100010,
+    "latitude": "4348300",
+    "longitude": -148800,
+    "cp": "64100",
+    "pop": "R",
+    "adresse": "22 Chemin d'Arancette",
+    "ville": "Bayonne",
+    "horaires": null,
+    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 12:07:36\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 12:07:37\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 12:07:38\", \"@valeur\": \"1.808\"}]",
+    "geom": {
+      "lon": -1.488,
+      "lat": 43.483
+    },
+    "gazole_maj": "2023-12-08T13:07:36+01:00",
+    "gazole_prix": "1.763",
+    "sp95_maj": "2023-12-08T13:07:37+01:00",
+    "sp95_prix": "1.786",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-08T13:07:38+01:00",
+    "sp98_prix": "1.808",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Pyrénées-Atlantiques",
+    "code_departement": "64",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 64600009,
+    "latitude": "4348400",
+    "longitude": -150100,
+    "cp": "64600",
+    "pop": "R",
+    "adresse": "77 Avenue de bayonne",
+    "ville": "Bayonne",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-07 11:21:00\", \"@valeur\": \"1.695\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-07 11:21:01\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 09:24:31\", \"@valeur\": \"1.815\"}]",
+    "geom": {
+      "lon": -1.501,
+      "lat": 43.484
+    },
+    "gazole_maj": "2023-12-07T12:21:00+01:00",
+    "gazole_prix": "1.695",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-07T12:21:01+01:00",
+    "e10_prix": "1.720",
+    "sp98_maj": "2023-12-04T10:24:31+01:00",
+    "sp98_prix": "1.815",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Pyrénées-Atlantiques",
+    "code_departement": "64",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 64100009,
+    "latitude": "4349169.9414",
+    "longitude": -145279.168155,
+    "cp": "64100",
+    "pop": "R",
+    "adresse": "Rond-Point Grand-Basque",
+    "ville": "Bayonne",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 08:44:28\", \"@valeur\": \"1.660\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 08:51:31\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 08:44:29\", \"@valeur\": \"1.677\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 08:44:29\", \"@valeur\": \"1.730\"}]",
+    "geom": {
+      "lon": -1.45279168155,
+      "lat": 43.491699413999996
+    },
+    "gazole_maj": "2023-12-08T09:44:28+01:00",
+    "gazole_prix": "1.660",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-03T09:51:31+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-08T09:44:29+01:00",
+    "e10_prix": "1.677",
+    "sp98_maj": "2023-12-08T09:44:29+01:00",
+    "sp98_prix": "1.730",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Pyrénées-Atlantiques",
+    "code_departement": "64",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 64103001,
     "latitude": "4350500",
     "longitude": -144400,
@@ -114,23 +313,23 @@
     "ville": "Bayonne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 13:59:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-04 13:59:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 13:59:00\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 13:59:00\", \"@valeur\": \"1.844\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 01:16:00\", \"@valeur\": \"1.660\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-09 01:16:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 01:16:00\", \"@valeur\": \"1.677\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 01:16:00\", \"@valeur\": \"1.761\"}]",
     "geom": {
       "lon": -1.444,
       "lat": 43.505
     },
-    "gazole_maj": "2023-12-04T14:59:00+01:00",
-    "gazole_prix": "1.768",
-    "sp95_maj": "2023-12-04T14:59:00+01:00",
+    "gazole_maj": "2023-12-09T02:16:00+01:00",
+    "gazole_prix": "1.660",
+    "sp95_maj": "2023-12-09T02:16:00+01:00",
     "sp95_prix": "1.799",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-04T14:59:00+01:00",
-    "e10_prix": "1.770",
-    "sp98_maj": "2023-12-04T14:59:00+01:00",
-    "sp98_prix": "1.844",
+    "e10_maj": "2023-12-09T02:16:00+01:00",
+    "e10_prix": "1.677",
+    "sp98_maj": "2023-12-09T02:16:00+01:00",
+    "sp98_prix": "1.761",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -164,52 +363,6 @@
     "code_region": "75"
   },
   {
-    "id": 64600009,
-    "latitude": "4348400",
-    "longitude": -150100,
-    "cp": "64600",
-    "pop": "R",
-    "adresse": "77 Avenue de bayonne",
-    "ville": "Bayonne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-04 09:24:31\", \"@valeur\": \"1.723\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-04 09:24:31\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-04 09:24:31\", \"@valeur\": \"1.815\"}]",
-    "geom": {
-      "lon": -1.501,
-      "lat": 43.484
-    },
-    "gazole_maj": "2023-12-04T10:24:31+01:00",
-    "gazole_prix": "1.723",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-04T10:24:31+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2023-12-04T10:24:31+01:00",
-    "sp98_prix": "1.815",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Pyrénées-Atlantiques",
-    "code_departement": "64",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 64100015,
     "latitude": "4349200",
     "longitude": -145900,
@@ -219,32 +372,32 @@
     "ville": "Bayonne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.778\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.975\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.771\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.845\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"1.727\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 00:01:00\", \"@valeur\": \"1.824\"}]",
     "geom": {
       "lon": -1.459,
       "lat": 43.492
     },
-    "gazole_maj": "2023-12-03T01:01:00+01:00",
-    "gazole_prix": "1.778",
+    "gazole_maj": "2023-12-09T01:01:00+01:00",
+    "gazole_prix": "1.727",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-03T01:01:00+01:00",
+    "e85_maj": "2023-12-09T01:01:00+01:00",
     "e85_prix": "0.994",
-    "gplc_maj": "2023-12-03T01:01:00+01:00",
-    "gplc_prix": "0.975",
-    "e10_maj": "2023-12-03T01:01:00+01:00",
-    "e10_prix": "1.771",
-    "sp98_maj": "2023-12-03T01:01:00+01:00",
-    "sp98_prix": "1.845",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-09T01:01:00+01:00",
+    "e10_prix": "1.747",
+    "sp98_maj": "2023-12-09T01:01:00+01:00",
+    "sp98_prix": "1.824",
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95"
+      "SP95",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -258,159 +411,6 @@
       "Vente d'additifs carburants",
       "Wifi",
       "Automate CB 24/24"
-    ],
-    "departement": "Pyrénées-Atlantiques",
-    "code_departement": "64",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 64100009,
-    "latitude": "4349169.9414",
-    "longitude": -145279.168155,
-    "cp": "64100",
-    "pop": "R",
-    "adresse": "Rond-Point Grand-Basque",
-    "ville": "Bayonne",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 16:19:47\", \"@valeur\": \"1.835\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 08:51:31\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 16:19:47\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 16:19:47\", \"@valeur\": \"1.887\"}]",
-    "geom": {
-      "lon": -1.45279168155,
-      "lat": 43.491699413999996
-    },
-    "gazole_maj": "2023-12-01T17:19:47+01:00",
-    "gazole_prix": "1.835",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-03T09:51:31+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-01T17:19:47+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2023-12-01T17:19:47+01:00",
-    "sp98_prix": "1.887",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Pyrénées-Atlantiques",
-    "code_departement": "64",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 64100014,
-    "latitude": "4350489",
-    "longitude": -146719,
-    "cp": "64100",
-    "pop": "R",
-    "adresse": "6 AVENUE LOUIS DE FOIX",
-    "ville": "Bayonne",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.771\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 00:01:00\", \"@valeur\": \"1.850\"}]",
-    "geom": {
-      "lon": -1.46719,
-      "lat": 43.50489
-    },
-    "gazole_maj": "2023-12-03T01:01:00+01:00",
-    "gazole_prix": "1.769",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-03T01:01:00+01:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-03T01:01:00+01:00",
-    "e10_prix": "1.771",
-    "sp98_maj": "2023-12-03T01:01:00+01:00",
-    "sp98_prix": "1.850",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Pyrénées-Atlantiques",
-    "code_departement": "64",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 64100010,
-    "latitude": "4348300",
-    "longitude": -148800,
-    "cp": "64100",
-    "pop": "R",
-    "adresse": "22 Chemin d'Arancette",
-    "ville": "Bayonne",
-    "horaires": null,
-    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 12:00:39\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 12:00:40\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 12:00:40\", \"@valeur\": \"1.864\"}]",
-    "geom": {
-      "lon": -1.488,
-      "lat": 43.483
-    },
-    "gazole_maj": "2023-12-01T13:00:39+01:00",
-    "gazole_prix": "1.777",
-    "sp95_maj": "2023-12-01T13:00:40+01:00",
-    "sp95_prix": "1.855",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-01T13:00:40+01:00",
-    "sp98_prix": "1.864",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Pyrénées-Atlantiques",
     "code_departement": "64",

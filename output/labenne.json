@@ -1,5 +1,49 @@
 [
   {
+    "id": 40530001,
+    "latitude": "4358700",
+    "longitude": -142000,
+    "cp": "40530",
+    "pop": "A",
+    "adresse": "AUTOROUTE A63 COTE OUEST",
+    "ville": "Labenne",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 11:39:00\", \"@valeur\": \"1.994\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-08 11:39:00\", \"@valeur\": \"1.054\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 11:39:00\", \"@valeur\": \"1.984\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 11:39:00\", \"@valeur\": \"2.094\"}]",
+    "geom": {
+      "lon": -1.42,
+      "lat": 43.587
+    },
+    "gazole_maj": "2023-12-08T12:39:00+01:00",
+    "gazole_prix": "1.994",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-08T12:39:00+01:00",
+    "gplc_prix": "1.054",
+    "e10_maj": "2023-12-08T12:39:00+01:00",
+    "e10_prix": "1.984",
+    "sp98_maj": "2023-12-08T12:39:00+01:00",
+    "sp98_prix": "2.094",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Landes",
+    "code_departement": "40",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 40530003,
     "latitude": "4358800",
     "longitude": -142900,
@@ -9,13 +53,13 @@
     "ville": "Labenne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Restauration à emporter\", \"Restauration sur place\", \"Toilettes publiques\", \"Bar\", \"Boutique alimentaire\", \"Station de gonflage\", \"Boutique non alimentaire\", \"Services réparation / entretien\", \"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"Location de véhicule\", \"Relais colis\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\", \"Lavage automatique\", \"Vente de pétrole lampant\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 10:04:48\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-18 12:00:57\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 10:04:48\", \"@valeur\": \"1.773\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-07 10:00:52\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-18 12:00:57\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 10:04:48\", \"@valeur\": \"1.773\"}]",
     "geom": {
       "lon": -1.429,
       "lat": 43.588
     },
-    "gazole_maj": "2023-12-01T11:04:48+01:00",
-    "gazole_prix": "1.766",
+    "gazole_maj": "2023-12-07T11:00:52+01:00",
+    "gazole_prix": "1.750",
     "sp95_maj": "2023-11-18T13:00:57+01:00",
     "sp95_prix": "1.818",
     "e85_maj": null,
@@ -58,50 +102,6 @@
       "Wifi",
       "Automate CB 24/24"
     ],
-    "departement": "Landes",
-    "code_departement": "40",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 40530001,
-    "latitude": "4358700",
-    "longitude": -142000,
-    "cp": "40530",
-    "pop": "A",
-    "adresse": "AUTOROUTE A63 COTE OUEST",
-    "ville": "Labenne",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-29 11:24:00\", \"@valeur\": \"2.024\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-29 11:24:00\", \"@valeur\": \"1.054\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-29 11:24:00\", \"@valeur\": \"1.994\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-29 11:24:00\", \"@valeur\": \"2.104\"}]",
-    "geom": {
-      "lon": -1.42,
-      "lat": 43.587
-    },
-    "gazole_maj": "2023-11-29T12:24:00+01:00",
-    "gazole_prix": "2.024",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-11-29T12:24:00+01:00",
-    "gplc_prix": "1.054",
-    "e10_maj": "2023-11-29T12:24:00+01:00",
-    "e10_prix": "1.994",
-    "sp98_maj": "2023-11-29T12:24:00+01:00",
-    "sp98_prix": "2.104",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",

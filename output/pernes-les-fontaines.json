@@ -1,5 +1,52 @@
 [
   {
+    "id": 84210001,
+    "latitude": "4400918",
+    "longitude": 505110,
+    "cp": "84210",
+    "pop": "R",
+    "adresse": "680 Route de la Buissonne",
+    "ville": "Pernes-les-Fontaines",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 08:45:00\", \"@valeur\": \"1.639\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-08 08:45:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 08:45:00\", \"@valeur\": \"1.677\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 08:45:00\", \"@valeur\": \"1.745\"}]",
+    "geom": {
+      "lon": 5.0511,
+      "lat": 44.00918
+    },
+    "gazole_maj": "2023-12-08T09:45:00+01:00",
+    "gazole_prix": "1.639",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-08T09:45:00+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-08T09:45:00+01:00",
+    "e10_prix": "1.677",
+    "sp98_maj": "2023-12-08T09:45:00+01:00",
+    "sp98_prix": "1.745",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 84210003,
     "latitude": "4400500",
     "longitude": 505100,
@@ -9,13 +56,13 @@
     "ville": "Pernes-les-Fontaines",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}]}",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-23 18:59:00\", \"@valeur\": \"1.847\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 18:59:00\", \"@valeur\": \"1.090\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 18:59:00\", \"@valeur\": \"1.859\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-06 18:55:17\", \"@valeur\": \"1.827\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 18:59:00\", \"@valeur\": \"1.090\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-23 18:59:00\", \"@valeur\": \"1.859\"}]",
     "geom": {
       "lon": 5.051,
       "lat": 44.005
     },
-    "gazole_maj": "2023-11-23T19:59:00+01:00",
-    "gazole_prix": "1.847",
+    "gazole_maj": "2023-12-06T19:55:17+01:00",
+    "gazole_prix": "1.827",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-11-16T19:59:00+01:00",
@@ -45,53 +92,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 84210001,
-    "latitude": "4400918",
-    "longitude": 505110,
-    "cp": "84210",
-    "pop": "R",
-    "adresse": "680 Route de la Buissonne",
-    "ville": "Pernes-les-Fontaines",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-01 23:55:00\", \"@valeur\": \"1.758\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 23:55:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-01 23:55:00\", \"@valeur\": \"1.787\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 23:55:00\", \"@valeur\": \"1.851\"}]",
-    "geom": {
-      "lon": 5.0511,
-      "lat": 44.00918
-    },
-    "gazole_maj": "2023-12-02T00:55:00+01:00",
-    "gazole_prix": "1.758",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-02T00:55:00+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-02T00:55:00+01:00",
-    "e10_prix": "1.787",
-    "sp98_maj": "2023-12-02T00:55:00+01:00",
-    "sp98_prix": "1.851",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vaucluse",

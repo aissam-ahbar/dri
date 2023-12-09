@@ -9,32 +9,32 @@
     "ville": "Magny-les-Hameaux",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-15 06:24:37\", \"@valeur\": \"0.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-24 06:23:16\", \"@valeur\": \"1.849\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 06:40:11\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 06:40:12\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-08 06:40:12\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 06:40:13\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 06:40:13\", \"@valeur\": \"1.839\"}]",
     "geom": {
       "lon": 2.083,
       "lat": 48.725
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-15T07:24:37+01:00",
+    "gazole_maj": "2023-12-08T07:40:11+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": "2023-12-08T07:40:12+01:00",
+    "sp95_prix": "1.799",
+    "e85_maj": "2023-12-08T07:40:12+01:00",
     "e85_prix": "0.959",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-11-24T07:23:16+01:00",
-    "sp98_prix": "1.849",
+    "e10_maj": "2023-12-08T07:40:13+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2023-12-08T07:40:13+01:00",
+    "sp98_prix": "1.839",
     "carburants_disponibles": [
+      "Gazole",
+      "SP95",
       "E85",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
