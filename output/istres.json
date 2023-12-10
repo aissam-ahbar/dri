@@ -1,5 +1,110 @@
 [
   {
+    "id": 13800010,
+    "latitude": "4350100",
+    "longitude": 498700,
+    "cp": "13800",
+    "pop": "R",
+    "adresse": "22 Avenue Félix GOUIN",
+    "ville": "Istres",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 08:11:25\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 08:11:25\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 08:11:26\", \"@valeur\": \"1.977\"}]",
+    "geom": {
+      "lon": 4.987,
+      "lat": 43.501
+    },
+    "gazole_maj": "2023-12-08T09:11:25+01:00",
+    "gazole_prix": "1.830",
+    "sp95_maj": "2023-12-08T09:11:25+01:00",
+    "sp95_prix": "1.879",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-08T09:11:26+01:00",
+    "sp98_prix": "1.977",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 13800004,
+    "latitude": "4352300",
+    "longitude": 496400,
+    "cp": "13800",
+    "pop": "R",
+    "adresse": "Quartier les Craux",
+    "ville": "Istres",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 07:57:58\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-13 07:52:14\", \"@valeur\": \"1.799\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-13 07:52:14\", \"@valeur\": \"0.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 07:57:59\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 08:28:08\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": 4.964,
+      "lat": 43.523
+    },
+    "gazole_maj": "2023-12-08T08:57:58+01:00",
+    "gazole_prix": "1.689",
+    "sp95_maj": "2023-11-13T08:52:14+01:00",
+    "sp95_prix": "1.799",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-11-13T08:52:14+01:00",
+    "gplc_prix": "0.909",
+    "e10_maj": "2023-12-08T08:57:59+01:00",
+    "e10_prix": "1.719",
+    "sp98_maj": "2023-12-01T09:28:08+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13800009,
     "latitude": "4349500",
     "longitude": 498600,
@@ -98,111 +203,6 @@
       "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13800004,
-    "latitude": "4352300",
-    "longitude": 496400,
-    "cp": "13800",
-    "pop": "R",
-    "adresse": "Quartier les Craux",
-    "ville": "Istres",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 07:57:58\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-13 07:52:14\", \"@valeur\": \"1.799\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-13 07:52:14\", \"@valeur\": \"0.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 07:57:59\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 08:28:08\", \"@valeur\": \"1.819\"}]",
-    "geom": {
-      "lon": 4.964,
-      "lat": 43.523
-    },
-    "gazole_maj": "2023-12-08T08:57:58+01:00",
-    "gazole_prix": "1.689",
-    "sp95_maj": "2023-11-13T08:52:14+01:00",
-    "sp95_prix": "1.799",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-11-13T08:52:14+01:00",
-    "gplc_prix": "0.909",
-    "e10_maj": "2023-12-08T08:57:59+01:00",
-    "e10_prix": "1.719",
-    "sp98_maj": "2023-12-01T09:28:08+01:00",
-    "sp98_prix": "1.819",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13800010,
-    "latitude": "4350100",
-    "longitude": 498700,
-    "cp": "13800",
-    "pop": "R",
-    "adresse": "22 Avenue Félix GOUIN",
-    "ville": "Istres",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 08:11:25\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 08:11:25\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 08:11:26\", \"@valeur\": \"1.977\"}]",
-    "geom": {
-      "lon": 4.987,
-      "lat": 43.501
-    },
-    "gazole_maj": "2023-12-08T09:11:25+01:00",
-    "gazole_prix": "1.830",
-    "sp95_maj": "2023-12-08T09:11:25+01:00",
-    "sp95_prix": "1.879",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-08T09:11:26+01:00",
-    "sp98_prix": "1.977",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "Automate CB 24/24"
     ],
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",

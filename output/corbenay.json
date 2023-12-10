@@ -1,5 +1,53 @@
 [
   {
+    "id": 70320004,
+    "latitude": "4788097.1641219",
+    "longitude": 630620.25541455,
+    "cp": "70320",
+    "pop": "R",
+    "adresse": "AVENUE JACQUES PARISOT",
+    "ville": "Corbenay",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 18:13:26\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 18:13:27\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 18:13:27\", \"@valeur\": \"1.849\"}]",
+    "geom": {
+      "lon": 6.3062025541455,
+      "lat": 47.880971641219
+    },
+    "gazole_maj": "2023-12-09T19:13:26+01:00",
+    "gazole_prix": "1.749",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-09T19:13:27+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2023-12-09T19:13:27+01:00",
+    "sp98_prix": "1.849",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Haute-Saône",
+    "code_departement": "70",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 70800002,
     "latitude": "4788200",
     "longitude": 629500,
@@ -9,23 +57,23 @@
     "ville": "Corbenay",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.15\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 07:35:55\", \"@valeur\": \"1.834\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 07:35:56\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 07:35:56\", \"@valeur\": \"1.936\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 18:00:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 18:00:00\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 18:00:00\", \"@valeur\": \"1.928\"}]",
     "geom": {
       "lon": 6.295,
       "lat": 47.882
     },
-    "gazole_maj": "2023-12-08T08:35:55+01:00",
-    "gazole_prix": "1.834",
+    "gazole_maj": "2023-12-09T19:00:00+01:00",
+    "gazole_prix": "1.819",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-08T08:35:56+01:00",
-    "e10_prix": "1.826",
-    "sp98_maj": "2023-12-08T08:35:56+01:00",
-    "sp98_prix": "1.936",
+    "e10_maj": "2023-12-09T19:00:00+01:00",
+    "e10_prix": "1.818",
+    "sp98_maj": "2023-12-09T19:00:00+01:00",
+    "sp98_prix": "1.928",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -47,54 +95,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
-      "Automate CB 24/24"
-    ],
-    "departement": "Haute-Saône",
-    "code_departement": "70",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 70320004,
-    "latitude": "4788097.1641219",
-    "longitude": 630620.25541455,
-    "cp": "70320",
-    "pop": "R",
-    "adresse": "AVENUE JACQUES PARISOT",
-    "ville": "Corbenay",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 08:50:22\", \"@valeur\": \"1.680\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-08 08:50:23\", \"@valeur\": \"1.713\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 08:50:23\", \"@valeur\": \"1.777\"}]",
-    "geom": {
-      "lon": 6.3062025541455,
-      "lat": 47.880971641219
-    },
-    "gazole_maj": "2023-12-08T09:50:22+01:00",
-    "gazole_prix": "1.680",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-08T09:50:23+01:00",
-    "e10_prix": "1.713",
-    "sp98_maj": "2023-12-08T09:50:23+01:00",
-    "sp98_prix": "1.777",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Haute-Saône",

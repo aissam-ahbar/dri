@@ -1,47 +1,46 @@
 [
   {
-    "id": 44220003,
-    "latitude": "4721344",
-    "longitude": -171900,
+    "id": 44220005,
+    "latitude": "4721363",
+    "longitude": -172222,
     "cp": "44220",
     "pop": "R",
-    "adresse": "6 Rue des Ardillets",
+    "adresse": "Boulevard Paul Langevin",
     "ville": "Couëron",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 07:04:18\", \"@valeur\": \"1.801\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 07:04:18\", \"@valeur\": \"1.872\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 07:45:26\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-28 07:45:27\", \"@valeur\": \"1.805\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-28 07:45:27\", \"@valeur\": \"1.745\"}]",
     "geom": {
-      "lon": -1.719,
-      "lat": 47.21344
+      "lon": -1.72222,
+      "lat": 47.21363
     },
-    "gazole_maj": "2023-12-08T08:04:18+01:00",
-    "gazole_prix": "1.801",
-    "sp95_maj": "2023-12-08T08:04:18+01:00",
-    "sp95_prix": "1.872",
+    "gazole_maj": "2023-11-28T08:45:26+01:00",
+    "gazole_prix": "1.765",
+    "sp95_maj": "2023-11-28T08:45:27+01:00",
+    "sp95_prix": "1.805",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2023-11-28T08:45:27+01:00",
+    "e10_prix": "1.745",
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "E10"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10",
       "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé"
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Loire-Atlantique",
     "code_departement": "44",
@@ -101,47 +100,48 @@
     "code_region": "52"
   },
   {
-    "id": 44220005,
-    "latitude": "4721363",
-    "longitude": -172222,
+    "id": 44220003,
+    "latitude": "4721344",
+    "longitude": -171900,
     "cp": "44220",
     "pop": "R",
-    "adresse": "Boulevard Paul Langevin",
+    "adresse": "6 Rue des Ardillets",
     "ville": "Couëron",
-    "horaires": null,
-    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-28 07:45:26\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-28 07:45:27\", \"@valeur\": \"1.805\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-28 07:45:27\", \"@valeur\": \"1.745\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 07:04:18\", \"@valeur\": \"1.801\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 07:04:18\", \"@valeur\": \"1.872\"}]",
     "geom": {
-      "lon": -1.72222,
-      "lat": 47.21363
+      "lon": -1.719,
+      "lat": 47.21344
     },
-    "gazole_maj": "2023-11-28T08:45:26+01:00",
-    "gazole_prix": "1.765",
-    "sp95_maj": "2023-11-28T08:45:27+01:00",
-    "sp95_prix": "1.805",
+    "gazole_maj": "2023-12-08T08:04:18+01:00",
+    "gazole_prix": "1.801",
+    "sp95_maj": "2023-12-08T08:04:18+01:00",
+    "sp95_prix": "1.872",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-28T08:45:27+01:00",
-    "e10_prix": "1.745",
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "E10"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé"
     ],
     "departement": "Loire-Atlantique",
     "code_departement": "44",
