@@ -1,5 +1,58 @@
 [
   {
+    "id": 39110007,
+    "latitude": "4694900",
+    "longitude": 587400,
+    "cp": "39110",
+    "pop": "R",
+    "adresse": "13 AVENUE ARISTIDE BRIAND",
+    "ville": "Salins-les-Bains",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 00:01:00\", \"@valeur\": \"1.746\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-11 00:01:00\", \"@valeur\": \"1.059\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-11 00:01:00\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 00:01:00\", \"@valeur\": \"1.851\"}]",
+    "geom": {
+      "lon": 5.874,
+      "lat": 46.949
+    },
+    "gazole_maj": "2023-12-11T01:01:00+01:00",
+    "gazole_prix": "1.746",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-11T01:01:00+01:00",
+    "e85_prix": "1.059",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-11T01:01:00+01:00",
+    "e10_prix": "1.775",
+    "sp98_maj": "2023-12-11T01:01:00+01:00",
+    "sp98_prix": "1.851",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Jura",
+    "code_departement": "39",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 39110003,
     "latitude": "4692428.073",
     "longitude": 588581.893,
@@ -42,59 +95,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Jura",
-    "code_departement": "39",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 39110007,
-    "latitude": "4694900",
-    "longitude": 587400,
-    "cp": "39110",
-    "pop": "R",
-    "adresse": "13 AVENUE ARISTIDE BRIAND",
-    "ville": "Salins-les-Bains",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-10 00:01:00\", \"@valeur\": \"1.746\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-10 00:01:00\", \"@valeur\": \"1.059\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-10 00:01:00\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-10 00:01:00\", \"@valeur\": \"1.851\"}]",
-    "geom": {
-      "lon": 5.874,
-      "lat": 46.949
-    },
-    "gazole_maj": "2023-12-10T01:01:00+01:00",
-    "gazole_prix": "1.746",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-10T01:01:00+01:00",
-    "e85_prix": "1.059",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-10T01:01:00+01:00",
-    "e10_prix": "1.775",
-    "sp98_maj": "2023-12-10T01:01:00+01:00",
-    "sp98_prix": "1.851",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Jura",
     "code_departement": "39",

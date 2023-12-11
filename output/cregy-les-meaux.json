@@ -9,15 +9,15 @@
     "ville": "Crégy-lès-Meaux",
     "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-06 19:27:25\", \"@valeur\": \"1.760\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-06 19:27:25\", \"@valeur\": \"1.819\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-06 19:27:25\", \"@valeur\": \"1.760\"}",
     "geom": {
       "lon": 2.87015,
       "lat": 48.97462
     },
     "gazole_maj": "2023-12-06T20:27:25+01:00",
     "gazole_prix": "1.760",
-    "sp95_maj": "2023-12-06T20:27:25+01:00",
-    "sp95_prix": "1.819",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -27,10 +27,10 @@
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole",
-      "SP95"
+      "Gazole"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "E10",
