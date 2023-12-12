@@ -64,7 +64,7 @@
     "ville": "Marcoussis",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 09:38:32\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 09:38:32\", \"@valeur\": \"1.884\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 09:38:32\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 09:38:32\", \"@valeur\": \"1.884\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-11 09:59:53\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 09:59:53\", \"@valeur\": \"1.874\"}]",
     "geom": {
       "lon": 2.24877,
       "lat": 48.64065
@@ -77,19 +77,19 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-12-11T10:59:53+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2023-12-11T10:59:53+01:00",
+    "sp98_prix": "1.874",
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

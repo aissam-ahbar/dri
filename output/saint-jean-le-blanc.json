@@ -9,32 +9,32 @@
     "ville": "Saint-Jean-le-Blanc",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-06 09:37:41\", \"@valeur\": \"1.753\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 09:27:33\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-11 12:06:57\", \"@valeur\": \"1.713\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 18:46:48\", \"@valeur\": \"1.766\"}]",
     "geom": {
       "lon": 1.9348,
       "lat": 47.87568
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2023-12-11T10:27:33+01:00",
+    "gazole_prix": "1.699",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-06T10:37:41+01:00",
-    "e10_prix": "1.753",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-12-11T13:06:57+01:00",
+    "e10_prix": "1.713",
+    "sp98_maj": "2023-12-11T19:46:48+01:00",
+    "sp98_prix": "1.766",
     "carburants_disponibles": [
-      "E10"
+      "Gazole",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

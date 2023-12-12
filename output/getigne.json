@@ -1,5 +1,55 @@
 [
   {
+    "id": 44190001,
+    "latitude": "4708400",
+    "longitude": -126300,
+    "cp": "44190",
+    "pop": "R",
+    "adresse": "14 avenue Xavier Rineau - Le Barillet",
+    "ville": "Gétigné",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 08:36:19\", \"@valeur\": \"1.668\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-11 08:36:19\", \"@valeur\": \"1.743\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-11 08:36:20\", \"@valeur\": \"1.704\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 16:01:38\", \"@valeur\": \"1.768\"}]",
+    "geom": {
+      "lon": -1.263,
+      "lat": 47.084
+    },
+    "gazole_maj": "2023-12-11T09:36:19+01:00",
+    "gazole_prix": "1.668",
+    "sp95_maj": "2023-12-11T09:36:19+01:00",
+    "sp95_prix": "1.743",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-11T09:36:20+01:00",
+    "e10_prix": "1.704",
+    "sp98_maj": "2023-12-11T17:01:38+01:00",
+    "sp98_prix": "1.768",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loire-Atlantique",
+    "code_departement": "44",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 44190004,
     "latitude": "4707800",
     "longitude": -124000,
@@ -47,56 +97,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
-    ],
-    "departement": "Loire-Atlantique",
-    "code_departement": "44",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 44190001,
-    "latitude": "4708400",
-    "longitude": -126300,
-    "cp": "44190",
-    "pop": "R",
-    "adresse": "14 avenue Xavier Rineau - Le Barillet",
-    "ville": "Gétigné",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 10:21:45\", \"@valeur\": \"1.668\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-09 10:21:45\", \"@valeur\": \"1.743\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 10:21:45\", \"@valeur\": \"1.711\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 10:21:45\", \"@valeur\": \"1.770\"}]",
-    "geom": {
-      "lon": -1.263,
-      "lat": 47.084
-    },
-    "gazole_maj": "2023-12-09T11:21:45+01:00",
-    "gazole_prix": "1.668",
-    "sp95_maj": "2023-12-09T11:21:45+01:00",
-    "sp95_prix": "1.743",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-09T11:21:45+01:00",
-    "e10_prix": "1.711",
-    "sp98_maj": "2023-12-09T11:21:45+01:00",
-    "sp98_prix": "1.770",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Loire-Atlantique",
     "code_departement": "44",
