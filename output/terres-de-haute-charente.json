@@ -1,5 +1,62 @@
 [
   {
+    "id": 16270003,
+    "latitude": "4588434",
+    "longitude": 57522,
+    "cp": "16270",
+    "pop": "R",
+    "adresse": "122 Rue Nationale",
+    "ville": "Terres-de-Haute-Charente",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-12 09:30:15\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 08:22:16\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-12 09:30:15\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-12 09:30:16\", \"@valeur\": \"1.789\"}]",
+    "geom": {
+      "lon": 0.57522,
+      "lat": 45.88434
+    },
+    "gazole_maj": "2023-12-12T10:30:15+01:00",
+    "gazole_prix": "1.719",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-03T09:22:16+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-12T10:30:15+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": "2023-12-12T10:30:16+01:00",
+    "sp98_prix": "1.789",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Boutique alimentaire",
+      "Restauration sur place",
+      "Bar",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Charente",
+    "code_departement": "16",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 16270001,
     "latitude": "4588248",
     "longitude": 58262,
@@ -9,13 +66,13 @@
     "ville": "Terres-de-Haute-Charente",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-03 07:53:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 07:53:01\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 07:53:01\", \"@valeur\": \"1.855\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-12 11:51:52\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-03 07:53:01\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-03 07:53:01\", \"@valeur\": \"1.855\"}]",
     "geom": {
       "lon": 0.58262,
       "lat": 45.88248
     },
-    "gazole_maj": "2023-12-03T08:53:00+01:00",
-    "gazole_prix": "1.759",
+    "gazole_maj": "2023-12-12T12:51:52+01:00",
+    "gazole_prix": "1.719",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -43,63 +100,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Charente",
-    "code_departement": "16",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 16270003,
-    "latitude": "4588434",
-    "longitude": 57522,
-    "cp": "16270",
-    "pop": "R",
-    "adresse": "122 Rue Nationale",
-    "ville": "Terres-de-Haute-Charente",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 19:30:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 08:22:16\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 19:30:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 19:30:00\", \"@valeur\": \"1.799\"}]",
-    "geom": {
-      "lon": 0.57522,
-      "lat": 45.88434
-    },
-    "gazole_maj": "2023-12-09T20:30:00+01:00",
-    "gazole_prix": "1.739",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-03T09:22:16+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-09T20:30:00+01:00",
-    "e10_prix": "1.749",
-    "sp98_maj": "2023-12-09T20:30:00+01:00",
-    "sp98_prix": "1.799",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Boutique alimentaire",
-      "Restauration sur place",
-      "Bar",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Charente",
     "code_departement": "16",

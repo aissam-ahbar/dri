@@ -9,25 +9,33 @@
     "ville": "Saleux",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-12 08:50:06\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-12 08:50:06\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-12 08:50:06\", \"@valeur\": \"1.799\"}]",
     "geom": {
       "lon": 2.23121,
       "lat": 49.86238
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2023-12-12T09:50:06+01:00",
+    "gazole_prix": "1.739",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "e10_maj": "2023-12-12T09:50:06+01:00",
+    "e10_prix": "1.759",
+    "sp98_maj": "2023-12-12T09:50:06+01:00",
+    "sp98_prix": "1.799",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
