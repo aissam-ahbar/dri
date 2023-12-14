@@ -9,25 +9,33 @@
     "ville": "Longnes",
     "horaires": null,
     "services": "{\"service\": \"Station de gonflage\"}",
-    "prix": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 08:26:56\", \"@valeur\": \"1.851\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:26:56\", \"@valeur\": \"1.863\"}]",
     "geom": {
       "lon": 1.591,
       "lat": 48.923
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2023-12-13T09:26:56+01:00",
+    "gazole_prix": "1.851",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2023-12-13T09:26:56+01:00",
+    "e10_prix": "1.863",
     "sp98_maj": null,
     "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage"

@@ -55,15 +55,15 @@
     "ville": "Conty",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 08:06:27\", \"@valeur\": \"1.980\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 08:06:27\", \"@valeur\": \"1.290\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 09:27:06\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-13 09:27:06\", \"@valeur\": \"1.960\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 08:06:27\", \"@valeur\": \"1.290\"}]",
     "geom": {
       "lon": 2.152,
       "lat": 49.741
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": "2023-12-01T09:06:27+01:00",
-    "sp95_prix": "1.980",
+    "gazole_maj": "2023-12-13T10:27:06+01:00",
+    "gazole_prix": "1.910",
+    "sp95_maj": "2023-12-13T10:27:06+01:00",
+    "sp95_prix": "1.960",
     "e85_maj": "2023-12-01T09:06:27+01:00",
     "e85_prix": "1.290",
     "gplc_maj": null,
@@ -73,11 +73,11 @@
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "E85"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "GPLc",
       "E10",
       "SP98"
