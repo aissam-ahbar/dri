@@ -1,5 +1,58 @@
 [
   {
+    "id": 52140005,
+    "latitude": "4797704.5362796",
+    "longitude": 549885.75263224,
+    "cp": "52140",
+    "pop": "A",
+    "adresse": "AIRE DE VAL DE MEUSE A31",
+    "ville": "Val-de-Meuse",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"1.954\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"1.083\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"1.984\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"2.084\"}]",
+    "geom": {
+      "lon": 5.498857526322399,
+      "lat": 47.977045362796
+    },
+    "gazole_maj": "2023-12-09T07:00:00+01:00",
+    "gazole_prix": "1.954",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-09T07:00:00+01:00",
+    "gplc_prix": "1.083",
+    "e10_maj": "2023-12-09T07:00:00+01:00",
+    "e10_prix": "1.984",
+    "sp98_maj": "2023-12-09T07:00:00+01:00",
+    "sp98_prix": "2.084",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Espace bébé"
+    ],
+    "departement": "Haute-Marne",
+    "code_departement": "52",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 52140004,
     "latitude": "4797764.7915996",
     "longitude": 549815.37450629,
@@ -55,59 +108,6 @@
     "code_region": "44"
   },
   {
-    "id": 52140005,
-    "latitude": "4797704.5362796",
-    "longitude": 549885.75263224,
-    "cp": "52140",
-    "pop": "A",
-    "adresse": "AIRE DE VAL DE MEUSE A31",
-    "ville": "Val-de-Meuse",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"1.954\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"1.083\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"1.984\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 06:00:00\", \"@valeur\": \"2.084\"}]",
-    "geom": {
-      "lon": 5.498857526322399,
-      "lat": 47.977045362796
-    },
-    "gazole_maj": "2023-12-09T07:00:00+01:00",
-    "gazole_prix": "1.954",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-09T07:00:00+01:00",
-    "gplc_prix": "1.083",
-    "e10_maj": "2023-12-09T07:00:00+01:00",
-    "e10_prix": "1.984",
-    "sp98_maj": "2023-12-09T07:00:00+01:00",
-    "sp98_prix": "2.084",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Espace bébé"
-    ],
-    "departement": "Haute-Marne",
-    "code_departement": "52",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 52140002,
     "latitude": "4800500",
     "longitude": 548700,
@@ -117,23 +117,23 @@
     "ville": "Val-de-Meuse",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 09:06:16\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 09:06:16\", \"@valeur\": \"1.863\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 09:06:57\", \"@valeur\": \"1.978\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 09:06:13\", \"@valeur\": \"1.814\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 09:06:13\", \"@valeur\": \"1.856\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 09:06:14\", \"@valeur\": \"1.966\"}]",
     "geom": {
       "lon": 5.487,
       "lat": 48.005
     },
-    "gazole_maj": "2023-12-13T10:06:16+01:00",
-    "gazole_prix": "1.819",
+    "gazole_maj": "2023-12-14T10:06:13+01:00",
+    "gazole_prix": "1.814",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-13T10:06:16+01:00",
-    "e10_prix": "1.863",
-    "sp98_maj": "2023-12-09T10:06:57+01:00",
-    "sp98_prix": "1.978",
+    "e10_maj": "2023-12-14T10:06:13+01:00",
+    "e10_prix": "1.856",
+    "sp98_maj": "2023-12-14T10:06:14+01:00",
+    "sp98_prix": "1.966",
     "carburants_disponibles": [
       "Gazole",
       "E10",

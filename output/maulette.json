@@ -1,5 +1,55 @@
 [
   {
+    "id": 78550009,
+    "latitude": "4879300",
+    "longitude": 162000,
+    "cp": "78550",
+    "pop": "R",
+    "adresse": "22 AVENUE GERARD ANNEL - D912",
+    "ville": "Maulette",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 00:01:00\", \"@valeur\": \"1.738\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 00:01:00\", \"@valeur\": \"1.757\"}]",
+    "geom": {
+      "lon": 1.62,
+      "lat": 48.793
+    },
+    "gazole_maj": "2023-12-15T01:01:00+01:00",
+    "gazole_prix": "1.738",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-15T01:01:00+01:00",
+    "e10_prix": "1.757",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Yvelines",
+    "code_departement": "78",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 78550006,
     "latitude": "4879100",
     "longitude": 162800,
@@ -171,23 +221,23 @@
     "ville": "Maulette",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-27 14:41:30\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-01 08:17:51\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-01 08:18:38\", \"@valeur\": \"1.895\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 14:28:02\", \"@valeur\": \"1.724\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 14:28:03\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 14:28:03\", \"@valeur\": \"1.879\"}]",
     "geom": {
       "lon": 1.61421,
       "lat": 48.78637
     },
-    "gazole_maj": "2023-11-27T15:41:30+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": "2023-12-01T09:17:51+01:00",
-    "sp95_prix": "1.875",
+    "gazole_maj": "2023-12-14T15:28:02+01:00",
+    "gazole_prix": "1.724",
+    "sp95_maj": "2023-12-14T15:28:03+01:00",
+    "sp95_prix": "1.859",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2023-12-01T09:18:38+01:00",
-    "sp98_prix": "1.895",
+    "sp98_maj": "2023-12-14T15:28:03+01:00",
+    "sp98_prix": "1.879",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -201,56 +251,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Yvelines",
-    "code_departement": "78",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 78550009,
-    "latitude": "4879300",
-    "longitude": 162000,
-    "cp": "78550",
-    "pop": "R",
-    "adresse": "22 AVENUE GERARD ANNEL - D912",
-    "ville": "Maulette",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 00:01:00\", \"@valeur\": \"1.736\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 00:01:00\", \"@valeur\": \"1.752\"}]",
-    "geom": {
-      "lon": 1.62,
-      "lat": 48.793
-    },
-    "gazole_maj": "2023-12-14T01:01:00+01:00",
-    "gazole_prix": "1.736",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-14T01:01:00+01:00",
-    "e10_prix": "1.752",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "Automate CB 24/24"
     ],
     "departement": "Yvelines",
     "code_departement": "78",

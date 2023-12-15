@@ -1,5 +1,101 @@
 [
   {
+    "id": 35500006,
+    "latitude": "4810983.64701",
+    "longitude": -121377.14592,
+    "cp": "35500",
+    "pop": "R",
+    "adresse": "1 rue de Domalain",
+    "ville": "Vitré",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 10:51:23\", \"@valeur\": \"1.672\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-09 09:57:31\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-21 09:16:23\", \"@valeur\": \"0.995\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 10:51:23\", \"@valeur\": \"1.687\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 10:51:24\", \"@valeur\": \"1.772\"}]",
+    "geom": {
+      "lon": -1.2137714592,
+      "lat": 48.10983647010001
+    },
+    "gazole_maj": "2023-12-14T11:51:23+01:00",
+    "gazole_prix": "1.672",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-09T10:57:31+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": "2023-11-21T10:16:23+01:00",
+    "gplc_prix": "0.995",
+    "e10_maj": "2023-12-14T11:51:23+01:00",
+    "e10_prix": "1.687",
+    "sp98_maj": "2023-12-14T11:51:24+01:00",
+    "sp98_prix": "1.772",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ille-et-Vilaine",
+    "code_departement": "35",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
+    "id": 35500001,
+    "latitude": "4811188.72889",
+    "longitude": -121216.857653,
+    "cp": "35500",
+    "pop": "R",
+    "adresse": "21 Route de Redon",
+    "ville": "Vitré",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 12:46:34\", \"@valeur\": \"1.666\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-14 12:46:34\", \"@valeur\": \"0.913\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 08:38:42\", \"@valeur\": \"1.687\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 08:38:42\", \"@valeur\": \"1.772\"}]",
+    "geom": {
+      "lon": -1.21216857653,
+      "lat": 48.1118872889
+    },
+    "gazole_maj": "2023-12-14T13:46:34+01:00",
+    "gazole_prix": "1.666",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-14T13:46:34+01:00",
+    "e85_prix": "0.913",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-14T09:38:42+01:00",
+    "e10_prix": "1.687",
+    "sp98_maj": "2023-12-14T09:38:42+01:00",
+    "sp98_prix": "1.772",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Ille-et-Vilaine",
+    "code_departement": "35",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
     "id": 35500004,
     "latitude": "4811400",
     "longitude": -120800,
@@ -9,23 +105,23 @@
     "ville": "Vitré",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 09:55:23\", \"@valeur\": \"1.679\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-13 08:52:32\", \"@valeur\": \"0.923\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:52:32\", \"@valeur\": \"1.690\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 08:52:33\", \"@valeur\": \"1.779\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 08:37:41\", \"@valeur\": \"1.672\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-13 08:52:32\", \"@valeur\": \"0.923\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 08:37:42\", \"@valeur\": \"1.687\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 08:37:42\", \"@valeur\": \"1.772\"}]",
     "geom": {
       "lon": -1.208,
       "lat": 48.114
     },
-    "gazole_maj": "2023-12-08T10:55:23+01:00",
-    "gazole_prix": "1.679",
+    "gazole_maj": "2023-12-14T09:37:41+01:00",
+    "gazole_prix": "1.672",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-12-13T09:52:32+01:00",
     "e85_prix": "0.923",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-13T09:52:32+01:00",
-    "e10_prix": "1.690",
-    "sp98_maj": "2023-12-13T09:52:33+01:00",
-    "sp98_prix": "1.779",
+    "e10_maj": "2023-12-14T09:37:42+01:00",
+    "e10_prix": "1.687",
+    "sp98_maj": "2023-12-14T09:37:42+01:00",
+    "sp98_prix": "1.772",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -56,46 +152,45 @@
     "code_region": "53"
   },
   {
-    "id": 35500001,
-    "latitude": "4811188.72889",
-    "longitude": -121216.857653,
+    "id": 35500008,
+    "latitude": "4813200",
+    "longitude": -122300,
     "cp": "35500",
     "pop": "R",
-    "adresse": "21 Route de Redon",
+    "adresse": "1 Boulevard Georges Charpak",
     "ville": "Vitré",
     "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 08:31:33\", \"@valeur\": \"1.679\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-13 08:51:40\", \"@valeur\": \"0.918\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:51:40\", \"@valeur\": \"1.690\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 08:51:40\", \"@valeur\": \"1.779\"}]",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 10:14:49\", \"@valeur\": \"1.682\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 10:14:50\", \"@valeur\": \"1.697\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 10:14:50\", \"@valeur\": \"1.772\"}]",
     "geom": {
-      "lon": -1.21216857653,
-      "lat": 48.1118872889
+      "lon": -1.223,
+      "lat": 48.132
     },
-    "gazole_maj": "2023-12-11T09:31:33+01:00",
-    "gazole_prix": "1.679",
+    "gazole_maj": "2023-12-14T11:14:49+01:00",
+    "gazole_prix": "1.682",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-13T09:51:40+01:00",
-    "e85_prix": "0.918",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-13T09:51:40+01:00",
-    "e10_prix": "1.690",
-    "sp98_maj": "2023-12-13T09:51:40+01:00",
-    "sp98_prix": "1.779",
+    "e10_maj": "2023-12-14T11:14:50+01:00",
+    "e10_prix": "1.697",
+    "sp98_maj": "2023-12-14T11:14:50+01:00",
+    "sp98_prix": "1.772",
     "carburants_disponibles": [
       "Gazole",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)"
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Ille-et-Vilaine",
     "code_departement": "35",
@@ -143,101 +238,6 @@
       "Lavage manuel",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Ille-et-Vilaine",
-    "code_departement": "35",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
-    "id": 35500008,
-    "latitude": "4813200",
-    "longitude": -122300,
-    "cp": "35500",
-    "pop": "R",
-    "adresse": "1 Boulevard Georges Charpak",
-    "ville": "Vitré",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 19:28:34\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 19:28:35\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 10:13:29\", \"@valeur\": \"1.782\"}]",
-    "geom": {
-      "lon": -1.223,
-      "lat": 48.132
-    },
-    "gazole_maj": "2023-12-09T20:28:34+01:00",
-    "gazole_prix": "1.689",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-09T20:28:35+01:00",
-    "e10_prix": "1.699",
-    "sp98_maj": "2023-12-11T11:13:29+01:00",
-    "sp98_prix": "1.782",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ille-et-Vilaine",
-    "code_departement": "35",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
-    "id": 35500006,
-    "latitude": "4810983.64701",
-    "longitude": -121377.14592,
-    "cp": "35500",
-    "pop": "R",
-    "adresse": "1 rue de Domalain",
-    "ville": "Vitré",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 09:36:28\", \"@valeur\": \"1.684\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-09 09:57:31\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-21 09:16:23\", \"@valeur\": \"0.995\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 09:36:29\", \"@valeur\": \"1.690\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 09:36:29\", \"@valeur\": \"1.779\"}]",
-    "geom": {
-      "lon": -1.2137714592,
-      "lat": 48.10983647010001
-    },
-    "gazole_maj": "2023-12-13T10:36:28+01:00",
-    "gazole_prix": "1.684",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-09T10:57:31+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": "2023-11-21T10:16:23+01:00",
-    "gplc_prix": "0.995",
-    "e10_maj": "2023-12-13T10:36:29+01:00",
-    "e10_prix": "1.690",
-    "sp98_maj": "2023-12-13T10:36:29+01:00",
-    "sp98_prix": "1.779",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Ille-et-Vilaine",
     "code_departement": "35",

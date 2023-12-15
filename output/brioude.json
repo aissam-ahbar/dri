@@ -1,5 +1,61 @@
 [
   {
+    "id": 43100004,
+    "latitude": "4530000",
+    "longitude": 338000,
+    "cp": "43100",
+    "pop": "R",
+    "adresse": "10 avenue d Auvergne",
+    "ville": "Brioude",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 09:33:59\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 09:33:59\", \"@valeur\": \"1.906\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-14 09:34:00\", \"@valeur\": \"1.066\"}]",
+    "geom": {
+      "lon": 3.38,
+      "lat": 45.3
+    },
+    "gazole_maj": "2023-12-14T10:33:59+01:00",
+    "gazole_prix": "1.826",
+    "sp95_maj": "2023-12-14T10:33:59+01:00",
+    "sp95_prix": "1.906",
+    "e85_maj": "2023-12-14T10:34:00+01:00",
+    "e85_prix": "1.066",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 43100001,
     "latitude": "4531100",
     "longitude": 337500,
@@ -112,62 +168,6 @@
     "code_region": "84"
   },
   {
-    "id": 43100004,
-    "latitude": "4530000",
-    "longitude": 338000,
-    "cp": "43100",
-    "pop": "R",
-    "adresse": "10 avenue d Auvergne",
-    "ville": "Brioude",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 16:59:39\", \"@valeur\": \"1.846\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-11 16:59:39\", \"@valeur\": \"1.926\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-01 07:49:30\", \"@valeur\": \"1.096\"}]",
-    "geom": {
-      "lon": 3.38,
-      "lat": 45.3
-    },
-    "gazole_maj": "2023-12-11T17:59:39+01:00",
-    "gazole_prix": "1.846",
-    "sp95_maj": "2023-12-11T17:59:39+01:00",
-    "sp95_prix": "1.926",
-    "e85_maj": "2023-12-01T08:49:30+01:00",
-    "e85_prix": "1.096",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 43100003,
     "latitude": "4528982",
     "longitude": 338717,
@@ -177,7 +177,7 @@
     "ville": "Brioude",
     "horaires": null,
     "services": "{\"service\": \"Vente de fioul domestique\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 08:09:34\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:09:34\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 08:09:34\", \"@valeur\": \"1.979\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 08:09:34\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:09:34\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 08:11:46\", \"@valeur\": \"1.969\"}]",
     "geom": {
       "lon": 3.38717,
       "lat": 45.28982
@@ -192,8 +192,8 @@
     "gplc_prix": null,
     "e10_maj": "2023-12-13T09:09:34+01:00",
     "e10_prix": "1.839",
-    "sp98_maj": "2023-12-13T09:09:34+01:00",
-    "sp98_prix": "1.979",
+    "sp98_maj": "2023-12-14T09:11:46+01:00",
+    "sp98_prix": "1.969",
     "carburants_disponibles": [
       "Gazole",
       "E10",

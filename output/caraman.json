@@ -9,15 +9,15 @@
     "ville": "Caraman",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 08:46:50\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 08:46:50\", \"@valeur\": \"1.855\"}]",
     "geom": {
       "lon": 1.75158,
       "lat": 43.53343
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2023-12-14T09:46:50+01:00",
+    "gazole_prix": "1.769",
+    "sp95_maj": "2023-12-14T09:46:50+01:00",
+    "sp95_prix": "1.855",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -26,8 +26,16 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
