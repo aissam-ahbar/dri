@@ -1,5 +1,62 @@
 [
   {
+    "id": 14110003,
+    "latitude": "4885503.4234699",
+    "longitude": -54190.441915746,
+    "cp": "14110",
+    "pop": "R",
+    "adresse": "RUE ST JACQUES",
+    "ville": "Condé-en-Normandie",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"13.00\"}}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 08:08:24\", \"@valeur\": \"1.685\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-15 08:08:24\", \"@valeur\": \"1.038\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 08:08:25\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 08:08:25\", \"@valeur\": \"1.807\"}]",
+    "geom": {
+      "lon": -0.54190441915746,
+      "lat": 48.855034234699005
+    },
+    "gazole_maj": "2023-12-15T09:08:24+01:00",
+    "gazole_prix": "1.685",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-15T09:08:24+01:00",
+    "gplc_prix": "1.038",
+    "e10_maj": "2023-12-15T09:08:25+01:00",
+    "e10_prix": "1.709",
+    "sp98_maj": "2023-12-15T09:08:25+01:00",
+    "sp98_prix": "1.807",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Calvados",
+    "code_departement": "14",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 14110002,
     "latitude": "4885624",
     "longitude": -53892,
@@ -48,63 +105,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Calvados",
-    "code_departement": "14",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 14110003,
-    "latitude": "4885503.4234699",
-    "longitude": -54190.441915746,
-    "cp": "14110",
-    "pop": "R",
-    "adresse": "RUE ST JACQUES",
-    "ville": "Condé-en-Normandie",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.15\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"13.00\"}}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 08:06:20\", \"@valeur\": \"1.685\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-14 08:06:20\", \"@valeur\": \"1.038\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 08:06:20\", \"@valeur\": \"1.703\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 08:06:20\", \"@valeur\": \"1.801\"}]",
-    "geom": {
-      "lon": -0.54190441915746,
-      "lat": 48.855034234699005
-    },
-    "gazole_maj": "2023-12-14T09:06:20+01:00",
-    "gazole_prix": "1.685",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-14T09:06:20+01:00",
-    "gplc_prix": "1.038",
-    "e10_maj": "2023-12-14T09:06:20+01:00",
-    "e10_prix": "1.703",
-    "sp98_maj": "2023-12-14T09:06:20+01:00",
-    "sp98_prix": "1.801",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Calvados",
     "code_departement": "14",

@@ -1,5 +1,62 @@
 [
   {
+    "id": 59279004,
+    "latitude": "5098200",
+    "longitude": 258400,
+    "cp": "59122",
+    "pop": "R",
+    "adresse": "17 PLACE DU GENERAL DE GAULLE",
+    "ville": "Hondschoote",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 06:55:36\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 06:55:36\", \"@valeur\": \"0.961\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 06:55:37\", \"@valeur\": \"1.732\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 06:55:37\", \"@valeur\": \"1.807\"}]",
+    "geom": {
+      "lon": 2.584,
+      "lat": 50.982
+    },
+    "gazole_maj": "2023-12-15T07:55:36+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-15T07:55:36+01:00",
+    "e85_prix": "0.961",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-15T07:55:37+01:00",
+    "e10_prix": "1.732",
+    "sp98_maj": "2023-12-15T07:55:37+01:00",
+    "sp98_prix": "1.807",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Restauration à emporter",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59122002,
     "latitude": "5098167.6",
     "longitude": 258536.45,
@@ -46,63 +103,6 @@
       "Location de véhicule",
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59279004,
-    "latitude": "5098200",
-    "longitude": 258400,
-    "cp": "59122",
-    "pop": "R",
-    "adresse": "17 PLACE DU GENERAL DE GAULLE",
-    "ville": "Hondschoote",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 06:46:01\", \"@valeur\": \"1.731\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-14 06:46:01\", \"@valeur\": \"0.961\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 06:46:01\", \"@valeur\": \"1.732\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 06:46:01\", \"@valeur\": \"1.807\"}]",
-    "geom": {
-      "lon": 2.584,
-      "lat": 50.982
-    },
-    "gazole_maj": "2023-12-14T07:46:01+01:00",
-    "gazole_prix": "1.731",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-14T07:46:01+01:00",
-    "e85_prix": "0.961",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-14T07:46:01+01:00",
-    "e10_prix": "1.732",
-    "sp98_maj": "2023-12-14T07:46:01+01:00",
-    "sp98_prix": "1.807",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Restauration à emporter",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
