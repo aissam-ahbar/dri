@@ -1,5 +1,54 @@
 [
   {
+    "id": 62290003,
+    "latitude": "5048400",
+    "longitude": 265900,
+    "cp": "62290",
+    "pop": "R",
+    "adresse": "47 Rue Nationale",
+    "ville": "Nœux-les-Mines",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 16:34:50\", \"@valeur\": \"1.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 16:34:50\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-16 16:34:51\", \"@valeur\": \"1.970\"}]",
+    "geom": {
+      "lon": 2.659,
+      "lat": 50.484
+    },
+    "gazole_maj": "2023-12-16T17:34:50+01:00",
+    "gazole_prix": "1.890",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-16T17:34:50+01:00",
+    "e10_prix": "1.880",
+    "sp98_maj": "2023-12-16T17:34:51+01:00",
+    "sp98_prix": "1.970",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 62290001,
     "latitude": "5047753.377",
     "longitude": 267814.649,
@@ -41,55 +90,6 @@
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 62290003,
-    "latitude": "5048400",
-    "longitude": 265900,
-    "cp": "62290",
-    "pop": "R",
-    "adresse": "47 Rue Nationale",
-    "ville": "Nœux-les-Mines",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-02 16:50:22\", \"@valeur\": \"1.950\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-02 16:50:22\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-02 16:50:22\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 2.659,
-      "lat": 50.484
-    },
-    "gazole_maj": "2023-12-02T17:50:22+01:00",
-    "gazole_prix": "1.950",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-02T17:50:22+01:00",
-    "e10_prix": "1.920",
-    "sp98_maj": "2023-12-02T17:50:22+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",
