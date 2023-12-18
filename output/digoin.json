@@ -1,5 +1,61 @@
 [
   {
+    "id": 71160002,
+    "latitude": "4648800",
+    "longitude": 399300,
+    "cp": "71160",
+    "pop": "R",
+    "adresse": "Rue de la Faïencerie",
+    "ville": "Digoin",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 08:11:38\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-16 08:11:38\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 08:11:38\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-16 08:11:39\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": 3.993,
+      "lat": 46.488
+    },
+    "gazole_maj": "2023-12-16T09:11:38+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": "2023-12-16T09:11:38+01:00",
+    "sp95_prix": "1.779",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-16T09:11:38+01:00",
+    "e10_prix": "1.729",
+    "sp98_maj": "2023-12-16T09:11:39+01:00",
+    "sp98_prix": "1.829",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Bar",
+      "Vente de fioul domestique",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Saône-et-Loire",
+    "code_departement": "71",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 71160003,
     "latitude": "4647400",
     "longitude": 400400,
@@ -49,62 +105,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Bornes électriques",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Saône-et-Loire",
-    "code_departement": "71",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 71160002,
-    "latitude": "4648800",
-    "longitude": 399300,
-    "cp": "71160",
-    "pop": "R",
-    "adresse": "Rue de la Faïencerie",
-    "ville": "Digoin",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 08:11:38\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-16 08:11:38\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 08:11:38\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-16 08:11:39\", \"@valeur\": \"1.829\"}]",
-    "geom": {
-      "lon": 3.993,
-      "lat": 46.488
-    },
-    "gazole_maj": "2023-12-16T09:11:38+01:00",
-    "gazole_prix": "1.699",
-    "sp95_maj": "2023-12-16T09:11:38+01:00",
-    "sp95_prix": "1.779",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-16T09:11:38+01:00",
-    "e10_prix": "1.729",
-    "sp98_maj": "2023-12-16T09:11:39+01:00",
-    "sp98_prix": "1.829",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Bar",
-      "Vente de fioul domestique",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Saône-et-Loire",
