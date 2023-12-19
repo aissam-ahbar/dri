@@ -1,51 +1,5 @@
 [
   {
-    "id": 78540001,
-    "latitude": "4897561",
-    "longitude": 199535,
-    "cp": "78540",
-    "pop": "R",
-    "adresse": "Rue de la Grosse Pierre",
-    "ville": "Vernouillet",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-17 08:33:06\", \"@valeur\": \"1.757\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-17 08:33:06\", \"@valeur\": \"1.792\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-17 08:33:07\", \"@valeur\": \"1.763\"}]",
-    "geom": {
-      "lon": 1.99535,
-      "lat": 48.97561
-    },
-    "gazole_maj": "2023-12-17T09:33:06+01:00",
-    "gazole_prix": "1.757",
-    "sp95_maj": "2023-12-17T09:33:06+01:00",
-    "sp95_prix": "1.792",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-17T09:33:07+01:00",
-    "e10_prix": "1.763",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Yvelines",
-    "code_departement": "78",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 28500005,
     "latitude": "4873200",
     "longitude": 134100,
@@ -83,6 +37,52 @@
     "code_departement": "28",
     "region": "Centre-Val de Loire",
     "code_region": "24"
+  },
+  {
+    "id": 78540001,
+    "latitude": "4897561",
+    "longitude": 199535,
+    "cp": "78540",
+    "pop": "R",
+    "adresse": "Rue de la Grosse Pierre",
+    "ville": "Vernouillet",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 08:45:29\", \"@valeur\": \"1.757\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-18 08:45:30\", \"@valeur\": \"1.792\"}]",
+    "geom": {
+      "lon": 1.99535,
+      "lat": 48.97561
+    },
+    "gazole_maj": "2023-12-18T09:45:29+01:00",
+    "gazole_prix": "1.757",
+    "sp95_maj": "2023-12-18T09:45:30+01:00",
+    "sp95_prix": "1.792",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Yvelines",
+    "code_departement": "78",
+    "region": "Île-de-France",
+    "code_region": "11"
   },
   {
     "id": 28500010,
@@ -146,22 +146,22 @@
     "ville": "Vernouillet",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Location de véhicule\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 20:00:00\", \"@valeur\": \"1.725\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-16 20:00:00\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 20:00:00\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-16 20:00:00\", \"@valeur\": \"1.850\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 20:00:00\", \"@valeur\": \"1.725\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 20:00:00\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 20:00:00\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 20:00:00\", \"@valeur\": \"1.850\"}]",
     "geom": {
       "lon": 1.369,
       "lat": 48.717
     },
-    "gazole_maj": "2023-12-16T21:00:00+01:00",
+    "gazole_maj": "2023-12-18T21:00:00+01:00",
     "gazole_prix": "1.725",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-16T21:00:00+01:00",
+    "e85_maj": "2023-12-18T21:00:00+01:00",
     "e85_prix": "1.009",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-16T21:00:00+01:00",
+    "e10_maj": "2023-12-18T21:00:00+01:00",
     "e10_prix": "1.748",
-    "sp98_maj": "2023-12-16T21:00:00+01:00",
+    "sp98_maj": "2023-12-18T21:00:00+01:00",
     "sp98_prix": "1.850",
     "carburants_disponibles": [
       "Gazole",

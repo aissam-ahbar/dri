@@ -1,5 +1,52 @@
 [
   {
+    "id": 5200009,
+    "latitude": "4453836.37",
+    "longitude": 649203.6,
+    "cp": "05200",
+    "pop": "R",
+    "adresse": "RN 94 LE PETIT LIOU",
+    "ville": "Baratier",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 07:09:43\", \"@valeur\": \"1.792\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 07:09:43\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 07:09:44\", \"@valeur\": \"1.936\"}]",
+    "geom": {
+      "lon": 6.492036,
+      "lat": 44.5383637
+    },
+    "gazole_maj": "2023-12-14T08:09:43+01:00",
+    "gazole_prix": "1.792",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-14T08:09:43+01:00",
+    "e10_prix": "1.826",
+    "sp98_maj": "2023-12-14T08:09:44+01:00",
+    "sp98_prix": "1.936",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Hautes-Alpes",
+    "code_departement": "05",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 5200005,
     "latitude": "4454600",
     "longitude": 648100,
@@ -45,53 +92,6 @@
       "Lavage manuel",
       "Services réparation / entretien",
       "Vente d'additifs carburants"
-    ],
-    "departement": "Hautes-Alpes",
-    "code_departement": "05",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 5200009,
-    "latitude": "4453836.37",
-    "longitude": 649203.6,
-    "cp": "05200",
-    "pop": "R",
-    "adresse": "RN 94 LE PETIT LIOU",
-    "ville": "Baratier",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 07:09:43\", \"@valeur\": \"1.792\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 07:09:43\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 07:09:44\", \"@valeur\": \"1.936\"}]",
-    "geom": {
-      "lon": 6.492036,
-      "lat": 44.5383637
-    },
-    "gazole_maj": "2023-12-14T08:09:43+01:00",
-    "gazole_prix": "1.792",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-14T08:09:43+01:00",
-    "e10_prix": "1.826",
-    "sp98_maj": "2023-12-14T08:09:44+01:00",
-    "sp98_prix": "1.936",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Automate CB 24/24"
     ],
     "departement": "Hautes-Alpes",
     "code_departement": "05",

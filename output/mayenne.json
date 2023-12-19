@@ -1,5 +1,62 @@
 [
   {
+    "id": 53100007,
+    "latitude": "4831400",
+    "longitude": -63900,
+    "cp": "53100",
+    "pop": "R",
+    "adresse": "ROUTE DE PARIS - BLD PAUL LINTIE",
+    "ville": "Mayenne",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.059\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.813\"}]",
+    "geom": {
+      "lon": -0.639,
+      "lat": 48.314
+    },
+    "gazole_maj": "2023-12-19T01:01:00+01:00",
+    "gazole_prix": "1.710",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-19T01:01:00+01:00",
+    "e85_prix": "1.059",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T01:01:00+01:00",
+    "e10_prix": "1.728",
+    "sp98_maj": "2023-12-19T01:01:00+01:00",
+    "sp98_prix": "1.813",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Espace bébé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Mayenne",
+    "code_departement": "53",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 53100004,
     "latitude": "4830200",
     "longitude": -61100,
@@ -169,12 +226,12 @@
     "ville": "Mayenne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 09:20:34\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 09:39:34\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-21 10:55:51\", \"@valeur\": \"1.065\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-25 17:36:39\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 09:39:34\", \"@valeur\": \"1.715\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 09:20:34\", \"@valeur\": \"1.789\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 09:47:20\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 09:39:34\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-21 10:55:51\", \"@valeur\": \"1.065\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-25 17:36:39\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 09:39:34\", \"@valeur\": \"1.715\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 09:47:20\", \"@valeur\": \"1.809\"}]",
     "geom": {
       "lon": -0.62,
       "lat": 48.289
     },
-    "gazole_maj": "2023-12-15T10:20:34+01:00",
+    "gazole_maj": "2023-12-18T10:47:20+01:00",
     "gazole_prix": "1.689",
     "sp95_maj": "2023-12-14T10:39:34+01:00",
     "sp95_prix": "1.765",
@@ -184,8 +241,8 @@
     "gplc_prix": "0.919",
     "e10_maj": "2023-12-14T10:39:34+01:00",
     "e10_prix": "1.715",
-    "sp98_maj": "2023-12-15T10:20:34+01:00",
-    "sp98_prix": "1.789",
+    "sp98_maj": "2023-12-18T10:47:20+01:00",
+    "sp98_prix": "1.809",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -256,63 +313,6 @@
       "Carburant additivé",
       "Lavage automatique",
       "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Mayenne",
-    "code_departement": "53",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 53100007,
-    "latitude": "4831400",
-    "longitude": -63900,
-    "cp": "53100",
-    "pop": "R",
-    "adresse": "ROUTE DE PARIS - BLD PAUL LINTIE",
-    "ville": "Mayenne",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.692\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.059\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.813\"}]",
-    "geom": {
-      "lon": -0.639,
-      "lat": 48.314
-    },
-    "gazole_maj": "2023-12-18T01:01:00+01:00",
-    "gazole_prix": "1.692",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-18T01:01:00+01:00",
-    "e85_prix": "1.059",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-18T01:01:00+01:00",
-    "e10_prix": "1.728",
-    "sp98_maj": "2023-12-18T01:01:00+01:00",
-    "sp98_prix": "1.813",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Espace bébé",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

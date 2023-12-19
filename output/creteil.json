@@ -9,32 +9,32 @@
     "ville": "Créteil",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.747\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.863\"}]",
     "geom": {
       "lon": 2.4451740423071002,
       "lat": 48.790388298253
     },
-    "gazole_maj": "2023-12-18T01:01:00+01:00",
-    "gazole_prix": "1.747",
+    "gazole_maj": "2023-12-19T01:01:00+01:00",
+    "gazole_prix": "1.768",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-12-19T01:01:00+01:00",
+    "e10_prix": "1.780",
+    "sp98_maj": "2023-12-19T01:01:00+01:00",
+    "sp98_prix": "1.863",
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
@@ -52,6 +52,107 @@
     "code_region": "11"
   },
   {
+    "id": 94000011,
+    "latitude": "4878292",
+    "longitude": 244670,
+    "cp": "94000",
+    "pop": "R",
+    "adresse": "ROUTE DE CHOISY RN 186",
+    "ville": "Créteil",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.748\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.069\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.830\"}]",
+    "geom": {
+      "lon": 2.4467,
+      "lat": 48.78292
+    },
+    "gazole_maj": "2023-12-19T01:01:00+01:00",
+    "gazole_prix": "1.748",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-19T01:01:00+01:00",
+    "e85_prix": "1.069",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T01:01:00+01:00",
+    "e10_prix": "1.762",
+    "sp98_maj": "2023-12-19T01:01:00+01:00",
+    "sp98_prix": "1.830",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Lavage manuel",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 94012001,
+    "latitude": "4878186.7204601",
+    "longitude": 245789.45751426,
+    "cp": "94000",
+    "pop": "R",
+    "adresse": "119 Avenue du Général de Gaulle",
+    "ville": "Créteil",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 14:09:13\", \"@valeur\": \"1.726\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-18 14:09:14\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 14:09:14\", \"@valeur\": \"1.733\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 14:09:14\", \"@valeur\": \"1.808\"}]",
+    "geom": {
+      "lon": 2.4578945751426,
+      "lat": 48.781867204601
+    },
+    "gazole_maj": "2023-12-18T15:09:13+01:00",
+    "gazole_prix": "1.726",
+    "sp95_maj": "2023-12-18T15:09:14+01:00",
+    "sp95_prix": "1.785",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-18T15:09:14+01:00",
+    "e10_prix": "1.733",
+    "sp98_maj": "2023-12-18T15:09:14+01:00",
+    "sp98_prix": "1.808",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 94000010,
     "latitude": "4877736.5166952",
     "longitude": 244091.42048333,
@@ -61,23 +162,23 @@
     "ville": "Créteil",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.743\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.069\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.844\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.069\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.854\"}]",
     "geom": {
       "lon": 2.4409142048333,
       "lat": 48.777365166952
     },
-    "gazole_maj": "2023-12-18T01:01:00+01:00",
-    "gazole_prix": "1.743",
+    "gazole_maj": "2023-12-19T01:01:00+01:00",
+    "gazole_prix": "1.755",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-18T01:01:00+01:00",
+    "e85_maj": "2023-12-19T01:01:00+01:00",
     "e85_prix": "1.069",
-    "gplc_maj": "2023-12-18T01:01:00+01:00",
+    "gplc_maj": "2023-12-19T01:01:00+01:00",
     "gplc_prix": "0.969",
-    "e10_maj": "2023-12-18T01:01:00+01:00",
-    "e10_prix": "1.762",
-    "sp98_maj": "2023-12-18T01:01:00+01:00",
-    "sp98_prix": "1.844",
+    "e10_maj": "2023-12-19T01:01:00+01:00",
+    "e10_prix": "1.772",
+    "sp98_maj": "2023-12-19T01:01:00+01:00",
+    "sp98_prix": "1.854",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -146,58 +247,6 @@
     "code_region": "11"
   },
   {
-    "id": 94000011,
-    "latitude": "4878292",
-    "longitude": 244670,
-    "cp": "94000",
-    "pop": "R",
-    "adresse": "ROUTE DE CHOISY RN 186",
-    "ville": "Créteil",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.736\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.069\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.820\"}]",
-    "geom": {
-      "lon": 2.4467,
-      "lat": 48.78292
-    },
-    "gazole_maj": "2023-12-18T01:01:00+01:00",
-    "gazole_prix": "1.736",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-18T01:01:00+01:00",
-    "e85_prix": "1.069",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-18T01:01:00+01:00",
-    "e10_prix": "1.752",
-    "sp98_maj": "2023-12-18T01:01:00+01:00",
-    "sp98_prix": "1.820",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Lavage manuel",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 94000004,
     "latitude": "4879100",
     "longitude": 246200,
@@ -251,7 +300,7 @@
     "ville": "Créteil",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.069\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.867\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 00:01:00\", \"@valeur\": \"1.977\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.069\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.985\"}]",
     "geom": {
       "lon": 2.4408683431092,
       "lat": 48.77982431969
@@ -260,14 +309,14 @@
     "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-18T01:01:00+01:00",
+    "e85_maj": "2023-12-19T01:01:00+01:00",
     "e85_prix": "1.069",
-    "gplc_maj": "2023-12-18T01:01:00+01:00",
+    "gplc_maj": "2023-12-19T01:01:00+01:00",
     "gplc_prix": "1.009",
-    "e10_maj": "2023-12-18T01:01:00+01:00",
-    "e10_prix": "1.867",
-    "sp98_maj": "2023-12-18T01:01:00+01:00",
-    "sp98_prix": "1.977",
+    "e10_maj": "2023-12-19T01:01:00+01:00",
+    "e10_prix": "1.875",
+    "sp98_maj": "2023-12-19T01:01:00+01:00",
+    "sp98_prix": "1.985",
     "carburants_disponibles": [
       "E85",
       "GPLc",
@@ -287,55 +336,6 @@
       "Station de gonflage",
       "Carburant additivé",
       "Lavage automatique"
-    ],
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 94012001,
-    "latitude": "4878186.7204601",
-    "longitude": 245789.45751426,
-    "cp": "94000",
-    "pop": "R",
-    "adresse": "119 Avenue du Général de Gaulle",
-    "ville": "Créteil",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 06:35:54\", \"@valeur\": \"1.726\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 06:35:54\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 06:35:54\", \"@valeur\": \"1.733\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 06:35:54\", \"@valeur\": \"1.808\"}]",
-    "geom": {
-      "lon": 2.4578945751426,
-      "lat": 48.781867204601
-    },
-    "gazole_maj": "2023-12-15T07:35:54+01:00",
-    "gazole_prix": "1.726",
-    "sp95_maj": "2023-12-15T07:35:54+01:00",
-    "sp95_prix": "1.785",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-15T07:35:54+01:00",
-    "e10_prix": "1.733",
-    "sp98_maj": "2023-12-15T07:35:54+01:00",
-    "sp98_prix": "1.808",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Val-de-Marne",
     "code_departement": "94",
