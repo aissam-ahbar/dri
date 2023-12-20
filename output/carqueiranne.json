@@ -9,12 +9,12 @@
     "ville": "Carqueiranne",
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-17 08:19:23\", \"@valeur\": \"1.749\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 13:28:33\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 13:28:33\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 13:28:33\", \"@valeur\": \"1.859\"}]",
     "geom": {
       "lon": 6.07816,
       "lat": 43.09261
     },
-    "gazole_maj": "2023-12-17T09:19:23+01:00",
+    "gazole_maj": "2023-12-19T14:28:33+01:00",
     "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -22,19 +22,19 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-12-19T14:28:33+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2023-12-19T14:28:33+01:00",
+    "sp98_prix": "1.859",
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

@@ -1,5 +1,58 @@
 [
   {
+    "id": 77610002,
+    "latitude": "4871000",
+    "longitude": 286000,
+    "cp": "77610",
+    "pop": "R",
+    "adresse": "Rue Bertaux",
+    "ville": "Fontenay-Trésigny",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}}]}",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 09:13:34\", \"@valeur\": \"1.720\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 09:13:43\", \"@valeur\": \"1.730\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 09:13:49\", \"@valeur\": \"1.810\"}]",
+    "geom": {
+      "lon": 2.86,
+      "lat": 48.71
+    },
+    "gazole_maj": "2023-12-19T10:13:34+01:00",
+    "gazole_prix": "1.720",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T10:13:43+01:00",
+    "e10_prix": "1.730",
+    "sp98_maj": "2023-12-19T10:13:49+01:00",
+    "sp98_prix": "1.810",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 77610003,
     "latitude": "4869800",
     "longitude": 288900,
@@ -49,59 +102,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Wifi",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 77610002,
-    "latitude": "4871000",
-    "longitude": 286000,
-    "cp": "77610",
-    "pop": "R",
-    "adresse": "Rue Bertaux",
-    "ville": "Fontenay-Trésigny",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.20\"}}]}",
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 10:02:47\", \"@valeur\": \"1.712\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 10:02:47\", \"@valeur\": \"1.722\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-16 10:02:48\", \"@valeur\": \"1.805\"}]",
-    "geom": {
-      "lon": 2.86,
-      "lat": 48.71
-    },
-    "gazole_maj": "2023-12-16T11:02:47+01:00",
-    "gazole_prix": "1.712",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-16T11:02:47+01:00",
-    "e10_prix": "1.722",
-    "sp98_maj": "2023-12-16T11:02:48+01:00",
-    "sp98_prix": "1.805",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],

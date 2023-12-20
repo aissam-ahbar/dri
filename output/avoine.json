@@ -1,5 +1,63 @@
 [
   {
+    "id": 37420002,
+    "latitude": "4721400",
+    "longitude": 16900,
+    "cp": "37420",
+    "pop": "R",
+    "adresse": "ZA LES BUTTES",
+    "ville": "Avoine",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 08:42:14\", \"@valeur\": \"1.814\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-11 08:29:57\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 08:13:29\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 08:13:30\", \"@valeur\": \"1.936\"}]",
+    "geom": {
+      "lon": 0.169,
+      "lat": 47.214
+    },
+    "gazole_maj": "2023-12-14T09:42:14+01:00",
+    "gazole_prix": "1.814",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-11T09:29:57+01:00",
+    "e85_prix": "0.994",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T09:13:29+01:00",
+    "e10_prix": "1.826",
+    "sp98_maj": "2023-12-19T09:13:30+01:00",
+    "sp98_prix": "1.936",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Indre-et-Loire",
+    "code_departement": "37",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 37420003,
     "latitude": "4720600",
     "longitude": 18500,
@@ -42,64 +100,6 @@
       "Laverie",
       "Relais colis",
       "Boutique alimentaire",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Indre-et-Loire",
-    "code_departement": "37",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 37420002,
-    "latitude": "4721400",
-    "longitude": 16900,
-    "cp": "37420",
-    "pop": "R",
-    "adresse": "ZA LES BUTTES",
-    "ville": "Avoine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 08:42:14\", \"@valeur\": \"1.814\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-11 08:29:57\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:36:35\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 08:36:36\", \"@valeur\": \"1.930\"}]",
-    "geom": {
-      "lon": 0.169,
-      "lat": 47.214
-    },
-    "gazole_maj": "2023-12-14T09:42:14+01:00",
-    "gazole_prix": "1.814",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-11T09:29:57+01:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-13T09:36:35+01:00",
-    "e10_prix": "1.820",
-    "sp98_maj": "2023-12-13T09:36:36+01:00",
-    "sp98_prix": "1.930",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"

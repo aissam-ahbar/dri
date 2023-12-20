@@ -1,5 +1,58 @@
 [
   {
+    "id": 17310001,
+    "latitude": "4593945",
+    "longitude": -130820,
+    "cp": "17310",
+    "pop": "R",
+    "adresse": "1 Avenue du Général Leclerc",
+    "ville": "Saint-Pierre-d'Oléron",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 12:42:51\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-15 10:19:43\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-25 10:50:42\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 17:02:37\", \"@valeur\": \"1.839\"}]",
+    "geom": {
+      "lon": -1.3082,
+      "lat": 45.93945
+    },
+    "gazole_maj": "2023-12-19T13:42:51+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-15T11:19:43+01:00",
+    "e85_prix": "0.949",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-11-25T11:50:42+01:00",
+    "e10_prix": "1.729",
+    "sp98_maj": "2023-11-23T18:02:37+01:00",
+    "sp98_prix": "1.839",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Charente-Maritime",
+    "code_departement": "17",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 17310004,
     "latitude": "4594300",
     "longitude": -132100,
@@ -9,15 +62,15 @@
     "ville": "Saint-Pierre-d'Oléron",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 11:20:38\", \"@valeur\": \"1.672\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 10:20:36\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 10:20:36\", \"@valeur\": \"0.915\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 11:20:38\", \"@valeur\": \"1.820\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 11:20:38\", \"@valeur\": \"1.672\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 09:31:19\", \"@valeur\": \"1.750\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 10:20:36\", \"@valeur\": \"0.915\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 11:20:38\", \"@valeur\": \"1.820\"}]",
     "geom": {
       "lon": -1.321,
       "lat": 45.943
     },
     "gazole_maj": "2023-12-18T12:20:38+01:00",
     "gazole_prix": "1.672",
-    "sp95_maj": "2023-12-15T11:20:36+01:00",
-    "sp95_prix": "1.755",
+    "sp95_maj": "2023-12-19T10:31:19+01:00",
+    "sp95_prix": "1.750",
     "e85_maj": "2023-12-15T11:20:36+01:00",
     "e85_prix": "0.915",
     "gplc_maj": null,
@@ -107,59 +160,6 @@
       "Services réparation / entretien",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
-    ],
-    "departement": "Charente-Maritime",
-    "code_departement": "17",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 17310001,
-    "latitude": "4593945",
-    "longitude": -130820,
-    "cp": "17310",
-    "pop": "R",
-    "adresse": "1 Avenue du Général Leclerc",
-    "ville": "Saint-Pierre-d'Oléron",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 15:45:45\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-15 10:19:43\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-25 10:50:42\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 17:02:37\", \"@valeur\": \"1.839\"}]",
-    "geom": {
-      "lon": -1.3082,
-      "lat": 45.93945
-    },
-    "gazole_maj": "2023-12-08T16:45:45+01:00",
-    "gazole_prix": "1.709",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-15T11:19:43+01:00",
-    "e85_prix": "0.949",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-11-25T11:50:42+01:00",
-    "e10_prix": "1.729",
-    "sp98_maj": "2023-11-23T18:02:37+01:00",
-    "sp98_prix": "1.839",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Charente-Maritime",
     "code_departement": "17",

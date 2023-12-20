@@ -1,5 +1,57 @@
 [
   {
+    "id": 93240007,
+    "latitude": "4894874.99536",
+    "longitude": 237988.07028,
+    "cp": "93240",
+    "pop": "R",
+    "adresse": "21 AV.DE STALINGRAD - COURS ST L",
+    "ville": "Stains",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.906\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.965\"}]",
+    "geom": {
+      "lon": 2.3798807028,
+      "lat": 48.9487499536
+    },
+    "gazole_maj": "2023-12-20T01:01:00+01:00",
+    "gazole_prix": "1.906",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-20T01:01:00+01:00",
+    "e10_prix": "1.855",
+    "sp98_maj": "2023-12-20T01:01:00+01:00",
+    "sp98_prix": "1.965",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Seine-Saint-Denis",
+    "code_departement": "93",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 93240005,
     "latitude": "4895957",
     "longitude": 239866,
@@ -51,55 +103,6 @@
     "code_region": "11"
   },
   {
-    "id": 93240001,
-    "latitude": "4894900",
-    "longitude": 238500,
-    "cp": "93240",
-    "pop": "R",
-    "adresse": "80 BOULEVARD MAXIME GORKI",
-    "ville": "Stains",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 07:29:55\", \"@valeur\": \"1.891\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 07:29:56\", \"@valeur\": \"1.873\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-14 07:29:56\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 07:29:56\", \"@valeur\": \"1.845\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 07:29:56\", \"@valeur\": \"1.955\"}]",
-    "geom": {
-      "lon": 2.385,
-      "lat": 48.949
-    },
-    "gazole_maj": "2023-12-14T08:29:55+01:00",
-    "gazole_prix": "1.891",
-    "sp95_maj": "2023-12-14T08:29:56+01:00",
-    "sp95_prix": "1.873",
-    "e85_maj": "2023-12-14T08:29:56+01:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-14T08:29:56+01:00",
-    "e10_prix": "1.845",
-    "sp98_maj": "2023-12-14T08:29:56+01:00",
-    "sp98_prix": "1.955",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Restauration à emporter",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-Saint-Denis",
-    "code_departement": "93",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 93240008,
     "latitude": "4895763",
     "longitude": 238253,
@@ -109,12 +112,12 @@
     "ville": "Stains",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.848\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.848\"}]",
     "geom": {
       "lon": 2.38253,
       "lat": 48.95763
     },
-    "gazole_maj": "2023-12-19T01:01:00+01:00",
+    "gazole_maj": "2023-12-20T01:01:00+01:00",
     "gazole_prix": "1.765",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -122,9 +125,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-19T01:01:00+01:00",
+    "e10_maj": "2023-12-20T01:01:00+01:00",
     "e10_prix": "1.775",
-    "sp98_maj": "2023-12-19T01:01:00+01:00",
+    "sp98_maj": "2023-12-20T01:01:00+01:00",
     "sp98_prix": "1.848",
     "carburants_disponibles": [
       "Gazole",
@@ -144,51 +147,48 @@
     "code_region": "11"
   },
   {
-    "id": 93240007,
-    "latitude": "4894874.99536",
-    "longitude": 237988.07028,
+    "id": 93240001,
+    "latitude": "4894900",
+    "longitude": 238500,
     "cp": "93240",
     "pop": "R",
-    "adresse": "21 AV.DE STALINGRAD - COURS ST L",
+    "adresse": "80 BOULEVARD MAXIME GORKI",
     "ville": "Stains",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.906\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 00:01:00\", \"@valeur\": \"1.965\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 08:38:38\", \"@valeur\": \"1.906\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 08:38:38\", \"@valeur\": \"1.873\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-19 08:38:38\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 08:38:38\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 08:38:39\", \"@valeur\": \"1.965\"}]",
     "geom": {
-      "lon": 2.3798807028,
-      "lat": 48.9487499536
+      "lon": 2.385,
+      "lat": 48.949
     },
-    "gazole_maj": "2023-12-19T01:01:00+01:00",
+    "gazole_maj": "2023-12-19T09:38:38+01:00",
     "gazole_prix": "1.906",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "sp95_maj": "2023-12-19T09:38:38+01:00",
+    "sp95_prix": "1.873",
+    "e85_maj": "2023-12-19T09:38:38+01:00",
+    "e85_prix": "0.994",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-19T01:01:00+01:00",
+    "e10_maj": "2023-12-19T09:38:38+01:00",
     "e10_prix": "1.855",
-    "sp98_maj": "2023-12-19T01:01:00+01:00",
+    "sp98_maj": "2023-12-19T09:38:39+01:00",
     "sp98_prix": "1.965",
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Relais colis",
+      "Restauration à emporter",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Seine-Saint-Denis",
     "code_departement": "93",

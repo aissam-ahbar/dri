@@ -1,45 +1,52 @@
 [
   {
-    "id": 50000004,
-    "latitude": "4909800",
-    "longitude": -107700,
+    "id": 50000002,
+    "latitude": "4910200",
+    "longitude": -111600,
     "cp": "50000",
     "pop": "R",
-    "adresse": "Route de Baudre",
+    "adresse": "ROUTE DE VILLEDIEU",
     "ville": "Saint-Lô",
     "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 09:12:53\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 09:12:53\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-18 09:12:54\", \"@valeur\": \"0.880\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 09:12:54\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 09:12:54\", \"@valeur\": \"1.779\"}]",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 06:30:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-09-15 06:30:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 06:30:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-16 07:30:00\", \"@valeur\": \"1.849\"}]",
     "geom": {
-      "lon": -1.077,
-      "lat": 49.098
+      "lon": -1.116,
+      "lat": 49.102
     },
-    "gazole_maj": "2023-12-18T10:12:53+01:00",
-    "gazole_prix": "1.699",
+    "gazole_maj": "2023-12-19T07:30:00+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-18T10:12:53+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": "2023-12-18T10:12:54+01:00",
-    "gplc_prix": "0.880",
-    "e10_maj": "2023-12-18T10:12:54+01:00",
-    "e10_prix": "1.729",
-    "sp98_maj": "2023-12-18T10:12:54+01:00",
-    "sp98_prix": "1.779",
+    "e85_maj": "2023-09-15T08:30:00+02:00",
+    "e85_prix": "0.994",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T07:30:00+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2023-12-16T08:30:00+01:00",
+    "sp98_prix": "1.849",
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95"
+      "SP95",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
       "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Manche",
@@ -90,6 +97,103 @@
       "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Manche",
+    "code_departement": "50",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
+    "id": 50000008,
+    "latitude": "4911200",
+    "longitude": -105100,
+    "cp": "50000",
+    "pop": "R",
+    "adresse": "147 RUE JOSEPH CUGNOT",
+    "ville": "Saint-Lô",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 13:22:31\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 13:22:32\", \"@valeur\": \"1.749\"}]",
+    "geom": {
+      "lon": -1.051,
+      "lat": 49.112
+    },
+    "gazole_maj": "2023-12-16T14:22:31+01:00",
+    "gazole_prix": "1.739",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-16T14:22:32+01:00",
+    "e10_prix": "1.749",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Manche",
+    "code_departement": "50",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
+    "id": 50000004,
+    "latitude": "4909800",
+    "longitude": -107700,
+    "cp": "50000",
+    "pop": "R",
+    "adresse": "Route de Baudre",
+    "ville": "Saint-Lô",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 09:12:53\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 09:12:53\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-18 09:12:54\", \"@valeur\": \"0.880\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 09:12:54\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 09:12:54\", \"@valeur\": \"1.779\"}]",
+    "geom": {
+      "lon": -1.077,
+      "lat": 49.098
+    },
+    "gazole_maj": "2023-12-18T10:12:53+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-18T10:12:53+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": "2023-12-18T10:12:54+01:00",
+    "gplc_prix": "0.880",
+    "e10_maj": "2023-12-18T10:12:54+01:00",
+    "e10_prix": "1.729",
+    "sp98_maj": "2023-12-18T10:12:54+01:00",
+    "sp98_prix": "1.779",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Manche",
@@ -187,110 +291,6 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Manche",
-    "code_departement": "50",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 50000008,
-    "latitude": "4911200",
-    "longitude": -105100,
-    "cp": "50000",
-    "pop": "R",
-    "adresse": "147 RUE JOSEPH CUGNOT",
-    "ville": "Saint-Lô",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 13:22:31\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 13:22:32\", \"@valeur\": \"1.749\"}]",
-    "geom": {
-      "lon": -1.051,
-      "lat": 49.112
-    },
-    "gazole_maj": "2023-12-16T14:22:31+01:00",
-    "gazole_prix": "1.739",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-16T14:22:32+01:00",
-    "e10_prix": "1.749",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Manche",
-    "code_departement": "50",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 50000002,
-    "latitude": "4910200",
-    "longitude": -111600,
-    "cp": "50000",
-    "pop": "R",
-    "adresse": "ROUTE DE VILLEDIEU",
-    "ville": "Saint-Lô",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 06:22:02\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-09-15 06:30:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 07:30:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-16 07:30:00\", \"@valeur\": \"1.849\"}]",
-    "geom": {
-      "lon": -1.116,
-      "lat": 49.102
-    },
-    "gazole_maj": "2023-12-15T07:22:02+01:00",
-    "gazole_prix": "1.754",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-09-15T08:30:00+02:00",
-    "e85_prix": "0.994",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-16T08:30:00+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": "2023-12-16T08:30:00+01:00",
-    "sp98_prix": "1.849",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Manche",

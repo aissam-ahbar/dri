@@ -1,5 +1,58 @@
 [
   {
+    "id": 84170002,
+    "latitude": "4403500",
+    "longitude": 500300,
+    "cp": "84170",
+    "pop": "R",
+    "adresse": "7 Avenue René Cassin",
+    "ville": "Monteux",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 09:00:22\", \"@valeur\": \"1.790\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 09:21:25\", \"@valeur\": \"1.050\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 09:00:23\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 09:00:24\", \"@valeur\": \"1.890\"}]",
+    "geom": {
+      "lon": 5.003,
+      "lat": 44.035
+    },
+    "gazole_maj": "2023-12-13T10:00:22+01:00",
+    "gazole_prix": "1.790",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-16T10:21:25+01:00",
+    "e85_prix": "1.050",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-13T10:00:23+01:00",
+    "e10_prix": "1.850",
+    "sp98_maj": "2023-12-13T10:00:24+01:00",
+    "sp98_prix": "1.890",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 84170001,
     "latitude": "4403300",
     "longitude": 499500,
@@ -44,59 +97,6 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Lavage automatique",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 84170002,
-    "latitude": "4403500",
-    "longitude": 500300,
-    "cp": "84170",
-    "pop": "R",
-    "adresse": "7 Avenue René Cassin",
-    "ville": "Monteux",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 09:00:22\", \"@valeur\": \"1.790\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 09:21:25\", \"@valeur\": \"1.050\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 09:00:23\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 09:00:24\", \"@valeur\": \"1.890\"}]",
-    "geom": {
-      "lon": 5.003,
-      "lat": 44.035
-    },
-    "gazole_maj": "2023-12-13T10:00:22+01:00",
-    "gazole_prix": "1.790",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-16T10:21:25+01:00",
-    "e85_prix": "1.050",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-13T10:00:23+01:00",
-    "e10_prix": "1.850",
-    "sp98_maj": "2023-12-13T10:00:24+01:00",
-    "sp98_prix": "1.890",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
