@@ -1,5 +1,49 @@
 [
   {
+    "id": 41200005,
+    "latitude": "4735831",
+    "longitude": 174453,
+    "cp": "41200",
+    "pop": "R",
+    "adresse": "LA BRIGAUDIERE",
+    "ville": "Romorantin-Lanthenay",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 09:24:35\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 07:48:16\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 07:48:16\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 07:48:16\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": 1.74453,
+      "lat": 47.35831
+    },
+    "gazole_maj": "2023-12-15T10:24:35+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": "2023-12-14T08:48:16+01:00",
+    "sp95_prix": "1.779",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-14T08:48:16+01:00",
+    "e10_prix": "1.759",
+    "sp98_maj": "2023-12-14T08:48:16+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Loir-et-Cher",
+    "code_departement": "41",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 41200002,
     "latitude": "4735300",
     "longitude": 174400,
@@ -110,6 +154,56 @@
     "code_region": "24"
   },
   {
+    "id": 41200001,
+    "latitude": "4736000",
+    "longitude": 176100,
+    "cp": "41200",
+    "pop": "R",
+    "adresse": "ZAC DE PLAISANCE",
+    "ville": "Romorantin-Lanthenay",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.811\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"0.936\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.839\"}]",
+    "geom": {
+      "lon": 1.761,
+      "lat": 47.36
+    },
+    "gazole_maj": "2023-12-19T23:33:00+01:00",
+    "gazole_prix": "1.765",
+    "sp95_maj": "2023-12-19T23:33:00+01:00",
+    "sp95_prix": "1.811",
+    "e85_maj": "2023-12-19T23:33:00+01:00",
+    "e85_prix": "0.936",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T23:33:00+01:00",
+    "e10_prix": "1.804",
+    "sp98_maj": "2023-12-19T23:33:00+01:00",
+    "sp98_prix": "1.839",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loir-et-Cher",
+    "code_departement": "41",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 41200010,
     "latitude": "4737100",
     "longitude": 171300,
@@ -165,100 +259,6 @@
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
-    "departement": "Loir-et-Cher",
-    "code_departement": "41",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 41200001,
-    "latitude": "4736000",
-    "longitude": 176100,
-    "cp": "41200",
-    "pop": "R",
-    "adresse": "ZAC DE PLAISANCE",
-    "ville": "Romorantin-Lanthenay",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.811\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"0.936\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 22:33:00\", \"@valeur\": \"1.839\"}]",
-    "geom": {
-      "lon": 1.761,
-      "lat": 47.36
-    },
-    "gazole_maj": "2023-12-19T23:33:00+01:00",
-    "gazole_prix": "1.765",
-    "sp95_maj": "2023-12-19T23:33:00+01:00",
-    "sp95_prix": "1.811",
-    "e85_maj": "2023-12-19T23:33:00+01:00",
-    "e85_prix": "0.936",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-19T23:33:00+01:00",
-    "e10_prix": "1.804",
-    "sp98_maj": "2023-12-19T23:33:00+01:00",
-    "sp98_prix": "1.839",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loir-et-Cher",
-    "code_departement": "41",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 41200005,
-    "latitude": "4735831",
-    "longitude": 174453,
-    "cp": "41200",
-    "pop": "R",
-    "adresse": "LA BRIGAUDIERE",
-    "ville": "Romorantin-Lanthenay",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 09:24:35\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 07:48:16\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 07:48:16\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 07:48:16\", \"@valeur\": \"1.819\"}]",
-    "geom": {
-      "lon": 1.74453,
-      "lat": 47.35831
-    },
-    "gazole_maj": "2023-12-15T10:24:35+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": "2023-12-14T08:48:16+01:00",
-    "sp95_prix": "1.779",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-14T08:48:16+01:00",
-    "e10_prix": "1.759",
-    "sp98_maj": "2023-12-14T08:48:16+01:00",
-    "sp98_prix": "1.819",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
     "departement": "Loir-et-Cher",
     "code_departement": "41",
     "region": "Centre-Val de Loire",

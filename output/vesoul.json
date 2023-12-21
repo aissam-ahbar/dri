@@ -1,47 +1,53 @@
 [
   {
-    "id": 70000001,
-    "latitude": "4762700",
-    "longitude": 617200,
+    "id": 70000008,
+    "latitude": "4764064.391",
+    "longitude": 614428.007,
     "cp": "70000",
     "pop": "R",
-    "adresse": "Boulevard Kennedy",
+    "adresse": "Carrefour de la Vaugine",
     "ville": "Vesoul",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 09:21:02\", \"@valeur\": \"1.760\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-11 08:21:50\", \"@valeur\": \"0.960\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 09:21:03\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 09:21:03\", \"@valeur\": \"1.850\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 08:56:31\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 09:20:25\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 20:02:06\", \"@valeur\": \"1.760\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 20:02:06\", \"@valeur\": \"1.830\"}]",
     "geom": {
-      "lon": 6.172,
-      "lat": 47.627
+      "lon": 6.14428007,
+      "lat": 47.64064391
     },
-    "gazole_maj": "2023-12-14T10:21:02+01:00",
-    "gazole_prix": "1.760",
+    "gazole_maj": "2023-12-15T09:56:31+01:00",
+    "gazole_prix": "1.710",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-11T09:21:50+01:00",
-    "gplc_prix": "0.960",
-    "e10_maj": "2023-12-14T10:21:03+01:00",
-    "e10_prix": "1.780",
-    "sp98_maj": "2023-12-14T10:21:03+01:00",
-    "sp98_prix": "1.850",
+    "e85_maj": "2023-11-03T10:20:25+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-09T21:02:06+01:00",
+    "e10_prix": "1.760",
+    "sp98_maj": "2023-12-09T21:02:06+01:00",
+    "sp98_prix": "1.830",
     "carburants_disponibles": [
       "Gazole",
-      "GPLc",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85"
+      "GPLc"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
       "Station de gonflage",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Saône",
@@ -106,111 +112,6 @@
     "code_region": "27"
   },
   {
-    "id": 70000004,
-    "latitude": "4763106.28345",
-    "longitude": 616798.547151,
-    "cp": "70000",
-    "pop": "R",
-    "adresse": "26 Rue de Pontarcher",
-    "ville": "Vesoul",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 11:25:17\", \"@valeur\": \"1.710\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 14:50:13\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 14:50:13\", \"@valeur\": \"1.820\"}]",
-    "geom": {
-      "lon": 6.16798547151,
-      "lat": 47.6310628345
-    },
-    "gazole_maj": "2023-12-15T12:25:17+01:00",
-    "gazole_prix": "1.710",
-    "sp95_maj": "2023-12-14T15:50:13+01:00",
-    "sp95_prix": "1.790",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-14T15:50:13+01:00",
-    "sp98_prix": "1.820",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Saône",
-    "code_departement": "70",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 70000008,
-    "latitude": "4764064.391",
-    "longitude": 614428.007,
-    "cp": "70000",
-    "pop": "R",
-    "adresse": "Carrefour de la Vaugine",
-    "ville": "Vesoul",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 08:56:31\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-03 09:20:25\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-09 20:02:06\", \"@valeur\": \"1.760\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 20:02:06\", \"@valeur\": \"1.830\"}]",
-    "geom": {
-      "lon": 6.14428007,
-      "lat": 47.64064391
-    },
-    "gazole_maj": "2023-12-15T09:56:31+01:00",
-    "gazole_prix": "1.710",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-03T10:20:25+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-09T21:02:06+01:00",
-    "e10_prix": "1.760",
-    "sp98_maj": "2023-12-09T21:02:06+01:00",
-    "sp98_prix": "1.830",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Saône",
-    "code_departement": "70",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 70000011,
     "latitude": "4761400",
     "longitude": 616300,
@@ -264,6 +165,56 @@
     "code_region": "27"
   },
   {
+    "id": 70000001,
+    "latitude": "4762700",
+    "longitude": 617200,
+    "cp": "70000",
+    "pop": "R",
+    "adresse": "Boulevard Kennedy",
+    "ville": "Vesoul",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 09:21:02\", \"@valeur\": \"1.760\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-11 08:21:50\", \"@valeur\": \"0.960\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-14 09:21:03\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 09:21:03\", \"@valeur\": \"1.850\"}]",
+    "geom": {
+      "lon": 6.172,
+      "lat": 47.627
+    },
+    "gazole_maj": "2023-12-14T10:21:02+01:00",
+    "gazole_prix": "1.760",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-11T09:21:50+01:00",
+    "gplc_prix": "0.960",
+    "e10_maj": "2023-12-14T10:21:03+01:00",
+    "e10_prix": "1.780",
+    "sp98_maj": "2023-12-14T10:21:03+01:00",
+    "sp98_prix": "1.850",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Saône",
+    "code_departement": "70",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 70004001,
     "latitude": "4763500",
     "longitude": 615700,
@@ -305,6 +256,55 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Automate CB 24/24"
+    ],
+    "departement": "Haute-Saône",
+    "code_departement": "70",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 70000004,
+    "latitude": "4763106.28345",
+    "longitude": 616798.547151,
+    "cp": "70000",
+    "pop": "R",
+    "adresse": "26 Rue de Pontarcher",
+    "ville": "Vesoul",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 11:25:17\", \"@valeur\": \"1.710\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 14:50:13\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 14:50:13\", \"@valeur\": \"1.820\"}]",
+    "geom": {
+      "lon": 6.16798547151,
+      "lat": 47.6310628345
+    },
+    "gazole_maj": "2023-12-15T12:25:17+01:00",
+    "gazole_prix": "1.710",
+    "sp95_maj": "2023-12-14T15:50:13+01:00",
+    "sp95_prix": "1.790",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-14T15:50:13+01:00",
+    "sp98_prix": "1.820",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Saône",
     "code_departement": "70",

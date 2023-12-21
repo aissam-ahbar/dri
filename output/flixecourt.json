@@ -1,56 +1,5 @@
 [
   {
-    "id": 80420004,
-    "latitude": "5001100",
-    "longitude": 209400,
-    "cp": "80420",
-    "pop": "R",
-    "adresse": "Route de Vignacourt",
-    "ville": "Flixecourt",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 08:55:26\", \"@valeur\": \"1.707\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-23 06:31:11\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:55:27\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 08:00:12\", \"@valeur\": \"1.790\"}]",
-    "geom": {
-      "lon": 2.094,
-      "lat": 50.011
-    },
-    "gazole_maj": "2023-12-13T09:55:26+01:00",
-    "gazole_prix": "1.707",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-23T07:31:11+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-13T09:55:27+01:00",
-    "e10_prix": "1.745",
-    "sp98_maj": "2023-12-08T09:00:12+01:00",
-    "sp98_prix": "1.790",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Somme",
-    "code_departement": "80",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 80420003,
     "latitude": "5002800",
     "longitude": 206700,
@@ -96,6 +45,57 @@
       "Location de véhicule",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
+    ],
+    "departement": "Somme",
+    "code_departement": "80",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 80420004,
+    "latitude": "5001100",
+    "longitude": 209400,
+    "cp": "80420",
+    "pop": "R",
+    "adresse": "Route de Vignacourt",
+    "ville": "Flixecourt",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 08:55:26\", \"@valeur\": \"1.707\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-23 06:31:11\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-13 08:55:27\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-08 08:00:12\", \"@valeur\": \"1.790\"}]",
+    "geom": {
+      "lon": 2.094,
+      "lat": 50.011
+    },
+    "gazole_maj": "2023-12-13T09:55:26+01:00",
+    "gazole_prix": "1.707",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-23T07:31:11+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-13T09:55:27+01:00",
+    "e10_prix": "1.745",
+    "sp98_maj": "2023-12-08T09:00:12+01:00",
+    "sp98_prix": "1.790",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Somme",
     "code_departement": "80",
