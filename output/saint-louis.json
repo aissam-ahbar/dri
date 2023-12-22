@@ -1,5 +1,54 @@
 [
   {
+    "id": 68680002,
+    "latitude": "4758400",
+    "longitude": 755800,
+    "cp": "68300",
+    "pop": "R",
+    "adresse": "45 AVE DU GENERAL DE GAULLE",
+    "ville": "Saint-Louis",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 11:31:11\", \"@valeur\": \"1.756\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 11:31:11\", \"@valeur\": \"1.734\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 11:31:12\", \"@valeur\": \"1.784\"}]",
+    "geom": {
+      "lon": 7.558,
+      "lat": 47.584
+    },
+    "gazole_maj": "2023-12-19T12:31:11+01:00",
+    "gazole_prix": "1.756",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T12:31:11+01:00",
+    "e10_prix": "1.734",
+    "sp98_maj": "2023-12-19T12:31:12+01:00",
+    "sp98_prix": "1.784",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Boutique alimentaire",
+      "Bornes électriques",
+      "Automate CB 24/24"
+    ],
+    "departement": "Haut-Rhin",
+    "code_departement": "68",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 68300003,
     "latitude": "4760519.4988",
     "longitude": 754311.190391,
@@ -40,61 +89,6 @@
     "services_service": [
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haut-Rhin",
-    "code_departement": "68",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 68300002,
-    "latitude": "4759335",
-    "longitude": 755569,
-    "cp": "68300",
-    "pop": "R",
-    "adresse": "122 Rue de Mulhouse",
-    "ville": "Saint-Louis",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 08:23:32\", \"@valeur\": \"1.823\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 08:23:32\", \"@valeur\": \"1.824\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-19 08:23:33\", \"@valeur\": \"0.880\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 08:23:33\", \"@valeur\": \"1.824\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 08:23:33\", \"@valeur\": \"1.934\"}]",
-    "geom": {
-      "lon": 7.55569,
-      "lat": 47.59335
-    },
-    "gazole_maj": "2023-12-19T09:23:32+01:00",
-    "gazole_prix": "1.823",
-    "sp95_maj": "2023-12-19T09:23:32+01:00",
-    "sp95_prix": "1.824",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-19T09:23:33+01:00",
-    "gplc_prix": "0.880",
-    "e10_maj": "2023-12-19T09:23:33+01:00",
-    "e10_prix": "1.824",
-    "sp98_maj": "2023-12-19T09:23:33+01:00",
-    "sp98_prix": "1.934",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haut-Rhin",
@@ -156,48 +150,54 @@
     "code_region": "44"
   },
   {
-    "id": 68680002,
-    "latitude": "4758400",
-    "longitude": 755800,
+    "id": 68300002,
+    "latitude": "4759335",
+    "longitude": 755569,
     "cp": "68300",
     "pop": "R",
-    "adresse": "45 AVE DU GENERAL DE GAULLE",
+    "adresse": "122 Rue de Mulhouse",
     "ville": "Saint-Louis",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 11:31:11\", \"@valeur\": \"1.756\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 11:31:11\", \"@valeur\": \"1.734\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 11:31:12\", \"@valeur\": \"1.784\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 08:23:32\", \"@valeur\": \"1.823\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 08:23:32\", \"@valeur\": \"1.824\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-19 08:23:33\", \"@valeur\": \"0.880\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 08:23:33\", \"@valeur\": \"1.824\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 08:23:33\", \"@valeur\": \"1.934\"}]",
     "geom": {
-      "lon": 7.558,
-      "lat": 47.584
+      "lon": 7.55569,
+      "lat": 47.59335
     },
-    "gazole_maj": "2023-12-19T12:31:11+01:00",
-    "gazole_prix": "1.756",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2023-12-19T09:23:32+01:00",
+    "gazole_prix": "1.823",
+    "sp95_maj": "2023-12-19T09:23:32+01:00",
+    "sp95_prix": "1.824",
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-19T12:31:11+01:00",
-    "e10_prix": "1.734",
-    "sp98_maj": "2023-12-19T12:31:12+01:00",
-    "sp98_prix": "1.784",
+    "gplc_maj": "2023-12-19T09:23:33+01:00",
+    "gplc_prix": "0.880",
+    "e10_maj": "2023-12-19T09:23:33+01:00",
+    "e10_prix": "1.824",
+    "sp98_maj": "2023-12-19T09:23:33+01:00",
+    "sp98_prix": "1.934",
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
+      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
+      "E85"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Laverie",
       "Boutique alimentaire",
-      "Bornes électriques",
-      "Automate CB 24/24"
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haut-Rhin",
     "code_departement": "68",

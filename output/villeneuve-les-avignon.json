@@ -55,6 +55,53 @@
     "code_region": "76"
   },
   {
+    "id": 30400001,
+    "latitude": "4397900",
+    "longitude": 478600,
+    "cp": "30400",
+    "pop": "R",
+    "adresse": "Route de Pujaut",
+    "ville": "Villeneuve-lès-Avignon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 09:00:49\", \"@valeur\": \"1.727\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 09:00:50\", \"@valeur\": \"1.800\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 09:00:50\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 09:00:50\", \"@valeur\": \"1.821\"}]",
+    "geom": {
+      "lon": 4.786,
+      "lat": 43.979
+    },
+    "gazole_maj": "2023-12-15T10:00:49+01:00",
+    "gazole_prix": "1.727",
+    "sp95_maj": "2023-12-15T10:00:50+01:00",
+    "sp95_prix": "1.800",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-15T10:00:50+01:00",
+    "e10_prix": "1.772",
+    "sp98_maj": "2023-12-15T10:00:50+01:00",
+    "sp98_prix": "1.821",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gard",
+    "code_departement": "30",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 30400004,
     "latitude": "4395800",
     "longitude": 477900,
@@ -102,53 +149,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gard",
-    "code_departement": "30",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 30400001,
-    "latitude": "4397900",
-    "longitude": 478600,
-    "cp": "30400",
-    "pop": "R",
-    "adresse": "Route de Pujaut",
-    "ville": "Villeneuve-lès-Avignon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 09:00:49\", \"@valeur\": \"1.727\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 09:00:50\", \"@valeur\": \"1.800\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 09:00:50\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 09:00:50\", \"@valeur\": \"1.821\"}]",
-    "geom": {
-      "lon": 4.786,
-      "lat": 43.979
-    },
-    "gazole_maj": "2023-12-15T10:00:49+01:00",
-    "gazole_prix": "1.727",
-    "sp95_maj": "2023-12-15T10:00:50+01:00",
-    "sp95_prix": "1.800",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-15T10:00:50+01:00",
-    "e10_prix": "1.772",
-    "sp98_maj": "2023-12-15T10:00:50+01:00",
-    "sp98_prix": "1.821",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],

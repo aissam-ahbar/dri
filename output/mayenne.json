@@ -1,5 +1,62 @@
 [
   {
+    "id": 53100007,
+    "latitude": "4831400",
+    "longitude": -63900,
+    "cp": "53100",
+    "pop": "R",
+    "adresse": "ROUTE DE PARIS - BLD PAUL LINTIE",
+    "ville": "Mayenne",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.059\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.813\"}]",
+    "geom": {
+      "lon": -0.639,
+      "lat": 48.314
+    },
+    "gazole_maj": "2023-12-20T01:01:00+01:00",
+    "gazole_prix": "1.710",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-20T01:01:00+01:00",
+    "e85_prix": "1.059",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-20T01:01:00+01:00",
+    "e10_prix": "1.728",
+    "sp98_maj": "2023-12-20T01:01:00+01:00",
+    "sp98_prix": "1.813",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Espace bébé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Mayenne",
+    "code_departement": "53",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 53102002,
     "latitude": "4829798.1428724",
     "longitude": -63079.603647268,
@@ -112,116 +169,6 @@
     "code_region": "52"
   },
   {
-    "id": 53100004,
-    "latitude": "4830200",
-    "longitude": -61100,
-    "cp": "53100",
-    "pop": "R",
-    "adresse": "69 Boulevard Lucien de Montigny",
-    "ville": "Mayenne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-09-06 08:41:56\", \"@valeur\": \"2.032\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-09-06 08:41:56\", \"@valeur\": \"2.100\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-09-15 08:48:08\", \"@valeur\": \"2.118\"}]",
-    "geom": {
-      "lon": -0.611,
-      "lat": 48.302
-    },
-    "gazole_maj": "2023-09-06T10:41:56+02:00",
-    "gazole_prix": "2.032",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-09-06T10:41:56+02:00",
-    "e10_prix": "2.100",
-    "sp98_maj": "2023-09-15T10:48:08+02:00",
-    "sp98_prix": "2.118",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Services réparation / entretien",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "Automate CB 24/24"
-    ],
-    "departement": "Mayenne",
-    "code_departement": "53",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 53100007,
-    "latitude": "4831400",
-    "longitude": -63900,
-    "cp": "53100",
-    "pop": "R",
-    "adresse": "ROUTE DE PARIS - BLD PAUL LINTIE",
-    "ville": "Mayenne",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.059\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 00:01:00\", \"@valeur\": \"1.813\"}]",
-    "geom": {
-      "lon": -0.639,
-      "lat": 48.314
-    },
-    "gazole_maj": "2023-12-20T01:01:00+01:00",
-    "gazole_prix": "1.710",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-20T01:01:00+01:00",
-    "e85_prix": "1.059",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-20T01:01:00+01:00",
-    "e10_prix": "1.728",
-    "sp98_maj": "2023-12-20T01:01:00+01:00",
-    "sp98_prix": "1.813",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Espace bébé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Mayenne",
-    "code_departement": "53",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
     "id": 53100006,
     "latitude": "4828900",
     "longitude": -61200,
@@ -315,6 +262,59 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Mayenne",
+    "code_departement": "53",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
+    "id": 53100004,
+    "latitude": "4830200",
+    "longitude": -61100,
+    "cp": "53100",
+    "pop": "R",
+    "adresse": "69 Boulevard Lucien de Montigny",
+    "ville": "Mayenne",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-09-06 08:41:56\", \"@valeur\": \"2.032\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-09-06 08:41:56\", \"@valeur\": \"2.100\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-09-15 08:48:08\", \"@valeur\": \"2.118\"}]",
+    "geom": {
+      "lon": -0.611,
+      "lat": 48.302
+    },
+    "gazole_maj": "2023-09-06T10:41:56+02:00",
+    "gazole_prix": "2.032",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-09-06T10:41:56+02:00",
+    "e10_prix": "2.100",
+    "sp98_maj": "2023-09-15T10:48:08+02:00",
+    "sp98_prix": "2.118",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
     ],
     "departement": "Mayenne",
     "code_departement": "53",

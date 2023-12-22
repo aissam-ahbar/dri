@@ -1,44 +1,54 @@
 [
   {
-    "id": 89200003,
-    "latitude": "4749900",
-    "longitude": 390800,
+    "id": 89200006,
+    "latitude": "4749827.22302",
+    "longitude": 389684.379984,
     "cp": "89200",
     "pop": "R",
-    "adresse": "ROUTE DE TONNERRE",
+    "adresse": "Route Nationale 6",
     "ville": "Avallon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.199\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:15:14\", \"@valeur\": \"1.949\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 11:33:46\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 11:33:46\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 11:33:46\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 11:33:47\", \"@valeur\": \"1.947\"}]",
     "geom": {
-      "lon": 3.908,
-      "lat": 47.499
+      "lon": 3.89684379984,
+      "lat": 47.4982722302
     },
-    "gazole_maj": "2023-12-16T01:00:00+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": "2023-12-16T01:00:00+01:00",
-    "sp95_prix": "1.899",
+    "gazole_maj": "2023-12-19T12:33:46+01:00",
+    "gazole_prix": "1.769",
+    "sp95_maj": "2023-12-19T12:33:46+01:00",
+    "sp95_prix": "1.879",
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2023-12-16T01:00:00+01:00",
-    "gplc_prix": "1.199",
-    "e10_maj": "2023-12-16T01:00:00+01:00",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T12:33:46+01:00",
     "e10_prix": "1.829",
-    "sp98_maj": "2023-11-22T10:15:14+01:00",
-    "sp98_prix": "1.949",
+    "sp98_maj": "2023-12-19T12:33:47+01:00",
+    "sp98_prix": "1.947",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "E85"
+      "E85",
+      "GPLc"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Automate CB 24/24"
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Yonne",
     "code_departement": "89",
@@ -92,6 +102,52 @@
     "code_region": "27"
   },
   {
+    "id": 89200003,
+    "latitude": "4749900",
+    "longitude": 390800,
+    "cp": "89200",
+    "pop": "R",
+    "adresse": "ROUTE DE TONNERRE",
+    "ville": "Avallon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.199\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-16 00:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-22 09:15:14\", \"@valeur\": \"1.949\"}]",
+    "geom": {
+      "lon": 3.908,
+      "lat": 47.499
+    },
+    "gazole_maj": "2023-12-16T01:00:00+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": "2023-12-16T01:00:00+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-16T01:00:00+01:00",
+    "gplc_prix": "1.199",
+    "e10_maj": "2023-12-16T01:00:00+01:00",
+    "e10_prix": "1.829",
+    "sp98_maj": "2023-11-22T10:15:14+01:00",
+    "sp98_prix": "1.949",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Yonne",
+    "code_departement": "89",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 89200008,
     "latitude": "4749100",
     "longitude": 391200,
@@ -131,62 +187,6 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"
-    ],
-    "departement": "Yonne",
-    "code_departement": "89",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 89200006,
-    "latitude": "4749827.22302",
-    "longitude": 389684.379984,
-    "cp": "89200",
-    "pop": "R",
-    "adresse": "Route Nationale 6",
-    "ville": "Avallon",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 11:33:46\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-19 11:33:46\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 11:33:46\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 11:33:47\", \"@valeur\": \"1.947\"}]",
-    "geom": {
-      "lon": 3.89684379984,
-      "lat": 47.4982722302
-    },
-    "gazole_maj": "2023-12-19T12:33:46+01:00",
-    "gazole_prix": "1.769",
-    "sp95_maj": "2023-12-19T12:33:46+01:00",
-    "sp95_prix": "1.879",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-19T12:33:46+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2023-12-19T12:33:47+01:00",
-    "sp98_prix": "1.947",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Yonne",
     "code_departement": "89",

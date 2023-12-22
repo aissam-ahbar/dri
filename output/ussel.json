@@ -1,46 +1,44 @@
 [
   {
-    "id": 19200006,
-    "latitude": "4555500",
-    "longitude": 231600,
+    "id": 19200007,
+    "latitude": "4555638.9740201",
+    "longitude": 231524.20027136,
     "cp": "19200",
     "pop": "R",
-    "adresse": "8 Place de la Victoire",
+    "adresse": "8 AVENUE PIERRE SEMARD",
     "ville": "Ussel",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-05 08:38:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-02 12:39:44\", \"@valeur\": \"1.959\"}]",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 16:01:11\", \"@valeur\": \"1.715\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 16:01:11\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 19:15:00\", \"@valeur\": \"1.799\"}]",
     "geom": {
-      "lon": 2.316,
-      "lat": 45.555
+      "lon": 2.3152420027136,
+      "lat": 45.556389740201
     },
-    "gazole_maj": "2023-12-05T09:38:00+01:00",
-    "gazole_prix": "1.919",
-    "sp95_maj": "2023-12-02T13:39:44+01:00",
-    "sp95_prix": "1.959",
+    "gazole_maj": "2023-12-19T17:01:11+01:00",
+    "gazole_prix": "1.715",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2023-12-19T17:01:11+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": "2023-12-09T20:15:00+01:00",
+    "sp98_prix": "1.799",
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Carburant additivé",
-      "Location de véhicule",
-      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Corrèze",
@@ -144,6 +142,55 @@
     "code_region": "75"
   },
   {
+    "id": 19200006,
+    "latitude": "4555500",
+    "longitude": 231600,
+    "cp": "19200",
+    "pop": "R",
+    "adresse": "8 Place de la Victoire",
+    "ville": "Ussel",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-05 08:38:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-02 12:39:44\", \"@valeur\": \"1.959\"}]",
+    "geom": {
+      "lon": 2.316,
+      "lat": 45.555
+    },
+    "gazole_maj": "2023-12-05T09:38:00+01:00",
+    "gazole_prix": "1.919",
+    "sp95_maj": "2023-12-02T13:39:44+01:00",
+    "sp95_prix": "1.959",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Corrèze",
+    "code_departement": "19",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 19200002,
     "latitude": "4555700",
     "longitude": 230200,
@@ -195,53 +242,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Corrèze",
-    "code_departement": "19",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 19200007,
-    "latitude": "4555638.9740201",
-    "longitude": 231524.20027136,
-    "cp": "19200",
-    "pop": "R",
-    "adresse": "8 AVENUE PIERRE SEMARD",
-    "ville": "Ussel",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 16:01:11\", \"@valeur\": \"1.715\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 16:01:11\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-09 19:15:00\", \"@valeur\": \"1.799\"}]",
-    "geom": {
-      "lon": 2.3152420027136,
-      "lat": 45.556389740201
-    },
-    "gazole_maj": "2023-12-19T17:01:11+01:00",
-    "gazole_prix": "1.715",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-19T17:01:11+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2023-12-09T20:15:00+01:00",
-    "sp98_prix": "1.799",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Corrèze",
     "code_departement": "19",

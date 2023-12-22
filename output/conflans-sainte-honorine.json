@@ -62,6 +62,52 @@
     "code_region": "11"
   },
   {
+    "id": 78700002,
+    "latitude": "4900644.751",
+    "longitude": 211854.078,
+    "cp": "78700",
+    "pop": "R",
+    "adresse": "10 Place de la Liberté et du 8 Mai 1945",
+    "ville": "Conflans-Sainte-Honorine",
+    "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 13:26:32\", \"@valeur\": \"1.757\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 13:26:32\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 13:26:32\", \"@valeur\": \"1.811\"}]",
+    "geom": {
+      "lon": 2.11854078,
+      "lat": 49.00644751
+    },
+    "gazole_maj": "2023-12-14T14:26:32+01:00",
+    "gazole_prix": "1.757",
+    "sp95_maj": "2023-12-14T14:26:32+01:00",
+    "sp95_prix": "1.795",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-14T14:26:32+01:00",
+    "sp98_prix": "1.811",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Yvelines",
+    "code_departement": "78",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 78700003,
     "latitude": "4900600",
     "longitude": 211300,
@@ -110,52 +156,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Yvelines",
-    "code_departement": "78",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 78700002,
-    "latitude": "4900644.751",
-    "longitude": 211854.078,
-    "cp": "78700",
-    "pop": "R",
-    "adresse": "10 Place de la Liberté et du 8 Mai 1945",
-    "ville": "Conflans-Sainte-Honorine",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-14 13:26:32\", \"@valeur\": \"1.757\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-14 13:26:32\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-14 13:26:32\", \"@valeur\": \"1.811\"}]",
-    "geom": {
-      "lon": 2.11854078,
-      "lat": 49.00644751
-    },
-    "gazole_maj": "2023-12-14T14:26:32+01:00",
-    "gazole_prix": "1.757",
-    "sp95_maj": "2023-12-14T14:26:32+01:00",
-    "sp95_prix": "1.795",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-14T14:26:32+01:00",
-    "sp98_prix": "1.811",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Yvelines",
     "code_departement": "78",
@@ -214,59 +214,6 @@
     "code_region": "11"
   },
   {
-    "id": 78700011,
-    "latitude": "4899500",
-    "longitude": 208100,
-    "cp": "78700",
-    "pop": "R",
-    "adresse": "ROUTE NATIONALE 184",
-    "ville": "Conflans-Sainte-Honorine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 13:20:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 13:20:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 13:20:00\", \"@valeur\": \"1.919\"}]",
-    "geom": {
-      "lon": 2.081,
-      "lat": 48.995
-    },
-    "gazole_maj": "2023-12-18T14:20:00+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-18T14:20:00+01:00",
-    "e10_prix": "1.799",
-    "sp98_maj": "2023-12-18T14:20:00+01:00",
-    "sp98_prix": "1.919",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Yvelines",
-    "code_departement": "78",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 78700010,
     "latitude": "4899500",
     "longitude": 208000,
@@ -301,6 +248,59 @@
     ],
     "carburants_indisponibles": [
       "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Yvelines",
+    "code_departement": "78",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 78700011,
+    "latitude": "4899500",
+    "longitude": 208100,
+    "cp": "78700",
+    "pop": "R",
+    "adresse": "ROUTE NATIONALE 184",
+    "ville": "Conflans-Sainte-Honorine",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 13:20:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 13:20:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-18 13:20:00\", \"@valeur\": \"1.919\"}]",
+    "geom": {
+      "lon": 2.081,
+      "lat": 48.995
+    },
+    "gazole_maj": "2023-12-18T14:20:00+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-18T14:20:00+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2023-12-18T14:20:00+01:00",
+    "sp98_prix": "1.919",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Oui",

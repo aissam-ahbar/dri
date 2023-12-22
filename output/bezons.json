@@ -1,52 +1,5 @@
 [
   {
-    "id": 78800001,
-    "latitude": "4892400",
-    "longitude": 220500,
-    "cp": "78800",
-    "pop": "R",
-    "adresse": "108 Boulevard Émile Zola",
-    "ville": "Bezons",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 20:00:00\", \"@valeur\": \"1.793\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 09:00:00\", \"@valeur\": \"0.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 20:00:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 20:00:00\", \"@valeur\": \"1.860\"}]",
-    "geom": {
-      "lon": 2.205,
-      "lat": 48.924
-    },
-    "gazole_maj": "2023-12-19T21:00:00+01:00",
-    "gazole_prix": "1.793",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-18T10:00:00+01:00",
-    "e85_prix": "0.921",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-19T21:00:00+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2023-12-19T21:00:00+01:00",
-    "sp98_prix": "1.860",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Val-d'Oise",
-    "code_departement": "95",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 95870009,
     "latitude": "4893556.8",
     "longitude": 220762.8,
@@ -90,6 +43,53 @@
       "Station de gonflage",
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Val-d'Oise",
+    "code_departement": "95",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 78800001,
+    "latitude": "4892400",
+    "longitude": 220500,
+    "cp": "78800",
+    "pop": "R",
+    "adresse": "108 Boulevard Émile Zola",
+    "ville": "Bezons",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 20:00:00\", \"@valeur\": \"1.793\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-18 09:00:00\", \"@valeur\": \"0.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-19 20:00:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 20:00:00\", \"@valeur\": \"1.860\"}]",
+    "geom": {
+      "lon": 2.205,
+      "lat": 48.924
+    },
+    "gazole_maj": "2023-12-19T21:00:00+01:00",
+    "gazole_prix": "1.793",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-18T10:00:00+01:00",
+    "e85_prix": "0.921",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-19T21:00:00+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2023-12-19T21:00:00+01:00",
+    "sp98_prix": "1.860",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Val-d'Oise",
