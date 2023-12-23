@@ -1,5 +1,49 @@
 [
   {
+    "id": 57170002,
+    "latitude": "4882400",
+    "longitude": 650700,
+    "cp": "57170",
+    "pop": "R",
+    "adresse": "29 RUE DE METZ",
+    "ville": "Château-Salins",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 15:43:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 15:43:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 15:43:00\", \"@valeur\": \"1.909\"}]",
+    "geom": {
+      "lon": 6.507,
+      "lat": 48.824
+    },
+    "gazole_maj": "2023-12-20T16:43:00+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-20T16:43:00+01:00",
+    "e10_prix": "1.829",
+    "sp98_maj": "2023-12-20T16:43:00+01:00",
+    "sp98_prix": "1.909",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Moselle",
+    "code_departement": "57",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 57170001,
     "latitude": "4882386",
     "longitude": 650710,
@@ -9,23 +53,23 @@
     "ville": "Château-Salins",
     "horaires": null,
     "services": "{\"service\": \"Piste poids lourds\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 15:47:51\", \"@valeur\": \"1.790\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-11 15:47:52\", \"@valeur\": \"1.807\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 15:47:52\", \"@valeur\": \"1.887\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 10:19:39\", \"@valeur\": \"1.706\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 10:19:40\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 10:19:40\", \"@valeur\": \"1.813\"}]",
     "geom": {
       "lon": 6.5071,
       "lat": 48.82386
     },
-    "gazole_maj": "2023-12-11T16:47:51+01:00",
-    "gazole_prix": "1.790",
+    "gazole_maj": "2023-12-20T11:19:39+01:00",
+    "gazole_prix": "1.706",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-11T16:47:52+01:00",
-    "e10_prix": "1.807",
-    "sp98_maj": "2023-12-11T16:47:52+01:00",
-    "sp98_prix": "1.887",
+    "e10_maj": "2023-12-20T11:19:40+01:00",
+    "e10_prix": "1.743",
+    "sp98_maj": "2023-12-20T11:19:40+01:00",
+    "sp98_prix": "1.813",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -40,50 +84,6 @@
     "services_service": [
       "Piste poids lourds"
     ],
-    "departement": "Moselle",
-    "code_departement": "57",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 57170002,
-    "latitude": "4882400",
-    "longitude": 650700,
-    "cp": "57170",
-    "pop": "R",
-    "adresse": "29 RUE DE METZ",
-    "ville": "Château-Salins",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 05:36:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-11 05:36:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 05:36:00\", \"@valeur\": \"1.909\"}]",
-    "geom": {
-      "lon": 6.507,
-      "lat": 48.824
-    },
-    "gazole_maj": "2023-12-11T06:36:00+01:00",
-    "gazole_prix": "1.769",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-11T06:36:00+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2023-12-11T06:36:00+01:00",
-    "sp98_prix": "1.909",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
     "departement": "Moselle",
     "code_departement": "57",
     "region": "Grand Est",

@@ -9,32 +9,32 @@
     "ville": "Bourdeau",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"23.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-06 14:11:51\", \"@valeur\": \"1.834\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 09:03:07\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-20 09:03:07\", \"@valeur\": \"1.816\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 09:03:08\", \"@valeur\": \"1.859\"}]",
     "geom": {
       "lon": 5.852,
       "lat": 45.676
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": "2023-12-06T15:11:51+01:00",
-    "sp95_prix": "1.834",
+    "gazole_maj": "2023-12-20T10:03:07+01:00",
+    "gazole_prix": "1.749",
+    "sp95_maj": "2023-12-20T10:03:07+01:00",
+    "sp95_prix": "1.816",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2023-12-20T10:03:08+01:00",
+    "sp98_prix": "1.859",
     "carburants_disponibles": [
-      "SP95"
+      "Gazole",
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
