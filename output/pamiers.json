@@ -1,5 +1,55 @@
 [
   {
+    "id": 9100006,
+    "latitude": "4313700",
+    "longitude": 160600,
+    "cp": "09100",
+    "pop": "R",
+    "adresse": "La Cavalerie",
+    "ville": "Pamiers",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 12:35:05\", \"@valeur\": \"1.677\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-21 09:39:22\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 12:35:05\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 12:35:05\", \"@valeur\": \"1.761\"}]",
+    "geom": {
+      "lon": 1.606,
+      "lat": 43.137
+    },
+    "gazole_maj": "2023-12-22T13:35:05+01:00",
+    "gazole_prix": "1.677",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-21T10:39:22+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-22T13:35:05+01:00",
+    "e10_prix": "1.709",
+    "sp98_maj": "2023-12-22T13:35:05+01:00",
+    "sp98_prix": "1.761",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ariège",
+    "code_departement": "09",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 9100003,
     "latitude": "4310400",
     "longitude": 162100,
@@ -108,56 +158,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ariège",
-    "code_departement": "09",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 9100006,
-    "latitude": "4313700",
-    "longitude": 160600,
-    "cp": "09100",
-    "pop": "R",
-    "adresse": "La Cavalerie",
-    "ville": "Pamiers",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 12:35:05\", \"@valeur\": \"1.677\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-21 09:39:22\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 12:35:05\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 12:35:05\", \"@valeur\": \"1.761\"}]",
-    "geom": {
-      "lon": 1.606,
-      "lat": 43.137
-    },
-    "gazole_maj": "2023-12-22T13:35:05+01:00",
-    "gazole_prix": "1.677",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-21T10:39:22+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-22T13:35:05+01:00",
-    "e10_prix": "1.709",
-    "sp98_maj": "2023-12-22T13:35:05+01:00",
-    "sp98_prix": "1.761",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Ariège",
