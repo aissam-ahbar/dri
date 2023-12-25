@@ -1,5 +1,53 @@
 [
   {
+    "id": 2100013,
+    "latitude": "4985366.40026",
+    "longitude": 326295.970618,
+    "cp": "02100",
+    "pop": "R",
+    "adresse": "Rue Antoine Parmentier",
+    "ville": "Saint-Quentin",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 20:00:00\", \"@valeur\": \"1.745\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 09:30:40\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-08-28 09:03:44\", \"@valeur\": \"0.996\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-23 20:00:00\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-23 20:00:00\", \"@valeur\": \"1.821\"}]",
+    "geom": {
+      "lon": 3.26295970618,
+      "lat": 49.8536640026
+    },
+    "gazole_maj": "2023-12-23T21:00:00+01:00",
+    "gazole_prix": "1.745",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-16T10:30:40+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": "2023-08-28T11:03:44+02:00",
+    "gplc_prix": "0.996",
+    "e10_maj": "2023-12-23T21:00:00+01:00",
+    "e10_prix": "1.745",
+    "sp98_maj": "2023-12-23T21:00:00+01:00",
+    "sp98_prix": "1.821",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aisne",
+    "code_departement": "02",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 2100020,
     "latitude": "4983410",
     "longitude": 329966,
@@ -133,54 +181,6 @@
     "code_region": "32"
   },
   {
-    "id": 2100013,
-    "latitude": "4985366.40026",
-    "longitude": 326295.970618,
-    "cp": "02100",
-    "pop": "R",
-    "adresse": "Rue Antoine Parmentier",
-    "ville": "Saint-Quentin",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 07:23:00\", \"@valeur\": \"1.692\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-16 09:30:40\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-08-28 09:03:44\", \"@valeur\": \"0.996\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 07:23:27\", \"@valeur\": \"1.697\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 07:23:53\", \"@valeur\": \"1.740\"}]",
-    "geom": {
-      "lon": 3.26295970618,
-      "lat": 49.8536640026
-    },
-    "gazole_maj": "2023-12-22T08:23:00+01:00",
-    "gazole_prix": "1.692",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-16T10:30:40+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": "2023-08-28T11:03:44+02:00",
-    "gplc_prix": "0.996",
-    "e10_maj": "2023-12-22T08:23:27+01:00",
-    "e10_prix": "1.697",
-    "sp98_maj": "2023-12-22T08:23:53+01:00",
-    "sp98_prix": "1.740",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aisne",
-    "code_departement": "02",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 2100008,
     "latitude": "4984400",
     "longitude": 327900,
@@ -225,46 +225,50 @@
     "code_region": "32"
   },
   {
-    "id": 2100019,
-    "latitude": "4984785",
-    "longitude": 330117,
+    "id": 2100011,
+    "latitude": "4984800",
+    "longitude": 327200,
     "cp": "02100",
     "pop": "R",
-    "adresse": "153 Rue de Mulhouse",
+    "adresse": "98 rue Alexandre Dumas",
     "ville": "Saint-Quentin",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 09:37:13\", \"@valeur\": \"1.685\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-22 09:37:14\", \"@valeur\": \"1.735\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-22 09:37:14\", \"@valeur\": \"0.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 09:37:14\", \"@valeur\": \"1.755\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 09:12:31\", \"@valeur\": \"1.733\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-13 11:32:42\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 09:12:40\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 09:12:46\", \"@valeur\": \"1.840\"}]",
     "geom": {
-      "lon": 3.30117,
-      "lat": 49.84785
+      "lon": 3.272,
+      "lat": 49.848
     },
-    "gazole_maj": "2023-12-22T10:37:13+01:00",
-    "gazole_prix": "1.685",
-    "sp95_maj": "2023-12-22T10:37:14+01:00",
-    "sp95_prix": "1.735",
-    "e85_maj": "2023-12-22T10:37:14+01:00",
-    "e85_prix": "0.899",
+    "gazole_maj": "2023-12-22T10:12:31+01:00",
+    "gazole_prix": "1.733",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-13T12:32:42+01:00",
+    "e85_prix": "0.994",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-22T10:37:14+01:00",
-    "sp98_prix": "1.755",
+    "e10_maj": "2023-12-22T10:12:40+01:00",
+    "e10_prix": "1.740",
+    "sp98_maj": "2023-12-22T10:12:46+01:00",
+    "sp98_prix": "1.840",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "E85",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "GPLc",
-      "E10"
+      "SP95",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente d'additifs carburants"
     ],
     "departement": "Aisne",
     "code_departement": "02",
@@ -322,50 +326,46 @@
     "code_region": "32"
   },
   {
-    "id": 2100011,
-    "latitude": "4984800",
-    "longitude": 327200,
+    "id": 2100019,
+    "latitude": "4984785",
+    "longitude": 330117,
     "cp": "02100",
     "pop": "R",
-    "adresse": "98 rue Alexandre Dumas",
+    "adresse": "153 Rue de Mulhouse",
     "ville": "Saint-Quentin",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 09:12:31\", \"@valeur\": \"1.733\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-13 11:32:42\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 09:12:40\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 09:12:46\", \"@valeur\": \"1.840\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 20:00:00\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 20:00:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-22 09:37:14\", \"@valeur\": \"0.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-23 20:00:00\", \"@valeur\": \"1.815\"}]",
     "geom": {
-      "lon": 3.272,
-      "lat": 49.848
+      "lon": 3.30117,
+      "lat": 49.84785
     },
-    "gazole_maj": "2023-12-22T10:12:31+01:00",
-    "gazole_prix": "1.733",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-13T12:32:42+01:00",
-    "e85_prix": "0.994",
+    "gazole_maj": "2023-12-23T21:00:00+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": "2023-12-23T21:00:00+01:00",
+    "sp95_prix": "1.795",
+    "e85_maj": "2023-12-22T10:37:14+01:00",
+    "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-22T10:12:40+01:00",
-    "e10_prix": "1.740",
-    "sp98_maj": "2023-12-22T10:12:46+01:00",
-    "sp98_prix": "1.840",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-23T21:00:00+01:00",
+    "sp98_prix": "1.815",
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente d'additifs carburants"
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aisne",
     "code_departement": "02",
