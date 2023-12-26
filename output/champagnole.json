@@ -111,6 +111,59 @@
     "code_region": "27"
   },
   {
+    "id": 39300006,
+    "latitude": "4674600",
+    "longitude": 592000,
+    "cp": "39300",
+    "pop": "R",
+    "adresse": "39 Rue Clemenceau",
+    "ville": "Champagnole",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 01:18:00\", \"@valeur\": \"1.712\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-26 01:18:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 01:18:00\", \"@valeur\": \"1.726\"}]",
+    "geom": {
+      "lon": 5.92,
+      "lat": 46.746
+    },
+    "gazole_maj": "2023-12-26T02:18:00+01:00",
+    "gazole_prix": "1.712",
+    "sp95_maj": "2023-12-26T02:18:00+01:00",
+    "sp95_prix": "1.809",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-26T02:18:00+01:00",
+    "e10_prix": "1.726",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Jura",
+    "code_departement": "39",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 39300005,
     "latitude": "4674900",
     "longitude": 590600,
@@ -150,59 +203,6 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"
-    ],
-    "departement": "Jura",
-    "code_departement": "39",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 39300006,
-    "latitude": "4674600",
-    "longitude": 592000,
-    "cp": "39300",
-    "pop": "R",
-    "adresse": "39 Rue Clemenceau",
-    "ville": "Champagnole",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-25 01:18:00\", \"@valeur\": \"1.712\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-25 01:18:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-25 01:18:00\", \"@valeur\": \"1.726\"}]",
-    "geom": {
-      "lon": 5.92,
-      "lat": 46.746
-    },
-    "gazole_maj": "2023-12-25T02:18:00+01:00",
-    "gazole_prix": "1.712",
-    "sp95_maj": "2023-12-25T02:18:00+01:00",
-    "sp95_prix": "1.809",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-25T02:18:00+01:00",
-    "e10_prix": "1.726",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Jura",
     "code_departement": "39",
