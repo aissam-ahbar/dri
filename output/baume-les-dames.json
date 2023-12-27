@@ -1,5 +1,56 @@
 [
   {
+    "id": 25110003,
+    "latitude": "4735200",
+    "longitude": 635000,
+    "cp": "25110",
+    "pop": "R",
+    "adresse": "58 Avenue Kennedy",
+    "ville": "Baume-les-Dames",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 17:25:24\", \"@valeur\": \"1.720\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-13 10:13:41\", \"@valeur\": \"1.010\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 17:27:05\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 17:27:05\", \"@valeur\": \"1.809\"}]",
+    "geom": {
+      "lon": 6.35,
+      "lat": 47.352
+    },
+    "gazole_maj": "2023-12-26T18:25:24+01:00",
+    "gazole_prix": "1.720",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-13T11:13:41+01:00",
+    "e85_prix": "1.010",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-15T18:27:05+01:00",
+    "e10_prix": "1.749",
+    "sp98_maj": "2023-12-15T18:27:05+01:00",
+    "sp98_prix": "1.809",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 25110002,
     "latitude": "4734500",
     "longitude": 636100,
@@ -9,13 +60,13 @@
     "ville": "Baume-les-Dames",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"GNV\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 10:29:49\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 10:29:49\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 10:29:49\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-15 10:29:50\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 10:29:50\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 10:29:50\", \"@valeur\": \"1.799\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 10:06:27\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 10:29:49\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 10:29:49\", \"@valeur\": \"0.959\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-15 10:29:50\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 10:29:50\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 10:29:50\", \"@valeur\": \"1.799\"}]",
     "geom": {
       "lon": 6.361,
       "lat": 47.345
     },
-    "gazole_maj": "2023-12-15T11:29:49+01:00",
-    "gazole_prix": "1.709",
+    "gazole_maj": "2023-12-26T11:06:27+01:00",
+    "gazole_prix": "1.719",
     "sp95_maj": "2023-12-15T11:29:49+01:00",
     "sp95_prix": "1.789",
     "e85_maj": "2023-12-15T11:29:49+01:00",
@@ -157,57 +208,6 @@
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25110003,
-    "latitude": "4735200",
-    "longitude": 635000,
-    "cp": "25110",
-    "pop": "R",
-    "adresse": "58 Avenue Kennedy",
-    "ville": "Baume-les-Dames",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 17:27:05\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-13 10:13:41\", \"@valeur\": \"1.010\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 17:27:05\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 17:27:05\", \"@valeur\": \"1.809\"}]",
-    "geom": {
-      "lon": 6.35,
-      "lat": 47.352
-    },
-    "gazole_maj": "2023-12-15T18:27:05+01:00",
-    "gazole_prix": "1.719",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-13T11:13:41+01:00",
-    "e85_prix": "1.010",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-15T18:27:05+01:00",
-    "e10_prix": "1.749",
-    "sp98_maj": "2023-12-15T18:27:05+01:00",
-    "sp98_prix": "1.809",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Automate CB 24/24"
     ],
     "departement": "Doubs",
     "code_departement": "25",

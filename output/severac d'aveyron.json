@@ -1,5 +1,53 @@
 [
   {
+    "id": 12150003,
+    "latitude": "4431970",
+    "longitude": 306825,
+    "cp": "12150",
+    "pop": "R",
+    "adresse": "Rue du General de Gaulle",
+    "ville": "Sévérac d'Aveyron",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 18:50:23\", \"@valeur\": \"1.718\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 18:50:23\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 11:04:10\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": 3.06825,
+      "lat": 44.3197
+    },
+    "gazole_maj": "2023-12-23T19:50:23+01:00",
+    "gazole_prix": "1.718",
+    "sp95_maj": "2023-12-23T19:50:23+01:00",
+    "sp95_prix": "1.796",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-26T12:04:10+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 12150004,
     "latitude": "4432524",
     "longitude": 306544,
@@ -9,7 +57,7 @@
     "ville": "Sévérac d'Aveyron",
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 18:30:22\", \"@valeur\": \"1.718\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-23 18:30:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-23 18:30:00\", \"@valeur\": \"1.811\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 18:30:22\", \"@valeur\": \"1.718\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-23 18:30:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 11:04:03\", \"@valeur\": \"1.819\"}]",
     "geom": {
       "lon": 3.06544,
       "lat": 44.32524
@@ -24,8 +72,8 @@
     "gplc_prix": null,
     "e10_maj": "2023-12-23T19:30:00+01:00",
     "e10_prix": "1.789",
-    "sp98_maj": "2023-12-23T19:30:00+01:00",
-    "sp98_prix": "1.811",
+    "sp98_maj": "2023-12-26T12:04:03+01:00",
+    "sp98_prix": "1.819",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -40,6 +88,50 @@
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
     ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 12150006,
+    "latitude": "4433000",
+    "longitude": 308200,
+    "cp": "12150",
+    "pop": "A",
+    "adresse": "AUTOROUTE A75 - AIRE DE L'AVEYRON",
+    "ville": "Sévérac d'Aveyron",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 09:00:00\", \"@valeur\": \"1.934\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-26 09:00:00\", \"@valeur\": \"1.259\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-26 09:00:00\", \"@valeur\": \"1.054\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 09:00:00\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 09:00:00\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 3.082,
+      "lat": 44.33
+    },
+    "gazole_maj": "2023-12-26T10:00:00+01:00",
+    "gazole_prix": "1.934",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-26T10:00:00+01:00",
+    "e85_prix": "1.259",
+    "gplc_maj": "2023-12-26T10:00:00+01:00",
+    "gplc_prix": "1.054",
+    "e10_maj": "2023-12-26T10:00:00+01:00",
+    "e10_prix": "1.990",
+    "sp98_maj": "2023-12-26T10:00:00+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
@@ -99,50 +191,6 @@
     "code_region": "76"
   },
   {
-    "id": 12150006,
-    "latitude": "4433000",
-    "longitude": 308200,
-    "cp": "12150",
-    "pop": "A",
-    "adresse": "AUTOROUTE A75 - AIRE DE L'AVEYRON",
-    "ville": "Sévérac d'Aveyron",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-25 09:00:00\", \"@valeur\": \"1.934\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-25 09:00:00\", \"@valeur\": \"1.259\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-25 09:00:00\", \"@valeur\": \"1.054\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-25 09:00:00\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-25 09:00:00\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 3.082,
-      "lat": 44.33
-    },
-    "gazole_maj": "2023-12-25T10:00:00+01:00",
-    "gazole_prix": "1.934",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-25T10:00:00+01:00",
-    "e85_prix": "1.259",
-    "gplc_maj": "2023-12-25T10:00:00+01:00",
-    "gplc_prix": "1.054",
-    "e10_maj": "2023-12-25T10:00:00+01:00",
-    "e10_prix": "1.990",
-    "sp98_maj": "2023-12-25T10:00:00+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 12150007,
     "latitude": "4432932.8023609",
     "longitude": 306931.6338544,
@@ -185,54 +233,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Automate CB 24/24"
-    ],
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 12150003,
-    "latitude": "4431970",
-    "longitude": 306825,
-    "cp": "12150",
-    "pop": "R",
-    "adresse": "Rue du General de Gaulle",
-    "ville": "Sévérac d'Aveyron",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 18:50:23\", \"@valeur\": \"1.718\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 18:50:23\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-23 18:50:24\", \"@valeur\": \"1.824\"}]",
-    "geom": {
-      "lon": 3.06825,
-      "lat": 44.3197
-    },
-    "gazole_maj": "2023-12-23T19:50:23+01:00",
-    "gazole_prix": "1.718",
-    "sp95_maj": "2023-12-23T19:50:23+01:00",
-    "sp95_prix": "1.796",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-23T19:50:24+01:00",
-    "sp98_prix": "1.824",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aveyron",
     "code_departement": "12",

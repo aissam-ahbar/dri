@@ -50,6 +50,50 @@
     "code_region": "53"
   },
   {
+    "id": 56000009,
+    "latitude": "4766113",
+    "longitude": -275507,
+    "cp": "56000",
+    "pop": "R",
+    "adresse": "BOULEVARD DE LA PAIX",
+    "ville": "Vannes",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.726\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.789\"}]",
+    "geom": {
+      "lon": -2.75507,
+      "lat": 47.66113
+    },
+    "gazole_maj": "2023-12-27T01:01:00+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-27T01:01:00+01:00",
+    "e85_prix": "0.994",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-27T01:01:00+01:00",
+    "e10_prix": "1.726",
+    "sp98_maj": "2023-12-27T01:01:00+01:00",
+    "sp98_prix": "1.789",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Morbihan",
+    "code_departement": "56",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
     "id": 56000006,
     "latitude": "4766400",
     "longitude": -276700,
@@ -157,56 +201,6 @@
     "code_region": "53"
   },
   {
-    "id": 56000005,
-    "latitude": "4763900",
-    "longitude": -277600,
-    "cp": "56000",
-    "pop": "R",
-    "adresse": "4 PASSAGE DE FAREHAM",
-    "ville": "Vannes",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 09:42:27\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-22 09:42:27\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 09:42:27\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 09:42:28\", \"@valeur\": \"1.805\"}]",
-    "geom": {
-      "lon": -2.776,
-      "lat": 47.639
-    },
-    "gazole_maj": "2023-12-22T10:42:27+01:00",
-    "gazole_prix": "1.719",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-22T10:42:27+01:00",
-    "e85_prix": "0.929",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-22T10:42:27+01:00",
-    "e10_prix": "1.725",
-    "sp98_maj": "2023-12-22T10:42:28+01:00",
-    "sp98_prix": "1.805",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Morbihan",
-    "code_departement": "56",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
     "id": 56000003,
     "latitude": "4764400",
     "longitude": -274300,
@@ -263,32 +257,32 @@
     "code_region": "53"
   },
   {
-    "id": 56000009,
-    "latitude": "4766113",
-    "longitude": -275507,
+    "id": 56000005,
+    "latitude": "4763900",
+    "longitude": -277600,
     "cp": "56000",
     "pop": "R",
-    "adresse": "BOULEVARD DE LA PAIX",
+    "adresse": "4 PASSAGE DE FAREHAM",
     "ville": "Vannes",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 00:01:00\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-26 00:01:00\", \"@valeur\": \"0.994\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 00:01:00\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 00:01:00\", \"@valeur\": \"1.789\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 15:22:07\", \"@valeur\": \"1.725\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-26 15:22:07\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 15:22:07\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 15:22:07\", \"@valeur\": \"1.809\"}]",
     "geom": {
-      "lon": -2.75507,
-      "lat": 47.66113
+      "lon": -2.776,
+      "lat": 47.639
     },
-    "gazole_maj": "2023-12-26T01:01:00+01:00",
-    "gazole_prix": "1.729",
+    "gazole_maj": "2023-12-26T16:22:07+01:00",
+    "gazole_prix": "1.725",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-26T01:01:00+01:00",
-    "e85_prix": "0.994",
+    "e85_maj": "2023-12-26T16:22:07+01:00",
+    "e85_prix": "0.929",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-26T01:01:00+01:00",
-    "e10_prix": "1.719",
-    "sp98_maj": "2023-12-26T01:01:00+01:00",
-    "sp98_prix": "1.789",
+    "e10_maj": "2023-12-26T16:22:07+01:00",
+    "e10_prix": "1.729",
+    "sp98_maj": "2023-12-26T16:22:07+01:00",
+    "sp98_prix": "1.809",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -299,8 +293,14 @@
       "SP95",
       "GPLc"
     ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
     "departement": "Morbihan",
     "code_departement": "56",
     "region": "Bretagne",
