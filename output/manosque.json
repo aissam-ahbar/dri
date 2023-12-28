@@ -1,5 +1,54 @@
 [
   {
+    "id": 4100007,
+    "latitude": "4383968.73172",
+    "longitude": 580291.655555,
+    "cp": "04100",
+    "pop": "R",
+    "adresse": "Route de Volx",
+    "ville": "Manosque",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 08:39:38\", \"@valeur\": \"1.652\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-09-29 00:01:00\", \"@valeur\": \"0.727\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-21 08:39:38\", \"@valeur\": \"1.705\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-21 08:39:38\", \"@valeur\": \"1.784\"}]",
+    "geom": {
+      "lon": 5.8029165555499995,
+      "lat": 43.839687317199996
+    },
+    "gazole_maj": "2023-12-21T09:39:38+01:00",
+    "gazole_prix": "1.652",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-09-29T02:01:00+02:00",
+    "gplc_prix": "0.727",
+    "e10_maj": "2023-12-21T09:39:38+01:00",
+    "e10_prix": "1.705",
+    "sp98_maj": "2023-12-21T09:39:38+01:00",
+    "sp98_prix": "1.784",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de pétrole lampant",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Alpes-de-Haute-Provence",
+    "code_departement": "04",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 4100002,
     "latitude": "4385000",
     "longitude": 582400,
@@ -9,23 +58,23 @@
     "ville": "Manosque",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 07:59:24\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-22 07:59:24\", \"@valeur\": \"0.936\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-22 07:59:24\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 07:59:25\", \"@valeur\": \"1.710\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 07:59:25\", \"@valeur\": \"1.782\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 08:42:02\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-27 08:42:02\", \"@valeur\": \"0.936\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-27 08:42:03\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 08:42:03\", \"@valeur\": \"1.710\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 08:42:03\", \"@valeur\": \"1.784\"}]",
     "geom": {
       "lon": 5.824,
       "lat": 43.85
     },
-    "gazole_maj": "2023-12-22T08:59:24+01:00",
+    "gazole_maj": "2023-12-27T09:42:02+01:00",
     "gazole_prix": "1.719",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-22T08:59:24+01:00",
+    "e85_maj": "2023-12-27T09:42:02+01:00",
     "e85_prix": "0.936",
-    "gplc_maj": "2023-12-22T08:59:24+01:00",
+    "gplc_maj": "2023-12-27T09:42:03+01:00",
     "gplc_prix": "0.959",
-    "e10_maj": "2023-12-22T08:59:25+01:00",
+    "e10_maj": "2023-12-27T09:42:03+01:00",
     "e10_prix": "1.710",
-    "sp98_maj": "2023-12-22T08:59:25+01:00",
-    "sp98_prix": "1.782",
+    "sp98_maj": "2023-12-27T09:42:03+01:00",
+    "sp98_prix": "1.784",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -41,54 +90,6 @@
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Alpes-de-Haute-Provence",
-    "code_departement": "04",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 4100012,
-    "latitude": "4383104.7865361",
-    "longitude": 579091.29593379,
-    "cp": "04100",
-    "pop": "R",
-    "adresse": "41 Avenue Saint Lazare",
-    "ville": "Manosque",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 18:57:31\", \"@valeur\": \"1.750\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 18:57:32\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 18:57:32\", \"@valeur\": \"1.820\"}]",
-    "geom": {
-      "lon": 5.7909129593379,
-      "lat": 43.831047865361
-    },
-    "gazole_maj": "2023-12-20T19:57:31+01:00",
-    "gazole_prix": "1.750",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-20T19:57:32+01:00",
-    "e10_prix": "1.780",
-    "sp98_maj": "2023-12-20T19:57:32+01:00",
-    "sp98_prix": "1.820",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Alpes-de-Haute-Provence",
     "code_departement": "04",
@@ -153,6 +154,50 @@
     "code_region": "93"
   },
   {
+    "id": 4100010,
+    "latitude": "4382376",
+    "longitude": 578753,
+    "cp": "04100",
+    "pop": "R",
+    "adresse": "214 AV. FREDERIC MISTRAL",
+    "ville": "Manosque",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.868\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.978\"}]",
+    "geom": {
+      "lon": 5.78753,
+      "lat": 43.82376
+    },
+    "gazole_maj": "2023-12-28T01:01:00+01:00",
+    "gazole_prix": "1.839",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-28T01:01:00+01:00",
+    "e10_prix": "1.868",
+    "sp98_maj": "2023-12-28T01:01:00+01:00",
+    "sp98_prix": "1.978",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Alpes-de-Haute-Provence",
+    "code_departement": "04",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 4100009,
     "latitude": "4383100",
     "longitude": 577900,
@@ -206,50 +251,6 @@
     "code_region": "93"
   },
   {
-    "id": 4100010,
-    "latitude": "4382376",
-    "longitude": 578753,
-    "cp": "04100",
-    "pop": "R",
-    "adresse": "214 AV. FREDERIC MISTRAL",
-    "ville": "Manosque",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.868\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.978\"}]",
-    "geom": {
-      "lon": 5.78753,
-      "lat": 43.82376
-    },
-    "gazole_maj": "2023-12-27T01:01:00+01:00",
-    "gazole_prix": "1.839",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-27T01:01:00+01:00",
-    "e10_prix": "1.868",
-    "sp98_maj": "2023-12-27T01:01:00+01:00",
-    "sp98_prix": "1.978",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Alpes-de-Haute-Provence",
-    "code_departement": "04",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 4100011,
     "latitude": "4382261.2176294",
     "longitude": 578720.85229392,
@@ -259,22 +260,22 @@
     "ville": "Manosque",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.716\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.039\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.734\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 00:01:00\", \"@valeur\": \"1.808\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.716\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.039\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.734\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.808\"}]",
     "geom": {
       "lon": 5.7872085229392,
       "lat": 43.822612176294
     },
-    "gazole_maj": "2023-12-27T01:01:00+01:00",
+    "gazole_maj": "2023-12-28T01:01:00+01:00",
     "gazole_prix": "1.716",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-27T01:01:00+01:00",
+    "e85_maj": "2023-12-28T01:01:00+01:00",
     "e85_prix": "1.039",
-    "gplc_maj": "2023-12-27T01:01:00+01:00",
+    "gplc_maj": "2023-12-28T01:01:00+01:00",
     "gplc_prix": "0.959",
-    "e10_maj": "2023-12-27T01:01:00+01:00",
+    "e10_maj": "2023-12-28T01:01:00+01:00",
     "e10_prix": "1.734",
-    "sp98_maj": "2023-12-27T01:01:00+01:00",
+    "sp98_maj": "2023-12-28T01:01:00+01:00",
     "sp98_prix": "1.808",
     "carburants_disponibles": [
       "Gazole",
@@ -306,47 +307,46 @@
     "code_region": "93"
   },
   {
-    "id": 4100007,
-    "latitude": "4383968.73172",
-    "longitude": 580291.655555,
+    "id": 4100012,
+    "latitude": "4383104.7865361",
+    "longitude": 579091.29593379,
     "cp": "04100",
     "pop": "R",
-    "adresse": "Route de Volx",
+    "adresse": "41 Avenue Saint Lazare",
     "ville": "Manosque",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 08:39:38\", \"@valeur\": \"1.652\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-09-29 00:01:00\", \"@valeur\": \"0.727\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-21 08:39:38\", \"@valeur\": \"1.705\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-21 08:39:38\", \"@valeur\": \"1.784\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 18:57:31\", \"@valeur\": \"1.750\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 18:57:32\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 18:57:32\", \"@valeur\": \"1.820\"}]",
     "geom": {
-      "lon": 5.8029165555499995,
-      "lat": 43.839687317199996
+      "lon": 5.7909129593379,
+      "lat": 43.831047865361
     },
-    "gazole_maj": "2023-12-21T09:39:38+01:00",
-    "gazole_prix": "1.652",
+    "gazole_maj": "2023-12-20T19:57:31+01:00",
+    "gazole_prix": "1.750",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2023-09-29T02:01:00+02:00",
-    "gplc_prix": "0.727",
-    "e10_maj": "2023-12-21T09:39:38+01:00",
-    "e10_prix": "1.705",
-    "sp98_maj": "2023-12-21T09:39:38+01:00",
-    "sp98_prix": "1.784",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-20T19:57:32+01:00",
+    "e10_prix": "1.780",
+    "sp98_maj": "2023-12-20T19:57:32+01:00",
+    "sp98_prix": "1.820",
     "carburants_disponibles": [
       "Gazole",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85"
+      "E85",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Vente de pétrole lampant",
+      "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Alpes-de-Haute-Provence",

@@ -1,5 +1,60 @@
 [
   {
+    "id": 13122001,
+    "latitude": "4354117",
+    "longitude": 527115,
+    "cp": "13122",
+    "pop": "R",
+    "adresse": "RES.VAL LOURDES",
+    "ville": "Ventabren",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 07:11:47\", \"@valeur\": \"1.831\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 07:11:48\", \"@valeur\": \"1.882\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 07:11:48\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 5.27115,
+      "lat": 43.54117
+    },
+    "gazole_maj": "2023-12-27T08:11:47+01:00",
+    "gazole_prix": "1.831",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-27T08:11:48+01:00",
+    "e10_prix": "1.882",
+    "sp98_maj": "2023-12-27T08:11:48+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13122002,
     "latitude": "4354400",
     "longitude": 529600,
@@ -41,61 +96,6 @@
       "Vente de fioul domestique",
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13122001,
-    "latitude": "4354117",
-    "longitude": 527115,
-    "cp": "13122",
-    "pop": "R",
-    "adresse": "RES.VAL LOURDES",
-    "ville": "Ventabren",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 07:30:29\", \"@valeur\": \"1.826\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-21 07:30:30\", \"@valeur\": \"1.868\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-21 07:30:30\", \"@valeur\": \"1.978\"}]",
-    "geom": {
-      "lon": 5.27115,
-      "lat": 43.54117
-    },
-    "gazole_maj": "2023-12-21T08:30:29+01:00",
-    "gazole_prix": "1.826",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-21T08:30:30+01:00",
-    "e10_prix": "1.868",
-    "sp98_maj": "2023-12-21T08:30:30+01:00",
-    "sp98_prix": "1.978",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",

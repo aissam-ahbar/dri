@@ -1,55 +1,5 @@
 [
   {
-    "id": 68040002,
-    "latitude": "4809500",
-    "longitude": 730600,
-    "cp": "68040",
-    "pop": "R",
-    "adresse": "1 Route de Colmar",
-    "ville": "Ingersheim",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Services réparation / entretien\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 10:49:05\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-13 10:49:05\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 10:49:06\", \"@valeur\": \"1.970\"}]",
-    "geom": {
-      "lon": 7.306,
-      "lat": 48.095
-    },
-    "gazole_maj": "2023-12-13T11:49:05+01:00",
-    "gazole_prix": "1.880",
-    "sp95_maj": "2023-12-13T11:49:05+01:00",
-    "sp95_prix": "1.880",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-13T11:49:06+01:00",
-    "sp98_prix": "1.970",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Services réparation / entretien",
-      "Vente d'additifs carburants"
-    ],
-    "departement": "Haut-Rhin",
-    "code_departement": "68",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 68040001,
     "latitude": "4808936",
     "longitude": 731870,
@@ -95,6 +45,56 @@
       "Carburant additivé",
       "Piste poids lourds",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haut-Rhin",
+    "code_departement": "68",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
+    "id": 68040002,
+    "latitude": "4809500",
+    "longitude": 730600,
+    "cp": "68040",
+    "pop": "R",
+    "adresse": "1 Route de Colmar",
+    "ville": "Ingersheim",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Services réparation / entretien\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 10:49:05\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-13 10:49:05\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 10:49:06\", \"@valeur\": \"1.970\"}]",
+    "geom": {
+      "lon": 7.306,
+      "lat": 48.095
+    },
+    "gazole_maj": "2023-12-13T11:49:05+01:00",
+    "gazole_prix": "1.880",
+    "sp95_maj": "2023-12-13T11:49:05+01:00",
+    "sp95_prix": "1.880",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-13T11:49:06+01:00",
+    "sp98_prix": "1.970",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Services réparation / entretien",
+      "Vente d'additifs carburants"
     ],
     "departement": "Haut-Rhin",
     "code_departement": "68",

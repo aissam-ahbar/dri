@@ -53,6 +53,53 @@
     "code_region": "76"
   },
   {
+    "id": 32100002,
+    "latitude": "4395976",
+    "longitude": 37835,
+    "cp": "32100",
+    "pop": "R",
+    "adresse": "rue Bonnemaison",
+    "ville": "Condom",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 08:30:00\", \"@valeur\": \"1.680\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-27 08:30:00\", \"@valeur\": \"1.721\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 08:30:00\", \"@valeur\": \"1.688\"}]",
+    "geom": {
+      "lon": 0.37835,
+      "lat": 43.95976
+    },
+    "gazole_maj": "2023-12-27T09:30:00+01:00",
+    "gazole_prix": "1.680",
+    "sp95_maj": "2023-12-27T09:30:00+01:00",
+    "sp95_prix": "1.721",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-27T09:30:00+01:00",
+    "e10_prix": "1.688",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gers",
+    "code_departement": "32",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 32100001,
     "latitude": "4394800",
     "longitude": 37200,
@@ -62,23 +109,23 @@
     "ville": "Condom",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"13.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 07:26:31\", \"@valeur\": \"1.831\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-21 07:26:31\", \"@valeur\": \"1.130\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-21 07:26:31\", \"@valeur\": \"1.842\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-21 07:26:31\", \"@valeur\": \"1.952\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 07:33:31\", \"@valeur\": \"1.831\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-27 07:33:32\", \"@valeur\": \"1.130\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 07:33:32\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 07:33:32\", \"@valeur\": \"1.957\"}]",
     "geom": {
       "lon": 0.372,
       "lat": 43.948
     },
-    "gazole_maj": "2023-12-21T08:26:31+01:00",
+    "gazole_maj": "2023-12-27T08:33:31+01:00",
     "gazole_prix": "1.831",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2023-12-21T08:26:31+01:00",
+    "gplc_maj": "2023-12-27T08:33:32+01:00",
     "gplc_prix": "1.130",
-    "e10_maj": "2023-12-21T08:26:31+01:00",
-    "e10_prix": "1.842",
-    "sp98_maj": "2023-12-21T08:26:31+01:00",
-    "sp98_prix": "1.952",
+    "e10_maj": "2023-12-27T08:33:32+01:00",
+    "e10_prix": "1.847",
+    "sp98_maj": "2023-12-27T08:33:32+01:00",
+    "sp98_prix": "1.957",
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
@@ -102,53 +149,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
-    ],
-    "departement": "Gers",
-    "code_departement": "32",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 32100002,
-    "latitude": "4395976",
-    "longitude": 37835,
-    "cp": "32100",
-    "pop": "R",
-    "adresse": "rue Bonnemaison",
-    "ville": "Condom",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 19:15:00\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 19:15:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-23 19:15:00\", \"@valeur\": \"1.739\"}]",
-    "geom": {
-      "lon": 0.37835,
-      "lat": 43.95976
-    },
-    "gazole_maj": "2023-12-23T20:15:00+01:00",
-    "gazole_prix": "1.735",
-    "sp95_maj": "2023-12-23T20:15:00+01:00",
-    "sp95_prix": "1.769",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-23T20:15:00+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Gers",
     "code_departement": "32",
