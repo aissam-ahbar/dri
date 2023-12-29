@@ -1,5 +1,62 @@
 [
   {
+    "id": 68250004,
+    "latitude": "4794500",
+    "longitude": 728900,
+    "cp": "68250",
+    "pop": "R",
+    "adresse": "RN 83",
+    "ville": "Rouffach",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"18.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"1.873\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"0.998\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"0.964\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"1.841\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"1.951\"}]",
+    "geom": {
+      "lon": 7.289,
+      "lat": 47.945
+    },
+    "gazole_maj": "2023-12-29T01:01:00+01:00",
+    "gazole_prix": "1.873",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-29T01:01:00+01:00",
+    "e85_prix": "0.998",
+    "gplc_maj": "2023-12-29T01:01:00+01:00",
+    "gplc_prix": "0.964",
+    "e10_maj": "2023-12-29T01:01:00+01:00",
+    "e10_prix": "1.841",
+    "sp98_maj": "2023-12-29T01:01:00+01:00",
+    "sp98_prix": "1.951",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Bar",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Haut-Rhin",
+    "code_departement": "68",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 68250003,
     "latitude": "4796797.99084",
     "longitude": 730308.377209,
@@ -41,63 +98,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haut-Rhin",
-    "code_departement": "68",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 68250004,
-    "latitude": "4794500",
-    "longitude": 728900,
-    "cp": "68250",
-    "pop": "R",
-    "adresse": "RN 83",
-    "ville": "Rouffach",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"18.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.873\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"0.998\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"0.964\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.841\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.951\"}]",
-    "geom": {
-      "lon": 7.289,
-      "lat": 47.945
-    },
-    "gazole_maj": "2023-12-28T01:01:00+01:00",
-    "gazole_prix": "1.873",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-28T01:01:00+01:00",
-    "e85_prix": "0.998",
-    "gplc_maj": "2023-12-28T01:01:00+01:00",
-    "gplc_prix": "0.964",
-    "e10_maj": "2023-12-28T01:01:00+01:00",
-    "e10_prix": "1.841",
-    "sp98_maj": "2023-12-28T01:01:00+01:00",
-    "sp98_prix": "1.951",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Bar",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "Automate CB 24/24"
     ],
     "departement": "Haut-Rhin",
     "code_departement": "68",

@@ -1,5 +1,56 @@
 [
   {
+    "id": 52220001,
+    "latitude": "4849100",
+    "longitude": 477800,
+    "cp": "52220",
+    "pop": "R",
+    "adresse": "Route de Saint-Dizier",
+    "ville": "La Porte du Der",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 07:11:31\", \"@valeur\": \"1.841\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 07:11:32\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 07:11:32\", \"@valeur\": \"1.960\"}]",
+    "geom": {
+      "lon": 4.778,
+      "lat": 48.491
+    },
+    "gazole_maj": "2023-12-28T08:11:31+01:00",
+    "gazole_prix": "1.841",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-28T08:11:32+01:00",
+    "e10_prix": "1.850",
+    "sp98_maj": "2023-12-28T08:11:32+01:00",
+    "sp98_prix": "1.960",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Haute-Marne",
+    "code_departement": "52",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 52220002,
     "latitude": "4847951",
     "longitude": 477143,
@@ -9,13 +60,13 @@
     "ville": "La Porte du Der",
     "horaires": null,
     "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 14:56:36\", \"@valeur\": \"1.773\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 14:56:37\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 14:56:37\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 15:21:53\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 14:56:37\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 14:56:37\", \"@valeur\": \"1.829\"}]",
     "geom": {
       "lon": 4.77143,
       "lat": 48.47951
     },
-    "gazole_maj": "2023-12-22T15:56:36+01:00",
-    "gazole_prix": "1.773",
+    "gazole_maj": "2023-12-28T16:21:53+01:00",
+    "gazole_prix": "1.760",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -42,57 +93,6 @@
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Marne",
-    "code_departement": "52",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 52220001,
-    "latitude": "4849100",
-    "longitude": 477800,
-    "cp": "52220",
-    "pop": "R",
-    "adresse": "Route de Saint-Dizier",
-    "ville": "La Porte du Der",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 07:14:10\", \"@valeur\": \"1.841\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 07:14:11\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 07:14:11\", \"@valeur\": \"1.960\"}]",
-    "geom": {
-      "lon": 4.778,
-      "lat": 48.491
-    },
-    "gazole_maj": "2023-12-27T08:14:10+01:00",
-    "gazole_prix": "1.841",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-27T08:14:11+01:00",
-    "e10_prix": "1.850",
-    "sp98_maj": "2023-12-27T08:14:11+01:00",
-    "sp98_prix": "1.960",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Haute-Marne",
     "code_departement": "52",

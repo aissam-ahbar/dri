@@ -40,6 +40,58 @@
     "code_region": "93"
   },
   {
+    "id": 13130006,
+    "latitude": "4351900",
+    "longitude": 520000,
+    "cp": "13130",
+    "pop": "R",
+    "adresse": "les grapoux route nationale 113",
+    "ville": "Berre-l'Étang",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Douches\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 13:16:27\", \"@valeur\": \"1.721\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 11:34:09\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-23 13:16:27\", \"@valeur\": \"1.821\"}]",
+    "geom": {
+      "lon": 5.2,
+      "lat": 43.519
+    },
+    "gazole_maj": "2023-12-23T14:16:27+01:00",
+    "gazole_prix": "1.721",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-27T12:34:09+01:00",
+    "e10_prix": "1.750",
+    "sp98_maj": "2023-12-23T14:16:27+01:00",
+    "sp98_prix": "1.821",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Douches",
+      "Restauration sur place",
+      "Bar",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13130005,
     "latitude": "4348400",
     "longitude": 518100,
@@ -85,58 +137,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13130006,
-    "latitude": "4351900",
-    "longitude": 520000,
-    "cp": "13130",
-    "pop": "R",
-    "adresse": "les grapoux route nationale 113",
-    "ville": "Berre-l'Étang",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Douches\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-23 13:16:27\", \"@valeur\": \"1.721\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 11:34:09\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-23 13:16:27\", \"@valeur\": \"1.821\"}]",
-    "geom": {
-      "lon": 5.2,
-      "lat": 43.519
-    },
-    "gazole_maj": "2023-12-23T14:16:27+01:00",
-    "gazole_prix": "1.721",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-27T12:34:09+01:00",
-    "e10_prix": "1.750",
-    "sp98_maj": "2023-12-23T14:16:27+01:00",
-    "sp98_prix": "1.821",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Douches",
-      "Restauration sur place",
-      "Bar",
-      "Carburant additivé",
-      "Piste poids lourds",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
