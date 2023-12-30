@@ -1,5 +1,60 @@
 [
   {
+    "id": 85190002,
+    "latitude": "4673510.51952",
+    "longitude": -159515.861226,
+    "cp": "85190",
+    "pop": "R",
+    "adresse": "ROUTE DE LA ROCHE",
+    "ville": "Aizenay",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:02:36\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-26 10:35:49\", \"@valeur\": \"1.870\"}]",
+    "geom": {
+      "lon": -1.59515861226,
+      "lat": 46.7351051952
+    },
+    "gazole_maj": "2023-12-29T09:02:36+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": "2023-12-26T11:35:49+01:00",
+    "sp95_prix": "1.870",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vendée",
+    "code_departement": "85",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 85190004,
     "latitude": "4673700",
     "longitude": -161100,
@@ -95,61 +150,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vendée",
-    "code_departement": "85",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 85190002,
-    "latitude": "4673510.51952",
-    "longitude": -159515.861226,
-    "cp": "85190",
-    "pop": "R",
-    "adresse": "ROUTE DE LA ROCHE",
-    "ville": "Aizenay",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 10:35:48\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-26 10:35:49\", \"@valeur\": \"1.870\"}]",
-    "geom": {
-      "lon": -1.59515861226,
-      "lat": 46.7351051952
-    },
-    "gazole_maj": "2023-12-26T11:35:48+01:00",
-    "gazole_prix": "1.794",
-    "sp95_maj": "2023-12-26T11:35:49+01:00",
-    "sp95_prix": "1.870",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vendée",

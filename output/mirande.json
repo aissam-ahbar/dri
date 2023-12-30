@@ -1,60 +1,5 @@
 [
   {
-    "id": 32300003,
-    "latitude": "4351700",
-    "longitude": 41400,
-    "cp": "32300",
-    "pop": "R",
-    "adresse": "Avenue Jean Mermoz",
-    "ville": "Mirande",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 16:28:44\", \"@valeur\": \"1.876\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-13 16:28:44\", \"@valeur\": \"1.887\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-21 09:35:57\", \"@valeur\": \"1.278\"}]",
-    "geom": {
-      "lon": 0.414,
-      "lat": 43.517
-    },
-    "gazole_maj": "2023-12-13T17:28:44+01:00",
-    "gazole_prix": "1.876",
-    "sp95_maj": "2023-12-13T17:28:44+01:00",
-    "sp95_prix": "1.887",
-    "e85_maj": "2023-10-21T11:35:57+02:00",
-    "e85_prix": "1.278",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24"
-    ],
-    "departement": "Gers",
-    "code_departement": "32",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 32300002,
     "latitude": "4351500",
     "longitude": 39900,
@@ -96,6 +41,61 @@
       "Laverie",
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Gers",
+    "code_departement": "32",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 32300003,
+    "latitude": "4351700",
+    "longitude": 41400,
+    "cp": "32300",
+    "pop": "R",
+    "adresse": "Avenue Jean Mermoz",
+    "ville": "Mirande",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 07:59:27\", \"@valeur\": \"1.896\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-29 07:59:27\", \"@valeur\": \"1.917\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-21 09:35:57\", \"@valeur\": \"1.278\"}]",
+    "geom": {
+      "lon": 0.414,
+      "lat": 43.517
+    },
+    "gazole_maj": "2023-12-29T08:59:27+01:00",
+    "gazole_prix": "1.896",
+    "sp95_maj": "2023-12-29T08:59:27+01:00",
+    "sp95_prix": "1.917",
+    "e85_maj": "2023-10-21T11:35:57+02:00",
+    "e85_prix": "1.278",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
       "Automate CB 24/24"
     ],
     "departement": "Gers",

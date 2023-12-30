@@ -53,6 +53,54 @@
     "code_region": "11"
   },
   {
+    "id": 78480001,
+    "latitude": "4898600",
+    "longitude": 196800,
+    "cp": "78480",
+    "pop": "R",
+    "adresse": "Rue des Rosiers",
+    "ville": "Verneuil-sur-Seine",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 10:19:37\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 15:31:22\", \"@valeur\": \"1.783\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-29 15:31:22\", \"@valeur\": \"1.880\"}]",
+    "geom": {
+      "lon": 1.968,
+      "lat": 48.986
+    },
+    "gazole_maj": "2023-12-26T11:19:37+01:00",
+    "gazole_prix": "1.780",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-29T16:31:22+01:00",
+    "e10_prix": "1.783",
+    "sp98_maj": "2023-12-29T16:31:22+01:00",
+    "sp98_prix": "1.880",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Yvelines",
+    "code_departement": "78",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 78480004,
     "latitude": "4897800",
     "longitude": 197800,
@@ -62,22 +110,22 @@
     "ville": "Verneuil-sur-Seine",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"13.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"1.876\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"1.149\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"1.907\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-29 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 00:01:00\", \"@valeur\": \"1.856\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 00:01:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-30 00:01:00\", \"@valeur\": \"1.892\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-30 00:01:00\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 1.978,
       "lat": 48.978
     },
-    "gazole_maj": "2023-12-29T01:01:00+01:00",
-    "gazole_prix": "1.876",
+    "gazole_maj": "2023-12-30T01:01:00+01:00",
+    "gazole_prix": "1.856",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-29T01:01:00+01:00",
-    "e85_prix": "1.149",
+    "e85_maj": "2023-12-30T01:01:00+01:00",
+    "e85_prix": "0.959",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-29T01:01:00+01:00",
-    "e10_prix": "1.907",
-    "sp98_maj": "2023-12-29T01:01:00+01:00",
+    "e10_maj": "2023-12-30T01:01:00+01:00",
+    "e10_prix": "1.892",
+    "sp98_maj": "2023-12-30T01:01:00+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -99,54 +147,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Yvelines",
-    "code_departement": "78",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 78480001,
-    "latitude": "4898600",
-    "longitude": 196800,
-    "cp": "78480",
-    "pop": "R",
-    "adresse": "Rue des Rosiers",
-    "ville": "Verneuil-sur-Seine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 10:19:37\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 10:19:37\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 15:16:13\", \"@valeur\": \"1.878\"}]",
-    "geom": {
-      "lon": 1.968,
-      "lat": 48.986
-    },
-    "gazole_maj": "2023-12-26T11:19:37+01:00",
-    "gazole_prix": "1.780",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-26T11:19:37+01:00",
-    "e10_prix": "1.775",
-    "sp98_maj": "2023-12-22T16:16:13+01:00",
-    "sp98_prix": "1.878",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Yvelines",
     "code_departement": "78",
