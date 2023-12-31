@@ -1,5 +1,53 @@
 [
   {
+    "id": 1100001,
+    "latitude": "4628404",
+    "longitude": 566282,
+    "cp": "01100",
+    "pop": "R",
+    "adresse": "ROUTE DE DORTAN",
+    "ville": "Arbent",
+    "horaires": null,
+    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:59:50\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-29 08:59:50\", \"@valeur\": \"1.765\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-29 08:59:51\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 08:59:51\", \"@valeur\": \"1.739\"}]",
+    "geom": {
+      "lon": 5.66282,
+      "lat": 46.28404
+    },
+    "gazole_maj": "2023-12-29T09:59:50+01:00",
+    "gazole_prix": "1.720",
+    "sp95_maj": "2023-12-29T09:59:50+01:00",
+    "sp95_prix": "1.765",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-29T09:59:51+01:00",
+    "gplc_prix": "0.969",
+    "e10_maj": "2023-12-29T09:59:51+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 1100004,
     "latitude": "4627200",
     "longitude": 566000,
@@ -46,54 +94,6 @@
       "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 1100001,
-    "latitude": "4628404",
-    "longitude": 566282,
-    "cp": "01100",
-    "pop": "R",
-    "adresse": "ROUTE DE DORTAN",
-    "ville": "Arbent",
-    "horaires": null,
-    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:59:50\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-29 08:59:50\", \"@valeur\": \"1.765\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-29 08:59:51\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 08:59:51\", \"@valeur\": \"1.739\"}]",
-    "geom": {
-      "lon": 5.66282,
-      "lat": 46.28404
-    },
-    "gazole_maj": "2023-12-29T09:59:50+01:00",
-    "gazole_prix": "1.720",
-    "sp95_maj": "2023-12-29T09:59:50+01:00",
-    "sp95_prix": "1.765",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-29T09:59:51+01:00",
-    "gplc_prix": "0.969",
-    "e10_maj": "2023-12-29T09:59:51+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Ain",
     "code_departement": "01",

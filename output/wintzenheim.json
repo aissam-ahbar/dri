@@ -1,31 +1,31 @@
 [
   {
-    "id": 68124001,
+    "id": 68124002,
     "latitude": "4808400",
     "longitude": 731100,
     "cp": "68124",
     "pop": "R",
-    "adresse": "1 ROUTE DE TUCKHEIM",
+    "adresse": "1 ROUTE DE TURCKHEIM",
     "ville": "Wintzenheim",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Piste poids lourds\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:42:45\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-23 08:35:09\", \"@valeur\": \"0.935\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-21 08:24:39\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 08:42:45\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-29 08:42:45\", \"@valeur\": \"1.825\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 11:13:27\", \"@valeur\": \"1.732\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 11:13:28\", \"@valeur\": \"0.935\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-30 11:13:28\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-30 11:13:28\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-30 11:13:28\", \"@valeur\": \"1.818\"}]",
     "geom": {
       "lon": 7.311,
       "lat": 48.084
     },
-    "gazole_maj": "2023-12-29T09:42:45+01:00",
-    "gazole_prix": "1.739",
+    "gazole_maj": "2023-12-30T12:13:27+01:00",
+    "gazole_prix": "1.732",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-23T09:35:09+01:00",
+    "e85_maj": "2023-12-30T12:13:28+01:00",
     "e85_prix": "0.935",
-    "gplc_maj": "2023-12-21T09:24:39+01:00",
+    "gplc_maj": "2023-12-30T12:13:28+01:00",
     "gplc_prix": "0.949",
-    "e10_maj": "2023-12-29T09:42:45+01:00",
+    "e10_maj": "2023-12-30T12:13:28+01:00",
     "e10_prix": "1.747",
-    "sp98_maj": "2023-12-29T09:42:45+01:00",
-    "sp98_prix": "1.825",
+    "sp98_maj": "2023-12-30T12:13:28+01:00",
+    "sp98_prix": "1.818",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,9 +36,11 @@
     "carburants_indisponibles": [
       "SP95"
     ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Piste poids lourds"
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Automate CB 24/24"
     ],
     "departement": "Haut-Rhin",
     "code_departement": "68",

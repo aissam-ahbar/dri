@@ -1,49 +1,5 @@
 [
   {
-    "id": 70200005,
-    "latitude": "4767185",
-    "longitude": 651182,
-    "cp": "70200",
-    "pop": "R",
-    "adresse": "Z.a la Saline",
-    "ville": "Lure",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:59:23\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-04 08:50:20\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 08:43:01\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-24 06:32:28\", \"@valeur\": \"1.859\"}]",
-    "geom": {
-      "lon": 6.51182,
-      "lat": 47.67185
-    },
-    "gazole_maj": "2023-12-29T09:59:23+01:00",
-    "gazole_prix": "1.759",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-04T09:50:20+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-27T09:43:01+01:00",
-    "e10_prix": "1.809",
-    "sp98_maj": "2023-12-24T07:32:28+01:00",
-    "sp98_prix": "1.859",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Haute-Saône",
-    "code_departement": "70",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 70200008,
     "latitude": "4767600",
     "longitude": 652300,
@@ -94,6 +50,100 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24"
     ],
+    "departement": "Haute-Saône",
+    "code_departement": "70",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 70200004,
+    "latitude": "4768300",
+    "longitude": 651800,
+    "cp": "70200",
+    "pop": "R",
+    "adresse": "ZI Aux Cloyes",
+    "ville": "Lure",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:00:00\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-27 08:00:00\", \"@valeur\": \"1.830\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-27 08:00:00\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 08:00:00\", \"@valeur\": \"1.800\"}]",
+    "geom": {
+      "lon": 6.518,
+      "lat": 47.683
+    },
+    "gazole_maj": "2023-12-29T09:00:00+01:00",
+    "gazole_prix": "1.740",
+    "sp95_maj": "2023-12-27T09:00:00+01:00",
+    "sp95_prix": "1.830",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-27T09:00:00+01:00",
+    "gplc_prix": "0.990",
+    "e10_maj": "2023-12-27T09:00:00+01:00",
+    "e10_prix": "1.800",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Saône",
+    "code_departement": "70",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 70200005,
+    "latitude": "4767185",
+    "longitude": 651182,
+    "cp": "70200",
+    "pop": "R",
+    "adresse": "Z.a la Saline",
+    "ville": "Lure",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:59:23\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-04 08:50:20\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 08:43:01\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-24 06:32:28\", \"@valeur\": \"1.859\"}]",
+    "geom": {
+      "lon": 6.51182,
+      "lat": 47.67185
+    },
+    "gazole_maj": "2023-12-29T09:59:23+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-04T09:50:20+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-27T09:43:01+01:00",
+    "e10_prix": "1.809",
+    "sp98_maj": "2023-12-24T07:32:28+01:00",
+    "sp98_prix": "1.859",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Haute-Saône",
     "code_departement": "70",
     "region": "Bourgogne-Franche-Comté",
@@ -195,56 +245,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Haute-Saône",
-    "code_departement": "70",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 70200004,
-    "latitude": "4768300",
-    "longitude": 651800,
-    "cp": "70200",
-    "pop": "R",
-    "adresse": "ZI Aux Cloyes",
-    "ville": "Lure",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:00:00\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-27 08:00:00\", \"@valeur\": \"1.830\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-27 08:00:00\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 08:00:00\", \"@valeur\": \"1.800\"}]",
-    "geom": {
-      "lon": 6.518,
-      "lat": 47.683
-    },
-    "gazole_maj": "2023-12-29T09:00:00+01:00",
-    "gazole_prix": "1.740",
-    "sp95_maj": "2023-12-27T09:00:00+01:00",
-    "sp95_prix": "1.830",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-27T09:00:00+01:00",
-    "gplc_prix": "0.990",
-    "e10_maj": "2023-12-27T09:00:00+01:00",
-    "e10_prix": "1.800",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
     "departement": "Haute-Saône",
     "code_departement": "70",
     "region": "Bourgogne-Franche-Comté",

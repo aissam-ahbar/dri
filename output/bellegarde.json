@@ -1,5 +1,58 @@
 [
   {
+    "id": 30127001,
+    "latitude": "4375724.08919",
+    "longitude": 451195.169942,
+    "cp": "30127",
+    "pop": "R",
+    "adresse": "4 avenue des arenes",
+    "ville": "Bellegarde",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 07:00:00\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-30 14:35:48\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-30 14:35:49\", \"@valeur\": \"1.879\"}]",
+    "geom": {
+      "lon": 4.51195169942,
+      "lat": 43.7572408919
+    },
+    "gazole_maj": "2023-12-21T08:00:00+01:00",
+    "gazole_prix": "1.725",
+    "sp95_maj": "2023-12-30T15:35:48+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-30T15:35:49+01:00",
+    "sp98_prix": "1.879",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Relais colis",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gard",
+    "code_departement": "30",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 45270001,
     "latitude": "4799200",
     "longitude": 244900,
@@ -47,58 +100,5 @@
     "code_departement": "45",
     "region": "Centre-Val de Loire",
     "code_region": "24"
-  },
-  {
-    "id": 30127001,
-    "latitude": "4375724.08919",
-    "longitude": 451195.169942,
-    "cp": "30127",
-    "pop": "R",
-    "adresse": "4 avenue des arenes",
-    "ville": "Bellegarde",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 07:00:00\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-21 07:00:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-21 07:00:00\", \"@valeur\": \"1.869\"}]",
-    "geom": {
-      "lon": 4.51195169942,
-      "lat": 43.7572408919
-    },
-    "gazole_maj": "2023-12-21T08:00:00+01:00",
-    "gazole_prix": "1.725",
-    "sp95_maj": "2023-12-21T08:00:00+01:00",
-    "sp95_prix": "1.819",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-21T08:00:00+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Relais colis",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gard",
-    "code_departement": "30",
-    "region": "Occitanie",
-    "code_region": "76"
   }
 ]

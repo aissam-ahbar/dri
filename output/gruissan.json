@@ -1,52 +1,5 @@
 [
   {
-    "id": 11430002,
-    "latitude": "4311800",
-    "longitude": 310400,
-    "cp": "11430",
-    "pop": "R",
-    "adresse": "ZA DE MATEILLE",
-    "ville": "Gruissan",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Lavage manuel\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 07:51:09\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-27 07:51:09\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 07:51:10\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 07:51:10\", \"@valeur\": \"1.869\"}]",
-    "geom": {
-      "lon": 3.104,
-      "lat": 43.118
-    },
-    "gazole_maj": "2023-12-27T08:51:09+01:00",
-    "gazole_prix": "1.760",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-27T08:51:09+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-27T08:51:10+01:00",
-    "e10_prix": "1.820",
-    "sp98_maj": "2023-12-27T08:51:10+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Lavage manuel",
-      "Automate CB 24/24"
-    ],
-    "departement": "Aude",
-    "code_departement": "11",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 11430001,
     "latitude": "4310800",
     "longitude": 309100,
@@ -96,6 +49,53 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
+      "Automate CB 24/24"
+    ],
+    "departement": "Aude",
+    "code_departement": "11",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 11430002,
+    "latitude": "4311800",
+    "longitude": 310400,
+    "cp": "11430",
+    "pop": "R",
+    "adresse": "ZA DE MATEILLE",
+    "ville": "Gruissan",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Lavage manuel\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-27 07:51:09\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-27 07:51:09\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-27 07:51:10\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-27 07:51:10\", \"@valeur\": \"1.869\"}]",
+    "geom": {
+      "lon": 3.104,
+      "lat": 43.118
+    },
+    "gazole_maj": "2023-12-27T08:51:09+01:00",
+    "gazole_prix": "1.760",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-27T08:51:09+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-27T08:51:10+01:00",
+    "e10_prix": "1.820",
+    "sp98_maj": "2023-12-27T08:51:10+01:00",
+    "sp98_prix": "1.869",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Lavage manuel",
       "Automate CB 24/24"
     ],
     "departement": "Aude",
