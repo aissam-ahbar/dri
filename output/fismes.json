@@ -9,7 +9,7 @@
     "ville": "Fismes",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 00:01:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.849\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 00:01:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 00:01:00\", \"@valeur\": \"1.789\"}]",
     "geom": {
       "lon": 3.68670452849,
       "lat": 49.309610628899996
@@ -24,17 +24,17 @@
     "gplc_prix": null,
     "e10_maj": "2023-12-28T01:01:00+01:00",
     "e10_prix": "1.789",
-    "sp98_maj": "2023-12-28T01:01:00+01:00",
-    "sp98_prix": "1.849",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
@@ -42,57 +42,6 @@
       "Carburant additivé",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Marne",
-    "code_departement": "51",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 51170003,
-    "latitude": "4930800",
-    "longitude": 366800,
-    "cp": "51170",
-    "pop": "R",
-    "adresse": "Route de Soissons",
-    "ville": "Fismes",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 06:26:32\", \"@valeur\": \"1.724\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 12:53:58\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 12:53:58\", \"@valeur\": \"1.799\"}]",
-    "geom": {
-      "lon": 3.668,
-      "lat": 49.308
-    },
-    "gazole_maj": "2023-12-30T07:26:32+01:00",
-    "gazole_prix": "1.724",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-26T13:53:58+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2023-12-26T13:53:58+01:00",
-    "sp98_prix": "1.799",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Station de gonflage",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Marne",
@@ -148,6 +97,57 @@
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "Wifi"
+    ],
+    "departement": "Marne",
+    "code_departement": "51",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
+    "id": 51170003,
+    "latitude": "4930800",
+    "longitude": 366800,
+    "cp": "51170",
+    "pop": "R",
+    "adresse": "Route de Soissons",
+    "ville": "Fismes",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 06:26:32\", \"@valeur\": \"1.724\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 12:53:58\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 12:53:58\", \"@valeur\": \"1.799\"}]",
+    "geom": {
+      "lon": 3.668,
+      "lat": 49.308
+    },
+    "gazole_maj": "2023-12-30T07:26:32+01:00",
+    "gazole_prix": "1.724",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-26T13:53:58+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": "2023-12-26T13:53:58+01:00",
+    "sp98_prix": "1.799",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Station de gonflage",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Marne",
     "code_departement": "51",

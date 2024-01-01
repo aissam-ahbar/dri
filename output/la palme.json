@@ -1,5 +1,55 @@
 [
   {
+    "id": 11480008,
+    "latitude": "4294543.586",
+    "longitude": 298900.48,
+    "cp": "11480",
+    "pop": "R",
+    "adresse": "route départementale 6009",
+    "ville": "La Palme",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 09:25:42\", \"@valeur\": \"1.773\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-04 17:07:24\", \"@valeur\": \"1.149\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-04 17:07:24\", \"@valeur\": \"1.029\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 09:26:23\", \"@valeur\": \"1.816\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 09:26:06\", \"@valeur\": \"1.926\"}]",
+    "geom": {
+      "lon": 2.9890048,
+      "lat": 42.94543586
+    },
+    "gazole_maj": "2023-12-15T10:25:42+01:00",
+    "gazole_prix": "1.773",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-04T18:07:24+01:00",
+    "e85_prix": "1.149",
+    "gplc_maj": "2023-12-04T18:07:24+01:00",
+    "gplc_prix": "1.029",
+    "e10_maj": "2023-12-15T10:26:23+01:00",
+    "e10_prix": "1.816",
+    "sp98_maj": "2023-12-15T10:26:06+01:00",
+    "sp98_prix": "1.926",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aude",
+    "code_departement": "11",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 11480007,
     "latitude": "4297984",
     "longitude": 298637,
@@ -9,22 +59,22 @@
     "ville": "La Palme",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Espace bébé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-19 06:00:00\", \"@valeur\": \"1.934\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-05 12:50:56\", \"@valeur\": \"1.083\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-18 11:03:31\", \"@valeur\": \"1.984\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-19 06:01:00\", \"@valeur\": \"2.084\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-31 14:12:22\", \"@valeur\": \"1.934\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-31 14:12:22\", \"@valeur\": \"1.084\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-31 14:12:22\", \"@valeur\": \"1.984\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-31 14:12:22\", \"@valeur\": \"2.084\"}]",
     "geom": {
       "lon": 2.98637,
       "lat": 42.97984
     },
-    "gazole_maj": "2023-12-19T07:00:00+01:00",
+    "gazole_maj": "2023-12-31T15:12:22+01:00",
     "gazole_prix": "1.934",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2023-10-05T14:50:56+02:00",
-    "gplc_prix": "1.083",
-    "e10_maj": "2023-12-18T12:03:31+01:00",
+    "gplc_maj": "2023-12-31T15:12:22+01:00",
+    "gplc_prix": "1.084",
+    "e10_maj": "2023-12-31T15:12:22+01:00",
     "e10_prix": "1.984",
-    "sp98_maj": "2023-12-19T07:01:00+01:00",
+    "sp98_maj": "2023-12-31T15:12:22+01:00",
     "sp98_prix": "2.084",
     "carburants_disponibles": [
       "Gazole",
@@ -105,56 +155,6 @@
       "Piste poids lourds",
       "Espace bébé",
       "Automate CB 24/24"
-    ],
-    "departement": "Aude",
-    "code_departement": "11",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 11480008,
-    "latitude": "4294543.586",
-    "longitude": 298900.48,
-    "cp": "11480",
-    "pop": "R",
-    "adresse": "route départementale 6009",
-    "ville": "La Palme",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 09:25:42\", \"@valeur\": \"1.773\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-04 17:07:24\", \"@valeur\": \"1.149\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-04 17:07:24\", \"@valeur\": \"1.029\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-15 09:26:23\", \"@valeur\": \"1.816\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 09:26:06\", \"@valeur\": \"1.926\"}]",
-    "geom": {
-      "lon": 2.9890048,
-      "lat": 42.94543586
-    },
-    "gazole_maj": "2023-12-15T10:25:42+01:00",
-    "gazole_prix": "1.773",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-04T18:07:24+01:00",
-    "e85_prix": "1.149",
-    "gplc_maj": "2023-12-04T18:07:24+01:00",
-    "gplc_prix": "1.029",
-    "e10_maj": "2023-12-15T10:26:23+01:00",
-    "e10_prix": "1.816",
-    "sp98_maj": "2023-12-15T10:26:06+01:00",
-    "sp98_prix": "1.926",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aude",
     "code_departement": "11",
