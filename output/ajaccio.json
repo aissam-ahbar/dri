@@ -319,6 +319,54 @@
     "code_region": "94"
   },
   {
+    "id": 20090001,
+    "latitude": "4194385",
+    "longitude": 875484,
+    "cp": "20090",
+    "pop": "R",
+    "adresse": "Boulevard Louis Campi",
+    "ville": "Ajaccio",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 06:34:14\", \"@valeur\": \"1.892\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 06:34:25\", \"@valeur\": \"1.897\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-01-20 09:39:22\", \"@valeur\": \"1.995\"}]",
+    "geom": {
+      "lon": 8.75484,
+      "lat": 41.94385
+    },
+    "gazole_maj": "2023-12-08T07:34:14+01:00",
+    "gazole_prix": "1.892",
+    "sp95_maj": "2023-12-08T07:34:25+01:00",
+    "sp95_prix": "1.897",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-01-20T10:39:22+01:00",
+    "e10_prix": "1.995",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire"
+    ],
+    "departement": "Corse-du-Sud",
+    "code_departement": "2A",
+    "region": "Corse",
+    "code_region": "94"
+  },
+  {
     "id": 20189001,
     "latitude": "4194279.05963",
     "longitude": 875250.27656,
@@ -371,54 +419,6 @@
       "Lavage manuel",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Corse-du-Sud",
-    "code_departement": "2A",
-    "region": "Corse",
-    "code_region": "94"
-  },
-  {
-    "id": 20090001,
-    "latitude": "4194385",
-    "longitude": 875484,
-    "cp": "20090",
-    "pop": "R",
-    "adresse": "Boulevard Louis Campi",
-    "ville": "Ajaccio",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-08 06:34:14\", \"@valeur\": \"1.892\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-08 06:34:25\", \"@valeur\": \"1.897\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-01-20 09:39:22\", \"@valeur\": \"1.995\"}]",
-    "geom": {
-      "lon": 8.75484,
-      "lat": 41.94385
-    },
-    "gazole_maj": "2023-12-08T07:34:14+01:00",
-    "gazole_prix": "1.892",
-    "sp95_maj": "2023-12-08T07:34:25+01:00",
-    "sp95_prix": "1.897",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-01-20T10:39:22+01:00",
-    "e10_prix": "1.995",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire"
     ],
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
@@ -482,52 +482,6 @@
     "code_region": "94"
   },
   {
-    "id": 20090014,
-    "latitude": "4192800",
-    "longitude": 873900,
-    "cp": "20000",
-    "pop": "R",
-    "adresse": "109 Cours Napoleon",
-    "ville": "Ajaccio",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.896\"}]",
-    "geom": {
-      "lon": 8.739,
-      "lat": 41.928
-    },
-    "gazole_maj": "2023-12-15T17:07:45+01:00",
-    "gazole_prix": "1.883",
-    "sp95_maj": "2023-12-15T17:07:45+01:00",
-    "sp95_prix": "1.896",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Corse-du-Sud",
-    "code_departement": "2A",
-    "region": "Corse",
-    "code_region": "94"
-  },
-  {
     "id": 20167003,
     "latitude": "4195300",
     "longitude": 878200,
@@ -573,6 +527,52 @@
       "Lavage manuel",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Corse-du-Sud",
+    "code_departement": "2A",
+    "region": "Corse",
+    "code_region": "94"
+  },
+  {
+    "id": 20090014,
+    "latitude": "4192800",
+    "longitude": 873900,
+    "cp": "20000",
+    "pop": "R",
+    "adresse": "109 Cours Napoleon",
+    "ville": "Ajaccio",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.896\"}]",
+    "geom": {
+      "lon": 8.739,
+      "lat": 41.928
+    },
+    "gazole_maj": "2023-12-15T17:07:45+01:00",
+    "gazole_prix": "1.883",
+    "sp95_maj": "2023-12-15T17:07:45+01:00",
+    "sp95_prix": "1.896",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
     ],
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
