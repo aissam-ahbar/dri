@@ -1,55 +1,5 @@
 [
   {
-    "id": 86300001,
-    "latitude": "4657100",
-    "longitude": 63700,
-    "cp": "86300",
-    "pop": "R",
-    "adresse": "Route de Poitiers",
-    "ville": "Chauvigny",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Location de véhicule\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 16:12:50\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-26 16:12:51\", \"@valeur\": \"0.958\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-26 16:12:51\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 16:12:51\", \"@valeur\": \"1.840\"}]",
-    "geom": {
-      "lon": 0.637,
-      "lat": 46.571
-    },
-    "gazole_maj": "2023-12-26T17:12:50+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-26T17:12:51+01:00",
-    "e85_prix": "0.958",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-26T17:12:51+01:00",
-    "e10_prix": "1.754",
-    "sp98_maj": "2023-12-26T17:12:51+01:00",
-    "sp98_prix": "1.840",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Location de véhicule"
-    ],
-    "departement": "Vienne",
-    "code_departement": "86",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 86300002,
     "latitude": "4655800",
     "longitude": 62500,
@@ -101,6 +51,56 @@
       "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vienne",
+    "code_departement": "86",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 86300001,
+    "latitude": "4657100",
+    "longitude": 63700,
+    "cp": "86300",
+    "pop": "R",
+    "adresse": "Route de Poitiers",
+    "ville": "Chauvigny",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Location de véhicule\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 17:01:56\", \"@valeur\": \"1.627\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 17:01:56\", \"@valeur\": \"0.933\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 17:01:57\", \"@valeur\": \"1.691\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 17:01:57\", \"@valeur\": \"1.793\"}]",
+    "geom": {
+      "lon": 0.637,
+      "lat": 46.571
+    },
+    "gazole_maj": "2024-01-02T18:01:56+01:00",
+    "gazole_prix": "1.627",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-02T18:01:56+01:00",
+    "e85_prix": "0.933",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-02T18:01:57+01:00",
+    "e10_prix": "1.691",
+    "sp98_maj": "2024-01-02T18:01:57+01:00",
+    "sp98_prix": "1.793",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Location de véhicule"
     ],
     "departement": "Vienne",
     "code_departement": "86",

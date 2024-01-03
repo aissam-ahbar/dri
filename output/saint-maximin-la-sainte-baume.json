@@ -1,5 +1,61 @@
 [
   {
+    "id": 83470006,
+    "latitude": "4344713.163",
+    "longitude": 586274.698,
+    "cp": "83470",
+    "pop": "R",
+    "adresse": "RN.7 ROUTE DE NICE",
+    "ville": "Saint-Maximin-la-Sainte-Baume",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 00:01:00\", \"@valeur\": \"1.688\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 00:01:00\", \"@valeur\": \"0.929\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-03 00:01:00\", \"@valeur\": \"0.964\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 00:01:00\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 00:01:00\", \"@valeur\": \"1.817\"}]",
+    "geom": {
+      "lon": 5.86274698,
+      "lat": 43.447131629999994
+    },
+    "gazole_maj": "2024-01-03T01:01:00+01:00",
+    "gazole_prix": "1.688",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-03T01:01:00+01:00",
+    "e85_prix": "0.929",
+    "gplc_maj": "2024-01-03T01:01:00+01:00",
+    "gplc_prix": "0.964",
+    "e10_maj": "2024-01-03T01:01:00+01:00",
+    "e10_prix": "1.746",
+    "sp98_maj": "2024-01-03T01:01:00+01:00",
+    "sp98_prix": "1.817",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 83470001,
     "latitude": "4345700",
     "longitude": 585300,
@@ -64,54 +120,6 @@
     "code_region": "93"
   },
   {
-    "id": 83470004,
-    "latitude": "4344735",
-    "longitude": 586336,
-    "cp": "83470",
-    "pop": "R",
-    "adresse": "Chemin de la gare",
-    "ville": "Saint-Maximin-la-Sainte-Baume",
-    "horaires": null,
-    "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 10:07:06\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-30 10:07:07\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-30 10:07:07\", \"@valeur\": \"1.815\"}]",
-    "geom": {
-      "lon": 5.86336,
-      "lat": 43.44735
-    },
-    "gazole_maj": "2023-12-30T11:07:06+01:00",
-    "gazole_prix": "1.689",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-30T11:07:07+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2023-12-30T11:07:07+01:00",
-    "sp98_prix": "1.815",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 83470003,
     "latitude": "4344000",
     "longitude": 587300,
@@ -160,53 +168,45 @@
     "code_region": "93"
   },
   {
-    "id": 83470006,
-    "latitude": "4344713.163",
-    "longitude": 586274.698,
+    "id": 83470004,
+    "latitude": "4344735",
+    "longitude": 586336,
     "cp": "83470",
     "pop": "R",
-    "adresse": "RN.7 ROUTE DE NICE",
+    "adresse": "Chemin de la gare",
     "ville": "Saint-Maximin-la-Sainte-Baume",
     "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 00:01:00\", \"@valeur\": \"1.693\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 00:01:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-02 00:01:00\", \"@valeur\": \"0.964\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 00:01:00\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 00:01:00\", \"@valeur\": \"1.817\"}]",
+    "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 09:21:51\", \"@valeur\": \"1.693\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 09:21:52\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-30 10:07:07\", \"@valeur\": \"1.815\"}]",
     "geom": {
-      "lon": 5.86274698,
-      "lat": 43.447131629999994
+      "lon": 5.86336,
+      "lat": 43.44735
     },
-    "gazole_maj": "2024-01-02T01:01:00+01:00",
+    "gazole_maj": "2024-01-02T10:21:51+01:00",
     "gazole_prix": "1.693",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-02T01:01:00+01:00",
-    "e85_prix": "0.949",
-    "gplc_maj": "2024-01-02T01:01:00+01:00",
-    "gplc_prix": "0.964",
-    "e10_maj": "2024-01-02T01:01:00+01:00",
-    "e10_prix": "1.746",
-    "sp98_maj": "2024-01-02T01:01:00+01:00",
-    "sp98_prix": "1.817",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-02T10:21:52+01:00",
+    "e10_prix": "1.745",
+    "sp98_maj": "2023-12-30T11:07:07+01:00",
+    "sp98_prix": "1.815",
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95"
+      "SP95",
+      "E85",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
       "Lavage automatique",
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

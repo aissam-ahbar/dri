@@ -1,5 +1,105 @@
 [
   {
+    "id": 25200005,
+    "latitude": "4749900",
+    "longitude": 681400,
+    "cp": "25200",
+    "pop": "R",
+    "adresse": "LE PIED DES GOUTTES",
+    "ville": "Montbéliard",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 01:17:00\", \"@valeur\": \"1.717\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-03 01:17:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 01:17:00\", \"@valeur\": \"0.937\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 01:17:00\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 01:17:00\", \"@valeur\": \"1.834\"}]",
+    "geom": {
+      "lon": 6.814,
+      "lat": 47.499
+    },
+    "gazole_maj": "2024-01-03T02:17:00+01:00",
+    "gazole_prix": "1.717",
+    "sp95_maj": "2024-01-03T02:17:00+01:00",
+    "sp95_prix": "1.814",
+    "e85_maj": "2024-01-03T02:17:00+01:00",
+    "e85_prix": "0.937",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-03T02:17:00+01:00",
+    "e10_prix": "1.750",
+    "sp98_maj": "2024-01-03T02:17:00+01:00",
+    "sp98_prix": "1.834",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 25200002,
+    "latitude": "4750900",
+    "longitude": 680800,
+    "cp": "25200",
+    "pop": "R",
+    "adresse": "16 Avenue d'Helvétie",
+    "ville": "Montbéliard",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 19:32:21\", \"@valeur\": \"1.717\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 19:32:21\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 19:32:21\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 19:32:21\", \"@valeur\": \"1.827\"}]",
+    "geom": {
+      "lon": 6.808,
+      "lat": 47.509
+    },
+    "gazole_maj": "2024-01-02T20:32:21+01:00",
+    "gazole_prix": "1.717",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-02T20:32:21+01:00",
+    "e85_prix": "0.929",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-02T20:32:21+01:00",
+    "e10_prix": "1.750",
+    "sp98_maj": "2024-01-02T20:32:21+01:00",
+    "sp98_prix": "1.827",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 25200001,
     "latitude": "4752704",
     "longitude": 680990,
@@ -44,106 +144,6 @@
       "Vente de fioul domestique",
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25200002,
-    "latitude": "4750900",
-    "longitude": 680800,
-    "cp": "25200",
-    "pop": "R",
-    "adresse": "16 Avenue d'Helvétie",
-    "ville": "Montbéliard",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 19:15:42\", \"@valeur\": \"1.734\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-29 19:15:42\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 19:15:43\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-29 19:15:43\", \"@valeur\": \"1.827\"}]",
-    "geom": {
-      "lon": 6.808,
-      "lat": 47.509
-    },
-    "gazole_maj": "2023-12-29T20:15:42+01:00",
-    "gazole_prix": "1.734",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-29T20:15:42+01:00",
-    "e85_prix": "0.949",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-29T20:15:43+01:00",
-    "e10_prix": "1.750",
-    "sp98_maj": "2023-12-29T20:15:43+01:00",
-    "sp98_prix": "1.827",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Automate CB 24/24"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25200005,
-    "latitude": "4749900",
-    "longitude": 681400,
-    "cp": "25200",
-    "pop": "R",
-    "adresse": "LE PIED DES GOUTTES",
-    "ville": "Montbéliard",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 01:17:00\", \"@valeur\": \"1.704\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-02 01:17:00\", \"@valeur\": \"1.800\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 01:17:00\", \"@valeur\": \"0.937\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 01:17:00\", \"@valeur\": \"1.751\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 01:17:00\", \"@valeur\": \"1.829\"}]",
-    "geom": {
-      "lon": 6.814,
-      "lat": 47.499
-    },
-    "gazole_maj": "2024-01-02T02:17:00+01:00",
-    "gazole_prix": "1.704",
-    "sp95_maj": "2024-01-02T02:17:00+01:00",
-    "sp95_prix": "1.800",
-    "e85_maj": "2024-01-02T02:17:00+01:00",
-    "e85_prix": "0.937",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-02T02:17:00+01:00",
-    "e10_prix": "1.751",
-    "sp98_maj": "2024-01-02T02:17:00+01:00",
-    "sp98_prix": "1.829",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Doubs",
