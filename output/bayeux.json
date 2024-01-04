@@ -44,6 +44,59 @@
     "code_region": "28"
   },
   {
+    "id": 14400003,
+    "latitude": "4927100",
+    "longitude": -69900,
+    "cp": "14400",
+    "pop": "R",
+    "adresse": "16 Boulevard Sadi-Carnot",
+    "ville": "Bayeux",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 07:37:52\", \"@valeur\": \"1.684\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 07:37:52\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 07:37:52\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 07:37:52\", \"@valeur\": \"1.815\"}]",
+    "geom": {
+      "lon": -0.699,
+      "lat": 49.271
+    },
+    "gazole_maj": "2024-01-03T08:37:52+01:00",
+    "gazole_prix": "1.684",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-03T08:37:52+01:00",
+    "e85_prix": "0.929",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-03T08:37:52+01:00",
+    "e10_prix": "1.719",
+    "sp98_maj": "2024-01-03T08:37:52+01:00",
+    "sp98_prix": "1.815",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Calvados",
+    "code_departement": "14",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 14404001,
     "latitude": "4927700",
     "longitude": -71900,
@@ -53,21 +106,21 @@
     "ville": "Bayeux",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 07:17:42\", \"@valeur\": \"1.669\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 09:06:51\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-07-19 16:53:33\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 07:17:43\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 06:57:47\", \"@valeur\": \"1.799\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 07:25:11\", \"@valeur\": \"1.659\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 09:06:51\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-07-19 16:53:33\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 07:25:12\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 06:57:47\", \"@valeur\": \"1.799\"}]",
     "geom": {
       "lon": -0.719,
       "lat": 49.277
     },
-    "gazole_maj": "2024-01-02T08:17:42+01:00",
-    "gazole_prix": "1.669",
+    "gazole_maj": "2024-01-03T08:25:11+01:00",
+    "gazole_prix": "1.659",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-12-30T10:06:51+01:00",
     "e85_prix": "0.899",
     "gplc_maj": "2023-07-19T18:53:33+02:00",
     "gplc_prix": "0.869",
-    "e10_maj": "2024-01-02T08:17:43+01:00",
-    "e10_prix": "1.699",
+    "e10_maj": "2024-01-03T08:25:12+01:00",
+    "e10_prix": "1.689",
     "sp98_maj": "2023-12-20T07:57:47+01:00",
     "sp98_prix": "1.799",
     "carburants_disponibles": [
@@ -145,59 +198,6 @@
       "Station de gonflage",
       "Location de véhicule",
       "Lavage automatique",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Calvados",
-    "code_departement": "14",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 14400003,
-    "latitude": "4927100",
-    "longitude": -69900,
-    "cp": "14400",
-    "pop": "R",
-    "adresse": "16 Boulevard Sadi-Carnot",
-    "ville": "Bayeux",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 07:55:47\", \"@valeur\": \"1.684\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 07:55:48\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 07:55:48\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 07:55:48\", \"@valeur\": \"1.815\"}]",
-    "geom": {
-      "lon": -0.699,
-      "lat": 49.271
-    },
-    "gazole_maj": "2024-01-02T08:55:47+01:00",
-    "gazole_prix": "1.684",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-02T08:55:48+01:00",
-    "e85_prix": "0.949",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-02T08:55:48+01:00",
-    "e10_prix": "1.719",
-    "sp98_maj": "2024-01-02T08:55:48+01:00",
-    "sp98_prix": "1.815",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Calvados",

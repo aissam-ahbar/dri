@@ -1,5 +1,55 @@
 [
   {
+    "id": 50430002,
+    "latitude": "4921200",
+    "longitude": -152800,
+    "cp": "50430",
+    "pop": "R",
+    "adresse": "115 allée des rotisseurs",
+    "ville": "Lessay",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 14:38:53\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 19:26:14\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-13 13:36:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-23 19:26:14\", \"@valeur\": \"1.749\"}]",
+    "geom": {
+      "lon": -1.528,
+      "lat": 49.212
+    },
+    "gazole_maj": "2023-12-29T15:38:53+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": "2023-12-23T20:26:14+01:00",
+    "sp95_prix": "1.799",
+    "e85_maj": "2023-11-13T14:36:00+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-23T20:26:14+01:00",
+    "e10_prix": "1.749",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Manche",
+    "code_departement": "50",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 50430001,
     "latitude": "4921300",
     "longitude": -152900,
@@ -48,56 +98,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Manche",
-    "code_departement": "50",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 50430002,
-    "latitude": "4921200",
-    "longitude": -152800,
-    "cp": "50430",
-    "pop": "R",
-    "adresse": "115 allée des rotisseurs",
-    "ville": "Lessay",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 14:38:53\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 19:26:14\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-13 13:36:00\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-23 19:26:14\", \"@valeur\": \"1.749\"}]",
-    "geom": {
-      "lon": -1.528,
-      "lat": 49.212
-    },
-    "gazole_maj": "2023-12-29T15:38:53+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": "2023-12-23T20:26:14+01:00",
-    "sp95_prix": "1.799",
-    "e85_maj": "2023-11-13T14:36:00+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-23T20:26:14+01:00",
-    "e10_prix": "1.749",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Manche",

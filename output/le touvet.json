@@ -1,5 +1,63 @@
 [
   {
+    "id": 38660001,
+    "latitude": "4536200",
+    "longitude": 595500,
+    "cp": "38660",
+    "pop": "R",
+    "adresse": "ROUTE NATIONALE 90",
+    "ville": "Le Touvet",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 07:12:24\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 07:12:24\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 07:12:25\", \"@valeur\": \"1.844\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 07:12:25\", \"@valeur\": \"1.954\"}]",
+    "geom": {
+      "lon": 5.955,
+      "lat": 45.362
+    },
+    "gazole_maj": "2024-01-03T08:12:24+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-03T08:12:24+01:00",
+    "e85_prix": "0.929",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-03T08:12:25+01:00",
+    "e10_prix": "1.844",
+    "sp98_maj": "2024-01-03T08:12:25+01:00",
+    "sp98_prix": "1.954",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
+    ],
+    "departement": "Isère",
+    "code_departement": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 38660002,
     "latitude": "4534900",
     "longitude": 594600,
@@ -9,7 +67,7 @@
     "ville": "Le Touvet",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 08:05:23\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-28 08:05:24\", \"@valeur\": \"1.050\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 08:05:24\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 08:05:24\", \"@valeur\": \"1.939\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 08:05:23\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 14:00:18\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 08:05:24\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 08:05:24\", \"@valeur\": \"1.939\"}]",
     "geom": {
       "lon": 5.946,
       "lat": 45.349
@@ -18,8 +76,8 @@
     "gazole_prix": "1.819",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-28T09:05:24+01:00",
-    "e85_prix": "1.050",
+    "e85_maj": "2024-01-03T15:00:18+01:00",
+    "e85_prix": "0.990",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2023-12-28T09:05:24+01:00",
@@ -52,64 +110,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Isère",
-    "code_departement": "38",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 38660001,
-    "latitude": "4536200",
-    "longitude": 595500,
-    "cp": "38660",
-    "pop": "R",
-    "adresse": "ROUTE NATIONALE 90",
-    "ville": "Le Touvet",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 07:19:13\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 19:12:11\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 07:19:14\", \"@valeur\": \"1.844\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 07:19:14\", \"@valeur\": \"1.954\"}]",
-    "geom": {
-      "lon": 5.955,
-      "lat": 45.362
-    },
-    "gazole_maj": "2024-01-02T08:19:13+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-02T20:12:11+01:00",
-    "e85_prix": "0.929",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-02T08:19:14+01:00",
-    "e10_prix": "1.844",
-    "sp98_maj": "2024-01-02T08:19:14+01:00",
-    "sp98_prix": "1.954",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24"
     ],
     "departement": "Isère",
     "code_departement": "38",

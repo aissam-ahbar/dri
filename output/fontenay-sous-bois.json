@@ -1,5 +1,54 @@
 [
   {
+    "id": 94120005,
+    "latitude": "4885300",
+    "longitude": 246600,
+    "cp": "94120",
+    "pop": "R",
+    "adresse": "236 Avenue de la République",
+    "ville": "Fontenay-sous-Bois",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 06:45:01\", \"@valeur\": \"1.928\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 06:45:02\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 06:45:02\", \"@valeur\": \"2.058\"}]",
+    "geom": {
+      "lon": 2.466,
+      "lat": 48.853
+    },
+    "gazole_maj": "2023-12-22T07:45:01+01:00",
+    "gazole_prix": "1.928",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-22T07:45:02+01:00",
+    "e10_prix": "1.939",
+    "sp98_maj": "2023-12-22T07:45:02+01:00",
+    "sp98_prix": "2.058",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 94120010,
     "latitude": "4885300",
     "longitude": 248500,
@@ -44,55 +93,6 @@
       "Station de gonflage",
       "Lavage automatique",
       "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 94120005,
-    "latitude": "4885300",
-    "longitude": 246600,
-    "cp": "94120",
-    "pop": "R",
-    "adresse": "236 Avenue de la République",
-    "ville": "Fontenay-sous-Bois",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-22 06:45:01\", \"@valeur\": \"1.928\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-22 06:45:02\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-22 06:45:02\", \"@valeur\": \"2.058\"}]",
-    "geom": {
-      "lon": 2.466,
-      "lat": 48.853
-    },
-    "gazole_maj": "2023-12-22T07:45:01+01:00",
-    "gazole_prix": "1.928",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-22T07:45:02+01:00",
-    "e10_prix": "1.939",
-    "sp98_maj": "2023-12-22T07:45:02+01:00",
-    "sp98_prix": "2.058",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Val-de-Marne",

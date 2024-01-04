@@ -1,5 +1,56 @@
 [
   {
+    "id": 72220001,
+    "latitude": "4783968.25321",
+    "longitude": 26262.3079173,
+    "cp": "72220",
+    "pop": "R",
+    "adresse": "CENTRE COMMERCIAL LE BELINOIS",
+    "ville": "Écommoy",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 09:15:49\", \"@valeur\": \"1.679\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-07 11:03:53\", \"@valeur\": \"0.979\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-04-07 11:02:59\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 09:15:57\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 09:16:03\", \"@valeur\": \"1.799\"}]",
+    "geom": {
+      "lon": 0.262623079173,
+      "lat": 47.8396825321
+    },
+    "gazole_maj": "2024-01-03T10:15:49+01:00",
+    "gazole_prix": "1.679",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-07T12:03:53+01:00",
+    "e85_prix": "0.979",
+    "gplc_maj": "2023-04-07T13:02:59+02:00",
+    "gplc_prix": "0.949",
+    "e10_maj": "2024-01-03T10:15:57+01:00",
+    "e10_prix": "1.709",
+    "sp98_maj": "2024-01-03T10:16:03+01:00",
+    "sp98_prix": "1.799",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Sarthe",
+    "code_departement": "72",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 72220002,
     "latitude": "4784073.2388504",
     "longitude": 26260.409465559,
@@ -9,13 +60,13 @@
     "ville": "Écommoy",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 11:09:11\", \"@valeur\": \"1.698\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 11:09:12\", \"@valeur\": \"1.714\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 11:09:12\", \"@valeur\": \"1.824\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 08:54:08\", \"@valeur\": \"1.693\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 11:09:12\", \"@valeur\": \"1.714\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 11:09:12\", \"@valeur\": \"1.824\"}]",
     "geom": {
       "lon": 0.26260409465559004,
       "lat": 47.840732388504
     },
-    "gazole_maj": "2024-01-02T12:09:11+01:00",
-    "gazole_prix": "1.698",
+    "gazole_maj": "2024-01-03T09:54:08+01:00",
+    "gazole_prix": "1.693",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -42,57 +93,6 @@
       "Piste poids lourds",
       "Services réparation / entretien",
       "Automate CB 24/24"
-    ],
-    "departement": "Sarthe",
-    "code_departement": "72",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 72220001,
-    "latitude": "4783968.25321",
-    "longitude": 26262.3079173,
-    "cp": "72220",
-    "pop": "R",
-    "adresse": "CENTRE COMMERCIAL LE BELINOIS",
-    "ville": "Écommoy",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 12:23:06\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-07 11:03:53\", \"@valeur\": \"0.979\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-04-07 11:02:59\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-30 12:23:07\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 17:34:12\", \"@valeur\": \"1.809\"}]",
-    "geom": {
-      "lon": 0.262623079173,
-      "lat": 47.8396825321
-    },
-    "gazole_maj": "2023-12-30T13:23:06+01:00",
-    "gazole_prix": "1.699",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-07T12:03:53+01:00",
-    "e85_prix": "0.979",
-    "gplc_maj": "2023-04-07T13:02:59+02:00",
-    "gplc_prix": "0.949",
-    "e10_maj": "2023-12-30T13:23:07+01:00",
-    "e10_prix": "1.725",
-    "sp98_maj": "2023-12-26T18:34:12+01:00",
-    "sp98_prix": "1.809",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Location de véhicule",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Sarthe",
     "code_departement": "72",

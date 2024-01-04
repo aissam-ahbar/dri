@@ -9,7 +9,7 @@
     "ville": "Dourdan",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 08:30:00\", \"@valeur\": \"1.843\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 08:30:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-30 08:30:00\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-30 08:30:00\", \"@valeur\": \"1.965\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-30 08:30:00\", \"@valeur\": \"1.843\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 08:00:00\", \"@valeur\": \"0.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-30 08:30:00\", \"@valeur\": \"1.965\"}]",
     "geom": {
       "lon": 2.029,
       "lat": 48.531
@@ -18,23 +18,23 @@
     "gazole_prix": "1.843",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-12-30T09:30:00+01:00",
-    "e85_prix": "0.949",
+    "e85_maj": "2024-01-03T09:00:00+01:00",
+    "e85_prix": "0.929",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-30T09:30:00+01:00",
-    "e10_prix": "1.855",
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2023-12-30T09:30:00+01:00",
     "sp98_prix": "1.965",
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
