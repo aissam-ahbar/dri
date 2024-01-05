@@ -9,15 +9,15 @@
     "ville": "Thiézac",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "services": "{\"service\": [\"Aire de camping-cars\", \"Lavage manuel\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-20 09:27:10\", \"@valeur\": \"1.890\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 09:16:02\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-04 09:16:02\", \"@valeur\": \"1.860\"}]",
     "geom": {
       "lon": 2.664,
       "lat": 45.016
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": "2023-12-20T10:27:10+01:00",
-    "sp95_prix": "1.890",
+    "gazole_maj": "2024-01-04T10:16:02+01:00",
+    "gazole_prix": "1.780",
+    "sp95_maj": "2024-01-04T10:16:02+01:00",
+    "sp95_prix": "1.860",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -27,10 +27,10 @@
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10",

@@ -1,5 +1,53 @@
 [
   {
+    "id": 87700004,
+    "latitude": "4579090",
+    "longitude": 113539,
+    "cp": "87700",
+    "pop": "R",
+    "adresse": "RUE JEANNE PICHENAUD",
+    "ville": "Aixe-sur-Vienne",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 10:17:59\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 18:56:45\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": 1.13539,
+      "lat": 45.7909
+    },
+    "gazole_maj": "2024-01-04T11:17:59+01:00",
+    "gazole_prix": "1.689",
+    "sp95_maj": "2023-12-23T19:56:45+01:00",
+    "sp95_prix": "1.819",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Haute-Vienne",
+    "code_departement": "87",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 87700001,
     "latitude": "4579500",
     "longitude": 112600,
@@ -51,54 +99,6 @@
     "code_region": "75"
   },
   {
-    "id": 87700004,
-    "latitude": "4579090",
-    "longitude": 113539,
-    "cp": "87700",
-    "pop": "R",
-    "adresse": "RUE JEANNE PICHENAUD",
-    "ville": "Aixe-sur-Vienne",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-26 15:42:41\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 18:56:45\", \"@valeur\": \"1.819\"}]",
-    "geom": {
-      "lon": 1.13539,
-      "lat": 45.7909
-    },
-    "gazole_maj": "2023-12-26T16:42:41+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": "2023-12-23T19:56:45+01:00",
-    "sp95_prix": "1.819",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Haute-Vienne",
-    "code_departement": "87",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 87700005,
     "latitude": "4579800",
     "longitude": 112400,
@@ -108,23 +108,23 @@
     "ville": "Aixe-sur-Vienne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 14:43:28\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-12 09:48:03\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 14:43:29\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-29 14:43:29\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 09:11:43\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-12 09:48:03\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 09:11:51\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-04 09:11:56\", \"@valeur\": \"1.799\"}]",
     "geom": {
       "lon": 1.124,
       "lat": 45.798
     },
-    "gazole_maj": "2023-12-29T15:43:28+01:00",
-    "gazole_prix": "1.709",
+    "gazole_maj": "2024-01-04T10:11:43+01:00",
+    "gazole_prix": "1.689",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-12-12T10:48:03+01:00",
     "e85_prix": "0.949",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-29T15:43:29+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2023-12-29T15:43:29+01:00",
-    "sp98_prix": "1.829",
+    "e10_maj": "2024-01-04T10:11:51+01:00",
+    "e10_prix": "1.719",
+    "sp98_maj": "2024-01-04T10:11:56+01:00",
+    "sp98_prix": "1.799",
     "carburants_disponibles": [
       "Gazole",
       "E85",
