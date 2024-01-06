@@ -1,5 +1,96 @@
 [
   {
+    "id": 31150006,
+    "latitude": "4372100",
+    "longitude": 139900,
+    "cp": "31150",
+    "pop": "R",
+    "adresse": "5 rue Gutenberg",
+    "ville": "Bruguières",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-06 01:16:00\", \"@valeur\": \"1.695\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-06 01:16:00\", \"@valeur\": \"0.905\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-06 01:16:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-06 01:16:00\", \"@valeur\": \"1.835\"}]",
+    "geom": {
+      "lon": 1.399,
+      "lat": 43.721
+    },
+    "gazole_maj": "2024-01-06T02:16:00+01:00",
+    "gazole_prix": "1.695",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-06T02:16:00+01:00",
+    "e85_prix": "0.905",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-06T02:16:00+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": "2024-01-06T02:16:00+01:00",
+    "sp98_prix": "1.835",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 31150005,
+    "latitude": "4372428",
+    "longitude": 141013,
+    "cp": "31150",
+    "pop": "R",
+    "adresse": "38 RTE DE TOULOUSE",
+    "ville": "Bruguières",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-06 00:01:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-06 00:01:00\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-06 00:01:00\", \"@valeur\": \"1.976\"}]",
+    "geom": {
+      "lon": 1.41013,
+      "lat": 43.72428
+    },
+    "gazole_maj": "2024-01-06T01:01:00+01:00",
+    "gazole_prix": "1.795",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-06T01:01:00+01:00",
+    "e10_prix": "1.866",
+    "sp98_maj": "2024-01-06T01:01:00+01:00",
+    "sp98_prix": "1.976",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 31150002,
     "latitude": "4372100",
     "longitude": 141500,
@@ -9,23 +100,23 @@
     "ville": "Bruguières",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 15:49:39\", \"@valeur\": \"1.695\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-27 10:34:43\", \"@valeur\": \"0.905\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 10:05:06\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-15 16:55:23\", \"@valeur\": \"1.835\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 12:23:25\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-27 10:34:43\", \"@valeur\": \"0.905\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 12:23:26\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 12:23:26\", \"@valeur\": \"1.829\"}]",
     "geom": {
       "lon": 1.415,
       "lat": 43.721
     },
-    "gazole_maj": "2023-12-21T16:49:39+01:00",
-    "gazole_prix": "1.695",
+    "gazole_maj": "2024-01-05T13:23:25+01:00",
+    "gazole_prix": "1.689",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-12-27T11:34:43+01:00",
     "e85_prix": "0.905",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-12-29T11:05:06+01:00",
-    "e10_prix": "1.743",
-    "sp98_maj": "2023-12-15T17:55:23+01:00",
-    "sp98_prix": "1.835",
+    "e10_maj": "2024-01-05T13:23:26+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": "2024-01-05T13:23:26+01:00",
+    "sp98_prix": "1.829",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -47,97 +138,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 31150005,
-    "latitude": "4372428",
-    "longitude": 141013,
-    "cp": "31150",
-    "pop": "R",
-    "adresse": "38 RTE DE TOULOUSE",
-    "ville": "Bruguières",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 00:01:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 00:01:00\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 00:01:00\", \"@valeur\": \"1.976\"}]",
-    "geom": {
-      "lon": 1.41013,
-      "lat": 43.72428
-    },
-    "gazole_maj": "2024-01-05T01:01:00+01:00",
-    "gazole_prix": "1.795",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-05T01:01:00+01:00",
-    "e10_prix": "1.866",
-    "sp98_maj": "2024-01-05T01:01:00+01:00",
-    "sp98_prix": "1.976",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 31150006,
-    "latitude": "4372100",
-    "longitude": 139900,
-    "cp": "31150",
-    "pop": "R",
-    "adresse": "5 rue Gutenberg",
-    "ville": "Bruguières",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 01:16:00\", \"@valeur\": \"1.695\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 01:16:00\", \"@valeur\": \"0.905\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 01:16:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 01:16:00\", \"@valeur\": \"1.835\"}]",
-    "geom": {
-      "lon": 1.399,
-      "lat": 43.721
-    },
-    "gazole_maj": "2024-01-05T02:16:00+01:00",
-    "gazole_prix": "1.695",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-05T02:16:00+01:00",
-    "e85_prix": "0.905",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-05T02:16:00+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2024-01-05T02:16:00+01:00",
-    "sp98_prix": "1.835",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Piste poids lourds",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Garonne",

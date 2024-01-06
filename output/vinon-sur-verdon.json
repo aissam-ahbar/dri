@@ -1,5 +1,62 @@
 [
   {
+    "id": 83560007,
+    "latitude": "4372900",
+    "longitude": 580000,
+    "cp": "83560",
+    "pop": "R",
+    "adresse": "Chemin du Plan",
+    "ville": "Vinon-sur-Verdon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 09:04:37\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 08:18:12\", \"@valeur\": \"1.019\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 09:04:37\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 09:04:37\", \"@valeur\": \"1.849\"}]",
+    "geom": {
+      "lon": 5.8,
+      "lat": 43.729
+    },
+    "gazole_maj": "2024-01-05T10:04:37+01:00",
+    "gazole_prix": "1.709",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-15T09:18:12+01:00",
+    "e85_prix": "1.019",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-05T10:04:37+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2024-01-05T10:04:37+01:00",
+    "sp98_prix": "1.849",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Relais colis",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Aire de camping-cars",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 83560004,
     "latitude": "4373169.0321389",
     "longitude": 581776.4382734,
@@ -40,63 +97,6 @@
     "services_service": [
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 83560007,
-    "latitude": "4372900",
-    "longitude": 580000,
-    "cp": "83560",
-    "pop": "R",
-    "adresse": "Chemin du Plan",
-    "ville": "Vinon-sur-Verdon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 08:47:27\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 08:18:12\", \"@valeur\": \"1.019\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-29 08:47:27\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-29 08:47:28\", \"@valeur\": \"1.857\"}]",
-    "geom": {
-      "lon": 5.8,
-      "lat": 43.729
-    },
-    "gazole_maj": "2023-12-29T09:47:27+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-15T09:18:12+01:00",
-    "e85_prix": "1.019",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-29T09:47:27+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": "2023-12-29T09:47:28+01:00",
-    "sp98_prix": "1.857",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Relais colis",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Aire de camping-cars",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Var",

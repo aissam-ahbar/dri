@@ -1,5 +1,55 @@
 [
   {
+    "id": 72300009,
+    "latitude": "4785634.4215874",
+    "longitude": -36064.983612302,
+    "cp": "72300",
+    "pop": "R",
+    "adresse": "LE PETIT ERABLE, ROUTE DE LAVAL",
+    "ville": "Sablé-sur-Sarthe",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"GNV\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 07:48:45\", \"@valeur\": \"1.804\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 07:48:45\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 07:48:46\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 07:48:46\", \"@valeur\": \"1.816\"}]",
+    "geom": {
+      "lon": -0.36064983612302,
+      "lat": 47.856344215874
+    },
+    "gazole_maj": "2024-01-05T08:48:45+01:00",
+    "gazole_prix": "1.804",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-05T08:48:45+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-05T08:48:46+01:00",
+    "e10_prix": "1.720",
+    "sp98_maj": "2024-01-05T08:48:46+01:00",
+    "sp98_prix": "1.816",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "GNV",
+      "Automate CB 24/24"
+    ],
+    "departement": "Sarthe",
+    "code_departement": "72",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 72300006,
     "latitude": "4785200",
     "longitude": -35300,
@@ -51,56 +101,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Sarthe",
-    "code_departement": "72",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 72300009,
-    "latitude": "4785634.4215874",
-    "longitude": -36064.983612302,
-    "cp": "72300",
-    "pop": "R",
-    "adresse": "LE PETIT ERABLE, ROUTE DE LAVAL",
-    "ville": "Sablé-sur-Sarthe",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"GNV\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 07:57:41\", \"@valeur\": \"1.804\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 07:57:41\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 07:57:42\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-04 07:57:42\", \"@valeur\": \"1.816\"}]",
-    "geom": {
-      "lon": -0.36064983612302,
-      "lat": 47.856344215874
-    },
-    "gazole_maj": "2024-01-04T08:57:41+01:00",
-    "gazole_prix": "1.804",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-04T08:57:41+01:00",
-    "e85_prix": "0.929",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-04T08:57:42+01:00",
-    "e10_prix": "1.720",
-    "sp98_maj": "2024-01-04T08:57:42+01:00",
-    "sp98_prix": "1.816",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "GNV",
-      "Automate CB 24/24"
     ],
     "departement": "Sarthe",
     "code_departement": "72",

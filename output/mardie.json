@@ -1,5 +1,53 @@
 [
   {
+    "id": 45430001,
+    "latitude": "4790700",
+    "longitude": 205900,
+    "cp": "45430",
+    "pop": "R",
+    "adresse": "RD 2060",
+    "ville": "Mardié",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 09:30:00\", \"@valeur\": \"1.910\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 09:30:00\", \"@valeur\": \"2.018\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 09:30:00\", \"@valeur\": \"2.138\"}]",
+    "geom": {
+      "lon": 2.059,
+      "lat": 47.907
+    },
+    "gazole_maj": "2024-01-05T10:30:00+01:00",
+    "gazole_prix": "1.910",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-05T10:30:00+01:00",
+    "e10_prix": "2.018",
+    "sp98_maj": "2024-01-05T10:30:00+01:00",
+    "sp98_prix": "2.138",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Loiret",
+    "code_departement": "45",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 45430006,
     "latitude": "4790759.78017",
     "longitude": 206066.757849,
@@ -9,22 +57,22 @@
     "ville": "Mardié",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 09:00:00\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 09:00:00\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-04 09:00:00\", \"@valeur\": \"1.806\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 09:00:00\", \"@valeur\": \"1.690\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 09:00:00\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 09:00:00\", \"@valeur\": \"1.806\"}]",
     "geom": {
       "lon": 2.06066757849,
       "lat": 47.9075978017
     },
-    "gazole_maj": "2024-01-04T10:00:00+01:00",
-    "gazole_prix": "1.689",
+    "gazole_maj": "2024-01-05T10:00:00+01:00",
+    "gazole_prix": "1.690",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-04T10:00:00+01:00",
+    "e10_maj": "2024-01-05T10:00:00+01:00",
     "e10_prix": "1.720",
-    "sp98_maj": "2024-01-04T10:00:00+01:00",
+    "sp98_maj": "2024-01-05T10:00:00+01:00",
     "sp98_prix": "1.806",
     "carburants_disponibles": [
       "Gazole",
@@ -49,54 +97,6 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Espace bébé"
-    ],
-    "departement": "Loiret",
-    "code_departement": "45",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 45430001,
-    "latitude": "4790700",
-    "longitude": 205900,
-    "cp": "45430",
-    "pop": "R",
-    "adresse": "RD 2060",
-    "ville": "Mardié",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 09:30:00\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 09:30:00\", \"@valeur\": \"1.964\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-04 09:30:00\", \"@valeur\": \"2.086\"}]",
-    "geom": {
-      "lon": 2.059,
-      "lat": 47.907
-    },
-    "gazole_maj": "2024-01-04T10:30:00+01:00",
-    "gazole_prix": "1.860",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-04T10:30:00+01:00",
-    "e10_prix": "1.964",
-    "sp98_maj": "2024-01-04T10:30:00+01:00",
-    "sp98_prix": "2.086",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Automate CB 24/24"
     ],
     "departement": "Loiret",
     "code_departement": "45",
