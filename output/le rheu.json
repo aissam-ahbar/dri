@@ -1,5 +1,61 @@
 [
   {
+    "id": 35650002,
+    "latitude": "4809200",
+    "longitude": -179300,
+    "cp": "35650",
+    "pop": "R",
+    "adresse": "avenue des acquêts",
+    "ville": "Le Rheu",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-06 08:36:31\", \"@valeur\": \"1.673\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 10:16:22\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-06 08:36:31\", \"@valeur\": \"1.686\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-06 08:36:32\", \"@valeur\": \"1.771\"}]",
+    "geom": {
+      "lon": -1.793,
+      "lat": 48.092
+    },
+    "gazole_maj": "2024-01-06T09:36:31+01:00",
+    "gazole_prix": "1.673",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-30T11:16:22+01:00",
+    "e85_prix": "0.959",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-06T09:36:31+01:00",
+    "e10_prix": "1.686",
+    "sp98_maj": "2024-01-06T09:36:32+01:00",
+    "sp98_prix": "1.771",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Ille-et-Vilaine",
+    "code_departement": "35",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
     "id": 35650001,
     "latitude": "4809300",
     "longitude": -178200,
@@ -46,62 +102,6 @@
       "Station de gonflage",
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "Automate CB 24/24"
-    ],
-    "departement": "Ille-et-Vilaine",
-    "code_departement": "35",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
-    "id": 35650002,
-    "latitude": "4809200",
-    "longitude": -179300,
-    "cp": "35650",
-    "pop": "R",
-    "adresse": "avenue des acquêts",
-    "ville": "Le Rheu",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 14:19:40\", \"@valeur\": \"1.645\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 10:16:22\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 14:19:40\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-04 14:19:41\", \"@valeur\": \"1.755\"}]",
-    "geom": {
-      "lon": -1.793,
-      "lat": 48.092
-    },
-    "gazole_maj": "2024-01-04T15:19:40+01:00",
-    "gazole_prix": "1.645",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-30T11:16:22+01:00",
-    "e85_prix": "0.959",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-04T15:19:40+01:00",
-    "e10_prix": "1.669",
-    "sp98_maj": "2024-01-04T15:19:41+01:00",
-    "sp98_prix": "1.755",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Vente d'additifs carburants",
       "Wifi",
       "Automate CB 24/24"
     ],

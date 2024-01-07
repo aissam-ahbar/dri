@@ -214,6 +214,62 @@
     "code_region": "94"
   },
   {
+    "id": 20167005,
+    "latitude": "4195100",
+    "longitude": 878000,
+    "cp": "20090",
+    "pop": "R",
+    "adresse": "RD 31 lieu dit Manicola Vecchia",
+    "ville": "Ajaccio",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 17:50:52\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-02 11:48:32\", \"@valeur\": \"1.836\"}]",
+    "geom": {
+      "lon": 8.78,
+      "lat": 41.951
+    },
+    "gazole_maj": "2024-01-05T18:50:52+01:00",
+    "gazole_prix": "1.796",
+    "sp95_maj": "2024-01-02T12:48:32+01:00",
+    "sp95_prix": "1.836",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Corse-du-Sud",
+    "code_departement": "2A",
+    "region": "Corse",
+    "code_region": "94"
+  },
+  {
     "id": 20189001,
     "latitude": "4194279.05963",
     "longitude": 875250.27656,
@@ -319,62 +375,6 @@
       "Services réparation / entretien",
       "Bornes électriques",
       "Automate CB 24/24"
-    ],
-    "departement": "Corse-du-Sud",
-    "code_departement": "2A",
-    "region": "Corse",
-    "code_region": "94"
-  },
-  {
-    "id": 20167005,
-    "latitude": "4195100",
-    "longitude": 878000,
-    "cp": "20090",
-    "pop": "R",
-    "adresse": "RD 31 lieu dit Manicola Vecchia",
-    "ville": "Ajaccio",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 17:50:52\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-02 11:48:32\", \"@valeur\": \"1.836\"}]",
-    "geom": {
-      "lon": 8.78,
-      "lat": 41.951
-    },
-    "gazole_maj": "2024-01-05T18:50:52+01:00",
-    "gazole_prix": "1.796",
-    "sp95_maj": "2024-01-02T12:48:32+01:00",
-    "sp95_prix": "1.836",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
@@ -490,52 +490,6 @@
     "code_region": "94"
   },
   {
-    "id": 20090014,
-    "latitude": "4192800",
-    "longitude": 873900,
-    "cp": "20000",
-    "pop": "R",
-    "adresse": "109 Cours Napoleon",
-    "ville": "Ajaccio",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.896\"}]",
-    "geom": {
-      "lon": 8.739,
-      "lat": 41.928
-    },
-    "gazole_maj": "2023-12-15T17:07:45+01:00",
-    "gazole_prix": "1.883",
-    "sp95_maj": "2023-12-15T17:07:45+01:00",
-    "sp95_prix": "1.896",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Corse-du-Sud",
-    "code_departement": "2A",
-    "region": "Corse",
-    "code_region": "94"
-  },
-  {
     "id": 20000007,
     "latitude": "4191078.61872",
     "longitude": 872151.667262,
@@ -583,6 +537,52 @@
       "Lavage manuel",
       "Services réparation / entretien",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Corse-du-Sud",
+    "code_departement": "2A",
+    "region": "Corse",
+    "code_region": "94"
+  },
+  {
+    "id": 20090014,
+    "latitude": "4192800",
+    "longitude": 873900,
+    "cp": "20000",
+    "pop": "R",
+    "adresse": "109 Cours Napoleon",
+    "ville": "Ajaccio",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-15 16:07:45\", \"@valeur\": \"1.896\"}]",
+    "geom": {
+      "lon": 8.739,
+      "lat": 41.928
+    },
+    "gazole_maj": "2023-12-15T17:07:45+01:00",
+    "gazole_prix": "1.883",
+    "sp95_maj": "2023-12-15T17:07:45+01:00",
+    "sp95_prix": "1.896",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
     ],
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
@@ -746,13 +746,13 @@
     "ville": "Ajaccio",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 20:39:04\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-04 20:39:05\", \"@valeur\": \"1.856\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-06 19:47:57\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-04 20:39:05\", \"@valeur\": \"1.856\"}]",
     "geom": {
       "lon": 8.754932199999999,
       "lat": 41.93331973
     },
-    "gazole_maj": "2024-01-04T21:39:04+01:00",
-    "gazole_prix": "1.843",
+    "gazole_maj": "2024-01-06T20:47:57+01:00",
+    "gazole_prix": "1.818",
     "sp95_maj": "2024-01-04T21:39:05+01:00",
     "sp95_prix": "1.856",
     "e85_maj": null,
