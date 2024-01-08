@@ -9,7 +9,7 @@
     "ville": "Senlis",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 08:14:10\", \"@valeur\": \"1.694\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 08:14:10\", \"@valeur\": \"1.730\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 08:14:10\", \"@valeur\": \"1.694\"}",
     "geom": {
       "lon": 2.591,
       "lat": 49.221
@@ -22,18 +22,18 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-05T09:14:10+01:00",
-    "e10_prix": "1.730",
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
     "horaires_automate_24_24": "Non",
@@ -41,6 +41,60 @@
       "Laverie",
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Oise",
+    "code_departement": "60",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 60300007,
+    "latitude": "4921100",
+    "longitude": 259300,
+    "cp": "60300",
+    "pop": "R",
+    "adresse": "64/66 AV. MAL FOCH",
+    "ville": "Senlis",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-08 00:01:00\", \"@valeur\": \"1.801\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-08 00:01:00\", \"@valeur\": \"1.034\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-08 00:01:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-08 00:01:00\", \"@valeur\": \"1.929\"}]",
+    "geom": {
+      "lon": 2.593,
+      "lat": 49.211
+    },
+    "gazole_maj": "2024-01-08T01:01:00+01:00",
+    "gazole_prix": "1.801",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-08T01:01:00+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": "2024-01-08T01:01:00+01:00",
+    "gplc_prix": "1.034",
+    "e10_maj": "2024-01-08T01:01:00+01:00",
+    "e10_prix": "1.819",
+    "sp98_maj": "2024-01-08T01:01:00+01:00",
+    "sp98_prix": "1.929",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
     ],
     "departement": "Oise",
     "code_departement": "60",
@@ -145,60 +199,6 @@
       "Lavage automatique",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Oise",
-    "code_departement": "60",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 60300007,
-    "latitude": "4921100",
-    "longitude": 259300,
-    "cp": "60300",
-    "pop": "R",
-    "adresse": "64/66 AV. MAL FOCH",
-    "ville": "Senlis",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-07 00:01:00\", \"@valeur\": \"1.801\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-07 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-07 00:01:00\", \"@valeur\": \"1.034\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-07 00:01:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-07 00:01:00\", \"@valeur\": \"1.929\"}]",
-    "geom": {
-      "lon": 2.593,
-      "lat": 49.211
-    },
-    "gazole_maj": "2024-01-07T01:01:00+01:00",
-    "gazole_prix": "1.801",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-07T01:01:00+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": "2024-01-07T01:01:00+01:00",
-    "gplc_prix": "1.034",
-    "e10_maj": "2024-01-07T01:01:00+01:00",
-    "e10_prix": "1.819",
-    "sp98_maj": "2024-01-07T01:01:00+01:00",
-    "sp98_prix": "1.929",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24"
     ],
     "departement": "Oise",
     "code_departement": "60",
