@@ -50,6 +50,56 @@
     "code_region": "93"
   },
   {
+    "id": 13120003,
+    "latitude": "4345200",
+    "longitude": 545400,
+    "cp": "13120",
+    "pop": "R",
+    "adresse": "Chemin de la Plaine",
+    "ville": "Gardanne",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 08:54:12\", \"@valeur\": \"1.676\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 10:32:50\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 08:54:12\", \"@valeur\": \"1.761\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 08:54:13\", \"@valeur\": \"1.833\"}]",
+    "geom": {
+      "lon": 5.454,
+      "lat": 43.452
+    },
+    "gazole_maj": "2024-01-05T09:54:12+01:00",
+    "gazole_prix": "1.676",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-02T11:32:50+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-05T09:54:12+01:00",
+    "e10_prix": "1.761",
+    "sp98_maj": "2024-01-05T09:54:13+01:00",
+    "sp98_prix": "1.833",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13120008,
     "latitude": "4346746.8601217",
     "longitude": 546691.47714111,
@@ -59,13 +109,13 @@
     "ville": "Gardanne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"13.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 20:28:52\", \"@valeur\": \"1.776\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 20:28:53\", \"@valeur\": \"1.823\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 20:28:53\", \"@valeur\": \"1.933\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-08 21:04:04\", \"@valeur\": \"1.771\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 20:28:53\", \"@valeur\": \"1.823\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 20:28:53\", \"@valeur\": \"1.933\"}]",
     "geom": {
       "lon": 5.4669147714110995,
       "lat": 43.467468601217
     },
-    "gazole_maj": "2024-01-02T21:28:52+01:00",
-    "gazole_prix": "1.776",
+    "gazole_maj": "2024-01-08T22:04:04+01:00",
+    "gazole_prix": "1.771",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -164,23 +214,23 @@
     "ville": "Gardanne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-03 11:05:57\", \"@valeur\": \"1.880\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-28 18:46:30\", \"@valeur\": \"1.130\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-03 11:05:58\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-10-20 06:59:40\", \"@valeur\": \"2.050\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-08 12:37:24\", \"@valeur\": \"1.850\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-28 18:46:30\", \"@valeur\": \"1.130\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-08 12:37:24\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-08 12:39:22\", \"@valeur\": \"2.000\"}]",
     "geom": {
       "lon": 5.486375014722499,
       "lat": 43.464352929617995
     },
-    "gazole_maj": "2023-11-03T12:05:57+01:00",
-    "gazole_prix": "1.880",
+    "gazole_maj": "2024-01-08T13:37:24+01:00",
+    "gazole_prix": "1.850",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-10-28T20:46:30+02:00",
     "e85_prix": "1.130",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2023-11-03T12:05:58+01:00",
-    "e10_prix": "1.900",
-    "sp98_maj": "2023-10-20T08:59:40+02:00",
-    "sp98_prix": "2.050",
+    "e10_maj": "2024-01-08T13:37:24+01:00",
+    "e10_prix": "1.810",
+    "sp98_maj": "2024-01-08T13:39:22+01:00",
+    "sp98_prix": "2.000",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -199,56 +249,6 @@
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13120003,
-    "latitude": "4345200",
-    "longitude": 545400,
-    "cp": "13120",
-    "pop": "R",
-    "adresse": "Chemin de la Plaine",
-    "ville": "Gardanne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 08:54:12\", \"@valeur\": \"1.676\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 10:32:50\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 08:54:12\", \"@valeur\": \"1.761\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 08:54:13\", \"@valeur\": \"1.833\"}]",
-    "geom": {
-      "lon": 5.454,
-      "lat": 43.452
-    },
-    "gazole_maj": "2024-01-05T09:54:12+01:00",
-    "gazole_prix": "1.676",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-02T11:32:50+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-05T09:54:12+01:00",
-    "e10_prix": "1.761",
-    "sp98_maj": "2024-01-05T09:54:13+01:00",
-    "sp98_prix": "1.833",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",

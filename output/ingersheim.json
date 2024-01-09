@@ -1,5 +1,57 @@
 [
   {
+    "id": 68040001,
+    "latitude": "4808936",
+    "longitude": 731870,
+    "cp": "68040",
+    "pop": "R",
+    "adresse": "126 Route de Colmar",
+    "ville": "Ingersheim",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-08 18:38:46\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-08 18:38:46\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-08 18:38:47\", \"@valeur\": \"1.948\"}]",
+    "geom": {
+      "lon": 7.3187,
+      "lat": 48.08936
+    },
+    "gazole_maj": "2024-01-08T19:38:46+01:00",
+    "gazole_prix": "1.829",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-08T19:38:46+01:00",
+    "e10_prix": "1.838",
+    "sp98_maj": "2024-01-08T19:38:47+01:00",
+    "sp98_prix": "1.948",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haut-Rhin",
+    "code_departement": "68",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 68040002,
     "latitude": "4809500",
     "longitude": 730600,
@@ -9,13 +61,13 @@
     "ville": "Ingersheim",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Services réparation / entretien\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-29 12:27:16\", \"@valeur\": \"1.870\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-29 12:27:16\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 10:49:06\", \"@valeur\": \"1.970\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-08 12:57:21\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-29 12:27:16\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-13 10:49:06\", \"@valeur\": \"1.970\"}]",
     "geom": {
       "lon": 7.306,
       "lat": 48.095
     },
-    "gazole_maj": "2023-12-29T13:27:16+01:00",
-    "gazole_prix": "1.870",
+    "gazole_maj": "2024-01-08T13:57:21+01:00",
+    "gazole_prix": "1.850",
     "sp95_maj": "2023-12-29T13:27:16+01:00",
     "sp95_prix": "1.890",
     "e85_maj": null,
@@ -43,58 +95,6 @@
       "Carburant additivé",
       "Services réparation / entretien",
       "Vente d'additifs carburants"
-    ],
-    "departement": "Haut-Rhin",
-    "code_departement": "68",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 68040001,
-    "latitude": "4808936",
-    "longitude": 731870,
-    "cp": "68040",
-    "pop": "R",
-    "adresse": "126 Route de Colmar",
-    "ville": "Ingersheim",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-28 18:55:34\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 18:55:34\", \"@valeur\": \"1.853\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-28 18:55:35\", \"@valeur\": \"1.963\"}]",
-    "geom": {
-      "lon": 7.3187,
-      "lat": 48.08936
-    },
-    "gazole_maj": "2023-12-28T19:55:34+01:00",
-    "gazole_prix": "1.849",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-28T19:55:34+01:00",
-    "e10_prix": "1.853",
-    "sp98_maj": "2023-12-28T19:55:35+01:00",
-    "sp98_prix": "1.963",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haut-Rhin",
     "code_departement": "68",
