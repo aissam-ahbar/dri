@@ -1,5 +1,56 @@
 [
   {
+    "id": 83510003,
+    "latitude": "4347100",
+    "longitude": 638100,
+    "cp": "83510",
+    "pop": "R",
+    "adresse": "Route des Arcs",
+    "ville": "Lorgues",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-09 09:15:04\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-09 09:15:07\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-09 09:15:17\", \"@valeur\": \"1.799\"}]",
+    "geom": {
+      "lon": 6.381,
+      "lat": 43.471
+    },
+    "gazole_maj": "2024-01-09T10:15:04+01:00",
+    "gazole_prix": "1.679",
+    "sp95_maj": "2024-01-09T10:15:07+01:00",
+    "sp95_prix": "1.759",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-09T10:15:17+01:00",
+    "sp98_prix": "1.799",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 83510004,
     "latitude": "4348800",
     "longitude": 635100,
@@ -9,22 +60,22 @@
     "ville": "Lorgues",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-08 07:38:39\", \"@valeur\": \"1.802\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-08 07:38:39\", \"@valeur\": \"1.858\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-08 07:38:39\", \"@valeur\": \"1.968\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-09 07:48:13\", \"@valeur\": \"1.797\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-09 07:48:14\", \"@valeur\": \"1.858\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-09 07:48:14\", \"@valeur\": \"1.968\"}]",
     "geom": {
       "lon": 6.351,
       "lat": 43.488
     },
-    "gazole_maj": "2024-01-08T08:38:39+01:00",
-    "gazole_prix": "1.802",
+    "gazole_maj": "2024-01-09T08:48:13+01:00",
+    "gazole_prix": "1.797",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-08T08:38:39+01:00",
+    "e10_maj": "2024-01-09T08:48:14+01:00",
     "e10_prix": "1.858",
-    "sp98_maj": "2024-01-08T08:38:39+01:00",
+    "sp98_maj": "2024-01-09T08:48:14+01:00",
     "sp98_prix": "1.968",
     "carburants_disponibles": [
       "Gazole",
@@ -91,57 +142,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 83510003,
-    "latitude": "4347100",
-    "longitude": 638100,
-    "cp": "83510",
-    "pop": "R",
-    "adresse": "Route des Arcs",
-    "ville": "Lorgues",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 09:19:19\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-05 09:19:21\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 09:19:23\", \"@valeur\": \"1.819\"}]",
-    "geom": {
-      "lon": 6.381,
-      "lat": 43.471
-    },
-    "gazole_maj": "2024-01-05T10:19:19+01:00",
-    "gazole_prix": "1.679",
-    "sp95_maj": "2024-01-05T10:19:21+01:00",
-    "sp95_prix": "1.769",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-05T10:19:23+01:00",
-    "sp98_prix": "1.819",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
