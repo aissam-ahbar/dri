@@ -1,51 +1,5 @@
 [
   {
-    "id": 41000020,
-    "latitude": "4759557.563159",
-    "longitude": 130107.17505701,
-    "cp": "41000",
-    "pop": "R",
-    "adresse": "1 rue Duguay Trouin",
-    "ville": "Blois",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 09:20:20\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-05 09:20:21\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 10:38:31\", \"@valeur\": \"1.831\"}]",
-    "geom": {
-      "lon": 1.3010717505701,
-      "lat": 47.59557563159
-    },
-    "gazole_maj": "2024-01-05T10:20:20+01:00",
-    "gazole_prix": "1.719",
-    "sp95_maj": "2024-01-05T10:20:21+01:00",
-    "sp95_prix": "1.789",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-11T11:38:31+01:00",
-    "sp98_prix": "1.831",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Loir-et-Cher",
-    "code_departement": "41",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 41000022,
     "latitude": "4758142.578404",
     "longitude": 129938.05014435,
@@ -91,6 +45,52 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loir-et-Cher",
+    "code_departement": "41",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
+    "id": 41000020,
+    "latitude": "4759557.563159",
+    "longitude": 130107.17505701,
+    "cp": "41000",
+    "pop": "R",
+    "adresse": "1 rue Duguay Trouin",
+    "ville": "Blois",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 09:20:20\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-05 09:20:21\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 10:38:31\", \"@valeur\": \"1.831\"}]",
+    "geom": {
+      "lon": 1.3010717505701,
+      "lat": 47.59557563159
+    },
+    "gazole_maj": "2024-01-05T10:20:20+01:00",
+    "gazole_prix": "1.719",
+    "sp95_maj": "2024-01-05T10:20:21+01:00",
+    "sp95_prix": "1.789",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-11T11:38:31+01:00",
+    "sp98_prix": "1.831",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Loir-et-Cher",
     "code_departement": "41",
@@ -164,56 +164,6 @@
     "code_region": "24"
   },
   {
-    "id": 41000014,
-    "latitude": "4758800",
-    "longitude": 131300,
-    "cp": "41000",
-    "pop": "R",
-    "adresse": "Rue edouard Branly",
-    "ville": "Blois",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-09 20:54:19\", \"@valeur\": \"1.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-09 20:54:19\", \"@valeur\": \"1.941\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-09 20:54:19\", \"@valeur\": \"1.998\"}]",
-    "geom": {
-      "lon": 1.313,
-      "lat": 47.588
-    },
-    "gazole_maj": "2024-01-09T21:54:19+01:00",
-    "gazole_prix": "1.921",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-09T21:54:19+01:00",
-    "e10_prix": "1.941",
-    "sp98_maj": "2024-01-09T21:54:19+01:00",
-    "sp98_prix": "1.998",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Loir-et-Cher",
-    "code_departement": "41",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 41000019,
     "latitude": "4760432",
     "longitude": 131452,
@@ -223,23 +173,23 @@
     "ville": "Blois",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-10 00:01:00\", \"@valeur\": \"1.693\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-10 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-10 00:01:00\", \"@valeur\": \"0.945\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-10 00:01:00\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-10 00:01:00\", \"@valeur\": \"1.807\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-11 00:01:00\", \"@valeur\": \"1.693\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-11 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-11 00:01:00\", \"@valeur\": \"0.945\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 00:01:00\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-11 00:01:00\", \"@valeur\": \"1.822\"}]",
     "geom": {
       "lon": 1.31452,
       "lat": 47.60432
     },
-    "gazole_maj": "2024-01-10T01:01:00+01:00",
+    "gazole_maj": "2024-01-11T01:01:00+01:00",
     "gazole_prix": "1.693",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-10T01:01:00+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": "2024-01-10T01:01:00+01:00",
+    "e85_maj": "2024-01-11T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": "2024-01-11T01:01:00+01:00",
     "gplc_prix": "0.945",
-    "e10_maj": "2024-01-10T01:01:00+01:00",
+    "e10_maj": "2024-01-11T01:01:00+01:00",
     "e10_prix": "1.720",
-    "sp98_maj": "2024-01-10T01:01:00+01:00",
-    "sp98_prix": "1.807",
+    "sp98_maj": "2024-01-11T01:01:00+01:00",
+    "sp98_prix": "1.822",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -259,6 +209,56 @@
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loir-et-Cher",
+    "code_departement": "41",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
+    "id": 41000014,
+    "latitude": "4758800",
+    "longitude": 131300,
+    "cp": "41000",
+    "pop": "R",
+    "adresse": "Rue edouard Branly",
+    "ville": "Blois",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-10 21:07:32\", \"@valeur\": \"1.923\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-10 21:07:32\", \"@valeur\": \"1.957\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-10 21:07:32\", \"@valeur\": \"2.026\"}]",
+    "geom": {
+      "lon": 1.313,
+      "lat": 47.588
+    },
+    "gazole_maj": "2024-01-10T22:07:32+01:00",
+    "gazole_prix": "1.923",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-10T22:07:32+01:00",
+    "e10_prix": "1.957",
+    "sp98_maj": "2024-01-10T22:07:32+01:00",
+    "sp98_prix": "2.026",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Loir-et-Cher",
     "code_departement": "41",

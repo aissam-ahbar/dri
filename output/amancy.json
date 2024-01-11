@@ -1,5 +1,53 @@
 [
   {
+    "id": 74800004,
+    "latitude": "4607162",
+    "longitude": 632623,
+    "cp": "74800",
+    "pop": "R",
+    "adresse": "65 impasse des Champs",
+    "ville": "Amancy",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-10 07:55:43\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 14:52:29\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-10 07:55:44\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 14:52:29\", \"@valeur\": \"1.859\"}]",
+    "geom": {
+      "lon": 6.32623,
+      "lat": 46.07162
+    },
+    "gazole_maj": "2024-01-10T08:55:43+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-03T15:52:29+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-10T08:55:44+01:00",
+    "e10_prix": "1.759",
+    "sp98_maj": "2024-01-03T15:52:29+01:00",
+    "sp98_prix": "1.859",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Savoie",
+    "code_departement": "74",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 74800005,
     "latitude": "4607000",
     "longitude": 632000,
@@ -38,54 +86,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Savoie",
-    "code_departement": "74",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 74800004,
-    "latitude": "4607162",
-    "longitude": 632623,
-    "cp": "74800",
-    "pop": "R",
-    "adresse": "65 impasse des Champs",
-    "ville": "Amancy",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 14:52:28\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 14:52:29\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 14:52:29\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 14:52:29\", \"@valeur\": \"1.859\"}]",
-    "geom": {
-      "lon": 6.32623,
-      "lat": 46.07162
-    },
-    "gazole_maj": "2024-01-03T15:52:28+01:00",
-    "gazole_prix": "1.759",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-03T15:52:29+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-03T15:52:29+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2024-01-03T15:52:29+01:00",
-    "sp98_prix": "1.859",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
