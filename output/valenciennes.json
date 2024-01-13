@@ -103,6 +103,108 @@
     "code_region": "32"
   },
   {
+    "id": 59300015,
+    "latitude": "5036907",
+    "longitude": 353197,
+    "cp": "59300",
+    "pop": "R",
+    "adresse": "9-12 RUE E. MACAREZ",
+    "ville": "Valenciennes",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"1.811\"}]",
+    "geom": {
+      "lon": 3.53197,
+      "lat": 50.36907
+    },
+    "gazole_maj": "2024-01-13T01:01:00+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-13T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-13T01:01:00+01:00",
+    "e10_prix": "1.719",
+    "sp98_maj": "2024-01-13T01:01:00+01:00",
+    "sp98_prix": "1.811",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 59300016,
+    "latitude": "5035369",
+    "longitude": 352025,
+    "cp": "59300",
+    "pop": "R",
+    "adresse": "27 BD SALY",
+    "ville": "Valenciennes",
+    "horaires": null,
+    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"1.694\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"1.724\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 00:01:00\", \"@valeur\": \"1.799\"}]",
+    "geom": {
+      "lon": 3.52025,
+      "lat": 50.35369
+    },
+    "gazole_maj": "2024-01-13T01:01:00+01:00",
+    "gazole_prix": "1.694",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-13T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-13T01:01:00+01:00",
+    "e10_prix": "1.724",
+    "sp98_maj": "2024-01-13T01:01:00+01:00",
+    "sp98_prix": "1.799",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59300013,
     "latitude": "5037900",
     "longitude": 354300,
@@ -112,22 +214,22 @@
     "ville": "Valenciennes",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 01:16:00\", \"@valeur\": \"1.697\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 01:16:00\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 01:16:00\", \"@valeur\": \"1.710\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 01:16:00\", \"@valeur\": \"1.801\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 01:17:00\", \"@valeur\": \"1.678\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-13 01:17:00\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-13 01:17:00\", \"@valeur\": \"1.695\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 01:17:00\", \"@valeur\": \"1.801\"}]",
     "geom": {
       "lon": 3.543,
       "lat": 50.379
     },
-    "gazole_maj": "2024-01-12T02:16:00+01:00",
-    "gazole_prix": "1.697",
+    "gazole_maj": "2024-01-13T02:17:00+01:00",
+    "gazole_prix": "1.678",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-12T02:16:00+01:00",
-    "e85_prix": "0.869",
+    "e85_maj": "2024-01-13T02:17:00+01:00",
+    "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-12T02:16:00+01:00",
-    "e10_prix": "1.710",
-    "sp98_maj": "2024-01-12T02:16:00+01:00",
+    "e10_maj": "2024-01-13T02:17:00+01:00",
+    "e10_prix": "1.695",
+    "sp98_maj": "2024-01-13T02:17:00+01:00",
     "sp98_prix": "1.801",
     "carburants_disponibles": [
       "Gazole",
@@ -193,108 +295,6 @@
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59300016,
-    "latitude": "5035369",
-    "longitude": 352025,
-    "cp": "59300",
-    "pop": "R",
-    "adresse": "27 BD SALY",
-    "ville": "Valenciennes",
-    "horaires": null,
-    "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"1.694\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"1.717\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"1.792\"}]",
-    "geom": {
-      "lon": 3.52025,
-      "lat": 50.35369
-    },
-    "gazole_maj": "2024-01-12T01:01:00+01:00",
-    "gazole_prix": "1.694",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-12T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-12T01:01:00+01:00",
-    "e10_prix": "1.717",
-    "sp98_maj": "2024-01-12T01:01:00+01:00",
-    "sp98_prix": "1.792",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59300015,
-    "latitude": "5036907",
-    "longitude": 353197,
-    "cp": "59300",
-    "pop": "R",
-    "adresse": "9-12 RUE E. MACAREZ",
-    "ville": "Valenciennes",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"1.712\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 00:01:00\", \"@valeur\": \"1.804\"}]",
-    "geom": {
-      "lon": 3.53197,
-      "lat": 50.36907
-    },
-    "gazole_maj": "2024-01-12T01:01:00+01:00",
-    "gazole_prix": "1.699",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-12T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-12T01:01:00+01:00",
-    "e10_prix": "1.712",
-    "sp98_maj": "2024-01-12T01:01:00+01:00",
-    "sp98_prix": "1.804",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Nord",

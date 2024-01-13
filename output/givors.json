@@ -1,5 +1,54 @@
 [
   {
+    "id": 69700001,
+    "latitude": "4558600",
+    "longitude": 475500,
+    "cp": "69700",
+    "pop": "R",
+    "adresse": "CENTRE COMMERCIAL GIVORS 2 VALLEES",
+    "ville": "Givors",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 07:22:11\", \"@valeur\": \"1.710\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-12 07:22:11\", \"@valeur\": \"1.808\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 07:22:11\", \"@valeur\": \"1.769\"}]",
+    "geom": {
+      "lon": 4.755,
+      "lat": 45.586
+    },
+    "gazole_maj": "2024-01-12T08:22:11+01:00",
+    "gazole_prix": "1.710",
+    "sp95_maj": "2024-01-12T08:22:11+01:00",
+    "sp95_prix": "1.808",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-12T08:22:11+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 69700005,
     "latitude": "4559500",
     "longitude": 477100,
@@ -9,7 +58,7 @@
     "ville": "Givors",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-11 08:32:25\", \"@valeur\": \"1.702\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 11:55:38\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 11:55:38\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 11:55:38\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-11 08:32:25\", \"@valeur\": \"1.702\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 11:55:38\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 16:59:12\", \"@valeur\": \"1.742\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 11:55:38\", \"@valeur\": \"1.829\"}]",
     "geom": {
       "lon": 4.771,
       "lat": 45.595
@@ -22,8 +71,8 @@
     "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-02T12:55:38+01:00",
-    "e10_prix": "1.749",
+    "e10_maj": "2024-01-12T17:59:12+01:00",
+    "e10_prix": "1.742",
     "sp98_maj": "2024-01-02T12:55:38+01:00",
     "sp98_prix": "1.829",
     "carburants_disponibles": [
@@ -84,55 +133,6 @@
       "Station de gonflage",
       "Carburant additivé",
       "Piste poids lourds"
-    ],
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 69700001,
-    "latitude": "4558600",
-    "longitude": 475500,
-    "cp": "69700",
-    "pop": "R",
-    "adresse": "CENTRE COMMERCIAL GIVORS 2 VALLEES",
-    "ville": "Givors",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-10 07:59:06\", \"@valeur\": \"1.682\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-10 07:59:06\", \"@valeur\": \"1.787\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-10 07:59:06\", \"@valeur\": \"1.750\"}]",
-    "geom": {
-      "lon": 4.755,
-      "lat": 45.586
-    },
-    "gazole_maj": "2024-01-10T08:59:06+01:00",
-    "gazole_prix": "1.682",
-    "sp95_maj": "2024-01-10T08:59:06+01:00",
-    "sp95_prix": "1.787",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-10T08:59:06+01:00",
-    "e10_prix": "1.750",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Rhône",
     "code_departement": "69",

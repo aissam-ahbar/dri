@@ -58,13 +58,13 @@
     "ville": "Yssingeaux",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 10:00:33\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-21 09:01:07\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-21 09:01:07\", \"@valeur\": \"1.899\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 09:33:28\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-21 09:01:07\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-21 09:01:07\", \"@valeur\": \"1.899\"}]",
     "geom": {
       "lon": 4.12796,
       "lat": 45.14693
     },
-    "gazole_maj": "2024-01-03T11:00:33+01:00",
-    "gazole_prix": "1.779",
+    "gazole_maj": "2024-01-12T10:33:28+01:00",
+    "gazole_prix": "1.769",
     "sp95_maj": "2023-12-21T10:01:07+01:00",
     "sp95_prix": "1.859",
     "e85_maj": null,
@@ -145,54 +145,6 @@
     "code_region": "84"
   },
   {
-    "id": 43200006,
-    "latitude": "4514525.247",
-    "longitude": 412086.11,
-    "cp": "43200",
-    "pop": "R",
-    "adresse": "LA GUIDE",
-    "ville": "Yssingeaux",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 05:58:07\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-03 05:58:07\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 05:58:07\", \"@valeur\": \"0.929\"}]",
-    "geom": {
-      "lon": 4.1208611,
-      "lat": 45.14525247
-    },
-    "gazole_maj": "2024-01-03T06:58:07+01:00",
-    "gazole_prix": "1.679",
-    "sp95_maj": "2024-01-03T06:58:07+01:00",
-    "sp95_prix": "1.849",
-    "e85_maj": "2024-01-03T06:58:07+01:00",
-    "e85_prix": "0.929",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "Carburant additivé",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 43200005,
     "latitude": "4514400",
     "longitude": 411600,
@@ -238,6 +190,54 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Bornes électriques",
       "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 43200006,
+    "latitude": "4514525.247",
+    "longitude": 412086.11,
+    "cp": "43200",
+    "pop": "R",
+    "adresse": "LA GUIDE",
+    "ville": "Yssingeaux",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 05:58:07\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-03 05:58:07\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 05:58:07\", \"@valeur\": \"0.929\"}]",
+    "geom": {
+      "lon": 4.1208611,
+      "lat": 45.14525247
+    },
+    "gazole_maj": "2024-01-03T06:58:07+01:00",
+    "gazole_prix": "1.679",
+    "sp95_maj": "2024-01-03T06:58:07+01:00",
+    "sp95_prix": "1.849",
+    "e85_maj": "2024-01-03T06:58:07+01:00",
+    "e85_prix": "0.929",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "Carburant additivé",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Loire",

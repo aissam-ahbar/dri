@@ -1,5 +1,56 @@
 [
   {
+    "id": 61120003,
+    "latitude": "4893500",
+    "longitude": 19900,
+    "cp": "61120",
+    "pop": "R",
+    "adresse": "19 boulevard du Dr Dentu",
+    "ville": "Vimoutiers",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 11:14:51\", \"@valeur\": \"1.658\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-12 11:14:52\", \"@valeur\": \"1.767\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 11:14:52\", \"@valeur\": \"1.807\"}]",
+    "geom": {
+      "lon": 0.199,
+      "lat": 48.935
+    },
+    "gazole_maj": "2024-01-12T12:14:51+01:00",
+    "gazole_prix": "1.658",
+    "sp95_maj": "2024-01-12T12:14:52+01:00",
+    "sp95_prix": "1.767",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-12T12:14:52+01:00",
+    "sp98_prix": "1.807",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Orne",
+    "code_departement": "61",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 61120001,
     "latitude": "4894000",
     "longitude": 19800,
@@ -9,13 +60,13 @@
     "ville": "Vimoutiers",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"14.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-21 10:11:04\", \"@valeur\": \"1.850\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-11 10:55:44\", \"@valeur\": \"1.199\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 21:06:29\", \"@valeur\": \"1.888\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-07 17:51:15\", \"@valeur\": \"1.959\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 17:34:37\", \"@valeur\": \"1.835\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-11 10:55:44\", \"@valeur\": \"1.199\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-28 21:06:29\", \"@valeur\": \"1.888\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 17:34:38\", \"@valeur\": \"1.929\"}]",
     "geom": {
       "lon": 0.198,
       "lat": 48.94
     },
-    "gazole_maj": "2023-12-21T11:11:04+01:00",
-    "gazole_prix": "1.850",
+    "gazole_maj": "2024-01-12T18:34:37+01:00",
+    "gazole_prix": "1.835",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-10-11T12:55:44+02:00",
@@ -24,8 +75,8 @@
     "gplc_prix": null,
     "e10_maj": "2023-12-28T22:06:29+01:00",
     "e10_prix": "1.888",
-    "sp98_maj": "2023-12-07T18:51:15+01:00",
-    "sp98_prix": "1.959",
+    "sp98_maj": "2024-01-12T18:34:38+01:00",
+    "sp98_prix": "1.929",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -48,57 +99,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
-      "Automate CB 24/24"
-    ],
-    "departement": "Orne",
-    "code_departement": "61",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 61120003,
-    "latitude": "4893500",
-    "longitude": 19900,
-    "cp": "61120",
-    "pop": "R",
-    "adresse": "19 boulevard du Dr Dentu",
-    "ville": "Vimoutiers",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-11 11:54:11\", \"@valeur\": \"1.658\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-11 11:54:11\", \"@valeur\": \"1.767\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-11 11:54:11\", \"@valeur\": \"1.807\"}]",
-    "geom": {
-      "lon": 0.199,
-      "lat": 48.935
-    },
-    "gazole_maj": "2024-01-11T12:54:11+01:00",
-    "gazole_prix": "1.658",
-    "sp95_maj": "2024-01-11T12:54:11+01:00",
-    "sp95_prix": "1.767",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-11T12:54:11+01:00",
-    "sp98_prix": "1.807",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Orne",

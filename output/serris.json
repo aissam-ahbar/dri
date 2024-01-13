@@ -9,7 +9,7 @@
     "ville": "Serris",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 09:00:00\", \"@valeur\": \"1.757\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 09:00:00\", \"@valeur\": \"0.940\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 09:00:00\", \"@valeur\": \"1.760\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-02 09:00:00\", \"@valeur\": \"1.862\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-02 09:00:00\", \"@valeur\": \"1.757\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 09:00:00\", \"@valeur\": \"0.940\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 09:00:00\", \"@valeur\": \"1.760\"}]",
     "geom": {
       "lon": 2.77677,
       "lat": 48.856
@@ -24,17 +24,17 @@
     "gplc_prix": null,
     "e10_maj": "2024-01-02T10:00:00+01:00",
     "e10_prix": "1.760",
-    "sp98_maj": "2024-01-02T10:00:00+01:00",
-    "sp98_prix": "1.862",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
