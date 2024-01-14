@@ -1,5 +1,60 @@
 [
   {
+    "id": 24000004,
+    "latitude": "4518000",
+    "longitude": 74600,
+    "cp": "24750",
+    "pop": "R",
+    "adresse": "192 Route de Lyon",
+    "ville": "Boulazac Isle Manoire",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 07:01:42\", \"@valeur\": \"1.704\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-13 07:01:43\", \"@valeur\": \"1.723\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 07:01:43\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": 0.746,
+      "lat": 45.18
+    },
+    "gazole_maj": "2024-01-13T08:01:42+01:00",
+    "gazole_prix": "1.704",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-13T08:01:43+01:00",
+    "e10_prix": "1.723",
+    "sp98_maj": "2024-01-13T08:01:43+01:00",
+    "sp98_prix": "1.829",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Dordogne",
+    "code_departement": "24",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 24750001,
     "latitude": "4518600",
     "longitude": 77500,
@@ -9,13 +64,13 @@
     "ville": "Boulazac Isle Manoire",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-11 09:21:42\", \"@valeur\": \"1.676\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-11 09:21:42\", \"@valeur\": \"1.776\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-11 09:21:42\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-30 11:11:05\", \"@valeur\": \"0.975\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 09:21:42\", \"@valeur\": \"1.708\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-11 09:21:43\", \"@valeur\": \"1.798\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 09:27:13\", \"@valeur\": \"1.675\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-11 09:21:42\", \"@valeur\": \"1.776\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-11 09:21:42\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-30 11:11:05\", \"@valeur\": \"0.975\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 09:21:42\", \"@valeur\": \"1.708\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-11 09:21:43\", \"@valeur\": \"1.798\"}]",
     "geom": {
       "lon": 0.775,
       "lat": 45.186
     },
-    "gazole_maj": "2024-01-11T10:21:42+01:00",
-    "gazole_prix": "1.676",
+    "gazole_maj": "2024-01-13T10:27:13+01:00",
+    "gazole_prix": "1.675",
     "sp95_maj": "2024-01-11T10:21:42+01:00",
     "sp95_prix": "1.776",
     "e85_maj": "2024-01-11T10:21:42+01:00",
@@ -108,61 +163,6 @@
       "Piste poids lourds",
       "Espace bébé",
       "Vente d'additifs carburants",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Dordogne",
-    "code_departement": "24",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 24000004,
-    "latitude": "4518000",
-    "longitude": 74600,
-    "cp": "24750",
-    "pop": "R",
-    "adresse": "192 Route de Lyon",
-    "ville": "Boulazac Isle Manoire",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 18:38:30\", \"@valeur\": \"1.704\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 18:38:30\", \"@valeur\": \"1.723\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 18:38:31\", \"@valeur\": \"1.829\"}]",
-    "geom": {
-      "lon": 0.746,
-      "lat": 45.18
-    },
-    "gazole_maj": "2024-01-12T19:38:30+01:00",
-    "gazole_prix": "1.704",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-12T19:38:30+01:00",
-    "e10_prix": "1.723",
-    "sp98_maj": "2024-01-12T19:38:31+01:00",
-    "sp98_prix": "1.829",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Services réparation / entretien",
-      "Vente d'additifs carburants",
-      "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],

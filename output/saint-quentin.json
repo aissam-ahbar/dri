@@ -141,6 +141,46 @@
     "code_region": "32"
   },
   {
+    "id": 2100017,
+    "latitude": "4983290",
+    "longitude": 330705,
+    "cp": "02100",
+    "pop": "R",
+    "adresse": "Rue de la Fère",
+    "ville": "Saint-Quentin",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": null,
+    "geom": {
+      "lon": 3.30705,
+      "lat": 49.8329
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Lavage automatique",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aisne",
+    "code_departement": "02",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 2100011,
     "latitude": "4984800",
     "longitude": 327200,
@@ -192,24 +232,24 @@
     "code_region": "32"
   },
   {
-    "id": 2100017,
-    "latitude": "4983290",
-    "longitude": 330705,
+    "id": 2100019,
+    "latitude": "4984785",
+    "longitude": 330117,
     "cp": "02100",
     "pop": "R",
-    "adresse": "Rue de la Fère",
+    "adresse": "153 Rue de Mulhouse",
     "ville": "Saint-Quentin",
     "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 09:17:30\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-04 11:00:04\", \"@valeur\": \"1.798\"}]",
     "geom": {
-      "lon": 3.30705,
-      "lat": 49.8329
+      "lon": 3.30117,
+      "lat": 49.84785
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2024-01-03T10:17:30+01:00",
+    "gazole_prix": "1.689",
+    "sp95_maj": "2024-01-04T12:00:04+01:00",
+    "sp95_prix": "1.798",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -218,12 +258,19 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Boutique alimentaire",
-      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aisne",
@@ -274,53 +321,6 @@
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aisne",
-    "code_departement": "02",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 2100019,
-    "latitude": "4984785",
-    "longitude": 330117,
-    "cp": "02100",
-    "pop": "R",
-    "adresse": "153 Rue de Mulhouse",
-    "ville": "Saint-Quentin",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 09:17:30\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-04 11:00:04\", \"@valeur\": \"1.798\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 09:17:42\", \"@valeur\": \"0.849\"}]",
-    "geom": {
-      "lon": 3.30117,
-      "lat": 49.84785
-    },
-    "gazole_maj": "2024-01-03T10:17:30+01:00",
-    "gazole_prix": "1.689",
-    "sp95_maj": "2024-01-04T12:00:04+01:00",
-    "sp95_prix": "1.798",
-    "e85_maj": "2024-01-03T10:17:42+01:00",
-    "e85_prix": "0.849",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aisne",
