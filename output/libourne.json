@@ -1,104 +1,5 @@
 [
   {
-    "id": 33500001,
-    "latitude": "4490100",
-    "longitude": -21800,
-    "cp": "33500",
-    "pop": "R",
-    "adresse": "ROUTE DE CASTILLON",
-    "ville": "Libourne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.703\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.792\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"0.935\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.817\"}]",
-    "geom": {
-      "lon": -0.218,
-      "lat": 44.901
-    },
-    "gazole_maj": "2024-01-12T08:56:00+01:00",
-    "gazole_prix": "1.703",
-    "sp95_maj": "2024-01-12T08:56:00+01:00",
-    "sp95_prix": "1.792",
-    "e85_maj": "2024-01-12T08:56:00+01:00",
-    "e85_prix": "0.935",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-12T08:56:00+01:00",
-    "e10_prix": "1.763",
-    "sp98_maj": "2024-01-12T08:56:00+01:00",
-    "sp98_prix": "1.817",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 33500005,
-    "latitude": "4490603",
-    "longitude": -23355,
-    "cp": "33500",
-    "pop": "R",
-    "adresse": "11 Rue Pierre Benoit",
-    "ville": "Libourne",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Aire de camping-cars\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 09:09:30\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-13 09:09:38\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 08:45:00\", \"@valeur\": \"1.789\"}]",
-    "geom": {
-      "lon": -0.23355,
-      "lat": 44.90603
-    },
-    "gazole_maj": "2024-01-13T10:09:30+01:00",
-    "gazole_prix": "1.699",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-13T10:09:38+01:00",
-    "e10_prix": "1.743",
-    "sp98_maj": "2024-01-12T09:45:00+01:00",
-    "sp98_prix": "1.789",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Aire de camping-cars",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 33502001,
     "latitude": "4489769.4799704",
     "longitude": -20877.749496702,
@@ -242,6 +143,105 @@
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 33500001,
+    "latitude": "4490100",
+    "longitude": -21800,
+    "cp": "33500",
+    "pop": "R",
+    "adresse": "ROUTE DE CASTILLON",
+    "ville": "Libourne",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.703\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.792\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"0.935\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 07:56:00\", \"@valeur\": \"1.817\"}]",
+    "geom": {
+      "lon": -0.218,
+      "lat": 44.901
+    },
+    "gazole_maj": "2024-01-12T08:56:00+01:00",
+    "gazole_prix": "1.703",
+    "sp95_maj": "2024-01-12T08:56:00+01:00",
+    "sp95_prix": "1.792",
+    "e85_maj": "2024-01-12T08:56:00+01:00",
+    "e85_prix": "0.935",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-12T08:56:00+01:00",
+    "e10_prix": "1.763",
+    "sp98_maj": "2024-01-12T08:56:00+01:00",
+    "sp98_prix": "1.817",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 33500005,
+    "latitude": "4490603",
+    "longitude": -23355,
+    "cp": "33500",
+    "pop": "R",
+    "adresse": "11 Rue Pierre Benoit",
+    "ville": "Libourne",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Aire de camping-cars\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 09:09:30\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-13 09:09:38\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 08:45:00\", \"@valeur\": \"1.789\"}]",
+    "geom": {
+      "lon": -0.23355,
+      "lat": 44.90603
+    },
+    "gazole_maj": "2024-01-13T10:09:30+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-13T10:09:38+01:00",
+    "e10_prix": "1.743",
+    "sp98_maj": "2024-01-12T09:45:00+01:00",
+    "sp98_prix": "1.789",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Aire de camping-cars",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Gironde",
     "code_departement": "33",

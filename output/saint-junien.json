@@ -1,56 +1,5 @@
 [
   {
-    "id": 87200003,
-    "latitude": "4589600",
-    "longitude": 91500,
-    "cp": "87200",
-    "pop": "R",
-    "adresse": "Avenue d'Oradour sur Glane",
-    "ville": "Saint-Junien",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 09:20:53\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-26 09:11:12\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-22 09:16:03\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 10:08:04\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 09:11:13\", \"@valeur\": \"1.799\"}]",
-    "geom": {
-      "lon": 0.915,
-      "lat": 45.896
-    },
-    "gazole_maj": "2024-01-12T10:20:53+01:00",
-    "gazole_prix": "1.679",
-    "sp95_maj": "2023-12-26T10:11:12+01:00",
-    "sp95_prix": "1.785",
-    "e85_maj": "2023-12-22T10:16:03+01:00",
-    "e85_prix": "0.929",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-02T11:08:04+01:00",
-    "e10_prix": "1.709",
-    "sp98_maj": "2023-12-26T10:11:13+01:00",
-    "sp98_prix": "1.799",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Haute-Vienne",
-    "code_departement": "87",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 87200001,
     "latitude": "4589700",
     "longitude": 92000,
@@ -103,6 +52,57 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Vienne",
+    "code_departement": "87",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 87200003,
+    "latitude": "4589600",
+    "longitude": 91500,
+    "cp": "87200",
+    "pop": "R",
+    "adresse": "Avenue d'Oradour sur Glane",
+    "ville": "Saint-Junien",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 09:20:53\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-26 09:11:12\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-22 09:16:03\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-02 10:08:04\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 09:11:13\", \"@valeur\": \"1.799\"}]",
+    "geom": {
+      "lon": 0.915,
+      "lat": 45.896
+    },
+    "gazole_maj": "2024-01-12T10:20:53+01:00",
+    "gazole_prix": "1.679",
+    "sp95_maj": "2023-12-26T10:11:12+01:00",
+    "sp95_prix": "1.785",
+    "e85_maj": "2023-12-22T10:16:03+01:00",
+    "e85_prix": "0.929",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-02T11:08:04+01:00",
+    "e10_prix": "1.709",
+    "sp98_maj": "2023-12-26T10:11:13+01:00",
+    "sp98_prix": "1.799",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Haute-Vienne",
     "code_departement": "87",

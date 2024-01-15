@@ -1,5 +1,53 @@
 [
   {
+    "id": 33260005,
+    "latitude": "4461039",
+    "longitude": -114600,
+    "cp": "33260",
+    "pop": "R",
+    "adresse": "Boulevard des Miquelots",
+    "ville": "La Teste-de-Buch",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 08:03:29\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-08 12:53:27\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 12:53:28\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 08:03:30\", \"@valeur\": \"1.720\"}]",
+    "geom": {
+      "lon": -1.146,
+      "lat": 44.61039
+    },
+    "gazole_maj": "2024-01-12T09:03:29+01:00",
+    "gazole_prix": "1.689",
+    "sp95_maj": "2024-01-08T13:53:27+01:00",
+    "sp95_prix": "1.755",
+    "e85_maj": "2024-01-08T13:53:28+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-12T09:03:30+01:00",
+    "e10_prix": "1.720",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 33260001,
     "latitude": "4464100",
     "longitude": -115600,
@@ -67,22 +115,22 @@
     "ville": "La Teste-de-Buch",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-14 00:01:00\", \"@valeur\": \"1.687\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-14 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-14 00:01:00\", \"@valeur\": \"0.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-14 00:01:00\", \"@valeur\": \"1.711\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-14 00:01:00\", \"@valeur\": \"1.808\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.687\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"0.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.711\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.808\"}]",
     "geom": {
       "lon": -1.15747,
       "lat": 44.64641
     },
-    "gazole_maj": "2024-01-14T01:01:00+01:00",
+    "gazole_maj": "2024-01-15T01:01:00+01:00",
     "gazole_prix": "1.687",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-14T01:01:00+01:00",
+    "e85_maj": "2024-01-15T01:01:00+01:00",
     "e85_prix": "0.899",
-    "gplc_maj": "2024-01-14T01:01:00+01:00",
+    "gplc_maj": "2024-01-15T01:01:00+01:00",
     "gplc_prix": "0.909",
-    "e10_maj": "2024-01-14T01:01:00+01:00",
+    "e10_maj": "2024-01-15T01:01:00+01:00",
     "e10_prix": "1.711",
-    "sp98_maj": "2024-01-14T01:01:00+01:00",
+    "sp98_maj": "2024-01-15T01:01:00+01:00",
     "sp98_prix": "1.808",
     "carburants_disponibles": [
       "Gazole",
@@ -105,105 +153,6 @@
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 33260005,
-    "latitude": "4461039",
-    "longitude": -114600,
-    "cp": "33260",
-    "pop": "R",
-    "adresse": "Boulevard des Miquelots",
-    "ville": "La Teste-de-Buch",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 08:03:29\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-08 12:53:27\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 12:53:28\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 08:03:30\", \"@valeur\": \"1.720\"}]",
-    "geom": {
-      "lon": -1.146,
-      "lat": 44.61039
-    },
-    "gazole_maj": "2024-01-12T09:03:29+01:00",
-    "gazole_prix": "1.689",
-    "sp95_maj": "2024-01-08T13:53:27+01:00",
-    "sp95_prix": "1.755",
-    "e85_maj": "2024-01-08T13:53:28+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-12T09:03:30+01:00",
-    "e10_prix": "1.720",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 33260010,
-    "latitude": "4454900",
-    "longitude": -115800,
-    "cp": "33260",
-    "pop": "R",
-    "adresse": "RD112 Lieu dit Jaumard",
-    "ville": "La Teste-de-Buch",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-11 13:31:41\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 13:31:41\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-11 13:31:42\", \"@valeur\": \"1.832\"}]",
-    "geom": {
-      "lon": -1.158,
-      "lat": 44.549
-    },
-    "gazole_maj": "2024-01-11T14:31:41+01:00",
-    "gazole_prix": "1.759",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-11T14:31:41+01:00",
-    "e10_prix": "1.752",
-    "sp98_maj": "2024-01-11T14:31:42+01:00",
-    "sp98_prix": "1.832",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Station de gonflage",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Gironde",
     "code_departement": "33",
@@ -267,6 +216,57 @@
       "Lavage manuel",
       "Bornes électriques",
       "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 33260010,
+    "latitude": "4454900",
+    "longitude": -115800,
+    "cp": "33260",
+    "pop": "R",
+    "adresse": "RD112 Lieu dit Jaumard",
+    "ville": "La Teste-de-Buch",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-11 13:31:41\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 13:31:41\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-11 13:31:42\", \"@valeur\": \"1.832\"}]",
+    "geom": {
+      "lon": -1.158,
+      "lat": 44.549
+    },
+    "gazole_maj": "2024-01-11T14:31:41+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-11T14:31:41+01:00",
+    "e10_prix": "1.752",
+    "sp98_maj": "2024-01-11T14:31:42+01:00",
+    "sp98_prix": "1.832",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Station de gonflage",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Gironde",
