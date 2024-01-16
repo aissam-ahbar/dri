@@ -1,57 +1,5 @@
 [
   {
-    "id": 60160002,
-    "latitude": "4925300",
-    "longitude": 242800,
-    "cp": "60160",
-    "pop": "R",
-    "adresse": "Rue André Ginisti",
-    "ville": "Montataire",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-05 10:31:52\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-05 10:31:52\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 10:31:53\", \"@valeur\": \"1.809\"}]",
-    "geom": {
-      "lon": 2.428,
-      "lat": 49.253
-    },
-    "gazole_maj": "2024-01-05T11:31:52+01:00",
-    "gazole_prix": "1.679",
-    "sp95_maj": "2024-01-05T11:31:52+01:00",
-    "sp95_prix": "1.789",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-05T11:31:53+01:00",
-    "sp98_prix": "1.809",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Vente de pétrole lampant",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Oise",
-    "code_departement": "60",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 60160003,
     "latitude": "4925600",
     "longitude": 243200,
@@ -87,6 +35,58 @@
       "Station de gonflage",
       "Carburant additivé",
       "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Oise",
+    "code_departement": "60",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 60160002,
+    "latitude": "4925300",
+    "longitude": 242800,
+    "cp": "60160",
+    "pop": "R",
+    "adresse": "Rue André Ginisti",
+    "ville": "Montataire",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 09:38:39\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-15 09:38:39\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 09:38:39\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 09:38:40\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": 2.428,
+      "lat": 49.253
+    },
+    "gazole_maj": "2024-01-15T10:38:39+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": "2024-01-15T10:38:39+01:00",
+    "sp95_prix": "1.789",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-15T10:38:39+01:00",
+    "e10_prix": "1.719",
+    "sp98_maj": "2024-01-15T10:38:40+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Vente de pétrole lampant",
+      "Location de véhicule",
+      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"

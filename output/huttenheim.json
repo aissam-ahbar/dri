@@ -9,7 +9,7 @@
     "ville": "Huttenheim",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.717\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.717\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 15:18:00\", \"@valeur\": \"1.830\"}]",
     "geom": {
       "lon": 7.573,
       "lat": 48.362
@@ -24,17 +24,17 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-01-15T16:18:00+01:00",
+    "sp98_prix": "1.830",
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [

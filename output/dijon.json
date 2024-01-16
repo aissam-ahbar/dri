@@ -1,5 +1,57 @@
 [
   {
+    "id": 21000027,
+    "latitude": "4730728",
+    "longitude": 505757,
+    "cp": "21000",
+    "pop": "R",
+    "adresse": "170, RUE D'AUXONNE",
+    "ville": "Dijon",
+    "horaires": null,
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"1.957\"}]",
+    "geom": {
+      "lon": 5.05757,
+      "lat": 47.30728
+    },
+    "gazole_maj": "2024-01-15T20:31:00+01:00",
+    "gazole_prix": "1.814",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-15T20:31:00+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-15T20:31:00+01:00",
+    "e10_prix": "1.847",
+    "sp98_maj": "2024-01-15T20:31:00+01:00",
+    "sp98_prix": "1.957",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 21000009,
     "latitude": "4734200",
     "longitude": 504500,
@@ -178,153 +230,6 @@
     "code_region": "27"
   },
   {
-    "id": 21000027,
-    "latitude": "4730728",
-    "longitude": 505757,
-    "cp": "21000",
-    "pop": "R",
-    "adresse": "170, RUE D'AUXONNE",
-    "ville": "Dijon",
-    "horaires": null,
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.957\"}]",
-    "geom": {
-      "lon": 5.05757,
-      "lat": 47.30728
-    },
-    "gazole_maj": "2024-01-15T01:01:00+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-15T01:01:00+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-15T01:01:00+01:00",
-    "e10_prix": "1.847",
-    "sp98_maj": "2024-01-15T01:01:00+01:00",
-    "sp98_prix": "1.957",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21000025,
-    "latitude": "4736260",
-    "longitude": 504681,
-    "cp": "21000",
-    "pop": "R",
-    "adresse": "170 ROUTE DE LANGRES",
-    "ville": "Dijon",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.034\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.867\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 00:01:00\", \"@valeur\": \"1.977\"}]",
-    "geom": {
-      "lon": 5.04681,
-      "lat": 47.3626
-    },
-    "gazole_maj": "2024-01-15T01:01:00+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-15T01:01:00+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": "2024-01-15T01:01:00+01:00",
-    "gplc_prix": "1.034",
-    "e10_maj": "2024-01-15T01:01:00+01:00",
-    "e10_prix": "1.867",
-    "sp98_maj": "2024-01-15T01:01:00+01:00",
-    "sp98_prix": "1.977",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21000013,
-    "latitude": "4735059",
-    "longitude": 506258,
-    "cp": "21000",
-    "pop": "R",
-    "adresse": "15 Rue de Mayence",
-    "ville": "Dijon",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 06:33:20\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-03 06:33:20\", \"@valeur\": \"1.901\"}]",
-    "geom": {
-      "lon": 5.06258,
-      "lat": 47.35059
-    },
-    "gazole_maj": "2024-01-03T07:33:20+01:00",
-    "gazole_prix": "1.814",
-    "sp95_maj": "2024-01-03T07:33:20+01:00",
-    "sp95_prix": "1.901",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 21000017,
     "latitude": "4729850",
     "longitude": 507871,
@@ -368,55 +273,6 @@
       "Carburant additivé",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21000001,
-    "latitude": "4735800",
-    "longitude": 504800,
-    "cp": "21000",
-    "pop": "R",
-    "adresse": "Route de Langres",
-    "ville": "Dijon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 08:33:52\", \"@valeur\": \"1.732\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-12 08:33:52\", \"@valeur\": \"1.805\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 08:33:53\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 08:33:53\", \"@valeur\": \"1.848\"}]",
-    "geom": {
-      "lon": 5.048,
-      "lat": 47.358
-    },
-    "gazole_maj": "2024-01-12T09:33:52+01:00",
-    "gazole_prix": "1.732",
-    "sp95_maj": "2024-01-12T09:33:52+01:00",
-    "sp95_prix": "1.805",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-12T09:33:53+01:00",
-    "e10_prix": "1.765",
-    "sp98_maj": "2024-01-12T09:33:53+01:00",
-    "sp98_prix": "1.848",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Côte-d'Or",
     "code_departement": "21",
@@ -587,6 +443,106 @@
     "code_region": "27"
   },
   {
+    "id": 21000001,
+    "latitude": "4735800",
+    "longitude": 504800,
+    "cp": "21000",
+    "pop": "R",
+    "adresse": "Route de Langres",
+    "ville": "Dijon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 08:37:14\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-15 08:37:14\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 08:37:15\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 08:37:15\", \"@valeur\": \"1.848\"}]",
+    "geom": {
+      "lon": 5.048,
+      "lat": 47.358
+    },
+    "gazole_maj": "2024-01-15T09:37:14+01:00",
+    "gazole_prix": "1.745",
+    "sp95_maj": "2024-01-15T09:37:14+01:00",
+    "sp95_prix": "1.818",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-15T09:37:15+01:00",
+    "e10_prix": "1.777",
+    "sp98_maj": "2024-01-15T09:37:15+01:00",
+    "sp98_prix": "1.848",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 21000013,
+    "latitude": "4735059",
+    "longitude": 506258,
+    "cp": "21000",
+    "pop": "R",
+    "adresse": "15 Rue de Mayence",
+    "ville": "Dijon",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 07:00:29\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-15 07:00:29\", \"@valeur\": \"1.909\"}]",
+    "geom": {
+      "lon": 5.06258,
+      "lat": 47.35059
+    },
+    "gazole_maj": "2024-01-15T08:00:29+01:00",
+    "gazole_prix": "1.818",
+    "sp95_maj": "2024-01-15T08:00:29+01:00",
+    "sp95_prix": "1.909",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 21000012,
     "latitude": "4734000",
     "longitude": 506700,
@@ -629,6 +585,50 @@
       "Boutique non alimentaire",
       "Vente de gaz domestique (Butane, Propane)"
     ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 21000025,
+    "latitude": "4736260",
+    "longitude": 504681,
+    "cp": "21000",
+    "pop": "R",
+    "adresse": "170 ROUTE DE LANGRES",
+    "ville": "Dijon",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"1.034\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"1.867\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-15 19:31:00\", \"@valeur\": \"1.977\"}]",
+    "geom": {
+      "lon": 5.04681,
+      "lat": 47.3626
+    },
+    "gazole_maj": "2024-01-15T20:31:00+01:00",
+    "gazole_prix": "1.814",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-15T20:31:00+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": "2024-01-15T20:31:00+01:00",
+    "gplc_prix": "1.034",
+    "e10_maj": "2024-01-15T20:31:00+01:00",
+    "e10_prix": "1.867",
+    "sp98_maj": "2024-01-15T20:31:00+01:00",
+    "sp98_prix": "1.977",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Côte-d'Or",
     "code_departement": "21",
     "region": "Bourgogne-Franche-Comté",
