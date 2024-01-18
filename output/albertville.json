@@ -1,5 +1,57 @@
 [
   {
+    "id": 73200005,
+    "latitude": "4566100",
+    "longitude": 638200,
+    "cp": "73200",
+    "pop": "R",
+    "adresse": "100 Rue Pasteur",
+    "ville": "Albertville",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 09:11:45\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 09:11:45\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 10:38:38\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": 6.382,
+      "lat": 45.661
+    },
+    "gazole_maj": "2024-01-15T10:11:45+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-15T10:11:45+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": "2024-01-12T11:38:38+01:00",
+    "sp98_prix": "1.829",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Savoie",
+    "code_departement": "73",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 73200001,
     "latitude": "4566783",
     "longitude": 637303,
@@ -117,22 +169,22 @@
     "ville": "Albertville",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 00:01:00\", \"@valeur\": \"1.708\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-17 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-17 00:01:00\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-17 00:01:00\", \"@valeur\": \"1.880\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 00:01:00\", \"@valeur\": \"1.708\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-18 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-18 00:01:00\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 00:01:00\", \"@valeur\": \"1.880\"}]",
     "geom": {
       "lon": 6.39194,
       "lat": 45.67265
     },
-    "gazole_maj": "2024-01-17T01:01:00+01:00",
+    "gazole_maj": "2024-01-18T01:01:00+01:00",
     "gazole_prix": "1.708",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-17T01:01:00+01:00",
+    "e85_maj": "2024-01-18T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-17T01:01:00+01:00",
+    "e10_maj": "2024-01-18T01:01:00+01:00",
     "e10_prix": "1.775",
-    "sp98_maj": "2024-01-17T01:01:00+01:00",
+    "sp98_maj": "2024-01-18T01:01:00+01:00",
     "sp98_prix": "1.880",
     "carburants_disponibles": [
       "Gazole",
@@ -203,58 +255,6 @@
       "Station de gonflage",
       "Location de véhicule",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Savoie",
-    "code_departement": "73",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 73200005,
-    "latitude": "4566100",
-    "longitude": 638200,
-    "cp": "73200",
-    "pop": "R",
-    "adresse": "100 Rue Pasteur",
-    "ville": "Albertville",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 09:11:45\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 09:11:45\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 10:38:38\", \"@valeur\": \"1.829\"}]",
-    "geom": {
-      "lon": 6.382,
-      "lat": 45.661
-    },
-    "gazole_maj": "2024-01-15T10:11:45+01:00",
-    "gazole_prix": "1.699",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-15T10:11:45+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2024-01-12T11:38:38+01:00",
-    "sp98_prix": "1.829",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Savoie",

@@ -63,32 +63,32 @@
     "ville": "Châtillon-sur-Indre",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-10 04:58:29\", \"@valeur\": \"1.749\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 03:32:19\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-17 03:32:19\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-17 03:32:20\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-17 03:32:20\", \"@valeur\": \"1.849\"}]",
     "geom": {
       "lon": 1.169,
       "lat": 46.987
     },
-    "gazole_maj": "2024-01-10T05:58:29+01:00",
+    "gazole_maj": "2024-01-17T04:32:19+01:00",
     "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2024-01-17T04:32:19+01:00",
+    "e85_prix": "0.849",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-01-17T04:32:20+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2024-01-17T04:32:20+01:00",
+    "sp98_prix": "1.849",
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [

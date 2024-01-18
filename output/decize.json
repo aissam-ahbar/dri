@@ -1,5 +1,54 @@
 [
   {
+    "id": 58300004,
+    "latitude": "4683600",
+    "longitude": 347200,
+    "cp": "58300",
+    "pop": "R",
+    "adresse": "Route de Champvert",
+    "ville": "Decize",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 09:15:29\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-27 09:01:15\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-30 08:54:45\", \"@valeur\": \"0.988\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-08 14:12:36\", \"@valeur\": \"1.738\"}]",
+    "geom": {
+      "lon": 3.472,
+      "lat": 46.836
+    },
+    "gazole_maj": "2024-01-17T10:15:29+01:00",
+    "gazole_prix": "1.689",
+    "sp95_maj": "2023-12-27T10:01:15+01:00",
+    "sp95_prix": "1.819",
+    "e85_maj": "2023-11-30T09:54:45+01:00",
+    "e85_prix": "0.988",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-08T15:12:36+01:00",
+    "e10_prix": "1.738",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
+    ],
+    "departement": "Nièvre",
+    "code_departement": "58",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 58300005,
     "latitude": "4682100",
     "longitude": 345200,
@@ -57,55 +106,6 @@
     "code_region": "27"
   },
   {
-    "id": 58300004,
-    "latitude": "4683600",
-    "longitude": 347200,
-    "cp": "58300",
-    "pop": "R",
-    "adresse": "Route de Champvert",
-    "ville": "Decize",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-16 08:42:48\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-27 09:01:15\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-30 08:54:45\", \"@valeur\": \"0.988\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-08 14:12:36\", \"@valeur\": \"1.738\"}]",
-    "geom": {
-      "lon": 3.472,
-      "lat": 46.836
-    },
-    "gazole_maj": "2024-01-16T09:42:48+01:00",
-    "gazole_prix": "1.699",
-    "sp95_maj": "2023-12-27T10:01:15+01:00",
-    "sp95_prix": "1.819",
-    "e85_maj": "2023-11-30T09:54:45+01:00",
-    "e85_prix": "0.988",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-08T15:12:36+01:00",
-    "e10_prix": "1.738",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24"
-    ],
-    "departement": "Nièvre",
-    "code_departement": "58",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 58300001,
     "latitude": "4683800",
     "longitude": 347900,
@@ -115,12 +115,12 @@
     "ville": "Decize",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"22.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-16 14:50:03\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-16 13:56:31\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-16 13:56:31\", \"@valeur\": \"1.849\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 11:21:18\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-17 11:21:19\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-17 11:21:19\", \"@valeur\": \"1.849\"}]",
     "geom": {
       "lon": 3.479,
       "lat": 46.838
     },
-    "gazole_maj": "2024-01-16T15:50:03+01:00",
+    "gazole_maj": "2024-01-17T12:21:18+01:00",
     "gazole_prix": "1.689",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -128,9 +128,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-16T14:56:31+01:00",
+    "e10_maj": "2024-01-17T12:21:19+01:00",
     "e10_prix": "1.739",
-    "sp98_maj": "2024-01-16T14:56:31+01:00",
+    "sp98_maj": "2024-01-17T12:21:19+01:00",
     "sp98_prix": "1.849",
     "carburants_disponibles": [
       "Gazole",
