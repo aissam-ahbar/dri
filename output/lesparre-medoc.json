@@ -1,5 +1,53 @@
 [
   {
+    "id": 33340004,
+    "latitude": "4531200",
+    "longitude": -94000,
+    "cp": "33340",
+    "pop": "R",
+    "adresse": "Avenue Pierre Mendès France",
+    "ville": "Lesparre-Médoc",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 00:27:00\", \"@valeur\": \"1.727\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-19 00:27:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 00:27:00\", \"@valeur\": \"0.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 00:27:00\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 00:27:00\", \"@valeur\": \"1.811\"}]",
+    "geom": {
+      "lon": -0.94,
+      "lat": 45.312
+    },
+    "gazole_maj": "2024-01-19T01:27:00+01:00",
+    "gazole_prix": "1.727",
+    "sp95_maj": "2024-01-19T01:27:00+01:00",
+    "sp95_prix": "1.809",
+    "e85_maj": "2024-01-19T01:27:00+01:00",
+    "e85_prix": "0.898",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-19T01:27:00+01:00",
+    "e10_prix": "1.746",
+    "sp98_maj": "2024-01-19T01:27:00+01:00",
+    "sp98_prix": "1.811",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 33340001,
     "latitude": "4531030",
     "longitude": -93839,
@@ -103,54 +151,6 @@
       "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 33340004,
-    "latitude": "4531200",
-    "longitude": -94000,
-    "cp": "33340",
-    "pop": "R",
-    "adresse": "Avenue Pierre Mendès France",
-    "ville": "Lesparre-Médoc",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-16 13:26:00\", \"@valeur\": \"1.727\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-16 13:26:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 13:26:00\", \"@valeur\": \"0.942\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-16 13:26:00\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-16 13:26:00\", \"@valeur\": \"1.811\"}]",
-    "geom": {
-      "lon": -0.94,
-      "lat": 45.312
-    },
-    "gazole_maj": "2024-01-16T14:26:00+01:00",
-    "gazole_prix": "1.727",
-    "sp95_maj": "2024-01-16T14:26:00+01:00",
-    "sp95_prix": "1.809",
-    "e85_maj": "2024-01-16T14:26:00+01:00",
-    "e85_prix": "0.942",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-16T14:26:00+01:00",
-    "e10_prix": "1.746",
-    "sp98_maj": "2024-01-16T14:26:00+01:00",
-    "sp98_prix": "1.811",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Gironde",
     "code_departement": "33",
