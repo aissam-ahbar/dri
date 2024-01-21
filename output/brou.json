@@ -1,59 +1,5 @@
 [
   {
-    "id": 28160006,
-    "latitude": "4821500",
-    "longitude": 118000,
-    "cp": "28160",
-    "pop": "R",
-    "adresse": "Route de Chartres",
-    "ville": "Brou",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 08:35:29\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 09:45:18\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 08:35:29\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 20:04:32\", \"@valeur\": \"1.819\"}]",
-    "geom": {
-      "lon": 1.18,
-      "lat": 48.215
-    },
-    "gazole_maj": "2024-01-15T09:35:29+01:00",
-    "gazole_prix": "1.709",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-16T10:45:18+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-15T09:35:29+01:00",
-    "e10_prix": "1.739",
-    "sp98_maj": "2024-01-18T21:04:32+01:00",
-    "sp98_prix": "1.819",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Eure-et-Loir",
-    "code_departement": "28",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 28160005,
     "latitude": "4821800",
     "longitude": 117800,
@@ -150,6 +96,60 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Services réparation / entretien",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Eure-et-Loir",
+    "code_departement": "28",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
+    "id": 28160006,
+    "latitude": "4821500",
+    "longitude": 118000,
+    "cp": "28160",
+    "pop": "R",
+    "adresse": "Route de Chartres",
+    "ville": "Brou",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-15 08:35:29\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 09:45:18\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 08:35:29\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 20:04:32\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": 1.18,
+      "lat": 48.215
+    },
+    "gazole_maj": "2024-01-15T09:35:29+01:00",
+    "gazole_prix": "1.709",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-16T10:45:18+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-15T09:35:29+01:00",
+    "e10_prix": "1.739",
+    "sp98_maj": "2024-01-18T21:04:32+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Eure-et-Loir",

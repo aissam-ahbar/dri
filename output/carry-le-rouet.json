@@ -1,5 +1,62 @@
 [
   {
+    "id": 13620004,
+    "latitude": "4333000",
+    "longitude": 513900,
+    "cp": "13620",
+    "pop": "R",
+    "adresse": "55 AVENUE DRAIO DE LA MAR",
+    "ville": "Carry-le-Rouet",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"13.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-20 07:53:46\", \"@valeur\": \"1.806\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-20 07:53:46\", \"@valeur\": \"1.897\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-20 07:53:46\", \"@valeur\": \"0.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-20 07:53:46\", \"@valeur\": \"1.981\"}]",
+    "geom": {
+      "lon": 5.139,
+      "lat": 43.33
+    },
+    "gazole_maj": "2024-01-20T08:53:46+01:00",
+    "gazole_prix": "1.806",
+    "sp95_maj": "2024-01-20T08:53:46+01:00",
+    "sp95_prix": "1.897",
+    "e85_maj": "2024-01-20T08:53:46+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-20T08:53:46+01:00",
+    "sp98_prix": "1.981",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13620002,
     "latitude": "4332800",
     "longitude": 515000,
@@ -47,63 +104,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Vente d'additifs carburants",
-      "Automate CB 24/24"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13620004,
-    "latitude": "4333000",
-    "longitude": 513900,
-    "cp": "13620",
-    "pop": "R",
-    "adresse": "55 AVENUE DRAIO DE LA MAR",
-    "ville": "Carry-le-Rouet",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"13.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 07:02:42\", \"@valeur\": \"1.801\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-19 07:02:43\", \"@valeur\": \"1.897\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 07:02:43\", \"@valeur\": \"0.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 07:02:43\", \"@valeur\": \"1.981\"}]",
-    "geom": {
-      "lon": 5.139,
-      "lat": 43.33
-    },
-    "gazole_maj": "2024-01-19T08:02:42+01:00",
-    "gazole_prix": "1.801",
-    "sp95_maj": "2024-01-19T08:02:43+01:00",
-    "sp95_prix": "1.897",
-    "e85_maj": "2024-01-19T08:02:43+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-19T08:02:43+01:00",
-    "sp98_prix": "1.981",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
       "Automate CB 24/24"
     ],
     "departement": "Bouches-du-Rhône",

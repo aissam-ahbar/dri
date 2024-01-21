@@ -1,5 +1,55 @@
 [
   {
+    "id": 76330003,
+    "latitude": "4948867.8992418",
+    "longitude": 56613.984600105,
+    "cp": "76330",
+    "pop": "R",
+    "adresse": "2 avenue du General DE GAULLE",
+    "ville": "Port-Jérôme-sur-Seine",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"1.712\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"1.834\"}]",
+    "geom": {
+      "lon": 0.56613984600105,
+      "lat": 49.488678992418
+    },
+    "gazole_maj": "2024-01-18T13:00:00+01:00",
+    "gazole_prix": "1.712",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-18T13:00:00+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-18T13:00:00+01:00",
+    "e10_prix": "1.754",
+    "sp98_maj": "2024-01-18T13:00:00+01:00",
+    "sp98_prix": "1.834",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Automate CB 24/24"
+    ],
+    "departement": "Seine-Maritime",
+    "code_departement": "76",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 76330002,
     "latitude": "4948189",
     "longitude": 58305,
@@ -46,56 +96,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-Maritime",
-    "code_departement": "76",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 76330003,
-    "latitude": "4948867.8992418",
-    "longitude": 56613.984600105,
-    "cp": "76330",
-    "pop": "R",
-    "adresse": "2 avenue du General DE GAULLE",
-    "ville": "Port-Jérôme-sur-Seine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"1.712\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 12:00:00\", \"@valeur\": \"1.834\"}]",
-    "geom": {
-      "lon": 0.56613984600105,
-      "lat": 49.488678992418
-    },
-    "gazole_maj": "2024-01-18T13:00:00+01:00",
-    "gazole_prix": "1.712",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-18T13:00:00+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-18T13:00:00+01:00",
-    "e10_prix": "1.754",
-    "sp98_maj": "2024-01-18T13:00:00+01:00",
-    "sp98_prix": "1.834",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Automate CB 24/24"
     ],
     "departement": "Seine-Maritime",
     "code_departement": "76",

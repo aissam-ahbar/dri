@@ -1,93 +1,45 @@
 [
   {
-    "id": 62630006,
-    "latitude": "5050700",
-    "longitude": 168000,
+    "id": 62630003,
+    "latitude": "5051650",
+    "longitude": 164375,
     "cp": "62630",
-    "pop": "A",
-    "adresse": "Autoroute A16 péage le touquet",
+    "pop": "R",
+    "adresse": "ROUTE DE BOULOGNE",
     "ville": "Étaples",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 09:30:00\", \"@valeur\": \"2.046\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 09:30:00\", \"@valeur\": \"2.209\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 10:59:23\", \"@valeur\": \"1.763\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 10:59:23\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 10:59:24\", \"@valeur\": \"1.836\"}]",
     "geom": {
-      "lon": 1.68,
-      "lat": 50.507
+      "lon": 1.64375,
+      "lat": 50.5165
     },
-    "gazole_maj": "2024-01-19T10:30:00+01:00",
-    "gazole_prix": "2.046",
+    "gazole_maj": "2024-01-19T11:59:23+01:00",
+    "gazole_prix": "1.763",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-19T10:30:00+01:00",
-    "sp98_prix": "2.209",
+    "e10_maj": "2024-01-19T11:59:23+01:00",
+    "e10_prix": "1.758",
+    "sp98_maj": "2024-01-19T11:59:24+01:00",
+    "sp98_prix": "1.836",
     "carburants_disponibles": [
       "Gazole",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 62630002,
-    "latitude": "5051122",
-    "longitude": 164565,
-    "cp": "62630",
-    "pop": "R",
-    "adresse": "4 Route d'Hilbert",
-    "ville": "Étaples",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 14:36:43\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-20 11:35:40\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 14:38:04\", \"@valeur\": \"2.114\"}]",
-    "geom": {
-      "lon": 1.64565,
-      "lat": 50.51122
-    },
-    "gazole_maj": "2023-12-11T15:36:43+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2023-12-20T12:35:40+01:00",
-    "sp95_prix": "1.869",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2023-12-11T15:38:04+01:00",
-    "sp98_prix": "2.114",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
       "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Pas-de-Calais",
@@ -152,47 +104,95 @@
     "code_region": "32"
   },
   {
-    "id": 62630003,
-    "latitude": "5051650",
-    "longitude": 164375,
+    "id": 62630002,
+    "latitude": "5051122",
+    "longitude": 164565,
     "cp": "62630",
     "pop": "R",
-    "adresse": "ROUTE DE BOULOGNE",
+    "adresse": "4 Route d'Hilbert",
     "ville": "Étaples",
     "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 10:59:23\", \"@valeur\": \"1.763\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 10:59:23\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 10:59:24\", \"@valeur\": \"1.836\"}]",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-11 14:36:43\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-20 11:35:40\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-11 14:38:04\", \"@valeur\": \"2.114\"}]",
     "geom": {
-      "lon": 1.64375,
-      "lat": 50.5165
+      "lon": 1.64565,
+      "lat": 50.51122
     },
-    "gazole_maj": "2024-01-19T11:59:23+01:00",
-    "gazole_prix": "1.763",
+    "gazole_maj": "2023-12-11T15:36:43+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2023-12-20T12:35:40+01:00",
+    "sp95_prix": "1.869",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2023-12-11T15:38:04+01:00",
+    "sp98_prix": "2.114",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 62630006,
+    "latitude": "5050700",
+    "longitude": 168000,
+    "cp": "62630",
+    "pop": "A",
+    "adresse": "Autoroute A16 péage le touquet",
+    "ville": "Étaples",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-20 09:30:00\", \"@valeur\": \"2.054\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-20 09:30:00\", \"@valeur\": \"2.267\"}]",
+    "geom": {
+      "lon": 1.68,
+      "lat": 50.507
+    },
+    "gazole_maj": "2024-01-20T10:30:00+01:00",
+    "gazole_prix": "2.054",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-19T11:59:23+01:00",
-    "e10_prix": "1.758",
-    "sp98_maj": "2024-01-19T11:59:24+01:00",
-    "sp98_prix": "1.836",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-20T10:30:00+01:00",
+    "sp98_prix": "2.267",
     "carburants_disponibles": [
       "Gazole",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Automate CB 24/24"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",
