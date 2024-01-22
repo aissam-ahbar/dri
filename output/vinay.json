@@ -1,5 +1,57 @@
 [
   {
+    "id": 38470003,
+    "latitude": "4522000",
+    "longitude": 543500,
+    "cp": "38470",
+    "pop": "R",
+    "adresse": "2375 ROUTE DE GRENOBLE",
+    "ville": "Vinay",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"GNV\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 16:56:22\", \"@valeur\": \"1.790\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-02 08:33:35\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 12:09:23\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 16:56:23\", \"@valeur\": \"1.930\"}]",
+    "geom": {
+      "lon": 5.435,
+      "lat": 45.22
+    },
+    "gazole_maj": "2024-01-18T17:56:22+01:00",
+    "gazole_prix": "1.790",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-01-02T09:33:35+01:00",
+    "gplc_prix": "0.920",
+    "e10_maj": "2024-01-11T13:09:23+01:00",
+    "e10_prix": "1.820",
+    "sp98_maj": "2024-01-18T17:56:23+01:00",
+    "sp98_prix": "1.930",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "GNV",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Isère",
+    "code_departement": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 38470002,
     "latitude": "4520800",
     "longitude": 541200,
@@ -46,58 +98,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Isère",
-    "code_departement": "38",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 38470003,
-    "latitude": "4522000",
-    "longitude": 543500,
-    "cp": "38470",
-    "pop": "R",
-    "adresse": "2375 ROUTE DE GRENOBLE",
-    "ville": "Vinay",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"GNV\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 16:56:22\", \"@valeur\": \"1.790\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-02 08:33:35\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 12:09:23\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 16:56:23\", \"@valeur\": \"1.930\"}]",
-    "geom": {
-      "lon": 5.435,
-      "lat": 45.22
-    },
-    "gazole_maj": "2024-01-18T17:56:22+01:00",
-    "gazole_prix": "1.790",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-01-02T09:33:35+01:00",
-    "gplc_prix": "0.920",
-    "e10_maj": "2024-01-11T13:09:23+01:00",
-    "e10_prix": "1.820",
-    "sp98_maj": "2024-01-18T17:56:23+01:00",
-    "sp98_prix": "1.930",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "GNV",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Isère",
     "code_departement": "38",

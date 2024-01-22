@@ -1,43 +1,46 @@
 [
   {
-    "id": 49450001,
-    "latitude": "4711430.5886",
-    "longitude": -99183.2348626,
-    "cp": "49450",
+    "id": 49230003,
+    "latitude": "4711818.1477917",
+    "longitude": -109975.91906432,
+    "cp": "49230",
     "pop": "R",
-    "adresse": "ZC LES ALOUETTES",
+    "adresse": "Parc d'activité VAL DE MOINE EST, 6 Avenue des Pays Bas, SAINT GERMAIN SUR MOINE",
     "ville": "Sèvremoine",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 10:27:03\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 20:05:50\", \"@valeur\": \"0.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 20:05:51\", \"@valeur\": \"1.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 20:05:51\", \"@valeur\": \"1.798\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 08:43:55\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-17 09:26:53\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-17 09:26:53\", \"@valeur\": \"1.729\"}]",
     "geom": {
-      "lon": -0.991832348626,
-      "lat": 47.114305886000004
+      "lon": -1.0997591906432,
+      "lat": 47.118181477917005
     },
-    "gazole_maj": "2024-01-18T11:27:03+01:00",
-    "gazole_prix": "1.689",
+    "gazole_maj": "2024-01-19T09:43:55+01:00",
+    "gazole_prix": "1.709",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-19T21:05:50+01:00",
-    "e85_prix": "0.898",
+    "e85_maj": "2024-01-17T10:26:53+01:00",
+    "e85_prix": "0.949",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-19T21:05:51+01:00",
-    "e10_prix": "1.728",
-    "sp98_maj": "2024-01-19T21:05:51+01:00",
-    "sp98_prix": "1.798",
+    "e10_maj": "2024-01-17T10:26:53+01:00",
+    "e10_prix": "1.729",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
     "departement": "Maine-et-Loire",
     "code_departement": "49",
     "region": "Pays de la Loire",
@@ -147,53 +150,6 @@
     "code_region": "52"
   },
   {
-    "id": 49230003,
-    "latitude": "4711818.1477917",
-    "longitude": -109975.91906432,
-    "cp": "49230",
-    "pop": "R",
-    "adresse": "Parc d'activité VAL DE MOINE EST, 6 Avenue des Pays Bas, SAINT GERMAIN SUR MOINE",
-    "ville": "Sèvremoine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 08:43:55\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-17 09:26:53\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-17 09:26:53\", \"@valeur\": \"1.729\"}]",
-    "geom": {
-      "lon": -1.0997591906432,
-      "lat": 47.118181477917005
-    },
-    "gazole_maj": "2024-01-19T09:43:55+01:00",
-    "gazole_prix": "1.709",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-17T10:26:53+01:00",
-    "e85_prix": "0.949",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-17T10:26:53+01:00",
-    "e10_prix": "1.729",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Automate CB 24/24"
-    ],
-    "departement": "Maine-et-Loire",
-    "code_departement": "49",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
     "id": 49450006,
     "latitude": "4712100",
     "longitude": -98400,
@@ -245,6 +201,50 @@
       "Wifi",
       "Automate CB 24/24"
     ],
+    "departement": "Maine-et-Loire",
+    "code_departement": "49",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
+    "id": 49450001,
+    "latitude": "4711430.5886",
+    "longitude": -99183.2348626,
+    "cp": "49450",
+    "pop": "R",
+    "adresse": "ZC LES ALOUETTES",
+    "ville": "Sèvremoine",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 10:27:03\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 20:05:50\", \"@valeur\": \"0.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 20:05:51\", \"@valeur\": \"1.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 20:05:51\", \"@valeur\": \"1.798\"}]",
+    "geom": {
+      "lon": -0.991832348626,
+      "lat": 47.114305886000004
+    },
+    "gazole_maj": "2024-01-18T11:27:03+01:00",
+    "gazole_prix": "1.689",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-19T21:05:50+01:00",
+    "e85_prix": "0.898",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-19T21:05:51+01:00",
+    "e10_prix": "1.728",
+    "sp98_maj": "2024-01-19T21:05:51+01:00",
+    "sp98_prix": "1.798",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Maine-et-Loire",
     "code_departement": "49",
     "region": "Pays de la Loire",

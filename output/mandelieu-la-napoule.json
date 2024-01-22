@@ -1,5 +1,52 @@
 [
   {
+    "id": 6211001,
+    "latitude": "4353400",
+    "longitude": 693400,
+    "cp": "06210",
+    "pop": "R",
+    "adresse": "Avenue de Fréjus",
+    "ville": "Mandelieu-la-Napoule",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"14.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 06:04:53\", \"@valeur\": \"1.709\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-06 07:01:35\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-16 06:08:02\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 06:08:51\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": 6.934,
+      "lat": 43.534
+    },
+    "gazole_maj": "2024-01-17T07:04:53+01:00",
+    "gazole_prix": "1.709",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-01-06T08:01:35+01:00",
+    "gplc_prix": "0.979",
+    "e10_maj": "2024-01-16T07:08:02+01:00",
+    "e10_prix": "1.749",
+    "sp98_maj": "2024-01-19T07:08:51+01:00",
+    "sp98_prix": "1.829",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Alpes-Maritimes",
+    "code_departement": "06",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 6210009,
     "latitude": "4352180",
     "longitude": 689906,
@@ -43,53 +90,6 @@
       "Station de gonflage",
       "Carburant additivé",
       "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Alpes-Maritimes",
-    "code_departement": "06",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 6211001,
-    "latitude": "4353400",
-    "longitude": 693400,
-    "cp": "06210",
-    "pop": "R",
-    "adresse": "Avenue de Fréjus",
-    "ville": "Mandelieu-la-Napoule",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"14.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 06:04:53\", \"@valeur\": \"1.709\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-06 07:01:35\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-16 06:08:02\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 06:08:51\", \"@valeur\": \"1.829\"}]",
-    "geom": {
-      "lon": 6.934,
-      "lat": 43.534
-    },
-    "gazole_maj": "2024-01-17T07:04:53+01:00",
-    "gazole_prix": "1.709",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-01-06T08:01:35+01:00",
-    "gplc_prix": "0.979",
-    "e10_maj": "2024-01-16T07:08:02+01:00",
-    "e10_prix": "1.749",
-    "sp98_maj": "2024-01-19T07:08:51+01:00",
-    "sp98_prix": "1.829",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Alpes-Maritimes",

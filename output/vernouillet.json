@@ -48,20 +48,20 @@
     "ville": "Vernouillet",
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-20 08:56:36\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-20 08:56:36\", \"@valeur\": \"1.850\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-20 08:56:36\", \"@valeur\": \"1.816\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-21 08:53:14\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-21 08:53:14\", \"@valeur\": \"1.850\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-21 08:53:14\", \"@valeur\": \"1.816\"}]",
     "geom": {
       "lon": 1.99535,
       "lat": 48.97561
     },
-    "gazole_maj": "2024-01-20T09:56:36+01:00",
+    "gazole_maj": "2024-01-21T09:53:14+01:00",
     "gazole_prix": "1.790",
-    "sp95_maj": "2024-01-20T09:56:36+01:00",
+    "sp95_maj": "2024-01-21T09:53:14+01:00",
     "sp95_prix": "1.850",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-20T09:56:36+01:00",
+    "e10_maj": "2024-01-21T09:53:14+01:00",
     "e10_prix": "1.816",
     "sp98_maj": null,
     "sp98_prix": null,
@@ -83,6 +83,58 @@
     "code_departement": "78",
     "region": "Île-de-France",
     "code_region": "11"
+  },
+  {
+    "id": 28500010,
+    "latitude": "4873067.3127189",
+    "longitude": 133747.33095697,
+    "cp": "28500",
+    "pop": "R",
+    "adresse": "60 Route de Crécy",
+    "ville": "Vernouillet",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 16:21:59\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-13 16:21:59\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 16:22:00\", \"@valeur\": \"1.860\"}]",
+    "geom": {
+      "lon": 1.3374733095697,
+      "lat": 48.730673127189
+    },
+    "gazole_maj": "2024-01-13T17:21:59+01:00",
+    "gazole_prix": "1.770",
+    "sp95_maj": "2024-01-13T17:21:59+01:00",
+    "sp95_prix": "1.800",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-13T17:22:00+01:00",
+    "sp98_prix": "1.860",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Vente de fioul domestique",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants"
+    ],
+    "departement": "Eure-et-Loir",
+    "code_departement": "28",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
   },
   {
     "id": 28500001,
@@ -134,58 +186,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Eure-et-Loir",
-    "code_departement": "28",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 28500010,
-    "latitude": "4873067.3127189",
-    "longitude": 133747.33095697,
-    "cp": "28500",
-    "pop": "R",
-    "adresse": "60 Route de Crécy",
-    "ville": "Vernouillet",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 16:21:59\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-13 16:21:59\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 16:22:00\", \"@valeur\": \"1.860\"}]",
-    "geom": {
-      "lon": 1.3374733095697,
-      "lat": 48.730673127189
-    },
-    "gazole_maj": "2024-01-13T17:21:59+01:00",
-    "gazole_prix": "1.770",
-    "sp95_maj": "2024-01-13T17:21:59+01:00",
-    "sp95_prix": "1.800",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-13T17:22:00+01:00",
-    "sp98_prix": "1.860",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Vente de fioul domestique",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants"
     ],
     "departement": "Eure-et-Loir",
     "code_departement": "28",
