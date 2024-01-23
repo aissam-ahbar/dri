@@ -9,12 +9,12 @@
     "ville": "Lacanau",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 19:22:59\", \"@valeur\": \"1.708\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 19:22:59\", \"@valeur\": \"1.727\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 18:52:49\", \"@valeur\": \"1.708\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 18:52:49\", \"@valeur\": \"1.730\"}]",
     "geom": {
       "lon": -1.06739,
       "lat": 44.97654
     },
-    "gazole_maj": "2024-01-19T20:22:59+01:00",
+    "gazole_maj": "2024-01-22T19:52:49+01:00",
     "gazole_prix": "1.708",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -22,8 +22,8 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-19T20:22:59+01:00",
-    "e10_prix": "1.727",
+    "e10_maj": "2024-01-22T19:52:49+01:00",
+    "e10_prix": "1.730",
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
@@ -47,6 +47,59 @@
       "Lavage automatique",
       "Lavage manuel",
       "Services réparation / entretien",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 33680005,
+    "latitude": "4497648",
+    "longitude": -106512,
+    "cp": "33680",
+    "pop": "R",
+    "adresse": "Avenue de Bordeaux",
+    "ville": "Lacanau",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-20 06:55:54\", \"@valeur\": \"1.708\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 17:49:57\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 12:27:29\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-22 12:28:43\", \"@valeur\": \"0.895\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 04:53:15\", \"@valeur\": \"1.727\"}]",
+    "geom": {
+      "lon": -1.06512,
+      "lat": 44.97648
+    },
+    "gazole_maj": "2024-01-20T07:55:54+01:00",
+    "gazole_prix": "1.708",
+    "sp95_maj": "2023-12-23T18:49:57+01:00",
+    "sp95_prix": "1.769",
+    "e85_maj": "2024-01-05T13:27:29+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": "2024-01-22T13:28:43+01:00",
+    "gplc_prix": "0.895",
+    "e10_maj": "2024-01-19T05:53:15+01:00",
+    "e10_prix": "1.727",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Gironde",
@@ -143,59 +196,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Automate CB 24/24"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 33680005,
-    "latitude": "4497648",
-    "longitude": -106512,
-    "cp": "33680",
-    "pop": "R",
-    "adresse": "Avenue de Bordeaux",
-    "ville": "Lacanau",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-20 06:55:54\", \"@valeur\": \"1.708\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-23 17:49:57\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 12:27:29\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-23 17:49:57\", \"@valeur\": \"0.885\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 04:53:15\", \"@valeur\": \"1.727\"}]",
-    "geom": {
-      "lon": -1.06512,
-      "lat": 44.97648
-    },
-    "gazole_maj": "2024-01-20T07:55:54+01:00",
-    "gazole_prix": "1.708",
-    "sp95_maj": "2023-12-23T18:49:57+01:00",
-    "sp95_prix": "1.769",
-    "e85_maj": "2024-01-05T13:27:29+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": "2023-12-23T18:49:57+01:00",
-    "gplc_prix": "0.885",
-    "e10_maj": "2024-01-19T05:53:15+01:00",
-    "e10_prix": "1.727",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Gironde",
     "code_departement": "33",

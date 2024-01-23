@@ -53,6 +53,54 @@
     "code_region": "75"
   },
   {
+    "id": 19140005,
+    "latitude": "4542500",
+    "longitude": 156400,
+    "cp": "19140",
+    "pop": "R",
+    "adresse": "LES BESSADES",
+    "ville": "Uzerche",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Location de véhicule\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-20 18:45:00\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-20 18:45:00\", \"@valeur\": \"1.810\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 15:51:19\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-20 18:45:00\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": 1.564,
+      "lat": 45.425
+    },
+    "gazole_maj": "2024-01-20T19:45:00+01:00",
+    "gazole_prix": "1.719",
+    "sp95_maj": "2024-01-20T19:45:00+01:00",
+    "sp95_prix": "1.810",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-22T16:51:19+01:00",
+    "e10_prix": "1.750",
+    "sp98_maj": "2024-01-20T19:45:00+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Location de véhicule",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Corrèze",
+    "code_departement": "19",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 19140003,
     "latitude": "4541736",
     "longitude": 158159,
@@ -101,54 +149,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Corrèze",
-    "code_departement": "19",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 19140005,
-    "latitude": "4542500",
-    "longitude": 156400,
-    "cp": "19140",
-    "pop": "R",
-    "adresse": "LES BESSADES",
-    "ville": "Uzerche",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Location de véhicule\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-20 18:45:00\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-20 18:45:00\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-20 18:45:00\", \"@valeur\": \"1.819\"}]",
-    "geom": {
-      "lon": 1.564,
-      "lat": 45.425
-    },
-    "gazole_maj": "2024-01-20T19:45:00+01:00",
-    "gazole_prix": "1.719",
-    "sp95_maj": "2024-01-20T19:45:00+01:00",
-    "sp95_prix": "1.810",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-20T19:45:00+01:00",
-    "sp98_prix": "1.819",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Location de véhicule",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Corrèze",
     "code_departement": "19",

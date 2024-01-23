@@ -46,6 +46,55 @@
     "code_region": "93"
   },
   {
+    "id": 83490004,
+    "latitude": "4347049.4052136",
+    "longitude": 657865.69002191,
+    "cp": "83490",
+    "pop": "R",
+    "adresse": "491 ROUTE DE FREJUS",
+    "ville": "Le Muy",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Bar\", \"Vente de fioul domestique\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 12:08:29\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-09-13 09:22:07\", \"@valeur\": \"1.988\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 12:50:58\", \"@valeur\": \"1.821\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 12:09:35\", \"@valeur\": \"1.889\"}]",
+    "geom": {
+      "lon": 6.5786569002191,
+      "lat": 43.470494052136
+    },
+    "gazole_maj": "2024-01-22T13:08:29+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": "2023-09-13T11:22:07+02:00",
+    "sp95_prix": "1.988",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-04T13:50:58+01:00",
+    "e10_prix": "1.821",
+    "sp98_maj": "2024-01-22T13:09:35+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Bar",
+      "Vente de fioul domestique",
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 83490002,
     "latitude": "4346800",
     "longitude": 654900,
@@ -84,55 +133,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 83490004,
-    "latitude": "4347049.4052136",
-    "longitude": 657865.69002191,
-    "cp": "83490",
-    "pop": "R",
-    "adresse": "491 ROUTE DE FREJUS",
-    "ville": "Le Muy",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Bar\", \"Vente de fioul domestique\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 11:53:07\", \"@valeur\": \"1.761\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-09-13 09:22:07\", \"@valeur\": \"1.988\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 12:50:58\", \"@valeur\": \"1.821\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 13:05:31\", \"@valeur\": \"1.862\"}]",
-    "geom": {
-      "lon": 6.5786569002191,
-      "lat": 43.470494052136
-    },
-    "gazole_maj": "2024-01-19T12:53:07+01:00",
-    "gazole_prix": "1.761",
-    "sp95_maj": "2023-09-13T11:22:07+02:00",
-    "sp95_prix": "1.988",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-04T13:50:58+01:00",
-    "e10_prix": "1.821",
-    "sp98_maj": "2024-01-19T14:05:31+01:00",
-    "sp98_prix": "1.862",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Bar",
-      "Vente de fioul domestique",
-      "Piste poids lourds",
-      "Automate CB 24/24"
-    ],
     "departement": "Var",
     "code_departement": "83",
     "region": "Provence-Alpes-Côte d'Azur",

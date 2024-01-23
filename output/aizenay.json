@@ -9,7 +9,7 @@
     "ville": "Aizenay",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 09:30:42\", \"@valeur\": \"1.688\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 14:32:39\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 09:31:45\", \"@valeur\": \"1.724\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-08 06:51:53\", \"@valeur\": \"1.795\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 09:30:42\", \"@valeur\": \"1.688\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 09:31:45\", \"@valeur\": \"1.724\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-08 06:51:53\", \"@valeur\": \"1.795\"}]",
     "geom": {
       "lon": -1.611,
       "lat": 46.737
@@ -18,8 +18,8 @@
     "gazole_prix": "1.688",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-16T15:32:39+01:00",
-    "e85_prix": "0.849",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2024-01-19T10:31:45+01:00",
@@ -28,12 +28,12 @@
     "sp98_prix": "1.795",
     "carburants_disponibles": [
       "Gazole",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
@@ -114,23 +114,23 @@
     "ville": "Aizenay",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 09:22:44\", \"@valeur\": \"1.678\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-10 17:06:53\", \"@valeur\": \"0.949\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-12 09:14:04\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-15 10:48:08\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-03 10:40:13\", \"@valeur\": \"1.778\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 10:43:08\", \"@valeur\": \"1.685\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 10:43:08\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-12 09:14:04\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 10:43:08\", \"@valeur\": \"1.708\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 10:43:08\", \"@valeur\": \"1.789\"}]",
     "geom": {
       "lon": -1.591,
       "lat": 46.733
     },
-    "gazole_maj": "2024-01-18T10:22:44+01:00",
-    "gazole_prix": "1.678",
+    "gazole_maj": "2024-01-22T11:43:08+01:00",
+    "gazole_prix": "1.685",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-10T18:06:53+01:00",
-    "e85_prix": "0.949",
+    "e85_maj": "2024-01-22T11:43:08+01:00",
+    "e85_prix": "0.899",
     "gplc_maj": "2024-01-12T10:14:04+01:00",
     "gplc_prix": "0.949",
-    "e10_maj": "2024-01-15T11:48:08+01:00",
-    "e10_prix": "1.699",
-    "sp98_maj": "2024-01-03T11:40:13+01:00",
-    "sp98_prix": "1.778",
+    "e10_maj": "2024-01-22T11:43:08+01:00",
+    "e10_prix": "1.708",
+    "sp98_maj": "2024-01-22T11:43:08+01:00",
+    "sp98_prix": "1.789",
     "carburants_disponibles": [
       "Gazole",
       "E85",

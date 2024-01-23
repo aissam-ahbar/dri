@@ -9,32 +9,32 @@
     "ville": "Tourouvre au Perche",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-16 10:51:20\", \"@valeur\": \"1.789\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 08:39:25\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 08:39:25\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 08:39:25\", \"@valeur\": \"1.909\"}]",
     "geom": {
       "lon": 0.653,
       "lat": 48.589
     },
-    "gazole_maj": "2024-01-16T11:51:20+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2024-01-22T09:39:25+01:00",
+    "gazole_prix": "1.795",
+    "sp95_maj": "2024-01-22T09:39:25+01:00",
+    "sp95_prix": "1.875",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-01-22T09:39:25+01:00",
+    "sp98_prix": "1.909",
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [

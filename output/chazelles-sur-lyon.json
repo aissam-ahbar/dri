@@ -1,5 +1,54 @@
 [
   {
+    "id": 42140001,
+    "latitude": "4563500",
+    "longitude": 437900,
+    "cp": "42140",
+    "pop": "R",
+    "adresse": "RTE DE ST GALMIER",
+    "ville": "Chazelles-sur-Lyon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Carburant additivé\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 18:54:50\", \"@valeur\": \"1.823\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 18:54:51\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 18:54:51\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 18:54:51\", \"@valeur\": \"1.953\"}]",
+    "geom": {
+      "lon": 4.379,
+      "lat": 45.635
+    },
+    "gazole_maj": "2024-01-22T19:54:50+01:00",
+    "gazole_prix": "1.823",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-22T19:54:51+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-22T19:54:51+01:00",
+    "e10_prix": "1.843",
+    "sp98_maj": "2024-01-22T19:54:51+01:00",
+    "sp98_prix": "1.953",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique non alimentaire",
+      "Carburant additivé",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loire",
+    "code_departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 42140003,
     "latitude": "4563504.6288028",
     "longitude": 438093.60850305,
@@ -38,55 +87,6 @@
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loire",
-    "code_departement": "42",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 42140001,
-    "latitude": "4563500",
-    "longitude": 437900,
-    "cp": "42140",
-    "pop": "R",
-    "adresse": "RTE DE ST GALMIER",
-    "ville": "Chazelles-sur-Lyon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Carburant additivé\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 18:51:16\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 18:44:12\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-12 18:46:13\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-12 18:46:13\", \"@valeur\": \"1.953\"}]",
-    "geom": {
-      "lon": 4.379,
-      "lat": 45.635
-    },
-    "gazole_maj": "2024-01-19T19:51:16+01:00",
-    "gazole_prix": "1.818",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-04T19:44:12+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-12T19:46:13+01:00",
-    "e10_prix": "1.843",
-    "sp98_maj": "2024-01-12T19:46:13+01:00",
-    "sp98_prix": "1.953",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique non alimentaire",
-      "Carburant additivé",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
