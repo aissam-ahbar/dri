@@ -1,5 +1,49 @@
 [
   {
+    "id": 13150006,
+    "latitude": "4380743",
+    "longitude": 466179,
+    "cp": "13150",
+    "pop": "R",
+    "adresse": "BD JULES FERRY RD 99",
+    "ville": "Tarascon",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 00:01:00\", \"@valeur\": \"1.720\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 00:01:00\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 00:01:00\", \"@valeur\": \"1.845\"}]",
+    "geom": {
+      "lon": 4.66179,
+      "lat": 43.80743
+    },
+    "gazole_maj": "2024-01-24T01:01:00+01:00",
+    "gazole_prix": "1.720",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-24T01:01:00+01:00",
+    "e10_prix": "1.748",
+    "sp98_maj": "2024-01-24T01:01:00+01:00",
+    "sp98_prix": "1.845",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13150001,
     "latitude": "4381100",
     "longitude": 466600,
@@ -9,7 +53,7 @@
     "ville": "Tarascon",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:56:17\", \"@valeur\": \"1.713\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 09:56:18\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 09:56:13\", \"@valeur\": \"1.836\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:56:17\", \"@valeur\": \"1.713\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-23 08:05:24\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 08:05:24\", \"@valeur\": \"1.840\"}]",
     "geom": {
       "lon": 4.666,
       "lat": 43.811
@@ -22,10 +66,10 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-22T10:56:18+01:00",
-    "e10_prix": "1.743",
-    "sp98_maj": "2024-01-13T10:56:13+01:00",
-    "sp98_prix": "1.836",
+    "e10_maj": "2024-01-23T09:05:24+01:00",
+    "e10_prix": "1.745",
+    "sp98_maj": "2024-01-23T09:05:24+01:00",
+    "sp98_prix": "1.840",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -43,50 +87,6 @@
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13150006,
-    "latitude": "4380743",
-    "longitude": 466179,
-    "cp": "13150",
-    "pop": "R",
-    "adresse": "BD JULES FERRY RD 99",
-    "ville": "Tarascon",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 00:01:00\", \"@valeur\": \"1.713\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-23 00:01:00\", \"@valeur\": \"1.744\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 00:01:00\", \"@valeur\": \"1.840\"}]",
-    "geom": {
-      "lon": 4.66179,
-      "lat": 43.80743
-    },
-    "gazole_maj": "2024-01-23T01:01:00+01:00",
-    "gazole_prix": "1.713",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-23T01:01:00+01:00",
-    "e10_prix": "1.744",
-    "sp98_maj": "2024-01-23T01:01:00+01:00",
-    "sp98_prix": "1.840",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",
     "region": "Provence-Alpes-Côte d'Azur",

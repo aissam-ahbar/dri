@@ -1,5 +1,52 @@
 [
   {
+    "id": 88140004,
+    "latitude": "4818900",
+    "longitude": 590200,
+    "cp": "88140",
+    "pop": "R",
+    "adresse": "630 Avenue des Pierrottes",
+    "ville": "Contrexéville",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 12:37:30\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-18 10:46:53\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 12:17:36\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 12:17:37\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": 5.902,
+      "lat": 48.189
+    },
+    "gazole_maj": "2024-01-13T13:37:30+01:00",
+    "gazole_prix": "1.719",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-18T11:46:53+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-05T13:17:36+01:00",
+    "e10_prix": "1.774",
+    "sp98_maj": "2024-01-05T13:17:37+01:00",
+    "sp98_prix": "1.829",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vosges",
+    "code_departement": "88",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 88140003,
     "latitude": "4818846.1950599",
     "longitude": 588337.42557768,
@@ -42,53 +89,6 @@
       "Boutique non alimentaire",
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Vosges",
-    "code_departement": "88",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 88140004,
-    "latitude": "4818900",
-    "longitude": 590200,
-    "cp": "88140",
-    "pop": "R",
-    "adresse": "630 Avenue des Pierrottes",
-    "ville": "Contrexéville",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 12:37:30\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-18 10:46:53\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 12:17:36\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 12:17:37\", \"@valeur\": \"1.829\"}]",
-    "geom": {
-      "lon": 5.902,
-      "lat": 48.189
-    },
-    "gazole_maj": "2024-01-13T13:37:30+01:00",
-    "gazole_prix": "1.719",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-18T11:46:53+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-05T13:17:36+01:00",
-    "e10_prix": "1.774",
-    "sp98_maj": "2024-01-05T13:17:37+01:00",
-    "sp98_prix": "1.829",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vosges",
     "code_departement": "88",

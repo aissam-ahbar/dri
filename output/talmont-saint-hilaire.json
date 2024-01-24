@@ -1,5 +1,58 @@
 [
   {
+    "id": 85440002,
+    "latitude": "4646783",
+    "longitude": -162836,
+    "cp": "85440",
+    "pop": "R",
+    "adresse": "91 Avenue des Sables",
+    "ville": "Talmont-Saint-Hilaire",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 08:06:09\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-23 08:06:10\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": -1.62836,
+      "lat": 46.46783
+    },
+    "gazole_maj": "2024-01-23T09:06:09+01:00",
+    "gazole_prix": "1.773",
+    "sp95_maj": "2024-01-23T09:06:10+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Vendée",
+    "code_departement": "85",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 85440001,
     "latitude": "4646900",
     "longitude": -162900,
@@ -9,13 +62,13 @@
     "ville": "Talmont-Saint-Hilaire",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 12:39:20\", \"@valeur\": \"1.668\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-15 12:39:27\", \"@valeur\": \"1.747\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 12:39:28\", \"@valeur\": \"1.696\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 12:37:47\", \"@valeur\": \"1.785\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 12:38:40\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-15 12:39:27\", \"@valeur\": \"1.747\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 12:39:28\", \"@valeur\": \"1.696\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 12:37:47\", \"@valeur\": \"1.785\"}]",
     "geom": {
       "lon": -1.629,
       "lat": 46.469
     },
-    "gazole_maj": "2024-01-22T13:39:20+01:00",
-    "gazole_prix": "1.668",
+    "gazole_maj": "2024-01-23T13:38:40+01:00",
+    "gazole_prix": "1.679",
     "sp95_maj": "2024-01-15T13:39:27+01:00",
     "sp95_prix": "1.747",
     "e85_maj": null,
@@ -49,59 +102,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vendée",
-    "code_departement": "85",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 85440002,
-    "latitude": "4646783",
-    "longitude": -162836,
-    "cp": "85440",
-    "pop": "R",
-    "adresse": "91 Avenue des Sables",
-    "ville": "Talmont-Saint-Hilaire",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 08:21:24\", \"@valeur\": \"1.778\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-17 08:21:24\", \"@valeur\": \"1.893\"}]",
-    "geom": {
-      "lon": -1.62836,
-      "lat": 46.46783
-    },
-    "gazole_maj": "2024-01-17T09:21:24+01:00",
-    "gazole_prix": "1.778",
-    "sp95_maj": "2024-01-17T09:21:24+01:00",
-    "sp95_prix": "1.893",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Lavage automatique",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Vendée",
     "code_departement": "85",

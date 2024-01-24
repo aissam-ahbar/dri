@@ -1,53 +1,5 @@
 [
   {
-    "id": 13140001,
-    "latitude": "4357594",
-    "longitude": 499821,
-    "cp": "13140",
-    "pop": "R",
-    "adresse": "Boulevard Jacques Minet",
-    "ville": "Miramas",
-    "horaires": null,
-    "services": "{\"service\": [\"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:22:15\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 09:22:15\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 09:22:15\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 09:22:16\", \"@valeur\": \"1.809\"}]",
-    "geom": {
-      "lon": 4.99821,
-      "lat": 43.57594
-    },
-    "gazole_maj": "2024-01-22T10:22:15+01:00",
-    "gazole_prix": "1.689",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-22T10:22:15+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-22T10:22:15+01:00",
-    "e10_prix": "1.719",
-    "sp98_maj": "2024-01-22T10:22:16+01:00",
-    "sp98_prix": "1.809",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 13140002,
     "latitude": "4359300",
     "longitude": 500400,
@@ -95,6 +47,54 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 13140001,
+    "latitude": "4357594",
+    "longitude": 499821,
+    "cp": "13140",
+    "pop": "R",
+    "adresse": "Boulevard Jacques Minet",
+    "ville": "Miramas",
+    "horaires": null,
+    "services": "{\"service\": [\"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 09:05:37\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-23 09:05:37\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-23 09:05:37\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 09:05:38\", \"@valeur\": \"1.809\"}]",
+    "geom": {
+      "lon": 4.99821,
+      "lat": 43.57594
+    },
+    "gazole_maj": "2024-01-23T10:05:37+01:00",
+    "gazole_prix": "1.699",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-23T10:05:37+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-23T10:05:37+01:00",
+    "e10_prix": "1.719",
+    "sp98_maj": "2024-01-23T10:05:38+01:00",
+    "sp98_prix": "1.809",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",
@@ -165,23 +165,23 @@
     "ville": "Miramas",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 00:01:00\", \"@valeur\": \"1.693\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-23 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-23 00:01:00\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 00:01:00\", \"@valeur\": \"1.831\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 00:01:00\", \"@valeur\": \"1.700\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-24 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 00:01:00\", \"@valeur\": \"1.744\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 00:01:00\", \"@valeur\": \"1.836\"}]",
     "geom": {
       "lon": 4.997,
       "lat": 43.594
     },
-    "gazole_maj": "2024-01-23T01:01:00+01:00",
-    "gazole_prix": "1.693",
+    "gazole_maj": "2024-01-24T01:01:00+01:00",
+    "gazole_prix": "1.700",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-23T01:01:00+01:00",
+    "e85_maj": "2024-01-24T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-23T01:01:00+01:00",
-    "e10_prix": "1.740",
-    "sp98_maj": "2024-01-23T01:01:00+01:00",
-    "sp98_prix": "1.831",
+    "e10_maj": "2024-01-24T01:01:00+01:00",
+    "e10_prix": "1.744",
+    "sp98_maj": "2024-01-24T01:01:00+01:00",
+    "sp98_prix": "1.836",
     "carburants_disponibles": [
       "Gazole",
       "E85",
