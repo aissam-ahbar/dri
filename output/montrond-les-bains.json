@@ -1,5 +1,51 @@
 [
   {
+    "id": 42210001,
+    "latitude": "4564400",
+    "longitude": 423400,
+    "cp": "42210",
+    "pop": "R",
+    "adresse": "114 Rue du Rival",
+    "ville": "Montrond-les-Bains",
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 08:43:14\", \"@valeur\": \"1.751\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 09:15:26\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 08:32:53\", \"@valeur\": \"1.891\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.234,
+      "lat": 45.644
+    },
+    "gazole_maj": "2024-01-24T09:43:14+01:00",
+    "gazole_prix": "1.751",
+    "sp95_maj": "2024-01-22T10:15:26+01:00",
+    "sp95_prix": "1.855",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-23T09:32:53+01:00",
+    "sp98_prix": "1.891",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Loire",
+    "code_departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 42210003,
     "latitude": "4563477",
     "longitude": 423902,
@@ -7,9 +53,9 @@
     "pop": "R",
     "adresse": "444 route de Saint Etienne",
     "ville": "Montrond-les-Bains",
-    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 08:14:57\", \"@valeur\": \"1.827\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-11 16:26:24\", \"@valeur\": \"1.893\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-15 09:16:36\", \"@valeur\": \"1.098\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-11 16:26:24\", \"@valeur\": \"1.879\"}]",
+    "horaires": null,
     "geom": {
       "lon": 4.23902,
       "lat": 45.63477
@@ -48,52 +94,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loire",
-    "code_departement": "42",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 42210001,
-    "latitude": "4564400",
-    "longitude": 423400,
-    "cp": "42210",
-    "pop": "R",
-    "adresse": "114 Rue du Rival",
-    "ville": "Montrond-les-Bains",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:15:26\", \"@valeur\": \"1.787\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 09:15:26\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 08:32:53\", \"@valeur\": \"1.891\"}]",
-    "geom": {
-      "lon": 4.234,
-      "lat": 45.644
-    },
-    "gazole_maj": "2024-01-22T10:15:26+01:00",
-    "gazole_prix": "1.787",
-    "sp95_maj": "2024-01-22T10:15:26+01:00",
-    "sp95_prix": "1.855",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-23T09:32:53+01:00",
-    "sp98_prix": "1.891",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Loire",
     "code_departement": "42",

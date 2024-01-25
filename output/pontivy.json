@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "Avenue de la Libération",
     "ville": "Pontivy",
-    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 08:16:21\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 08:16:21\", \"@valeur\": \"1.791\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-23 19:13:43\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 08:16:22\", \"@valeur\": \"1.754\"}]",
+    "horaires": null,
     "geom": {
       "lon": -2.94579,
       "lat": 48.06831
@@ -48,6 +48,50 @@
     "code_region": "53"
   },
   {
+    "id": 56300005,
+    "latitude": "4805317.8995",
+    "longitude": -295900.321221,
+    "cp": "56300",
+    "pop": "R",
+    "adresse": "AVENUE DES CITES UNIES",
+    "ville": "Pontivy",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:01:59\", \"@valeur\": \"1.735\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 08:56:56\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-07-27 10:35:03\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 09:02:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 09:02:00\", \"@valeur\": \"1.869\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -2.95900321221,
+      "lat": 48.053178995
+    },
+    "gazole_maj": "2024-01-22T10:01:59+01:00",
+    "gazole_prix": "1.735",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-08T09:56:56+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": "2023-07-27T12:35:03+02:00",
+    "gplc_prix": "0.969",
+    "e10_maj": "2024-01-22T10:02:00+01:00",
+    "e10_prix": "1.754",
+    "sp98_maj": "2024-01-22T10:02:00+01:00",
+    "sp98_prix": "1.869",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Morbihan",
+    "code_departement": "56",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
     "id": 56300006,
     "latitude": "4808100",
     "longitude": -296700,
@@ -55,9 +99,9 @@
     "pop": "R",
     "adresse": "ROUTE DE MUR DE BRETAGNE",
     "ville": "Pontivy",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": -2.967,
       "lat": 48.081
@@ -95,44 +139,58 @@
     "code_region": "53"
   },
   {
-    "id": 56300005,
-    "latitude": "4805317.8995",
-    "longitude": -295900.321221,
+    "id": 56300004,
+    "latitude": "4805700",
+    "longitude": -296300,
     "cp": "56300",
     "pop": "R",
-    "adresse": "AVENUE DES CITES UNIES",
+    "adresse": "22 rue Albert de Mun",
     "ville": "Pontivy",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:01:59\", \"@valeur\": \"1.735\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 08:56:56\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-07-27 10:35:03\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 09:02:00\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 09:02:00\", \"@valeur\": \"1.869\"}]",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 19:26:46\", \"@valeur\": \"1.805\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-24 19:26:46\", \"@valeur\": \"1.867\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-24 19:26:46\", \"@valeur\": \"1.099\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": -2.95900321221,
-      "lat": 48.053178995
+      "lon": -2.963,
+      "lat": 48.057
     },
-    "gazole_maj": "2024-01-22T10:01:59+01:00",
-    "gazole_prix": "1.735",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-08T09:56:56+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": "2023-07-27T12:35:03+02:00",
-    "gplc_prix": "0.969",
-    "e10_maj": "2024-01-22T10:02:00+01:00",
-    "e10_prix": "1.754",
-    "sp98_maj": "2024-01-22T10:02:00+01:00",
-    "sp98_prix": "1.869",
+    "gazole_maj": "2024-01-24T20:26:46+01:00",
+    "gazole_prix": "1.805",
+    "sp95_maj": "2024-01-24T20:26:46+01:00",
+    "sp95_prix": "1.867",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-01-24T20:26:46+01:00",
+    "gplc_prix": "1.099",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_indisponibles": [
       "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
     "horaires_automate_24_24": "Non",
-    "services_service": null,
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Bar",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "DAB (Distributeur automatique de billets)"
+    ],
     "departement": "Morbihan",
     "code_departement": "56",
     "region": "Bretagne",
@@ -146,9 +204,9 @@
     "pop": "R",
     "adresse": "route de mur de bretagne",
     "ville": "Pontivy",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:51:49\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 09:51:49\", \"@valeur\": \"1.791\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 09:51:50\", \"@valeur\": \"1.754\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": -2.967,
       "lat": 48.081
@@ -193,9 +251,9 @@
     "pop": "R",
     "adresse": "35 Rue Général Quinivet",
     "ville": "Pontivy",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 11:10:03\", \"@valeur\": \"1.735\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 15:01:01\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 11:10:04\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 11:10:04\", \"@valeur\": \"1.869\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": -2.971,
       "lat": 48.069
@@ -236,64 +294,6 @@
     "code_region": "53"
   },
   {
-    "id": 56300004,
-    "latitude": "4805700",
-    "longitude": -296300,
-    "cp": "56300",
-    "pop": "R",
-    "adresse": "22 rue Albert de Mun",
-    "ville": "Pontivy",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 19:26:23\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-23 19:26:24\", \"@valeur\": \"1.867\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-23 19:26:24\", \"@valeur\": \"1.099\"}]",
-    "geom": {
-      "lon": -2.963,
-      "lat": 48.057
-    },
-    "gazole_maj": "2024-01-23T20:26:23+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-01-23T20:26:24+01:00",
-    "sp95_prix": "1.867",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-01-23T20:26:24+01:00",
-    "gplc_prix": "1.099",
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Bar",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Morbihan",
-    "code_departement": "56",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
     "id": 56300002,
     "latitude": "4808200",
     "longitude": -294600,
@@ -301,14 +301,14 @@
     "pop": "R",
     "adresse": "114 Avenue Général Leclerc",
     "ville": "Pontivy",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 07:18:17\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-23 07:18:17\", \"@valeur\": \"1.815\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 07:18:17\", \"@valeur\": \"1.925\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 07:57:04\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 07:57:04\", \"@valeur\": \"1.822\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 07:57:04\", \"@valeur\": \"1.932\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -2.946,
       "lat": 48.082
     },
-    "gazole_maj": "2024-01-23T08:18:17+01:00",
+    "gazole_maj": "2024-01-24T08:57:04+01:00",
     "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -316,10 +316,10 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-23T08:18:17+01:00",
-    "e10_prix": "1.815",
-    "sp98_maj": "2024-01-23T08:18:17+01:00",
-    "sp98_prix": "1.925",
+    "e10_maj": "2024-01-24T08:57:04+01:00",
+    "e10_prix": "1.822",
+    "sp98_maj": "2024-01-24T08:57:04+01:00",
+    "sp98_prix": "1.932",
     "carburants_disponibles": [
       "Gazole",
       "E10",

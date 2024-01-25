@@ -1,5 +1,54 @@
 [
   {
+    "id": 39500004,
+    "latitude": "4704700",
+    "longitude": 542700,
+    "cp": "39500",
+    "pop": "R",
+    "adresse": "RN 73",
+    "ville": "Tavaux",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 19:00:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 19:00:00\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 19:00:00\", \"@valeur\": \"1.957\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 5.427,
+      "lat": 47.047
+    },
+    "gazole_maj": "2024-01-24T20:00:00+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-24T20:00:00+01:00",
+    "e10_prix": "1.847",
+    "sp98_maj": "2024-01-24T20:00:00+01:00",
+    "sp98_prix": "1.957",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique non alimentaire",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Jura",
+    "code_departement": "39",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 39500001,
     "latitude": "4704162",
     "longitude": 541781,
@@ -7,15 +56,15 @@
     "pop": "R",
     "adresse": "Rue de Dole",
     "ville": "Tavaux",
-    "horaires": null,
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 12:28:24\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 11:29:37\", \"@valeur\": \"0.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 09:55:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-17 12:28:25\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 10:25:48\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 11:29:37\", \"@valeur\": \"0.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-11 09:55:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 10:25:48\", \"@valeur\": \"1.849\"}]",
+    "horaires": null,
     "geom": {
       "lon": 5.41781,
       "lat": 47.04162
     },
-    "gazole_maj": "2024-01-17T13:28:24+01:00",
-    "gazole_prix": "1.729",
+    "gazole_maj": "2024-01-24T11:25:48+01:00",
+    "gazole_prix": "1.739",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-01-16T12:29:37+01:00",
@@ -24,8 +73,8 @@
     "gplc_prix": null,
     "e10_maj": "2024-01-11T10:55:00+01:00",
     "e10_prix": "1.759",
-    "sp98_maj": "2024-01-17T13:28:25+01:00",
-    "sp98_prix": "1.829",
+    "sp98_maj": "2024-01-24T11:25:48+01:00",
+    "sp98_prix": "1.849",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -44,55 +93,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Jura",
-    "code_departement": "39",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 39500004,
-    "latitude": "4704700",
-    "longitude": 542700,
-    "cp": "39500",
-    "pop": "R",
-    "adresse": "RN 73",
-    "ville": "Tavaux",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 19:00:00\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 19:00:00\", \"@valeur\": \"1.842\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 19:00:00\", \"@valeur\": \"1.952\"}]",
-    "geom": {
-      "lon": 5.427,
-      "lat": 47.047
-    },
-    "gazole_maj": "2024-01-23T20:00:00+01:00",
-    "gazole_prix": "1.815",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-22T20:00:00+01:00",
-    "e10_prix": "1.842",
-    "sp98_maj": "2024-01-22T20:00:00+01:00",
-    "sp98_prix": "1.952",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique non alimentaire",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Automate CB 24/24"
     ],
     "departement": "Jura",
     "code_departement": "39",

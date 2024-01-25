@@ -1,5 +1,52 @@
 [
   {
+    "id": 60220002,
+    "latitude": "4965000",
+    "longitude": 172200,
+    "cp": "60220",
+    "pop": "R",
+    "adresse": "ROUTE D'HAUCOURT",
+    "ville": "Formerie",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 07:45:00\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 14:49:15\", \"@valeur\": \"1.767\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 07:45:00\", \"@valeur\": \"1.851\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 1.722,
+      "lat": 49.65
+    },
+    "gazole_maj": "2023-12-18T08:45:00+01:00",
+    "gazole_prix": "1.760",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-20T15:49:15+01:00",
+    "e10_prix": "1.767",
+    "sp98_maj": "2024-01-24T08:45:00+01:00",
+    "sp98_prix": "1.851",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Oise",
+    "code_departement": "60",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 60220006,
     "latitude": "4965200",
     "longitude": 172800,
@@ -7,25 +54,25 @@
     "pop": "R",
     "adresse": "2 RUE ALAVOINE",
     "ville": "Formerie",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 08:05:45\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-23 08:05:46\", \"@valeur\": \"1.886\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-23 08:05:46\", \"@valeur\": \"0.934\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 08:05:46\", \"@valeur\": \"1.930\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 09:19:27\", \"@valeur\": \"1.791\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-24 09:19:27\", \"@valeur\": \"1.902\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-24 09:19:28\", \"@valeur\": \"0.947\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 09:19:28\", \"@valeur\": \"1.947\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.728,
       "lat": 49.652
     },
-    "gazole_maj": "2024-01-23T09:05:45+01:00",
-    "gazole_prix": "1.774",
-    "sp95_maj": "2024-01-23T09:05:46+01:00",
-    "sp95_prix": "1.886",
-    "e85_maj": "2024-01-23T09:05:46+01:00",
-    "e85_prix": "0.934",
+    "gazole_maj": "2024-01-24T10:19:27+01:00",
+    "gazole_prix": "1.791",
+    "sp95_maj": "2024-01-24T10:19:27+01:00",
+    "sp95_prix": "1.902",
+    "e85_maj": "2024-01-24T10:19:28+01:00",
+    "e85_prix": "0.947",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-01-23T09:05:46+01:00",
-    "sp98_prix": "1.930",
+    "sp98_maj": "2024-01-24T10:19:28+01:00",
+    "sp98_prix": "1.947",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -43,53 +90,6 @@
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Oise",
-    "code_departement": "60",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 60220002,
-    "latitude": "4965000",
-    "longitude": 172200,
-    "cp": "60220",
-    "pop": "R",
-    "adresse": "ROUTE D'HAUCOURT",
-    "ville": "Formerie",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-18 07:45:00\", \"@valeur\": \"1.760\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 14:49:15\", \"@valeur\": \"1.767\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 07:55:00\", \"@valeur\": \"1.846\"}]",
-    "geom": {
-      "lon": 1.722,
-      "lat": 49.65
-    },
-    "gazole_maj": "2023-12-18T08:45:00+01:00",
-    "gazole_prix": "1.760",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-20T15:49:15+01:00",
-    "e10_prix": "1.767",
-    "sp98_maj": "2024-01-23T08:55:00+01:00",
-    "sp98_prix": "1.846",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Oise",
     "code_departement": "60",

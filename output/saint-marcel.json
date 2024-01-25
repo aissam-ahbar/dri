@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "5 rue du curtil canot",
     "ville": "Saint-Marcel",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": \"Automate CB 24/24\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 09:01:52\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-19 09:01:52\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-19 09:01:52\", \"@valeur\": \"1.835\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 4.8966289000000005,
       "lat": 46.7775404
@@ -46,6 +46,60 @@
     "code_region": "27"
   },
   {
+    "id": 56140002,
+    "latitude": "4780535.13848",
+    "longitude": -240226.431601,
+    "cp": "56140",
+    "pop": "R",
+    "adresse": "ZA DE LA PAVIOTAIE",
+    "ville": "Saint-Marcel",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 09:07:53\", \"@valeur\": \"1.713\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-24 09:07:55\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 09:07:59\", \"@valeur\": \"1.799\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -2.4022643160099997,
+      "lat": 47.805351384800005
+    },
+    "gazole_maj": "2024-01-24T10:07:53+01:00",
+    "gazole_prix": "1.713",
+    "sp95_maj": "2024-01-24T10:07:55+01:00",
+    "sp95_prix": "1.769",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-24T10:07:59+01:00",
+    "sp98_prix": "1.799",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Morbihan",
+    "code_departement": "56",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
     "id": 27950002,
     "latitude": "4910324",
     "longitude": 145322,
@@ -53,25 +107,25 @@
     "pop": "R",
     "adresse": "Rue des Prés",
     "ville": "Saint-Marcel",
-    "horaires": null,
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Piste poids lourds\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 08:41:13\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 08:41:13\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-22 08:41:13\", \"@valeur\": \"1.734\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 08:41:14\", \"@valeur\": \"1.800\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 08:39:59\", \"@valeur\": \"1.710\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-24 08:39:59\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 08:39:59\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 08:40:00\", \"@valeur\": \"1.810\"}]",
+    "horaires": null,
     "geom": {
       "lon": 1.45322,
       "lat": 49.10324
     },
-    "gazole_maj": "2024-01-22T09:41:13+01:00",
+    "gazole_maj": "2024-01-24T09:39:59+01:00",
     "gazole_prix": "1.710",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-22T09:41:13+01:00",
+    "e85_maj": "2024-01-24T09:39:59+01:00",
     "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-22T09:41:13+01:00",
-    "e10_prix": "1.734",
-    "sp98_maj": "2024-01-22T09:41:14+01:00",
-    "sp98_prix": "1.800",
+    "e10_maj": "2024-01-24T09:39:59+01:00",
+    "e10_prix": "1.750",
+    "sp98_maj": "2024-01-24T09:40:00+01:00",
+    "sp98_prix": "1.810",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -102,9 +156,9 @@
     "pop": "R",
     "adresse": "Route de Saint-Marin",
     "ville": "Saint-Marcel",
-    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": null,
+    "horaires": null,
     "geom": {
       "lon": 1.508,
       "lat": 46.604
@@ -136,59 +190,5 @@
     "code_departement": "36",
     "region": "Centre-Val de Loire",
     "code_region": "24"
-  },
-  {
-    "id": 56140002,
-    "latitude": "4780535.13848",
-    "longitude": -240226.431601,
-    "cp": "56140",
-    "pop": "R",
-    "adresse": "ZA DE LA PAVIOTAIE",
-    "ville": "Saint-Marcel",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 09:20:11\", \"@valeur\": \"1.703\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-23 09:20:12\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 09:20:12\", \"@valeur\": \"1.795\"}]",
-    "geom": {
-      "lon": -2.4022643160099997,
-      "lat": 47.805351384800005
-    },
-    "gazole_maj": "2024-01-23T10:20:11+01:00",
-    "gazole_prix": "1.703",
-    "sp95_maj": "2024-01-23T10:20:12+01:00",
-    "sp95_prix": "1.759",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-23T10:20:12+01:00",
-    "sp98_prix": "1.795",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Morbihan",
-    "code_departement": "56",
-    "region": "Bretagne",
-    "code_region": "53"
   }
 ]

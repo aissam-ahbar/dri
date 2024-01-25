@@ -1,5 +1,64 @@
 [
   {
+    "id": 91200001,
+    "latitude": "4871200",
+    "longitude": 237100,
+    "cp": "91200",
+    "pop": "R",
+    "adresse": "180 ROUTE NATIONALE 7",
+    "ville": "Paray-Vieille-Poste",
+    "services": "{\"service\": [\"Restauration à emporter\", \"Carburant additivé\", \"Restauration sur place\", \"Boutique alimentaire\", \"Station de gonflage\", \"Boutique non alimentaire\", \"Services réparation / entretien\", \"Location de véhicule\", \"Relais colis\", \"DAB (Distributeur automatique de billets)\", \"Lavage automatique\", \"Lavage manuel\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 13:21:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-24 13:21:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-24 13:21:00\", \"@valeur\": \"0.965\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 13:21:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 13:21:00\", \"@valeur\": \"1.887\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "geom": {
+      "lon": 2.371,
+      "lat": 48.712
+    },
+    "gazole_maj": "2024-01-24T14:21:00+01:00",
+    "gazole_prix": "1.769",
+    "sp95_maj": "2024-01-24T14:21:00+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": "2024-01-24T14:21:00+01:00",
+    "e85_prix": "0.965",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-24T14:21:00+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2024-01-24T14:21:00+01:00",
+    "sp98_prix": "1.887",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Restauration à emporter",
+      "Carburant additivé",
+      "Restauration sur place",
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Boutique non alimentaire",
+      "Services réparation / entretien",
+      "Location de véhicule",
+      "Relais colis",
+      "DAB (Distributeur automatique de billets)",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Bornes électriques",
+      "Automate CB 24/24"
+    ],
+    "departement": "Essonne",
+    "code_departement": "91",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 94542003,
     "latitude": "4873237.06",
     "longitude": 236570.66,
@@ -7,9 +66,9 @@
     "pop": "R",
     "adresse": "SARL Jaby, ORLY Ouest 453",
     "ville": "Paray-Vieille-Poste",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-13 06:00:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-13 06:00:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-13 06:00:00\", \"@valeur\": \"1.210\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-13 06:00:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-13 06:06:00\", \"@valeur\": \"1.969\"}]",
+    "horaires": null,
     "geom": {
       "lon": 2.3657066,
       "lat": 48.732370599999996
@@ -49,65 +108,6 @@
       "Lavage manuel",
       "Espace bébé",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Essonne",
-    "code_departement": "91",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 91200001,
-    "latitude": "4871200",
-    "longitude": 237100,
-    "cp": "91200",
-    "pop": "R",
-    "adresse": "180 ROUTE NATIONALE 7",
-    "ville": "Paray-Vieille-Poste",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Restauration à emporter\", \"Carburant additivé\", \"Restauration sur place\", \"Boutique alimentaire\", \"Station de gonflage\", \"Boutique non alimentaire\", \"Services réparation / entretien\", \"Location de véhicule\", \"Relais colis\", \"DAB (Distributeur automatique de billets)\", \"Lavage automatique\", \"Lavage manuel\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 00:27:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-24 00:27:00\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-24 00:27:00\", \"@valeur\": \"0.965\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 00:27:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 00:27:00\", \"@valeur\": \"1.887\"}]",
-    "geom": {
-      "lon": 2.371,
-      "lat": 48.712
-    },
-    "gazole_maj": "2024-01-24T01:27:00+01:00",
-    "gazole_prix": "1.759",
-    "sp95_maj": "2024-01-24T01:27:00+01:00",
-    "sp95_prix": "1.818",
-    "e85_maj": "2024-01-24T01:27:00+01:00",
-    "e85_prix": "0.965",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-24T01:27:00+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": "2024-01-24T01:27:00+01:00",
-    "sp98_prix": "1.887",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Restauration à emporter",
-      "Carburant additivé",
-      "Restauration sur place",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Boutique non alimentaire",
-      "Services réparation / entretien",
-      "Location de véhicule",
-      "Relais colis",
-      "DAB (Distributeur automatique de billets)",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Bornes électriques",
-      "Automate CB 24/24"
     ],
     "departement": "Essonne",
     "code_departement": "91",
