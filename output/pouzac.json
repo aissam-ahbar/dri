@@ -1,5 +1,57 @@
 [
   {
+    "id": 65200005,
+    "latitude": "4308000",
+    "longitude": 14000,
+    "cp": "65200",
+    "pop": "R",
+    "adresse": "83 Avenue de la Mongie",
+    "ville": "Pouzac",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 08:29:03\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 08:29:04\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 08:29:04\", \"@valeur\": \"1.868\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 0.14,
+      "lat": 43.08
+    },
+    "gazole_maj": "2024-01-25T09:29:03+01:00",
+    "gazole_prix": "1.765",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-25T09:29:04+01:00",
+    "e10_prix": "1.785",
+    "sp98_maj": "2024-01-25T09:29:04+01:00",
+    "sp98_prix": "1.868",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Hautes-Pyrénées",
+    "code_departement": "65",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 65200006,
     "latitude": "4308100",
     "longitude": 13900,
@@ -39,58 +91,6 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"
-    ],
-    "departement": "Hautes-Pyrénées",
-    "code_departement": "65",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 65200005,
-    "latitude": "4308000",
-    "longitude": 14000,
-    "cp": "65200",
-    "pop": "R",
-    "adresse": "83 Avenue de la Mongie",
-    "ville": "Pouzac",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-18 08:57:59\", \"@valeur\": \"1.752\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-05 09:36:04\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-18 08:58:00\", \"@valeur\": \"1.853\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 0.14,
-      "lat": 43.08
-    },
-    "gazole_maj": "2024-01-18T09:57:59+01:00",
-    "gazole_prix": "1.752",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-05T10:36:04+01:00",
-    "e10_prix": "1.775",
-    "sp98_maj": "2024-01-18T09:58:00+01:00",
-    "sp98_prix": "1.853",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Hautes-Pyrénées",
     "code_departement": "65",
