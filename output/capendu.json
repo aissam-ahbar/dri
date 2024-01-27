@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "LIEU DIT \"ROC DEL DIE\"",
     "ville": "Capendu",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 08:53:54\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 08:53:55\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 08:53:55\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 08:53:55\", \"@valeur\": \"1.839\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.5643900511237,
       "lat": 43.188075466812
@@ -51,14 +51,14 @@
     "pop": "R",
     "adresse": "RN113",
     "ville": "Capendu",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 14:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 14:00:00\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 14:00:00\", \"@valeur\": \"2.059\"}]",
     "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 14:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 14:00:00\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 14:00:00\", \"@valeur\": \"2.059\"}]",
     "geom": {
       "lon": 2.5573,
       "lat": 43.18546
     },
-    "gazole_maj": "2024-01-25T15:00:00+01:00",
+    "gazole_maj": "2024-01-26T15:00:00+01:00",
     "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -66,9 +66,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-25T15:00:00+01:00",
-    "e10_prix": "1.999",
-    "sp98_maj": "2024-01-25T15:00:00+01:00",
+    "e10_maj": "2024-01-26T15:00:00+01:00",
+    "e10_prix": "1.949",
+    "sp98_maj": "2024-01-26T15:00:00+01:00",
     "sp98_prix": "2.059",
     "carburants_disponibles": [
       "Gazole",
@@ -90,58 +90,6 @@
     "code_region": "76"
   },
   {
-    "id": 11700007,
-    "latitude": "4318529.45",
-    "longitude": 256117.71,
-    "cp": "11700",
-    "pop": "A",
-    "adresse": "Aire des corbières SUD A61",
-    "ville": "Capendu",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Piste poids lourds\", \"Espace bébé\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 22:00:00\", \"@valeur\": \"1.884\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-23 22:00:00\", \"@valeur\": \"1.196\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 22:00:00\", \"@valeur\": \"1.904\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 22:00:00\", \"@valeur\": \"2.004\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "geom": {
-      "lon": 2.5611771,
-      "lat": 43.185294500000005
-    },
-    "gazole_maj": "2024-01-22T23:00:00+01:00",
-    "gazole_prix": "1.884",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-23T23:00:00+01:00",
-    "e85_prix": "1.196",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2023-12-20T23:00:00+01:00",
-    "e10_prix": "1.904",
-    "sp98_maj": "2023-12-20T23:00:00+01:00",
-    "sp98_prix": "2.004",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Boutique alimentaire",
-      "Restauration à emporter",
-      "Piste poids lourds",
-      "Espace bébé",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aude",
-    "code_departement": "11",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 11700008,
     "latitude": "4317845.5886132",
     "longitude": 254326.53081988,
@@ -149,9 +97,9 @@
     "pop": "A",
     "adresse": "A61 Aire des Corbières Nord",
     "ville": "Capendu",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 06:00:00\", \"@valeur\": \"1.874\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-24 06:00:00\", \"@valeur\": \"1.196\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 06:00:00\", \"@valeur\": \"1.934\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 06:00:00\", \"@valeur\": \"2.034\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 2.5432653081987997,
       "lat": 43.178455886132
@@ -190,6 +138,58 @@
       "Vente d'additifs carburants",
       "Wifi",
       "Automate CB 24/24"
+    ],
+    "departement": "Aude",
+    "code_departement": "11",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 11700007,
+    "latitude": "4318529.45",
+    "longitude": 256117.71,
+    "cp": "11700",
+    "pop": "A",
+    "adresse": "Aire des corbières SUD A61",
+    "ville": "Capendu",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Piste poids lourds\", \"Espace bébé\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 22:00:00\", \"@valeur\": \"1.884\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-23 22:00:00\", \"@valeur\": \"1.196\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 22:00:00\", \"@valeur\": \"1.904\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 22:00:00\", \"@valeur\": \"2.004\"}]",
+    "geom": {
+      "lon": 2.5611771,
+      "lat": 43.185294500000005
+    },
+    "gazole_maj": "2024-01-22T23:00:00+01:00",
+    "gazole_prix": "1.884",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-11-23T23:00:00+01:00",
+    "e85_prix": "1.196",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2023-12-20T23:00:00+01:00",
+    "e10_prix": "1.904",
+    "sp98_maj": "2023-12-20T23:00:00+01:00",
+    "sp98_prix": "2.004",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Boutique alimentaire",
+      "Restauration à emporter",
+      "Piste poids lourds",
+      "Espace bébé",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aude",
     "code_departement": "11",

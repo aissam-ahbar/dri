@@ -1,5 +1,54 @@
 [
   {
+    "id": 83700003,
+    "latitude": "4342700",
+    "longitude": 678400,
+    "cp": "83700",
+    "pop": "R",
+    "adresse": "Boulevard Jean Moulin",
+    "ville": "Saint-Raphaël",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 07:43:37\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-26 07:43:37\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 07:43:38\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 07:43:38\", \"@valeur\": \"1.959\"}]",
+    "geom": {
+      "lon": 6.784,
+      "lat": 43.427
+    },
+    "gazole_maj": "2024-01-26T08:43:37+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-26T08:43:37+01:00",
+    "e85_prix": "0.999",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-26T08:43:38+01:00",
+    "e10_prix": "1.879",
+    "sp98_maj": "2024-01-26T08:43:38+01:00",
+    "sp98_prix": "1.959",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 83700004,
     "latitude": "4343285",
     "longitude": 680672,
@@ -7,23 +56,23 @@
     "pop": "R",
     "adresse": "Boulevard de l'Aspé",
     "ville": "Saint-Raphaël",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 07:23:26\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-25 07:23:26\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 07:23:26\", \"@valeur\": \"0.969\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-04 07:18:58\", \"@valeur\": \"0.960\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 07:23:26\", \"@valeur\": \"1.819\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 07:23:00\", \"@valeur\": \"1.753\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-26 07:23:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 07:23:26\", \"@valeur\": \"0.969\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-04 07:18:58\", \"@valeur\": \"0.960\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 07:23:00\", \"@valeur\": \"1.829\"}]",
     "geom": {
       "lon": 6.80672,
       "lat": 43.43285
     },
-    "gazole_maj": "2024-01-25T08:23:26+01:00",
-    "gazole_prix": "1.745",
-    "sp95_maj": "2024-01-25T08:23:26+01:00",
-    "sp95_prix": "1.849",
+    "gazole_maj": "2024-01-26T08:23:00+01:00",
+    "gazole_prix": "1.753",
+    "sp95_maj": "2024-01-26T08:23:00+01:00",
+    "sp95_prix": "1.859",
     "e85_maj": "2024-01-25T08:23:26+01:00",
     "e85_prix": "0.969",
     "gplc_maj": "2024-01-04T08:18:58+01:00",
     "gplc_prix": "0.960",
-    "e10_maj": "2024-01-25T08:23:26+01:00",
-    "e10_prix": "1.819",
+    "e10_maj": "2024-01-26T08:23:00+01:00",
+    "e10_prix": "1.829",
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
@@ -50,55 +99,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 83700003,
-    "latitude": "4342700",
-    "longitude": 678400,
-    "cp": "83700",
-    "pop": "R",
-    "adresse": "Boulevard Jean Moulin",
-    "ville": "Saint-Raphaël",
-    "services": "{\"service\": [\"Relais colis\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 07:35:56\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 08:59:54\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-16 08:59:55\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 09:20:24\", \"@valeur\": \"1.949\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "geom": {
-      "lon": 6.784,
-      "lat": 43.427
-    },
-    "gazole_maj": "2024-01-24T08:35:56+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-16T09:59:54+01:00",
-    "e85_prix": "0.989",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-16T09:59:55+01:00",
-    "e10_prix": "1.869",
-    "sp98_maj": "2024-01-25T10:20:24+01:00",
-    "sp98_prix": "1.949",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Var",

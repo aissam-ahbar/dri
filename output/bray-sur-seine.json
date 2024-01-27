@@ -1,5 +1,49 @@
 [
   {
+    "id": 77480002,
+    "latitude": "4841421",
+    "longitude": 324178,
+    "cp": "77480",
+    "pop": "R",
+    "adresse": "82 AVENUE DE LA LIBERATION",
+    "ville": "Bray-sur-Seine",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 10:55:44\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-26 10:55:45\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 10:55:45\", \"@valeur\": \"1.839\"}]",
+    "geom": {
+      "lon": 3.24178,
+      "lat": 48.41421
+    },
+    "gazole_maj": "2024-01-26T11:55:44+01:00",
+    "gazole_prix": "1.740",
+    "sp95_maj": "2024-01-26T11:55:45+01:00",
+    "sp95_prix": "1.789",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-26T11:55:45+01:00",
+    "sp98_prix": "1.839",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 77480001,
     "latitude": "4841400",
     "longitude": 323900,
@@ -7,9 +51,9 @@
     "pop": "R",
     "adresse": "RUE DE LA SUCRERIE",
     "ville": "Bray-sur-Seine",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": \"Automate CB 24/24\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 10:40:51\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-25 10:40:51\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 10:40:52\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 10:40:52\", \"@valeur\": \"1.969\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.239,
       "lat": 48.414
@@ -40,50 +84,6 @@
     "services_service": [
       "Automate CB 24/24"
     ],
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 77480002,
-    "latitude": "4841421",
-    "longitude": 324178,
-    "cp": "77480",
-    "pop": "R",
-    "adresse": "82 AVENUE DE LA LIBERATION",
-    "ville": "Bray-sur-Seine",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 16:00:50\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-10 12:19:55\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-10 12:19:55\", \"@valeur\": \"1.829\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 3.24178,
-      "lat": 48.41421
-    },
-    "gazole_maj": "2024-01-23T17:00:50+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": "2024-01-10T13:19:55+01:00",
-    "sp95_prix": "1.779",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-10T13:19:55+01:00",
-    "sp98_prix": "1.829",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",

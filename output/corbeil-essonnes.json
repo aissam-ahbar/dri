@@ -1,5 +1,53 @@
 [
   {
+    "id": 91100019,
+    "latitude": "4861113.6939679",
+    "longitude": 245211.81995589,
+    "cp": "91100",
+    "pop": "R",
+    "adresse": "46 avenue du 8 mai 1945",
+    "ville": "Corbeil-Essonnes",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 11:07:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 11:07:00\", \"@valeur\": \"1.797\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 11:07:00\", \"@valeur\": \"1.877\"}]",
+    "geom": {
+      "lon": 2.4521181995589,
+      "lat": 48.611136939679
+    },
+    "gazole_maj": "2024-01-26T12:07:00+01:00",
+    "gazole_prix": "1.768",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-26T12:07:00+01:00",
+    "e10_prix": "1.797",
+    "sp98_maj": "2024-01-26T12:07:00+01:00",
+    "sp98_prix": "1.877",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Essonne",
+    "code_departement": "91",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 91100020,
     "latitude": "4861400",
     "longitude": 248000,
@@ -7,9 +55,9 @@
     "pop": "R",
     "adresse": "18 BOULEVARD JEAN JAURES",
     "ville": "Corbeil-Essonnes",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-20 07:18:59\", \"@valeur\": \"1.900\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-12-20 07:19:00\", \"@valeur\": \"1.950\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 07:19:00\", \"@valeur\": \"1.980\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 2.48,
       "lat": 48.614
@@ -61,54 +109,6 @@
     "code_region": "11"
   },
   {
-    "id": 91100019,
-    "latitude": "4861113.6939679",
-    "longitude": 245211.81995589,
-    "cp": "91100",
-    "pop": "R",
-    "adresse": "46 avenue du 8 mai 1945",
-    "ville": "Corbeil-Essonnes",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 03:02:00\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 03:02:00\", \"@valeur\": \"1.787\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 03:02:00\", \"@valeur\": \"1.867\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "geom": {
-      "lon": 2.4521181995589,
-      "lat": 48.611136939679
-    },
-    "gazole_maj": "2024-01-25T04:02:00+01:00",
-    "gazole_prix": "1.768",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-25T04:02:00+01:00",
-    "e10_prix": "1.787",
-    "sp98_maj": "2024-01-25T04:02:00+01:00",
-    "sp98_prix": "1.867",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Essonne",
-    "code_departement": "91",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 91100016,
     "latitude": "4860800",
     "longitude": 244900,
@@ -116,25 +116,25 @@
     "pop": "R",
     "adresse": "RUE SIGMUND FREUD",
     "ville": "Corbeil-Essonnes",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 00:01:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 00:01:00\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 00:01:00\", \"@valeur\": \"1.872\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-27 00:01:00\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-27 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-27 00:01:00\", \"@valeur\": \"1.808\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-27 00:01:00\", \"@valeur\": \"1.887\"}]",
     "geom": {
       "lon": 2.449,
       "lat": 48.608
     },
-    "gazole_maj": "2024-01-25T01:01:00+01:00",
-    "gazole_prix": "1.769",
+    "gazole_maj": "2024-01-27T01:01:00+01:00",
+    "gazole_prix": "1.780",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-25T01:01:00+01:00",
+    "e85_maj": "2024-01-27T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-25T01:01:00+01:00",
-    "e10_prix": "1.788",
-    "sp98_maj": "2024-01-25T01:01:00+01:00",
-    "sp98_prix": "1.872",
+    "e10_maj": "2024-01-27T01:01:00+01:00",
+    "e10_prix": "1.808",
+    "sp98_maj": "2024-01-27T01:01:00+01:00",
+    "sp98_prix": "1.887",
     "carburants_disponibles": [
       "Gazole",
       "E85",

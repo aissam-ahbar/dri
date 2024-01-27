@@ -1,5 +1,54 @@
 [
   {
+    "id": 62860002,
+    "latitude": "5021500",
+    "longitude": 306700,
+    "cp": "62860",
+    "pop": "R",
+    "adresse": "ROUTE DEPARTEMENTAL CD 939",
+    "ville": "Baralle",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Lavage manuel\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 09:15:39\", \"@valeur\": \"1.717\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 09:15:40\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 07:35:23\", \"@valeur\": \"1.800\"}]",
+    "geom": {
+      "lon": 3.067,
+      "lat": 50.215
+    },
+    "gazole_maj": "2024-01-24T10:15:39+01:00",
+    "gazole_prix": "1.717",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-24T10:15:40+01:00",
+    "e10_prix": "1.735",
+    "sp98_maj": "2024-01-23T08:35:23+01:00",
+    "sp98_prix": "1.800",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Lavage manuel",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 62860007,
     "latitude": "5022500",
     "longitude": 306900,
@@ -7,9 +56,9 @@
     "pop": "A",
     "adresse": "AIRE DE BARALLE AUTOROUTE A 26",
     "ville": "Baralle",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Bornes électriques\", \"Wifi\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-17 06:00:00\", \"@valeur\": \"1.800\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-17 06:00:00\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-17 06:00:00\", \"@valeur\": \"1.930\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 3.069,
       "lat": 50.225
@@ -52,55 +101,6 @@
       "Bornes électriques",
       "Wifi",
       "Automate CB 24/24"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 62860002,
-    "latitude": "5021500",
-    "longitude": 306700,
-    "cp": "62860",
-    "pop": "R",
-    "adresse": "ROUTE DEPARTEMENTAL CD 939",
-    "ville": "Baralle",
-    "services": "{\"service\": [\"Station de gonflage\", \"Lavage manuel\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 09:15:39\", \"@valeur\": \"1.717\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-24 09:15:40\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 07:35:23\", \"@valeur\": \"1.800\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 3.067,
-      "lat": 50.215
-    },
-    "gazole_maj": "2024-01-24T10:15:39+01:00",
-    "gazole_prix": "1.717",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-24T10:15:40+01:00",
-    "e10_prix": "1.735",
-    "sp98_maj": "2024-01-23T08:35:23+01:00",
-    "sp98_prix": "1.800",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Lavage manuel",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",
