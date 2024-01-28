@@ -9,15 +9,15 @@
     "ville": "Bousies",
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 08:28:29\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-12 08:28:29\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 11:19:04\", \"@valeur\": \"1.835\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-12 08:28:29\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-26 11:19:04\", \"@valeur\": \"1.835\"}]",
     "geom": {
       "lon": 3.62274425254,
       "lat": 50.15089137179999
     },
     "gazole_maj": "2024-01-12T09:28:29+01:00",
     "gazole_prix": "1.719",
-    "sp95_maj": "2024-01-12T09:28:29+01:00",
-    "sp95_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -28,10 +28,10 @@
     "sp98_prix": "1.835",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "E10"

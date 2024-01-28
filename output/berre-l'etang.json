@@ -9,23 +9,23 @@
     "ville": "Berre-l'Étang",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Douches\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 23:40:09\", \"@valeur\": \"1.719\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 23:40:09\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 23:40:09\", \"@valeur\": \"1.835\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-27 17:26:19\", \"@valeur\": \"1.730\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-27 17:26:20\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-27 17:26:20\", \"@valeur\": \"1.838\"}]",
     "geom": {
       "lon": 5.2,
       "lat": 43.519
     },
-    "gazole_maj": "2024-01-26T00:40:09+01:00",
-    "gazole_prix": "1.719",
+    "gazole_maj": "2024-01-27T18:26:19+01:00",
+    "gazole_prix": "1.730",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-26T00:40:09+01:00",
-    "e10_prix": "1.746",
-    "sp98_maj": "2024-01-26T00:40:09+01:00",
-    "sp98_prix": "1.835",
+    "e10_maj": "2024-01-27T18:26:20+01:00",
+    "e10_prix": "1.749",
+    "sp98_maj": "2024-01-27T18:26:20+01:00",
+    "sp98_prix": "1.838",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -44,6 +44,54 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 13130002,
+    "latitude": "4348942",
+    "longitude": 517369,
+    "cp": "13130",
+    "pop": "R",
+    "adresse": "Boulevard Henri Wallon",
+    "ville": "Berre-l'Étang",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 19:20:29\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-23 19:20:29\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-18 16:08:13\", \"@valeur\": \"1.767\"}]",
+    "geom": {
+      "lon": 5.17369,
+      "lat": 43.48942
+    },
+    "gazole_maj": "2024-01-23T20:20:29+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-23T20:20:29+01:00",
+    "e85_prix": "1.769",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-18T17:08:13+01:00",
+    "e10_prix": "1.767",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Bouches-du-Rhône",
@@ -98,54 +146,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13130002,
-    "latitude": "4348942",
-    "longitude": 517369,
-    "cp": "13130",
-    "pop": "R",
-    "adresse": "Boulevard Henri Wallon",
-    "ville": "Berre-l'Étang",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 19:20:29\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-23 19:20:29\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-18 16:08:13\", \"@valeur\": \"1.767\"}]",
-    "geom": {
-      "lon": 5.17369,
-      "lat": 43.48942
-    },
-    "gazole_maj": "2024-01-23T20:20:29+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-23T20:20:29+01:00",
-    "e85_prix": "1.769",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-18T17:08:13+01:00",
-    "e10_prix": "1.767",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Bouches-du-Rhône",

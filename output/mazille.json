@@ -9,7 +9,7 @@
     "ville": "Mazille",
     "horaires": null,
     "services": "{\"service\": [\"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Piste poids lourds\", \"Espace bébé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 09:00:00\", \"@valeur\": \"1.857\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-26 09:00:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 09:00:00\", \"@valeur\": \"1.867\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 09:00:00\", \"@valeur\": \"1.977\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 09:00:00\", \"@valeur\": \"1.857\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-26 09:00:00\", \"@valeur\": \"0.919\"}]",
     "geom": {
       "lon": 4.60698495534,
       "lat": 46.3772049457
@@ -22,19 +22,19 @@
     "e85_prix": "0.919",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-26T10:00:00+01:00",
-    "e10_prix": "1.867",
-    "sp98_maj": "2024-01-26T10:00:00+01:00",
-    "sp98_prix": "1.977",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "E10",
-      "SP98"
+      "E85"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

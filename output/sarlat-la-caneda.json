@@ -1,5 +1,53 @@
 [
   {
+    "id": 24200001,
+    "latitude": "4492000",
+    "longitude": 120600,
+    "cp": "24200",
+    "pop": "R",
+    "adresse": "Route de Brive",
+    "ville": "Sarlat-la-Canéda",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:32:16\", \"@valeur\": \"1.755\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 09:32:17\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 09:32:17\", \"@valeur\": \"1.859\"}]",
+    "geom": {
+      "lon": 1.206,
+      "lat": 44.92
+    },
+    "gazole_maj": "2024-01-22T10:32:16+01:00",
+    "gazole_prix": "1.755",
+    "sp95_maj": "2024-01-22T10:32:17+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-22T10:32:17+01:00",
+    "sp98_prix": "1.859",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Dordogne",
+    "code_departement": "24",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 24200007,
     "latitude": "4490000",
     "longitude": 121200,
@@ -48,54 +96,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
-    ],
-    "departement": "Dordogne",
-    "code_departement": "24",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 24200006,
-    "latitude": "4487349",
-    "longitude": 123042,
-    "cp": "24200",
-    "pop": "R",
-    "adresse": "Chemin des Sables",
-    "ville": "Sarlat-la-Canéda",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 10:13:41\", \"@valeur\": \"1.715\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"1.839\"}]",
-    "geom": {
-      "lon": 1.23042,
-      "lat": 44.87349
-    },
-    "gazole_maj": "2024-01-25T11:13:41+01:00",
-    "gazole_prix": "1.715",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-25T11:13:42+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": "2024-01-25T11:13:42+01:00",
-    "gplc_prix": "0.990",
-    "e10_maj": "2024-01-25T11:13:42+01:00",
-    "e10_prix": "1.748",
-    "sp98_maj": "2024-01-25T11:13:42+01:00",
-    "sp98_prix": "1.839",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Dordogne",
     "code_departement": "24",
@@ -155,46 +155,46 @@
     "code_region": "75"
   },
   {
-    "id": 24200001,
-    "latitude": "4492000",
-    "longitude": 120600,
+    "id": 24200006,
+    "latitude": "4487349",
+    "longitude": 123042,
     "cp": "24200",
     "pop": "R",
-    "adresse": "Route de Brive",
+    "adresse": "Chemin des Sables",
     "ville": "Sarlat-la-Canéda",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 09:32:16\", \"@valeur\": \"1.755\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 09:32:17\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-22 09:32:17\", \"@valeur\": \"1.859\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 10:13:41\", \"@valeur\": \"1.715\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 10:13:42\", \"@valeur\": \"1.839\"}]",
     "geom": {
-      "lon": 1.206,
-      "lat": 44.92
+      "lon": 1.23042,
+      "lat": 44.87349
     },
-    "gazole_maj": "2024-01-22T10:32:16+01:00",
-    "gazole_prix": "1.755",
-    "sp95_maj": "2024-01-22T10:32:17+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-22T10:32:17+01:00",
-    "sp98_prix": "1.859",
+    "gazole_maj": "2024-01-25T11:13:41+01:00",
+    "gazole_prix": "1.715",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-25T11:13:42+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": "2024-01-25T11:13:42+01:00",
+    "gplc_prix": "0.990",
+    "e10_maj": "2024-01-25T11:13:42+01:00",
+    "e10_prix": "1.748",
+    "sp98_maj": "2024-01-25T11:13:42+01:00",
+    "sp98_prix": "1.839",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
+      "E85",
+      "GPLc",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
+      "SP95"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
+      "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Dordogne",

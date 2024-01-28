@@ -1,31 +1,31 @@
 [
   {
-    "id": 63300002,
-    "latitude": "4585500",
-    "longitude": 350800,
+    "id": 63300005,
+    "latitude": "4584300",
+    "longitude": 351700,
     "cp": "63300",
     "pop": "R",
-    "adresse": "Z.i. le Felet",
+    "adresse": "22 Avenue du Général de Gaulle",
     "ville": "Thiers",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Piste poids lourds\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 19:00:53\", \"@valeur\": \"1.861\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 19:00:53\", \"@valeur\": \"1.872\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 19:00:53\", \"@valeur\": \"1.982\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Restauration à emporter\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 10:09:28\", \"@valeur\": \"1.745\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 10:09:28\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 10:09:28\", \"@valeur\": \"1.868\"}]",
     "geom": {
-      "lon": 3.508,
-      "lat": 45.855
+      "lon": 3.517,
+      "lat": 45.843
     },
-    "gazole_maj": "2024-01-26T20:00:53+01:00",
-    "gazole_prix": "1.861",
+    "gazole_maj": "2024-01-26T11:09:28+01:00",
+    "gazole_prix": "1.745",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-26T20:00:53+01:00",
-    "e10_prix": "1.872",
-    "sp98_maj": "2024-01-26T20:00:53+01:00",
-    "sp98_prix": "1.982",
+    "e10_maj": "2024-01-26T11:09:28+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2024-01-26T11:09:28+01:00",
+    "sp98_prix": "1.868",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,9 +36,16 @@
       "E85",
       "GPLc"
     ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Piste poids lourds"
+      "Toilettes publiques",
+      "Relais colis",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Puy-de-Dôme",
     "code_departement": "63",
@@ -98,21 +105,67 @@
     "code_region": "84"
   },
   {
-    "id": 63300005,
-    "latitude": "4584300",
-    "longitude": 351700,
+    "id": 63300002,
+    "latitude": "4585500",
+    "longitude": 350800,
     "cp": "63300",
     "pop": "R",
-    "adresse": "22 Avenue du Général de Gaulle",
+    "adresse": "Z.i. le Felet",
+    "ville": "Thiers",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Piste poids lourds\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 19:00:53\", \"@valeur\": \"1.861\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 19:00:53\", \"@valeur\": \"1.872\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 19:00:53\", \"@valeur\": \"1.982\"}]",
+    "geom": {
+      "lon": 3.508,
+      "lat": 45.855
+    },
+    "gazole_maj": "2024-01-26T20:00:53+01:00",
+    "gazole_prix": "1.861",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-26T20:00:53+01:00",
+    "e10_prix": "1.872",
+    "sp98_maj": "2024-01-26T20:00:53+01:00",
+    "sp98_prix": "1.982",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Piste poids lourds"
+    ],
+    "departement": "Puy-de-Dôme",
+    "code_departement": "63",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 63300004,
+    "latitude": "4584900",
+    "longitude": 353700,
+    "cp": "63300",
+    "pop": "R",
+    "adresse": "Avenue Léo Lagrange",
     "ville": "Thiers",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Restauration à emporter\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 10:09:28\", \"@valeur\": \"1.745\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 10:09:28\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 10:09:28\", \"@valeur\": \"1.868\"}]",
+    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 08:53:05\", \"@valeur\": \"1.745\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 16:37:00\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 08:53:05\", \"@valeur\": \"1.868\"}]",
     "geom": {
-      "lon": 3.517,
-      "lat": 45.843
+      "lon": 3.537,
+      "lat": 45.849
     },
-    "gazole_maj": "2024-01-26T11:09:28+01:00",
+    "gazole_maj": "2024-01-26T09:53:05+01:00",
     "gazole_prix": "1.745",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -120,9 +173,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-26T11:09:28+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-01-26T11:09:28+01:00",
+    "e10_maj": "2024-01-26T17:37:00+01:00",
+    "e10_prix": "1.773",
+    "sp98_maj": "2024-01-26T09:53:05+01:00",
     "sp98_prix": "1.868",
     "carburants_disponibles": [
       "Gazole",
@@ -136,12 +189,7 @@
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
+      "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
@@ -160,22 +208,22 @@
     "ville": "Thiers",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-27 00:36:00\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-27 00:36:00\", \"@valeur\": \"1.908\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-27 00:36:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-27 00:36:00\", \"@valeur\": \"1.927\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-27 14:51:00\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-27 14:51:00\", \"@valeur\": \"1.908\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-27 14:51:00\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-27 14:51:00\", \"@valeur\": \"1.927\"}]",
     "geom": {
       "lon": 3.51,
       "lat": 45.839
     },
-    "gazole_maj": "2024-01-27T01:36:00+01:00",
+    "gazole_maj": "2024-01-27T15:51:00+01:00",
     "gazole_prix": "1.745",
-    "sp95_maj": "2024-01-27T01:36:00+01:00",
+    "sp95_maj": "2024-01-27T15:51:00+01:00",
     "sp95_prix": "1.908",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-27T01:36:00+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-01-27T01:36:00+01:00",
+    "e10_maj": "2024-01-27T15:51:00+01:00",
+    "e10_prix": "1.773",
+    "sp98_maj": "2024-01-27T15:51:00+01:00",
     "sp98_prix": "1.927",
     "carburants_disponibles": [
       "Gazole",
@@ -242,54 +290,6 @@
     "services_service": [
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Puy-de-Dôme",
-    "code_departement": "63",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 63300004,
-    "latitude": "4584900",
-    "longitude": 353700,
-    "cp": "63300",
-    "pop": "R",
-    "adresse": "Avenue Léo Lagrange",
-    "ville": "Thiers",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 08:53:05\", \"@valeur\": \"1.745\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 16:37:00\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 08:53:05\", \"@valeur\": \"1.868\"}]",
-    "geom": {
-      "lon": 3.537,
-      "lat": 45.849
-    },
-    "gazole_maj": "2024-01-26T09:53:05+01:00",
-    "gazole_prix": "1.745",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-26T17:37:00+01:00",
-    "e10_prix": "1.773",
-    "sp98_maj": "2024-01-26T09:53:05+01:00",
-    "sp98_prix": "1.868",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
     ],
     "departement": "Puy-de-Dôme",
     "code_departement": "63",

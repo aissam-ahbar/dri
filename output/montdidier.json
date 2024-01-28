@@ -1,50 +1,46 @@
 [
   {
-    "id": 80500004,
-    "latitude": "4964600",
-    "longitude": 257300,
+    "id": 80500003,
+    "latitude": "4964844",
+    "longitude": 258299,
     "cp": "80500",
     "pop": "R",
-    "adresse": "1 Place du Maréchal Foch",
+    "adresse": "Rue de Roye",
     "ville": "Montdidier",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Services réparation / entretien\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 09:42:50\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 09:42:50\", \"@valeur\": \"1.841\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 08:45:48\", \"@valeur\": \"1.725\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 08:45:49\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 08:45:49\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 08:45:49\", \"@valeur\": \"1.839\"}]",
     "geom": {
-      "lon": 2.573,
-      "lat": 49.646
+      "lon": 2.58299,
+      "lat": 49.64844
     },
-    "gazole_maj": "2024-01-26T10:42:50+01:00",
-    "gazole_prix": "1.819",
+    "gazole_maj": "2024-01-25T09:45:48+01:00",
+    "gazole_prix": "1.725",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2024-01-25T09:45:49+01:00",
+    "e85_prix": "0.949",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-26T10:42:50+01:00",
-    "e10_prix": "1.841",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-01-25T09:45:49+01:00",
+    "e10_prix": "1.752",
+    "sp98_maj": "2024-01-25T09:45:49+01:00",
+    "sp98_prix": "1.839",
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E85",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Services réparation / entretien",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Somme",
     "code_departement": "80",
@@ -103,47 +99,51 @@
     "code_region": "32"
   },
   {
-    "id": 80500003,
-    "latitude": "4964844",
-    "longitude": 258299,
+    "id": 80500004,
+    "latitude": "4964600",
+    "longitude": 257300,
     "cp": "80500",
     "pop": "R",
-    "adresse": "Rue de Roye",
+    "adresse": "1 Place du Maréchal Foch",
     "ville": "Montdidier",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 08:45:48\", \"@valeur\": \"1.725\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 08:45:49\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 08:45:49\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 08:45:49\", \"@valeur\": \"1.839\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Services réparation / entretien\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 09:42:50\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 09:42:50\", \"@valeur\": \"1.841\"}]",
     "geom": {
-      "lon": 2.58299,
-      "lat": 49.64844
+      "lon": 2.573,
+      "lat": 49.646
     },
-    "gazole_maj": "2024-01-25T09:45:48+01:00",
-    "gazole_prix": "1.725",
+    "gazole_maj": "2024-01-26T10:42:50+01:00",
+    "gazole_prix": "1.819",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-25T09:45:49+01:00",
-    "e85_prix": "0.949",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-25T09:45:49+01:00",
-    "e10_prix": "1.752",
-    "sp98_maj": "2024-01-25T09:45:49+01:00",
-    "sp98_prix": "1.839",
+    "e10_maj": "2024-01-26T10:42:50+01:00",
+    "e10_prix": "1.841",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "E85",
+      "GPLc",
+      "SP98"
     ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Services réparation / entretien",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Somme",
     "code_departement": "80",
