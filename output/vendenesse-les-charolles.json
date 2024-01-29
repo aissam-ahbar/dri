@@ -9,15 +9,15 @@
     "ville": "Vendenesse-lès-Charolles",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 23:59:00\", \"@valeur\": \"1.809\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 23:59:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-28 15:53:32\", \"@valeur\": \"1.889\"}]",
     "geom": {
       "lon": 4.3097058805,
       "lat": 46.441492261600004
     },
     "gazole_maj": "2024-01-27T00:59:00+01:00",
     "gazole_prix": "1.809",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "sp95_maj": "2024-01-28T16:53:32+01:00",
+    "sp95_prix": "1.889",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -27,10 +27,10 @@
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
       "E10",

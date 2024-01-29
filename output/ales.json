@@ -1,54 +1,5 @@
 [
   {
-    "id": 30104001,
-    "latitude": "4411137.87899",
-    "longitude": 409637.855867,
-    "cp": "30100",
-    "pop": "R",
-    "adresse": "QUAI DU MAS D'HOURS",
-    "ville": "Alès",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 08:38:06\", \"@valeur\": \"1.719\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-30 08:37:10\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 19:09:22\", \"@valeur\": \"1.734\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 11:02:47\", \"@valeur\": \"1.809\"}]",
-    "geom": {
-      "lon": 4.09637855867,
-      "lat": 44.1113787899
-    },
-    "gazole_maj": "2024-01-26T09:38:06+01:00",
-    "gazole_prix": "1.719",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-30T09:37:10+01:00",
-    "gplc_prix": "1.009",
-    "e10_maj": "2024-01-26T20:09:22+01:00",
-    "e10_prix": "1.734",
-    "sp98_maj": "2024-01-24T12:02:47+01:00",
-    "sp98_prix": "1.809",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gard",
-    "code_departement": "30",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 30100014,
     "latitude": "4412100",
     "longitude": 408700,
@@ -94,6 +45,55 @@
       "Lavage automatique",
       "Vente d'additifs carburants",
       "Automate CB 24/24"
+    ],
+    "departement": "Gard",
+    "code_departement": "30",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 30104001,
+    "latitude": "4411137.87899",
+    "longitude": 409637.855867,
+    "cp": "30100",
+    "pop": "R",
+    "adresse": "QUAI DU MAS D'HOURS",
+    "ville": "Alès",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 08:38:06\", \"@valeur\": \"1.719\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-30 08:37:10\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 19:09:22\", \"@valeur\": \"1.734\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 11:02:47\", \"@valeur\": \"1.809\"}]",
+    "geom": {
+      "lon": 4.09637855867,
+      "lat": 44.1113787899
+    },
+    "gazole_maj": "2024-01-26T09:38:06+01:00",
+    "gazole_prix": "1.719",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-30T09:37:10+01:00",
+    "gplc_prix": "1.009",
+    "e10_maj": "2024-01-26T20:09:22+01:00",
+    "e10_prix": "1.734",
+    "sp98_maj": "2024-01-24T12:02:47+01:00",
+    "sp98_prix": "1.809",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Gard",
     "code_departement": "30",
@@ -380,12 +380,12 @@
     "ville": "Alès",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-28 00:01:00\", \"@valeur\": \"1.720\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-28 00:01:00\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-28 00:01:00\", \"@valeur\": \"1.828\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 00:01:00\", \"@valeur\": \"1.720\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-29 00:01:00\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-29 00:01:00\", \"@valeur\": \"1.828\"}]",
     "geom": {
       "lon": 4.104,
       "lat": 44.138
     },
-    "gazole_maj": "2024-01-28T01:01:00+01:00",
+    "gazole_maj": "2024-01-29T01:01:00+01:00",
     "gazole_prix": "1.720",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -393,9 +393,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-28T01:01:00+01:00",
+    "e10_maj": "2024-01-29T01:01:00+01:00",
     "e10_prix": "1.740",
-    "sp98_maj": "2024-01-28T01:01:00+01:00",
+    "sp98_maj": "2024-01-29T01:01:00+01:00",
     "sp98_prix": "1.828",
     "carburants_disponibles": [
       "Gazole",
