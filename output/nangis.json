@@ -1,56 +1,5 @@
 [
   {
-    "id": 77370005,
-    "latitude": "4855900",
-    "longitude": 302100,
-    "cp": "77370",
-    "pop": "R",
-    "adresse": "RN 19 , AVENUE DU GENERAL DE GAU",
-    "ville": "Nangis",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 00:01:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 00:01:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 00:01:00\", \"@valeur\": \"1.894\"}]",
-    "geom": {
-      "lon": 3.021,
-      "lat": 48.559
-    },
-    "gazole_maj": "2024-01-30T01:01:00+01:00",
-    "gazole_prix": "1.822",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-30T01:01:00+01:00",
-    "e10_prix": "1.812",
-    "sp98_maj": "2024-01-30T01:01:00+01:00",
-    "sp98_prix": "1.894",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24"
-    ],
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 77370003,
     "latitude": "4855000",
     "longitude": 300000,
@@ -60,7 +9,7 @@
     "ville": "Nangis",
     "horaires": null,
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 08:35:37\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 09:15:19\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 09:15:24\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 08:35:37\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-30 12:28:21\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 09:15:19\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 09:15:24\", \"@valeur\": \"1.889\"}]",
     "geom": {
       "lon": 3,
       "lat": 48.55
@@ -69,8 +18,8 @@
     "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2024-01-30T13:28:21+01:00",
+    "e85_prix": "0.849",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2024-01-26T10:15:19+01:00",
@@ -79,12 +28,12 @@
     "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
@@ -109,23 +58,23 @@
     "ville": "Nangis",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-19 10:15:36\", \"@valeur\": \"1.775\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 10:15:36\", \"@valeur\": \"0.861\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-19 10:15:37\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-05 12:31:47\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 10:20:13\", \"@valeur\": \"1.827\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 10:15:36\", \"@valeur\": \"0.861\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 10:20:13\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 10:20:14\", \"@valeur\": \"1.921\"}]",
     "geom": {
       "lon": 3.02534519556,
       "lat": 48.558094704
     },
-    "gazole_maj": "2024-01-19T11:15:36+01:00",
-    "gazole_prix": "1.775",
+    "gazole_maj": "2024-01-30T11:20:13+01:00",
+    "gazole_prix": "1.827",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-01-19T11:15:36+01:00",
     "e85_prix": "0.861",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-19T11:15:37+01:00",
-    "e10_prix": "1.799",
-    "sp98_maj": "2024-01-05T13:31:47+01:00",
-    "sp98_prix": "1.889",
+    "e10_maj": "2024-01-30T11:20:13+01:00",
+    "e10_prix": "1.838",
+    "sp98_maj": "2024-01-30T11:20:14+01:00",
+    "sp98_prix": "1.921",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -140,6 +89,57 @@
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 77370005,
+    "latitude": "4855900",
+    "longitude": 302100,
+    "cp": "77370",
+    "pop": "R",
+    "adresse": "RN 19 , AVENUE DU GENERAL DE GAU",
+    "ville": "Nangis",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 00:01:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 00:01:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 00:01:00\", \"@valeur\": \"1.893\"}]",
+    "geom": {
+      "lon": 3.021,
+      "lat": 48.559
+    },
+    "gazole_maj": "2024-01-31T01:01:00+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-31T01:01:00+01:00",
+    "e10_prix": "1.814",
+    "sp98_maj": "2024-01-31T01:01:00+01:00",
+    "sp98_prix": "1.893",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
     ],
     "departement": "Seine-et-Marne",
     "code_departement": "77",

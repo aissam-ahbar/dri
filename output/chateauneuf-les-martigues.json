@@ -1,5 +1,57 @@
 [
   {
+    "id": 13220004,
+    "latitude": "4339047.7933905",
+    "longitude": 516346.39372955,
+    "cp": "13220",
+    "pop": "R",
+    "adresse": "CHEMIN DE PATAFLOUX, ZONE DU FOURNEILLER, CCIAL LES OLIVIERS",
+    "ville": "Châteauneuf-les-Martigues",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"15.00\"}}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Location de véhicule\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 12:31:33\", \"@valeur\": \"1.821\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 12:31:33\", \"@valeur\": \"1.835\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 12:31:33\", \"@valeur\": \"1.941\"}]",
+    "geom": {
+      "lon": 5.1634639372955,
+      "lat": 43.390477933905004
+    },
+    "gazole_maj": "2024-01-30T13:31:33+01:00",
+    "gazole_prix": "1.821",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-30T13:31:33+01:00",
+    "e10_prix": "1.835",
+    "sp98_maj": "2024-01-30T13:31:33+01:00",
+    "sp98_prix": "1.941",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Location de véhicule",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13220003,
     "latitude": "4339400",
     "longitude": 513500,
@@ -9,22 +61,22 @@
     "ville": "Châteauneuf-les-Martigues",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Carburant additivé\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 09:51:39\", \"@valeur\": \"1.768\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-29 09:51:39\", \"@valeur\": \"1.833\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-29 09:51:40\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-29 09:51:40\", \"@valeur\": \"1.805\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-29 09:51:40\", \"@valeur\": \"1.895\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 08:42:02\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 08:42:02\", \"@valeur\": \"1.840\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-30 08:42:03\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 08:42:03\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 08:42:03\", \"@valeur\": \"1.895\"}]",
     "geom": {
       "lon": 5.135,
       "lat": 43.394
     },
-    "gazole_maj": "2024-01-29T10:51:39+01:00",
-    "gazole_prix": "1.768",
-    "sp95_maj": "2024-01-29T10:51:39+01:00",
-    "sp95_prix": "1.833",
+    "gazole_maj": "2024-01-30T09:42:02+01:00",
+    "gazole_prix": "1.770",
+    "sp95_maj": "2024-01-30T09:42:02+01:00",
+    "sp95_prix": "1.840",
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2024-01-29T10:51:40+01:00",
+    "gplc_maj": "2024-01-30T09:42:03+01:00",
     "gplc_prix": "0.919",
-    "e10_maj": "2024-01-29T10:51:40+01:00",
-    "e10_prix": "1.805",
-    "sp98_maj": "2024-01-29T10:51:40+01:00",
+    "e10_maj": "2024-01-30T09:42:03+01:00",
+    "e10_prix": "1.810",
+    "sp98_maj": "2024-01-30T09:42:03+01:00",
     "sp98_prix": "1.895",
     "carburants_disponibles": [
       "Gazole",
@@ -54,58 +106,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Wifi",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13220004,
-    "latitude": "4339047.7933905",
-    "longitude": 516346.39372955,
-    "cp": "13220",
-    "pop": "R",
-    "adresse": "CHEMIN DE PATAFLOUX, ZONE DU FOURNEILLER, CCIAL LES OLIVIERS",
-    "ville": "Châteauneuf-les-Martigues",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"15.00\"}}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Location de véhicule\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 11:00:55\", \"@valeur\": \"1.801\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 11:00:56\", \"@valeur\": \"1.835\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 11:00:56\", \"@valeur\": \"1.915\"}]",
-    "geom": {
-      "lon": 5.1634639372955,
-      "lat": 43.390477933905004
-    },
-    "gazole_maj": "2024-01-26T12:00:55+01:00",
-    "gazole_prix": "1.801",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-26T12:00:56+01:00",
-    "e10_prix": "1.835",
-    "sp98_maj": "2024-01-26T12:00:56+01:00",
-    "sp98_prix": "1.915",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Location de véhicule",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Bouches-du-Rhône",

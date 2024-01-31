@@ -1,60 +1,5 @@
 [
   {
-    "id": 50480001,
-    "latitude": "4938000",
-    "longitude": -129600,
-    "cp": "50480",
-    "pop": "R",
-    "adresse": "LES FORGES",
-    "ville": "Sainte-Mère-Église",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"16.00\", \"@fermeture\": \"20.00\"}]}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 20:29:19\", \"@valeur\": \"1.863\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 19:43:15\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-29 20:29:19\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-29 20:29:20\", \"@valeur\": \"1.970\"}]",
-    "geom": {
-      "lon": -1.296,
-      "lat": 49.38
-    },
-    "gazole_maj": "2024-01-29T21:29:19+01:00",
-    "gazole_prix": "1.863",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-04T20:43:15+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-29T21:29:19+01:00",
-    "e10_prix": "1.860",
-    "sp98_maj": "2024-01-29T21:29:20+01:00",
-    "sp98_prix": "1.970",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "Automate CB 24/24"
-    ],
-    "departement": "Manche",
-    "code_departement": "50",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
     "id": 50480002,
     "latitude": "4940500",
     "longitude": -132200,
@@ -113,6 +58,61 @@
       "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Manche",
+    "code_departement": "50",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
+    "id": 50480001,
+    "latitude": "4938000",
+    "longitude": -129600,
+    "cp": "50480",
+    "pop": "R",
+    "adresse": "LES FORGES",
+    "ville": "Sainte-Mère-Église",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.30\", \"@fermeture\": \"13.00\"}, {\"@ouverture\": \"16.00\", \"@fermeture\": \"20.00\"}]}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 20:29:19\", \"@valeur\": \"1.863\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 19:43:15\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 19:18:15\", \"@valeur\": \"1.865\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 19:18:15\", \"@valeur\": \"1.975\"}]",
+    "geom": {
+      "lon": -1.296,
+      "lat": 49.38
+    },
+    "gazole_maj": "2024-01-29T21:29:19+01:00",
+    "gazole_prix": "1.863",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-04T20:43:15+01:00",
+    "e85_prix": "0.919",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-30T20:18:15+01:00",
+    "e10_prix": "1.865",
+    "sp98_maj": "2024-01-30T20:18:15+01:00",
+    "sp98_prix": "1.975",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
     ],
     "departement": "Manche",
     "code_departement": "50",
