@@ -1,47 +1,45 @@
 [
   {
-    "id": 45770001,
-    "latitude": "4796000",
-    "longitude": 188900,
+    "id": 45770003,
+    "latitude": "4794871.8",
+    "longitude": 184377.2,
     "cp": "45770",
     "pop": "R",
-    "adresse": "2601 route nationnale 20",
+    "adresse": "RUE DES CHATAIGNIERS",
     "ville": "Saran",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 00:26:00\", \"@valeur\": \"1.783\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 00:26:00\", \"@valeur\": \"1.883\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 00:26:00\", \"@valeur\": \"1.767\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 00:26:00\", \"@valeur\": \"1.902\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Vente d'additifs carburants\"]}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 00:00:00\", \"@valeur\": \"2.022\"}",
     "geom": {
-      "lon": 1.889,
-      "lat": 47.96
+      "lon": 1.8437720000000002,
+      "lat": 47.948718
     },
-    "gazole_maj": "2024-01-31T01:26:00+01:00",
-    "gazole_prix": "1.783",
-    "sp95_maj": "2024-01-31T01:26:00+01:00",
-    "sp95_prix": "1.883",
+    "gazole_maj": "2024-02-01T01:00:00+01:00",
+    "gazole_prix": "2.022",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-31T01:26:00+01:00",
-    "e10_prix": "1.767",
-    "sp98_maj": "2024-01-31T01:26:00+01:00",
-    "sp98_prix": "1.902",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole",
+      "Gazole"
+    ],
+    "carburants_indisponibles": [
       "SP95",
+      "E85",
+      "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
+      "Piste poids lourds",
+      "Vente d'additifs carburants"
     ],
     "departement": "Loiret",
     "code_departement": "45",
@@ -96,46 +94,48 @@
     "code_region": "24"
   },
   {
-    "id": 45770003,
-    "latitude": "4794871.8",
-    "longitude": 184377.2,
+    "id": 45770001,
+    "latitude": "4796000",
+    "longitude": 188900,
     "cp": "45770",
     "pop": "R",
-    "adresse": "RUE DES CHATAIGNIERS",
+    "adresse": "2601 route nationnale 20",
     "ville": "Saran",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Vente d'additifs carburants\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 00:00:00\", \"@valeur\": \"2.016\"}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 00:26:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 00:26:00\", \"@valeur\": \"1.889\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 00:26:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 00:26:00\", \"@valeur\": \"1.908\"}]",
     "geom": {
-      "lon": 1.8437720000000002,
-      "lat": 47.948718
+      "lon": 1.889,
+      "lat": 47.96
     },
-    "gazole_maj": "2024-01-30T01:00:00+01:00",
-    "gazole_prix": "2.016",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2024-02-01T01:26:00+01:00",
+    "gazole_prix": "1.794",
+    "sp95_maj": "2024-02-01T01:26:00+01:00",
+    "sp95_prix": "1.889",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-02-01T01:26:00+01:00",
+    "e10_prix": "1.814",
+    "sp98_maj": "2024-02-01T01:26:00+01:00",
+    "sp98_prix": "1.908",
     "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
+      "Gazole",
       "SP95",
-      "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
-    "horaires_automate_24_24": "Non",
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Piste poids lourds",
-      "Vente d'additifs carburants"
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Loiret",
     "code_departement": "45",
