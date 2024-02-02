@@ -9,32 +9,32 @@
     "ville": "Rouvres",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\"]}",
-    "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-01 00:01:00\", \"@valeur\": \"0.899\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.913\"}]",
     "geom": {
       "lon": 2.71523931506,
       "lat": 49.070142347799994
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-02-02T01:01:00+01:00",
+    "gazole_prix": "1.812",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-01T01:01:00+01:00",
+    "e85_maj": "2024-02-02T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-02-02T01:01:00+01:00",
+    "sp98_prix": "1.913",
     "carburants_disponibles": [
-      "E85"
+      "Gazole",
+      "E85",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

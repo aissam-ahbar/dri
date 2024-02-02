@@ -1,5 +1,51 @@
 [
   {
+    "id": 84700007,
+    "latitude": "4400503.69",
+    "longitude": 487475.61,
+    "cp": "84700",
+    "pop": "R",
+    "adresse": "place Wettenberg",
+    "ville": "Sorgues",
+    "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 11:47:22\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 11:47:22\", \"@valeur\": \"1.789\"}]",
+    "geom": {
+      "lon": 4.8747561,
+      "lat": 44.00503690000001
+    },
+    "gazole_maj": "2024-02-01T12:47:22+01:00",
+    "gazole_prix": "1.780",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-01T12:47:22+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 84700006,
     "latitude": "4402300",
     "longitude": 489000,
@@ -110,52 +156,6 @@
     "code_region": "93"
   },
   {
-    "id": 84700007,
-    "latitude": "4400503.69",
-    "longitude": 487475.61,
-    "cp": "84700",
-    "pop": "R",
-    "adresse": "place Wettenberg",
-    "ville": "Sorgues",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 13:22:54\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-23 13:22:54\", \"@valeur\": \"1.769\"}]",
-    "geom": {
-      "lon": 4.8747561,
-      "lat": 44.00503690000001
-    },
-    "gazole_maj": "2024-01-23T14:22:54+01:00",
-    "gazole_prix": "1.749",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-23T14:22:54+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 84700005,
     "latitude": "4402700",
     "longitude": 487400,
@@ -165,22 +165,22 @@
     "ville": "Sorgues",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 00:01:00\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 00:01:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 00:01:00\", \"@valeur\": \"1.900\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.783\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.900\"}]",
     "geom": {
       "lon": 4.874,
       "lat": 44.027
     },
-    "gazole_maj": "2024-02-01T01:01:00+01:00",
-    "gazole_prix": "1.780",
+    "gazole_maj": "2024-02-02T01:01:00+01:00",
+    "gazole_prix": "1.783",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-01T01:01:00+01:00",
+    "e10_maj": "2024-02-02T01:01:00+01:00",
     "e10_prix": "1.814",
-    "sp98_maj": "2024-02-01T01:01:00+01:00",
+    "sp98_maj": "2024-02-02T01:01:00+01:00",
     "sp98_prix": "1.900",
     "carburants_disponibles": [
       "Gazole",
