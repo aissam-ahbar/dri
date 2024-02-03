@@ -9,7 +9,7 @@
     "ville": "Tours",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Bar\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 06:00:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.809\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 06:00:00\", \"@valeur\": \"0.889\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 06:00:00\", \"@valeur\": \"1.809\"}]",
     "geom": {
       "lon": 0.674,
       "lat": 47.425
@@ -18,8 +18,8 @@
     "gazole_prix": "1.745",
     "sp95_maj": "2024-01-30T07:00:00+01:00",
     "sp95_prix": "1.785",
-    "e85_maj": "2024-01-02T07:00:00+01:00",
-    "e85_prix": "0.919",
+    "e85_maj": "2024-02-02T07:00:00+01:00",
+    "e85_prix": "0.889",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2024-01-30T07:00:00+01:00",
@@ -46,60 +46,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Bornes électriques",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Indre-et-Loire",
-    "code_departement": "37",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 37000014,
-    "latitude": "4738100",
-    "longitude": 66800,
-    "cp": "37000",
-    "pop": "R",
-    "adresse": "63 BLD DU TONNELLE",
-    "ville": "Tours",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.30\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.855\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.965\"}]",
-    "geom": {
-      "lon": 0.668,
-      "lat": 47.381
-    },
-    "gazole_maj": "2024-02-02T01:01:00+01:00",
-    "gazole_prix": "1.855",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-02T01:01:00+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-02T01:01:00+01:00",
-    "e10_prix": "1.855",
-    "sp98_maj": "2024-02-02T01:01:00+01:00",
-    "sp98_prix": "1.965",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi"
     ],
     "departement": "Indre-et-Loire",
     "code_departement": "37",
@@ -159,6 +105,50 @@
     "code_region": "24"
   },
   {
+    "id": 37100011,
+    "latitude": "4742644.4732494",
+    "longitude": 71075.649892812,
+    "cp": "37100",
+    "pop": "R",
+    "adresse": "RUE ABEL GANCE - ZAC DE L'AEROGA",
+    "ville": "Tours",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.844\"}]",
+    "geom": {
+      "lon": 0.71075649892812,
+      "lat": 47.426444732494
+    },
+    "gazole_maj": "2024-02-03T01:01:00+01:00",
+    "gazole_prix": "1.755",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-03T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-03T01:01:00+01:00",
+    "e10_prix": "1.752",
+    "sp98_maj": "2024-02-03T01:01:00+01:00",
+    "sp98_prix": "1.844",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Indre-et-Loire",
+    "code_departement": "37",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 37100010,
     "latitude": "4740385",
     "longitude": 72656,
@@ -168,12 +158,12 @@
     "ville": "Tours",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.857\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.967\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.857\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.967\"}]",
     "geom": {
       "lon": 0.72656,
       "lat": 47.40385
     },
-    "gazole_maj": "2024-02-02T01:01:00+01:00",
+    "gazole_maj": "2024-02-03T01:01:00+01:00",
     "gazole_prix": "1.860",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -181,9 +171,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-02T01:01:00+01:00",
+    "e10_maj": "2024-02-03T01:01:00+01:00",
     "e10_prix": "1.857",
-    "sp98_maj": "2024-02-02T01:01:00+01:00",
+    "sp98_maj": "2024-02-03T01:01:00+01:00",
     "sp98_prix": "1.967",
     "carburants_disponibles": [
       "Gazole",
@@ -201,52 +191,6 @@
       "Boutique alimentaire",
       "Station de gonflage",
       "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Indre-et-Loire",
-    "code_departement": "37",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 37000016,
-    "latitude": "4739377.902",
-    "longitude": 66974.657,
-    "cp": "37000",
-    "pop": "R",
-    "adresse": "13 à 17 rue du 501e régiment",
-    "ville": "Tours",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-28 09:28:57\", \"@valeur\": \"1.744\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-29 08:42:03\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 09:50:34\", \"@valeur\": \"1.831\"}]",
-    "geom": {
-      "lon": 0.66974657,
-      "lat": 47.39377902
-    },
-    "gazole_maj": "2024-01-28T10:28:57+01:00",
-    "gazole_prix": "1.744",
-    "sp95_maj": "2024-01-29T09:42:03+01:00",
-    "sp95_prix": "1.799",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-25T10:50:34+01:00",
-    "sp98_prix": "1.831",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Indre-et-Loire",
@@ -305,50 +249,6 @@
     "code_region": "24"
   },
   {
-    "id": 37100011,
-    "latitude": "4742644.4732494",
-    "longitude": 71075.649892812,
-    "cp": "37100",
-    "pop": "R",
-    "adresse": "RUE ABEL GANCE - ZAC DE L'AEROGA",
-    "ville": "Tours",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.844\"}]",
-    "geom": {
-      "lon": 0.71075649892812,
-      "lat": 47.426444732494
-    },
-    "gazole_maj": "2024-02-02T01:01:00+01:00",
-    "gazole_prix": "1.755",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-02T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-02T01:01:00+01:00",
-    "e10_prix": "1.752",
-    "sp98_maj": "2024-02-02T01:01:00+01:00",
-    "sp98_prix": "1.844",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Indre-et-Loire",
-    "code_departement": "37",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 37100002,
     "latitude": "4741200",
     "longitude": 70200,
@@ -400,57 +300,53 @@
     "code_region": "24"
   },
   {
-    "id": 37200004,
-    "latitude": "4736500",
-    "longitude": 71100,
-    "cp": "37200",
+    "id": 37000014,
+    "latitude": "4738100",
+    "longitude": 66800,
+    "cp": "37000",
     "pop": "R",
-    "adresse": "32 ROUTE DE ST AVERTIN",
+    "adresse": "63 BLD DU TONNELLE",
     "ville": "Tours",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.756\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.751\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 00:01:00\", \"@valeur\": \"1.847\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.30\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.855\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.855\"}]",
     "geom": {
-      "lon": 0.711,
-      "lat": 47.365
+      "lon": 0.668,
+      "lat": 47.381
     },
-    "gazole_maj": "2024-02-02T01:01:00+01:00",
-    "gazole_prix": "1.756",
+    "gazole_maj": "2024-02-03T01:01:00+01:00",
+    "gazole_prix": "1.855",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-02T01:01:00+01:00",
-    "e85_prix": "0.899",
+    "e85_maj": "2024-02-03T01:01:00+01:00",
+    "e85_prix": "0.919",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-02T01:01:00+01:00",
-    "e10_prix": "1.751",
-    "sp98_maj": "2024-02-02T01:01:00+01:00",
-    "sp98_prix": "1.847",
+    "e10_maj": "2024-02-03T01:01:00+01:00",
+    "e10_prix": "1.855",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
       "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
       "Station de gonflage",
       "Carburant additivé",
-      "Piste poids lourds",
       "Lavage automatique",
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "Automate CB 24/24"
+      "Wifi"
     ],
     "departement": "Indre-et-Loire",
     "code_departement": "37",
@@ -506,6 +402,110 @@
     "code_region": "24"
   },
   {
+    "id": 37200004,
+    "latitude": "4736500",
+    "longitude": 71100,
+    "cp": "37200",
+    "pop": "R",
+    "adresse": "32 ROUTE DE ST AVERTIN",
+    "ville": "Tours",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.756\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.751\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.847\"}]",
+    "geom": {
+      "lon": 0.711,
+      "lat": 47.365
+    },
+    "gazole_maj": "2024-02-03T01:01:00+01:00",
+    "gazole_prix": "1.756",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-03T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-03T01:01:00+01:00",
+    "e10_prix": "1.751",
+    "sp98_maj": "2024-02-03T01:01:00+01:00",
+    "sp98_prix": "1.847",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Indre-et-Loire",
+    "code_departement": "37",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
+    "id": 37000016,
+    "latitude": "4739377.902",
+    "longitude": 66974.657,
+    "cp": "37000",
+    "pop": "R",
+    "adresse": "13 à 17 rue du 501e régiment",
+    "ville": "Tours",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:14:54\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 09:15:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:15:07\", \"@valeur\": \"1.845\"}]",
+    "geom": {
+      "lon": 0.66974657,
+      "lat": 47.39377902
+    },
+    "gazole_maj": "2024-02-02T10:14:54+01:00",
+    "gazole_prix": "1.746",
+    "sp95_maj": "2024-02-02T10:15:00+01:00",
+    "sp95_prix": "1.799",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-02T10:15:07+01:00",
+    "sp98_prix": "1.845",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Indre-et-Loire",
+    "code_departement": "37",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 37000007,
     "latitude": "4738000",
     "longitude": 66900,
@@ -515,7 +515,7 @@
     "ville": "Tours",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 11:37:58\", \"@valeur\": \"1.743\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-23 11:37:59\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 11:37:59\", \"@valeur\": \"1.842\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-23 11:37:58\", \"@valeur\": \"1.743\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-23 11:37:59\", \"@valeur\": \"1.842\"}]",
     "geom": {
       "lon": 0.669,
       "lat": 47.38
@@ -528,19 +528,19 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-23T12:37:59+01:00",
-    "e10_prix": "1.766",
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2024-01-23T12:37:59+01:00",
     "sp98_prix": "1.842",
     "carburants_disponibles": [
       "Gazole",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -567,22 +567,22 @@
     "ville": "Tours",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 06:00:00\", \"@valeur\": \"1.853\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 06:00:00\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 06:00:00\", \"@valeur\": \"1.960\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 06:00:00\", \"@valeur\": \"1.864\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 06:00:00\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 06:00:00\", \"@valeur\": \"1.960\"}]",
     "geom": {
       "lon": 0.697,
       "lat": 47.391
     },
-    "gazole_maj": "2024-02-01T07:00:00+01:00",
-    "gazole_prix": "1.853",
+    "gazole_maj": "2024-02-02T07:00:00+01:00",
+    "gazole_prix": "1.864",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-01T07:00:00+01:00",
+    "e10_maj": "2024-02-02T07:00:00+01:00",
     "e10_prix": "1.850",
-    "sp98_maj": "2024-02-01T07:00:00+01:00",
+    "sp98_maj": "2024-02-02T07:00:00+01:00",
     "sp98_prix": "1.960",
     "carburants_disponibles": [
       "Gazole",
