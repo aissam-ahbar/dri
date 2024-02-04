@@ -1,53 +1,5 @@
 [
   {
-    "id": 10210001,
-    "latitude": "4806585",
-    "longitude": 414076,
-    "cp": "10210",
-    "pop": "R",
-    "adresse": "34 Route de Troyes",
-    "ville": "Chaource",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 17:44:55\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-29 08:37:33\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-29 08:37:33\", \"@valeur\": \"1.870\"}]",
-    "geom": {
-      "lon": 4.14076,
-      "lat": 48.06585
-    },
-    "gazole_maj": "2024-02-02T18:44:55+01:00",
-    "gazole_prix": "1.790",
-    "sp95_maj": "2024-01-29T09:37:33+01:00",
-    "sp95_prix": "1.830",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-29T09:37:33+01:00",
-    "sp98_prix": "1.870",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aube",
-    "code_departement": "10",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 10210002,
     "latitude": "4805800",
     "longitude": 414100,
@@ -55,9 +7,9 @@
     "pop": "R",
     "adresse": "13 route de Troyes",
     "ville": "Chaource",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Lavage manuel\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 07:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 12:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 12:00:00\", \"@valeur\": \"1.869\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "geom": {
       "lon": 4.141,
       "lat": 48.058
@@ -89,6 +41,54 @@
       "Laverie",
       "Lavage manuel",
       "Automate CB 24/24"
+    ],
+    "departement": "Aube",
+    "code_departement": "10",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
+    "id": 10210001,
+    "latitude": "4806585",
+    "longitude": 414076,
+    "cp": "10210",
+    "pop": "R",
+    "adresse": "34 Route de Troyes",
+    "ville": "Chaource",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 17:44:55\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-29 08:37:33\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-29 08:37:33\", \"@valeur\": \"1.870\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.14076,
+      "lat": 48.06585
+    },
+    "gazole_maj": "2024-02-02T18:44:55+01:00",
+    "gazole_prix": "1.790",
+    "sp95_maj": "2024-01-29T09:37:33+01:00",
+    "sp95_prix": "1.830",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-29T09:37:33+01:00",
+    "sp98_prix": "1.870",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aube",
     "code_departement": "10",

@@ -1,49 +1,5 @@
 [
   {
-    "id": 12110003,
-    "latitude": "4455984.7110438",
-    "longitude": 221763.49503696,
-    "cp": "12110",
-    "pop": "R",
-    "adresse": "Zone de Laubarède",
-    "ville": "Viviez",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 14:00:23\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 14:00:23\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 14:00:23\", \"@valeur\": \"1.769\"}]",
-    "geom": {
-      "lon": 2.2176349503696,
-      "lat": 44.559847110438
-    },
-    "gazole_maj": "2024-02-02T15:00:23+01:00",
-    "gazole_prix": "1.759",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-02T15:00:23+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-02T15:00:23+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 12110004,
     "latitude": "4456086",
     "longitude": 223115,
@@ -51,9 +7,9 @@
     "pop": "R",
     "adresse": "41ter Avenue Adam Grange",
     "ville": "Viviez",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Lavage automatique\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 07:56:20\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-29 07:56:20\", \"@valeur\": \"1.870\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-29 07:56:21\", \"@valeur\": \"1.960\"}]",
+    "horaires": null,
     "geom": {
       "lon": 2.23115,
       "lat": 44.56086
@@ -86,6 +42,50 @@
       "Station de gonflage",
       "Lavage automatique"
     ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 12110003,
+    "latitude": "4455984.7110438",
+    "longitude": 221763.49503696,
+    "cp": "12110",
+    "pop": "R",
+    "adresse": "Zone de Laubarède",
+    "ville": "Viviez",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 14:00:23\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 14:00:23\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 14:00:23\", \"@valeur\": \"1.769\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 2.2176349503696,
+      "lat": 44.559847110438
+    },
+    "gazole_maj": "2024-02-02T15:00:23+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-02T15:00:23+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-02T15:00:23+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",

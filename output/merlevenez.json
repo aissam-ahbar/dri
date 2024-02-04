@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "5 Rue de la Madeleine",
     "ville": "Merlevenez",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Restauration à emporter\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 12:19:55\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-30 12:19:56\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 12:19:56\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 12:19:56\", \"@valeur\": \"1.805\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 12:19:55\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 12:19:56\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 12:19:56\", \"@valeur\": \"1.805\"}]",
+    "horaires": null,
     "geom": {
       "lon": -3.232,
       "lat": 47.736
@@ -18,8 +18,8 @@
     "gazole_prix": "1.754",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-01-30T13:19:56+01:00",
-    "e85_prix": "0.849",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2024-01-30T13:19:56+01:00",
@@ -28,12 +28,12 @@
     "sp98_prix": "1.805",
     "carburants_disponibles": [
       "Gazole",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",

@@ -1,5 +1,58 @@
 [
   {
+    "id": 34920001,
+    "latitude": "4365961.3186824",
+    "longitude": 393616.96295143,
+    "cp": "34920",
+    "pop": "R",
+    "adresse": "Route de Jacou",
+    "ville": "Le Crès",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 09:17:25\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-03 09:17:26\", \"@valeur\": \"1.840\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 09:17:26\", \"@valeur\": \"0.958\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 09:17:26\", \"@valeur\": \"1.897\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "geom": {
+      "lon": 3.9361696295143,
+      "lat": 43.659613186824
+    },
+    "gazole_maj": "2024-02-03T10:17:25+01:00",
+    "gazole_prix": "1.790",
+    "sp95_maj": "2024-02-03T10:17:26+01:00",
+    "sp95_prix": "1.840",
+    "e85_maj": "2024-02-03T10:17:26+01:00",
+    "e85_prix": "0.958",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-03T10:17:26+01:00",
+    "sp98_prix": "1.897",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Hérault",
+    "code_departement": "34",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 34920002,
     "latitude": "4363900",
     "longitude": 393200,
@@ -7,9 +60,9 @@
     "pop": "R",
     "adresse": "Route de Nîmes",
     "ville": "Le Crès",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 09:10:09\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 09:10:17\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 09:10:19\", \"@valeur\": \"1.859\"}]",
+    "horaires": null,
     "geom": {
       "lon": 3.932,
       "lat": 43.639
@@ -45,59 +98,6 @@
       "Restauration à emporter",
       "Restauration sur place",
       "Bar",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Hérault",
-    "code_departement": "34",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 34920001,
-    "latitude": "4365961.3186824",
-    "longitude": 393616.96295143,
-    "cp": "34920",
-    "pop": "R",
-    "adresse": "Route de Jacou",
-    "ville": "Le Crès",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:49:59\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 09:49:59\", \"@valeur\": \"1.830\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 09:50:00\", \"@valeur\": \"0.954\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:50:00\", \"@valeur\": \"1.886\"}]",
-    "geom": {
-      "lon": 3.9361696295143,
-      "lat": 43.659613186824
-    },
-    "gazole_maj": "2024-02-02T10:49:59+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": "2024-02-02T10:49:59+01:00",
-    "sp95_prix": "1.830",
-    "e85_maj": "2024-02-02T10:50:00+01:00",
-    "e85_prix": "0.954",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-02T10:50:00+01:00",
-    "sp98_prix": "1.886",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Restauration à emporter",
       "Station de gonflage",
       "Location de véhicule",
       "Piste poids lourds",

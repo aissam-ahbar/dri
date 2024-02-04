@@ -1,53 +1,5 @@
 [
   {
-    "id": 90200002,
-    "latitude": "4773741.60601",
-    "longitude": 683626.03018,
-    "cp": "90200",
-    "pop": "R",
-    "adresse": "ZAC du Mont Jean, faubourg d' alsace",
-    "ville": "Giromagny",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 12:00:00\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 12:00:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 12:00:00\", \"@valeur\": \"1.842\"}]",
-    "geom": {
-      "lon": 6.8362603018,
-      "lat": 47.7374160601
-    },
-    "gazole_maj": "2024-02-02T13:00:00+01:00",
-    "gazole_prix": "1.770",
-    "sp95_maj": "2024-02-02T13:00:00+01:00",
-    "sp95_prix": "1.795",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-02T13:00:00+01:00",
-    "sp98_prix": "1.842",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Territoire de Belfort",
-    "code_departement": "90",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 90200003,
     "latitude": "4773500",
     "longitude": 683000,
@@ -55,9 +7,9 @@
     "pop": "R",
     "adresse": "72 Faubourg de Belfort",
     "ville": "Giromagny",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 07:11:23\", \"@valeur\": \"1.846\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 07:11:23\", \"@valeur\": \"1.842\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 07:11:23\", \"@valeur\": \"1.952\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}]}",
     "geom": {
       "lon": 6.83,
       "lat": 47.735
@@ -96,6 +48,54 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Territoire de Belfort",
+    "code_departement": "90",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 90200002,
+    "latitude": "4773741.60601",
+    "longitude": 683626.03018,
+    "cp": "90200",
+    "pop": "R",
+    "adresse": "ZAC du Mont Jean, faubourg d' alsace",
+    "ville": "Giromagny",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 12:00:00\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 12:00:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 12:00:00\", \"@valeur\": \"1.842\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 6.8362603018,
+      "lat": 47.7374160601
+    },
+    "gazole_maj": "2024-02-02T13:00:00+01:00",
+    "gazole_prix": "1.770",
+    "sp95_maj": "2024-02-02T13:00:00+01:00",
+    "sp95_prix": "1.795",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-02T13:00:00+01:00",
+    "sp98_prix": "1.842",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Territoire de Belfort",
     "code_departement": "90",

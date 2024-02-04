@@ -1,43 +1,50 @@
 [
   {
-    "id": 29270003,
-    "latitude": "4827519",
-    "longitude": -358155,
+    "id": 29833001,
+    "latitude": "4827996",
+    "longitude": -356533,
     "cp": "29270",
     "pop": "R",
-    "adresse": "2 rue Charles Le Goff",
+    "adresse": "Rue de Callac",
     "ville": "Carhaix-Plouguer",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 09:35:02\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:30:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 09:30:00\", \"@valeur\": \"1.825\"}]",
     "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 10:00:36\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 10:00:36\", \"@valeur\": \"1.792\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 09:46:59\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 10:00:37\", \"@valeur\": \"1.749\"}]",
     "geom": {
-      "lon": -3.58155,
-      "lat": 48.27519
+      "lon": -3.56533,
+      "lat": 48.27996
     },
-    "gazole_maj": "2024-02-01T11:00:36+01:00",
+    "gazole_maj": "2024-02-01T10:35:02+01:00",
     "gazole_prix": "1.765",
-    "sp95_maj": "2024-02-01T11:00:36+01:00",
-    "sp95_prix": "1.792",
-    "e85_maj": "2024-01-25T10:46:59+01:00",
-    "e85_prix": "0.848",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-01T11:00:37+01:00",
+    "e10_maj": "2024-01-31T10:30:00+01:00",
     "e10_prix": "1.749",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-01-31T10:30:00+01:00",
+    "sp98_prix": "1.825",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "E85",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
+      "SP95",
+      "E85",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration sur place",
+      "Bar",
+      "Station de gonflage",
+      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
@@ -54,9 +61,9 @@
     "pop": "R",
     "adresse": "PLACE DU CHAMP DE FOIRE",
     "ville": "Carhaix-Plouguer",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 15:17:04\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 15:17:04\", \"@valeur\": \"1.813\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 15:17:04\", \"@valeur\": \"1.768\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": -3.568,
       "lat": 48.277
@@ -96,51 +103,44 @@
     "code_region": "53"
   },
   {
-    "id": 29833001,
-    "latitude": "4827996",
-    "longitude": -356533,
+    "id": 29270003,
+    "latitude": "4827519",
+    "longitude": -358155,
     "cp": "29270",
     "pop": "R",
-    "adresse": "Rue de Callac",
+    "adresse": "2 rue Charles Le Goff",
     "ville": "Carhaix-Plouguer",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 10:00:36\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 10:00:36\", \"@valeur\": \"1.792\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 09:46:59\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 10:00:37\", \"@valeur\": \"1.749\"}]",
     "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 09:35:02\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:30:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 09:30:00\", \"@valeur\": \"1.825\"}]",
     "geom": {
-      "lon": -3.56533,
-      "lat": 48.27996
+      "lon": -3.58155,
+      "lat": 48.27519
     },
-    "gazole_maj": "2024-02-01T10:35:02+01:00",
+    "gazole_maj": "2024-02-01T11:00:36+01:00",
     "gazole_prix": "1.765",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "sp95_maj": "2024-02-01T11:00:36+01:00",
+    "sp95_prix": "1.792",
+    "e85_maj": "2024-01-25T10:46:59+01:00",
+    "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-31T10:30:00+01:00",
+    "e10_maj": "2024-02-01T11:00:37+01:00",
     "e10_prix": "1.749",
-    "sp98_maj": "2024-01-31T10:30:00+01:00",
-    "sp98_prix": "1.825",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration sur place",
-      "Bar",
-      "Station de gonflage",
-      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "Avenue des Pyrénées",
     "ville": "Muret",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": null,
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 1.32047,
       "lat": 43.45166
@@ -42,6 +42,50 @@
     "code_region": "76"
   },
   {
+    "id": 31600007,
+    "latitude": "4348845.23805",
+    "longitude": 134028.333537,
+    "cp": "31600",
+    "pop": "R",
+    "adresse": "RN 117 - LIEU DIT GUERIN",
+    "ville": "Muret",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.874\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 1.3402833353699999,
+      "lat": 43.4884523805
+    },
+    "gazole_maj": "2024-02-04T01:01:00+01:00",
+    "gazole_prix": "1.772",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-04T01:01:00+01:00",
+    "e10_prix": "1.773",
+    "sp98_maj": "2024-02-04T01:01:00+01:00",
+    "sp98_prix": "1.874",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 31600006,
     "latitude": "4346100",
     "longitude": 132600,
@@ -49,9 +93,9 @@
     "pop": "R",
     "adresse": "1 BIS BOULEVARD JOFFRERY",
     "ville": "Muret",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:00:00\", \"@valeur\": \"1.755\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-24 19:00:00\", \"@valeur\": \"1.788\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 09:00:00\", \"@valeur\": \"1.769\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 1.326,
       "lat": 43.461
@@ -92,50 +136,6 @@
     "code_region": "76"
   },
   {
-    "id": 31600007,
-    "latitude": "4348845.23805",
-    "longitude": 134028.333537,
-    "cp": "31600",
-    "pop": "R",
-    "adresse": "RN 117 - LIEU DIT GUERIN",
-    "ville": "Muret",
-    "horaires": null,
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.874\"}]",
-    "geom": {
-      "lon": 1.3402833353699999,
-      "lat": 43.4884523805
-    },
-    "gazole_maj": "2024-02-03T01:01:00+01:00",
-    "gazole_prix": "1.772",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-03T01:01:00+01:00",
-    "e10_prix": "1.773",
-    "sp98_maj": "2024-02-03T01:01:00+01:00",
-    "sp98_prix": "1.874",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 31600002,
     "latitude": "4347162.50039",
     "longitude": 133117.260671,
@@ -143,9 +143,9 @@
     "pop": "R",
     "adresse": "68 Avenue Jacques Douzans",
     "ville": "Muret",
-    "horaires": null,
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.967\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-07 00:01:00\", \"@valeur\": \"0.981\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 00:01:00\", \"@valeur\": \"2.047\"}]",
+    "horaires": null,
     "geom": {
       "lon": 1.33117260671,
       "lat": 43.471625003899995
