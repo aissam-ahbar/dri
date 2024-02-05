@@ -1,52 +1,93 @@
 [
   {
-    "id": 84700005,
-    "latitude": "4402700",
-    "longitude": 487400,
+    "id": 84700004,
+    "latitude": "4400900",
+    "longitude": 487300,
     "cp": "84700",
     "pop": "R",
-    "adresse": "2232 AV. D'ORANGE",
+    "adresse": "ROUTE D#039;ORANGE",
     "ville": "Sorgues",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.783\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.900\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"1.783\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"1.900\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": 4.874,
-      "lat": 44.027
+      "lon": 4.873,
+      "lat": 44.009
     },
-    "gazole_maj": "2024-02-04T01:01:00+01:00",
+    "gazole_maj": "2024-02-02T11:05:43+01:00",
     "gazole_prix": "1.783",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-02T11:05:43+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-02T11:05:43+01:00",
+    "e10_prix": "1.814",
+    "sp98_maj": "2024-02-02T11:05:43+01:00",
+    "sp98_prix": "1.900",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 84700007,
+    "latitude": "4400503.69",
+    "longitude": 487475.61,
+    "cp": "84700",
+    "pop": "R",
+    "adresse": "place Wettenberg",
+    "ville": "Sorgues",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 11:47:22\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 11:47:22\", \"@valeur\": \"1.789\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.8747561,
+      "lat": 44.00503690000001
+    },
+    "gazole_maj": "2024-02-01T12:47:22+01:00",
+    "gazole_prix": "1.780",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-04T01:01:00+01:00",
-    "e10_prix": "1.814",
-    "sp98_maj": "2024-02-04T01:01:00+01:00",
-    "sp98_prix": "1.900",
+    "e10_maj": "2024-02-01T12:47:22+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vaucluse",
@@ -115,52 +156,6 @@
     "code_region": "93"
   },
   {
-    "id": 84700007,
-    "latitude": "4400503.69",
-    "longitude": 487475.61,
-    "cp": "84700",
-    "pop": "R",
-    "adresse": "place Wettenberg",
-    "ville": "Sorgues",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 11:47:22\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 11:47:22\", \"@valeur\": \"1.789\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.8747561,
-      "lat": 44.00503690000001
-    },
-    "gazole_maj": "2024-02-01T12:47:22+01:00",
-    "gazole_prix": "1.780",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-01T12:47:22+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 84700002,
     "latitude": "4402600",
     "longitude": 487300,
@@ -205,49 +200,54 @@
     "code_region": "93"
   },
   {
-    "id": 84700004,
-    "latitude": "4400900",
-    "longitude": 487300,
+    "id": 84700005,
+    "latitude": "4402700",
+    "longitude": 487400,
     "cp": "84700",
     "pop": "R",
-    "adresse": "ROUTE D#039;ORANGE",
+    "adresse": "2232 AV. D'ORANGE",
     "ville": "Sorgues",
-    "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"1.783\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 10:05:43\", \"@valeur\": \"1.900\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.783\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.900\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": 4.873,
-      "lat": 44.009
+      "lon": 4.874,
+      "lat": 44.027
     },
-    "gazole_maj": "2024-02-02T11:05:43+01:00",
+    "gazole_maj": "2024-02-05T01:01:00+01:00",
     "gazole_prix": "1.783",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-02T11:05:43+01:00",
-    "e85_prix": "0.848",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-02T11:05:43+01:00",
+    "e10_maj": "2024-02-05T01:01:00+01:00",
     "e10_prix": "1.814",
-    "sp98_maj": "2024-02-02T11:05:43+01:00",
+    "sp98_maj": "2024-02-05T01:01:00+01:00",
     "sp98_prix": "1.900",
     "carburants_disponibles": [
       "Gazole",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
       "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
       "Lavage automatique",
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
+      "Wifi",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vaucluse",
     "code_departement": "84",

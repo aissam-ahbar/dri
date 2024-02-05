@@ -1,5 +1,99 @@
 [
   {
+    "id": 59210003,
+    "latitude": "5103376",
+    "longitude": 240223,
+    "cp": "59210",
+    "pop": "R",
+    "adresse": "109 Route de Furnes",
+    "ville": "Coudekerque-Branche",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 08:25:57\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 08:25:58\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 08:25:58\", \"@valeur\": \"1.889\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 2.40223,
+      "lat": 51.03376
+    },
+    "gazole_maj": "2024-02-02T09:25:57+01:00",
+    "gazole_prix": "1.765",
+    "sp95_maj": "2024-02-02T09:25:58+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-02T09:25:58+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 59210005,
+    "latitude": "5103170.16964",
+    "longitude": 239373.95017,
+    "cp": "59210",
+    "pop": "R",
+    "adresse": "14 ROUTE DE FURNES",
+    "ville": "Coudekerque-Branche",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.877\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.976\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 2.3937395017,
+      "lat": 51.0317016964
+    },
+    "gazole_maj": "2024-02-05T01:01:00+01:00",
+    "gazole_prix": "1.877",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-05T01:01:00+01:00",
+    "e10_prix": "1.866",
+    "sp98_maj": "2024-02-05T01:01:00+01:00",
+    "sp98_prix": "1.976",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Services réparation / entretien",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59411001,
     "latitude": "5101600",
     "longitude": 238200,
@@ -96,100 +190,6 @@
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59210003,
-    "latitude": "5103376",
-    "longitude": 240223,
-    "cp": "59210",
-    "pop": "R",
-    "adresse": "109 Route de Furnes",
-    "ville": "Coudekerque-Branche",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 08:25:57\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 08:25:58\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 08:25:58\", \"@valeur\": \"1.889\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 2.40223,
-      "lat": 51.03376
-    },
-    "gazole_maj": "2024-02-02T09:25:57+01:00",
-    "gazole_prix": "1.765",
-    "sp95_maj": "2024-02-02T09:25:58+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-02T09:25:58+01:00",
-    "sp98_prix": "1.889",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59210005,
-    "latitude": "5103170.16964",
-    "longitude": 239373.95017,
-    "cp": "59210",
-    "pop": "R",
-    "adresse": "14 ROUTE DE FURNES",
-    "ville": "Coudekerque-Branche",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.877\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.976\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 2.3937395017,
-      "lat": 51.0317016964
-    },
-    "gazole_maj": "2024-02-04T01:01:00+01:00",
-    "gazole_prix": "1.877",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-04T01:01:00+01:00",
-    "e10_prix": "1.866",
-    "sp98_maj": "2024-02-04T01:01:00+01:00",
-    "sp98_prix": "1.976",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Services réparation / entretien",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Nord",

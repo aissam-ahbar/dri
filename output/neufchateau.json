@@ -1,5 +1,49 @@
 [
   {
+    "id": 88300008,
+    "latitude": "4835392.25",
+    "longitude": 570669.3,
+    "cp": "88300",
+    "pop": "R",
+    "adresse": "24 AVENUE HERRINGEN",
+    "ville": "Neufchâteau",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 00:01:00\", \"@valeur\": \"1.904\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 5.7066930000000005,
+      "lat": 48.3539225
+    },
+    "gazole_maj": "2024-02-05T01:01:00+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-05T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-05T01:01:00+01:00",
+    "e10_prix": "1.822",
+    "sp98_maj": "2024-02-05T01:01:00+01:00",
+    "sp98_prix": "1.904",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Vosges",
+    "code_departement": "88",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 88300001,
     "latitude": "4835098.73823",
     "longitude": 569258.857653,
@@ -47,88 +91,46 @@
     "code_region": "44"
   },
   {
-    "id": 88300008,
-    "latitude": "4835392.25",
-    "longitude": 570669.3,
+    "id": 88307001,
+    "latitude": "4836903",
+    "longitude": 570513.81,
     "cp": "88300",
     "pop": "R",
-    "adresse": "24 AVENUE HERRINGEN",
+    "adresse": "67b, Avenue de la Division Leclerc",
     "ville": "Neufchâteau",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-04 00:01:00\", \"@valeur\": \"1.904\"}]",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 09:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 09:00:00\", \"@valeur\": \"1.821\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 08:55:00\", \"@valeur\": \"1.899\"}]",
     "horaires": null,
     "geom": {
-      "lon": 5.7066930000000005,
-      "lat": 48.3539225
+      "lon": 5.705138100000001,
+      "lat": 48.36903
     },
-    "gazole_maj": "2024-02-04T01:01:00+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2024-02-03T10:00:00+01:00",
+    "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-04T01:01:00+01:00",
-    "e85_prix": "0.899",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-04T01:01:00+01:00",
-    "e10_prix": "1.822",
-    "sp98_maj": "2024-02-04T01:01:00+01:00",
-    "sp98_prix": "1.904",
+    "e10_maj": "2024-02-03T10:00:00+01:00",
+    "e10_prix": "1.821",
+    "sp98_maj": "2024-02-02T09:55:00+01:00",
+    "sp98_prix": "1.899",
     "carburants_disponibles": [
       "Gazole",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Vosges",
-    "code_departement": "88",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 88300005,
-    "latitude": "4836668",
-    "longitude": 570118,
-    "cp": "88300",
-    "pop": "R",
-    "adresse": "750 Rue Paul Melin Prolongé",
-    "ville": "Neufchâteau",
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 07:03:23\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 07:03:51\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 07:04:20\", \"@valeur\": \"1.889\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 5.70118,
-      "lat": 48.36668
-    },
-    "gazole_maj": "2024-02-02T08:03:23+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": "2024-02-02T08:03:51+01:00",
-    "sp95_prix": "1.869",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-02T08:04:20+01:00",
-    "sp98_prix": "1.889",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
     "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Vosges",
@@ -243,46 +245,44 @@
     "code_region": "44"
   },
   {
-    "id": 88307001,
-    "latitude": "4836903",
-    "longitude": 570513.81,
+    "id": 88300005,
+    "latitude": "4836668",
+    "longitude": 570118,
     "cp": "88300",
     "pop": "R",
-    "adresse": "67b, Avenue de la Division Leclerc",
+    "adresse": "750 Rue Paul Melin Prolongé",
     "ville": "Neufchâteau",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 09:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 09:00:00\", \"@valeur\": \"1.821\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 08:55:00\", \"@valeur\": \"1.899\"}]",
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 07:03:23\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 07:03:51\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 07:04:20\", \"@valeur\": \"1.889\"}]",
     "horaires": null,
     "geom": {
-      "lon": 5.705138100000001,
-      "lat": 48.36903
+      "lon": 5.70118,
+      "lat": 48.36668
     },
-    "gazole_maj": "2024-02-03T10:00:00+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2024-02-02T08:03:23+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": "2024-02-02T08:03:51+01:00",
+    "sp95_prix": "1.869",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-03T10:00:00+01:00",
-    "e10_prix": "1.821",
-    "sp98_maj": "2024-02-02T09:55:00+01:00",
-    "sp98_prix": "1.899",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-02T08:04:20+01:00",
+    "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
-      "E10",
+      "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Vosges",

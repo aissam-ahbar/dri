@@ -1,5 +1,55 @@
 [
   {
+    "id": 45600002,
+    "latitude": "4778155.46647",
+    "longitude": 237469.262458,
+    "cp": "45600",
+    "pop": "R",
+    "adresse": "RUE DE SAVOIE",
+    "ville": "Saint-Père-sur-Loire",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 08:15:53\", \"@valeur\": \"1.737\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 11:03:48\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 19:30:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:12:48\", \"@valeur\": \"1.849\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.37469262458,
+      "lat": 47.7815546647
+    },
+    "gazole_maj": "2024-01-31T09:15:53+01:00",
+    "gazole_prix": "1.737",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-22T12:03:48+01:00",
+    "e85_prix": "0.869",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-03T20:30:00+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2024-02-02T10:12:48+01:00",
+    "sp98_prix": "1.849",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loiret",
+    "code_departement": "45",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 45460002,
     "latitude": "4778900",
     "longitude": 237800,
@@ -45,56 +95,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loiret",
-    "code_departement": "45",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 45600002,
-    "latitude": "4778155.46647",
-    "longitude": 237469.262458,
-    "cp": "45600",
-    "pop": "R",
-    "adresse": "RUE DE SAVOIE",
-    "ville": "Saint-Père-sur-Loire",
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 08:15:53\", \"@valeur\": \"1.737\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 11:03:48\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 19:30:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:12:48\", \"@valeur\": \"1.849\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.37469262458,
-      "lat": 47.7815546647
-    },
-    "gazole_maj": "2024-01-31T09:15:53+01:00",
-    "gazole_prix": "1.737",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-22T12:03:48+01:00",
-    "e85_prix": "0.869",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-03T20:30:00+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2024-02-02T10:12:48+01:00",
-    "sp98_prix": "1.849",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Loiret",

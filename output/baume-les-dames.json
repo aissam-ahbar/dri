@@ -1,5 +1,58 @@
 [
   {
+    "id": 25110001,
+    "latitude": "4735200",
+    "longitude": 635800,
+    "cp": "25110",
+    "pop": "R",
+    "adresse": "2 Avenue du Général Leclerc",
+    "ville": "Baume-les-Dames",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 07:15:04\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-03 07:15:04\", \"@valeur\": \"1.880\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 6.358,
+      "lat": 47.352
+    },
+    "gazole_maj": "2024-02-03T08:15:04+01:00",
+    "gazole_prix": "1.890",
+    "sp95_maj": "2024-02-03T08:15:04+01:00",
+    "sp95_prix": "1.880",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 25110003,
     "latitude": "4735200",
     "longitude": 635000,
@@ -44,6 +97,52 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Automate CB 24/24"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 25110004,
+    "latitude": "4734990.88497",
+    "longitude": 634694.382569,
+    "cp": "25110",
+    "pop": "R",
+    "adresse": "24 Rue Ernest Nicolas",
+    "ville": "Baume-les-Dames",
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-04 09:10:35\", \"@valeur\": \"1.760\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-04 09:10:36\", \"@valeur\": \"1.774\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 10:31:59\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-04 09:10:36\", \"@valeur\": \"1.738\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 6.34694382569,
+      "lat": 47.3499088497
+    },
+    "gazole_maj": "2024-02-04T10:10:35+01:00",
+    "gazole_prix": "1.760",
+    "sp95_maj": "2024-02-04T10:10:36+01:00",
+    "sp95_prix": "1.774",
+    "e85_maj": "2024-01-05T11:31:59+01:00",
+    "e85_prix": "0.849",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-04T10:10:36+01:00",
+    "e10_prix": "1.738",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Doubs",
     "code_departement": "25",
@@ -109,105 +208,6 @@
       "Wifi",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25110001,
-    "latitude": "4735200",
-    "longitude": 635800,
-    "cp": "25110",
-    "pop": "R",
-    "adresse": "2 Avenue du Général Leclerc",
-    "ville": "Baume-les-Dames",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 07:15:04\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-03 07:15:04\", \"@valeur\": \"1.880\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 6.358,
-      "lat": 47.352
-    },
-    "gazole_maj": "2024-02-03T08:15:04+01:00",
-    "gazole_prix": "1.890",
-    "sp95_maj": "2024-02-03T08:15:04+01:00",
-    "sp95_prix": "1.880",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 25110004,
-    "latitude": "4734990.88497",
-    "longitude": 634694.382569,
-    "cp": "25110",
-    "pop": "R",
-    "adresse": "24 Rue Ernest Nicolas",
-    "ville": "Baume-les-Dames",
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 12:11:51\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 12:11:52\", \"@valeur\": \"1.821\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 10:31:59\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 12:11:52\", \"@valeur\": \"1.782\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 6.34694382569,
-      "lat": 47.3499088497
-    },
-    "gazole_maj": "2024-01-31T13:11:51+01:00",
-    "gazole_prix": "1.775",
-    "sp95_maj": "2024-01-31T13:11:52+01:00",
-    "sp95_prix": "1.821",
-    "e85_maj": "2024-01-05T11:31:59+01:00",
-    "e85_prix": "0.849",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-31T13:11:52+01:00",
-    "e10_prix": "1.782",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Doubs",
     "code_departement": "25",

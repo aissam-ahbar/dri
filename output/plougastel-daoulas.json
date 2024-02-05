@@ -1,5 +1,60 @@
 [
   {
+    "id": 29470004,
+    "latitude": "4837935",
+    "longitude": -437494,
+    "cp": "29470",
+    "pop": "R",
+    "adresse": "Avenue Charles de Gaulle",
+    "ville": "Plougastel-Daoulas",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 09:09:05\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 09:09:10\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:09:17\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 09:09:22\", \"@valeur\": \"1.849\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -4.37494,
+      "lat": 48.37935
+    },
+    "gazole_maj": "2024-01-31T10:09:05+01:00",
+    "gazole_prix": "1.782",
+    "sp95_maj": "2024-01-31T10:09:10+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-31T10:09:17+01:00",
+    "e10_prix": "1.790",
+    "sp98_maj": "2024-01-31T10:09:22+01:00",
+    "sp98_prix": "1.849",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Bar",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Finistère",
+    "code_departement": "29",
+    "region": "Bretagne",
+    "code_region": "53"
+  },
+  {
     "id": 29470003,
     "latitude": "4838300",
     "longitude": -434800,
@@ -52,61 +107,6 @@
       "Piste poids lourds",
       "Lavage automatique",
       "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Finistère",
-    "code_departement": "29",
-    "region": "Bretagne",
-    "code_region": "53"
-  },
-  {
-    "id": 29470004,
-    "latitude": "4837935",
-    "longitude": -437494,
-    "cp": "29470",
-    "pop": "R",
-    "adresse": "Avenue Charles de Gaulle",
-    "ville": "Plougastel-Daoulas",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 09:09:05\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 09:09:10\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:09:17\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 09:09:22\", \"@valeur\": \"1.849\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": -4.37494,
-      "lat": 48.37935
-    },
-    "gazole_maj": "2024-01-31T10:09:05+01:00",
-    "gazole_prix": "1.782",
-    "sp95_maj": "2024-01-31T10:09:10+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-31T10:09:17+01:00",
-    "e10_prix": "1.790",
-    "sp98_maj": "2024-01-31T10:09:22+01:00",
-    "sp98_prix": "1.849",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Bar",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
