@@ -8,7 +8,7 @@
     "adresse": "1 Avenue de Gascogne",
     "ville": "Grenade",
     "services": "{\"service\": [\"Laverie\", \"Location de véhicule\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 19:57:03\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-03 19:57:03\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 19:57:03\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 19:57:04\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 19:57:04\", \"@valeur\": \"1.859\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 19:57:03\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-03 19:57:03\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 19:57:04\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 19:57:04\", \"@valeur\": \"1.859\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.286,
@@ -18,8 +18,8 @@
     "gazole_prix": "1.769",
     "sp95_maj": "2024-02-03T20:57:03+01:00",
     "sp95_prix": "1.859",
-    "e85_maj": "2024-02-03T20:57:03+01:00",
-    "e85_prix": "0.869",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2024-02-03T20:57:04+01:00",
@@ -29,11 +29,11 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",

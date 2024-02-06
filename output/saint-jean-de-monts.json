@@ -1,5 +1,62 @@
 [
   {
+    "id": 85160005,
+    "latitude": "4679600",
+    "longitude": -204600,
+    "cp": "85160",
+    "pop": "R",
+    "adresse": "Route de Challans",
+    "ville": "Saint-Jean-de-Monts",
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 17:53:21\", \"@valeur\": \"1.750\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 09:10:00\", \"@valeur\": \"0.891\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 09:22:07\", \"@valeur\": \"1.738\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-27 10:50:46\", \"@valeur\": \"1.819\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": -2.046,
+      "lat": 46.796
+    },
+    "gazole_maj": "2024-02-02T18:53:21+01:00",
+    "gazole_prix": "1.750",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-08T10:10:00+01:00",
+    "e85_prix": "0.891",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-05T10:22:07+01:00",
+    "e10_prix": "1.738",
+    "sp98_maj": "2024-01-27T11:50:46+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Aire de camping-cars",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
+    ],
+    "departement": "Vendée",
+    "code_departement": "85",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
     "id": 85160006,
     "latitude": "4679567.7436794",
     "longitude": -204948.00138474,
@@ -91,63 +148,6 @@
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants"
-    ],
-    "departement": "Vendée",
-    "code_departement": "85",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 85160005,
-    "latitude": "4679600",
-    "longitude": -204600,
-    "cp": "85160",
-    "pop": "R",
-    "adresse": "Route de Challans",
-    "ville": "Saint-Jean-de-Monts",
-    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 17:53:21\", \"@valeur\": \"1.750\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 09:10:00\", \"@valeur\": \"0.891\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 13:51:19\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-27 10:50:46\", \"@valeur\": \"1.819\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": -2.046,
-      "lat": 46.796
-    },
-    "gazole_maj": "2024-02-02T18:53:21+01:00",
-    "gazole_prix": "1.750",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-08T10:10:00+01:00",
-    "e85_prix": "0.891",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-01T14:51:19+01:00",
-    "e10_prix": "1.772",
-    "sp98_maj": "2024-01-27T11:50:46+01:00",
-    "sp98_prix": "1.819",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Aire de camping-cars",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24"
     ],
     "departement": "Vendée",
     "code_departement": "85",

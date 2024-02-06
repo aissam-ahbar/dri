@@ -1,5 +1,56 @@
 [
   {
+    "id": 23000008,
+    "latitude": "4616800",
+    "longitude": 187200,
+    "cp": "23000",
+    "pop": "R",
+    "adresse": "16 AVENUE PIERRE MENDES FRANCE",
+    "ville": "Guéret",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 10:26:21\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-25 09:00:08\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 09:00:09\", \"@valeur\": \"1.789\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 1.872,
+      "lat": 46.168
+    },
+    "gazole_maj": "2024-01-31T11:26:21+01:00",
+    "gazole_prix": "1.785",
+    "sp95_maj": "2024-01-25T10:00:08+01:00",
+    "sp95_prix": "1.839",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-25T10:00:09+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Creuse",
+    "code_departement": "23",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 23008001,
     "latitude": "4617700",
     "longitude": 187700,
@@ -161,57 +212,6 @@
       "Station de gonflage",
       "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Creuse",
-    "code_departement": "23",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 23000008,
-    "latitude": "4616800",
-    "longitude": 187200,
-    "cp": "23000",
-    "pop": "R",
-    "adresse": "16 AVENUE PIERRE MENDES FRANCE",
-    "ville": "Guéret",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 10:26:21\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-25 09:00:08\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 09:00:09\", \"@valeur\": \"1.789\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 1.872,
-      "lat": 46.168
-    },
-    "gazole_maj": "2024-01-31T11:26:21+01:00",
-    "gazole_prix": "1.785",
-    "sp95_maj": "2024-01-25T10:00:08+01:00",
-    "sp95_prix": "1.839",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-25T10:00:09+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Wifi",
-      "Automate CB 24/24"
     ],
     "departement": "Creuse",
     "code_departement": "23",

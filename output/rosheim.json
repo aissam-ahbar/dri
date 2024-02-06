@@ -8,7 +8,7 @@
     "adresse": "33C Avenue de la Gare",
     "ville": "Rosheim",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 07:23:03\", \"@valeur\": \"1.786\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 07:23:03\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 07:23:03\", \"@valeur\": \"1.865\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 07:23:03\", \"@valeur\": \"1.786\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 07:23:03\", \"@valeur\": \"1.779\"}]",
     "horaires": null,
     "geom": {
       "lon": 7.487,
@@ -24,17 +24,17 @@
     "gplc_prix": null,
     "e10_maj": "2024-02-02T08:23:03+01:00",
     "e10_prix": "1.779",
-    "sp98_maj": "2024-02-02T08:23:03+01:00",
-    "sp98_prix": "1.865",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
