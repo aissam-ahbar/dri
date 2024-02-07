@@ -1,57 +1,5 @@
 [
   {
-    "id": 33430002,
-    "latitude": "4444000",
-    "longitude": -23100,
-    "cp": "33430",
-    "pop": "R",
-    "adresse": "39 cours du general leclerc",
-    "ville": "Bazas",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 09:12:15\", \"@valeur\": \"1.830\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 09:12:25\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 09:12:30\", \"@valeur\": \"1.962\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": -0.231,
-      "lat": 44.44
-    },
-    "gazole_maj": "2024-01-25T10:12:15+01:00",
-    "gazole_prix": "1.830",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-25T10:12:25+01:00",
-    "e10_prix": "1.852",
-    "sp98_maj": "2024-01-25T10:12:30+01:00",
-    "sp98_prix": "1.962",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Services réparation / entretien"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 33430005,
     "latitude": "4443900",
     "longitude": -22900,
@@ -59,9 +7,9 @@
     "pop": "R",
     "adresse": "12 AVENUE DE VERDUN",
     "ville": "Bazas",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 09:13:10\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:13:17\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 09:13:19\", \"@valeur\": \"1.844\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "geom": {
       "lon": -0.229,
       "lat": 44.439
@@ -112,9 +60,9 @@
     "pop": "R",
     "adresse": "D3",
     "ville": "Bazas",
+    "horaires": null,
     "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 12:53:35\", \"@valeur\": \"1.764\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 12:53:36\", \"@valeur\": \"1.804\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 12:53:36\", \"@valeur\": \"1.764\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 12:53:36\", \"@valeur\": \"1.846\"}]",
-    "horaires": null,
     "geom": {
       "lon": -0.21895288266399998,
       "lat": 44.433877400700005
@@ -146,6 +94,58 @@
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 33430002,
+    "latitude": "4444000",
+    "longitude": -23100,
+    "cp": "33430",
+    "pop": "R",
+    "adresse": "39 cours du general leclerc",
+    "ville": "Bazas",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 09:12:15\", \"@valeur\": \"1.830\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 09:12:25\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 09:12:30\", \"@valeur\": \"1.962\"}]",
+    "geom": {
+      "lon": -0.231,
+      "lat": 44.44
+    },
+    "gazole_maj": "2024-01-25T10:12:15+01:00",
+    "gazole_prix": "1.830",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-25T10:12:25+01:00",
+    "e10_prix": "1.852",
+    "sp98_maj": "2024-01-25T10:12:30+01:00",
+    "sp98_prix": "1.962",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Services réparation / entretien"
     ],
     "departement": "Gironde",
     "code_departement": "33",

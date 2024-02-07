@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "85, route de Saint Lô",
     "ville": "Condé-sur-Vire",
+    "horaires": null,
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage manuel\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 15:32:46\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-11-22 08:03:40\", \"@valeur\": \"1.969\"}]",
-    "horaires": null,
     "geom": {
       "lon": -0.99375,
       "lat": 49.04798
@@ -57,15 +57,15 @@
     "pop": "R",
     "adresse": "10 RUE ARGANCHY",
     "ville": "Condé-sur-Vire",
-    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Station de gonflage\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 16:15:04\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-26 16:15:05\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 16:15:05\", \"@valeur\": \"1.839\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}]}",
+    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Station de gonflage\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-26 16:15:05\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 16:15:05\", \"@valeur\": \"1.839\"}]",
     "geom": {
       "lon": -1.03,
       "lat": 49.058
     },
-    "gazole_maj": "2024-01-26T17:15:04+01:00",
-    "gazole_prix": "1.749",
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2024-01-26T17:15:05+01:00",
     "sp95_prix": "1.819",
     "e85_maj": null,
@@ -77,11 +77,11 @@
     "sp98_maj": "2024-01-26T17:15:05+01:00",
     "sp98_prix": "1.839",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10"

@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "16 Avenue de Marboz",
     "ville": "Bourg-en-Bresse",
+    "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 11:49:51\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 11:49:52\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 11:49:52\", \"@valeur\": \"1.889\"}]",
-    "horaires": null,
     "geom": {
       "lon": 5.22767,
       "lat": 46.21842
@@ -47,6 +47,151 @@
     "code_region": "84"
   },
   {
+    "id": 1000013,
+    "latitude": "4619900",
+    "longitude": 524400,
+    "cp": "01000",
+    "pop": "R",
+    "adresse": "BOULEVARD CHARLES DE GAULLE",
+    "ville": "Bourg-en-Bresse",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.873\"}]",
+    "geom": {
+      "lon": 5.244,
+      "lat": 46.199
+    },
+    "gazole_maj": "2024-02-06T01:01:00+01:00",
+    "gazole_prix": "1.761",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T01:01:00+01:00",
+    "e10_prix": "1.782",
+    "sp98_maj": "2024-02-06T01:01:00+01:00",
+    "sp98_prix": "1.873",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 1000016,
+    "latitude": "4620516.06",
+    "longitude": 522502.48,
+    "cp": "01000",
+    "pop": "R",
+    "adresse": "1 bvd John Kennedy",
+    "ville": "Bourg-en-Bresse",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.873\"}]",
+    "geom": {
+      "lon": 5.2250248,
+      "lat": 46.2051606
+    },
+    "gazole_maj": "2024-02-06T01:01:00+01:00",
+    "gazole_prix": "1.761",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T01:01:00+01:00",
+    "e10_prix": "1.782",
+    "sp98_maj": "2024-02-06T01:01:00+01:00",
+    "sp98_prix": "1.873",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 1000007,
+    "latitude": "4622100",
+    "longitude": 524500,
+    "cp": "01000",
+    "pop": "R",
+    "adresse": "AVENUE FRANCOIS PIGNIER",
+    "ville": "Bourg-en-Bresse",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 09:35:47\", \"@valeur\": \"1.760\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 09:35:48\", \"@valeur\": \"1.820\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 09:35:48\", \"@valeur\": \"1.781\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 09:35:48\", \"@valeur\": \"1.872\"}]",
+    "geom": {
+      "lon": 5.245,
+      "lat": 46.221
+    },
+    "gazole_maj": "2024-02-06T10:35:47+01:00",
+    "gazole_prix": "1.760",
+    "sp95_maj": "2024-02-06T10:35:48+01:00",
+    "sp95_prix": "1.820",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T10:35:48+01:00",
+    "e10_prix": "1.781",
+    "sp98_maj": "2024-02-06T10:35:48+01:00",
+    "sp98_prix": "1.872",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 1000008,
     "latitude": "4619900",
     "longitude": 524100,
@@ -54,24 +199,24 @@
     "pop": "R",
     "adresse": "Bd Charles de Gaulle",
     "ville": "Bourg-en-Bresse",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:26:00\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 00:26:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 00:26:00\", \"@valeur\": \"0.894\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:26:00\", \"@valeur\": \"1.783\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:26:00\", \"@valeur\": \"1.898\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 07:56:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 07:56:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 07:56:00\", \"@valeur\": \"0.894\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 07:56:00\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 07:56:00\", \"@valeur\": \"1.898\"}]",
     "geom": {
       "lon": 5.241,
       "lat": 46.199
     },
-    "gazole_maj": "2024-02-06T01:26:00+01:00",
-    "gazole_prix": "1.763",
-    "sp95_maj": "2024-02-06T01:26:00+01:00",
+    "gazole_maj": "2024-02-06T08:56:00+01:00",
+    "gazole_prix": "1.761",
+    "sp95_maj": "2024-02-06T08:56:00+01:00",
     "sp95_prix": "1.869",
-    "e85_maj": "2024-02-06T01:26:00+01:00",
+    "e85_maj": "2024-02-06T08:56:00+01:00",
     "e85_prix": "0.894",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-06T01:26:00+01:00",
-    "e10_prix": "1.783",
-    "sp98_maj": "2024-02-06T01:26:00+01:00",
+    "e10_maj": "2024-02-06T08:56:00+01:00",
+    "e10_prix": "1.782",
+    "sp98_maj": "2024-02-06T08:56:00+01:00",
     "sp98_prix": "1.898",
     "carburants_disponibles": [
       "Gazole",
@@ -118,9 +263,9 @@
     "pop": "R",
     "adresse": "56 Rue du Stand",
     "ville": "Bourg-en-Bresse",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 09:36:20\", \"@valeur\": \"1.768\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 09:36:20\", \"@valeur\": \"1.821\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-31 09:36:20\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:36:20\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 08:35:27\", \"@valeur\": \"1.868\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 5.229,
       "lat": 46.196
@@ -176,16 +321,16 @@
     "pop": "R",
     "adresse": "20 Avenue du Maréchal Juin",
     "ville": "Bourg-en-Bresse",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 09:45:07\", \"@valeur\": \"1.870\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 09:45:07\", \"@valeur\": \"1.920\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-30 09:45:08\", \"@valeur\": \"1.050\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 17:39:42\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 17:39:42\", \"@valeur\": \"1.920\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-30 09:45:08\", \"@valeur\": \"1.050\"}]",
     "geom": {
       "lon": 5.245,
       "lat": 46.188
     },
-    "gazole_maj": "2024-01-30T10:45:07+01:00",
-    "gazole_prix": "1.870",
-    "sp95_maj": "2024-01-30T10:45:07+01:00",
+    "gazole_maj": "2024-02-06T18:39:42+01:00",
+    "gazole_prix": "1.890",
+    "sp95_maj": "2024-02-06T18:39:42+01:00",
     "sp95_prix": "1.920",
     "e85_maj": null,
     "e85_prix": null,
@@ -220,151 +365,6 @@
       "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 1000007,
-    "latitude": "4622100",
-    "longitude": 524500,
-    "cp": "01000",
-    "pop": "R",
-    "adresse": "AVENUE FRANCOIS PIGNIER",
-    "ville": "Bourg-en-Bresse",
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 09:49:19\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 09:49:19\", \"@valeur\": \"1.820\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 09:49:19\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 09:49:19\", \"@valeur\": \"1.872\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 5.245,
-      "lat": 46.221
-    },
-    "gazole_maj": "2024-02-05T10:49:19+01:00",
-    "gazole_prix": "1.762",
-    "sp95_maj": "2024-02-05T10:49:19+01:00",
-    "sp95_prix": "1.820",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-05T10:49:19+01:00",
-    "e10_prix": "1.782",
-    "sp98_maj": "2024-02-05T10:49:19+01:00",
-    "sp98_prix": "1.872",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 1000013,
-    "latitude": "4619900",
-    "longitude": 524400,
-    "cp": "01000",
-    "pop": "R",
-    "adresse": "BOULEVARD CHARLES DE GAULLE",
-    "ville": "Bourg-en-Bresse",
-    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.873\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 5.244,
-      "lat": 46.199
-    },
-    "gazole_maj": "2024-02-06T01:01:00+01:00",
-    "gazole_prix": "1.761",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-06T01:01:00+01:00",
-    "e10_prix": "1.782",
-    "sp98_maj": "2024-02-06T01:01:00+01:00",
-    "sp98_prix": "1.873",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Automate CB 24/24"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 1000016,
-    "latitude": "4620516.06",
-    "longitude": 522502.48,
-    "cp": "01000",
-    "pop": "R",
-    "adresse": "1 bvd John Kennedy",
-    "ville": "Bourg-en-Bresse",
-    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.761\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.782\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.873\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "geom": {
-      "lon": 5.2250248,
-      "lat": 46.2051606
-    },
-    "gazole_maj": "2024-02-06T01:01:00+01:00",
-    "gazole_prix": "1.761",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-06T01:01:00+01:00",
-    "e10_prix": "1.782",
-    "sp98_maj": "2024-02-06T01:01:00+01:00",
-    "sp98_prix": "1.873",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Automate CB 24/24"
     ],
     "departement": "Ain",
     "code_departement": "01",

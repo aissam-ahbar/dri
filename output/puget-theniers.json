@@ -1,5 +1,58 @@
 [
   {
+    "id": 6260002,
+    "latitude": "4395475.5139463",
+    "longitude": 689044.101879,
+    "cp": "06260",
+    "pop": "R",
+    "adresse": "RN 202 Quartier St-Roch",
+    "ville": "Puget-Théniers",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 07:32:36\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 07:31:27\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 07:31:28\", \"@valeur\": \"1.839\"}]",
+    "geom": {
+      "lon": 6.89044101879,
+      "lat": 43.954755139463
+    },
+    "gazole_maj": "2024-01-30T08:32:36+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": "2024-01-31T08:31:27+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-01-31T08:31:28+01:00",
+    "sp98_prix": "1.839",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Vente de pétrole lampant",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Alpes-Maritimes",
+    "code_departement": "06",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 6260001,
     "latitude": "4395599",
     "longitude": 689387,
@@ -7,9 +60,9 @@
     "pop": "R",
     "adresse": "QUARTIER L'ISLE RN.202",
     "ville": "Puget-Théniers",
+    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:16:03\", \"@valeur\": \"1.883\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:25:40\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 09:25:41\", \"@valeur\": \"1.990\"}]",
-    "horaires": null,
     "geom": {
       "lon": 6.89387,
       "lat": 43.95599
@@ -48,59 +101,6 @@
       "Lavage manuel",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Alpes-Maritimes",
-    "code_departement": "06",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 6260002,
-    "latitude": "4395475.5139463",
-    "longitude": 689044.101879,
-    "cp": "06260",
-    "pop": "R",
-    "adresse": "RN 202 Quartier St-Roch",
-    "ville": "Puget-Théniers",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 07:32:36\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 07:31:27\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 07:31:28\", \"@valeur\": \"1.839\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 6.89044101879,
-      "lat": 43.954755139463
-    },
-    "gazole_maj": "2024-01-30T08:32:36+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": "2024-01-31T08:31:27+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-01-31T08:31:28+01:00",
-    "sp98_prix": "1.839",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Vente de pétrole lampant",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Alpes-Maritimes",
     "code_departement": "06",

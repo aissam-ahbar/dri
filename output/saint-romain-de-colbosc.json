@@ -1,60 +1,5 @@
 [
   {
-    "id": 76430005,
-    "latitude": "4952900",
-    "longitude": 34300,
-    "cp": "76430",
-    "pop": "R",
-    "adresse": "AVENUE MAL DE LATTRE DE TASSIGNY",
-    "ville": "Saint-Romain-de-Colbosc",
-    "services": "{\"service\": [\"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 13:12:23\", \"@valeur\": \"1.746\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-23 10:38:37\", \"@valeur\": \"0.872\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 13:12:24\", \"@valeur\": \"1.761\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 13:12:24\", \"@valeur\": \"1.828\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "geom": {
-      "lon": 0.343,
-      "lat": 49.529
-    },
-    "gazole_maj": "2024-02-01T14:12:23+01:00",
-    "gazole_prix": "1.746",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-23T11:38:37+01:00",
-    "e85_prix": "0.872",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-01T14:12:24+01:00",
-    "e10_prix": "1.761",
-    "sp98_maj": "2024-02-01T14:12:24+01:00",
-    "sp98_prix": "1.828",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Restauration sur place",
-      "Bar",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-Maritime",
-    "code_departement": "76",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
     "id": 76430004,
     "latitude": "4952535.29936",
     "longitude": 36511.2606713,
@@ -62,9 +7,9 @@
     "pop": "R",
     "adresse": "Rue du MAILLON",
     "ville": "Saint-Romain-de-Colbosc",
+    "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-29 08:27:24\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-29 08:27:25\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-29 08:27:25\", \"@valeur\": \"1.845\"}]",
-    "horaires": null,
     "geom": {
       "lon": 0.365112606713,
       "lat": 49.525352993599995
@@ -95,6 +40,61 @@
     "services_service": [
       "Station de gonflage",
       "Carburant additivé",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-Maritime",
+    "code_departement": "76",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
+    "id": 76430005,
+    "latitude": "4952900",
+    "longitude": 34300,
+    "cp": "76430",
+    "pop": "R",
+    "adresse": "AVENUE MAL DE LATTRE DE TASSIGNY",
+    "ville": "Saint-Romain-de-Colbosc",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 10:48:55\", \"@valeur\": \"1.746\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-23 10:38:37\", \"@valeur\": \"0.872\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 10:48:56\", \"@valeur\": \"1.753\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 10:48:56\", \"@valeur\": \"1.832\"}]",
+    "geom": {
+      "lon": 0.343,
+      "lat": 49.529
+    },
+    "gazole_maj": "2024-02-06T11:48:55+01:00",
+    "gazole_prix": "1.746",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-23T11:38:37+01:00",
+    "e85_prix": "0.872",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T11:48:56+01:00",
+    "e10_prix": "1.753",
+    "sp98_maj": "2024-02-06T11:48:56+01:00",
+    "sp98_prix": "1.832",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Restauration sur place",
+      "Bar",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
       "Lavage automatique",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",

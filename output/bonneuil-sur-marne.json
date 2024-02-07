@@ -1,5 +1,52 @@
 [
   {
+    "id": 94380003,
+    "latitude": "4876600",
+    "longitude": 249300,
+    "cp": "94380",
+    "pop": "R",
+    "adresse": "5 AVENUE DES ROSES",
+    "ville": "Bonneuil-sur-Marne",
+    "horaires": null,
+    "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 10:50:57\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 10:50:57\", \"@valeur\": \"1.825\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 10:50:57\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 10:50:57\", \"@valeur\": \"1.847\"}]",
+    "geom": {
+      "lon": 2.493,
+      "lat": 48.766
+    },
+    "gazole_maj": "2024-02-06T11:50:57+01:00",
+    "gazole_prix": "1.784",
+    "sp95_maj": "2024-02-06T11:50:57+01:00",
+    "sp95_prix": "1.825",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T11:50:57+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2024-02-06T11:50:57+01:00",
+    "sp98_prix": "1.847",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 94380002,
     "latitude": "4876500",
     "longitude": 247800,
@@ -7,9 +54,9 @@
     "pop": "R",
     "adresse": "ROUTE DE LA POMPADOUR",
     "ville": "Bonneuil-sur-Marne",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 03:03:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 03:03:00\", \"@valeur\": \"1.791\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 03:03:00\", \"@valeur\": \"1.871\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.478,
       "lat": 48.765
@@ -51,14 +98,14 @@
     "pop": "R",
     "adresse": "AVENUE JEAN ROSTAND",
     "ville": "Bonneuil-sur-Marne",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.796\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.872\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.796\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.872\"}]",
     "geom": {
       "lon": 2.48537,
       "lat": 48.76736
     },
-    "gazole_maj": "2024-02-06T01:01:00+01:00",
+    "gazole_maj": "2024-02-07T01:01:00+01:00",
     "gazole_prix": "1.796",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -66,9 +113,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-06T01:01:00+01:00",
+    "e10_maj": "2024-02-07T01:01:00+01:00",
     "e10_prix": "1.792",
-    "sp98_maj": "2024-02-06T01:01:00+01:00",
+    "sp98_maj": "2024-02-07T01:01:00+01:00",
     "sp98_prix": "1.872",
     "carburants_disponibles": [
       "Gazole",
@@ -82,53 +129,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 94380003,
-    "latitude": "4876600",
-    "longitude": 249300,
-    "cp": "94380",
-    "pop": "R",
-    "adresse": "5 AVENUE DES ROSES",
-    "ville": "Bonneuil-sur-Marne",
-    "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 09:54:46\", \"@valeur\": \"1.787\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 10:21:19\", \"@valeur\": \"1.825\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 09:54:47\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 10:21:19\", \"@valeur\": \"1.849\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.493,
-      "lat": 48.766
-    },
-    "gazole_maj": "2024-02-03T10:54:46+01:00",
-    "gazole_prix": "1.787",
-    "sp95_maj": "2024-02-05T11:21:19+01:00",
-    "sp95_prix": "1.825",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-03T10:54:47+01:00",
-    "e10_prix": "1.780",
-    "sp98_maj": "2024-02-05T11:21:19+01:00",
-    "sp98_prix": "1.849",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
-      "DAB (Distributeur automatique de billets)"
-    ],
     "departement": "Val-de-Marne",
     "code_departement": "94",
     "region": "Île-de-France",

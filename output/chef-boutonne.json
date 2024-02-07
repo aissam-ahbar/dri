@@ -1,55 +1,5 @@
 [
   {
-    "id": 79110001,
-    "latitude": "4610800",
-    "longitude": -6800,
-    "cp": "79110",
-    "pop": "R",
-    "adresse": "17 Place Cail",
-    "ville": "Chef-Boutonne",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-26 09:34:16\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-26 09:34:17\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-26 09:34:17\", \"@valeur\": \"1.811\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}]}",
-    "geom": {
-      "lon": -0.068,
-      "lat": 46.108
-    },
-    "gazole_maj": "2024-01-26T10:34:16+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-26T10:34:17+01:00",
-    "e10_prix": "1.746",
-    "sp98_maj": "2024-01-26T10:34:17+01:00",
-    "sp98_prix": "1.811",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Deux-Sèvres",
-    "code_departement": "79",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 79110003,
     "latitude": "4610700",
     "longitude": -7000,
@@ -57,9 +7,9 @@
     "pop": "R",
     "adresse": "6 avenue Louis Doignon",
     "ville": "Chef-Boutonne",
+    "horaires": null,
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:00:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 09:00:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:00:00\", \"@valeur\": \"1.819\"}]",
-    "horaires": null,
     "geom": {
       "lon": -0.07,
       "lat": 46.107
@@ -91,6 +41,56 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Deux-Sèvres",
+    "code_departement": "79",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 79110001,
+    "latitude": "4610800",
+    "longitude": -6800,
+    "cp": "79110",
+    "pop": "R",
+    "adresse": "17 Place Cail",
+    "ville": "Chef-Boutonne",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 07:57:51\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 07:57:51\", \"@valeur\": \"1.752\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 07:57:51\", \"@valeur\": \"1.819\"}]",
+    "geom": {
+      "lon": -0.068,
+      "lat": 46.108
+    },
+    "gazole_maj": "2024-02-06T08:57:51+01:00",
+    "gazole_prix": "1.749",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T08:57:51+01:00",
+    "e10_prix": "1.752",
+    "sp98_maj": "2024-02-06T08:57:51+01:00",
+    "sp98_prix": "1.819",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Deux-Sèvres",
     "code_departement": "79",

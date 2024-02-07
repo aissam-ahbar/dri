@@ -1,57 +1,5 @@
 [
   {
-    "id": 13210002,
-    "latitude": "4379300",
-    "longitude": 482700,
-    "cp": "13210",
-    "pop": "R",
-    "adresse": "N°11 Impasse de la 1er DFL ZAC de la Gare",
-    "ville": "Saint-Rémy-de-Provence",
-    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 08:40:49\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 09:18:53\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 08:40:49\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:18:54\", \"@valeur\": \"1.889\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.827,
-      "lat": 43.793
-    },
-    "gazole_maj": "2024-02-05T09:40:49+01:00",
-    "gazole_prix": "1.759",
-    "sp95_maj": "2024-02-02T10:18:53+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-05T09:40:49+01:00",
-    "e10_prix": "1.809",
-    "sp98_maj": "2024-02-02T10:18:54+01:00",
-    "sp98_prix": "1.889",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 13210001,
     "latitude": "4378873",
     "longitude": 483540,
@@ -59,9 +7,9 @@
     "pop": "R",
     "adresse": "41 AV DE LA LIBERATION",
     "ville": "Saint-Rémy-de-Provence",
+    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 19:39:41\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 19:45:15\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-23 14:08:12\", \"@valeur\": \"1.989\"}]",
-    "horaires": null,
     "geom": {
       "lon": 4.8354,
       "lat": 43.78873
@@ -107,6 +55,58 @@
     "code_region": "93"
   },
   {
+    "id": 13210002,
+    "latitude": "4379300",
+    "longitude": 482700,
+    "cp": "13210",
+    "pop": "R",
+    "adresse": "N°11 Impasse de la 1er DFL ZAC de la Gare",
+    "ville": "Saint-Rémy-de-Provence",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 08:40:49\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 09:18:53\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 08:40:49\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:18:54\", \"@valeur\": \"1.889\"}]",
+    "geom": {
+      "lon": 4.827,
+      "lat": 43.793
+    },
+    "gazole_maj": "2024-02-05T09:40:49+01:00",
+    "gazole_prix": "1.759",
+    "sp95_maj": "2024-02-02T10:18:53+01:00",
+    "sp95_prix": "1.829",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-05T09:40:49+01:00",
+    "e10_prix": "1.809",
+    "sp98_maj": "2024-02-02T10:18:54+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13210003,
     "latitude": "4378936",
     "longitude": 483339,
@@ -114,9 +114,9 @@
     "pop": "R",
     "adresse": "35 BD MIRABEAU",
     "ville": "Saint-Rémy-de-Provence",
+    "horaires": null,
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 10:16:07\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 12:05:17\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 18:27:21\", \"@valeur\": \"1.989\"}]",
-    "horaires": null,
     "geom": {
       "lon": 4.83339,
       "lat": 43.78936

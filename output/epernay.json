@@ -1,53 +1,5 @@
 [
   {
-    "id": 51200005,
-    "latitude": "4904000",
-    "longitude": 395900,
-    "cp": "51200",
-    "pop": "R",
-    "adresse": "Les Rechignons DIZY",
-    "ville": "Épernay",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 06:59:34\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 06:59:34\", \"@valeur\": \"1.823\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 06:59:34\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 06:59:34\", \"@valeur\": \"1.858\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 3.959,
-      "lat": 49.04
-    },
-    "gazole_maj": "2024-02-02T07:59:34+01:00",
-    "gazole_prix": "1.785",
-    "sp95_maj": "2024-02-02T07:59:34+01:00",
-    "sp95_prix": "1.823",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-02T07:59:34+01:00",
-    "e10_prix": "1.777",
-    "sp98_maj": "2024-02-02T07:59:34+01:00",
-    "sp98_prix": "1.858",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Marne",
-    "code_departement": "51",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 51200001,
     "latitude": "4904900",
     "longitude": 396300,
@@ -55,9 +7,9 @@
     "pop": "R",
     "adresse": "13 Quai de Marne",
     "ville": "Épernay",
+    "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 07:15:51\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 07:15:52\", \"@valeur\": \"1.830\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 07:15:52\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 07:15:52\", \"@valeur\": \"1.869\"}]",
-    "horaires": null,
     "geom": {
       "lon": 3.963,
       "lat": 49.049
@@ -102,25 +54,25 @@
     "pop": "R",
     "adresse": "13 BLD DE LA MOTTE",
     "ville": "Épernay",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"0.934\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.888\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.786\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"0.934\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.793\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.892\"}]",
     "geom": {
       "lon": 3.956,
       "lat": 49.046
     },
-    "gazole_maj": "2024-02-06T01:01:00+01:00",
-    "gazole_prix": "1.779",
+    "gazole_maj": "2024-02-07T01:01:00+01:00",
+    "gazole_prix": "1.786",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-06T01:01:00+01:00",
+    "e85_maj": "2024-02-07T01:01:00+01:00",
     "e85_prix": "0.899",
-    "gplc_maj": "2024-02-06T01:01:00+01:00",
+    "gplc_maj": "2024-02-07T01:01:00+01:00",
     "gplc_prix": "0.934",
-    "e10_maj": "2024-02-06T01:01:00+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-02-06T01:01:00+01:00",
-    "sp98_prix": "1.888",
+    "e10_maj": "2024-02-07T01:01:00+01:00",
+    "e10_prix": "1.793",
+    "sp98_maj": "2024-02-07T01:01:00+01:00",
+    "sp98_prix": "1.892",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -150,6 +102,54 @@
     "code_region": "44"
   },
   {
+    "id": 51200005,
+    "latitude": "4904000",
+    "longitude": 395900,
+    "cp": "51200",
+    "pop": "R",
+    "adresse": "Les Rechignons DIZY",
+    "ville": "Épernay",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 09:32:42\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 06:59:34\", \"@valeur\": \"1.823\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 06:59:34\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 06:59:34\", \"@valeur\": \"1.858\"}]",
+    "geom": {
+      "lon": 3.959,
+      "lat": 49.04
+    },
+    "gazole_maj": "2024-02-06T10:32:42+01:00",
+    "gazole_prix": "1.777",
+    "sp95_maj": "2024-02-02T07:59:34+01:00",
+    "sp95_prix": "1.823",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-02T07:59:34+01:00",
+    "e10_prix": "1.777",
+    "sp98_maj": "2024-02-02T07:59:34+01:00",
+    "sp98_prix": "1.858",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Marne",
+    "code_departement": "51",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 51200004,
     "latitude": "4904700",
     "longitude": 395000,
@@ -157,9 +157,9 @@
     "pop": "R",
     "adresse": "34 Avenue Jean Jaurès",
     "ville": "Épernay",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 11:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 11:01:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 11:01:00\", \"@valeur\": \"1.874\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 3.95,
       "lat": 49.047

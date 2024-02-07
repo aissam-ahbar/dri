@@ -1,59 +1,5 @@
 [
   {
-    "id": 59350002,
-    "latitude": "5065800",
-    "longitude": 305200,
-    "cp": "59350",
-    "pop": "R",
-    "adresse": "17 RUE DU GENERAL LECLERC",
-    "ville": "Saint-André-lez-Lille",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 23:55:00\", \"@valeur\": \"1.941\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-06 23:55:00\", \"@valeur\": \"0.981\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 23:55:00\", \"@valeur\": \"1.941\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 23:55:00\", \"@valeur\": \"2.036\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 3.052,
-      "lat": 50.658
-    },
-    "gazole_maj": "2024-02-03T00:55:00+01:00",
-    "gazole_prix": "1.941",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-12-07T00:55:00+01:00",
-    "e85_prix": "0.981",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-03T00:55:00+01:00",
-    "e10_prix": "1.941",
-    "sp98_maj": "2024-02-03T00:55:00+01:00",
-    "sp98_prix": "2.036",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 59520001,
     "latitude": "5066330",
     "longitude": 304615,
@@ -61,9 +7,9 @@
     "pop": "R",
     "adresse": "Rue Georges Maertens",
     "ville": "Saint-André-lez-Lille",
+    "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 08:43:20\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-10 08:40:49\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 08:43:21\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 08:43:21\", \"@valeur\": \"1.859\"}]",
-    "horaires": null,
     "geom": {
       "lon": 3.04615,
       "lat": 50.6633
@@ -94,6 +40,60 @@
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 59350002,
+    "latitude": "5065800",
+    "longitude": 305200,
+    "cp": "59350",
+    "pop": "R",
+    "adresse": "17 RUE DU GENERAL LECLERC",
+    "ville": "Saint-André-lez-Lille",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.15\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 23:55:00\", \"@valeur\": \"1.947\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-06 23:55:00\", \"@valeur\": \"0.981\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 23:55:00\", \"@valeur\": \"1.956\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 23:55:00\", \"@valeur\": \"2.052\"}]",
+    "geom": {
+      "lon": 3.052,
+      "lat": 50.658
+    },
+    "gazole_maj": "2024-02-07T00:55:00+01:00",
+    "gazole_prix": "1.947",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-12-07T00:55:00+01:00",
+    "e85_prix": "0.981",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-07T00:55:00+01:00",
+    "e10_prix": "1.956",
+    "sp98_maj": "2024-02-07T00:55:00+01:00",
+    "sp98_prix": "2.052",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Nord",
     "code_departement": "59",

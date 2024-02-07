@@ -1,5 +1,51 @@
 [
   {
+    "id": 18000022,
+    "latitude": "4704186.7728406",
+    "longitude": 234893.0007346,
+    "cp": "18000",
+    "pop": "R",
+    "adresse": "ZAC DE VARENNES 23 RUE NICEPHORE NIEPCE",
+    "ville": "Bourges",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 08:39:55\", \"@valeur\": \"1.794\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 08:39:55\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 08:39:55\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 08:39:55\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": 2.348930007346,
+      "lat": 47.041867728406004
+    },
+    "gazole_maj": "2024-02-06T09:39:55+01:00",
+    "gazole_prix": "1.794",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-06T09:39:55+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T09:39:55+01:00",
+    "e10_prix": "1.814",
+    "sp98_maj": "2024-02-06T09:39:55+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Cher",
+    "code_departement": "18",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 18000001,
     "latitude": "4710300",
     "longitude": 241000,
@@ -7,9 +53,9 @@
     "pop": "R",
     "adresse": "AVENUE DE LATTRE DE TASSIGNY",
     "ville": "Bourges",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 07:57:46\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 07:57:46\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 07:57:46\", \"@valeur\": \"1.910\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.41,
       "lat": 47.103
@@ -57,9 +103,9 @@
     "pop": "R",
     "adresse": "191 les Terres du fénestrelay",
     "ville": "Bourges",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 10:22:52\", \"@valeur\": \"1.795\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-05 10:22:52\", \"@valeur\": \"0.900\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 10:22:52\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 10:22:52\", \"@valeur\": \"1.899\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.4407317790985,
       "lat": 47.095589154531
@@ -99,149 +145,6 @@
     "code_region": "24"
   },
   {
-    "id": 18000011,
-    "latitude": "4706500",
-    "longitude": 239800,
-    "cp": "18000",
-    "pop": "R",
-    "adresse": "Rue Raymond Boisdé",
-    "ville": "Bourges",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 09:03:04\", \"@valeur\": \"1.775\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 09:03:04\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 09:03:04\", \"@valeur\": \"1.869\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 2.398,
-      "lat": 47.065
-    },
-    "gazole_maj": "2024-02-01T10:03:04+01:00",
-    "gazole_prix": "1.775",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-01T10:03:04+01:00",
-    "e10_prix": "1.784",
-    "sp98_maj": "2024-02-01T10:03:04+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Cher",
-    "code_departement": "18",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 18000016,
-    "latitude": "4707900",
-    "longitude": 238900,
-    "cp": "18000",
-    "pop": "R",
-    "adresse": "Place Agénor Bardoux",
-    "ville": "Bourges",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 12:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 13:25:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 13:25:00\", \"@valeur\": \"1.979\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 2.389,
-      "lat": 47.079
-    },
-    "gazole_maj": "2024-01-30T13:30:00+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-31T14:25:00+01:00",
-    "e10_prix": "1.859",
-    "sp98_maj": "2024-01-31T14:25:00+01:00",
-    "sp98_prix": "1.979",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Automate CB 24/24"
-    ],
-    "departement": "Cher",
-    "code_departement": "18",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 18000004,
-    "latitude": "4707082",
-    "longitude": 237747,
-    "cp": "18000",
-    "pop": "R",
-    "adresse": "110 Avenue Marcel Haegelen",
-    "ville": "Bourges",
-    "services": "{\"service\": \"Toilettes publiques\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 08:10:38\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 08:10:39\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 08:10:39\", \"@valeur\": \"1.899\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.37747,
-      "lat": 47.07082
-    },
-    "gazole_maj": "2024-02-01T09:10:38+01:00",
-    "gazole_prix": "1.795",
-    "sp95_maj": "2024-02-01T09:10:39+01:00",
-    "sp95_prix": "1.869",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-01T09:10:39+01:00",
-    "sp98_prix": "1.899",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques"
-    ],
-    "departement": "Cher",
-    "code_departement": "18",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 18000017,
     "latitude": "4709400",
     "longitude": 239100,
@@ -249,24 +152,24 @@
     "pop": "R",
     "adresse": "10 AV. DES PRES LE ROI",
     "ville": "Bourges",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.876\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.034\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.864\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.974\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.876\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.034\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.864\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.974\"}]",
     "geom": {
       "lon": 2.391,
       "lat": 47.094
     },
-    "gazole_maj": "2024-02-06T01:01:00+01:00",
+    "gazole_maj": "2024-02-07T01:01:00+01:00",
     "gazole_prix": "1.876",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-06T01:01:00+01:00",
+    "e85_maj": "2024-02-07T01:01:00+01:00",
     "e85_prix": "0.919",
-    "gplc_maj": "2024-02-06T01:01:00+01:00",
+    "gplc_maj": "2024-02-07T01:01:00+01:00",
     "gplc_prix": "1.034",
-    "e10_maj": "2024-02-06T01:01:00+01:00",
+    "e10_maj": "2024-02-07T01:01:00+01:00",
     "e10_prix": "1.864",
-    "sp98_maj": "2024-02-06T01:01:00+01:00",
+    "sp98_maj": "2024-02-07T01:01:00+01:00",
     "sp98_prix": "1.974",
     "carburants_disponibles": [
       "Gazole",
@@ -305,14 +208,14 @@
     "pop": "R",
     "adresse": "8-10 BOULEVARD DE L'AVENIR",
     "ville": "Bourges",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.801\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.906\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.802\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.906\"}]",
     "geom": {
       "lon": 2.38366,
       "lat": 47.08173
     },
-    "gazole_maj": "2024-02-06T01:01:00+01:00",
+    "gazole_maj": "2024-02-07T01:01:00+01:00",
     "gazole_prix": "1.769",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -320,9 +223,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-06T01:01:00+01:00",
-    "e10_prix": "1.801",
-    "sp98_maj": "2024-02-06T01:01:00+01:00",
+    "e10_maj": "2024-02-07T01:01:00+01:00",
+    "e10_prix": "1.802",
+    "sp98_maj": "2024-02-07T01:01:00+01:00",
     "sp98_prix": "1.906",
     "carburants_disponibles": [
       "Gazole",
@@ -350,56 +253,46 @@
     "code_region": "24"
   },
   {
-    "id": 18000002,
-    "latitude": "4709300",
-    "longitude": 242800,
+    "id": 18000011,
+    "latitude": "4706500",
+    "longitude": 239800,
     "cp": "18000",
     "pop": "R",
-    "adresse": "CHAUSSE DE CHAPPE",
+    "adresse": "Rue Raymond Boisdé",
     "ville": "Bourges",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Location de véhicule\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 08:48:42\", \"@valeur\": \"1.802\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 08:48:43\", \"@valeur\": \"1.870\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 08:48:43\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 08:48:43\", \"@valeur\": \"1.899\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 09:28:19\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 09:28:19\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 09:28:20\", \"@valeur\": \"1.857\"}]",
     "geom": {
-      "lon": 2.428,
-      "lat": 47.093
+      "lon": 2.398,
+      "lat": 47.065
     },
-    "gazole_maj": "2024-02-05T09:48:42+01:00",
-    "gazole_prix": "1.802",
-    "sp95_maj": "2024-02-05T09:48:43+01:00",
-    "sp95_prix": "1.870",
+    "gazole_maj": "2024-02-06T10:28:19+01:00",
+    "gazole_prix": "1.764",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-05T09:48:43+01:00",
-    "e10_prix": "1.800",
-    "sp98_maj": "2024-02-05T09:48:43+01:00",
-    "sp98_prix": "1.899",
+    "e10_maj": "2024-02-06T10:28:19+01:00",
+    "e10_prix": "1.773",
+    "sp98_maj": "2024-02-06T10:28:20+01:00",
+    "sp98_prix": "1.857",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc"
     ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Bar",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Espace bébé",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Automate CB 24/24"
     ],
     "departement": "Cher",
     "code_departement": "18",
@@ -414,24 +307,24 @@
     "pop": "R",
     "adresse": "153-155 RUE LOUIS MALLET",
     "ville": "Bourges",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 08:40:23\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-05 08:40:23\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 08:40:23\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 08:40:24\", \"@valeur\": \"1.869\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 08:38:44\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 08:38:44\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 08:38:44\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 08:38:44\", \"@valeur\": \"1.869\"}]",
     "geom": {
       "lon": 2.365,
       "lat": 47.082
     },
-    "gazole_maj": "2024-02-05T09:40:23+01:00",
+    "gazole_maj": "2024-02-06T09:38:44+01:00",
     "gazole_prix": "1.764",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-05T09:40:23+01:00",
+    "e85_maj": "2024-02-06T09:38:44+01:00",
     "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-05T09:40:23+01:00",
+    "e10_maj": "2024-02-06T09:38:44+01:00",
     "e10_prix": "1.784",
-    "sp98_maj": "2024-02-05T09:40:24+01:00",
+    "sp98_maj": "2024-02-06T09:38:44+01:00",
     "sp98_prix": "1.869",
     "carburants_disponibles": [
       "Gazole",
@@ -455,52 +348,6 @@
     "code_region": "24"
   },
   {
-    "id": 18000022,
-    "latitude": "4704186.7728406",
-    "longitude": 234893.0007346,
-    "cp": "18000",
-    "pop": "R",
-    "adresse": "ZAC DE VARENNES 23 RUE NICEPHORE NIEPCE",
-    "ville": "Bourges",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 08:43:33\", \"@valeur\": \"1.794\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-05 08:43:34\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 08:43:34\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 08:43:34\", \"@valeur\": \"1.899\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "geom": {
-      "lon": 2.348930007346,
-      "lat": 47.041867728406004
-    },
-    "gazole_maj": "2024-02-05T09:43:33+01:00",
-    "gazole_prix": "1.794",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-05T09:43:34+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-05T09:43:34+01:00",
-    "e10_prix": "1.814",
-    "sp98_maj": "2024-02-05T09:43:34+01:00",
-    "sp98_prix": "1.899",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Cher",
-    "code_departement": "18",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
     "id": 18000018,
     "latitude": "4707224",
     "longitude": 239510,
@@ -508,24 +355,24 @@
     "pop": "R",
     "adresse": "BOULEVARD DE L'INDUSTRIE",
     "ville": "Bourges",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 00:01:00\", \"@valeur\": \"1.906\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.906\"}]",
     "geom": {
       "lon": 2.3951,
       "lat": 47.07224
     },
-    "gazole_maj": "2024-02-06T01:01:00+01:00",
+    "gazole_maj": "2024-02-07T01:01:00+01:00",
     "gazole_prix": "1.765",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-06T01:01:00+01:00",
+    "e85_maj": "2024-02-07T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-06T01:01:00+01:00",
+    "e10_maj": "2024-02-07T01:01:00+01:00",
     "e10_prix": "1.800",
-    "sp98_maj": "2024-02-06T01:01:00+01:00",
+    "sp98_maj": "2024-02-07T01:01:00+01:00",
     "sp98_prix": "1.906",
     "carburants_disponibles": [
       "Gazole",
@@ -554,6 +401,102 @@
     "code_region": "24"
   },
   {
+    "id": 18000004,
+    "latitude": "4707082",
+    "longitude": 237747,
+    "cp": "18000",
+    "pop": "R",
+    "adresse": "110 Avenue Marcel Haegelen",
+    "ville": "Bourges",
+    "horaires": null,
+    "services": "{\"service\": \"Toilettes publiques\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 08:10:38\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 08:10:39\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 08:10:39\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": 2.37747,
+      "lat": 47.07082
+    },
+    "gazole_maj": "2024-02-01T09:10:38+01:00",
+    "gazole_prix": "1.795",
+    "sp95_maj": "2024-02-01T09:10:39+01:00",
+    "sp95_prix": "1.869",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-01T09:10:39+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques"
+    ],
+    "departement": "Cher",
+    "code_departement": "18",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
+    "id": 18000016,
+    "latitude": "4707900",
+    "longitude": 238900,
+    "cp": "18000",
+    "pop": "R",
+    "adresse": "Place Agénor Bardoux",
+    "ville": "Bourges",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 12:40:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 12:40:00\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 12:40:00\", \"@valeur\": \"1.969\"}]",
+    "geom": {
+      "lon": 2.389,
+      "lat": 47.079
+    },
+    "gazole_maj": "2024-02-06T13:40:00+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T13:40:00+01:00",
+    "e10_prix": "1.849",
+    "sp98_maj": "2024-02-06T13:40:00+01:00",
+    "sp98_prix": "1.969",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Cher",
+    "code_departement": "18",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 18000014,
     "latitude": "4706700",
     "longitude": 241600,
@@ -561,9 +504,9 @@
     "pop": "R",
     "adresse": "114 Avenue de Dun-sur-Auron",
     "ville": "Bourges",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 11:47:48\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 11:47:48\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 11:47:49\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 11:47:49\", \"@valeur\": \"1.899\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 2.416,
       "lat": 47.067
@@ -596,6 +539,63 @@
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
+    ],
+    "departement": "Cher",
+    "code_departement": "18",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
+    "id": 18000002,
+    "latitude": "4709300",
+    "longitude": 242800,
+    "cp": "18000",
+    "pop": "R",
+    "adresse": "CHAUSSE DE CHAPPE",
+    "ville": "Bourges",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Location de véhicule\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 09:32:46\", \"@valeur\": \"1.764\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 09:32:47\", \"@valeur\": \"1.851\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 09:32:47\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 09:32:47\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": 2.428,
+      "lat": 47.093
+    },
+    "gazole_maj": "2024-02-06T10:32:46+01:00",
+    "gazole_prix": "1.764",
+    "sp95_maj": "2024-02-06T10:32:47+01:00",
+    "sp95_prix": "1.851",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T10:32:47+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2024-02-06T10:32:47+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Bar",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Espace bébé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Cher",
     "code_departement": "18",

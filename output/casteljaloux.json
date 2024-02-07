@@ -1,5 +1,53 @@
 [
   {
+    "id": 47700002,
+    "latitude": "4431955",
+    "longitude": 9347,
+    "cp": "47700",
+    "pop": "R",
+    "adresse": "Avenue de Marmande",
+    "ville": "Casteljaloux",
+    "horaires": null,
+    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-06 09:50:36\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 09:50:37\", \"@valeur\": \"1.806\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-06 09:50:37\", \"@valeur\": \"1.766\"}]",
+    "geom": {
+      "lon": 0.09347,
+      "lat": 44.31955
+    },
+    "gazole_maj": "2024-02-06T10:50:36+01:00",
+    "gazole_prix": "1.748",
+    "sp95_maj": "2024-02-06T10:50:37+01:00",
+    "sp95_prix": "1.806",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-06T10:50:37+01:00",
+    "e10_prix": "1.766",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Lot-et-Garonne",
+    "code_departement": "47",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 47700001,
     "latitude": "4431400",
     "longitude": 8100,
@@ -7,9 +55,9 @@
     "pop": "R",
     "adresse": "3 rue henri iv",
     "ville": "Casteljaloux",
+    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:30:16\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 09:30:16\", \"@valeur\": \"1.816\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 09:30:17\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 09:30:17\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:30:17\", \"@valeur\": \"1.832\"}]",
-    "horaires": null,
     "geom": {
       "lon": 0.081,
       "lat": 44.314
@@ -44,54 +92,6 @@
       "Location de véhicule",
       "Piste poids lourds",
       "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Lot-et-Garonne",
-    "code_departement": "47",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 47700002,
-    "latitude": "4431955",
-    "longitude": 9347,
-    "cp": "47700",
-    "pop": "R",
-    "adresse": "Avenue de Marmande",
-    "ville": "Casteljaloux",
-    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 10:06:39\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 09:58:12\", \"@valeur\": \"1.804\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 09:58:12\", \"@valeur\": \"1.774\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 0.09347,
-      "lat": 44.31955
-    },
-    "gazole_maj": "2024-02-02T11:06:39+01:00",
-    "gazole_prix": "1.766",
-    "sp95_maj": "2024-01-31T10:58:12+01:00",
-    "sp95_prix": "1.804",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-31T10:58:12+01:00",
-    "e10_prix": "1.774",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
