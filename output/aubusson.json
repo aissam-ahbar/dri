@@ -1,5 +1,52 @@
 [
   {
+    "id": 23200001,
+    "latitude": "4594800",
+    "longitude": 217200,
+    "cp": "23200",
+    "pop": "R",
+    "adresse": "La Rebeyrette",
+    "ville": "Aubusson",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 16:27:11\", \"@valeur\": \"1.831\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 16:27:11\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 16:27:11\", \"@valeur\": \"1.937\"}]",
+    "geom": {
+      "lon": 2.172,
+      "lat": 45.948
+    },
+    "gazole_maj": "2024-02-02T17:27:11+01:00",
+    "gazole_prix": "1.831",
+    "sp95_maj": "2024-02-02T17:27:11+01:00",
+    "sp95_prix": "1.883",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-02T17:27:11+01:00",
+    "sp98_prix": "1.937",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Creuse",
+    "code_departement": "23",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 23200002,
     "latitude": "4596400",
     "longitude": 219300,
@@ -43,53 +90,6 @@
       "Piste poids lourds",
       "Lavage automatique",
       "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Creuse",
-    "code_departement": "23",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 23200001,
-    "latitude": "4594800",
-    "longitude": 217200,
-    "cp": "23200",
-    "pop": "R",
-    "adresse": "La Rebeyrette",
-    "ville": "Aubusson",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 16:27:11\", \"@valeur\": \"1.831\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 16:27:11\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 16:27:11\", \"@valeur\": \"1.937\"}]",
-    "geom": {
-      "lon": 2.172,
-      "lat": 45.948
-    },
-    "gazole_maj": "2024-02-02T17:27:11+01:00",
-    "gazole_prix": "1.831",
-    "sp95_maj": "2024-02-02T17:27:11+01:00",
-    "sp95_prix": "1.883",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-02T17:27:11+01:00",
-    "sp98_prix": "1.937",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

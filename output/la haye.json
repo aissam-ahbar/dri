@@ -1,5 +1,57 @@
 [
   {
+    "id": 50250002,
+    "latitude": "4928400",
+    "longitude": -156700,
+    "cp": "50250",
+    "pop": "R",
+    "adresse": "ZA DE L ETRIER",
+    "ville": "La Haye",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Vente de pétrole lampant\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 12:16:26\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 12:16:26\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 12:16:26\", \"@valeur\": \"1.759\"}]",
+    "geom": {
+      "lon": -1.567,
+      "lat": 49.284
+    },
+    "gazole_maj": "2024-02-05T13:16:26+01:00",
+    "gazole_prix": "1.765",
+    "sp95_maj": "2024-02-05T13:16:26+01:00",
+    "sp95_prix": "1.799",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-05T13:16:26+01:00",
+    "e10_prix": "1.759",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Vente de pétrole lampant",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Manche",
+    "code_departement": "50",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 50250003,
     "latitude": "4929700",
     "longitude": -154400,
@@ -46,58 +98,6 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Manche",
-    "code_departement": "50",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 50250002,
-    "latitude": "4928400",
-    "longitude": -156700,
-    "cp": "50250",
-    "pop": "R",
-    "adresse": "ZA DE L ETRIER",
-    "ville": "La Haye",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.20\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.20\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Vente de pétrole lampant\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 12:16:26\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 12:16:26\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 12:16:26\", \"@valeur\": \"1.759\"}]",
-    "geom": {
-      "lon": -1.567,
-      "lat": 49.284
-    },
-    "gazole_maj": "2024-02-05T13:16:26+01:00",
-    "gazole_prix": "1.765",
-    "sp95_maj": "2024-02-05T13:16:26+01:00",
-    "sp95_prix": "1.799",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-05T13:16:26+01:00",
-    "e10_prix": "1.759",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Vente de pétrole lampant",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Manche",
     "code_departement": "50",

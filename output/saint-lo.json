@@ -1,5 +1,54 @@
 [
   {
+    "id": 50000008,
+    "latitude": "4911200",
+    "longitude": -105100,
+    "cp": "50000",
+    "pop": "R",
+    "adresse": "147 RUE JOSEPH CUGNOT",
+    "ville": "Saint-Lô",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 14:29:36\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 14:29:37\", \"@valeur\": \"1.789\"}]",
+    "geom": {
+      "lon": -1.051,
+      "lat": 49.112
+    },
+    "gazole_maj": "2024-02-02T15:29:36+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-02T15:29:37+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Manche",
+    "code_departement": "50",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 50000007,
     "latitude": "4911630.1972112",
     "longitude": -105833.12301737,
@@ -43,54 +92,6 @@
       "Vente de fioul domestique",
       "Station de gonflage",
       "Piste poids lourds"
-    ],
-    "departement": "Manche",
-    "code_departement": "50",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 50000004,
-    "latitude": "4909800",
-    "longitude": -107700,
-    "cp": "50000",
-    "pop": "R",
-    "adresse": "Route de Baudre",
-    "ville": "Saint-Lô",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"1.849\"}]",
-    "geom": {
-      "lon": -1.077,
-      "lat": 49.098
-    },
-    "gazole_maj": "2024-02-02T10:03:04+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-02T10:03:04+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": "2024-02-02T10:03:04+01:00",
-    "gplc_prix": "0.920",
-    "e10_maj": "2024-02-02T10:03:04+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": "2024-02-02T10:03:04+01:00",
-    "sp98_prix": "1.849",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Manche",
     "code_departement": "50",
@@ -153,48 +154,94 @@
     "code_region": "28"
   },
   {
-    "id": 50000008,
-    "latitude": "4911200",
-    "longitude": -105100,
+    "id": 50000004,
+    "latitude": "4909800",
+    "longitude": -107700,
     "cp": "50000",
     "pop": "R",
-    "adresse": "147 RUE JOSEPH CUGNOT",
+    "adresse": "Route de Baudre",
     "ville": "Saint-Lô",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 14:29:36\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 14:29:37\", \"@valeur\": \"1.789\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:03:04\", \"@valeur\": \"1.849\"}]",
     "geom": {
-      "lon": -1.051,
-      "lat": 49.112
+      "lon": -1.077,
+      "lat": 49.098
     },
-    "gazole_maj": "2024-02-02T15:29:36+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2024-02-02T10:03:04+01:00",
+    "gazole_prix": "1.779",
     "sp95_maj": null,
     "sp95_prix": null,
+    "e85_maj": "2024-02-02T10:03:04+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": "2024-02-02T10:03:04+01:00",
+    "gplc_prix": "0.920",
+    "e10_maj": "2024-02-02T10:03:04+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2024-02-02T10:03:04+01:00",
+    "sp98_prix": "1.849",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Manche",
+    "code_departement": "50",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
+    "id": 50000005,
+    "latitude": "4911700",
+    "longitude": -109700,
+    "cp": "50000",
+    "pop": "R",
+    "adresse": "54 Rue de la Poterne",
+    "ville": "Saint-Lô",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 07:09:28\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 07:09:28\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 07:09:29\", \"@valeur\": \"1.849\"}]",
+    "geom": {
+      "lon": -1.097,
+      "lat": 49.117
+    },
+    "gazole_maj": "2024-02-01T08:09:28+01:00",
+    "gazole_prix": "1.779",
+    "sp95_maj": "2024-02-01T08:09:28+01:00",
+    "sp95_prix": "1.829",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-02T15:29:37+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-01T08:09:29+01:00",
+    "sp98_prix": "1.849",
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
-      "SP98"
+      "E10"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Manche",
     "code_departement": "50",
@@ -243,53 +290,6 @@
       "Station de gonflage",
       "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Manche",
-    "code_departement": "50",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 50000005,
-    "latitude": "4911700",
-    "longitude": -109700,
-    "cp": "50000",
-    "pop": "R",
-    "adresse": "54 Rue de la Poterne",
-    "ville": "Saint-Lô",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 07:09:28\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 07:09:28\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 07:09:29\", \"@valeur\": \"1.849\"}]",
-    "geom": {
-      "lon": -1.097,
-      "lat": 49.117
-    },
-    "gazole_maj": "2024-02-01T08:09:28+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": "2024-02-01T08:09:28+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-01T08:09:29+01:00",
-    "sp98_prix": "1.849",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],

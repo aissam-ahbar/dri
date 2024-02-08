@@ -9,7 +9,7 @@
     "ville": "Champigny-sur-Marne",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 12:30:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-07-18 11:05:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-03-21 12:45:00\", \"@valeur\": \"1.089\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 11:10:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 11:10:00\", \"@valeur\": \"1.949\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 12:30:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 15:45:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-03-21 12:45:00\", \"@valeur\": \"1.089\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-02 11:10:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 11:10:00\", \"@valeur\": \"1.949\"}]",
     "geom": {
       "lon": 2.494,
       "lat": 48.823
@@ -18,8 +18,8 @@
     "gazole_prix": "1.859",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2023-07-18T13:05:00+02:00",
-    "e85_prix": "0.999",
+    "e85_maj": "2024-02-07T16:45:00+01:00",
+    "e85_prix": "0.899",
     "gplc_maj": "2023-03-21T13:45:00+01:00",
     "gplc_prix": "1.089",
     "e10_maj": "2024-02-02T12:10:00+01:00",
@@ -101,6 +101,58 @@
     "code_region": "11"
   },
   {
+    "id": 94500011,
+    "latitude": "4882300",
+    "longitude": 249500,
+    "cp": "94500",
+    "pop": "R",
+    "adresse": "114 AV. DU GENERAL DE GAULLE",
+    "ville": "Champigny-sur-Marne",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-08 00:01:00\", \"@valeur\": \"1.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-08 00:01:00\", \"@valeur\": \"1.897\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-08 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 2.495,
+      "lat": 48.823
+    },
+    "gazole_maj": "2024-02-08T01:01:00+01:00",
+    "gazole_prix": "1.921",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-08T01:01:00+01:00",
+    "e10_prix": "1.897",
+    "sp98_maj": "2024-02-08T01:01:00+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 94500010,
     "latitude": "4882800",
     "longitude": 251300,
@@ -110,22 +162,22 @@
     "ville": "Champigny-sur-Marne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.50\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.50\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.50\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.50\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.50\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.50\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.50\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.936\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.913\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-08 00:01:00\", \"@valeur\": \"1.936\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-08 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-08 00:01:00\", \"@valeur\": \"1.913\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-08 00:01:00\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 2.513,
       "lat": 48.828
     },
-    "gazole_maj": "2024-02-07T01:01:00+01:00",
+    "gazole_maj": "2024-02-08T01:01:00+01:00",
     "gazole_prix": "1.936",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-07T01:01:00+01:00",
+    "e85_maj": "2024-02-08T01:01:00+01:00",
     "e85_prix": "0.919",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-07T01:01:00+01:00",
+    "e10_maj": "2024-02-08T01:01:00+01:00",
     "e10_prix": "1.913",
-    "sp98_maj": "2024-02-07T01:01:00+01:00",
+    "sp98_maj": "2024-02-08T01:01:00+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -149,58 +201,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Wifi",
-      "Automate CB 24/24"
-    ],
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 94500011,
-    "latitude": "4882300",
-    "longitude": 249500,
-    "cp": "94500",
-    "pop": "R",
-    "adresse": "114 AV. DU GENERAL DE GAULLE",
-    "ville": "Champigny-sur-Marne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.897\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 2.495,
-      "lat": 48.823
-    },
-    "gazole_maj": "2024-02-07T01:01:00+01:00",
-    "gazole_prix": "1.921",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-07T01:01:00+01:00",
-    "e10_prix": "1.897",
-    "sp98_maj": "2024-02-07T01:01:00+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Val-de-Marne",
