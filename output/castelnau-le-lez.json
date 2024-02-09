@@ -1,57 +1,5 @@
 [
   {
-    "id": 34170001,
-    "latitude": "4362300",
-    "longitude": 389800,
-    "cp": "34170",
-    "pop": "R",
-    "adresse": "753 Route de la Pompignane",
-    "ville": "Castelnau-le-Lez",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 06:36:33\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 06:36:33\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 06:36:33\", \"@valeur\": \"1.798\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 06:36:33\", \"@valeur\": \"1.898\"}]",
-    "geom": {
-      "lon": 3.898,
-      "lat": 43.623
-    },
-    "gazole_maj": "2024-02-07T07:36:33+01:00",
-    "gazole_prix": "1.768",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-07T07:36:33+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-07T07:36:33+01:00",
-    "e10_prix": "1.798",
-    "sp98_maj": "2024-02-07T07:36:33+01:00",
-    "sp98_prix": "1.898",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Hérault",
-    "code_departement": "34",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 34170005,
     "latitude": "4363900",
     "longitude": 392700,
@@ -101,6 +49,58 @@
       "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
       "Bornes électriques",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Hérault",
+    "code_departement": "34",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 34170001,
+    "latitude": "4362300",
+    "longitude": 389800,
+    "cp": "34170",
+    "pop": "R",
+    "adresse": "753 Route de la Pompignane",
+    "ville": "Castelnau-le-Lez",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-08 06:34:05\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-08 06:34:05\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-08 06:34:05\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-08 06:34:06\", \"@valeur\": \"1.896\"}]",
+    "geom": {
+      "lon": 3.898,
+      "lat": 43.623
+    },
+    "gazole_maj": "2024-02-08T07:34:05+01:00",
+    "gazole_prix": "1.766",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-08T07:34:05+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-08T07:34:05+01:00",
+    "e10_prix": "1.796",
+    "sp98_maj": "2024-02-08T07:34:06+01:00",
+    "sp98_prix": "1.896",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
