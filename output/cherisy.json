@@ -1,18 +1,18 @@
 [
   {
     "id": 28500006,
-    "latitude": "4874304.2986182",
-    "longitude": 142523.42346728,
+    "latitude": "4874300",
+    "longitude": 142500,
     "cp": "28500",
     "pop": "R",
     "adresse": "ZAC DES FORTS",
     "ville": "Cherisy",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.15\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 09:18:31\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-02 09:18:32\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 09:18:33\", \"@valeur\": \"1.859\"}]",
     "geom": {
-      "lon": 1.4252342346728,
-      "lat": 48.743042986182004
+      "lon": 1.425,
+      "lat": 48.743
     },
     "gazole_maj": "2024-02-02T10:18:31+01:00",
     "gazole_prix": "1.789",
@@ -36,9 +36,12 @@
       "GPLc",
       "E10"
     ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
+      "Station de gonflage",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Eure-et-Loir",
     "code_departement": "28",

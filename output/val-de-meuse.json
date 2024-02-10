@@ -1,5 +1,61 @@
 [
   {
+    "id": 52140002,
+    "latitude": "4800500",
+    "longitude": 548700,
+    "cp": "52140",
+    "pop": "R",
+    "adresse": "18 AVENUE DE HAUTE MEUSE",
+    "ville": "Val-de-Meuse",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-09 09:04:11\", \"@valeur\": \"1.892\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-09 09:04:12\", \"@valeur\": \"1.905\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-09 09:04:12\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 5.487,
+      "lat": 48.005
+    },
+    "gazole_maj": "2024-02-09T10:04:11+01:00",
+    "gazole_prix": "1.892",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-09T10:04:12+01:00",
+    "e10_prix": "1.905",
+    "sp98_maj": "2024-02-09T10:04:12+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Haute-Marne",
+    "code_departement": "52",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 52140003,
     "latitude": "4801000",
     "longitude": 548300,
@@ -103,62 +159,6 @@
       "Station de gonflage",
       "Piste poids lourds",
       "Espace bébé"
-    ],
-    "departement": "Haute-Marne",
-    "code_departement": "52",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 52140002,
-    "latitude": "4800500",
-    "longitude": 548700,
-    "cp": "52140",
-    "pop": "R",
-    "adresse": "18 AVENUE DE HAUTE MEUSE",
-    "ville": "Val-de-Meuse",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-03 09:12:31\", \"@valeur\": \"1.884\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-03 09:12:31\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-03 09:12:31\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 5.487,
-      "lat": 48.005
-    },
-    "gazole_maj": "2024-02-03T10:12:31+01:00",
-    "gazole_prix": "1.884",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-03T10:12:31+01:00",
-    "e10_prix": "1.899",
-    "sp98_maj": "2024-02-03T10:12:31+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Relais colis",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "Automate CB 24/24"
     ],
     "departement": "Haute-Marne",
     "code_departement": "52",
