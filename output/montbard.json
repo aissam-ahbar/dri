@@ -1,5 +1,56 @@
 [
   {
+    "id": 21500005,
+    "latitude": "4762221.4531559",
+    "longitude": 435473.34343017,
+    "cp": "21500",
+    "pop": "R",
+    "adresse": "65 rue de Dijon",
+    "ville": "Montbard",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 09:21:53\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 09:21:53\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 09:21:53\", \"@valeur\": \"1.809\"}]",
+    "geom": {
+      "lon": 4.3547334343017,
+      "lat": 47.622214531559
+    },
+    "gazole_maj": "2024-02-12T10:21:53+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-12T10:21:53+01:00",
+    "sp95_prix": "1.839",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-12T10:21:53+01:00",
+    "e10_prix": "1.809",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 21500002,
     "latitude": "4762499",
     "longitude": 434660,
@@ -9,21 +60,21 @@
     "ville": "Montbard",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-09 08:02:33\", \"@valeur\": \"1.892\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-09 08:02:34\", \"@valeur\": \"1.895\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-09 08:02:34\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 08:14:01\", \"@valeur\": \"1.906\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 08:14:02\", \"@valeur\": \"1.905\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-09 08:02:34\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 4.3466,
       "lat": 47.62499
     },
-    "gazole_maj": "2024-02-09T09:02:33+01:00",
-    "gazole_prix": "1.892",
+    "gazole_maj": "2024-02-12T09:14:01+01:00",
+    "gazole_prix": "1.906",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-09T09:02:34+01:00",
-    "e10_prix": "1.895",
+    "e10_maj": "2024-02-12T09:14:02+01:00",
+    "e10_prix": "1.905",
     "sp98_maj": "2024-02-09T09:02:34+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
@@ -45,57 +96,6 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21500005,
-    "latitude": "4762221.4531559",
-    "longitude": 435473.34343017,
-    "cp": "21500",
-    "pop": "R",
-    "adresse": "65 rue de Dijon",
-    "ville": "Montbard",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 10:39:59\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 10:39:59\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-31 10:40:00\", \"@valeur\": \"1.789\"}]",
-    "geom": {
-      "lon": 4.3547334343017,
-      "lat": 47.622214531559
-    },
-    "gazole_maj": "2024-01-31T11:39:59+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": "2024-01-31T11:39:59+01:00",
-    "sp95_prix": "1.829",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-31T11:40:00+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
