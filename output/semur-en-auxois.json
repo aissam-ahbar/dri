@@ -1,5 +1,98 @@
 [
   {
+    "id": 21140002,
+    "latitude": "4749163",
+    "longitude": 433834,
+    "cp": "21140",
+    "pop": "R",
+    "adresse": "ROUTE DE DIJON",
+    "ville": "Semur-en-Auxois",
+    "horaires": null,
+    "services": "{\"service\": \"Lavage manuel\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 15:34:57\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 09:35:01\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-30 09:35:02\", \"@valeur\": \"1.020\"}]",
+    "geom": {
+      "lon": 4.33834,
+      "lat": 47.49163
+    },
+    "gazole_maj": "2024-02-13T16:34:57+01:00",
+    "gazole_prix": "1.940",
+    "sp95_maj": "2024-01-30T10:35:01+01:00",
+    "sp95_prix": "1.940",
+    "e85_maj": "2024-01-30T10:35:02+01:00",
+    "e85_prix": "1.020",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage manuel"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 21140003,
+    "latitude": "4749230",
+    "longitude": 434084,
+    "cp": "21140",
+    "pop": "R",
+    "adresse": "19 Avenue du Général Mazillier",
+    "ville": "Semur-en-Auxois",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 15:10:08\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 09:19:10\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 09:19:10\", \"@valeur\": \"1.809\"}]",
+    "geom": {
+      "lon": 4.34084,
+      "lat": 47.4923
+    },
+    "gazole_maj": "2024-02-13T16:10:08+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": "2024-02-12T10:19:10+01:00",
+    "sp95_prix": "1.839",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-12T10:19:10+01:00",
+    "e10_prix": "1.809",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 21140001,
     "latitude": "4749200",
     "longitude": 433700,
@@ -39,99 +132,6 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21140003,
-    "latitude": "4749230",
-    "longitude": 434084,
-    "cp": "21140",
-    "pop": "R",
-    "adresse": "19 Avenue du Général Mazillier",
-    "ville": "Semur-en-Auxois",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 09:19:09\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 09:19:10\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 09:19:10\", \"@valeur\": \"1.809\"}]",
-    "geom": {
-      "lon": 4.34084,
-      "lat": 47.4923
-    },
-    "gazole_maj": "2024-02-12T10:19:09+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-12T10:19:10+01:00",
-    "sp95_prix": "1.839",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-12T10:19:10+01:00",
-    "e10_prix": "1.809",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21140002,
-    "latitude": "4749163",
-    "longitude": 433834,
-    "cp": "21140",
-    "pop": "R",
-    "adresse": "ROUTE DE DIJON",
-    "ville": "Semur-en-Auxois",
-    "horaires": null,
-    "services": "{\"service\": \"Lavage manuel\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 09:35:01\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 09:35:01\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-30 09:35:02\", \"@valeur\": \"1.020\"}]",
-    "geom": {
-      "lon": 4.33834,
-      "lat": 47.49163
-    },
-    "gazole_maj": "2024-01-30T10:35:01+01:00",
-    "gazole_prix": "1.920",
-    "sp95_maj": "2024-01-30T10:35:01+01:00",
-    "sp95_prix": "1.940",
-    "e85_maj": "2024-01-30T10:35:02+01:00",
-    "e85_prix": "1.020",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage manuel"
     ],
     "departement": "Côte-d'Or",
     "code_departement": "21",

@@ -1,5 +1,54 @@
 [
   {
+    "id": 14500003,
+    "latitude": "4884700",
+    "longitude": -88700,
+    "cp": "14500",
+    "pop": "R",
+    "adresse": "PARC COMMERCIAL DE LA DOUITEE",
+    "ville": "Vire Normandie",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 09:30:59\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 09:31:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 09:31:00\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": -0.887,
+      "lat": 48.847
+    },
+    "gazole_maj": "2024-02-12T10:30:59+01:00",
+    "gazole_prix": "1.829",
+    "sp95_maj": "2024-02-12T10:31:00+01:00",
+    "sp95_prix": "1.859",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-12T10:31:00+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Calvados",
+    "code_departement": "14",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 14500006,
     "latitude": "4885500",
     "longitude": -86500,
@@ -92,55 +141,6 @@
     "code_region": "28"
   },
   {
-    "id": 14500003,
-    "latitude": "4884700",
-    "longitude": -88700,
-    "cp": "14500",
-    "pop": "R",
-    "adresse": "PARC COMMERCIAL DE LA DOUITEE",
-    "ville": "Vire Normandie",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 09:30:59\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 09:31:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 09:31:00\", \"@valeur\": \"1.899\"}]",
-    "geom": {
-      "lon": -0.887,
-      "lat": 48.847
-    },
-    "gazole_maj": "2024-02-12T10:30:59+01:00",
-    "gazole_prix": "1.829",
-    "sp95_maj": "2024-02-12T10:31:00+01:00",
-    "sp95_prix": "1.859",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-12T10:31:00+01:00",
-    "sp98_prix": "1.899",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Calvados",
-    "code_departement": "14",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
     "id": 14500001,
     "latitude": "4885800",
     "longitude": -89300,
@@ -150,22 +150,22 @@
     "ville": "Vire Normandie",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-10 08:06:33\", \"@valeur\": \"1.873\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-10 08:06:33\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-10 08:06:33\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-10 08:06:34\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 07:33:23\", \"@valeur\": \"1.878\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-13 07:33:24\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 07:33:24\", \"@valeur\": \"1.886\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 07:33:24\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": -0.893,
       "lat": 48.858
     },
-    "gazole_maj": "2024-02-10T09:06:33+01:00",
-    "gazole_prix": "1.873",
+    "gazole_maj": "2024-02-13T08:33:23+01:00",
+    "gazole_prix": "1.878",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2024-02-10T09:06:33+01:00",
+    "gplc_maj": "2024-02-13T08:33:24+01:00",
     "gplc_prix": "0.920",
-    "e10_maj": "2024-02-10T09:06:33+01:00",
-    "e10_prix": "1.880",
-    "sp98_maj": "2024-02-10T09:06:34+01:00",
+    "e10_maj": "2024-02-13T08:33:24+01:00",
+    "e10_prix": "1.886",
+    "sp98_maj": "2024-02-13T08:33:24+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",

@@ -1,5 +1,58 @@
 [
   {
+    "id": 10700001,
+    "latitude": "4853600",
+    "longitude": 414500,
+    "cp": "10700",
+    "pop": "R",
+    "adresse": "9 RUE DE BRIENNE",
+    "ville": "Arcis-sur-Aube",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-10 08:18:58\", \"@valeur\": \"1.872\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 06:55:37\", \"@valeur\": \"1.884\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 06:55:37\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 4.145,
+      "lat": 48.536
+    },
+    "gazole_maj": "2024-02-10T09:18:58+01:00",
+    "gazole_prix": "1.872",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-13T07:55:37+01:00",
+    "e10_prix": "1.884",
+    "sp98_maj": "2024-02-13T07:55:37+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Wifi",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aube",
+    "code_departement": "10",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 10700003,
     "latitude": "4853500",
     "longitude": 413000,
@@ -53,59 +106,6 @@
     "code_region": "44"
   },
   {
-    "id": 10700001,
-    "latitude": "4853600",
-    "longitude": 414500,
-    "cp": "10700",
-    "pop": "R",
-    "adresse": "9 RUE DE BRIENNE",
-    "ville": "Arcis-sur-Aube",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.55\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-10 08:18:58\", \"@valeur\": \"1.872\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-10 08:18:59\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-10 08:18:59\", \"@valeur\": \"1.989\"}]",
-    "geom": {
-      "lon": 4.145,
-      "lat": 48.536
-    },
-    "gazole_maj": "2024-02-10T09:18:58+01:00",
-    "gazole_prix": "1.872",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-10T09:18:59+01:00",
-    "e10_prix": "1.879",
-    "sp98_maj": "2024-02-10T09:18:59+01:00",
-    "sp98_prix": "1.989",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aube",
-    "code_departement": "10",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 10700002,
     "latitude": "4853400",
     "longitude": 415600,
@@ -115,30 +115,30 @@
     "ville": "Arcis-sur-Aube",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.15\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.15\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 11:53:59\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-11 15:19:14\", \"@valeur\": \"0.979\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 11:54:43\", \"@valeur\": \"1.859\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 18:49:46\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 19:09:49\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-13 18:51:45\", \"@valeur\": \"0.979\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 18:50:09\", \"@valeur\": \"1.889\"}]",
     "geom": {
       "lon": 4.156,
       "lat": 48.534
     },
-    "gazole_maj": "2024-02-02T12:53:59+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-11T16:19:14+01:00",
+    "gazole_maj": "2024-02-13T19:49:46+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": "2024-02-13T20:09:49+01:00",
+    "sp95_prix": "1.819",
+    "e85_maj": "2024-02-13T19:51:45+01:00",
     "e85_prix": "0.979",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-02T12:54:43+01:00",
-    "sp98_prix": "1.859",
+    "sp98_maj": "2024-02-13T19:50:09+01:00",
+    "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
       "E85",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "GPLc",
       "E10"
     ],

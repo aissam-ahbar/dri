@@ -1,5 +1,111 @@
 [
   {
+    "id": 19200002,
+    "latitude": "4555700",
+    "longitude": 230200,
+    "cp": "19200",
+    "pop": "R",
+    "adresse": "56 Avenue du Général Leclerc",
+    "ville": "Ussel",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 15:02:04\", \"@valeur\": \"1.926\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 15:02:04\", \"@valeur\": \"1.946\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-31 15:02:04\", \"@valeur\": \"1.048\"}]",
+    "geom": {
+      "lon": 2.302,
+      "lat": 45.557
+    },
+    "gazole_maj": "2024-01-31T16:02:04+01:00",
+    "gazole_prix": "1.926",
+    "sp95_maj": "2024-01-31T16:02:04+01:00",
+    "sp95_prix": "1.946",
+    "e85_maj": "2024-01-31T16:02:04+01:00",
+    "e85_prix": "1.048",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Corrèze",
+    "code_departement": "19",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
+    "id": 15300007,
+    "latitude": "4507900",
+    "longitude": 293700,
+    "cp": "15300",
+    "pop": "R",
+    "adresse": "38 route du lioran",
+    "ville": "Ussel",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"17.00\", \"@fermeture\": \"20.30\"}]}]}",
+    "services": "{\"service\": [\"Restauration à emporter\", \"Bar\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 14:24:09\", \"@valeur\": \"1.850\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 14:24:10\", \"@valeur\": \"1.890\"}]",
+    "geom": {
+      "lon": 2.937,
+      "lat": 45.079
+    },
+    "gazole_maj": "2024-02-13T15:24:09+01:00",
+    "gazole_prix": "1.850",
+    "sp95_maj": "2024-02-13T15:24:10+01:00",
+    "sp95_prix": "1.890",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Restauration à emporter",
+      "Bar",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Cantal",
+    "code_departement": "15",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 19200003,
     "latitude": "4554275",
     "longitude": 229749,
@@ -45,54 +151,6 @@
     "code_departement": "19",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75"
-  },
-  {
-    "id": 15300007,
-    "latitude": "4507900",
-    "longitude": 293700,
-    "cp": "15300",
-    "pop": "R",
-    "adresse": "38 route du lioran",
-    "ville": "Ussel",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"17.00\", \"@fermeture\": \"20.30\"}]}]}",
-    "services": "{\"service\": [\"Restauration à emporter\", \"Bar\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-13 14:42:24\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-13 14:42:24\", \"@valeur\": \"1.850\"}]",
-    "geom": {
-      "lon": 2.937,
-      "lat": 45.079
-    },
-    "gazole_maj": "2023-12-13T15:42:24+01:00",
-    "gazole_prix": "1.790",
-    "sp95_maj": "2023-12-13T15:42:24+01:00",
-    "sp95_prix": "1.850",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Restauration à emporter",
-      "Bar",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Cantal",
-    "code_departement": "15",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
   },
   {
     "id": 19200006,
@@ -184,64 +242,6 @@
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
-    ],
-    "departement": "Corrèze",
-    "code_departement": "19",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 19200002,
-    "latitude": "4555700",
-    "longitude": 230200,
-    "cp": "19200",
-    "pop": "R",
-    "adresse": "56 Avenue du Général Leclerc",
-    "ville": "Ussel",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 15:02:04\", \"@valeur\": \"1.926\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 15:02:04\", \"@valeur\": \"1.946\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-31 15:02:04\", \"@valeur\": \"1.048\"}]",
-    "geom": {
-      "lon": 2.302,
-      "lat": 45.557
-    },
-    "gazole_maj": "2024-01-31T16:02:04+01:00",
-    "gazole_prix": "1.926",
-    "sp95_maj": "2024-01-31T16:02:04+01:00",
-    "sp95_prix": "1.946",
-    "e85_maj": "2024-01-31T16:02:04+01:00",
-    "e85_prix": "1.048",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Corrèze",
     "code_departement": "19",

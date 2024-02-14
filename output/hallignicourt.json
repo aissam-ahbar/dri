@@ -1,52 +1,45 @@
 [
   {
-    "id": 52100016,
-    "latitude": "4864761.005902",
-    "longitude": 486741.03692652,
+    "id": 52100019,
+    "latitude": "4864205.4454094",
+    "longitude": 490146.66700679,
     "cp": "52100",
     "pop": "R",
-    "adresse": "ROUTE NATIONALE 4 - LIEU DIT 'LA BOBOTTE'",
+    "adresse": "RN4 SENS VITRY NANCY",
     "ville": "Hallignicourt",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 00:01:00\", \"@valeur\": \"1.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 00:01:00\", \"@valeur\": \"1.925\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 00:00:00\", \"@valeur\": \"2.082\"}",
     "geom": {
-      "lon": 4.8674103692652,
-      "lat": 48.647610059019996
+      "lon": 4.9014666700679,
+      "lat": 48.642054454094
     },
-    "gazole_maj": "2024-02-13T01:01:00+01:00",
-    "gazole_prix": "1.921",
+    "gazole_maj": "2024-02-14T01:00:00+01:00",
+    "gazole_prix": "2.082",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-13T01:01:00+01:00",
-    "e10_prix": "1.925",
-    "sp98_maj": "2024-02-13T01:01:00+01:00",
-    "sp98_prix": "1.990",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds"
+      "Piste poids lourds",
+      "Automate CB 24/24"
     ],
     "departement": "Haute-Marne",
     "code_departement": "52",
@@ -63,13 +56,13 @@
     "ville": "Hallignicourt",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Espace bébé\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 13:00:00\", \"@valeur\": \"2.074\"}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 00:00:00\", \"@valeur\": \"2.082\"}",
     "geom": {
       "lon": 4.9026566657231,
       "lat": 48.642435001387994
     },
-    "gazole_maj": "2024-02-12T14:00:00+01:00",
-    "gazole_prix": "2.074",
+    "gazole_maj": "2024-02-14T01:00:00+01:00",
+    "gazole_prix": "2.082",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -110,6 +103,60 @@
     "code_region": "44"
   },
   {
+    "id": 52100016,
+    "latitude": "4864761.005902",
+    "longitude": 486741.03692652,
+    "cp": "52100",
+    "pop": "R",
+    "adresse": "ROUTE NATIONALE 4 - LIEU DIT 'LA BOBOTTE'",
+    "ville": "Hallignicourt",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 4.8674103692652,
+      "lat": 48.647610059019996
+    },
+    "gazole_maj": "2024-02-14T01:01:00+01:00",
+    "gazole_prix": "1.929",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-14T01:01:00+01:00",
+    "e10_prix": "1.930",
+    "sp98_maj": "2024-02-14T01:01:00+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds"
+    ],
+    "departement": "Haute-Marne",
+    "code_departement": "52",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 52100015,
     "latitude": "4864700",
     "longitude": 486800,
@@ -119,22 +166,22 @@
     "ville": "Hallignicourt",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"03.45\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"04.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"04.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"04.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"04.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.45\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 00:01:00\", \"@valeur\": \"1.921\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 00:01:00\", \"@valeur\": \"1.925\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 4.868,
       "lat": 48.647
     },
-    "gazole_maj": "2024-02-13T01:01:00+01:00",
-    "gazole_prix": "1.921",
+    "gazole_maj": "2024-02-14T01:01:00+01:00",
+    "gazole_prix": "1.929",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-13T01:01:00+01:00",
-    "e10_prix": "1.925",
-    "sp98_maj": "2024-02-13T01:01:00+01:00",
+    "e10_maj": "2024-02-14T01:01:00+01:00",
+    "e10_prix": "1.930",
+    "sp98_maj": "2024-02-14T01:01:00+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -158,53 +205,6 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Wifi"
-    ],
-    "departement": "Haute-Marne",
-    "code_departement": "52",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 52100019,
-    "latitude": "4864205.4454094",
-    "longitude": 490146.66700679,
-    "cp": "52100",
-    "pop": "R",
-    "adresse": "RN4 SENS VITRY NANCY",
-    "ville": "Hallignicourt",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-10 00:00:00\", \"@valeur\": \"2.064\"}",
-    "geom": {
-      "lon": 4.9014666700679,
-      "lat": 48.642054454094
-    },
-    "gazole_maj": "2024-02-10T01:00:00+01:00",
-    "gazole_prix": "2.064",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Automate CB 24/24"
     ],
     "departement": "Haute-Marne",
     "code_departement": "52",
