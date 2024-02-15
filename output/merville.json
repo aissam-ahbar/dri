@@ -1,5 +1,61 @@
 [
   {
+    "id": 59660002,
+    "latitude": "5064100",
+    "longitude": 265400,
+    "cp": "59660",
+    "pop": "R",
+    "adresse": "102 route d'estaires",
+    "ville": "Merville",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 08:24:21\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 08:24:22\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 08:24:22\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 08:24:22\", \"@valeur\": \"1.865\"}]",
+    "geom": {
+      "lon": 2.654,
+      "lat": 50.641
+    },
+    "gazole_maj": "2024-02-14T09:24:21+01:00",
+    "gazole_prix": "1.809",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-14T09:24:22+01:00",
+    "e85_prix": "0.849",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-14T09:24:22+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2024-02-14T09:24:22+01:00",
+    "sp98_prix": "1.865",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Wifi",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 31330004,
     "latitude": "4372100",
     "longitude": 129400,
@@ -50,61 +106,5 @@
     "code_departement": "31",
     "region": "Occitanie",
     "code_region": "76"
-  },
-  {
-    "id": 59660002,
-    "latitude": "5064100",
-    "longitude": 265400,
-    "cp": "59660",
-    "pop": "R",
-    "adresse": "102 route d'estaires",
-    "ville": "Merville",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-09 11:25:37\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-01 09:30:26\", \"@valeur\": \"0.865\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-10 12:20:53\", \"@valeur\": \"1.755\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-10 12:20:53\", \"@valeur\": \"1.845\"}]",
-    "geom": {
-      "lon": 2.654,
-      "lat": 50.641
-    },
-    "gazole_maj": "2024-02-09T12:25:37+01:00",
-    "gazole_prix": "1.765",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-01T10:30:26+01:00",
-    "e85_prix": "0.865",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-10T13:20:53+01:00",
-    "e10_prix": "1.755",
-    "sp98_maj": "2024-02-10T13:20:53+01:00",
-    "sp98_prix": "1.845",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
   }
 ]

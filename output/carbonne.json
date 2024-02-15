@@ -1,62 +1,5 @@
 [
   {
-    "id": 31390002,
-    "latitude": "4330900",
-    "longitude": 122200,
-    "cp": "31390",
-    "pop": "R",
-    "adresse": "3 avenue Jean Monnet - Lieu-dit Millet",
-    "ville": "Carbonne",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 09:00:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-31 08:55:38\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 09:00:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 09:00:00\", \"@valeur\": \"1.879\"}]",
-    "geom": {
-      "lon": 1.222,
-      "lat": 43.309
-    },
-    "gazole_maj": "2024-02-13T10:00:00+01:00",
-    "gazole_prix": "1.794",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-01-31T09:55:38+01:00",
-    "gplc_prix": "1.049",
-    "e10_maj": "2024-02-13T10:00:00+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2024-02-13T10:00:00+01:00",
-    "sp98_prix": "1.879",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Automate CB 24/24"
-    ],
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 31390001,
     "latitude": "4329250",
     "longitude": 121623,
@@ -97,6 +40,63 @@
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 31390002,
+    "latitude": "4330900",
+    "longitude": 122200,
+    "cp": "31390",
+    "pop": "R",
+    "adresse": "3 avenue Jean Monnet - Lieu-dit Millet",
+    "ville": "Carbonne",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 09:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-31 08:55:38\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 09:00:00\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 09:00:00\", \"@valeur\": \"1.889\"}]",
+    "geom": {
+      "lon": 1.222,
+      "lat": 43.309
+    },
+    "gazole_maj": "2024-02-14T10:00:00+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-01-31T09:55:38+01:00",
+    "gplc_prix": "1.049",
+    "e10_maj": "2024-02-14T10:00:00+01:00",
+    "e10_prix": "1.794",
+    "sp98_maj": "2024-02-14T10:00:00+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Automate CB 24/24"
     ],
     "departement": "Haute-Garonne",
     "code_departement": "31",

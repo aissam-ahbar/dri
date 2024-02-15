@@ -1,45 +1,48 @@
 [
   {
-    "id": 93190002,
-    "latitude": "4890551.05953",
-    "longitude": 252200.168155,
-    "cp": "93190",
+    "id": 93320002,
+    "latitude": "4891042.70577",
+    "longitude": 251041.120111,
+    "cp": "93320",
     "pop": "R",
-    "adresse": "70 Boulevard Marx Dormoy",
+    "adresse": "262 AVENUE ARISTIDE BRIAND",
     "ville": "Livry-Gargan",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 09:20:51\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-07 09:20:51\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 09:20:51\", \"@valeur\": \"1.829\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"1.957\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"1.935\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"1.990\"}]",
     "geom": {
-      "lon": 2.52200168155,
-      "lat": 48.9055105953
+      "lon": 2.51041120111,
+      "lat": 48.9104270577
     },
-    "gazole_maj": "2024-02-07T10:20:51+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": "2024-02-07T10:20:51+01:00",
-    "sp95_prix": "1.860",
-    "e85_maj": null,
-    "e85_prix": null,
+    "gazole_maj": "2024-02-15T01:01:00+01:00",
+    "gazole_prix": "1.957",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-15T01:01:00+01:00",
+    "e85_prix": "0.919",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-07T10:20:51+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-02-15T01:01:00+01:00",
+    "e10_prix": "1.935",
+    "sp98_maj": "2024-02-15T01:01:00+01:00",
+    "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "E10"
+      "E85",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
+      "SP95",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Seine-Saint-Denis",
     "code_departement": "93",
@@ -100,6 +103,101 @@
     "code_region": "11"
   },
   {
+    "id": 93190007,
+    "latitude": "4892800",
+    "longitude": 254900,
+    "cp": "93190",
+    "pop": "R",
+    "adresse": "41/45 BOULEVARD ROBERT SCHUMAN",
+    "ville": "Livry-Gargan",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 12:05:30\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 09:52:52\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 12:05:30\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 16:14:09\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": 2.549,
+      "lat": 48.928
+    },
+    "gazole_maj": "2024-02-13T13:05:30+01:00",
+    "gazole_prix": "1.859",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-03T10:52:52+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-13T13:05:30+01:00",
+    "e10_prix": "1.849",
+    "sp98_maj": "2024-01-31T17:14:09+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Station de gonflage",
+      "Automate CB 24/24"
+    ],
+    "departement": "Seine-Saint-Denis",
+    "code_departement": "93",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 93190002,
+    "latitude": "4890551.05953",
+    "longitude": 252200.168155,
+    "cp": "93190",
+    "pop": "R",
+    "adresse": "70 Boulevard Marx Dormoy",
+    "ville": "Livry-Gargan",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 09:20:51\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-07 09:20:51\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 09:20:51\", \"@valeur\": \"1.829\"}]",
+    "geom": {
+      "lon": 2.52200168155,
+      "lat": 48.9055105953
+    },
+    "gazole_maj": "2024-02-07T10:20:51+01:00",
+    "gazole_prix": "1.819",
+    "sp95_maj": "2024-02-07T10:20:51+01:00",
+    "sp95_prix": "1.860",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-07T10:20:51+01:00",
+    "e10_prix": "1.829",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-Saint-Denis",
+    "code_departement": "93",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 93190001,
     "latitude": "4892900",
     "longitude": 255400,
@@ -109,23 +207,23 @@
     "ville": "Livry-Gargan",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 10:09:39\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-13 10:09:40\", \"@valeur\": \"0.920\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-13 10:09:40\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 10:09:40\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 10:09:40\", \"@valeur\": \"1.905\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 10:31:30\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-13 10:09:40\", \"@valeur\": \"0.920\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-13 10:09:40\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 10:31:31\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 10:31:31\", \"@valeur\": \"1.925\"}]",
     "geom": {
       "lon": 2.554,
       "lat": 48.929
     },
-    "gazole_maj": "2024-02-13T11:09:39+01:00",
-    "gazole_prix": "1.859",
+    "gazole_maj": "2024-02-14T11:31:30+01:00",
+    "gazole_prix": "1.899",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-13T11:09:40+01:00",
     "e85_prix": "0.920",
     "gplc_maj": "2024-02-13T11:09:40+01:00",
     "gplc_prix": "0.999",
-    "e10_maj": "2024-02-13T11:09:40+01:00",
-    "e10_prix": "1.859",
-    "sp98_maj": "2024-02-13T11:09:40+01:00",
-    "sp98_prix": "1.905",
+    "e10_maj": "2024-02-14T11:31:31+01:00",
+    "e10_prix": "1.869",
+    "sp98_maj": "2024-02-14T11:31:31+01:00",
+    "sp98_prix": "1.925",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -192,104 +290,6 @@
       "Carburant additivé",
       "Lavage automatique",
       "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Seine-Saint-Denis",
-    "code_departement": "93",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 93190007,
-    "latitude": "4892800",
-    "longitude": 254900,
-    "cp": "93190",
-    "pop": "R",
-    "adresse": "41/45 BOULEVARD ROBERT SCHUMAN",
-    "ville": "Livry-Gargan",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 12:05:30\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-03 09:52:52\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 12:05:30\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 16:14:09\", \"@valeur\": \"1.899\"}]",
-    "geom": {
-      "lon": 2.549,
-      "lat": 48.928
-    },
-    "gazole_maj": "2024-02-13T13:05:30+01:00",
-    "gazole_prix": "1.859",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-03T10:52:52+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-13T13:05:30+01:00",
-    "e10_prix": "1.849",
-    "sp98_maj": "2024-01-31T17:14:09+01:00",
-    "sp98_prix": "1.899",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Station de gonflage",
-      "Automate CB 24/24"
-    ],
-    "departement": "Seine-Saint-Denis",
-    "code_departement": "93",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 93320002,
-    "latitude": "4891042.70577",
-    "longitude": 251041.120111,
-    "cp": "93320",
-    "pop": "R",
-    "adresse": "262 AVENUE ARISTIDE BRIAND",
-    "ville": "Livry-Gargan",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.957\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.927\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 2.51041120111,
-      "lat": 48.9104270577
-    },
-    "gazole_maj": "2024-02-14T01:01:00+01:00",
-    "gazole_prix": "1.957",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-14T01:01:00+01:00",
-    "e85_prix": "0.919",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T01:01:00+01:00",
-    "e10_prix": "1.927",
-    "sp98_maj": "2024-02-14T01:01:00+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Lavage automatique",
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Seine-Saint-Denis",
