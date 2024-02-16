@@ -1,5 +1,52 @@
 [
   {
+    "id": 69210002,
+    "latitude": "4574800",
+    "longitude": 493100,
+    "cp": "69120",
+    "pop": "R",
+    "adresse": "236 avenue Franklin Roosevelt",
+    "ville": "Vaulx-en-Velin",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 10:22:13\", \"@valeur\": \"1.798\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 10:22:13\", \"@valeur\": \"1.907\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:22:14\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:22:14\", \"@valeur\": \"1.904\"}]",
+    "geom": {
+      "lon": 4.931,
+      "lat": 45.748
+    },
+    "gazole_maj": "2024-02-15T11:22:13+01:00",
+    "gazole_prix": "1.798",
+    "sp95_maj": "2024-02-15T11:22:13+01:00",
+    "sp95_prix": "1.907",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T11:22:14+01:00",
+    "e10_prix": "1.804",
+    "sp98_maj": "2024-02-15T11:22:14+01:00",
+    "sp98_prix": "1.904",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 69120012,
     "latitude": "4576782.5073806",
     "longitude": 493543.67858569,
@@ -9,23 +56,23 @@
     "ville": "Vaulx-en-Velin",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Bar\", \"Station de gonflage\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 19:19:43\", \"@valeur\": \"1.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 19:19:43\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 19:19:43\", \"@valeur\": \"1.979\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 21:52:43\", \"@valeur\": \"1.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 21:52:43\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 21:52:43\", \"@valeur\": \"1.995\"}]",
     "geom": {
       "lon": 4.9354367858569,
       "lat": 45.767825073806
     },
-    "gazole_maj": "2024-02-05T20:19:43+01:00",
-    "gazole_prix": "1.939",
+    "gazole_maj": "2024-02-15T22:52:43+01:00",
+    "gazole_prix": "1.959",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-05T20:19:43+01:00",
-    "e10_prix": "1.899",
-    "sp98_maj": "2024-02-05T20:19:43+01:00",
-    "sp98_prix": "1.979",
+    "e10_maj": "2024-02-15T22:52:43+01:00",
+    "e10_prix": "1.929",
+    "sp98_maj": "2024-02-15T22:52:43+01:00",
+    "sp98_prix": "1.995",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -108,12 +155,12 @@
     "ville": "Vaulx-en-Velin",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 06:00:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 06:00:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 06:00:00\", \"@valeur\": \"2.039\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 06:00:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 06:00:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 06:00:00\", \"@valeur\": \"2.039\"}]",
     "geom": {
       "lon": 4.914,
       "lat": 45.774
     },
-    "gazole_maj": "2024-02-14T07:00:00+01:00",
+    "gazole_maj": "2024-02-15T07:00:00+01:00",
     "gazole_prix": "1.919",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -121,9 +168,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-14T07:00:00+01:00",
+    "e10_maj": "2024-02-15T07:00:00+01:00",
     "e10_prix": "1.939",
-    "sp98_maj": "2024-02-14T07:00:00+01:00",
+    "sp98_maj": "2024-02-15T07:00:00+01:00",
     "sp98_prix": "2.039",
     "carburants_disponibles": [
       "Gazole",
@@ -148,53 +195,6 @@
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
-      "Automate CB 24/24"
-    ],
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 69210002,
-    "latitude": "4574800",
-    "longitude": 493100,
-    "cp": "69120",
-    "pop": "R",
-    "adresse": "236 avenue Franklin Roosevelt",
-    "ville": "Vaulx-en-Velin",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.01\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 09:03:22\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 09:03:22\", \"@valeur\": \"1.828\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 09:03:22\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 09:03:23\", \"@valeur\": \"1.898\"}]",
-    "geom": {
-      "lon": 4.931,
-      "lat": 45.748
-    },
-    "gazole_maj": "2024-02-14T10:03:22+01:00",
-    "gazole_prix": "1.788",
-    "sp95_maj": "2024-02-14T10:03:22+01:00",
-    "sp95_prix": "1.828",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T10:03:22+01:00",
-    "e10_prix": "1.792",
-    "sp98_maj": "2024-02-14T10:03:23+01:00",
-    "sp98_prix": "1.898",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Rhône",

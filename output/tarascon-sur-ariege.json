@@ -9,16 +9,16 @@
     "ville": "Tarascon-sur-Ariège",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 13:28:17\", \"@valeur\": \"1.911\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-07 13:27:50\", \"@valeur\": \"1.943\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-05-13 12:58:12\", \"@valeur\": \"1.255\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 13:29:23\", \"@valeur\": \"1.943\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 10:39:16\", \"@valeur\": \"1.999\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 13:28:17\", \"@valeur\": \"1.911\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-15 17:13:46\", \"@valeur\": \"1.255\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-07 13:29:23\", \"@valeur\": \"1.943\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-20 10:39:16\", \"@valeur\": \"1.999\"}]",
     "geom": {
       "lon": 1.60378,
       "lat": 42.85117
     },
     "gazole_maj": "2024-02-07T14:28:17+01:00",
     "gazole_prix": "1.911",
-    "sp95_maj": "2024-02-07T14:27:50+01:00",
-    "sp95_prix": "1.943",
-    "e85_maj": "2023-05-13T14:58:12+02:00",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-15T18:13:46+01:00",
     "e85_prix": "1.255",
     "gplc_maj": null,
     "gplc_prix": null,
@@ -28,12 +28,12 @@
     "sp98_prix": "1.999",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",

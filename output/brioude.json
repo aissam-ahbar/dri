@@ -1,53 +1,44 @@
 [
   {
-    "id": 43100002,
-    "latitude": "4528900",
-    "longitude": 336900,
+    "id": 43100003,
+    "latitude": "4528982",
+    "longitude": 338717,
     "cp": "43100",
     "pop": "R",
-    "adresse": "AVENUE JEAN JAURES",
+    "adresse": "Avenue Léon Blum",
     "ville": "Brioude",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-10 07:00:59\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-10 07:00:59\", \"@valeur\": \"1.939\"}]",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de fioul domestique\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:03:04\", \"@valeur\": \"1.773\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:03:05\", \"@valeur\": \"1.767\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 09:03:05\", \"@valeur\": \"1.864\"}]",
     "geom": {
-      "lon": 3.369,
-      "lat": 45.289
+      "lon": 3.38717,
+      "lat": 45.28982
     },
-    "gazole_maj": "2024-02-10T08:00:59+01:00",
-    "gazole_prix": "1.889",
-    "sp95_maj": "2024-02-10T08:00:59+01:00",
-    "sp95_prix": "1.939",
+    "gazole_maj": "2024-02-15T10:03:04+01:00",
+    "gazole_prix": "1.773",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-02-15T10:03:05+01:00",
+    "e10_prix": "1.767",
+    "sp98_maj": "2024-02-15T10:03:05+01:00",
+    "sp98_prix": "1.864",
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants"
+      "Vente de fioul domestique"
     ],
     "departement": "Haute-Loire",
     "code_departement": "43",
@@ -112,52 +103,6 @@
     "code_region": "84"
   },
   {
-    "id": 43100003,
-    "latitude": "4528982",
-    "longitude": 338717,
-    "cp": "43100",
-    "pop": "R",
-    "adresse": "Avenue Léon Blum",
-    "ville": "Brioude",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de fioul domestique\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:44:02\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 07:44:02\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 07:44:03\", \"@valeur\": \"1.867\"}]",
-    "geom": {
-      "lon": 3.38717,
-      "lat": 45.28982
-    },
-    "gazole_maj": "2024-02-14T08:44:02+01:00",
-    "gazole_prix": "1.769",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T08:44:02+01:00",
-    "e10_prix": "1.770",
-    "sp98_maj": "2024-02-14T08:44:03+01:00",
-    "sp98_prix": "1.867",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 43100004,
     "latitude": "4530000",
     "longitude": 338000,
@@ -167,17 +112,17 @@
     "ville": "Brioude",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-31 09:54:36\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 09:54:37\", \"@valeur\": \"1.926\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-31 09:54:37\", \"@valeur\": \"1.086\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:01:39\", \"@valeur\": \"1.886\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 09:01:40\", \"@valeur\": \"1.956\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-15 09:01:40\", \"@valeur\": \"1.106\"}]",
     "geom": {
       "lon": 3.38,
       "lat": 45.3
     },
-    "gazole_maj": "2024-01-31T10:54:36+01:00",
-    "gazole_prix": "1.866",
-    "sp95_maj": "2024-01-31T10:54:37+01:00",
-    "sp95_prix": "1.926",
-    "e85_maj": "2024-01-31T10:54:37+01:00",
-    "e85_prix": "1.086",
+    "gazole_maj": "2024-02-15T10:01:39+01:00",
+    "gazole_prix": "1.886",
+    "sp95_maj": "2024-02-15T10:01:40+01:00",
+    "sp95_prix": "1.956",
+    "e85_maj": "2024-02-15T10:01:40+01:00",
+    "e85_prix": "1.106",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -207,6 +152,61 @@
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 43100002,
+    "latitude": "4528900",
+    "longitude": 336900,
+    "cp": "43100",
+    "pop": "R",
+    "adresse": "AVENUE JEAN JAURES",
+    "ville": "Brioude",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 07:04:50\", \"@valeur\": \"1.894\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 07:04:50\", \"@valeur\": \"1.958\"}]",
+    "geom": {
+      "lon": 3.369,
+      "lat": 45.289
+    },
+    "gazole_maj": "2024-02-15T08:04:50+01:00",
+    "gazole_prix": "1.894",
+    "sp95_maj": "2024-02-15T08:04:50+01:00",
+    "sp95_prix": "1.958",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants"
     ],
     "departement": "Haute-Loire",
     "code_departement": "43",

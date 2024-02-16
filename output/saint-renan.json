@@ -9,32 +9,32 @@
     "ville": "Saint-Renan",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-30 19:44:48\", \"@valeur\": \"1.149\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 10:58:25\", \"@valeur\": \"1.945\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 10:58:26\", \"@valeur\": \"1.915\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-15 10:58:26\", \"@valeur\": \"1.149\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:58:26\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:58:26\", \"@valeur\": \"1.975\"}]",
     "geom": {
       "lon": -4.622,
       "lat": 48.435
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-11-30T20:44:48+01:00",
+    "gazole_maj": "2024-02-15T11:58:25+01:00",
+    "gazole_prix": "1.945",
+    "sp95_maj": "2024-02-15T11:58:26+01:00",
+    "sp95_prix": "1.915",
+    "e85_maj": "2024-02-15T11:58:26+01:00",
     "e85_prix": "1.149",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-02-15T11:58:26+01:00",
+    "e10_prix": "1.875",
+    "sp98_maj": "2024-02-15T11:58:26+01:00",
+    "sp98_prix": "1.975",
     "carburants_disponibles": [
-      "E85"
-    ],
-    "carburants_indisponibles": [
       "Gazole",
       "SP95",
-      "GPLc",
+      "E85",
       "E10",
       "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -62,13 +62,13 @@
     "ville": "Saint-Renan",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 09:21:56\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 09:21:56\", \"@valeur\": \"1.815\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-13 12:12:26\", \"@valeur\": \"0.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 09:21:56\", \"@valeur\": \"1.859\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 11:37:29\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 09:21:56\", \"@valeur\": \"1.815\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-13 12:12:26\", \"@valeur\": \"0.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 09:21:56\", \"@valeur\": \"1.859\"}]",
     "geom": {
       "lon": -4.61368,
       "lat": 48.4289
     },
-    "gazole_maj": "2024-02-14T10:21:56+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2024-02-15T12:37:29+01:00",
+    "gazole_prix": "1.799",
     "sp95_maj": "2024-02-14T10:21:56+01:00",
     "sp95_prix": "1.815",
     "e85_maj": null,

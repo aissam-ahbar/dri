@@ -1,5 +1,55 @@
 [
   {
+    "id": 68170004,
+    "latitude": "4775373.0580832",
+    "longitude": 739693.62059896,
+    "cp": "68170",
+    "pop": "R",
+    "adresse": "84 RUE DE MULHOUSE",
+    "ville": "Rixheim",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 08:16:44\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 07:50:03\", \"@valeur\": \"1.833\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 08:16:44\", \"@valeur\": \"0.897\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 07:50:03\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 08:16:45\", \"@valeur\": \"1.863\"}]",
+    "geom": {
+      "lon": 7.3969362059896,
+      "lat": 47.753730580832
+    },
+    "gazole_maj": "2024-02-12T09:16:44+01:00",
+    "gazole_prix": "1.794",
+    "sp95_maj": "2024-02-15T08:50:03+01:00",
+    "sp95_prix": "1.833",
+    "e85_maj": "2024-02-12T09:16:44+01:00",
+    "e85_prix": "0.897",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T08:50:03+01:00",
+    "e10_prix": "1.794",
+    "sp98_maj": "2024-02-12T09:16:45+01:00",
+    "sp98_prix": "1.863",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
+    ],
+    "departement": "Haut-Rhin",
+    "code_departement": "68",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 68170003,
     "latitude": "4774500",
     "longitude": 741200,
@@ -9,22 +59,22 @@
     "ville": "Rixheim",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"1.898\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.898\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 7.412,
       "lat": 47.745
     },
-    "gazole_maj": "2024-02-15T01:01:00+01:00",
+    "gazole_maj": "2024-02-16T01:01:00+01:00",
     "gazole_prix": "1.919",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-15T01:01:00+01:00",
+    "e85_maj": "2024-02-16T01:01:00+01:00",
     "e85_prix": "0.919",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-15T01:01:00+01:00",
+    "e10_maj": "2024-02-16T01:01:00+01:00",
     "e10_prix": "1.898",
-    "sp98_maj": "2024-02-15T01:01:00+01:00",
+    "sp98_maj": "2024-02-16T01:01:00+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -46,56 +96,6 @@
       "Carburant additivé",
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Haut-Rhin",
-    "code_departement": "68",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 68170004,
-    "latitude": "4775373.0580832",
-    "longitude": 739693.62059896,
-    "cp": "68170",
-    "pop": "R",
-    "adresse": "84 RUE DE MULHOUSE",
-    "ville": "Rixheim",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 08:16:44\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 08:16:44\", \"@valeur\": \"1.835\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 08:16:44\", \"@valeur\": \"0.897\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 08:16:44\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 08:16:45\", \"@valeur\": \"1.863\"}]",
-    "geom": {
-      "lon": 7.3969362059896,
-      "lat": 47.753730580832
-    },
-    "gazole_maj": "2024-02-12T09:16:44+01:00",
-    "gazole_prix": "1.794",
-    "sp95_maj": "2024-02-12T09:16:44+01:00",
-    "sp95_prix": "1.835",
-    "e85_maj": "2024-02-12T09:16:44+01:00",
-    "e85_prix": "0.897",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-12T09:16:44+01:00",
-    "e10_prix": "1.770",
-    "sp98_maj": "2024-02-12T09:16:45+01:00",
-    "sp98_prix": "1.863",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente d'additifs carburants",
       "Automate CB 24/24"
     ],
     "departement": "Haut-Rhin",

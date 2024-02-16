@@ -1,5 +1,53 @@
 [
   {
+    "id": 17700001,
+    "latitude": "4610400",
+    "longitude": -75400,
+    "cp": "17700",
+    "pop": "R",
+    "adresse": "13 Avenue Saint-Pierre",
+    "ville": "Surgères",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 19:46:02\", \"@valeur\": \"1.811\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 19:46:03\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 19:46:03\", \"@valeur\": \"1.885\"}]",
+    "geom": {
+      "lon": -0.754,
+      "lat": 46.104
+    },
+    "gazole_maj": "2024-02-15T20:46:02+01:00",
+    "gazole_prix": "1.811",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T20:46:03+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2024-02-15T20:46:03+01:00",
+    "sp98_prix": "1.885",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Charente-Maritime",
+    "code_departement": "17",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 17700003,
     "latitude": "4611100",
     "longitude": -73900,
@@ -9,7 +57,7 @@
     "ville": "Surgères",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Restauration à emporter\", \"Carburant additivé\", \"Restauration sur place\", \"Toilettes publiques\", \"Bar\", \"Boutique alimentaire\", \"Station de gonflage\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Location de véhicule\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:13:25\", \"@valeur\": \"1.782\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-10 19:00:00\", \"@valeur\": \"0.872\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-10 19:00:00\", \"@valeur\": \"0.910\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 09:40:27\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 09:40:28\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:13:25\", \"@valeur\": \"1.782\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-15 09:06:01\", \"@valeur\": \"0.866\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-10 19:00:00\", \"@valeur\": \"0.910\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:06:01\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 09:06:02\", \"@valeur\": \"1.839\"}]",
     "geom": {
       "lon": -0.739,
       "lat": 46.111
@@ -18,14 +66,14 @@
     "gazole_prix": "1.782",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-10T20:00:00+01:00",
-    "e85_prix": "0.872",
+    "e85_maj": "2024-02-15T10:06:01+01:00",
+    "e85_prix": "0.866",
     "gplc_maj": "2024-02-10T20:00:00+01:00",
     "gplc_prix": "0.910",
-    "e10_maj": "2024-02-14T10:40:27+01:00",
-    "e10_prix": "1.763",
-    "sp98_maj": "2024-02-14T10:40:28+01:00",
-    "sp98_prix": "1.829",
+    "e10_maj": "2024-02-15T10:06:01+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2024-02-15T10:06:02+01:00",
+    "sp98_prix": "1.839",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -72,15 +120,15 @@
     "ville": "Surgères",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"18.30\"}]}]}",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:18:44\", \"@valeur\": \"1.902\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 06:53:08\", \"@valeur\": \"1.955\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:18:44\", \"@valeur\": \"1.902\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 06:25:00\", \"@valeur\": \"1.961\"}]",
     "geom": {
       "lon": -0.754,
       "lat": 46.109
     },
     "gazole_maj": "2024-02-14T08:18:44+01:00",
     "gazole_prix": "1.902",
-    "sp95_maj": "2024-02-13T07:53:08+01:00",
-    "sp95_prix": "1.955",
+    "sp95_maj": "2024-02-15T07:25:00+01:00",
+    "sp95_prix": "1.961",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -106,54 +154,6 @@
       "Carburant additivé",
       "Location de véhicule",
       "Piste poids lourds"
-    ],
-    "departement": "Charente-Maritime",
-    "code_departement": "17",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 17700001,
-    "latitude": "4610400",
-    "longitude": -75400,
-    "cp": "17700",
-    "pop": "R",
-    "adresse": "13 Avenue Saint-Pierre",
-    "ville": "Surgères",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 09:10:17\", \"@valeur\": \"1.758\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 09:10:26\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 09:10:30\", \"@valeur\": \"1.838\"}]",
-    "geom": {
-      "lon": -0.754,
-      "lat": 46.104
-    },
-    "gazole_maj": "2024-02-01T10:10:17+01:00",
-    "gazole_prix": "1.758",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-01T10:10:26+01:00",
-    "e10_prix": "1.758",
-    "sp98_maj": "2024-02-01T10:10:30+01:00",
-    "sp98_prix": "1.838",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Charente-Maritime",
     "code_departement": "17",
