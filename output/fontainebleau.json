@@ -1,5 +1,58 @@
 [
   {
+    "id": 77300005,
+    "latitude": "4840800",
+    "longitude": 268800,
+    "cp": "77300",
+    "pop": "R",
+    "adresse": "CARREFOUR DE LA LIBERATION",
+    "ville": "Fontainebleau",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 16:30:00\", \"@valeur\": \"1.959\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 11:30:00\", \"@valeur\": \"0.889\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-03-03 16:45:00\", \"@valeur\": \"1.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 14:10:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 14:10:00\", \"@valeur\": \"2.029\"}]",
+    "geom": {
+      "lon": 2.688,
+      "lat": 48.408
+    },
+    "gazole_maj": "2024-02-16T17:30:00+01:00",
+    "gazole_prix": "1.959",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-14T12:30:00+01:00",
+    "e85_prix": "0.889",
+    "gplc_maj": "2023-03-03T17:45:00+01:00",
+    "gplc_prix": "1.099",
+    "e10_maj": "2024-02-14T15:10:00+01:00",
+    "e10_prix": "1.929",
+    "sp98_maj": "2024-02-14T15:10:00+01:00",
+    "sp98_prix": "2.029",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 77300001,
     "latitude": "4841700",
     "longitude": 270800,
@@ -94,59 +147,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 77300005,
-    "latitude": "4840800",
-    "longitude": 268800,
-    "cp": "77300",
-    "pop": "R",
-    "adresse": "CARREFOUR DE LA LIBERATION",
-    "ville": "Fontainebleau",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-09 14:20:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 11:30:00\", \"@valeur\": \"0.889\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-03-03 16:45:00\", \"@valeur\": \"1.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 14:10:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 14:10:00\", \"@valeur\": \"2.029\"}]",
-    "geom": {
-      "lon": 2.688,
-      "lat": 48.408
-    },
-    "gazole_maj": "2024-02-09T15:20:00+01:00",
-    "gazole_prix": "1.939",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-14T12:30:00+01:00",
-    "e85_prix": "0.889",
-    "gplc_maj": "2023-03-03T17:45:00+01:00",
-    "gplc_prix": "1.099",
-    "e10_maj": "2024-02-14T15:10:00+01:00",
-    "e10_prix": "1.929",
-    "sp98_maj": "2024-02-14T15:10:00+01:00",
-    "sp98_prix": "2.029",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",

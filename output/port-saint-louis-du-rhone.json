@@ -1,5 +1,54 @@
 [
   {
+    "id": 13230001,
+    "latitude": "4338772",
+    "longitude": 480516,
+    "cp": "13230",
+    "pop": "R",
+    "adresse": "2 avenue de la République",
+    "ville": "Port-Saint-Louis-du-Rhône",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:30:00\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 10:33:44\", \"@valeur\": \"1.881\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 10:33:44\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:30:00\", \"@valeur\": \"1.878\"}]",
+    "geom": {
+      "lon": 4.80516,
+      "lat": 43.38772
+    },
+    "gazole_maj": "2024-02-16T09:30:00+01:00",
+    "gazole_prix": "1.852",
+    "sp95_maj": "2024-02-12T11:33:44+01:00",
+    "sp95_prix": "1.881",
+    "e85_maj": "2024-02-12T11:33:44+01:00",
+    "e85_prix": "0.849",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-16T09:30:00+01:00",
+    "e10_prix": "1.878",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 13230002,
     "latitude": "4339000",
     "longitude": 480100,
@@ -9,23 +58,23 @@
     "ville": "Port-Saint-Louis-du-Rhône",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:30:00\", \"@valeur\": \"1.810\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 08:30:00\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 08:30:00\", \"@valeur\": \"1.897\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:30:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:30:00\", \"@valeur\": \"1.854\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 08:30:00\", \"@valeur\": \"1.938\"}]",
     "geom": {
       "lon": 4.801,
       "lat": 43.39
     },
-    "gazole_maj": "2024-02-13T09:30:00+01:00",
-    "gazole_prix": "1.810",
+    "gazole_maj": "2024-02-16T09:30:00+01:00",
+    "gazole_prix": "1.829",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-13T09:30:00+01:00",
-    "e10_prix": "1.820",
-    "sp98_maj": "2024-02-13T09:30:00+01:00",
-    "sp98_prix": "1.897",
+    "e10_maj": "2024-02-16T09:30:00+01:00",
+    "e10_prix": "1.854",
+    "sp98_maj": "2024-02-16T09:30:00+01:00",
+    "sp98_prix": "1.938",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -43,55 +92,6 @@
       "Boutique non alimentaire",
       "Station de gonflage",
       "Piste poids lourds",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 13230001,
-    "latitude": "4338772",
-    "longitude": 480516,
-    "cp": "13230",
-    "pop": "R",
-    "adresse": "2 avenue de la République",
-    "ville": "Port-Saint-Louis-du-Rhône",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 10:33:43\", \"@valeur\": \"1.833\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 10:33:44\", \"@valeur\": \"1.881\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 10:33:44\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 10:33:44\", \"@valeur\": \"1.844\"}]",
-    "geom": {
-      "lon": 4.80516,
-      "lat": 43.38772
-    },
-    "gazole_maj": "2024-02-12T11:33:43+01:00",
-    "gazole_prix": "1.833",
-    "sp95_maj": "2024-02-12T11:33:44+01:00",
-    "sp95_prix": "1.881",
-    "e85_maj": "2024-02-12T11:33:44+01:00",
-    "e85_prix": "0.849",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-12T11:33:44+01:00",
-    "e10_prix": "1.844",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"

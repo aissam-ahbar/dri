@@ -1,5 +1,56 @@
 [
   {
+    "id": 77100023,
+    "latitude": "4895742",
+    "longitude": 293791,
+    "cp": "77100",
+    "pop": "R",
+    "adresse": "334 AVENUE DE LA VICTOIRE",
+    "ville": "Meaux",
+    "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.927\"}]",
+    "geom": {
+      "lon": 2.93791,
+      "lat": 48.95742
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-17T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-17T01:01:00+01:00",
+    "e10_prix": "1.829",
+    "sp98_maj": "2024-02-17T01:01:00+01:00",
+    "sp98_prix": "1.927",
+    "carburants_disponibles": [
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 77100008,
     "latitude": "4895700",
     "longitude": 288500,
@@ -44,50 +95,6 @@
     "code_region": "11"
   },
   {
-    "id": 77100022,
-    "latitude": "4894903.7155409",
-    "longitude": 287971.54887761,
-    "cp": "77100",
-    "pop": "R",
-    "adresse": "30/34 RUE FRANCOIS DE TESSAN",
-    "ville": "Meaux",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.848\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.923\"}]",
-    "geom": {
-      "lon": 2.8797154887761,
-      "lat": 48.949037155409
-    },
-    "gazole_maj": "2024-02-16T01:01:00+01:00",
-    "gazole_prix": "1.848",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-16T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": "2024-02-16T01:01:00+01:00",
-    "gplc_prix": "0.969",
-    "e10_maj": "2024-02-16T01:01:00+01:00",
-    "e10_prix": "1.825",
-    "sp98_maj": "2024-02-16T01:01:00+01:00",
-    "sp98_prix": "1.923",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
     "id": 77100010,
     "latitude": "4895674",
     "longitude": 290382,
@@ -97,12 +104,12 @@
     "ville": "Meaux",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 15:37:17\", \"@valeur\": \"1.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 15:37:18\", \"@valeur\": \"1.882\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 15:37:18\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:35:31\", \"@valeur\": \"1.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:35:31\", \"@valeur\": \"1.882\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 08:35:32\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 2.90382,
       "lat": 48.95674
     },
-    "gazole_maj": "2024-02-15T16:37:17+01:00",
+    "gazole_maj": "2024-02-16T09:35:31+01:00",
     "gazole_prix": "1.909",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -110,9 +117,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-15T16:37:18+01:00",
+    "e10_maj": "2024-02-16T09:35:31+01:00",
     "e10_prix": "1.882",
-    "sp98_maj": "2024-02-15T16:37:18+01:00",
+    "sp98_maj": "2024-02-16T09:35:32+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -126,6 +133,53 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 77100021,
+    "latitude": "4895367.37889",
+    "longitude": 289673.896765,
+    "cp": "77100",
+    "pop": "R",
+    "adresse": "1-5 AVENUE DE MELUN",
+    "ville": "Meaux",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.843\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.923\"}]",
+    "geom": {
+      "lon": 2.89673896765,
+      "lat": 48.953673788900005
+    },
+    "gazole_maj": "2024-02-17T01:01:00+01:00",
+    "gazole_prix": "1.843",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-17T01:01:00+01:00",
+    "e10_prix": "1.825",
+    "sp98_maj": "2024-02-17T01:01:00+01:00",
+    "sp98_prix": "1.923",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "DAB (Distributeur automatique de billets)"
+    ],
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",
@@ -182,98 +236,44 @@
     "code_region": "11"
   },
   {
-    "id": 77100023,
-    "latitude": "4895742",
-    "longitude": 293791,
+    "id": 77100022,
+    "latitude": "4894903.7155409",
+    "longitude": 287971.54887761,
     "cp": "77100",
     "pop": "R",
-    "adresse": "334 AVENUE DE LA VICTOIRE",
-    "ville": "Meaux",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.927\"}]",
-    "geom": {
-      "lon": 2.93791,
-      "lat": 48.95742
-    },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-16T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T01:01:00+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2024-02-16T01:01:00+01:00",
-    "sp98_prix": "1.927",
-    "carburants_disponibles": [
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 77100021,
-    "latitude": "4895367.37889",
-    "longitude": 289673.896765,
-    "cp": "77100",
-    "pop": "R",
-    "adresse": "1-5 AVENUE DE MELUN",
+    "adresse": "30/34 RUE FRANCOIS DE TESSAN",
     "ville": "Meaux",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 00:01:00\", \"@valeur\": \"1.923\"}]",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.843\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.923\"}]",
     "geom": {
-      "lon": 2.89673896765,
-      "lat": 48.953673788900005
+      "lon": 2.8797154887761,
+      "lat": 48.949037155409
     },
-    "gazole_maj": "2024-02-16T01:01:00+01:00",
-    "gazole_prix": "1.848",
+    "gazole_maj": "2024-02-17T01:01:00+01:00",
+    "gazole_prix": "1.843",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T01:01:00+01:00",
+    "e85_maj": "2024-02-17T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": "2024-02-17T01:01:00+01:00",
+    "gplc_prix": "0.969",
+    "e10_maj": "2024-02-17T01:01:00+01:00",
     "e10_prix": "1.825",
-    "sp98_maj": "2024-02-16T01:01:00+01:00",
+    "sp98_maj": "2024-02-17T01:01:00+01:00",
     "sp98_prix": "1.923",
     "carburants_disponibles": [
       "Gazole",
+      "E85",
+      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
+      "SP95"
     ],
     "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
-      "DAB (Distributeur automatique de billets)"
-    ],
+    "services_service": null,
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",
