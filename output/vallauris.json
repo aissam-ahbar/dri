@@ -9,12 +9,12 @@
     "ville": "Vallauris",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.901\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.904\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.901\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.904\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 7.062,
       "lat": 43.58
     },
-    "gazole_maj": "2024-02-17T01:01:00+01:00",
+    "gazole_maj": "2024-02-18T01:01:00+01:00",
     "gazole_prix": "1.901",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -22,9 +22,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-17T01:01:00+01:00",
+    "e10_maj": "2024-02-18T01:01:00+01:00",
     "e10_prix": "1.904",
-    "sp98_maj": "2024-02-17T01:01:00+01:00",
+    "sp98_maj": "2024-02-18T01:01:00+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -44,6 +44,54 @@
       "Lavage automatique",
       "Wifi",
       "Automate CB 24/24"
+    ],
+    "departement": "Alpes-Maritimes",
+    "code_departement": "06",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 6220003,
+    "latitude": "4356968",
+    "longitude": 704684,
+    "cp": "06220",
+    "pop": "R",
+    "adresse": "117 Vieille Route de Cannes",
+    "ville": "Vallauris",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 13:18:36\", \"@valeur\": \"1.842\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 13:18:36\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 13:18:37\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 13:18:37\", \"@valeur\": \"1.924\"}]",
+    "geom": {
+      "lon": 7.04684,
+      "lat": 43.56968
+    },
+    "gazole_maj": "2024-02-14T14:18:36+01:00",
+    "gazole_prix": "1.842",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-14T14:18:36+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-14T14:18:37+01:00",
+    "e10_prix": "1.839",
+    "sp98_maj": "2024-02-14T14:18:37+01:00",
+    "sp98_prix": "1.924",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Alpes-Maritimes",
     "code_departement": "06",
@@ -93,54 +141,6 @@
       "Boutique non alimentaire",
       "Wifi",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Alpes-Maritimes",
-    "code_departement": "06",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 6220003,
-    "latitude": "4356968",
-    "longitude": 704684,
-    "cp": "06220",
-    "pop": "R",
-    "adresse": "117 Vieille Route de Cannes",
-    "ville": "Vallauris",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 13:18:36\", \"@valeur\": \"1.842\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 13:18:36\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 13:18:37\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 13:18:37\", \"@valeur\": \"1.924\"}]",
-    "geom": {
-      "lon": 7.04684,
-      "lat": 43.56968
-    },
-    "gazole_maj": "2024-02-14T14:18:36+01:00",
-    "gazole_prix": "1.842",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-14T14:18:36+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T14:18:37+01:00",
-    "e10_prix": "1.839",
-    "sp98_maj": "2024-02-14T14:18:37+01:00",
-    "sp98_prix": "1.924",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Alpes-Maritimes",

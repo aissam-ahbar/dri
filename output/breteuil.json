@@ -9,22 +9,22 @@
     "ville": "Breteuil",
     "horaires": null,
     "services": "{\"service\": [\"Relais colis\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 13:44:03\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-12 13:44:04\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 13:44:04\", \"@valeur\": \"1.919\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 09:29:57\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-17 09:29:57\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 09:29:57\", \"@valeur\": \"1.919\"}]",
     "geom": {
       "lon": 2.29025,
       "lat": 49.63618
     },
-    "gazole_maj": "2024-02-12T14:44:03+01:00",
-    "gazole_prix": "1.809",
-    "sp95_maj": "2024-02-12T14:44:04+01:00",
-    "sp95_prix": "1.830",
+    "gazole_maj": "2024-02-17T10:29:57+01:00",
+    "gazole_prix": "1.786",
+    "sp95_maj": "2024-02-17T10:29:57+01:00",
+    "sp95_prix": "1.826",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-12T14:44:04+01:00",
+    "sp98_maj": "2024-02-17T10:29:57+01:00",
     "sp98_prix": "1.919",
     "carburants_disponibles": [
       "Gazole",
@@ -106,6 +106,58 @@
     "code_region": "32"
   },
   {
+    "id": 27160001,
+    "latitude": "4885200",
+    "longitude": 92000,
+    "cp": "27160",
+    "pop": "R",
+    "adresse": "route de Conches",
+    "ville": "Breteuil",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:15:33\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 08:13:56\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 08:15:33\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 08:13:56\", \"@valeur\": \"1.869\"}]",
+    "geom": {
+      "lon": 0.92,
+      "lat": 48.852
+    },
+    "gazole_maj": "2024-02-13T09:15:33+01:00",
+    "gazole_prix": "1.820",
+    "sp95_maj": "2024-01-31T09:13:56+01:00",
+    "sp95_prix": "1.859",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-13T09:15:33+01:00",
+    "e10_prix": "1.820",
+    "sp98_maj": "2024-01-31T09:13:56+01:00",
+    "sp98_prix": "1.869",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Station de gonflage",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Eure",
+    "code_departement": "27",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 60120004,
     "latitude": "4963500",
     "longitude": 228600,
@@ -161,57 +213,5 @@
     "code_departement": "60",
     "region": "Hauts-de-France",
     "code_region": "32"
-  },
-  {
-    "id": 27160001,
-    "latitude": "4885200",
-    "longitude": 92000,
-    "cp": "27160",
-    "pop": "R",
-    "adresse": "route de Conches",
-    "ville": "Breteuil",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:15:33\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-31 08:13:56\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 08:15:33\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-31 08:13:56\", \"@valeur\": \"1.869\"}]",
-    "geom": {
-      "lon": 0.92,
-      "lat": 48.852
-    },
-    "gazole_maj": "2024-02-13T09:15:33+01:00",
-    "gazole_prix": "1.820",
-    "sp95_maj": "2024-01-31T09:13:56+01:00",
-    "sp95_prix": "1.859",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-13T09:15:33+01:00",
-    "e10_prix": "1.820",
-    "sp98_maj": "2024-01-31T09:13:56+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Station de gonflage",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Eure",
-    "code_departement": "27",
-    "region": "Normandie",
-    "code_region": "28"
   }
 ]

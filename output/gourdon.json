@@ -9,12 +9,12 @@
     "ville": "Gourdon",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"13.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:12:53\", \"@valeur\": \"1.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:12:54\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 08:12:54\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 07:48:26\", \"@valeur\": \"1.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 07:48:26\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 07:48:26\", \"@valeur\": \"1.990\"}]",
     "geom": {
       "lon": 1.391,
       "lat": 44.74
     },
-    "gazole_maj": "2024-02-16T09:12:53+01:00",
+    "gazole_maj": "2024-02-17T08:48:26+01:00",
     "gazole_prix": "1.909",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -22,9 +22,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-16T09:12:54+01:00",
+    "e10_maj": "2024-02-17T08:48:26+01:00",
     "e10_prix": "1.910",
-    "sp98_maj": "2024-02-16T09:12:54+01:00",
+    "sp98_maj": "2024-02-17T08:48:26+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -42,6 +42,65 @@
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Vente d'additifs carburants"
+    ],
+    "departement": "Lot",
+    "code_departement": "46",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 46300004,
+    "latitude": "4472600",
+    "longitude": 137300,
+    "cp": "46300",
+    "pop": "R",
+    "adresse": "Route de Fumel",
+    "ville": "Gourdon",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 09:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 09:10:26\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 09:10:26\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 09:10:27\", \"@valeur\": \"1.869\"}]",
+    "geom": {
+      "lon": 1.373,
+      "lat": 44.726
+    },
+    "gazole_maj": "2024-02-17T10:00:00+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-13T10:10:26+01:00",
+    "sp95_prix": "1.849",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-13T10:10:26+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2024-02-13T10:10:27+01:00",
+    "sp98_prix": "1.869",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Bar",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Espace bébé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Lot",
     "code_departement": "46",
@@ -100,112 +159,6 @@
     "code_region": "76"
   },
   {
-    "id": 71300009,
-    "latitude": "4666500",
-    "longitude": 439200,
-    "cp": "71300",
-    "pop": "R",
-    "adresse": "Lieu-Dit Beauregard",
-    "ville": "Gourdon",
-    "horaires": null,
-    "services": "{\"service\": [\"Location de véhicule\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 11:09:46\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 10:23:51\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 10:23:51\", \"@valeur\": \"1.819\"}]",
-    "geom": {
-      "lon": 4.392,
-      "lat": 46.665
-    },
-    "gazole_maj": "2024-02-12T12:09:46+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-16T11:23:51+01:00",
-    "sp95_prix": "1.849",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T11:23:51+01:00",
-    "e10_prix": "1.819",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Location de véhicule",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Saône-et-Loire",
-    "code_departement": "71",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 46300004,
-    "latitude": "4472600",
-    "longitude": 137300,
-    "cp": "46300",
-    "pop": "R",
-    "adresse": "Route de Fumel",
-    "ville": "Gourdon",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 09:10:26\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 09:10:26\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 09:10:26\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 09:10:27\", \"@valeur\": \"1.869\"}]",
-    "geom": {
-      "lon": 1.373,
-      "lat": 44.726
-    },
-    "gazole_maj": "2024-02-13T10:10:26+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": "2024-02-13T10:10:26+01:00",
-    "sp95_prix": "1.849",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-13T10:10:26+01:00",
-    "e10_prix": "1.799",
-    "sp98_maj": "2024-02-13T10:10:27+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Bar",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Espace bébé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Lot",
-    "code_departement": "46",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 46300007,
     "latitude": "4474012.0459907",
     "longitude": 139068.903752,
@@ -248,6 +201,52 @@
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Lot",
+    "code_departement": "46",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 46300005,
+    "latitude": "4473900",
+    "longitude": 138900,
+    "cp": "46300",
+    "pop": "R",
+    "adresse": "AVENUE GAMBETTA",
+    "ville": "Gourdon",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 10:50:30\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:50:31\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:50:31\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": 1.389,
+      "lat": 44.739
+    },
+    "gazole_maj": "2024-02-15T11:50:30+01:00",
+    "gazole_prix": "1.815",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T11:50:31+01:00",
+    "e10_prix": "1.825",
+    "sp98_maj": "2024-02-15T11:50:31+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Lot",
     "code_departement": "46",
@@ -347,49 +346,50 @@
     "code_region": "76"
   },
   {
-    "id": 46300005,
-    "latitude": "4473900",
-    "longitude": 138900,
-    "cp": "46300",
+    "id": 71300009,
+    "latitude": "4666500",
+    "longitude": 439200,
+    "cp": "71300",
     "pop": "R",
-    "adresse": "AVENUE GAMBETTA",
+    "adresse": "Lieu-Dit Beauregard",
     "ville": "Gourdon",
     "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 10:50:30\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:50:31\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:50:31\", \"@valeur\": \"1.899\"}]",
+    "services": "{\"service\": [\"Location de véhicule\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 11:09:46\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 10:23:51\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 10:23:51\", \"@valeur\": \"1.819\"}]",
     "geom": {
-      "lon": 1.389,
-      "lat": 44.739
+      "lon": 4.392,
+      "lat": 46.665
     },
-    "gazole_maj": "2024-02-15T11:50:30+01:00",
-    "gazole_prix": "1.815",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2024-02-12T12:09:46+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-16T11:23:51+01:00",
+    "sp95_prix": "1.849",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-15T11:50:31+01:00",
-    "e10_prix": "1.825",
-    "sp98_maj": "2024-02-15T11:50:31+01:00",
-    "sp98_prix": "1.899",
+    "e10_maj": "2024-02-16T11:23:51+01:00",
+    "e10_prix": "1.819",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "SP95",
+      "E10"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
+      "Location de véhicule",
+      "DAB (Distributeur automatique de billets)"
     ],
-    "departement": "Lot",
-    "code_departement": "46",
-    "region": "Occitanie",
-    "code_region": "76"
+    "departement": "Saône-et-Loire",
+    "code_departement": "71",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
   }
 ]

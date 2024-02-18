@@ -1,5 +1,52 @@
 [
   {
+    "id": 80100001,
+    "latitude": "5010400",
+    "longitude": 182800,
+    "cp": "80100",
+    "pop": "R",
+    "adresse": "RUE DES CORDELIERS",
+    "ville": "Abbeville",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 09:52:32\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 09:52:32\", \"@valeur\": \"1.903\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 09:52:32\", \"@valeur\": \"1.940\"}]",
+    "geom": {
+      "lon": 1.828,
+      "lat": 50.104
+    },
+    "gazole_maj": "2024-02-16T10:52:32+01:00",
+    "gazole_prix": "1.843",
+    "sp95_maj": "2024-02-16T10:52:32+01:00",
+    "sp95_prix": "1.903",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-16T10:52:32+01:00",
+    "sp98_prix": "1.940",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Somme",
+    "code_departement": "80",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 80100007,
     "latitude": "5011300",
     "longitude": 182900,
@@ -9,23 +56,23 @@
     "ville": "Abbeville",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 07:02:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 07:02:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 07:02:00\", \"@valeur\": \"1.892\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 07:01:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 07:01:00\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 07:01:00\", \"@valeur\": \"1.884\"}]",
     "geom": {
       "lon": 1.829,
       "lat": 50.113
     },
-    "gazole_maj": "2024-02-16T08:02:00+01:00",
-    "gazole_prix": "1.799",
+    "gazole_maj": "2024-02-17T08:01:00+01:00",
+    "gazole_prix": "1.785",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-16T08:02:00+01:00",
-    "e10_prix": "1.812",
-    "sp98_maj": "2024-02-16T08:02:00+01:00",
-    "sp98_prix": "1.892",
+    "e10_maj": "2024-02-17T08:01:00+01:00",
+    "e10_prix": "1.804",
+    "sp98_maj": "2024-02-17T08:01:00+01:00",
+    "sp98_prix": "1.884",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -44,47 +91,96 @@
     "code_region": "32"
   },
   {
-    "id": 80100002,
-    "latitude": "5009981.1078",
-    "longitude": 185638.830058,
+    "id": 80100011,
+    "latitude": "5010786.7347902",
+    "longitude": 183176.01957873,
     "cp": "80100",
     "pop": "R",
-    "adresse": "Avenue Vincent Auriol",
+    "adresse": "3 place de l amiral courbet",
     "ville": "Abbeville",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 09:37:43\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 09:37:44\", \"@valeur\": \"0.830\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-08 09:45:51\", \"@valeur\": \"0.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 09:37:44\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 09:37:44\", \"@valeur\": \"1.832\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 08:26:28\", \"@valeur\": \"1.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 08:26:29\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 08:26:29\", \"@valeur\": \"1.976\"}]",
     "geom": {
-      "lon": 1.85638830058,
-      "lat": 50.099811078
+      "lon": 1.8317601957873,
+      "lat": 50.107867347902
     },
-    "gazole_maj": "2024-02-16T10:37:43+01:00",
-    "gazole_prix": "1.768",
+    "gazole_maj": "2024-02-15T09:26:28+01:00",
+    "gazole_prix": "1.890",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-16T10:37:44+01:00",
-    "e85_prix": "0.830",
-    "gplc_maj": "2024-02-08T10:45:51+01:00",
-    "gplc_prix": "0.879",
-    "e10_maj": "2024-02-16T10:37:44+01:00",
-    "e10_prix": "1.758",
-    "sp98_maj": "2024-02-16T10:37:44+01:00",
-    "sp98_prix": "1.832",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T09:26:29+01:00",
+    "e10_prix": "1.866",
+    "sp98_maj": "2024-02-15T09:26:29+01:00",
+    "sp98_prix": "1.976",
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95"
+      "SP95",
+      "E85",
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
+      "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Vente d'additifs carburants"
+    ],
+    "departement": "Somme",
+    "code_departement": "80",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
+    "id": 80100012,
+    "latitude": "5012800",
+    "longitude": 183300,
+    "cp": "80100",
+    "pop": "R",
+    "adresse": "1 Rue Philippe Duclercq",
+    "ville": "Abbeville",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 10:18:19\", \"@valeur\": \"1.782\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-17 10:18:19\", \"@valeur\": \"0.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 10:18:19\", \"@valeur\": \"1.779\"}]",
+    "geom": {
+      "lon": 1.833,
+      "lat": 50.128
+    },
+    "gazole_maj": "2024-02-17T11:18:19+01:00",
+    "gazole_prix": "1.782",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-17T11:18:19+01:00",
+    "e85_prix": "0.890",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-17T11:18:19+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Bornes électriques",
+      "Automate CB 24/24"
     ],
     "departement": "Somme",
     "code_departement": "80",
@@ -145,96 +241,47 @@
     "code_region": "32"
   },
   {
-    "id": 80100012,
-    "latitude": "5012800",
-    "longitude": 183300,
+    "id": 80100002,
+    "latitude": "5009981.1078",
+    "longitude": 185638.830058,
     "cp": "80100",
     "pop": "R",
-    "adresse": "1 Rue Philippe Duclercq",
+    "adresse": "Avenue Vincent Auriol",
     "ville": "Abbeville",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:02:56\", \"@valeur\": \"1.794\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 08:02:56\", \"@valeur\": \"0.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:02:57\", \"@valeur\": \"1.779\"}]",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 09:13:32\", \"@valeur\": \"1.752\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-17 09:13:33\", \"@valeur\": \"0.830\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-08 09:45:51\", \"@valeur\": \"0.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 09:13:33\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 09:13:33\", \"@valeur\": \"1.841\"}]",
     "geom": {
-      "lon": 1.833,
-      "lat": 50.128
+      "lon": 1.85638830058,
+      "lat": 50.099811078
     },
-    "gazole_maj": "2024-02-16T09:02:56+01:00",
-    "gazole_prix": "1.794",
+    "gazole_maj": "2024-02-17T10:13:32+01:00",
+    "gazole_prix": "1.752",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-16T09:02:56+01:00",
-    "e85_prix": "0.890",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T09:02:57+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e85_maj": "2024-02-17T10:13:33+01:00",
+    "e85_prix": "0.830",
+    "gplc_maj": "2024-02-08T10:45:51+01:00",
+    "gplc_prix": "0.879",
+    "e10_maj": "2024-02-17T10:13:33+01:00",
+    "e10_prix": "1.763",
+    "sp98_maj": "2024-02-17T10:13:33+01:00",
+    "sp98_prix": "1.841",
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
       "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Bornes électriques",
-      "Automate CB 24/24"
-    ],
-    "departement": "Somme",
-    "code_departement": "80",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 80100011,
-    "latitude": "5010786.7347902",
-    "longitude": 183176.01957873,
-    "cp": "80100",
-    "pop": "R",
-    "adresse": "3 place de l amiral courbet",
-    "ville": "Abbeville",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 08:26:28\", \"@valeur\": \"1.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 08:26:29\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 08:26:29\", \"@valeur\": \"1.976\"}]",
-    "geom": {
-      "lon": 1.8317601957873,
-      "lat": 50.107867347902
-    },
-    "gazole_maj": "2024-02-15T09:26:28+01:00",
-    "gazole_prix": "1.890",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-15T09:26:29+01:00",
-    "e10_prix": "1.866",
-    "sp98_maj": "2024-02-15T09:26:29+01:00",
-    "sp98_prix": "1.976",
-    "carburants_disponibles": [
-      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
+      "SP95"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
-      "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants"
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Somme",
     "code_departement": "80",
@@ -251,22 +298,22 @@
     "ville": "Abbeville",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 00:01:00\", \"@valeur\": \"1.903\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.903\"}]",
     "geom": {
       "lon": 1.829,
       "lat": 50.113
     },
-    "gazole_maj": "2024-02-17T01:01:00+01:00",
+    "gazole_maj": "2024-02-18T01:01:00+01:00",
     "gazole_prix": "1.785",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-17T01:01:00+01:00",
+    "e85_maj": "2024-02-18T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-17T01:01:00+01:00",
+    "e10_maj": "2024-02-18T01:01:00+01:00",
     "e10_prix": "1.804",
-    "sp98_maj": "2024-02-17T01:01:00+01:00",
+    "sp98_maj": "2024-02-18T01:01:00+01:00",
     "sp98_prix": "1.903",
     "carburants_disponibles": [
       "Gazole",
@@ -288,53 +335,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Wifi",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Somme",
-    "code_departement": "80",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 80100001,
-    "latitude": "5010400",
-    "longitude": 182800,
-    "cp": "80100",
-    "pop": "R",
-    "adresse": "RUE DES CORDELIERS",
-    "ville": "Abbeville",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 09:52:32\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 09:52:32\", \"@valeur\": \"1.903\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 09:52:32\", \"@valeur\": \"1.940\"}]",
-    "geom": {
-      "lon": 1.828,
-      "lat": 50.104
-    },
-    "gazole_maj": "2024-02-16T10:52:32+01:00",
-    "gazole_prix": "1.843",
-    "sp95_maj": "2024-02-16T10:52:32+01:00",
-    "sp95_prix": "1.903",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-16T10:52:32+01:00",
-    "sp98_prix": "1.940",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Somme",

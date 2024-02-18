@@ -9,7 +9,7 @@
     "ville": "Saint-Dionisy",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:30:26\", \"@valeur\": \"1.767\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:30:26\", \"@valeur\": \"1.740\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 08:30:26\", \"@valeur\": \"1.838\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:30:26\", \"@valeur\": \"1.767\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:30:26\", \"@valeur\": \"1.740\"}]",
     "geom": {
       "lon": 4.23172,
       "lat": 43.80672
@@ -24,17 +24,17 @@
     "gplc_prix": null,
     "e10_maj": "2024-02-16T09:30:26+01:00",
     "e10_prix": "1.740",
-    "sp98_maj": "2024-02-16T09:30:26+01:00",
-    "sp98_prix": "1.838",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
