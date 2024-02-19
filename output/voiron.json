@@ -1,5 +1,54 @@
 [
   {
+    "id": 38500001,
+    "latitude": "4538500",
+    "longitude": 557800,
+    "cp": "38500",
+    "pop": "R",
+    "adresse": "Z.A DES BLANCHISSERIES",
+    "ville": "Voiron",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 11:39:11\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 11:39:11\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 08:05:00\", \"@valeur\": \"1.899\"}]",
+    "geom": {
+      "lon": 5.578,
+      "lat": 45.385
+    },
+    "gazole_maj": "2024-02-13T12:39:11+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-13T12:39:11+01:00",
+    "sp95_prix": "1.879",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-06T09:05:00+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Isère",
+    "code_departement": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 38500003,
     "latitude": "4536000",
     "longitude": 560000,
@@ -54,109 +103,6 @@
     "code_region": "84"
   },
   {
-    "id": 38500001,
-    "latitude": "4538500",
-    "longitude": 557800,
-    "cp": "38500",
-    "pop": "R",
-    "adresse": "Z.A DES BLANCHISSERIES",
-    "ville": "Voiron",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.45\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 11:39:11\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 11:39:11\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-06 08:05:00\", \"@valeur\": \"1.899\"}]",
-    "geom": {
-      "lon": 5.578,
-      "lat": 45.385
-    },
-    "gazole_maj": "2024-02-13T12:39:11+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-13T12:39:11+01:00",
-    "sp95_prix": "1.879",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-06T09:05:00+01:00",
-    "sp98_prix": "1.899",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Isère",
-    "code_departement": "38",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 38500007,
-    "latitude": "4535700",
-    "longitude": 559300,
-    "cp": "38500",
-    "pop": "R",
-    "adresse": "5 AVENUE DOCTEUR VALOIS",
-    "ville": "Voiron",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"16.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"0.954\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.824\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.919\"}]",
-    "geom": {
-      "lon": 5.593,
-      "lat": 45.357
-    },
-    "gazole_maj": "2024-02-18T01:01:00+01:00",
-    "gazole_prix": "1.812",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-18T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": "2024-02-18T01:01:00+01:00",
-    "gplc_prix": "0.954",
-    "e10_maj": "2024-02-18T01:01:00+01:00",
-    "e10_prix": "1.824",
-    "sp98_maj": "2024-02-18T01:01:00+01:00",
-    "sp98_prix": "1.919",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Isère",
-    "code_departement": "38",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 38500006,
     "latitude": "4535912.9015812",
     "longitude": 559489.09747499,
@@ -196,6 +142,60 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Isère",
+    "code_departement": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 38500007,
+    "latitude": "4535700",
+    "longitude": 559300,
+    "cp": "38500",
+    "pop": "R",
+    "adresse": "5 AVENUE DOCTEUR VALOIS",
+    "ville": "Voiron",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"16.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"0.954\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.824\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.919\"}]",
+    "geom": {
+      "lon": 5.593,
+      "lat": 45.357
+    },
+    "gazole_maj": "2024-02-19T01:01:00+01:00",
+    "gazole_prix": "1.812",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-19T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": "2024-02-19T01:01:00+01:00",
+    "gplc_prix": "0.954",
+    "e10_maj": "2024-02-19T01:01:00+01:00",
+    "e10_prix": "1.824",
+    "sp98_maj": "2024-02-19T01:01:00+01:00",
+    "sp98_prix": "1.919",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Isère",
     "code_departement": "38",

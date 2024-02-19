@@ -46,6 +46,62 @@
     "code_region": "75"
   },
   {
+    "id": 24000011,
+    "latitude": "4519700",
+    "longitude": 70100,
+    "cp": "24000",
+    "pop": "R",
+    "adresse": "138 RUE PIERRE SEMARD LE TOULON",
+    "ville": "Périgueux",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.790\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.779\"}]",
+    "geom": {
+      "lon": 0.701,
+      "lat": 45.197
+    },
+    "gazole_maj": "2024-02-19T01:01:00+01:00",
+    "gazole_prix": "1.790",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-19T01:01:00+01:00",
+    "e85_prix": "0.849",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-19T01:01:00+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Dordogne",
+    "code_departement": "24",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 24000010,
     "latitude": "4518200",
     "longitude": 72100,
@@ -86,62 +142,6 @@
     "services_service": [
       "Station de gonflage",
       "Carburant additivé",
-      "Automate CB 24/24"
-    ],
-    "departement": "Dordogne",
-    "code_departement": "24",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 24000011,
-    "latitude": "4519700",
-    "longitude": 70100,
-    "cp": "24000",
-    "pop": "R",
-    "adresse": "138 RUE PIERRE SEMARD LE TOULON",
-    "ville": "Périgueux",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.790\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.779\"}]",
-    "geom": {
-      "lon": 0.701,
-      "lat": 45.197
-    },
-    "gazole_maj": "2024-02-18T01:01:00+01:00",
-    "gazole_prix": "1.790",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-18T01:01:00+01:00",
-    "e85_prix": "0.849",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-18T01:01:00+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
       "Automate CB 24/24"
     ],
     "departement": "Dordogne",

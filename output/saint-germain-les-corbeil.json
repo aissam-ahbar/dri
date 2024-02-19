@@ -1,5 +1,54 @@
 [
   {
+    "id": 91250010,
+    "latitude": "4862613",
+    "longitude": 249147,
+    "cp": "91250",
+    "pop": "R",
+    "adresse": "7 AVENUE DU GENERAL LECLERC",
+    "ville": "Saint-Germain-lès-Corbeil",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.836\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.837\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.912\"}]",
+    "geom": {
+      "lon": 2.49147,
+      "lat": 48.62613
+    },
+    "gazole_maj": "2024-02-19T01:01:00+01:00",
+    "gazole_prix": "1.836",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-19T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-19T01:01:00+01:00",
+    "e10_prix": "1.837",
+    "sp98_maj": "2024-02-19T01:01:00+01:00",
+    "sp98_prix": "1.912",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Lavage automatique",
+      "Lavage manuel"
+    ],
+    "departement": "Essonne",
+    "code_departement": "91",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 91250001,
     "latitude": "4861900",
     "longitude": 249400,
@@ -155,55 +204,6 @@
       "Vente d'additifs carburants",
       "Wifi",
       "Automate CB 24/24"
-    ],
-    "departement": "Essonne",
-    "code_departement": "91",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 91250010,
-    "latitude": "4862613",
-    "longitude": 249147,
-    "cp": "91250",
-    "pop": "R",
-    "adresse": "7 AVENUE DU GENERAL LECLERC",
-    "ville": "Saint-Germain-lès-Corbeil",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.836\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.837\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-18 00:01:00\", \"@valeur\": \"1.912\"}]",
-    "geom": {
-      "lon": 2.49147,
-      "lat": 48.62613
-    },
-    "gazole_maj": "2024-02-18T01:01:00+01:00",
-    "gazole_prix": "1.836",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-18T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-18T01:01:00+01:00",
-    "e10_prix": "1.837",
-    "sp98_maj": "2024-02-18T01:01:00+01:00",
-    "sp98_prix": "1.912",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Lavage automatique",
-      "Lavage manuel"
     ],
     "departement": "Essonne",
     "code_departement": "91",

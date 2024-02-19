@@ -1,5 +1,61 @@
 [
   {
+    "id": 27200001,
+    "latitude": "4909400",
+    "longitude": 147200,
+    "cp": "27200",
+    "pop": "R",
+    "adresse": "Boulevard Édouard Isambard",
+    "ville": "Vernon",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-18 09:41:11\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-18 09:41:12\", \"@valeur\": \"1.885\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-18 09:41:12\", \"@valeur\": \"1.733\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-18 09:41:12\", \"@valeur\": \"1.889\"}]",
+    "geom": {
+      "lon": 1.472,
+      "lat": 49.094
+    },
+    "gazole_maj": "2024-02-18T10:41:11+01:00",
+    "gazole_prix": "1.774",
+    "sp95_maj": "2024-02-18T10:41:12+01:00",
+    "sp95_prix": "1.885",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-18T10:41:12+01:00",
+    "e10_prix": "1.733",
+    "sp98_maj": "2024-02-18T10:41:12+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Relais colis",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Eure",
+    "code_departement": "27",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 27200004,
     "latitude": "4908800",
     "longitude": 149400,
@@ -106,62 +162,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Bornes électriques",
       "Wifi",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Eure",
-    "code_departement": "27",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
-    "id": 27200001,
-    "latitude": "4909400",
-    "longitude": 147200,
-    "cp": "27200",
-    "pop": "R",
-    "adresse": "Boulevard Édouard Isambard",
-    "ville": "Vernon",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 08:15:33\", \"@valeur\": \"1.774\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-17 08:15:33\", \"@valeur\": \"1.885\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 08:15:34\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 08:15:34\", \"@valeur\": \"1.889\"}]",
-    "geom": {
-      "lon": 1.472,
-      "lat": 49.094
-    },
-    "gazole_maj": "2024-02-17T09:15:33+01:00",
-    "gazole_prix": "1.774",
-    "sp95_maj": "2024-02-17T09:15:33+01:00",
-    "sp95_prix": "1.885",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-17T09:15:34+01:00",
-    "e10_prix": "1.773",
-    "sp98_maj": "2024-02-17T09:15:34+01:00",
-    "sp98_prix": "1.889",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Relais colis",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
