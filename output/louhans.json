@@ -1,38 +1,101 @@
 [
   {
-    "id": 71500005,
-    "latitude": "4663738",
-    "longitude": 521381,
+    "id": 71500003,
+    "latitude": "4662600",
+    "longitude": 521400,
     "cp": "71500",
     "pop": "R",
-    "adresse": "47 Rue du Guidon",
+    "adresse": "7 Route de Sornay",
     "ville": "Louhans",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Bar\", \"Carburant additivé\"]}",
-    "prix": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:15:08\", \"@valeur\": \"1.914\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 07:15:08\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 07:15:08\", \"@valeur\": \"1.990\"}]",
     "geom": {
-      "lon": 5.21381,
-      "lat": 46.63738
+      "lon": 5.214,
+      "lat": 46.626
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-02-14T08:15:08+01:00",
+    "gazole_prix": "1.914",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
+    "e10_maj": "2024-02-14T08:15:08+01:00",
+    "e10_prix": "1.919",
+    "sp98_maj": "2024-02-14T08:15:08+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Relais colis",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Saône-et-Loire",
+    "code_departement": "71",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 71500002,
+    "latitude": "4662500",
+    "longitude": 523900,
+    "cp": "71500",
+    "pop": "R",
+    "adresse": "Route de Beaufort",
+    "ville": "Louhans",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 15:04:41\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-17 15:04:41\", \"@valeur\": \"1.908\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 15:05:24\", \"@valeur\": \"1.960\"}]",
+    "geom": {
+      "lon": 5.239,
+      "lat": 46.625
+    },
+    "gazole_maj": "2024-02-17T16:04:41+01:00",
+    "gazole_prix": "1.859",
+    "sp95_maj": "2024-02-17T16:04:41+01:00",
+    "sp95_prix": "1.908",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "sp98_maj": "2024-02-17T16:05:24+01:00",
+    "sp98_prix": "1.960",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
-      "Bar",
-      "Carburant additivé"
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Saône-et-Loire",
     "code_departement": "71",
@@ -96,6 +159,46 @@
     "code_region": "27"
   },
   {
+    "id": 71500005,
+    "latitude": "4663738",
+    "longitude": 521381,
+    "cp": "71500",
+    "pop": "R",
+    "adresse": "47 Rue du Guidon",
+    "ville": "Louhans",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Bar\", \"Carburant additivé\"]}",
+    "prix": null,
+    "geom": {
+      "lon": 5.21381,
+      "lat": 46.63738
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Bar",
+      "Carburant additivé"
+    ],
+    "departement": "Saône-et-Loire",
+    "code_departement": "71",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 71500001,
     "latitude": "4663900",
     "longitude": 521300,
@@ -134,109 +237,6 @@
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Saône-et-Loire",
-    "code_departement": "71",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 71500002,
-    "latitude": "4662500",
-    "longitude": 523900,
-    "cp": "71500",
-    "pop": "R",
-    "adresse": "Route de Beaufort",
-    "ville": "Louhans",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 15:04:41\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-17 15:04:41\", \"@valeur\": \"1.908\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 15:05:24\", \"@valeur\": \"1.960\"}]",
-    "geom": {
-      "lon": 5.239,
-      "lat": 46.625
-    },
-    "gazole_maj": "2024-02-17T16:04:41+01:00",
-    "gazole_prix": "1.859",
-    "sp95_maj": "2024-02-17T16:04:41+01:00",
-    "sp95_prix": "1.908",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-17T16:05:24+01:00",
-    "sp98_prix": "1.960",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Saône-et-Loire",
-    "code_departement": "71",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 71500003,
-    "latitude": "4662600",
-    "longitude": 521400,
-    "cp": "71500",
-    "pop": "R",
-    "adresse": "7 Route de Sornay",
-    "ville": "Louhans",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:15:08\", \"@valeur\": \"1.914\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 07:15:08\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 07:15:08\", \"@valeur\": \"1.990\"}]",
-    "geom": {
-      "lon": 5.214,
-      "lat": 46.626
-    },
-    "gazole_maj": "2024-02-14T08:15:08+01:00",
-    "gazole_prix": "1.914",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T08:15:08+01:00",
-    "e10_prix": "1.919",
-    "sp98_maj": "2024-02-14T08:15:08+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Relais colis",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
       "Automate CB 24/24"
     ],
     "departement": "Saône-et-Loire",

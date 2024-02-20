@@ -9,7 +9,7 @@
     "ville": "Beaupréau-en-Mauges",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 11:26:41\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 18:38:09\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 18:38:10\", \"@valeur\": \"1.859\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 11:26:41\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 18:38:09\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 13:48:01\", \"@valeur\": \"1.869\"}]",
     "geom": {
       "lon": -0.8733069999999999,
       "lat": 47.2004412
@@ -24,8 +24,8 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-15T19:38:10+01:00",
-    "sp98_prix": "1.859",
+    "sp98_maj": "2024-02-19T14:48:01+01:00",
+    "sp98_prix": "1.869",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -42,6 +42,52 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Maine-et-Loire",
+    "code_departement": "49",
+    "region": "Pays de la Loire",
+    "code_region": "52"
+  },
+  {
+    "id": 49450005,
+    "latitude": "4715263",
+    "longitude": -105815,
+    "cp": "49450",
+    "pop": "R",
+    "adresse": "30 rue des chevalliers de malte",
+    "ville": "Beaupréau-en-Mauges",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 14:35:13\", \"@valeur\": \"1.817\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 14:38:54\", \"@valeur\": \"1.815\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 14:35:14\", \"@valeur\": \"1.889\"}]",
+    "geom": {
+      "lon": -1.05815,
+      "lat": 47.15263
+    },
+    "gazole_maj": "2024-02-16T15:35:13+01:00",
+    "gazole_prix": "1.817",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-16T15:38:54+01:00",
+    "e10_prix": "1.815",
+    "sp98_maj": "2024-02-16T15:35:14+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Maine-et-Loire",
     "code_departement": "49",
@@ -102,52 +148,6 @@
     "code_region": "52"
   },
   {
-    "id": 49450005,
-    "latitude": "4715263",
-    "longitude": -105815,
-    "cp": "49450",
-    "pop": "R",
-    "adresse": "30 rue des chevalliers de malte",
-    "ville": "Beaupréau-en-Mauges",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 14:35:13\", \"@valeur\": \"1.817\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 14:38:54\", \"@valeur\": \"1.815\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 14:35:14\", \"@valeur\": \"1.889\"}]",
-    "geom": {
-      "lon": -1.05815,
-      "lat": 47.15263
-    },
-    "gazole_maj": "2024-02-16T15:35:13+01:00",
-    "gazole_prix": "1.817",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T15:38:54+01:00",
-    "e10_prix": "1.815",
-    "sp98_maj": "2024-02-16T15:35:14+01:00",
-    "sp98_prix": "1.889",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Maine-et-Loire",
-    "code_departement": "49",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
     "id": 49600001,
     "latitude": "4721100",
     "longitude": -98400,
@@ -157,7 +157,7 @@
     "ville": "Beaupréau-en-Mauges",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:50:43\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 14:42:18\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:50:44\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 09:50:44\", \"@valeur\": \"1.859\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:50:43\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 14:42:18\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 08:50:33\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 08:50:33\", \"@valeur\": \"1.869\"}]",
     "geom": {
       "lon": -0.984,
       "lat": 47.211
@@ -170,10 +170,10 @@
     "e85_prix": "0.869",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-15T10:50:44+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2024-02-15T10:50:44+01:00",
-    "sp98_prix": "1.859",
+    "e10_maj": "2024-02-19T09:50:33+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2024-02-19T09:50:33+01:00",
+    "sp98_prix": "1.869",
     "carburants_disponibles": [
       "Gazole",
       "E85",

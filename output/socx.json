@@ -9,32 +9,32 @@
     "ville": "Socx",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 00:01:00\", \"@valeur\": \"1.789\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 00:01:00\", \"@valeur\": \"1.787\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-20 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 00:01:00\", \"@valeur\": \"1.909\"}]",
     "geom": {
       "lon": 2.4329,
       "lat": 50.96273
     },
-    "gazole_maj": "2024-02-19T01:01:00+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2024-02-20T01:01:00+01:00",
+    "gazole_prix": "1.787",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2024-02-20T01:01:00+01:00",
+    "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-02-20T01:01:00+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2024-02-20T01:01:00+01:00",
+    "sp98_prix": "1.909",
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [

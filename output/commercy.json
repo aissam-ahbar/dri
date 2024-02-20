@@ -1,5 +1,54 @@
 [
   {
+    "id": 55200004,
+    "latitude": "4875600",
+    "longitude": 558500,
+    "cp": "55200",
+    "pop": "R",
+    "adresse": "1 rue Jean Moulin",
+    "ville": "Commercy",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 07:36:39\", \"@valeur\": \"1.825\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 07:36:39\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 07:36:40\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 07:36:40\", \"@valeur\": \"1.905\"}]",
+    "geom": {
+      "lon": 5.585,
+      "lat": 48.756
+    },
+    "gazole_maj": "2024-02-16T08:36:39+01:00",
+    "gazole_prix": "1.825",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-16T08:36:39+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-16T08:36:40+01:00",
+    "e10_prix": "1.830",
+    "sp98_maj": "2024-02-16T08:36:40+01:00",
+    "sp98_prix": "1.905",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Meuse",
+    "code_departement": "55",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 55200001,
     "latitude": "4875735",
     "longitude": 559035,
@@ -77,55 +126,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Meuse",
-    "code_departement": "55",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 55200004,
-    "latitude": "4875600",
-    "longitude": 558500,
-    "cp": "55200",
-    "pop": "R",
-    "adresse": "1 rue Jean Moulin",
-    "ville": "Commercy",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 07:36:39\", \"@valeur\": \"1.825\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 07:36:39\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 07:36:40\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 07:36:40\", \"@valeur\": \"1.905\"}]",
-    "geom": {
-      "lon": 5.585,
-      "lat": 48.756
-    },
-    "gazole_maj": "2024-02-16T08:36:39+01:00",
-    "gazole_prix": "1.825",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-16T08:36:39+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T08:36:40+01:00",
-    "e10_prix": "1.830",
-    "sp98_maj": "2024-02-16T08:36:40+01:00",
-    "sp98_prix": "1.905",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

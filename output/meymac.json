@@ -1,44 +1,51 @@
 [
   {
-    "id": 19250005,
-    "latitude": "4554589",
-    "longitude": 213640,
+    "id": 19250001,
+    "latitude": "4553400",
+    "longitude": 214800,
     "cp": "19250",
     "pop": "R",
-    "adresse": "ROUTE DE TULLE",
+    "adresse": "84 Avenue Limousine",
     "ville": "Meymac",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 06:38:47\", \"@valeur\": \"1.802\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 06:38:48\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 06:38:48\", \"@valeur\": \"1.883\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-09 17:21:46\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-09 17:21:47\", \"@valeur\": \"1.960\"}]",
     "geom": {
-      "lon": 2.1364,
-      "lat": 45.54589
+      "lon": 2.148,
+      "lat": 45.534
     },
-    "gazole_maj": "2024-02-16T07:38:47+01:00",
-    "gazole_prix": "1.802",
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2024-01-09T18:21:46+01:00",
+    "gazole_prix": "1.920",
+    "sp95_maj": "2024-01-09T18:21:47+01:00",
+    "sp95_prix": "1.960",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-16T07:38:48+01:00",
-    "e10_prix": "1.788",
-    "sp98_maj": "2024-02-16T07:38:48+01:00",
-    "sp98_prix": "1.883",
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "DAB (Distributeur automatique de billets)"
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Corrèze",
     "code_departement": "19",
@@ -90,52 +97,45 @@
     "code_region": "75"
   },
   {
-    "id": 19250001,
-    "latitude": "4553400",
-    "longitude": 214800,
+    "id": 19250005,
+    "latitude": "4554589",
+    "longitude": 213640,
     "cp": "19250",
     "pop": "R",
-    "adresse": "84 Avenue Limousine",
+    "adresse": "ROUTE DE TULLE",
     "ville": "Meymac",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.15\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-09 17:21:46\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-09 17:21:47\", \"@valeur\": \"1.960\"}]",
+    "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 15:10:34\", \"@valeur\": \"1.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 15:10:34\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 15:10:34\", \"@valeur\": \"1.889\"}]",
     "geom": {
-      "lon": 2.148,
-      "lat": 45.534
+      "lon": 2.1364,
+      "lat": 45.54589
     },
-    "gazole_maj": "2024-01-09T18:21:46+01:00",
-    "gazole_prix": "1.920",
-    "sp95_maj": "2024-01-09T18:21:47+01:00",
-    "sp95_prix": "1.960",
+    "gazole_maj": "2024-02-19T16:10:34+01:00",
+    "gazole_prix": "1.798",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-02-19T16:10:34+01:00",
+    "e10_prix": "1.794",
+    "sp98_maj": "2024-02-19T16:10:34+01:00",
+    "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
-    "horaires_automate_24_24": "Oui",
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Corrèze",
     "code_departement": "19",

@@ -1,5 +1,56 @@
 [
   {
+    "id": 30200004,
+    "latitude": "4415500",
+    "longitude": 461200,
+    "cp": "30200",
+    "pop": "R",
+    "adresse": "Route de Tresques",
+    "ville": "Bagnols-sur-Cèze",
+    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Location de véhicule\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 08:54:45\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 10:22:02\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 08:54:46\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 08:52:07\", \"@valeur\": \"1.912\"}]",
+    "geom": {
+      "lon": 4.612,
+      "lat": 44.155
+    },
+    "gazole_maj": "2024-02-19T09:54:45+01:00",
+    "gazole_prix": "1.839",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-02T11:22:02+01:00",
+    "e85_prix": "0.849",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-19T09:54:46+01:00",
+    "e10_prix": "1.836",
+    "sp98_maj": "2024-02-15T09:52:07+01:00",
+    "sp98_prix": "1.912",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Location de véhicule",
+      "Lavage automatique",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gard",
+    "code_departement": "30",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 30200003,
     "latitude": "4417200",
     "longitude": 462000,
@@ -59,57 +110,6 @@
     "code_region": "76"
   },
   {
-    "id": 30200004,
-    "latitude": "4415500",
-    "longitude": 461200,
-    "cp": "30200",
-    "pop": "R",
-    "adresse": "Route de Tresques",
-    "ville": "Bagnols-sur-Cèze",
-    "horaires": null,
-    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Location de véhicule\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 07:30:00\", \"@valeur\": \"1.838\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 10:22:02\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 08:52:07\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 08:52:07\", \"@valeur\": \"1.912\"}]",
-    "geom": {
-      "lon": 4.612,
-      "lat": 44.155
-    },
-    "gazole_maj": "2024-02-17T08:30:00+01:00",
-    "gazole_prix": "1.838",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-02T11:22:02+01:00",
-    "e85_prix": "0.849",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-15T09:52:07+01:00",
-    "e10_prix": "1.825",
-    "sp98_maj": "2024-02-15T09:52:07+01:00",
-    "sp98_prix": "1.912",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Location de véhicule",
-      "Lavage automatique",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gard",
-    "code_departement": "30",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 30330001,
     "latitude": "4415673",
     "longitude": 462264,
@@ -119,21 +119,21 @@
     "ville": "Bagnols-sur-Cèze",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 09:58:19\", \"@valeur\": \"1.838\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-09 11:42:32\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:29:51\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 09:29:51\", \"@valeur\": \"1.912\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 10:06:43\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-09 11:42:32\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 10:06:43\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 09:29:51\", \"@valeur\": \"1.912\"}]",
     "geom": {
       "lon": 4.62264,
       "lat": 44.15673
     },
-    "gazole_maj": "2024-02-17T10:58:19+01:00",
-    "gazole_prix": "1.838",
+    "gazole_maj": "2024-02-19T11:06:43+01:00",
+    "gazole_prix": "1.839",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-01-09T12:42:32+01:00",
     "e85_prix": "0.849",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-15T10:29:51+01:00",
-    "e10_prix": "1.825",
+    "e10_maj": "2024-02-19T11:06:43+01:00",
+    "e10_prix": "1.836",
     "sp98_maj": "2024-02-15T10:29:51+01:00",
     "sp98_prix": "1.912",
     "carburants_disponibles": [
