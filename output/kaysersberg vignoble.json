@@ -1,5 +1,53 @@
 [
   {
+    "id": 68240003,
+    "latitude": "4813569",
+    "longitude": 726749,
+    "cp": "68240",
+    "pop": "R",
+    "adresse": "13 Rue de la Weiss",
+    "ville": "Kaysersberg Vignoble",
+    "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 18:27:44\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 18:27:44\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 18:27:44\", \"@valeur\": \"1.855\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 7.26749,
+      "lat": 48.13569
+    },
+    "gazole_maj": "2024-02-17T19:27:44+01:00",
+    "gazole_prix": "1.789",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-17T19:27:44+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2024-02-17T19:27:44+01:00",
+    "sp98_prix": "1.855",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haut-Rhin",
+    "code_departement": "68",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 68240004,
     "latitude": "4815051.204",
     "longitude": 724699.711,
@@ -7,9 +55,9 @@
     "pop": "R",
     "adresse": "63 route de Lapoutroie",
     "ville": "Kaysersberg Vignoble",
-    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 09:26:49\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-17 10:21:59\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-24 09:31:40\", \"@valeur\": \"1.849\"}]",
+    "horaires": null,
     "geom": {
       "lon": 7.24699711,
       "lat": 48.15051204
@@ -40,54 +88,6 @@
     "services_service": [
       "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haut-Rhin",
-    "code_departement": "68",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 68240003,
-    "latitude": "4813569",
-    "longitude": 726749,
-    "cp": "68240",
-    "pop": "R",
-    "adresse": "13 Rue de la Weiss",
-    "ville": "Kaysersberg Vignoble",
-    "horaires": null,
-    "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 18:27:44\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 18:27:44\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 18:27:44\", \"@valeur\": \"1.855\"}]",
-    "geom": {
-      "lon": 7.26749,
-      "lat": 48.13569
-    },
-    "gazole_maj": "2024-02-17T19:27:44+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-17T19:27:44+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": "2024-02-17T19:27:44+01:00",
-    "sp98_prix": "1.855",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

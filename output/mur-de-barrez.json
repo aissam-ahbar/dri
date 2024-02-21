@@ -1,5 +1,51 @@
 [
   {
+    "id": 12600001,
+    "latitude": "4483700",
+    "longitude": 266300,
+    "cp": "12600",
+    "pop": "R",
+    "adresse": "Route de Lacroix Barrez",
+    "ville": "Mur-de-Barrez",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 18:32:25\", \"@valeur\": \"1.856\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 18:32:25\", \"@valeur\": \"1.894\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 18:32:26\", \"@valeur\": \"1.926\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.663,
+      "lat": 44.837
+    },
+    "gazole_maj": "2024-02-15T19:32:25+01:00",
+    "gazole_prix": "1.856",
+    "sp95_maj": "2024-02-15T19:32:25+01:00",
+    "sp95_prix": "1.894",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-15T19:32:26+01:00",
+    "sp98_prix": "1.926",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 12600002,
     "latitude": "4484071",
     "longitude": 266470,
@@ -7,9 +53,9 @@
     "pop": "R",
     "adresse": "Avenue de Brommat",
     "ville": "Mur-de-Barrez",
-    "horaires": null,
     "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:10:00\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 07:10:00\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 07:10:00\", \"@valeur\": \"1.930\"}]",
+    "horaires": null,
     "geom": {
       "lon": 2.6647,
       "lat": 44.84071
@@ -39,52 +85,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Carburant additivé",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 12600001,
-    "latitude": "4483700",
-    "longitude": 266300,
-    "cp": "12600",
-    "pop": "R",
-    "adresse": "Route de Lacroix Barrez",
-    "ville": "Mur-de-Barrez",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 18:32:25\", \"@valeur\": \"1.856\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 18:32:25\", \"@valeur\": \"1.894\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 18:32:26\", \"@valeur\": \"1.926\"}]",
-    "geom": {
-      "lon": 2.663,
-      "lat": 44.837
-    },
-    "gazole_maj": "2024-02-15T19:32:25+01:00",
-    "gazole_prix": "1.856",
-    "sp95_maj": "2024-02-15T19:32:25+01:00",
-    "sp95_prix": "1.894",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-15T19:32:26+01:00",
-    "sp98_prix": "1.926",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aveyron",

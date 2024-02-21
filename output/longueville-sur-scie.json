@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "Route de Newton Longueville",
     "ville": "Longueville-sur-Scie",
-    "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-09 09:00:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-09 09:00:00\", \"@valeur\": \"1.784\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-09 09:00:00\", \"@valeur\": \"1.789\"}",
+    "horaires": null,
     "geom": {
       "lon": 1.10615,
       "lat": 49.79545
@@ -22,18 +22,18 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-09T10:00:00+01:00",
-    "e10_prix": "1.784",
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
     "horaires_automate_24_24": "Non",

@@ -1,5 +1,56 @@
 [
   {
+    "id": 34280004,
+    "latitude": "4356218",
+    "longitude": 408704,
+    "cp": "34280",
+    "pop": "R",
+    "adresse": "AVENUE DE L'EUROPE",
+    "ville": "La Grande-Motte",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 00:01:00\", \"@valeur\": \"1.788\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 00:01:00\", \"@valeur\": \"1.807\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 00:01:00\", \"@valeur\": \"1.927\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.08704,
+      "lat": 43.56218
+    },
+    "gazole_maj": "2024-02-21T01:01:00+01:00",
+    "gazole_prix": "1.788",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-21T01:01:00+01:00",
+    "e10_prix": "1.807",
+    "sp98_maj": "2024-02-21T01:01:00+01:00",
+    "sp98_prix": "1.927",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Hérault",
+    "code_departement": "34",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 34280001,
     "latitude": "4356100",
     "longitude": 407600,
@@ -7,9 +58,9 @@
     "pop": "R",
     "adresse": "Rue des Artisans",
     "ville": "La Grande-Motte",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 07:39:18\", \"@valeur\": \"1.800\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 07:39:18\", \"@valeur\": \"1.834\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-04 07:39:19\", \"@valeur\": \"1.944\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.076,
       "lat": 43.561
@@ -46,57 +97,6 @@
       "Lavage automatique",
       "Lavage manuel",
       "Services réparation / entretien"
-    ],
-    "departement": "Hérault",
-    "code_departement": "34",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 34280004,
-    "latitude": "4356218",
-    "longitude": 408704,
-    "cp": "34280",
-    "pop": "R",
-    "adresse": "AVENUE DE L'EUROPE",
-    "ville": "La Grande-Motte",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 00:01:00\", \"@valeur\": \"1.788\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 00:01:00\", \"@valeur\": \"1.807\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 00:01:00\", \"@valeur\": \"1.927\"}]",
-    "geom": {
-      "lon": 4.08704,
-      "lat": 43.56218
-    },
-    "gazole_maj": "2024-02-20T01:01:00+01:00",
-    "gazole_prix": "1.788",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-20T01:01:00+01:00",
-    "e10_prix": "1.807",
-    "sp98_maj": "2024-02-20T01:01:00+01:00",
-    "sp98_prix": "1.927",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Hérault",
     "code_departement": "34",

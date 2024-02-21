@@ -1,56 +1,5 @@
 [
   {
-    "id": 12450001,
-    "latitude": "4429682",
-    "longitude": 255795,
-    "cp": "12450",
-    "pop": "R",
-    "adresse": "Avenue de Rodez",
-    "ville": "Luc-la-Primaube",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 15:34:50\", \"@valeur\": \"1.798\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-17 15:34:50\", \"@valeur\": \"0.998\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 15:34:50\", \"@valeur\": \"1.828\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 15:34:51\", \"@valeur\": \"1.898\"}]",
-    "geom": {
-      "lon": 2.55795,
-      "lat": 44.29682
-    },
-    "gazole_maj": "2024-02-17T16:34:50+01:00",
-    "gazole_prix": "1.798",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-17T16:34:50+01:00",
-    "e85_prix": "0.998",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-17T16:34:50+01:00",
-    "e10_prix": "1.828",
-    "sp98_maj": "2024-02-17T16:34:51+01:00",
-    "sp98_prix": "1.898",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Lavage automatique",
-      "Lavage manuel",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 12450002,
     "latitude": "4429202",
     "longitude": 255855,
@@ -58,9 +7,9 @@
     "pop": "R",
     "adresse": "10 AV.DE TOULOUSE",
     "ville": "Luc-la-Primaube",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:14:40\", \"@valeur\": \"1.898\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 06:58:15\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 07:14:40\", \"@valeur\": \"1.990\"}]",
+    "horaires": null,
     "geom": {
       "lon": 2.55855,
       "lat": 44.29202
@@ -100,6 +49,57 @@
       "Lavage manuel",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
+    "id": 12450001,
+    "latitude": "4429682",
+    "longitude": 255795,
+    "cp": "12450",
+    "pop": "R",
+    "adresse": "Avenue de Rodez",
+    "ville": "Luc-la-Primaube",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 15:34:50\", \"@valeur\": \"1.798\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-17 15:34:50\", \"@valeur\": \"0.998\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 15:34:50\", \"@valeur\": \"1.828\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 15:34:51\", \"@valeur\": \"1.898\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.55795,
+      "lat": 44.29682
+    },
+    "gazole_maj": "2024-02-17T16:34:50+01:00",
+    "gazole_prix": "1.798",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-17T16:34:50+01:00",
+    "e85_prix": "0.998",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-17T16:34:50+01:00",
+    "e10_prix": "1.828",
+    "sp98_maj": "2024-02-17T16:34:51+01:00",
+    "sp98_prix": "1.898",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Lavage manuel",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aveyron",
     "code_departement": "12",
