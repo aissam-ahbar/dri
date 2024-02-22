@@ -1,5 +1,57 @@
 [
   {
+    "id": 2120004,
+    "latitude": "4990249",
+    "longitude": 363841,
+    "cp": "02120",
+    "pop": "R",
+    "adresse": "Rue des Docteurs Devillers",
+    "ville": "Guise",
+    "services": "{\"service\": [\"Laverie\", \"Restauration à emporter\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-23 19:00:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 08:30:00\", \"@valeur\": \"1.815\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 08:30:00\", \"@valeur\": \"1.895\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 3.63841,
+      "lat": 49.90249
+    },
+    "gazole_maj": "2024-02-21T09:30:00+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2023-12-23T20:00:00+01:00",
+    "gplc_prix": "0.999",
+    "e10_maj": "2024-02-21T09:30:00+01:00",
+    "e10_prix": "1.815",
+    "sp98_maj": "2024-02-17T09:30:00+01:00",
+    "sp98_prix": "1.895",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Restauration à emporter",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aisne",
+    "code_departement": "02",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 2120003,
     "latitude": "4990316",
     "longitude": 362899,
@@ -8,14 +60,14 @@
     "adresse": "RUE SADI CARNOT",
     "ville": "Guise",
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 11:37:34\", \"@valeur\": \"1.815\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-18 08:49:21\", \"@valeur\": \"1.863\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-18 08:49:21\", \"@valeur\": \"1.895\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 10:21:44\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-18 08:49:21\", \"@valeur\": \"1.863\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 10:21:44\", \"@valeur\": \"1.905\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.62899,
       "lat": 49.90316
     },
-    "gazole_maj": "2024-02-20T12:37:34+01:00",
-    "gazole_prix": "1.815",
+    "gazole_maj": "2024-02-21T11:21:44+01:00",
+    "gazole_prix": "1.799",
     "sp95_maj": "2024-02-18T09:49:21+01:00",
     "sp95_prix": "1.863",
     "e85_maj": null,
@@ -24,8 +76,8 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-18T09:49:21+01:00",
-    "sp98_prix": "1.895",
+    "sp98_maj": "2024-02-21T11:21:44+01:00",
+    "sp98_prix": "1.905",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -98,58 +150,6 @@
       "Vente d'additifs carburants",
       "Wifi",
       "Automate CB 24/24"
-    ],
-    "departement": "Aisne",
-    "code_departement": "02",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 2120004,
-    "latitude": "4990249",
-    "longitude": 363841,
-    "cp": "02120",
-    "pop": "R",
-    "adresse": "Rue des Docteurs Devillers",
-    "ville": "Guise",
-    "services": "{\"service\": [\"Laverie\", \"Restauration à emporter\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 08:30:00\", \"@valeur\": \"1.815\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-12-23 19:00:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:31:38\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 08:30:00\", \"@valeur\": \"1.895\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 3.63841,
-      "lat": 49.90249
-    },
-    "gazole_maj": "2024-02-17T09:30:00+01:00",
-    "gazole_prix": "1.815",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2023-12-23T20:00:00+01:00",
-    "gplc_prix": "0.999",
-    "e10_maj": "2024-02-15T10:31:38+01:00",
-    "e10_prix": "1.819",
-    "sp98_maj": "2024-02-17T09:30:00+01:00",
-    "sp98_prix": "1.895",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Restauration à emporter",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Aisne",
     "code_departement": "02",

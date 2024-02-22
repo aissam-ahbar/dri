@@ -8,33 +8,33 @@
     "adresse": "RUE SIGMUND FREUD",
     "ville": "Corbeil-Essonnes",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 00:01:00\", \"@valeur\": \"1.844\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-21 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 00:01:00\", \"@valeur\": \"1.853\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"1.844\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"1.853\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"1.920\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
     "geom": {
       "lon": 2.449,
       "lat": 48.608
     },
-    "gazole_maj": "2024-02-21T01:01:00+01:00",
+    "gazole_maj": "2024-02-22T01:01:00+01:00",
     "gazole_prix": "1.844",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-21T01:01:00+01:00",
+    "e85_maj": "2024-02-22T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-21T01:01:00+01:00",
+    "e10_maj": "2024-02-22T01:01:00+01:00",
     "e10_prix": "1.853",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-02-22T01:01:00+01:00",
+    "sp98_prix": "1.920",
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -47,6 +47,54 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Wifi",
       "Automate CB 24/24"
+    ],
+    "departement": "Essonne",
+    "code_departement": "91",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
+    "id": 91100019,
+    "latitude": "4861113.6939679",
+    "longitude": 245211.81995589,
+    "cp": "91100",
+    "pop": "R",
+    "adresse": "46 avenue du 8 mai 1945",
+    "ville": "Corbeil-Essonnes",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 07:02:00\", \"@valeur\": \"1.843\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 07:02:00\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 07:02:00\", \"@valeur\": \"1.932\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
+    "geom": {
+      "lon": 2.4521181995589,
+      "lat": 48.611136939679
+    },
+    "gazole_maj": "2024-02-21T08:02:00+01:00",
+    "gazole_prix": "1.843",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-21T08:02:00+01:00",
+    "e10_prix": "1.852",
+    "sp98_maj": "2024-02-21T08:02:00+01:00",
+    "sp98_prix": "1.932",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Essonne",
     "code_departement": "91",
@@ -108,54 +156,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Vente d'additifs carburants",
       "Wifi"
-    ],
-    "departement": "Essonne",
-    "code_departement": "91",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 91100019,
-    "latitude": "4861113.6939679",
-    "longitude": 245211.81995589,
-    "cp": "91100",
-    "pop": "R",
-    "adresse": "46 avenue du 8 mai 1945",
-    "ville": "Corbeil-Essonnes",
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 07:02:00\", \"@valeur\": \"1.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 07:02:00\", \"@valeur\": \"1.862\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 07:02:00\", \"@valeur\": \"1.942\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "geom": {
-      "lon": 2.4521181995589,
-      "lat": 48.611136939679
-    },
-    "gazole_maj": "2024-02-20T08:02:00+01:00",
-    "gazole_prix": "1.848",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-20T08:02:00+01:00",
-    "e10_prix": "1.862",
-    "sp98_maj": "2024-02-20T08:02:00+01:00",
-    "sp98_prix": "1.942",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Piste poids lourds",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Essonne",
     "code_departement": "91",
