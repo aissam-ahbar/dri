@@ -1,5 +1,49 @@
 [
   {
+    "id": 93120004,
+    "latitude": "4893392.1662064",
+    "longitude": 238995.56342881,
+    "cp": "93120",
+    "pop": "A",
+    "adresse": "AUTOROUTE A1 - AIRE DE LA COURNEUVE EST",
+    "ville": "La Courneuve",
+    "horaires": null,
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 09:00:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-22 09:00:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 09:00:00\", \"@valeur\": \"1.954\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 09:00:00\", \"@valeur\": \"1.990\"}]",
+    "geom": {
+      "lon": 2.3899556342881003,
+      "lat": 48.933921662064
+    },
+    "gazole_maj": "2024-02-22T10:00:00+01:00",
+    "gazole_prix": "1.939",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-22T10:00:00+01:00",
+    "e85_prix": "0.999",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-22T10:00:00+01:00",
+    "e10_prix": "1.954",
+    "sp98_maj": "2024-02-22T10:00:00+01:00",
+    "sp98_prix": "1.990",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Seine-Saint-Denis",
+    "code_departement": "93",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 93120005,
     "latitude": "4893500",
     "longitude": 239400,
@@ -7,9 +51,9 @@
     "pop": "A",
     "adresse": "AUTOROUTE A1 - AIRE DE LA COURNEUVE OUEST - SENS LILLE/PARIS",
     "ville": "La Courneuve",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 08:19:39\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-30 11:13:55\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 08:19:39\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 08:19:39\", \"@valeur\": \"1.939\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "geom": {
       "lon": 2.394,
       "lat": 48.935
@@ -52,50 +96,6 @@
       "Bornes électriques",
       "Automate CB 24/24"
     ],
-    "departement": "Seine-Saint-Denis",
-    "code_departement": "93",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 93120004,
-    "latitude": "4893392.1662064",
-    "longitude": 238995.56342881,
-    "cp": "93120",
-    "pop": "A",
-    "adresse": "AUTOROUTE A1 - AIRE DE LA COURNEUVE EST",
-    "ville": "La Courneuve",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 09:00:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-21 09:00:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 09:00:00\", \"@valeur\": \"1.954\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 09:00:00\", \"@valeur\": \"1.990\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.3899556342881003,
-      "lat": 48.933921662064
-    },
-    "gazole_maj": "2024-02-21T10:00:00+01:00",
-    "gazole_prix": "1.939",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-21T10:00:00+01:00",
-    "e85_prix": "0.999",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-21T10:00:00+01:00",
-    "e10_prix": "1.954",
-    "sp98_maj": "2024-02-21T10:00:00+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
     "departement": "Seine-Saint-Denis",
     "code_departement": "93",
     "region": "Île-de-France",

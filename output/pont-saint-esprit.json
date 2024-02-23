@@ -1,51 +1,5 @@
 [
   {
-    "id": 30130002,
-    "latitude": "4425993",
-    "longitude": 464752,
-    "cp": "30130",
-    "pop": "R",
-    "adresse": "1 Av. du Président Kennedy",
-    "ville": "Pont-Saint-Esprit",
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:09:46\", \"@valeur\": \"1.767\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 08:09:46\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 08:09:47\", \"@valeur\": \"1.856\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.64752,
-      "lat": 44.25993
-    },
-    "gazole_maj": "2024-02-21T09:09:46+01:00",
-    "gazole_prix": "1.767",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-21T09:09:46+01:00",
-    "e10_prix": "1.759",
-    "sp98_maj": "2024-02-21T09:09:47+01:00",
-    "sp98_prix": "1.856",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Gard",
-    "code_departement": "30",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
     "id": 30130003,
     "latitude": "4424715",
     "longitude": 464431,
@@ -53,9 +7,9 @@
     "pop": "R",
     "adresse": "Avenue du Général de Gaulle",
     "ville": "Pont-Saint-Esprit",
+    "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 09:59:56\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 10:12:24\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 09:59:56\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 14:15:46\", \"@valeur\": \"1.889\"}]",
-    "horaires": null,
     "geom": {
       "lon": 4.64431,
       "lat": 44.24715
@@ -99,14 +53,14 @@
     "pop": "R",
     "adresse": "PLACE DU PLAN",
     "ville": "Pont-Saint-Esprit",
-    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 06:00:00\", \"@valeur\": \"1.873\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 06:00:00\", \"@valeur\": \"1.874\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 06:00:00\", \"@valeur\": \"1.984\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 06:00:00\", \"@valeur\": \"1.873\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 06:00:00\", \"@valeur\": \"1.874\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 06:00:00\", \"@valeur\": \"1.984\"}]",
     "geom": {
       "lon": 4.649,
       "lat": 44.258
     },
-    "gazole_maj": "2024-02-21T07:00:00+01:00",
+    "gazole_maj": "2024-02-22T07:00:00+01:00",
     "gazole_prix": "1.873",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -114,9 +68,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-21T07:00:00+01:00",
+    "e10_maj": "2024-02-22T07:00:00+01:00",
     "e10_prix": "1.874",
-    "sp98_maj": "2024-02-21T07:00:00+01:00",
+    "sp98_maj": "2024-02-22T07:00:00+01:00",
     "sp98_prix": "1.984",
     "carburants_disponibles": [
       "Gazole",
@@ -145,6 +99,54 @@
     "code_region": "76"
   },
   {
+    "id": 30130004,
+    "latitude": "4425500",
+    "longitude": 464600,
+    "cp": "30130",
+    "pop": "R",
+    "adresse": "Avenue Gaston Doumergue",
+    "ville": "Pont-Saint-Esprit",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 09:12:37\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-17 08:15:17\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-22 12:02:47\", \"@valeur\": \"0.848\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 08:36:48\", \"@valeur\": \"1.925\"}]",
+    "geom": {
+      "lon": 4.646,
+      "lat": 44.255
+    },
+    "gazole_maj": "2024-02-22T10:12:37+01:00",
+    "gazole_prix": "1.836",
+    "sp95_maj": "2024-02-17T09:15:17+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": "2024-02-22T13:02:47+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-21T09:36:48+01:00",
+    "sp98_prix": "1.925",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gard",
+    "code_departement": "30",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 30130011,
     "latitude": "4427300",
     "longitude": 462800,
@@ -152,9 +154,9 @@
     "pop": "R",
     "adresse": "108 routes des platanes",
     "ville": "Pont-Saint-Esprit",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 13:30:00\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 14:53:17\", \"@valeur\": \"1.900\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-01 16:19:25\", \"@valeur\": \"0.990\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.628,
       "lat": 44.273
@@ -198,47 +200,45 @@
     "code_region": "76"
   },
   {
-    "id": 30130004,
-    "latitude": "4425500",
-    "longitude": 464600,
+    "id": 30130002,
+    "latitude": "4425993",
+    "longitude": 464752,
     "cp": "30130",
     "pop": "R",
-    "adresse": "Avenue Gaston Doumergue",
+    "adresse": "1 Av. du Président Kennedy",
     "ville": "Pont-Saint-Esprit",
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:36:48\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-17 08:15:17\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 08:36:48\", \"@valeur\": \"1.925\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 07:40:37\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 07:40:37\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 07:40:37\", \"@valeur\": \"1.858\"}]",
     "geom": {
-      "lon": 4.646,
-      "lat": 44.255
+      "lon": 4.64752,
+      "lat": 44.25993
     },
-    "gazole_maj": "2024-02-21T09:36:48+01:00",
-    "gazole_prix": "1.839",
-    "sp95_maj": "2024-02-17T09:15:17+01:00",
-    "sp95_prix": "1.899",
+    "gazole_maj": "2024-02-22T08:40:37+01:00",
+    "gazole_prix": "1.764",
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-21T09:36:48+01:00",
-    "sp98_prix": "1.925",
+    "e10_maj": "2024-02-22T08:40:37+01:00",
+    "e10_prix": "1.762",
+    "sp98_maj": "2024-02-22T08:40:37+01:00",
+    "sp98_prix": "1.858",
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Gard",
     "code_departement": "30",

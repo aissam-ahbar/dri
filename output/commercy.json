@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "Rue du Docteur Edmond Morelle",
     "ville": "Commercy",
+    "horaires": null,
     "services": "{\"service\": \"Piste poids lourds\"}",
     "prix": null,
-    "horaires": null,
     "geom": {
       "lon": 5.59035,
       "lat": 48.75735
@@ -38,6 +38,54 @@
     "code_region": "44"
   },
   {
+    "id": 55200002,
+    "latitude": "4876069",
+    "longitude": 560211,
+    "cp": "55200",
+    "pop": "R",
+    "adresse": "Route d'Euville",
+    "ville": "Commercy",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 09:37:12\", \"@valeur\": \"1.841\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 09:37:12\", \"@valeur\": \"1.833\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 09:37:13\", \"@valeur\": \"1.917\"}]",
+    "geom": {
+      "lon": 5.60211,
+      "lat": 48.76069
+    },
+    "gazole_maj": "2024-02-22T10:37:12+01:00",
+    "gazole_prix": "1.841",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-22T10:37:12+01:00",
+    "e10_prix": "1.833",
+    "sp98_maj": "2024-02-22T10:37:13+01:00",
+    "sp98_prix": "1.917",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Meuse",
+    "code_departement": "55",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 55200004,
     "latitude": "4875600",
     "longitude": 558500,
@@ -45,9 +93,9 @@
     "pop": "R",
     "adresse": "1 rue Jean Moulin",
     "ville": "Commercy",
+    "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 07:15:34\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 07:36:39\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 07:15:34\", \"@valeur\": \"1.823\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 07:36:40\", \"@valeur\": \"1.905\"}]",
-    "horaires": null,
     "geom": {
       "lon": 5.585,
       "lat": 48.756
@@ -78,54 +126,6 @@
     "services_service": [
       "Laverie",
       "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Meuse",
-    "code_departement": "55",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 55200002,
-    "latitude": "4876069",
-    "longitude": 560211,
-    "cp": "55200",
-    "pop": "R",
-    "adresse": "Route d'Euville",
-    "ville": "Commercy",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 07:42:40\", \"@valeur\": \"1.828\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 07:42:40\", \"@valeur\": \"1.827\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 07:42:41\", \"@valeur\": \"1.909\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 5.60211,
-      "lat": 48.76069
-    },
-    "gazole_maj": "2024-02-14T08:42:40+01:00",
-    "gazole_prix": "1.828",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T08:42:40+01:00",
-    "e10_prix": "1.827",
-    "sp98_maj": "2024-02-14T08:42:41+01:00",
-    "sp98_prix": "1.909",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

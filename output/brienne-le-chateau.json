@@ -1,5 +1,53 @@
 [
   {
+    "id": 10500005,
+    "latitude": "4839651.67",
+    "longitude": 452825.6,
+    "cp": "10500",
+    "pop": "R",
+    "adresse": "BOULEVARD NAPOLEON",
+    "ville": "Brienne-le-Château",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Carburant additivé\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 10:18:20\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-22 10:18:20\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 10:18:20\", \"@valeur\": \"1.849\"}]",
+    "geom": {
+      "lon": 4.528256,
+      "lat": 48.3965167
+    },
+    "gazole_maj": "2024-02-22T11:18:20+01:00",
+    "gazole_prix": "1.829",
+    "sp95_maj": "2024-02-22T11:18:20+01:00",
+    "sp95_prix": "1.899",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-22T11:18:20+01:00",
+    "e10_prix": "1.849",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Laverie",
+      "Boutique alimentaire",
+      "Carburant additivé"
+    ],
+    "departement": "Aube",
+    "code_departement": "10",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 10500002,
     "latitude": "4839900",
     "longitude": 451800,
@@ -7,9 +55,9 @@
     "pop": "R",
     "adresse": "Rue du Général P.decouz",
     "ville": "Brienne-le-Château",
+    "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 09:25:05\", \"@valeur\": \"1.836\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 09:25:05\", \"@valeur\": \"1.835\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 09:25:06\", \"@valeur\": \"1.913\"}]",
-    "horaires": null,
     "geom": {
       "lon": 4.518,
       "lat": 48.399
@@ -40,54 +88,6 @@
     "services_service": [
       "Laverie",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aube",
-    "code_departement": "10",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 10500005,
-    "latitude": "4839651.67",
-    "longitude": 452825.6,
-    "cp": "10500",
-    "pop": "R",
-    "adresse": "BOULEVARD NAPOLEON",
-    "ville": "Brienne-le-Château",
-    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Carburant additivé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 10:37:57\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 15:41:18\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:37:57\", \"@valeur\": \"1.849\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 4.528256,
-      "lat": 48.3965167
-    },
-    "gazole_maj": "2024-02-15T11:37:57+01:00",
-    "gazole_prix": "1.849",
-    "sp95_maj": "2024-02-20T16:41:18+01:00",
-    "sp95_prix": "1.899",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-15T11:37:57+01:00",
-    "e10_prix": "1.849",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Laverie",
-      "Boutique alimentaire",
-      "Carburant additivé"
     ],
     "departement": "Aube",
     "code_departement": "10",

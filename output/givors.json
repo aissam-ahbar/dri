@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "CENTRE COMMERCIAL GIVORS 2 VALLEES",
     "ville": "Givors",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 07:19:20\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 07:19:20\", \"@valeur\": \"1.904\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 07:19:20\", \"@valeur\": \"1.861\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.755,
       "lat": 45.586
@@ -49,53 +49,6 @@
     "code_region": "84"
   },
   {
-    "id": 69700005,
-    "latitude": "4559500",
-    "longitude": 477100,
-    "cp": "69700",
-    "pop": "R",
-    "adresse": "48 rue Jean Ligonnet",
-    "ville": "Givors",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 07:45:10\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 11:55:38\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 07:45:10\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 07:45:11\", \"@valeur\": \"1.929\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.771,
-      "lat": 45.595
-    },
-    "gazole_maj": "2024-02-12T08:45:10+01:00",
-    "gazole_prix": "1.829",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-02T12:55:38+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-12T08:45:10+01:00",
-    "e10_prix": "1.859",
-    "sp98_maj": "2024-02-12T08:45:11+01:00",
-    "sp98_prix": "1.929",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 69700004,
     "latitude": "4558660.80022",
     "longitude": 475447.702801,
@@ -103,9 +56,9 @@
     "pop": "A",
     "adresse": "A 47 - Aire de St Romain",
     "ville": "Givors",
+    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\"]}",
     "prix": null,
-    "horaires": null,
     "geom": {
       "lon": 4.75447702801,
       "lat": 45.586608002199995
@@ -133,6 +86,53 @@
       "Station de gonflage",
       "Carburant additivé",
       "Piste poids lourds"
+    ],
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 69700005,
+    "latitude": "4559500",
+    "longitude": 477100,
+    "cp": "69700",
+    "pop": "R",
+    "adresse": "48 rue Jean Ligonnet",
+    "ville": "Givors",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 13:47:43\", \"@valeur\": \"1.826\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 11:55:38\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 13:47:44\", \"@valeur\": \"1.865\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 07:45:11\", \"@valeur\": \"1.929\"}]",
+    "geom": {
+      "lon": 4.771,
+      "lat": 45.595
+    },
+    "gazole_maj": "2024-02-22T14:47:43+01:00",
+    "gazole_prix": "1.826",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-02T12:55:38+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-22T14:47:44+01:00",
+    "e10_prix": "1.865",
+    "sp98_maj": "2024-02-12T08:45:11+01:00",
+    "sp98_prix": "1.929",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Rhône",
     "code_departement": "69",

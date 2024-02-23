@@ -7,9 +7,9 @@
     "pop": "R",
     "adresse": "Avenue Salvador Allende",
     "ville": "La Seyne-sur-Mer",
+    "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:26:00\", \"@valeur\": \"1.791\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-21 06:56:02\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 08:26:00\", \"@valeur\": \"1.823\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 08:26:00\", \"@valeur\": \"1.904\"}]",
-    "horaires": null,
     "geom": {
       "lon": 5.88123,
       "lat": 43.08509
@@ -46,6 +46,61 @@
     "code_region": "93"
   },
   {
+    "id": 83500013,
+    "latitude": "4310800",
+    "longitude": 586800,
+    "cp": "83500",
+    "pop": "R",
+    "adresse": "278 BD MARECHAL JUIN",
+    "ville": "La Seyne-sur-Mer",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 00:01:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-23 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 00:01:00\", \"@valeur\": \"1.783\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 00:01:00\", \"@valeur\": \"1.872\"}]",
+    "geom": {
+      "lon": 5.868,
+      "lat": 43.108
+    },
+    "gazole_maj": "2024-02-23T01:01:00+01:00",
+    "gazole_prix": "1.772",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-23T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-23T01:01:00+01:00",
+    "e10_prix": "1.783",
+    "sp98_maj": "2024-02-23T01:01:00+01:00",
+    "sp98_prix": "1.872",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Wifi",
+      "Automate CB 24/24"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 83500008,
     "latitude": "4310800",
     "longitude": 587700,
@@ -53,9 +108,9 @@
     "pop": "R",
     "adresse": "Rond-Point du 8 Mai 1945",
     "ville": "La Seyne-sur-Mer",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:45:55\", \"@valeur\": \"1.896\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 08:29:48\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 08:45:55\", \"@valeur\": \"1.886\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 08:45:55\", \"@valeur\": \"1.959\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 5.877,
       "lat": 43.108
@@ -99,6 +154,56 @@
     "code_region": "93"
   },
   {
+    "id": 83500001,
+    "latitude": "4311300",
+    "longitude": 585800,
+    "cp": "83500",
+    "pop": "R",
+    "adresse": "780,Boulevard de l'Europe",
+    "ville": "La Seyne-sur-Mer",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 07:12:54\", \"@valeur\": \"1.776\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-30 10:18:54\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:07:41\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:07:42\", \"@valeur\": \"1.859\"}]",
+    "geom": {
+      "lon": 5.858,
+      "lat": 43.113
+    },
+    "gazole_maj": "2024-02-13T08:12:54+01:00",
+    "gazole_prix": "1.776",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-01-30T11:18:54+01:00",
+    "gplc_prix": "0.919",
+    "e10_maj": "2024-02-15T11:07:41+01:00",
+    "e10_prix": "1.779",
+    "sp98_maj": "2024-02-15T11:07:42+01:00",
+    "sp98_prix": "1.859",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 83500004,
     "latitude": "4311000",
     "longitude": 586000,
@@ -106,9 +211,9 @@
     "pop": "R",
     "adresse": "Quartier Lery",
     "ville": "La Seyne-sur-Mer",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 09:39:44\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 09:39:44\", \"@valeur\": \"1.778\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 09:39:44\", \"@valeur\": \"1.858\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "geom": {
       "lon": 5.86,
       "lat": 43.11
@@ -157,111 +262,6 @@
     "code_region": "93"
   },
   {
-    "id": 83500001,
-    "latitude": "4311300",
-    "longitude": 585800,
-    "cp": "83500",
-    "pop": "R",
-    "adresse": "780,Boulevard de l'Europe",
-    "ville": "La Seyne-sur-Mer",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 07:12:54\", \"@valeur\": \"1.776\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-30 10:18:54\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:07:41\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:07:42\", \"@valeur\": \"1.859\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"13.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 5.858,
-      "lat": 43.113
-    },
-    "gazole_maj": "2024-02-13T08:12:54+01:00",
-    "gazole_prix": "1.776",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-01-30T11:18:54+01:00",
-    "gplc_prix": "0.919",
-    "e10_maj": "2024-02-15T11:07:41+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2024-02-15T11:07:42+01:00",
-    "sp98_prix": "1.859",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 83500013,
-    "latitude": "4310800",
-    "longitude": 586800,
-    "cp": "83500",
-    "pop": "R",
-    "adresse": "278 BD MARECHAL JUIN",
-    "ville": "La Seyne-sur-Mer",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"1.776\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"1.783\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 00:01:00\", \"@valeur\": \"1.875\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
-    "geom": {
-      "lon": 5.868,
-      "lat": 43.108
-    },
-    "gazole_maj": "2024-02-22T01:01:00+01:00",
-    "gazole_prix": "1.776",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-22T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-22T01:01:00+01:00",
-    "e10_prix": "1.783",
-    "sp98_maj": "2024-02-22T01:01:00+01:00",
-    "sp98_prix": "1.875",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
-      "Wifi",
-      "Automate CB 24/24"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 83500005,
     "latitude": "4308300",
     "longitude": 589400,
@@ -269,9 +269,9 @@
     "pop": "R",
     "adresse": "Chemin de l'evescat aux sablettes",
     "ville": "La Seyne-sur-Mer",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}]}",
     "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 11:11:35\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 11:11:35\", \"@valeur\": \"1.855\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 11:11:35\", \"@valeur\": \"1.778\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 11:11:36\", \"@valeur\": \"1.859\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}]}",
     "geom": {
       "lon": 5.894,
       "lat": 43.083

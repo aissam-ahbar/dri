@@ -1,5 +1,54 @@
 [
   {
+    "id": 45250001,
+    "latitude": "4762473.14093",
+    "longitude": 275059.473298,
+    "cp": "45250",
+    "pop": "R",
+    "adresse": "Route d'Ousson",
+    "ville": "Briare",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 10:59:53\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 10:42:46\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:42:46\", \"@valeur\": \"1.859\"}]",
+    "geom": {
+      "lon": 2.75059473298,
+      "lat": 47.6247314093
+    },
+    "gazole_maj": "2024-02-22T11:59:53+01:00",
+    "gazole_prix": "1.779",
+    "sp95_maj": "2024-02-15T11:42:46+01:00",
+    "sp95_prix": "1.839",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-15T11:42:46+01:00",
+    "sp98_prix": "1.859",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loiret",
+    "code_departement": "45",
+    "region": "Centre-Val de Loire",
+    "code_region": "24"
+  },
+  {
     "id": 45250003,
     "latitude": "4764226.79",
     "longitude": 274398.339,
@@ -7,9 +56,9 @@
     "pop": "R",
     "adresse": "TERRES DU MARCHAIS BARNAULT",
     "ville": "Briare",
+    "horaires": null,
     "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:53:31\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 08:33:19\", \"@valeur\": \"0.845\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 08:33:19\", \"@valeur\": \"1.779\"}]",
-    "horaires": null,
     "geom": {
       "lon": 2.74398339,
       "lat": 47.6422679
@@ -39,55 +88,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loiret",
-    "code_departement": "45",
-    "region": "Centre-Val de Loire",
-    "code_region": "24"
-  },
-  {
-    "id": 45250001,
-    "latitude": "4762473.14093",
-    "longitude": 275059.473298,
-    "cp": "45250",
-    "pop": "R",
-    "adresse": "Route d'Ousson",
-    "ville": "Briare",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-17 11:25:11\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 10:42:46\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:42:46\", \"@valeur\": \"1.859\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.75059473298,
-      "lat": 47.6247314093
-    },
-    "gazole_maj": "2024-02-17T12:25:11+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": "2024-02-15T11:42:46+01:00",
-    "sp95_prix": "1.839",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-15T11:42:46+01:00",
-    "sp98_prix": "1.859",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
