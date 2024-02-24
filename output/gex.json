@@ -1,5 +1,52 @@
 [
   {
+    "id": 1170003,
+    "latitude": "4633755",
+    "longitude": 607534,
+    "cp": "01170",
+    "pop": "R",
+    "adresse": "Route de Divonne les Bains",
+    "ville": "Gex",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 15:58:46\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-23 14:34:26\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 15:58:47\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 15:58:47\", \"@valeur\": \"1.949\"}]",
+    "geom": {
+      "lon": 6.07534,
+      "lat": 46.33755
+    },
+    "gazole_maj": "2024-02-23T16:58:46+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-23T15:34:26+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-23T16:58:47+01:00",
+    "e10_prix": "1.849",
+    "sp98_maj": "2024-02-23T16:58:47+01:00",
+    "sp98_prix": "1.949",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 1170005,
     "latitude": "4633522",
     "longitude": 605800,
@@ -9,23 +56,23 @@
     "ville": "Gex",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-25 07:10:28\", \"@valeur\": \"1.790\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-25 07:11:16\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-25 07:11:32\", \"@valeur\": \"1.890\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:06:19\", \"@valeur\": \"1.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 09:06:45\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 09:07:00\", \"@valeur\": \"1.960\"}]",
     "geom": {
       "lon": 6.058,
       "lat": 46.33522
     },
-    "gazole_maj": "2024-01-25T08:10:28+01:00",
-    "gazole_prix": "1.790",
+    "gazole_maj": "2024-02-23T10:06:19+01:00",
+    "gazole_prix": "1.890",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-01-25T08:11:16+01:00",
-    "e10_prix": "1.810",
-    "sp98_maj": "2024-01-25T08:11:32+01:00",
-    "sp98_prix": "1.890",
+    "e10_maj": "2024-02-23T10:06:45+01:00",
+    "e10_prix": "1.890",
+    "sp98_maj": "2024-02-23T10:07:00+01:00",
+    "sp98_prix": "1.960",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -43,53 +90,6 @@
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 1170003,
-    "latitude": "4633755",
-    "longitude": 607534,
-    "cp": "01170",
-    "pop": "R",
-    "adresse": "Route de Divonne les Bains",
-    "ville": "Gex",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 14:00:19\", \"@valeur\": \"1.810\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-13 10:18:23\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 14:00:19\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 14:00:19\", \"@valeur\": \"1.960\"}]",
-    "geom": {
-      "lon": 6.07534,
-      "lat": 46.33755
-    },
-    "gazole_maj": "2024-02-21T15:00:19+01:00",
-    "gazole_prix": "1.810",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-13T11:18:23+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-21T15:00:19+01:00",
-    "e10_prix": "1.830",
-    "sp98_maj": "2024-02-21T15:00:19+01:00",
-    "sp98_prix": "1.960",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

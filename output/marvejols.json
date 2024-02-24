@@ -1,5 +1,54 @@
 [
   {
+    "id": 48100003,
+    "latitude": "4455200",
+    "longitude": 329300,
+    "cp": "48100",
+    "pop": "R",
+    "adresse": "PLACE DES CORDELIERS",
+    "ville": "Marvejols",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 08:50:39\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-20 10:59:16\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:13:34\", \"@valeur\": \"1.780\"}]",
+    "geom": {
+      "lon": 3.293,
+      "lat": 44.552
+    },
+    "gazole_maj": "2024-02-12T09:50:39+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2023-10-20T12:59:16+02:00",
+    "e85_prix": "0.989",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T10:13:34+01:00",
+    "e10_prix": "1.780",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Lozère",
+    "code_departement": "48",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 48100001,
     "latitude": "4456242.8946",
     "longitude": 329229.521343,
@@ -97,55 +146,6 @@
       "Vente de fioul domestique",
       "Carburant additivé",
       "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Lozère",
-    "code_departement": "48",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 48100003,
-    "latitude": "4455200",
-    "longitude": 329300,
-    "cp": "48100",
-    "pop": "R",
-    "adresse": "PLACE DES CORDELIERS",
-    "ville": "Marvejols",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 08:50:39\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-10-20 10:59:16\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:13:34\", \"@valeur\": \"1.780\"}]",
-    "geom": {
-      "lon": 3.293,
-      "lat": 44.552
-    },
-    "gazole_maj": "2024-02-12T09:50:39+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2023-10-20T12:59:16+02:00",
-    "e85_prix": "0.989",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-15T10:13:34+01:00",
-    "e10_prix": "1.780",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],

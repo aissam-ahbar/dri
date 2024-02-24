@@ -1,51 +1,5 @@
 [
   {
-    "id": 8170001,
-    "latitude": "4998900",
-    "longitude": 469200,
-    "cp": "08170",
-    "pop": "R",
-    "adresse": "rue des evignes",
-    "ville": "Fumay",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 18:11:09\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 18:11:10\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 18:11:10\", \"@valeur\": \"1.999\"}]",
-    "geom": {
-      "lon": 4.692,
-      "lat": 49.989
-    },
-    "gazole_maj": "2024-02-20T19:11:09+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-20T19:11:10+01:00",
-    "sp95_prix": "1.859",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-20T19:11:10+01:00",
-    "sp98_prix": "1.999",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ardennes",
-    "code_departement": "08",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
     "id": 8170003,
     "latitude": "4999544.59232",
     "longitude": 469667.027595,
@@ -92,6 +46,52 @@
     "code_region": "44"
   },
   {
+    "id": 8170001,
+    "latitude": "4998900",
+    "longitude": 469200,
+    "cp": "08170",
+    "pop": "R",
+    "adresse": "rue des evignes",
+    "ville": "Fumay",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 18:11:09\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 18:11:10\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 18:11:10\", \"@valeur\": \"1.999\"}]",
+    "geom": {
+      "lon": 4.692,
+      "lat": 49.989
+    },
+    "gazole_maj": "2024-02-20T19:11:09+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-20T19:11:10+01:00",
+    "sp95_prix": "1.859",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-20T19:11:10+01:00",
+    "sp98_prix": "1.999",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ardennes",
+    "code_departement": "08",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 8170004,
     "latitude": "4999500",
     "longitude": 469700,
@@ -101,21 +101,21 @@
     "ville": "Fumay",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 06:43:32\", \"@valeur\": \"1.909\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-22 06:43:32\", \"@valeur\": \"1.925\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 06:43:32\", \"@valeur\": \"1.925\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 06:42:27\", \"@valeur\": \"1.902\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-23 06:42:27\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 06:42:28\", \"@valeur\": \"1.929\"}]",
     "geom": {
       "lon": 4.697,
       "lat": 49.995
     },
-    "gazole_maj": "2024-02-22T07:43:32+01:00",
-    "gazole_prix": "1.909",
-    "sp95_maj": "2024-02-22T07:43:32+01:00",
-    "sp95_prix": "1.925",
+    "gazole_maj": "2024-02-23T07:42:27+01:00",
+    "gazole_prix": "1.902",
+    "sp95_maj": "2024-02-23T07:42:27+01:00",
+    "sp95_prix": "1.929",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-22T07:43:32+01:00",
-    "e10_prix": "1.925",
+    "e10_maj": "2024-02-23T07:42:28+01:00",
+    "e10_prix": "1.929",
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
