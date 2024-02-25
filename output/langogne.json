@@ -1,5 +1,51 @@
 [
   {
+    "id": 48300001,
+    "latitude": "4473530",
+    "longitude": 385840,
+    "cp": "48300",
+    "pop": "R",
+    "adresse": "Quartier du Pont d'Allier",
+    "ville": "Langogne",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 07:30:56\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 13:54:13\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 13:54:13\", \"@valeur\": \"1.922\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 3.8584,
+      "lat": 44.7353
+    },
+    "gazole_maj": "2024-02-24T08:30:56+01:00",
+    "gazole_prix": "1.809",
+    "sp95_maj": "2024-02-16T14:54:13+01:00",
+    "sp95_prix": "1.889",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-16T14:54:13+01:00",
+    "sp98_prix": "1.922",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Lozère",
+    "code_departement": "48",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 48300003,
     "latitude": "4472425",
     "longitude": 386052,
@@ -7,9 +53,9 @@
     "pop": "R",
     "adresse": "Avenue Jean Moulin",
     "ville": "Langogne",
-    "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:09:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 08:09:14\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 08:09:26\", \"@valeur\": \"1.922\"}]",
+    "horaires": null,
     "geom": {
       "lon": 3.86052,
       "lat": 44.72425
@@ -54,14 +100,14 @@
     "pop": "R",
     "adresse": "AV. MARECHAL FOCH",
     "ville": "Langogne",
-    "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.807\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.831\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.936\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.807\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.831\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.936\"}]",
+    "horaires": null,
     "geom": {
       "lon": 3.85645,
       "lat": 44.72842
     },
-    "gazole_maj": "2024-02-24T01:01:00+01:00",
+    "gazole_maj": "2024-02-25T01:01:00+01:00",
     "gazole_prix": "1.807",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -69,9 +115,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-24T01:01:00+01:00",
+    "e10_maj": "2024-02-25T01:01:00+01:00",
     "e10_prix": "1.831",
-    "sp98_maj": "2024-02-24T01:01:00+01:00",
+    "sp98_maj": "2024-02-25T01:01:00+01:00",
     "sp98_prix": "1.936",
     "carburants_disponibles": [
       "Gazole",
@@ -89,52 +135,6 @@
       "Boutique non alimentaire",
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Lozère",
-    "code_departement": "48",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 48300001,
-    "latitude": "4473530",
-    "longitude": 385840,
-    "cp": "48300",
-    "pop": "R",
-    "adresse": "Quartier du Pont d'Allier",
-    "ville": "Langogne",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 13:54:12\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 13:54:13\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 13:54:13\", \"@valeur\": \"1.922\"}]",
-    "geom": {
-      "lon": 3.8584,
-      "lat": 44.7353
-    },
-    "gazole_maj": "2024-02-16T14:54:12+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": "2024-02-16T14:54:13+01:00",
-    "sp95_prix": "1.889",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-16T14:54:13+01:00",
-    "sp98_prix": "1.922",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Lozère",

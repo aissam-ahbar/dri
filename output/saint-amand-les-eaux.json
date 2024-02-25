@@ -1,5 +1,53 @@
 [
   {
+    "id": 59230002,
+    "latitude": "5043641.8335666",
+    "longitude": 344006.36257172,
+    "cp": "59230",
+    "pop": "R",
+    "adresse": "ZA DU MONT DES BRUYERES ROCADE NORD",
+    "ville": "Saint-Amand-les-Eaux",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 08:00:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-24 08:00:00\", \"@valeur\": \"0.865\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 08:00:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 08:00:00\", \"@valeur\": \"1.875\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 3.4400636257171997,
+      "lat": 50.436418335666005
+    },
+    "gazole_maj": "2024-02-24T09:00:00+01:00",
+    "gazole_prix": "1.785",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-24T09:00:00+01:00",
+    "e85_prix": "0.865",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-24T09:00:00+01:00",
+    "e10_prix": "1.785",
+    "sp98_maj": "2024-02-24T09:00:00+01:00",
+    "sp98_prix": "1.875",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59230001,
     "latitude": "5044200",
     "longitude": 342700,
@@ -7,25 +55,25 @@
     "pop": "R",
     "adresse": "Rue des Faïenciers Fauquez",
     "ville": "Saint-Amand-les-Eaux",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 13:08:39\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 11:02:17\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 13:08:40\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 13:08:40\", \"@valeur\": \"1.929\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 09:46:30\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-24 09:46:31\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 09:46:31\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 09:46:32\", \"@valeur\": \"1.909\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 3.427,
       "lat": 50.442
     },
-    "gazole_maj": "2024-02-19T14:08:39+01:00",
-    "gazole_prix": "1.819",
+    "gazole_maj": "2024-02-24T10:46:30+01:00",
+    "gazole_prix": "1.789",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-12T12:02:17+01:00",
-    "e85_prix": "0.919",
+    "e85_maj": "2024-02-24T10:46:31+01:00",
+    "e85_prix": "0.929",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-19T14:08:40+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": "2024-02-19T14:08:40+01:00",
-    "sp98_prix": "1.929",
+    "e10_maj": "2024-02-24T10:46:31+01:00",
+    "e10_prix": "1.819",
+    "sp98_maj": "2024-02-24T10:46:32+01:00",
+    "sp98_prix": "1.909",
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -43,54 +91,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59230002,
-    "latitude": "5043641.8335666",
-    "longitude": 344006.36257172,
-    "cp": "59230",
-    "pop": "R",
-    "adresse": "ZA DU MONT DES BRUYERES ROCADE NORD",
-    "ville": "Saint-Amand-les-Eaux",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:50:09\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-23 08:50:10\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 08:50:10\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 08:50:11\", \"@valeur\": \"1.889\"}]",
-    "geom": {
-      "lon": 3.4400636257171997,
-      "lat": 50.436418335666005
-    },
-    "gazole_maj": "2024-02-23T09:50:09+01:00",
-    "gazole_prix": "1.789",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-23T09:50:10+01:00",
-    "e85_prix": "0.869",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-23T09:50:10+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-02-23T09:50:11+01:00",
-    "sp98_prix": "1.889",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Nord",
     "code_departement": "59",

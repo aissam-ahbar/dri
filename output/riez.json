@@ -1,5 +1,47 @@
 [
   {
+    "id": 4500002,
+    "latitude": "4381562.91471",
+    "longitude": 609036.694857,
+    "cp": "04500",
+    "pop": "R",
+    "adresse": "ROUTE DE MARSEILLE",
+    "ville": "Riez",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": null,
+    "horaires": null,
+    "geom": {
+      "lon": 6.09036694857,
+      "lat": 43.815629147100005
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Alpes-de-Haute-Provence",
+    "code_departement": "04",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
     "id": 4500001,
     "latitude": "4381500",
     "longitude": 608700,
@@ -7,9 +49,9 @@
     "pop": "R",
     "adresse": "Route de Marseille",
     "ville": "Riez",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"18.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-12-09 16:09:16\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-09 16:09:58\", \"@valeur\": \"1.980\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-09-17 19:36:53\", \"@valeur\": \"1.250\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"18.00\"}}]}",
     "geom": {
       "lon": 6.087,
       "lat": 43.815
@@ -58,9 +100,9 @@
     "pop": "R",
     "adresse": "Quartier Samson",
     "ville": "Riez",
-    "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:32:53\", \"@valeur\": \"1.770\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 08:32:54\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 08:32:54\", \"@valeur\": \"1.899\"}]",
+    "horaires": null,
     "geom": {
       "lon": 6.091,
       "lat": 43.822
@@ -96,48 +138,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Alpes-de-Haute-Provence",
-    "code_departement": "04",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
-    "id": 4500002,
-    "latitude": "4381562.91471",
-    "longitude": 609036.694857,
-    "cp": "04500",
-    "pop": "R",
-    "adresse": "ROUTE DE MARSEILLE",
-    "ville": "Riez",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": null,
-    "geom": {
-      "lon": 6.09036694857,
-      "lat": 43.815629147100005
-    },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Alpes-de-Haute-Provence",
     "code_departement": "04",

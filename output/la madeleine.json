@@ -1,5 +1,56 @@
 [
   {
+    "id": 59110006,
+    "latitude": "5065240.806",
+    "longitude": 307726.756,
+    "cp": "59110",
+    "pop": "R",
+    "adresse": "184 RUE DU GENERAL DE GAULLE",
+    "ville": "La Madeleine",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.776\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.919\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 3.07726756,
+      "lat": 50.65240806
+    },
+    "gazole_maj": "2024-02-25T01:01:00+01:00",
+    "gazole_prix": "1.776",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-25T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-25T01:01:00+01:00",
+    "sp98_prix": "1.919",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59110007,
     "latitude": "5066144.7822244",
     "longitude": 306838.10059573,
@@ -7,15 +58,15 @@
     "pop": "R",
     "adresse": "10 Rue Bernard Ruyant",
     "ville": "La Madeleine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 11:35:41\", \"@valeur\": \"1.771\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 11:35:41\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 11:35:42\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 11:35:42\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 09:51:55\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 11:35:41\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 11:35:42\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 11:35:42\", \"@valeur\": \"1.829\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 3.0683810059573,
       "lat": 50.661447822244
     },
-    "gazole_maj": "2024-02-16T12:35:41+01:00",
-    "gazole_prix": "1.771",
+    "gazole_maj": "2024-02-24T10:51:55+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-16T12:35:41+01:00",
@@ -50,6 +101,60 @@
     "code_region": "32"
   },
   {
+    "id": 59110005,
+    "latitude": "5065100.8579",
+    "longitude": 306270.154852,
+    "cp": "59110",
+    "pop": "R",
+    "adresse": "BOULEVARD ROBERT SCHUMANN",
+    "ville": "La Madeleine",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-25 00:01:00\", \"@valeur\": \"1.907\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 3.06270154852,
+      "lat": 50.651008579
+    },
+    "gazole_maj": "2024-02-25T01:01:00+01:00",
+    "gazole_prix": "1.779",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-25T01:01:00+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": "2024-02-25T01:01:00+01:00",
+    "gplc_prix": "0.969",
+    "e10_maj": "2024-02-25T01:01:00+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2024-02-25T01:01:00+01:00",
+    "sp98_prix": "1.907",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 59110001,
     "latitude": "5065500",
     "longitude": 306000,
@@ -57,9 +162,9 @@
     "pop": "R",
     "adresse": "Rue du Pré Catelan",
     "ville": "La Madeleine",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Location de véhicule\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 07:42:02\", \"@valeur\": \"1.821\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 07:42:03\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 07:42:03\", \"@valeur\": \"1.885\"}]",
+    "horaires": null,
     "geom": {
       "lon": 3.06,
       "lat": 50.655
@@ -92,111 +197,6 @@
       "Relais colis",
       "Boutique alimentaire",
       "Location de véhicule",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59110006,
-    "latitude": "5065240.806",
-    "longitude": 307726.756,
-    "cp": "59110",
-    "pop": "R",
-    "adresse": "184 RUE DU GENERAL DE GAULLE",
-    "ville": "La Madeleine",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.776\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.919\"}]",
-    "geom": {
-      "lon": 3.07726756,
-      "lat": 50.65240806
-    },
-    "gazole_maj": "2024-02-24T01:01:00+01:00",
-    "gazole_prix": "1.776",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-24T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-24T01:01:00+01:00",
-    "sp98_prix": "1.919",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59110005,
-    "latitude": "5065100.8579",
-    "longitude": 306270.154852,
-    "cp": "59110",
-    "pop": "R",
-    "adresse": "BOULEVARD ROBERT SCHUMANN",
-    "ville": "La Madeleine",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 00:01:00\", \"@valeur\": \"1.907\"}]",
-    "geom": {
-      "lon": 3.06270154852,
-      "lat": 50.651008579
-    },
-    "gazole_maj": "2024-02-24T01:01:00+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-24T01:01:00+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": "2024-02-24T01:01:00+01:00",
-    "gplc_prix": "0.969",
-    "e10_maj": "2024-02-24T01:01:00+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-02-24T01:01:00+01:00",
-    "sp98_prix": "1.907",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Nord",

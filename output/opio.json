@@ -1,53 +1,5 @@
 [
   {
-    "id": 6650003,
-    "latitude": "4366800",
-    "longitude": 698500,
-    "cp": "06650",
-    "pop": "R",
-    "adresse": "Rond Point Font Neuve",
-    "ville": "Opio",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 14:57:58\", \"@valeur\": \"1.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 14:57:58\", \"@valeur\": \"2.080\"}]",
-    "geom": {
-      "lon": 6.985,
-      "lat": 43.668
-    },
-    "gazole_maj": "2024-01-04T15:57:58+01:00",
-    "gazole_prix": "1.999",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-01-04T15:57:58+01:00",
-    "e10_prix": "2.080",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage automatique",
-      "Lavage manuel",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Alpes-Maritimes",
-    "code_departement": "06",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 6650002,
     "latitude": "4365814",
     "longitude": 699578,
@@ -55,9 +7,9 @@
     "pop": "R",
     "adresse": "20 Route de Cannes",
     "ville": "Opio",
-    "horaires": null,
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 11:09:22\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-07 11:10:13\", \"@valeur\": \"1.960\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-22 15:33:24\", \"@valeur\": \"1.140\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 11:11:10\", \"@valeur\": \"1.980\"}]",
+    "horaires": null,
     "geom": {
       "lon": 6.99578,
       "lat": 43.65814
@@ -92,6 +44,54 @@
       "Location de véhicule",
       "Lavage automatique",
       "Lavage manuel"
+    ],
+    "departement": "Alpes-Maritimes",
+    "code_departement": "06",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93"
+  },
+  {
+    "id": 6650003,
+    "latitude": "4366800",
+    "longitude": 698500,
+    "cp": "06650",
+    "pop": "R",
+    "adresse": "Rond Point Font Neuve",
+    "ville": "Opio",
+    "services": "{\"service\": [\"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-04 14:57:58\", \"@valeur\": \"1.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-04 14:57:58\", \"@valeur\": \"2.080\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 6.985,
+      "lat": 43.668
+    },
+    "gazole_maj": "2024-01-04T15:57:58+01:00",
+    "gazole_prix": "1.999",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-01-04T15:57:58+01:00",
+    "e10_prix": "2.080",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage automatique",
+      "Lavage manuel",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Alpes-Maritimes",
     "code_departement": "06",

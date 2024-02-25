@@ -1,22 +1,22 @@
 [
   {
-    "id": 87300001,
-    "latitude": "4612967",
-    "longitude": 105399,
+    "id": 87300003,
+    "latitude": "4612900",
+    "longitude": 105500,
     "cp": "87300",
     "pop": "R",
-    "adresse": "ROUTE DU DORAT",
+    "adresse": "1 rue René Coty",
     "ville": "Bellac",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 10:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 10:00:00\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 10:00:00\", \"@valeur\": \"1.892\"}]",
     "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 12:13:54\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 12:13:54\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 12:13:54\", \"@valeur\": \"1.892\"}]",
     "geom": {
-      "lon": 1.05399,
-      "lat": 46.12967
+      "lon": 1.055,
+      "lat": 46.129
     },
-    "gazole_maj": "2024-02-14T13:13:54+01:00",
+    "gazole_maj": "2024-02-13T11:00:00+01:00",
     "gazole_prix": "1.829",
-    "sp95_maj": "2024-02-14T13:13:54+01:00",
+    "sp95_maj": "2024-02-13T11:00:00+01:00",
     "sp95_prix": "1.843",
     "e85_maj": null,
     "e85_prix": null,
@@ -24,7 +24,7 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-14T13:13:54+01:00",
+    "sp98_maj": "2024-02-13T11:00:00+01:00",
     "sp98_prix": "1.892",
     "carburants_disponibles": [
       "Gazole",
@@ -39,6 +39,7 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
+      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
@@ -55,9 +56,9 @@
     "pop": "R",
     "adresse": "18 Route de Poitiers",
     "ville": "Bellac",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 18:57:40\", \"@valeur\": \"1.873\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 18:54:28\", \"@valeur\": \"1.958\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.044,
       "lat": 46.126
@@ -99,23 +100,23 @@
     "code_region": "75"
   },
   {
-    "id": 87300003,
-    "latitude": "4612900",
-    "longitude": 105500,
+    "id": 87300001,
+    "latitude": "4612967",
+    "longitude": 105399,
     "cp": "87300",
     "pop": "R",
-    "adresse": "1 rue René Coty",
+    "adresse": "ROUTE DU DORAT",
     "ville": "Bellac",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 12:13:54\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 12:13:54\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 12:13:54\", \"@valeur\": \"1.892\"}]",
     "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 10:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 10:00:00\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 10:00:00\", \"@valeur\": \"1.892\"}]",
     "geom": {
-      "lon": 1.055,
-      "lat": 46.129
+      "lon": 1.05399,
+      "lat": 46.12967
     },
-    "gazole_maj": "2024-02-13T11:00:00+01:00",
+    "gazole_maj": "2024-02-14T13:13:54+01:00",
     "gazole_prix": "1.829",
-    "sp95_maj": "2024-02-13T11:00:00+01:00",
+    "sp95_maj": "2024-02-14T13:13:54+01:00",
     "sp95_prix": "1.843",
     "e85_maj": null,
     "e85_prix": null,
@@ -123,7 +124,7 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-13T11:00:00+01:00",
+    "sp98_maj": "2024-02-14T13:13:54+01:00",
     "sp98_prix": "1.892",
     "carburants_disponibles": [
       "Gazole",
@@ -138,7 +139,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
-      "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],

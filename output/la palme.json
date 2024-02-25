@@ -1,5 +1,61 @@
 [
   {
+    "id": 11480009,
+    "latitude": "4295058.3379704",
+    "longitude": 296968.21704558,
+    "cp": "11480",
+    "pop": "A",
+    "adresse": "Aire de service de La Palme Ouest - Sens France Espagne",
+    "ville": "La Palme",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"1.955\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"1.054\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"1.965\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"2.055\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 2.9696821704558,
+      "lat": 42.950583379704
+    },
+    "gazole_maj": "2024-02-22T12:35:00+01:00",
+    "gazole_prix": "1.955",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-22T12:35:00+01:00",
+    "e85_prix": "0.999",
+    "gplc_maj": "2024-02-22T12:35:00+01:00",
+    "gplc_prix": "1.054",
+    "e10_maj": "2024-02-22T12:35:00+01:00",
+    "e10_prix": "1.965",
+    "sp98_maj": "2024-02-22T12:35:00+01:00",
+    "sp98_prix": "2.055",
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Douches",
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Espace bébé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Aude",
+    "code_departement": "11",
+    "region": "Occitanie",
+    "code_region": "76"
+  },
+  {
     "id": 11480008,
     "latitude": "4294543.586",
     "longitude": 298900.48,
@@ -7,9 +63,9 @@
     "pop": "R",
     "adresse": "route départementale 6009",
     "ville": "La Palme",
-    "horaires": null,
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 09:19:27\", \"@valeur\": \"1.889\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-24 17:18:06\", \"@valeur\": \"0.979\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-18 09:12:04\", \"@valeur\": \"1.029\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 09:20:13\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 09:19:52\", \"@valeur\": \"1.979\"}]",
+    "horaires": null,
     "geom": {
       "lon": 2.9890048,
       "lat": 42.94543586
@@ -57,9 +113,9 @@
     "pop": "A",
     "adresse": "AIRE DE LAPALME EST",
     "ville": "La Palme",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Espace bébé\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-01 14:48:10\", \"@valeur\": \"1.994\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-01 14:48:10\", \"@valeur\": \"1.084\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-01 14:48:11\", \"@valeur\": \"1.994\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 14:48:11\", \"@valeur\": \"2.094\"}]",
+    "horaires": null,
     "geom": {
       "lon": 2.98637,
       "lat": 42.97984
@@ -99,62 +155,6 @@
       "Aire de camping-cars",
       "Piste poids lourds",
       "Espace bébé"
-    ],
-    "departement": "Aude",
-    "code_departement": "11",
-    "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 11480009,
-    "latitude": "4295058.3379704",
-    "longitude": 296968.21704558,
-    "cp": "11480",
-    "pop": "A",
-    "adresse": "Aire de service de La Palme Ouest - Sens France Espagne",
-    "ville": "La Palme",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"1.955\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"1.054\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"1.965\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 11:35:00\", \"@valeur\": \"2.055\"}]",
-    "geom": {
-      "lon": 2.9696821704558,
-      "lat": 42.950583379704
-    },
-    "gazole_maj": "2024-02-22T12:35:00+01:00",
-    "gazole_prix": "1.955",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-22T12:35:00+01:00",
-    "e85_prix": "0.999",
-    "gplc_maj": "2024-02-22T12:35:00+01:00",
-    "gplc_prix": "1.054",
-    "e10_maj": "2024-02-22T12:35:00+01:00",
-    "e10_prix": "1.965",
-    "sp98_maj": "2024-02-22T12:35:00+01:00",
-    "sp98_prix": "2.055",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Douches",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Espace bébé",
-      "Automate CB 24/24"
     ],
     "departement": "Aude",
     "code_departement": "11",
