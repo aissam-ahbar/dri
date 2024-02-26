@@ -1,5 +1,60 @@
 [
   {
+    "id": 88500004,
+    "latitude": "4829234",
+    "longitude": 613127,
+    "cp": "88500",
+    "pop": "R",
+    "adresse": "Avenue Maréchal de Lattre de Tassigny",
+    "ville": "Mirecourt",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:37:49\", \"@valeur\": \"1.833\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:02:41\", \"@valeur\": \"1.835\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:02:41\", \"@valeur\": \"1.935\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 6.13127,
+      "lat": 48.29234
+    },
+    "gazole_maj": "2024-02-23T10:37:49+01:00",
+    "gazole_prix": "1.833",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T11:02:41+01:00",
+    "e10_prix": "1.835",
+    "sp98_maj": "2024-02-15T11:02:41+01:00",
+    "sp98_prix": "1.935",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vosges",
+    "code_departement": "88",
+    "region": "Grand Est",
+    "code_region": "44"
+  },
+  {
     "id": 88500007,
     "latitude": "4831000",
     "longitude": 613500,
@@ -109,61 +164,6 @@
       "Station de gonflage",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Vosges",
-    "code_departement": "88",
-    "region": "Grand Est",
-    "code_region": "44"
-  },
-  {
-    "id": 88500004,
-    "latitude": "4829234",
-    "longitude": 613127,
-    "cp": "88500",
-    "pop": "R",
-    "adresse": "Avenue Maréchal de Lattre de Tassigny",
-    "ville": "Mirecourt",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:37:49\", \"@valeur\": \"1.833\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:02:41\", \"@valeur\": \"1.835\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:02:41\", \"@valeur\": \"1.935\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 6.13127,
-      "lat": 48.29234
-    },
-    "gazole_maj": "2024-02-23T10:37:49+01:00",
-    "gazole_prix": "1.833",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-15T11:02:41+01:00",
-    "e10_prix": "1.835",
-    "sp98_maj": "2024-02-15T11:02:41+01:00",
-    "sp98_prix": "1.935",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Vosges",
     "code_departement": "88",

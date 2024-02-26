@@ -1,5 +1,56 @@
 [
   {
+    "id": 2400008,
+    "latitude": "4904300",
+    "longitude": 339500,
+    "cp": "02400",
+    "pop": "R",
+    "adresse": "13 Avenue Jules Lefèbvre",
+    "ville": "Château-Thierry",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 22:40:20\", \"@valeur\": \"1.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 22:40:20\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 22:40:20\", \"@valeur\": \"2.069\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 3.395,
+      "lat": 49.043
+    },
+    "gazole_maj": "2024-02-14T23:40:20+01:00",
+    "gazole_prix": "1.949",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-14T23:40:20+01:00",
+    "e10_prix": "1.999",
+    "sp98_maj": "2024-02-14T23:40:20+01:00",
+    "sp98_prix": "2.069",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Aisne",
+    "code_departement": "02",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 2400001,
     "latitude": "4904000",
     "longitude": 338700,
@@ -110,57 +161,6 @@
       "Bornes électriques",
       "Vente d'additifs carburants",
       "Wifi",
-      "Automate CB 24/24"
-    ],
-    "departement": "Aisne",
-    "code_departement": "02",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 2400008,
-    "latitude": "4904300",
-    "longitude": 339500,
-    "cp": "02400",
-    "pop": "R",
-    "adresse": "13 Avenue Jules Lefèbvre",
-    "ville": "Château-Thierry",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 22:40:20\", \"@valeur\": \"1.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 22:40:20\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 22:40:20\", \"@valeur\": \"2.069\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 3.395,
-      "lat": 49.043
-    },
-    "gazole_maj": "2024-02-14T23:40:20+01:00",
-    "gazole_prix": "1.949",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T23:40:20+01:00",
-    "e10_prix": "1.999",
-    "sp98_maj": "2024-02-14T23:40:20+01:00",
-    "sp98_prix": "2.069",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique alimentaire",
-      "Restauration à emporter",
-      "Restauration sur place",
-      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Aisne",
