@@ -1,5 +1,49 @@
 [
   {
+    "id": 42170002,
+    "latitude": "4550600",
+    "longitude": 424619,
+    "cp": "42170",
+    "pop": "R",
+    "adresse": "Route de Montbrison",
+    "ville": "Saint-Just-Saint-Rambert",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 07:15:04\", \"@valeur\": \"1.750\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 07:15:04\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 07:15:05\", \"@valeur\": \"1.864\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.24619,
+      "lat": 45.506
+    },
+    "gazole_maj": "2024-02-27T08:15:04+01:00",
+    "gazole_prix": "1.750",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-27T08:15:04+01:00",
+    "e10_prix": "1.766",
+    "sp98_maj": "2024-02-27T08:15:05+01:00",
+    "sp98_prix": "1.864",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Loire",
+    "code_departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 42170003,
     "latitude": "4550700",
     "longitude": 426400,
@@ -8,7 +52,7 @@
     "adresse": "Rond-Point Charles de Gaulle",
     "ville": "Saint-Just-Saint-Rambert",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:09:11\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 08:09:12\", \"@valeur\": \"1.904\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 08:09:12\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:09:11\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 07:44:51\", \"@valeur\": \"1.912\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 08:09:12\", \"@valeur\": \"1.990\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"12.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.264,
@@ -22,8 +66,8 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-26T09:09:12+01:00",
-    "e10_prix": "1.904",
+    "e10_maj": "2024-02-27T08:44:51+01:00",
+    "e10_prix": "1.912",
     "sp98_maj": "2024-02-26T09:09:12+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
@@ -47,50 +91,6 @@
       "Wifi",
       "Automate CB 24/24"
     ],
-    "departement": "Loire",
-    "code_departement": "42",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 42170002,
-    "latitude": "4550600",
-    "longitude": 424619,
-    "cp": "42170",
-    "pop": "R",
-    "adresse": "Route de Montbrison",
-    "ville": "Saint-Just-Saint-Rambert",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 07:18:31\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 07:18:31\", \"@valeur\": \"1.764\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 07:18:32\", \"@valeur\": \"1.862\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.24619,
-      "lat": 45.506
-    },
-    "gazole_maj": "2024-02-26T08:18:31+01:00",
-    "gazole_prix": "1.766",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-26T08:18:31+01:00",
-    "e10_prix": "1.764",
-    "sp98_maj": "2024-02-26T08:18:32+01:00",
-    "sp98_prix": "1.862",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
     "departement": "Loire",
     "code_departement": "42",
     "region": "Auvergne-Rhône-Alpes",

@@ -1,5 +1,58 @@
 [
   {
+    "id": 94170004,
+    "latitude": "4883500",
+    "longitude": 249700,
+    "cp": "94170",
+    "pop": "R",
+    "adresse": "44-46 Avenue de BRY",
+    "ville": "Le Perreux-sur-Marne",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 07:00:00\", \"@valeur\": \"1.884\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 07:00:00\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 07:00:00\", \"@valeur\": \"2.046\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 2.497,
+      "lat": 48.835
+    },
+    "gazole_maj": "2024-02-27T08:00:00+01:00",
+    "gazole_prix": "1.884",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-27T08:00:00+01:00",
+    "e10_prix": "1.940",
+    "sp98_maj": "2024-02-27T08:00:00+01:00",
+    "sp98_prix": "2.046",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Services réparation / entretien",
+      "Vente d'additifs carburants",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 94170002,
     "latitude": "4885100",
     "longitude": 249500,
@@ -38,59 +91,6 @@
     ],
     "horaires_automate_24_24": "Non",
     "services_service": null,
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 94170004,
-    "latitude": "4883500",
-    "longitude": 249700,
-    "cp": "94170",
-    "pop": "R",
-    "adresse": "44-46 Avenue de BRY",
-    "ville": "Le Perreux-sur-Marne",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-10 07:00:00\", \"@valeur\": \"1.927\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-10 07:00:00\", \"@valeur\": \"1.936\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-10 07:00:00\", \"@valeur\": \"2.043\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"13.15\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 2.497,
-      "lat": 48.835
-    },
-    "gazole_maj": "2024-02-10T08:00:00+01:00",
-    "gazole_prix": "1.927",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-10T08:00:00+01:00",
-    "e10_prix": "1.936",
-    "sp98_maj": "2024-02-10T08:00:00+01:00",
-    "sp98_prix": "2.043",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Services réparation / entretien",
-      "Vente d'additifs carburants",
-      "DAB (Distributeur automatique de billets)"
-    ],
     "departement": "Val-de-Marne",
     "code_departement": "94",
     "region": "Île-de-France",
