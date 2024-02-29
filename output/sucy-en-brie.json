@@ -1,48 +1,51 @@
 [
   {
-    "id": 94370005,
-    "latitude": "4876100",
-    "longitude": 253300,
+    "id": 94370008,
+    "latitude": "4877700",
+    "longitude": 251100,
     "cp": "94370",
     "pop": "R",
-    "adresse": "69 Route de la Queue en Brie",
+    "adresse": "63/71 AV DU GENERAL LECLERC",
     "ville": "Sucy-en-Brie",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 14:54:07\", \"@valeur\": \"1.928\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 14:53:27\", \"@valeur\": \"2.059\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 00:01:00\", \"@valeur\": \"1.811\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 00:01:00\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 00:01:00\", \"@valeur\": \"1.911\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
     "geom": {
-      "lon": 2.533,
-      "lat": 48.761
+      "lon": 2.511,
+      "lat": 48.777
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-02-29T01:01:00+01:00",
+    "gazole_prix": "1.811",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-19T15:54:07+01:00",
-    "e10_prix": "1.928",
-    "sp98_maj": "2024-02-19T15:53:27+01:00",
-    "sp98_prix": "2.059",
+    "e10_maj": "2024-02-29T01:01:00+01:00",
+    "e10_prix": "1.818",
+    "sp98_maj": "2024-02-29T01:01:00+01:00",
+    "sp98_prix": "1.911",
     "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "Boutique alimentaire",
       "Boutique non alimentaire",
       "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
       "Lavage manuel",
-      "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Val-de-Marne",
     "code_departement": "94",
@@ -94,6 +97,56 @@
     "code_region": "11"
   },
   {
+    "id": 94370005,
+    "latitude": "4876100",
+    "longitude": 253300,
+    "cp": "94370",
+    "pop": "R",
+    "adresse": "69 Route de la Queue en Brie",
+    "ville": "Sucy-en-Brie",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 14:54:07\", \"@valeur\": \"1.928\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 14:53:27\", \"@valeur\": \"2.059\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 2.533,
+      "lat": 48.761
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-19T15:54:07+01:00",
+    "e10_prix": "1.928",
+    "sp98_maj": "2024-02-19T15:53:27+01:00",
+    "sp98_prix": "2.059",
+    "carburants_disponibles": [
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Lavage manuel",
+      "Services réparation / entretien",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11"
+  },
+  {
     "id": 94370007,
     "latitude": "4877300",
     "longitude": 251700,
@@ -102,13 +155,13 @@
     "adresse": "13 Rue Maurice Berteaux",
     "ville": "Sucy-en-Brie",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 00:01:00\", \"@valeur\": \"1.871\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 00:01:00\", \"@valeur\": \"1.878\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:10:06\", \"@valeur\": \"1.871\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 07:10:06\", \"@valeur\": \"1.878\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 07:10:07\", \"@valeur\": \"1.988\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}]}",
     "geom": {
       "lon": 2.517,
       "lat": 48.773
     },
-    "gazole_maj": "2024-02-27T01:01:00+01:00",
+    "gazole_maj": "2024-02-28T08:10:06+01:00",
     "gazole_prix": "1.871",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -116,10 +169,10 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-27T01:01:00+01:00",
+    "e10_maj": "2024-02-28T08:10:06+01:00",
     "e10_prix": "1.878",
-    "sp98_maj": "2024-02-27T01:01:00+01:00",
-    "sp98_prix": "1.990",
+    "sp98_maj": "2024-02-28T08:10:07+01:00",
+    "sp98_prix": "1.988",
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -142,59 +195,6 @@
       "Vente de gaz domestique (Butane, Propane)",
       "Wifi",
       "Automate CB 24/24"
-    ],
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 94370008,
-    "latitude": "4877700",
-    "longitude": 251100,
-    "cp": "94370",
-    "pop": "R",
-    "adresse": "63/71 AV DU GENERAL LECLERC",
-    "ville": "Sucy-en-Brie",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 00:01:00\", \"@valeur\": \"1.811\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 00:01:00\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 00:01:00\", \"@valeur\": \"1.911\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
-    "geom": {
-      "lon": 2.511,
-      "lat": 48.777
-    },
-    "gazole_maj": "2024-02-28T01:01:00+01:00",
-    "gazole_prix": "1.811",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-28T01:01:00+01:00",
-    "e10_prix": "1.818",
-    "sp98_maj": "2024-02-28T01:01:00+01:00",
-    "sp98_prix": "1.911",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Val-de-Marne",
     "code_departement": "94",

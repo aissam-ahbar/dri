@@ -63,7 +63,7 @@
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude",
     "services": "{\"service\": [\"Toilettes publiques\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 08:15:03\", \"@valeur\": \"1.897\"}",
+    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:16:41\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:16:41\", \"@valeur\": \"1.990\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 0.146,
@@ -77,19 +77,19 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-22T09:15:03+01:00",
-    "e10_prix": "1.897",
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-02-28T09:16:41+01:00",
+    "e10_prix": "1.899",
+    "sp98_maj": "2024-02-28T09:16:41+01:00",
+    "sp98_prix": "1.990",
     "carburants_disponibles": [
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "Gazole",
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "horaires_automate_24_24": "Oui",
     "services_service": [

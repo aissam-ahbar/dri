@@ -1,5 +1,104 @@
 [
   {
+    "id": 71300001,
+    "latitude": "4667800",
+    "longitude": 437000,
+    "cp": "71300",
+    "pop": "R",
+    "adresse": "BOULEVARD DE LATTRE DE TASSIGNY",
+    "ville": "Montceau-les-Mines",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:14:02\", \"@valeur\": \"1.768\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-23 08:53:25\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 09:14:03\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:14:03\", \"@valeur\": \"1.862\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 4.37,
+      "lat": 46.678
+    },
+    "gazole_maj": "2024-02-28T10:14:02+01:00",
+    "gazole_prix": "1.768",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-02-23T09:53:25+01:00",
+    "gplc_prix": "0.949",
+    "e10_maj": "2024-02-28T10:14:03+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2024-02-28T10:14:03+01:00",
+    "sp98_prix": "1.862",
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Saône-et-Loire",
+    "code_departement": "71",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
+    "id": 71304001,
+    "latitude": "4668098",
+    "longitude": 437140,
+    "cp": "71300",
+    "pop": "R",
+    "adresse": "AVENUE DU MARECHAL LECLERC",
+    "ville": "Montceau-les-Mines",
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:29:18\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 09:29:18\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 09:34:28\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 07:26:46\", \"@valeur\": \"1.819\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.3714,
+      "lat": 46.68098
+    },
+    "gazole_maj": "2024-02-28T10:29:18+01:00",
+    "gazole_prix": "1.779",
+    "sp95_maj": "2024-02-28T10:29:18+01:00",
+    "sp95_prix": "1.869",
+    "e85_maj": "2024-02-06T10:34:28+01:00",
+    "e85_prix": "0.899",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-23T08:26:46+01:00",
+    "e10_prix": "1.819",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Saône-et-Loire",
+    "code_departement": "71",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27"
+  },
+  {
     "id": 71300012,
     "latitude": "4666890.45258",
     "longitude": 434162.203884,
@@ -8,23 +107,23 @@
     "adresse": "RTE EXPRESSE RN 70",
     "ville": "Montceau-les-Mines",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:00:00\", \"@valeur\": \"1.909\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 09:00:00\", \"@valeur\": \"1.922\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 09:00:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:00:00\", \"@valeur\": \"1.902\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 09:00:00\", \"@valeur\": \"1.922\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:00:00\", \"@valeur\": \"1.990\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 4.34162203884,
       "lat": 46.6689045258
     },
-    "gazole_maj": "2024-02-27T10:00:00+01:00",
-    "gazole_prix": "1.909",
+    "gazole_maj": "2024-02-28T10:00:00+01:00",
+    "gazole_prix": "1.902",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-27T10:00:00+01:00",
+    "e10_maj": "2024-02-28T10:00:00+01:00",
     "e10_prix": "1.922",
-    "sp98_maj": "2024-02-27T10:00:00+01:00",
+    "sp98_maj": "2024-02-28T10:00:00+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
       "Gazole",
@@ -95,105 +194,6 @@
       "Location de véhicule",
       "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Saône-et-Loire",
-    "code_departement": "71",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 71300001,
-    "latitude": "4667800",
-    "longitude": 437000,
-    "cp": "71300",
-    "pop": "R",
-    "adresse": "BOULEVARD DE LATTRE DE TASSIGNY",
-    "ville": "Montceau-les-Mines",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:18:39\", \"@valeur\": \"1.773\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-23 08:53:25\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 08:18:40\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 08:18:40\", \"@valeur\": \"1.872\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 4.37,
-      "lat": 46.678
-    },
-    "gazole_maj": "2024-02-27T09:18:39+01:00",
-    "gazole_prix": "1.773",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-02-23T09:53:25+01:00",
-    "gplc_prix": "0.949",
-    "e10_maj": "2024-02-27T09:18:40+01:00",
-    "e10_prix": "1.779",
-    "sp98_maj": "2024-02-27T09:18:40+01:00",
-    "sp98_prix": "1.872",
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Saône-et-Loire",
-    "code_departement": "71",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 71304001,
-    "latitude": "4668098",
-    "longitude": 437140,
-    "cp": "71300",
-    "pop": "R",
-    "adresse": "AVENUE DU MARECHAL LECLERC",
-    "ville": "Montceau-les-Mines",
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 10:19:44\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-23 07:26:46\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 09:34:28\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 07:26:46\", \"@valeur\": \"1.819\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.3714,
-      "lat": 46.68098
-    },
-    "gazole_maj": "2024-02-26T11:19:44+01:00",
-    "gazole_prix": "1.790",
-    "sp95_maj": "2024-02-23T08:26:46+01:00",
-    "sp95_prix": "1.849",
-    "e85_maj": "2024-02-06T10:34:28+01:00",
-    "e85_prix": "0.899",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-23T08:26:46+01:00",
-    "e10_prix": "1.819",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Saône-et-Loire",
     "code_departement": "71",

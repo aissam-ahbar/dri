@@ -1,5 +1,49 @@
 [
   {
+    "id": 69140005,
+    "latitude": "4581737",
+    "longitude": 489146,
+    "cp": "69140",
+    "pop": "R",
+    "adresse": "Route de Strasbourg",
+    "ville": "Rillieux-la-Pape",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:52:20\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 08:52:20\", \"@valeur\": \"1.813\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 08:52:21\", \"@valeur\": \"1.905\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.89146,
+      "lat": 45.81737
+    },
+    "gazole_maj": "2024-02-27T09:52:20+01:00",
+    "gazole_prix": "1.779",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-27T09:52:20+01:00",
+    "e10_prix": "1.813",
+    "sp98_maj": "2024-02-27T09:52:21+01:00",
+    "sp98_prix": "1.905",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Rhône",
+    "code_departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 69140007,
     "latitude": "4581300",
     "longitude": 488800,
@@ -56,50 +100,6 @@
     "code_region": "84"
   },
   {
-    "id": 69140005,
-    "latitude": "4581737",
-    "longitude": 489146,
-    "cp": "69140",
-    "pop": "R",
-    "adresse": "Route de Strasbourg",
-    "ville": "Rillieux-la-Pape",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:52:20\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 08:52:20\", \"@valeur\": \"1.813\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 08:52:21\", \"@valeur\": \"1.905\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.89146,
-      "lat": 45.81737
-    },
-    "gazole_maj": "2024-02-27T09:52:20+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-27T09:52:20+01:00",
-    "e10_prix": "1.813",
-    "sp98_maj": "2024-02-27T09:52:21+01:00",
-    "sp98_prix": "1.905",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Rhône",
-    "code_departement": "69",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
     "id": 69140006,
     "latitude": "4581200",
     "longitude": 488100,
@@ -108,22 +108,22 @@
     "adresse": "140 Rue du Companet",
     "ville": "Rillieux-la-Pape",
     "services": "{\"service\": [\"Location de véhicule\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 19:45:00\", \"@valeur\": \"1.805\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-19 19:45:00\", \"@valeur\": \"0.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 19:45:00\", \"@valeur\": \"1.839\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 19:45:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-19 19:45:00\", \"@valeur\": \"0.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 19:45:00\", \"@valeur\": \"1.849\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 4.881,
       "lat": 45.812
     },
-    "gazole_maj": "2024-02-22T20:45:00+01:00",
-    "gazole_prix": "1.805",
+    "gazole_maj": "2024-02-28T20:45:00+01:00",
+    "gazole_prix": "1.785",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-19T20:45:00+01:00",
     "e85_prix": "0.859",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-22T20:45:00+01:00",
-    "e10_prix": "1.839",
+    "e10_maj": "2024-02-28T20:45:00+01:00",
+    "e10_prix": "1.849",
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [

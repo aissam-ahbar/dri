@@ -1,51 +1,49 @@
 [
   {
-    "id": 72120001,
-    "latitude": "4791900",
-    "longitude": 76600,
+    "id": 72120004,
+    "latitude": "4792700",
+    "longitude": 72700,
     "cp": "72120",
     "pop": "R",
-    "adresse": "ZA DU PRESSOIR",
+    "adresse": "RN 157",
     "ville": "Saint-Calais",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 08:42:28\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 08:42:28\", \"@valeur\": \"1.896\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 08:51:02\", \"@valeur\": \"1.954\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 12:11:07\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 12:11:08\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-05 12:11:08\", \"@valeur\": \"0.890\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": 0.766,
-      "lat": 47.919
+      "lon": 0.727,
+      "lat": 47.927
     },
-    "gazole_maj": "2024-02-20T09:42:28+01:00",
-    "gazole_prix": "1.839",
-    "sp95_maj": "2024-02-20T09:42:28+01:00",
-    "sp95_prix": "1.896",
-    "e85_maj": null,
-    "e85_prix": null,
+    "gazole_maj": "2024-02-05T13:11:07+01:00",
+    "gazole_prix": "1.910",
+    "sp95_maj": "2024-02-05T13:11:08+01:00",
+    "sp95_prix": "1.940",
+    "e85_maj": "2024-02-05T13:11:08+01:00",
+    "e85_prix": "0.890",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-13T09:51:02+01:00",
-    "sp98_prix": "1.954",
+    "sp98_maj": null,
+    "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "SP98"
+      "E85"
     ],
     "carburants_indisponibles": [
-      "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
-      "Laverie",
-      "Relais colis",
+      "Boutique non alimentaire",
       "Station de gonflage",
-      "Location de véhicule",
+      "Carburant additivé",
       "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Services réparation / entretien"
     ],
     "departement": "Sarthe",
     "code_departement": "72",
@@ -158,50 +156,52 @@
     "code_region": "52"
   },
   {
-    "id": 72120004,
-    "latitude": "4792700",
-    "longitude": 72700,
+    "id": 72120001,
+    "latitude": "4791900",
+    "longitude": 76600,
     "cp": "72120",
     "pop": "R",
-    "adresse": "RN 157",
+    "adresse": "ZA DU PRESSOIR",
     "ville": "Saint-Calais",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 12:11:07\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 12:11:08\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-05 12:11:08\", \"@valeur\": \"0.890\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 08:42:28\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 08:42:28\", \"@valeur\": \"1.896\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 08:51:02\", \"@valeur\": \"1.954\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
-      "lon": 0.727,
-      "lat": 47.927
+      "lon": 0.766,
+      "lat": 47.919
     },
-    "gazole_maj": "2024-02-05T13:11:07+01:00",
-    "gazole_prix": "1.910",
-    "sp95_maj": "2024-02-05T13:11:08+01:00",
-    "sp95_prix": "1.940",
-    "e85_maj": "2024-02-05T13:11:08+01:00",
-    "e85_prix": "0.890",
+    "gazole_maj": "2024-02-20T09:42:28+01:00",
+    "gazole_prix": "1.839",
+    "sp95_maj": "2024-02-20T09:42:28+01:00",
+    "sp95_prix": "1.896",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-02-13T09:51:02+01:00",
+    "sp98_prix": "1.954",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85"
+      "SP98"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
-      "Boutique non alimentaire",
+      "Laverie",
+      "Relais colis",
       "Station de gonflage",
-      "Carburant additivé",
+      "Location de véhicule",
       "Piste poids lourds",
-      "Services réparation / entretien"
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Sarthe",
     "code_departement": "72",

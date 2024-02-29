@@ -1,43 +1,44 @@
 [
   {
-    "id": 3100001,
-    "latitude": "4634744.38067",
-    "longitude": 260218.545365,
+    "id": 3100008,
+    "latitude": "4633362",
+    "longitude": 260087,
     "cp": "03100",
     "pop": "R",
-    "adresse": "Quai ledru Rollin",
+    "adresse": "Rue de la Rotonde",
     "ville": "Montluçon",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 10:24:18\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-24 10:24:19\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 10:24:19\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 10:24:19\", \"@valeur\": \"1.899\"}]",
+    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:07:40\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 10:12:12\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 08:47:08\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 09:48:13\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 10:12:18\", \"@valeur\": \"1.889\"}]",
     "horaires": null,
     "geom": {
-      "lon": 2.60218545365,
-      "lat": 46.3474438067
+      "lon": 2.60087,
+      "lat": 46.33362
     },
-    "gazole_maj": "2024-02-24T11:24:18+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-24T11:24:19+01:00",
+    "gazole_maj": "2024-02-23T10:07:40+01:00",
+    "gazole_prix": "1.795",
+    "sp95_maj": "2024-02-28T11:12:12+01:00",
     "sp95_prix": "1.849",
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2024-01-08T09:47:08+01:00",
+    "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-24T11:24:19+01:00",
-    "e10_prix": "1.825",
-    "sp98_maj": "2024-02-24T11:24:19+01:00",
-    "sp98_prix": "1.899",
+    "e10_maj": "2024-02-16T10:48:13+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2024-02-28T11:12:18+01:00",
+    "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "E85",
       "GPLc"
     ],
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
@@ -97,6 +98,102 @@
     "code_region": "84"
   },
   {
+    "id": 3100005,
+    "latitude": "4635300",
+    "longitude": 258700,
+    "cp": "03100",
+    "pop": "R",
+    "adresse": "Avenue Pierre Villon",
+    "ville": "Montluçon",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Services réparation / entretien\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:16:32\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:16:32\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:16:32\", \"@valeur\": \"1.889\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 2.587,
+      "lat": 46.353
+    },
+    "gazole_maj": "2024-02-28T09:16:32+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-28T09:16:32+01:00",
+    "sp95_prix": "1.849",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-28T09:16:32+01:00",
+    "sp98_prix": "1.889",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Boutique non alimentaire",
+      "Station de gonflage",
+      "Services réparation / entretien",
+      "Automate CB 24/24"
+    ],
+    "departement": "Allier",
+    "code_departement": "03",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
+    "id": 3100001,
+    "latitude": "4634744.38067",
+    "longitude": 260218.545365,
+    "cp": "03100",
+    "pop": "R",
+    "adresse": "Quai ledru Rollin",
+    "ville": "Montluçon",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 10:24:18\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-24 10:24:19\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 10:24:19\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 10:24:19\", \"@valeur\": \"1.899\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.60218545365,
+      "lat": 46.3474438067
+    },
+    "gazole_maj": "2024-02-24T11:24:18+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-24T11:24:19+01:00",
+    "sp95_prix": "1.849",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-24T11:24:19+01:00",
+    "e10_prix": "1.825",
+    "sp98_maj": "2024-02-24T11:24:19+01:00",
+    "sp98_prix": "1.899",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Allier",
+    "code_departement": "03",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84"
+  },
+  {
     "id": 3100007,
     "latitude": "4632005.8353029",
     "longitude": 258098.68850979,
@@ -105,24 +202,24 @@
     "adresse": "345 AVENUE PRESIDENT AURIOL",
     "ville": "Montluçon",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:41:44\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 08:57:41\", \"@valeur\": \"1.845\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 08:57:41\", \"@valeur\": \"1.869\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:30:00\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:30:00\", \"@valeur\": \"1.889\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.5809868850979,
       "lat": 46.320058353029
     },
-    "gazole_maj": "2024-02-23T09:41:44+01:00",
-    "gazole_prix": "1.795",
-    "sp95_maj": "2024-02-16T09:57:41+01:00",
-    "sp95_prix": "1.845",
+    "gazole_maj": "2024-02-28T09:30:00+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-28T09:30:00+01:00",
+    "sp95_prix": "1.849",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-16T09:57:41+01:00",
-    "sp98_prix": "1.869",
+    "sp98_maj": "2024-02-28T09:30:00+01:00",
+    "sp98_prix": "1.889",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -136,54 +233,6 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Allier",
-    "code_departement": "03",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 3100008,
-    "latitude": "4633362",
-    "longitude": 260087,
-    "cp": "03100",
-    "pop": "R",
-    "adresse": "Rue de la Rotonde",
-    "ville": "Montluçon",
-    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:07:40\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 09:48:13\", \"@valeur\": \"1.845\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 08:47:08\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 09:48:13\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 08:54:22\", \"@valeur\": \"1.869\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.60087,
-      "lat": 46.33362
-    },
-    "gazole_maj": "2024-02-23T10:07:40+01:00",
-    "gazole_prix": "1.795",
-    "sp95_maj": "2024-02-16T10:48:13+01:00",
-    "sp95_prix": "1.845",
-    "e85_maj": "2024-01-08T09:47:08+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T10:48:13+01:00",
-    "e10_prix": "1.799",
-    "sp98_maj": "2024-02-27T09:54:22+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
@@ -233,55 +282,6 @@
     "services_service": [
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Allier",
-    "code_departement": "03",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 3100005,
-    "latitude": "4635300",
-    "longitude": 258700,
-    "cp": "03100",
-    "pop": "R",
-    "adresse": "Avenue Pierre Villon",
-    "ville": "Montluçon",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Services réparation / entretien\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:26:22\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 08:45:00\", \"@valeur\": \"1.845\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 08:45:00\", \"@valeur\": \"1.869\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"11.55\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.55\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 2.587,
-      "lat": 46.353
-    },
-    "gazole_maj": "2024-02-23T09:26:22+01:00",
-    "gazole_prix": "1.795",
-    "sp95_maj": "2024-02-16T09:45:00+01:00",
-    "sp95_prix": "1.845",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-16T09:45:00+01:00",
-    "sp98_prix": "1.869",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Boutique non alimentaire",
-      "Station de gonflage",
-      "Services réparation / entretien",
-      "Automate CB 24/24"
     ],
     "departement": "Allier",
     "code_departement": "03",

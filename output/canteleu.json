@@ -1,5 +1,55 @@
 [
   {
+    "id": 76380006,
+    "latitude": "4945097.3674914",
+    "longitude": 103424.99010498,
+    "cp": "76380",
+    "pop": "R",
+    "adresse": "2 Avenue du Président Allende",
+    "ville": "Canteleu",
+    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Lavage automatique\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 11:50:44\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-07 11:50:44\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 11:50:44\", \"@valeur\": \"1.898\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "geom": {
+      "lon": 1.0342499010497999,
+      "lat": 49.450973674913996
+    },
+    "gazole_maj": "2024-02-07T12:50:44+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-07T12:50:44+01:00",
+    "sp95_prix": "1.875",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-07T12:50:44+01:00",
+    "sp98_prix": "1.898",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Relais colis",
+      "Station de gonflage",
+      "Lavage automatique",
+      "Automate CB 24/24"
+    ],
+    "departement": "Seine-Maritime",
+    "code_departement": "76",
+    "region": "Normandie",
+    "code_region": "28"
+  },
+  {
     "id": 76380003,
     "latitude": "4945000",
     "longitude": 102800,
@@ -51,56 +101,6 @@
     "code_region": "28"
   },
   {
-    "id": 76380006,
-    "latitude": "4945097.3674914",
-    "longitude": 103424.99010498,
-    "cp": "76380",
-    "pop": "R",
-    "adresse": "2 Avenue du Président Allende",
-    "ville": "Canteleu",
-    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Lavage automatique\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-07 11:50:44\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-07 11:50:44\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-07 11:50:44\", \"@valeur\": \"1.898\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "geom": {
-      "lon": 1.0342499010497999,
-      "lat": 49.450973674913996
-    },
-    "gazole_maj": "2024-02-07T12:50:44+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-07T12:50:44+01:00",
-    "sp95_prix": "1.875",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-07T12:50:44+01:00",
-    "sp98_prix": "1.898",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Laverie",
-      "Relais colis",
-      "Station de gonflage",
-      "Lavage automatique",
-      "Automate CB 24/24"
-    ],
-    "departement": "Seine-Maritime",
-    "code_departement": "76",
-    "region": "Normandie",
-    "code_region": "28"
-  },
-  {
     "id": 76380002,
     "latitude": "4945879",
     "longitude": 104473,
@@ -109,24 +109,24 @@
     "adresse": "40 Rue du Canal",
     "ville": "Canteleu",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:40:10\", \"@valeur\": \"1.728\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 07:55:17\", \"@valeur\": \"1.796\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 08:40:11\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 08:40:11\", \"@valeur\": \"1.824\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:10:01\", \"@valeur\": \"1.727\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 09:10:01\", \"@valeur\": \"1.796\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 09:10:01\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:10:01\", \"@valeur\": \"1.834\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.04473,
       "lat": 49.45879
     },
-    "gazole_maj": "2024-02-26T09:40:10+01:00",
-    "gazole_prix": "1.728",
-    "sp95_maj": "2024-02-27T08:55:17+01:00",
+    "gazole_maj": "2024-02-28T10:10:01+01:00",
+    "gazole_prix": "1.727",
+    "sp95_maj": "2024-02-28T10:10:01+01:00",
     "sp95_prix": "1.796",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-26T09:40:11+01:00",
-    "e10_prix": "1.747",
-    "sp98_maj": "2024-02-26T09:40:11+01:00",
-    "sp98_prix": "1.824",
+    "e10_maj": "2024-02-28T10:10:01+01:00",
+    "e10_prix": "1.748",
+    "sp98_maj": "2024-02-28T10:10:01+01:00",
+    "sp98_prix": "1.834",
     "carburants_disponibles": [
       "Gazole",
       "SP95",
