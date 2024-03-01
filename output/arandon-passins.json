@@ -8,7 +8,7 @@
     "adresse": "Lieu-dit Le Lanthey Passins",
     "ville": "Arandon-Passins",
     "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:52:43\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 09:39:30\", \"@valeur\": \"1.756\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:52:43\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 11:16:33\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 09:54:18\", \"@valeur\": \"1.776\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 5.451,
@@ -18,21 +18,21 @@
     "gazole_prix": "1.739",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2024-02-29T12:16:33+01:00",
+    "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-28T10:39:30+01:00",
-    "e10_prix": "1.756",
+    "e10_maj": "2024-02-29T10:54:18+01:00",
+    "e10_prix": "1.776",
     "sp98_maj": null,
     "sp98_prix": null,
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc",
       "SP98"
     ],

@@ -1,5 +1,53 @@
 [
   {
+    "id": 33430001,
+    "latitude": "4443387.74007",
+    "longitude": -21895.2882664,
+    "cp": "33430",
+    "pop": "R",
+    "adresse": "D3",
+    "ville": "Bazas",
+    "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 10:39:26\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 10:49:33\", \"@valeur\": \"1.837\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 10:49:34\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 10:49:34\", \"@valeur\": \"1.896\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -0.21895288266399998,
+      "lat": 44.433877400700005
+    },
+    "gazole_maj": "2024-02-21T11:39:26+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-14T11:49:33+01:00",
+    "sp95_prix": "1.837",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-14T11:49:34+01:00",
+    "e10_prix": "1.777",
+    "sp98_maj": "2024-02-14T11:49:34+01:00",
+    "sp98_prix": "1.896",
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage automatique",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Gironde",
+    "code_departement": "33",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75"
+  },
+  {
     "id": 33430002,
     "latitude": "4444000",
     "longitude": -23100,
@@ -97,54 +145,6 @@
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Gironde",
-    "code_departement": "33",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
-    "id": 33430001,
-    "latitude": "4443387.74007",
-    "longitude": -21895.2882664,
-    "cp": "33430",
-    "pop": "R",
-    "adresse": "D3",
-    "ville": "Bazas",
-    "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 10:39:26\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 10:49:33\", \"@valeur\": \"1.837\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 10:49:34\", \"@valeur\": \"1.777\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 10:49:34\", \"@valeur\": \"1.896\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": -0.21895288266399998,
-      "lat": 44.433877400700005
-    },
-    "gazole_maj": "2024-02-21T11:39:26+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-14T11:49:33+01:00",
-    "sp95_prix": "1.837",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-14T11:49:34+01:00",
-    "e10_prix": "1.777",
-    "sp98_maj": "2024-02-14T11:49:34+01:00",
-    "sp98_prix": "1.896",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage automatique",
-      "Vente de gaz domestique (Butane, Propane)",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Gironde",

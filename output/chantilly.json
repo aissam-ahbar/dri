@@ -1,5 +1,49 @@
 [
   {
+    "id": 60500002,
+    "latitude": "4917800",
+    "longitude": 245600,
+    "cp": "60500",
+    "pop": "R",
+    "adresse": "41 Avenue du Général Leclerc",
+    "ville": "Chantilly",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 07:01:00\", \"@valeur\": \"1.802\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 07:01:00\", \"@valeur\": \"1.811\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 07:01:00\", \"@valeur\": \"1.891\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 2.456,
+      "lat": 49.178
+    },
+    "gazole_maj": "2024-02-27T08:01:00+01:00",
+    "gazole_prix": "1.802",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-27T08:01:00+01:00",
+    "e10_prix": "1.811",
+    "sp98_maj": "2024-02-27T08:01:00+01:00",
+    "sp98_prix": "1.891",
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Oise",
+    "code_departement": "60",
+    "region": "Hauts-de-France",
+    "code_region": "32"
+  },
+  {
     "id": 60500008,
     "latitude": "4920200",
     "longitude": 246300,
@@ -50,50 +94,6 @@
     "code_region": "32"
   },
   {
-    "id": 60500002,
-    "latitude": "4917800",
-    "longitude": 245600,
-    "cp": "60500",
-    "pop": "R",
-    "adresse": "41 Avenue du Général Leclerc",
-    "ville": "Chantilly",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 07:01:00\", \"@valeur\": \"1.802\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 07:01:00\", \"@valeur\": \"1.811\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 07:01:00\", \"@valeur\": \"1.891\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 2.456,
-      "lat": 49.178
-    },
-    "gazole_maj": "2024-02-27T08:01:00+01:00",
-    "gazole_prix": "1.802",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-27T08:01:00+01:00",
-    "e10_prix": "1.811",
-    "sp98_maj": "2024-02-27T08:01:00+01:00",
-    "sp98_prix": "1.891",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Oise",
-    "code_departement": "60",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 60500010,
     "latitude": "4919100",
     "longitude": 246400,
@@ -102,14 +102,14 @@
     "adresse": "28 Avenue du Maréchal Joffre",
     "ville": "Chantilly",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 13:25:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 15:35:00\", \"@valeur\": \"0.889\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 13:25:00\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 13:25:00\", \"@valeur\": \"2.079\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 13:00:00\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 15:35:00\", \"@valeur\": \"0.889\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 13:25:00\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 13:25:00\", \"@valeur\": \"2.079\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.464,
       "lat": 49.191
     },
-    "gazole_maj": "2024-02-28T14:25:00+01:00",
-    "gazole_prix": "1.919",
+    "gazole_maj": "2024-02-29T14:00:00+01:00",
+    "gazole_prix": "1.899",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-07T16:35:00+01:00",

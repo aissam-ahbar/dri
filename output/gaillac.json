@@ -63,34 +63,33 @@
     "adresse": "19 Avenue Rhin et Danube",
     "ville": "Gaillac",
     "services": "{\"service\": [\"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 10:01:11\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 09:00:00\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-17 09:24:16\", \"@valeur\": \"1.020\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 09:06:45\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 08:52:53\", \"@valeur\": \"1.824\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 10:01:11\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 09:00:00\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-17 09:24:16\", \"@valeur\": \"1.020\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 11:29:25\", \"@valeur\": \"1.831\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 09:06:45\", \"@valeur\": \"1.990\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 1.902,
       "lat": 43.913
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-02-29T09:52:53+01:00",
+    "gazole_prix": "1.824",
     "sp95_maj": "2024-02-20T11:01:11+01:00",
     "sp95_prix": "1.859",
     "e85_maj": "2024-01-12T10:00:00+01:00",
     "e85_prix": "0.848",
     "gplc_maj": "2024-01-17T10:24:16+01:00",
     "gplc_prix": "1.020",
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2024-02-29T12:29:25+01:00",
+    "e10_prix": "1.831",
     "sp98_maj": "2024-02-27T10:06:45+01:00",
     "sp98_prix": "1.990",
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_indisponibles": [
-      "Gazole",
-      "E10"
-    ],
+    "carburants_indisponibles": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
