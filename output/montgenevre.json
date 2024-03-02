@@ -9,6 +9,7 @@
     "ville": "Montgenèvre",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 09:24:54\", \"@valeur\": \"1.820\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-02 11:38:53\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 09:24:55\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 10:11:44\", \"@valeur\": \"1.910\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-15 09:39:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-15 09:39:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 6.733,
@@ -26,6 +27,18 @@
     "e10_prix": "1.830",
     "sp98_maj": "2024-02-27T11:11:44+01:00",
     "sp98_prix": "1.910",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-07-15 09:39:24",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2020-07-15 09:39:24",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Station de gonflage",
@@ -46,6 +61,7 @@
     "departement": "Hautes-Alpes",
     "code_departement": "05",
     "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
+    "code_region": "93",
+    "horaires_jour": "Automate-24-24"
   }
 ]

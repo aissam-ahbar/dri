@@ -8,14 +8,15 @@
     "adresse": "Avenue de l'Europe",
     "ville": "Barbezieux-Saint-Hilaire",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 16:22:53\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-27 10:57:59\", \"@valeur\": \"0.854\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 16:22:54\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 16:22:54\", \"@valeur\": \"1.868\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 10:31:19\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-27 10:57:59\", \"@valeur\": \"0.854\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 16:22:54\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 16:22:54\", \"@valeur\": \"1.868\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-06-06 12:31:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-06-06 12:31:06\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -0.164,
       "lat": 45.466
     },
-    "gazole_maj": "2024-02-29T17:22:53+01:00",
-    "gazole_prix": "1.754",
+    "gazole_maj": "2024-03-01T11:31:19+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-27T11:57:59+01:00",
@@ -26,6 +27,18 @@
     "e10_prix": "1.786",
     "sp98_maj": "2024-02-29T17:22:54+01:00",
     "sp98_prix": "1.868",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-06-06 12:31:06",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-06-06 12:31:06",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
@@ -51,7 +66,8 @@
     "departement": "Charente",
     "code_departement": "16",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Automate-24-24, Lundi09.30-18.30, Mardi09.30-18.30, Mercredi09.30-18.30, Jeudi09.30-18.30, Vendredi09.30-18.30, Samedi09.30-18.30, Dimanche"
   },
   {
     "id": 16300004,
@@ -63,6 +79,7 @@
     "ville": "Barbezieux-Saint-Hilaire",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:29:46\", \"@valeur\": \"1.753\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-06 10:21:17\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:29:46\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 04:53:16\", \"@valeur\": \"1.869\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-02-28 10:55:13\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -0.16519,
@@ -80,6 +97,18 @@
     "e10_prix": "1.785",
     "sp98_maj": "2024-02-20T05:53:16+01:00",
     "sp98_prix": "1.869",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-02-28 10:55:13",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -90,6 +119,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -97,7 +128,8 @@
     "departement": "Charente",
     "code_departement": "16",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   },
   {
     "id": 16300001,
@@ -108,14 +140,15 @@
     "adresse": "Lieu-Dit Plaisance",
     "ville": "Barbezieux-Saint-Hilaire",
     "services": "{\"service\": [\"Douches\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 21:30:00\", \"@valeur\": \"1.786\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-02 07:00:00\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 21:30:00\", \"@valeur\": \"1.857\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 21:30:00\", \"@valeur\": \"1.967\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 21:00:00\", \"@valeur\": \"1.776\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-02 07:00:00\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 21:30:00\", \"@valeur\": \"1.857\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 21:30:00\", \"@valeur\": \"1.967\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-17 19:02:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-16 18:44:02\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"14.00\"}}]}",
     "geom": {
       "lon": -0.143,
       "lat": 45.46
     },
-    "gazole_maj": "2024-02-29T22:30:00+01:00",
-    "gazole_prix": "1.786",
+    "gazole_maj": "2024-03-01T22:00:00+01:00",
+    "gazole_prix": "1.776",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -126,6 +159,18 @@
     "e10_prix": "1.857",
     "sp98_maj": "2024-02-29T22:30:00+01:00",
     "sp98_prix": "1.967",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-11-16 18:44:02",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-10-17 19:02:55",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
@@ -136,6 +181,8 @@
       "SP95",
       "E85"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Douches",
@@ -159,6 +206,7 @@
     "departement": "Charente",
     "code_departement": "16",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Automate-24-24, Lundi06.00-21.00, Mardi06.00-21.00, Mercredi06.00-21.00, Jeudi06.00-21.00, Vendredi06.00-21.00, Samedi06.00-21.00, Dimanche08.30-14.00"
   }
 ]

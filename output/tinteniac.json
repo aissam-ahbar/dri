@@ -8,15 +8,16 @@
     "adresse": "Rue du Papegault",
     "ville": "Tinténiac",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 09:08:53\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 09:08:59\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 09:09:01\", \"@valeur\": \"1.869\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:03:08\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 09:03:09\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 09:03:09\", \"@valeur\": \"1.869\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-03-29 09:31:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-29 09:31:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-03-29 09:31:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.84156,
       "lat": 48.32873
     },
-    "gazole_maj": "2024-02-29T10:08:53+01:00",
-    "gazole_prix": "1.739",
-    "sp95_maj": "2024-02-29T10:08:59+01:00",
+    "gazole_maj": "2024-03-01T10:03:08+01:00",
+    "gazole_prix": "1.719",
+    "sp95_maj": "2024-03-01T10:03:09+01:00",
     "sp95_prix": "1.839",
     "e85_maj": null,
     "e85_prix": null,
@@ -24,8 +25,20 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-29T10:09:01+01:00",
+    "sp98_maj": "2024-03-01T10:03:09+01:00",
     "sp98_prix": "1.869",
+    "e10_rupture_debut": "2023-03-29 09:31:09",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2023-03-29 09:31:09",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2023-03-29 09:31:09",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc;E10",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Ille-et-Vilaine",
     "code_departement": "35",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]

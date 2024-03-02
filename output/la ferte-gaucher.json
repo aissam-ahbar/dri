@@ -1,5 +1,67 @@
 [
   {
+    "id": 77320003,
+    "latitude": "4878261",
+    "longitude": 329464,
+    "cp": "77320",
+    "pop": "R",
+    "adresse": "Avenue de la Maison-Blanche",
+    "ville": "La Ferté-Gaucher",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 11:39:25\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 11:28:00\", \"@valeur\": \"0.847\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 09:36:01\", \"@valeur\": \"1.854\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 09:36:01\", \"@valeur\": \"1.898\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-31 18:29:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-12-05 14:16:57\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 3.29464,
+      "lat": 48.78261
+    },
+    "gazole_maj": "2024-03-01T12:39:25+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-03T12:28:00+01:00",
+    "e85_prix": "0.847",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-22T10:36:01+01:00",
+    "e10_prix": "1.854",
+    "sp98_maj": "2024-02-22T10:36:01+01:00",
+    "sp98_prix": "1.898",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-12-05 14:16:57",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-10-31 18:29:52",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": "GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11",
+    "horaires_jour": null
+  },
+  {
     "id": 77320002,
     "latitude": "4878355",
     "longitude": 330653,
@@ -9,6 +71,7 @@
     "ville": "La Ferté-Gaucher",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:36:32\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 18:12:56\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 19:12:33\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 19:12:33\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-03 19:18:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-03 19:18:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.30653,
@@ -26,6 +89,18 @@
     "e10_prix": "1.855",
     "sp98_maj": "2024-02-21T20:12:33+01:00",
     "sp98_prix": "1.899",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-01-03 19:18:03",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-01-03 19:18:04",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +111,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -43,52 +120,7 @@
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 77320003,
-    "latitude": "4878261",
-    "longitude": 329464,
-    "cp": "77320",
-    "pop": "R",
-    "adresse": "Avenue de la Maison-Blanche",
-    "ville": "La Ferté-Gaucher",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 14:00:50\", \"@valeur\": \"1.848\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 11:28:00\", \"@valeur\": \"0.847\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 09:36:01\", \"@valeur\": \"1.854\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 09:36:01\", \"@valeur\": \"1.898\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 3.29464,
-      "lat": 48.78261
-    },
-    "gazole_maj": "2024-02-28T15:00:50+01:00",
-    "gazole_prix": "1.848",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-03T12:28:00+01:00",
-    "e85_prix": "0.847",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-22T10:36:01+01:00",
-    "e10_prix": "1.854",
-    "sp98_maj": "2024-02-22T10:36:01+01:00",
-    "sp98_prix": "1.898",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11"
+    "code_region": "11",
+    "horaires_jour": null
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "L'Île-d'Yeu",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 18:22:32\", \"@valeur\": \"2.335\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 18:22:32\", \"@valeur\": \"2.561\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-15 17:22:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-15 17:22:34\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-06-15 17:22:34\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-06-15 17:22:34\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -2.34468,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2018-06-15 17:22:34",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2018-06-15 17:22:34",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-06-15 17:22:33",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2018-06-15 17:22:34",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc;E10;SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -43,6 +58,7 @@
     "departement": "Vendée",
     "code_departement": "85",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Escaudœuvres",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 08:59:57\", \"@valeur\": \"1.780\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-06-20 09:50:58\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 08:59:57\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 08:59:58\", \"@valeur\": \"1.905\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 08:58:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-04-12 09:18:13\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"15.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"15.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"15.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"15.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"15.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"15.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.254,
@@ -26,6 +27,18 @@
     "e10_prix": "1.795",
     "sp98_maj": "2024-02-22T09:59:58+01:00",
     "sp98_prix": "1.905",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-04-12 09:18:13",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2017-09-08 08:58:47",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
@@ -36,6 +49,8 @@
       "SP95",
       "E85"
     ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de pétrole lampant",
@@ -45,6 +60,7 @@
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": "Lundi09.00-15.00, Mardi09.00-15.00, Mercredi09.00-15.00, Jeudi09.00-15.00, Vendredi09.00-15.00, Samedi09.00-15.00, Dimanche"
   }
 ]

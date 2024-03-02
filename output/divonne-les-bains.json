@@ -9,6 +9,7 @@
     "ville": "Divonne-les-Bains",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Carburant additivé\", \"Location de véhicule\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:00:00\", \"@valeur\": \"1.833\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 08:00:00\", \"@valeur\": \"1.917\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 08:00:00\", \"@valeur\": \"1.974\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 12:06:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 12:06:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-08-31 12:06:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.141,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-21T09:00:00+01:00",
     "sp98_prix": "1.974",
+    "e10_rupture_debut": "2017-08-31 12:06:04",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-08-31 12:06:03",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-08-31 12:06:03",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Ain",
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

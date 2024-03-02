@@ -8,14 +8,15 @@
     "adresse": "RTE D'AUCH",
     "ville": "Dému",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 18:58:33\", \"@valeur\": \"1.878\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 18:57:10\", \"@valeur\": \"1.918\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-09 19:00:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 06:56:14\", \"@valeur\": \"1.873\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 18:57:10\", \"@valeur\": \"1.918\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-09 19:00:00\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2014-12-11 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-22 18:42:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-22 18:42:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.16781,
       "lat": 43.76505
     },
-    "gazole_maj": "2024-02-27T19:58:33+01:00",
-    "gazole_prix": "1.878",
+    "gazole_maj": "2024-03-01T07:56:14+01:00",
+    "gazole_prix": "1.873",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.918",
     "sp98_maj": "2024-02-09T20:00:00+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-11-22 18:42:46",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-11-22 18:42:46",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -52,6 +67,7 @@
     "departement": "Gers",
     "code_departement": "32",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

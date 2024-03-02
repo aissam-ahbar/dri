@@ -9,6 +9,7 @@
     "ville": "Saint-Michel-sur-Rhône",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 18:50:26\", \"@valeur\": \"1.865\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 18:50:26\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 18:50:27\", \"@valeur\": \"1.902\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 18:50:27\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-10-12 12:32:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-02-14 15:25:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"16.00\"}}]}",
     "geom": {
       "lon": 4.752,
@@ -26,6 +27,18 @@
     "e10_prix": "1.902",
     "sp98_maj": "2024-02-29T19:50:27+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-02-14 15:25:36",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2021-10-12 12:32:08",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique alimentaire",
@@ -48,6 +63,7 @@
     "departement": "Loire",
     "code_departement": "42",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24, Lundi08.00-21.00, Mardi08.00-21.00, Mercredi08.00-21.00, Jeudi08.00-21.00, Vendredi08.00-21.00, Samedi08.00-21.00, Dimanche10.00-16.00"
   }
 ]

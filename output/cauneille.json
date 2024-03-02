@@ -9,6 +9,7 @@
     "ville": "Cauneille",
     "services": "{\"service\": [\"Laverie\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:00:48\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-06 08:29:00\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 16:49:34\", \"@valeur\": \"1.829\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-12-02 09:17:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-09-10 11:11:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-09-18 10:30:59\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.07601,
@@ -26,6 +27,18 @@
     "e10_prix": "1.829",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2019-09-10 11:11:40",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2022-12-02 09:17:46",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-09-18 10:30:59",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -48,6 +63,7 @@
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

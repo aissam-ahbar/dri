@@ -8,14 +8,15 @@
     "adresse": "Rue de la République",
     "ville": "Amfreville-Saint-Amand",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 07:23:08\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-24 08:05:26\", \"@valeur\": \"1.934\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-23 07:27:42\", \"@valeur\": \"0.920\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:11:07\", \"@valeur\": \"1.874\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-24 08:05:26\", \"@valeur\": \"1.934\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-23 07:27:42\", \"@valeur\": \"0.920\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-20 19:58:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-30 11:18:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-06-30 11:18:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 0.937,
       "lat": 49.21
     },
-    "gazole_maj": "2024-02-29T08:23:08+01:00",
-    "gazole_prix": "1.889",
+    "gazole_maj": "2024-03-01T08:11:07+01:00",
+    "gazole_prix": "1.874",
     "sp95_maj": "2024-02-24T09:05:26+01:00",
     "sp95_prix": "1.934",
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2018-06-30 11:18:40",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-09-20 19:58:24",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-06-30 11:18:40",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;E10;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique alimentaire",
@@ -53,6 +68,7 @@
     "departement": "Eure",
     "code_departement": "27",
     "region": "Normandie",
-    "code_region": "28"
+    "code_region": "28",
+    "horaires_jour": "Automate-24-24, Lundi07.00-19.00, Mardi07.00-19.00, Mercredi07.00-19.00, Jeudi07.00-19.00, Vendredi07.00-19.00, Samedi08.00-17.00, Dimanche"
   }
 ]

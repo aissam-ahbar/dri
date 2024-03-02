@@ -9,6 +9,7 @@
     "ville": "Monts",
     "services": "{\"service\": [\"Relais colis\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2016-07-18 12:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2016-06-28 14:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2016-07-29 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.64941471262198,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -36,7 +51,8 @@
     "departement": "Indre-et-Loire",
     "code_departement": "37",
     "region": "Centre-Val de Loire",
-    "code_region": "24"
+    "code_region": "24",
+    "horaires_jour": null
   },
   {
     "id": 37260001,
@@ -48,6 +64,7 @@
     "ville": "Monts",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:55:40\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 07:55:40\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 07:55:41\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 07:55:41\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 11:43:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 11:43:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.64244,
@@ -65,6 +82,18 @@
     "e10_prix": "1.785",
     "sp98_maj": "2024-02-28T08:55:41+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-05 11:43:37",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-05 11:43:37",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -75,6 +104,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -87,6 +118,7 @@
     "departement": "Indre-et-Loire",
     "code_departement": "37",
     "region": "Centre-Val de Loire",
-    "code_region": "24"
+    "code_region": "24",
+    "horaires_jour": null
   }
 ]

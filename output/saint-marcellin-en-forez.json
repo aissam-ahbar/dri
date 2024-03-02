@@ -8,15 +8,16 @@
     "adresse": "ROUTE DE BONSON",
     "ville": "Saint-Marcellin-en-Forez",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 18:54:39\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-23 18:54:39\", \"@valeur\": \"1.962\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 18:53:04\", \"@valeur\": \"1.876\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 07:42:56\", \"@valeur\": \"1.962\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-22 19:19:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-22 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-22 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-22 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.17,
       "lat": 45.5
     },
-    "gazole_maj": "2024-02-23T19:54:39+01:00",
-    "gazole_prix": "1.899",
-    "sp95_maj": "2024-02-23T19:54:39+01:00",
+    "gazole_maj": "2024-03-01T19:53:04+01:00",
+    "gazole_prix": "1.876",
+    "sp95_maj": "2024-03-01T08:42:56+01:00",
     "sp95_prix": "1.962",
     "e85_maj": null,
     "e85_prix": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-09-22 19:19:25",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-09-22 19:19:25",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-22 19:19:24",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-22 19:19:25",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -52,6 +67,7 @@
     "departement": "Loire",
     "code_departement": "42",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

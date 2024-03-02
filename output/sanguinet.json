@@ -9,6 +9,7 @@
     "ville": "Sanguinet",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 16:52:33\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 17:54:21\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 17:54:21\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 16:52:33\", \"@valeur\": \"1.839\"}]",
+    "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-04-28 19:41:14\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -1.0558437,
@@ -26,6 +27,18 @@
     "e10_prix": "1.839",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2018-04-28 19:41:14",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -50,7 +65,8 @@
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   },
   {
     "id": 40460001,
@@ -62,6 +78,7 @@
     "ville": "Sanguinet",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 16:53:24\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 17:53:13\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-14 17:53:13\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 16:53:24\", \"@valeur\": \"1.839\"}]",
+    "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-10-07 18:31:00\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -1.07975102,
@@ -79,6 +96,18 @@
     "e10_prix": "1.839",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2022-10-07 18:31:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -89,6 +118,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -104,6 +135,7 @@
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Wizernes",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2019-09-13 08:04:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-04-03 09:06:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-09-13 08:04:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-09-13 08:04:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-09-13 08:04:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-09-13 08:04:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.23584,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2019-04-03 09:06:44",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2019-09-13 08:04:08",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2019-09-13 08:04:08",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2019-09-13 08:04:08",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2019-09-13 08:04:08",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": "2019-09-13 08:04:08",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;SP95;E85;GPLc;SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
@@ -35,6 +50,7 @@
     "departement": "Pas-de-Calais",
     "code_departement": "62",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

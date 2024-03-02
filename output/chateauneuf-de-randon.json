@@ -9,6 +9,7 @@
     "ville": "Châteauneuf-de-Randon",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 08:02:20\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 08:02:21\", \"@valeur\": \"1.904\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 08:02:21\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-18 07:59:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-13 18:37:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-13 18:37:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.676,
@@ -26,6 +27,18 @@
     "e10_prix": "1.904",
     "sp98_maj": "2024-02-24T09:02:21+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-11-18 07:59:02",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-10-13 18:37:34",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-13 18:37:35",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -58,6 +73,7 @@
     "departement": "Lozère",
     "code_departement": "48",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

@@ -8,24 +8,37 @@
     "adresse": "CC LA CROIX D'OR",
     "ville": "Pierrelatte",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 18:54:05\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 18:54:06\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 18:54:06\", \"@valeur\": \"1.946\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 11:26:17\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 11:26:17\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 11:26:18\", \"@valeur\": \"1.942\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-12-05 11:05:57\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-12-05 11:05:57\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-12-05 11:05:57\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.70128,
       "lat": 44.37701
     },
-    "gazole_maj": "2024-02-20T19:54:05+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-20T19:54:06+01:00",
-    "sp95_prix": "1.849",
+    "gazole_maj": "2024-03-01T12:26:17+01:00",
+    "gazole_prix": "1.749",
+    "sp95_maj": "2024-03-01T12:26:17+01:00",
+    "sp95_prix": "1.839",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-20T19:54:06+01:00",
-    "sp98_prix": "1.946",
+    "sp98_maj": "2024-03-01T12:26:18+01:00",
+    "sp98_prix": "1.942",
+    "e10_rupture_debut": "2022-12-05 11:05:57",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-12-05 11:05:57",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2022-12-05 11:05:57",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc;E10",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -46,6 +61,7 @@
     "departement": "Drôme",
     "code_departement": "26",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

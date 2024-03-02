@@ -8,24 +8,37 @@
     "adresse": "RN 2 ROUTE DE SOISSONS",
     "ville": "Rouvres",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.832\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.882\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.942\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.882\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.942\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-07 11:27:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-07 11:27:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.71523931506,
       "lat": 49.070142347799994
     },
-    "gazole_maj": "2024-03-01T01:01:00+01:00",
-    "gazole_prix": "1.832",
+    "gazole_maj": "2024-03-02T01:01:00+01:00",
+    "gazole_prix": "1.822",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-03-01T01:01:00+01:00",
+    "e85_maj": "2024-03-02T01:01:00+01:00",
     "e85_prix": "0.899",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-03-01T01:01:00+01:00",
+    "e10_maj": "2024-03-02T01:01:00+01:00",
     "e10_prix": "1.882",
-    "sp98_maj": "2024-03-01T01:01:00+01:00",
+    "sp98_maj": "2024-03-02T01:01:00+01:00",
     "sp98_prix": "1.942",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-01-07 11:27:33",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-01-07 11:27:35",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",
-    "code_region": "11"
+    "code_region": "11",
+    "horaires_jour": null
   }
 ]

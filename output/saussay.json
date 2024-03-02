@@ -9,6 +9,7 @@
     "ville": "Saussay",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 08:07:14\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 08:07:15\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 08:07:15\", \"@valeur\": \"1.896\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-22 08:06:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-22 08:06:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-22 08:06:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.42303,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-29T09:07:15+01:00",
     "sp98_prix": "1.896",
+    "e10_rupture_debut": "2022-11-22 08:06:18",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-11-22 08:06:18",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2022-11-22 08:06:18",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc;E10",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -52,6 +67,7 @@
     "departement": "Eure-et-Loir",
     "code_departement": "28",
     "region": "Centre-Val de Loire",
-    "code_region": "24"
+    "code_region": "24",
+    "horaires_jour": null
   }
 ]

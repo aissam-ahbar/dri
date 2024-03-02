@@ -9,6 +9,7 @@
     "ville": "Lugrin",
     "services": "{\"service\": [\"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:18:03\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 08:00:00\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 09:22:47\", \"@valeur\": \"1.845\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 09:22:47\", \"@valeur\": \"1.945\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-14 15:03:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-11-21 12:07:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.65083,
@@ -26,6 +27,18 @@
     "e10_prix": "1.845",
     "sp98_maj": "2024-02-29T10:22:47+01:00",
     "sp98_prix": "1.945",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2018-11-21 12:07:35",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-14 15:03:45",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Location de véhicule",
@@ -47,6 +62,7 @@
     "departement": "Haute-Savoie",
     "code_departement": "74",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

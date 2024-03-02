@@ -9,6 +9,7 @@
     "ville": "Montmoreau",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:38:06\", \"@valeur\": \"1.754\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 08:38:07\", \"@valeur\": \"1.780\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 08:38:07\", \"@valeur\": \"1.867\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2016-12-22 09:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-19 15:02:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-19 15:02:41\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.1304,
@@ -26,6 +27,18 @@
     "e10_prix": "1.780",
     "sp98_maj": "2024-02-27T09:38:07+01:00",
     "sp98_prix": "1.867",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-19 15:02:41",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-19 15:02:41",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Charente",
     "code_departement": "16",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Pégomas",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 07:18:09\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 07:18:08\", \"@valeur\": \"1.874\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-31 08:06:45\", \"@valeur\": \"0.902\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 07:18:08\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 07:18:08\", \"@valeur\": \"1.894\"}]",
+    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2014-09-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}",
     "horaires": null,
     "geom": {
       "lon": 6.92965,
@@ -26,6 +27,18 @@
     "e10_prix": "1.800",
     "sp98_maj": "2024-02-28T08:18:08+01:00",
     "sp98_prix": "1.894",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Alpes-Maritimes",
     "code_departement": "06",
     "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
+    "code_region": "93",
+    "horaires_jour": null
   }
 ]

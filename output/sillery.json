@@ -9,6 +9,7 @@
     "ville": "Sillery",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 13:26:24\", \"@valeur\": \"1.794\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-05 10:22:18\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 13:26:25\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 13:26:25\", \"@valeur\": \"1.885\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 4.14837,
@@ -26,6 +27,18 @@
     "e10_prix": "1.819",
     "sp98_maj": "2024-02-29T14:26:25+01:00",
     "sp98_prix": "1.885",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de pétrole lampant",
@@ -46,6 +61,7 @@
     "departement": "Marne",
     "code_departement": "51",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": null
   }
 ]

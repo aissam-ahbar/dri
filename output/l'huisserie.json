@@ -8,16 +8,17 @@
     "adresse": "ZONE ARTIZ DE L'AUBEPIN",
     "ville": "L'Huisserie",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 07:44:52\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-24 07:44:53\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 07:44:53\", \"@valeur\": \"1.871\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:30:57\", \"@valeur\": \"1.758\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 09:30:58\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 07:44:53\", \"@valeur\": \"1.871\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 12:46:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-25 12:46:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-22 08:41:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.769,
       "lat": 48.025
     },
-    "gazole_maj": "2024-02-24T08:44:52+01:00",
-    "gazole_prix": "1.775",
-    "sp95_maj": "2024-02-24T08:44:53+01:00",
-    "sp95_prix": "1.836",
+    "gazole_maj": "2024-03-01T10:30:57+01:00",
+    "gazole_prix": "1.758",
+    "sp95_maj": "2024-03-01T10:30:58+01:00",
+    "sp95_prix": "1.839",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-24T08:44:53+01:00",
     "sp98_prix": "1.871",
+    "e10_rupture_debut": "2017-09-25 12:46:58",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-11-22 08:41:34",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-25 12:46:58",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,11 +49,14 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Mayenne",
     "code_departement": "53",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

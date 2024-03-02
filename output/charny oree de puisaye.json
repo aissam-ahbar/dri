@@ -9,6 +9,7 @@
     "ville": "Charny Orée de Puisaye",
     "services": "{\"service\": \"Automate CB 24/24\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 00:00:00\", \"@valeur\": \"1.979\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-25 15:03:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 15:03:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-25 15:03:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.096,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-01-30T01:00:00+01:00",
     "sp98_prix": "1.979",
+    "e10_rupture_debut": "2017-09-25 15:03:44",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-25 15:03:44",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2017-09-25 15:03:44",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc;E10",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"
@@ -43,7 +58,8 @@
     "departement": "Yonne",
     "code_departement": "89",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24"
   },
   {
     "id": 89120003,
@@ -55,6 +71,7 @@
     "ville": "Charny Orée de Puisaye",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:00:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-31 15:55:37\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 09:00:00\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 09:00:00\", \"@valeur\": \"1.919\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-20 18:48:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-04-04 11:53:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.095,
@@ -72,6 +89,18 @@
     "e10_prix": "1.849",
     "sp98_maj": "2024-02-27T10:00:00+01:00",
     "sp98_prix": "1.919",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-04-04 11:53:19",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2018-12-20 18:48:26",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -82,6 +111,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -94,6 +125,7 @@
     "departement": "Yonne",
     "code_departement": "89",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": "Lundi, Mardi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\", Mercredi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\", Jeudi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\", Vendredi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\", Samedi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\", Dimanche"
   }
 ]

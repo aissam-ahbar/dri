@@ -8,16 +8,17 @@
     "adresse": "Route du Vin",
     "ville": "Rodern",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 10:49:48\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 10:49:48\", \"@valeur\": \"1.897\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:24:09\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 09:24:09\", \"@valeur\": \"1.902\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-03-21 11:23:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-21 11:23:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-03-21 11:23:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-03-21 11:23:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 7.30650593789,
       "lat": 48.247824178900004
     },
-    "gazole_maj": "2024-02-15T11:49:48+01:00",
-    "gazole_prix": "1.899",
-    "sp95_maj": "2024-02-15T11:49:48+01:00",
-    "sp95_prix": "1.897",
+    "gazole_maj": "2024-03-01T10:24:09+01:00",
+    "gazole_prix": "1.880",
+    "sp95_maj": "2024-03-01T10:24:09+01:00",
+    "sp95_prix": "1.902",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2022-03-21 11:23:04",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-03-21 11:23:04",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-03-21 11:23:04",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-03-21 11:23:04",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -48,6 +63,7 @@
     "departement": "Haut-Rhin",
     "code_departement": "68",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": null
   }
 ]

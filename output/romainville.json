@@ -8,24 +8,37 @@
     "adresse": "22 AVENUE LENINE",
     "ville": "Romainville",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Lavage automatique\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.963\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.937\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.958\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.947\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-12-22 17:14:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-12-15 15:40:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-12-15 15:40:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-12-22 20:18:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.43,
       "lat": 48.884
     },
-    "gazole_maj": "2024-03-01T01:01:00+01:00",
-    "gazole_prix": "1.963",
+    "gazole_maj": "2024-03-02T01:01:00+01:00",
+    "gazole_prix": "1.958",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-03-01T01:01:00+01:00",
-    "e10_prix": "1.937",
+    "e10_maj": "2024-03-02T01:01:00+01:00",
+    "e10_prix": "1.947",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2023-12-22 20:18:33",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2021-12-22 17:14:11",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2021-12-15 15:40:06",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-12-15 15:40:06",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10"
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -46,6 +61,7 @@
     "departement": "Seine-Saint-Denis",
     "code_departement": "93",
     "region": "Île-de-France",
-    "code_region": "11"
+    "code_region": "11",
+    "horaires_jour": null
   }
 ]

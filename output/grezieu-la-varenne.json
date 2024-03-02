@@ -9,6 +9,7 @@
     "ville": "Grézieu-la-Varenne",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:16:48\", \"@valeur\": \"1.768\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 09:16:48\", \"@valeur\": \"1.858\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 09:16:48\", \"@valeur\": \"1.808\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 09:16:49\", \"@valeur\": \"1.898\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-08 08:38:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-12-08 08:38:21\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 4.692,
@@ -26,6 +27,18 @@
     "e10_prix": "1.808",
     "sp98_maj": "2024-02-27T10:16:49+01:00",
     "sp98_prix": "1.898",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-12-08 08:38:21",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-12-08 08:38:21",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Rhône",
     "code_departement": "69",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

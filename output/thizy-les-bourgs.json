@@ -9,6 +9,7 @@
     "ville": "Thizy-les-Bourgs",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 11:35:22\", \"@valeur\": \"1.795\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 12:40:03\", \"@valeur\": \"1.825\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 17:07:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 17:07:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-04-20 08:55:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-10-07 10:17:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.29911,
@@ -26,6 +27,18 @@
     "e10_prix": "1.825",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2022-10-07 10:17:01",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2019-04-20 08:55:06",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-01 17:07:18",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-01 17:07:18",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10"
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
@@ -44,6 +59,7 @@
     "departement": "Rhône",
     "code_departement": "69",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

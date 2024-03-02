@@ -9,6 +9,7 @@
     "ville": "Escaudain",
     "services": "{\"service\": [\"Carburant additivé\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2003-05-24 18:48:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2003-05-24 21:27:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2003-05-24 21:27:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2017-07-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-07-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-07-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.34516,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Carburant additivé",
@@ -37,6 +52,7 @@
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

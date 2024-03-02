@@ -8,24 +8,37 @@
     "adresse": "3 rue henri iv",
     "ville": "Casteljaloux",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.847\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.787\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.876\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:55:01\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 08:55:01\", \"@valeur\": \"1.850\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 08:55:02\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 08:55:02\", \"@valeur\": \"1.776\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 08:55:02\", \"@valeur\": \"1.862\"}]",
+    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-10-24 14:34:39\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 0.081,
       "lat": 44.314
     },
-    "gazole_maj": "2024-02-29T10:00:00+01:00",
+    "gazole_maj": "2024-03-01T09:55:01+01:00",
     "gazole_prix": "1.772",
-    "sp95_maj": "2024-02-29T10:00:00+01:00",
-    "sp95_prix": "1.847",
-    "e85_maj": "2024-02-29T10:00:00+01:00",
+    "sp95_maj": "2024-03-01T09:55:01+01:00",
+    "sp95_prix": "1.850",
+    "e85_maj": "2024-03-01T09:55:02+01:00",
     "e85_prix": "0.999",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-29T10:00:00+01:00",
-    "e10_prix": "1.787",
-    "sp98_maj": "2024-02-29T10:00:00+01:00",
-    "sp98_prix": "1.876",
+    "e10_maj": "2024-03-01T09:55:02+01:00",
+    "e10_prix": "1.776",
+    "sp98_maj": "2024-03-01T09:55:02+01:00",
+    "sp98_prix": "1.862",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2020-10-24 14:34:39",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -50,7 +65,8 @@
     "departement": "Lot-et-Garonne",
     "code_departement": "47",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   },
   {
     "id": 47700002,
@@ -62,6 +78,7 @@
     "ville": "Casteljaloux",
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 12:28:31\", \"@valeur\": \"1.783\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-26 12:28:32\", \"@valeur\": \"1.851\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 12:28:32\", \"@valeur\": \"1.811\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-02-20 09:24:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-02-20 09:24:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-06-19 11:17:22\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.09347,
@@ -79,6 +96,18 @@
     "e10_prix": "1.811",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2024-02-20 09:24:38",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-02-20 09:24:38",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2019-06-19 11:17:22",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -89,6 +118,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Lavage manuel",
@@ -98,6 +129,7 @@
     "departement": "Lot-et-Garonne",
     "code_departement": "47",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

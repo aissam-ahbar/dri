@@ -1,97 +1,5 @@
 [
   {
-    "id": 21140002,
-    "latitude": "4749163",
-    "longitude": 433834,
-    "cp": "21140",
-    "pop": "R",
-    "adresse": "ROUTE DE DIJON",
-    "ville": "Semur-en-Auxois",
-    "services": "{\"service\": \"Lavage manuel\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 15:27:31\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 15:27:31\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-21 15:27:31\", \"@valeur\": \"1.020\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.33834,
-      "lat": 47.49163
-    },
-    "gazole_maj": "2024-02-21T16:27:31+01:00",
-    "gazole_prix": "1.940",
-    "sp95_maj": "2024-02-21T16:27:31+01:00",
-    "sp95_prix": "1.940",
-    "e85_maj": "2024-02-21T16:27:31+01:00",
-    "e85_prix": "1.020",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage manuel"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
-    "id": 21140001,
-    "latitude": "4749200",
-    "longitude": 433700,
-    "cp": "21140",
-    "pop": "R",
-    "adresse": "Rue Champ de la Perdrix",
-    "ville": "Semur-en-Auxois",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.999\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 4.337,
-      "lat": 47.492
-    },
-    "gazole_maj": "2024-02-13T01:00:00+01:00",
-    "gazole_prix": "1.869",
-    "sp95_maj": "2024-02-13T01:00:00+01:00",
-    "sp95_prix": "1.949",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-13T01:00:00+01:00",
-    "sp98_prix": "1.999",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 21140003,
     "latitude": "4749230",
     "longitude": 434084,
@@ -101,6 +9,7 @@
     "ville": "Semur-en-Auxois",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 11:19:47\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 11:19:08\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 11:19:08\", \"@valeur\": \"1.819\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 09:08:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 09:08:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-01 09:08:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.34084,
@@ -118,6 +27,18 @@
     "e10_prix": "1.819",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-09-01 09:08:09",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-01 09:08:08",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-01 09:08:09",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -128,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
@@ -136,6 +59,131 @@
     "departement": "Côte-d'Or",
     "code_departement": "21",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
+  },
+  {
+    "id": 21140002,
+    "latitude": "4749163",
+    "longitude": 433834,
+    "cp": "21140",
+    "pop": "R",
+    "adresse": "ROUTE DE DIJON",
+    "ville": "Semur-en-Auxois",
+    "services": "{\"service\": \"Lavage manuel\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 15:27:31\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 15:27:31\", \"@valeur\": \"1.940\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-21 15:27:31\", \"@valeur\": \"1.020\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2014-10-17 08:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-18 09:22:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-18 09:22:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.33834,
+      "lat": 47.49163
+    },
+    "gazole_maj": "2024-02-21T16:27:31+01:00",
+    "gazole_prix": "1.940",
+    "sp95_maj": "2024-02-21T16:27:31+01:00",
+    "sp95_prix": "1.940",
+    "e85_maj": "2024-02-21T16:27:31+01:00",
+    "e85_prix": "1.020",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2022-10-18 09:22:20",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-10-18 09:22:20",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": "GPLc;E10",
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage manuel"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": null
+  },
+  {
+    "id": 21140001,
+    "latitude": "4749200",
+    "longitude": 433700,
+    "cp": "21140",
+    "pop": "R",
+    "adresse": "Rue Champ de la Perdrix",
+    "ville": "Semur-en-Auxois",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 00:00:00\", \"@valeur\": \"1.999\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-11 14:29:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-11 14:29:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-11 14:29:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 4.337,
+      "lat": 47.492
+    },
+    "gazole_maj": "2024-02-13T01:00:00+01:00",
+    "gazole_prix": "1.869",
+    "sp95_maj": "2024-02-13T01:00:00+01:00",
+    "sp95_prix": "1.949",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-13T01:00:00+01:00",
+    "sp98_prix": "1.999",
+    "e10_rupture_debut": "2017-09-11 14:29:40",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-11 14:29:39",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-11 14:29:40",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24"
   }
 ]

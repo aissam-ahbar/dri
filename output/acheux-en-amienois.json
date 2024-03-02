@@ -9,6 +9,7 @@
     "ville": "Acheux-en-Amiénois",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:42:13\", \"@valeur\": \"1.845\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-15 09:42:13\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:42:13\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 09:42:13\", \"@valeur\": \"1.902\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 07:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-08 15:19:06\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.5291,
@@ -26,6 +27,18 @@
     "e10_prix": "1.829",
     "sp98_maj": "2024-02-15T10:42:13+01:00",
     "sp98_prix": "1.902",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-09-08 15:19:06",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-01 07:36:12",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -45,6 +60,7 @@
     "departement": "Somme",
     "code_departement": "80",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

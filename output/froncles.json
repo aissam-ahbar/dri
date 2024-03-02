@@ -9,6 +9,7 @@
     "ville": "Froncles",
     "services": "{\"service\": \"Bar\"}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2016-01-05 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-03 14:03:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-03 14:03:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-12-05 21:17:43\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-12-22 21:03:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2017-12-29 09:08:13\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.15146,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-12-05 21:17:43",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2017-12-22 21:03:45",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2017-11-03 14:03:08",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2017-11-03 14:03:08",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": "2017-12-29 09:08:13",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;SP95;E85;GPLc;SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Bar"
@@ -35,6 +50,7 @@
     "departement": "Haute-Marne",
     "code_departement": "52",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": null
   }
 ]

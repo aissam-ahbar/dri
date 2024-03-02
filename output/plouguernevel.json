@@ -9,6 +9,7 @@
     "ville": "Plouguernével",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 16:27:35\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 18:28:02\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 18:28:03\", \"@valeur\": \"1.829\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2011-11-18 10:15:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-15 16:53:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-07-13 18:31:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -3.296166474018,
@@ -26,6 +27,18 @@
     "e10_prix": "1.779",
     "sp98_maj": "2024-02-12T19:28:03+01:00",
     "sp98_prix": "1.829",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-07-13 18:31:07",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-15 16:53:33",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -48,6 +63,7 @@
     "departement": "Côtes-d'Armor",
     "code_departement": "22",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]

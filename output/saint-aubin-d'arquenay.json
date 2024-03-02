@@ -9,6 +9,7 @@
     "ville": "Saint-Aubin-d'Arquenay",
     "services": null,
     "prix": null,
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-29 11:54:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-29 11:54:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-12-22 12:21:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2021-06-05 17:34:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-05-16 11:58:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-05-16 11:58:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.28047954,
@@ -26,13 +27,28 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-11-29 11:54:28",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2021-05-16 11:58:15",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2021-05-16 11:58:15",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2017-11-29 11:54:27",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-12-22 12:21:45",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": "2021-06-05 17:34:17",
+    "gazole_rupture_type": "definitive",
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "SP95;SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Calvados",
     "code_departement": "14",
     "region": "Normandie",
-    "code_region": "28"
+    "code_region": "28",
+    "horaires_jour": null
   }
 ]

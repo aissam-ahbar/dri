@@ -9,6 +9,7 @@
     "ville": "Casaglione",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:14:12\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:14:12\", \"@valeur\": \"1.959\"}]",
+    "rupture": null,
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
     "geom": {
       "lon": 8.741,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -54,6 +69,7 @@
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
     "region": "Corse",
-    "code_region": "94"
+    "code_region": "94",
+    "horaires_jour": "Automate-24-24, Lundi07.00-20.00, Mardi07.00-20.00, Mercredi07.00-20.00, Jeudi07.00-20.00, Vendredi07.00-20.00, Samedi07.00-20.00, Dimanche07.00-20.00"
   }
 ]

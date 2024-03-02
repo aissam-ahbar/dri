@@ -9,6 +9,7 @@
     "ville": "Tullins",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-25 13:00:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-25 13:00:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-25 13:00:00\", \"@valeur\": \"1.989\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-07 07:59:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 07:59:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 07:59:39\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"13.00\"}]}]}",
     "geom": {
       "lon": 5.5017495250702995,
@@ -26,6 +27,18 @@
     "e10_prix": "1.919",
     "sp98_maj": "2024-02-25T14:00:00+01:00",
     "sp98_prix": "1.989",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-07 07:59:39",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-07 07:59:39",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-07 07:59:39",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -50,7 +65,72 @@
     "departement": "Isère",
     "code_departement": "38",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Lundi06.30-20.00, Mardi06.30-20.00, Mercredi06.30-20.00, Jeudi06.30-20.00, Vendredi06.30-20.00, Samedi07.00-20.00, Dimanche, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"12.00\", \"@fermeture\": \"13.00\""
+  },
+  {
+    "id": 38210004,
+    "latitude": "4529804",
+    "longitude": 548762,
+    "cp": "38210",
+    "pop": "R",
+    "adresse": "Avenue de la Contamine",
+    "ville": "Tullins",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 10:32:23\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 09:32:39\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 10:32:23\", \"@valeur\": \"1.839\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-12-11 10:54:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-11 10:54:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-12-11 10:54:41\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 5.48762,
+      "lat": 45.29804
+    },
+    "gazole_maj": "2024-03-01T11:32:23+01:00",
+    "gazole_prix": "1.769",
+    "sp95_maj": "2024-02-28T10:32:39+01:00",
+    "sp95_prix": "1.869",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-03-01T11:32:23+01:00",
+    "e10_prix": "1.839",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2018-12-11 10:54:41",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-12-11 10:54:40",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-12-11 10:54:40",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Isère",
+    "code_departement": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
   },
   {
     "id": 38210001,
@@ -62,6 +142,7 @@
     "ville": "Tullins",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Bar\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:00:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 08:00:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 08:00:00\", \"@valeur\": \"1.959\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-27 10:57:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-27 10:57:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-02-06 18:35:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 5.509,
@@ -79,6 +160,18 @@
     "e10_prix": "1.869",
     "sp98_maj": "2024-02-13T09:00:00+01:00",
     "sp98_prix": "1.959",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-02-06 18:35:33",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2017-09-27 10:57:29",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-27 10:57:30",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -89,6 +182,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -107,54 +202,7 @@
     "departement": "Isère",
     "code_departement": "38",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 38210004,
-    "latitude": "4529804",
-    "longitude": 548762,
-    "cp": "38210",
-    "pop": "R",
-    "adresse": "Avenue de la Contamine",
-    "ville": "Tullins",
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:32:39\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 09:32:39\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 13:10:13\", \"@valeur\": \"1.829\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 5.48762,
-      "lat": 45.29804
-    },
-    "gazole_maj": "2024-02-28T10:32:39+01:00",
-    "gazole_prix": "1.779",
-    "sp95_maj": "2024-02-28T10:32:39+01:00",
-    "sp95_prix": "1.869",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-26T14:10:13+01:00",
-    "e10_prix": "1.829",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Isère",
-    "code_departement": "38",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]

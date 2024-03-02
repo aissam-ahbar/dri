@@ -9,6 +9,7 @@
     "ville": "Saint-Léons",
     "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 07:41:51\", \"@valeur\": \"1.778\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 23:59:00\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 23:59:00\", \"@valeur\": \"1.929\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-06 17:17:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-07-22 11:51:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-06-02 18:02:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.9868431228800003,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-14T00:59:00+01:00",
     "sp98_prix": "1.929",
+    "e10_rupture_debut": "2022-10-06 17:17:36",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-06-02 18:02:54",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2019-07-22 11:51:41",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds",
@@ -44,6 +59,7 @@
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

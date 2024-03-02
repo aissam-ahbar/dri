@@ -9,6 +9,7 @@
     "ville": "Mane",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 08:56:42\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-06 06:46:44\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 19:25:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 19:25:00\", \"@valeur\": \"1.869\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-22 09:26:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-25 09:28:05\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.95132,
@@ -26,6 +27,18 @@
     "e10_prix": "1.809",
     "sp98_maj": "2024-02-24T20:25:00+01:00",
     "sp98_prix": "1.869",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-11-22 09:26:35",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-11-25 09:28:05",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -47,6 +62,7 @@
     "departement": "Haute-Garonne",
     "code_departement": "31",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

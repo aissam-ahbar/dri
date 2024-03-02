@@ -8,24 +8,37 @@
     "adresse": "Rue des Verchères",
     "ville": "Briord",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:17:56\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 08:17:57\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 08:17:57\", \"@valeur\": \"1.909\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:31:41\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 08:31:41\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 08:31:41\", \"@valeur\": \"1.909\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-07 08:15:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 08:15:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 08:15:21\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.45414,
       "lat": 45.78776
     },
-    "gazole_maj": "2024-02-27T09:17:56+01:00",
-    "gazole_prix": "1.759",
+    "gazole_maj": "2024-03-01T09:31:41+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-27T09:17:57+01:00",
+    "e10_maj": "2024-03-01T09:31:41+01:00",
     "e10_prix": "1.819",
-    "sp98_maj": "2024-02-27T09:17:57+01:00",
+    "sp98_maj": "2024-03-01T09:31:41+01:00",
     "sp98_prix": "1.909",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-07 08:15:20",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-07 08:15:20",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-07 08:15:21",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Ain",
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

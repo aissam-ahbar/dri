@@ -9,6 +9,7 @@
     "ville": "Trévoux",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:49:08\", \"@valeur\": \"1.775\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 09:49:08\", \"@valeur\": \"1.845\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:49:09\", \"@valeur\": \"1.891\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-08-03 14:39:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-12 08:55:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-08-03 14:39:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.79062770497,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-28T10:49:09+01:00",
     "sp98_prix": "1.891",
+    "e10_rupture_debut": "2019-08-03 14:39:50",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2019-08-03 14:39:50",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-12 08:55:17",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
@@ -44,6 +59,7 @@
     "departement": "Ain",
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

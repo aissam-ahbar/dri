@@ -9,6 +9,7 @@
     "ville": "Saugnac-et-Cambran",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-05 12:47:10\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-05 12:47:10\", \"@valeur\": \"1.861\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-05 12:47:10\", \"@valeur\": \"1.971\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2011-11-21 11:14:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2011-11-21 11:16:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-04-03 10:14:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.99557445703,
@@ -26,6 +27,18 @@
     "e10_prix": "1.861",
     "sp98_maj": "2024-02-05T13:47:10+01:00",
     "sp98_prix": "1.971",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-04-03 10:14:03",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

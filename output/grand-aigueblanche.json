@@ -9,6 +9,7 @@
     "ville": "Grand-Aigueblanche",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Bar\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 13:24:22\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 09:27:44\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 13:24:22\", \"@valeur\": \"1.959\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-16 08:21:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2016-03-30 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-03-30 16:40:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.50161,
@@ -26,6 +27,18 @@
     "e10_prix": "1.839",
     "sp98_maj": "2024-02-26T14:24:22+01:00",
     "sp98_prix": "1.959",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-11-16 08:21:50",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -57,6 +72,7 @@
     "departement": "Savoie",
     "code_departement": "73",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

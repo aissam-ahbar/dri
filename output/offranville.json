@@ -8,24 +8,37 @@
     "adresse": "AVENUE DE LA HETRAIE",
     "ville": "Offranville",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:28:28\", \"@valeur\": \"1.814\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:28:28\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:28:28\", \"@valeur\": \"1.916\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:03:48\", \"@valeur\": \"1.813\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 08:03:49\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 08:03:50\", \"@valeur\": \"1.937\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-26 08:55:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 08:55:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-26 08:55:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.04855,
       "lat": 49.87174
     },
-    "gazole_maj": "2024-02-28T09:28:28+01:00",
-    "gazole_prix": "1.814",
-    "sp95_maj": "2024-02-28T09:28:28+01:00",
-    "sp95_prix": "1.880",
+    "gazole_maj": "2024-03-01T09:03:48+01:00",
+    "gazole_prix": "1.813",
+    "sp95_maj": "2024-03-01T09:03:49+01:00",
+    "sp95_prix": "1.900",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-28T09:28:28+01:00",
-    "sp98_prix": "1.916",
+    "sp98_maj": "2024-03-01T09:03:50+01:00",
+    "sp98_prix": "1.937",
+    "e10_rupture_debut": "2017-09-26 08:55:47",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-26 08:55:46",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-26 08:55:46",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
@@ -43,6 +58,7 @@
     "departement": "Seine-Maritime",
     "code_departement": "76",
     "region": "Normandie",
-    "code_region": "28"
+    "code_region": "28",
+    "horaires_jour": null
   }
 ]

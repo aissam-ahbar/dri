@@ -1,5 +1,69 @@
 [
   {
+    "id": 1100001,
+    "latitude": "4628404",
+    "longitude": 566282,
+    "cp": "01100",
+    "pop": "R",
+    "adresse": "ROUTE DE DORTAN",
+    "ville": "Arbent",
+    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:56:53\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 09:56:53\", \"@valeur\": \"1.832\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-03-01 09:56:53\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 09:56:54\", \"@valeur\": \"1.783\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2014-08-27 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-06 08:54:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-06 08:54:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 5.66282,
+      "lat": 46.28404
+    },
+    "gazole_maj": "2024-03-01T10:56:53+01:00",
+    "gazole_prix": "1.739",
+    "sp95_maj": "2024-03-01T10:56:53+01:00",
+    "sp95_prix": "1.832",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-03-01T10:56:53+01:00",
+    "gplc_prix": "0.999",
+    "e10_maj": "2024-03-01T10:56:54+01:00",
+    "e10_prix": "1.783",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-09-06 08:54:34",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-06 08:54:34",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 1100004,
     "latitude": "4627200",
     "longitude": 566000,
@@ -9,6 +73,7 @@
     "ville": "Arbent",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 06:30:00\", \"@valeur\": \"1.820\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 06:30:00\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 06:30:00\", \"@valeur\": \"1.960\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 11:53:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 11:53:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-08-29 11:53:13\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.30\"}}]}",
     "geom": {
       "lon": 5.66,
@@ -26,6 +91,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-14T07:30:00+01:00",
     "sp98_prix": "1.960",
+    "e10_rupture_debut": "2017-08-29 11:53:13",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-08-29 11:53:12",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-08-29 11:53:12",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +113,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -50,54 +129,7 @@
     "departement": "Ain",
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
-  },
-  {
-    "id": 1100001,
-    "latitude": "4628404",
-    "longitude": 566282,
-    "cp": "01100",
-    "pop": "R",
-    "adresse": "ROUTE DE DORTAN",
-    "ville": "Arbent",
-    "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 08:55:20\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 08:55:21\", \"@valeur\": \"1.830\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-29 08:55:21\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 08:55:21\", \"@valeur\": \"1.781\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 5.66282,
-      "lat": 46.28404
-    },
-    "gazole_maj": "2024-02-29T09:55:20+01:00",
-    "gazole_prix": "1.747",
-    "sp95_maj": "2024-02-29T09:55:21+01:00",
-    "sp95_prix": "1.830",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-02-29T09:55:21+01:00",
-    "gplc_prix": "0.999",
-    "e10_maj": "2024-02-29T09:55:21+01:00",
-    "e10_prix": "1.781",
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24, Lundi06.30-21.00, Mardi06.30-21.00, Mercredi06.30-21.00, Jeudi06.30-21.00, Vendredi06.30-21.00, Samedi06.30-21.00, Dimanche06.30-20.30"
   }
 ]

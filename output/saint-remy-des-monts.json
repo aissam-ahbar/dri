@@ -9,6 +9,7 @@
     "ville": "Saint-Rémy-des-Monts",
     "services": "{\"service\": [\"Laverie\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 18:36:48\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-23 18:36:48\", \"@valeur\": \"1.827\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-06 09:32:36\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-04 14:12:50\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 18:36:49\", \"@valeur\": \"1.777\"}]",
+    "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-08-29 11:48:37\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 0.37026499106800004,
@@ -26,6 +27,18 @@
     "e10_prix": "1.777",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-08-29 11:48:37",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -50,6 +65,7 @@
     "departement": "Sarthe",
     "code_departement": "72",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

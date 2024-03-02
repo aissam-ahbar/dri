@@ -9,6 +9,7 @@
     "ville": "Masny",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 12:09:30\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-09 08:26:07\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 13:10:29\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 13:10:29\", \"@valeur\": \"1.889\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-08-04 13:03:42\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 3.20489,
@@ -26,6 +27,18 @@
     "e10_prix": "1.799",
     "sp98_maj": "2024-02-15T14:10:29+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-08-04 13:03:42",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
@@ -44,6 +59,7 @@
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

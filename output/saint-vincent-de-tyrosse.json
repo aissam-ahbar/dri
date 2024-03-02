@@ -8,14 +8,15 @@
     "adresse": "RN 10",
     "ville": "Saint-Vincent-de-Tyrosse",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 11:19:17\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-08 11:53:23\", \"@valeur\": \"0.850\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-28 11:25:38\", \"@valeur\": \"0.965\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 11:04:53\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 11:18:46\", \"@valeur\": \"1.867\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 11:38:36\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-08 11:53:23\", \"@valeur\": \"0.850\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-28 11:25:38\", \"@valeur\": \"0.965\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 11:04:53\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 11:18:46\", \"@valeur\": \"1.867\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-05-18 09:23:30\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -1.2853196366242001,
       "lat": 43.666989042
     },
-    "gazole_maj": "2024-02-29T12:19:17+01:00",
-    "gazole_prix": "1.785",
+    "gazole_maj": "2024-03-01T12:38:36+01:00",
+    "gazole_prix": "1.779",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-08T12:53:23+01:00",
@@ -26,6 +27,18 @@
     "e10_prix": "1.784",
     "sp98_maj": "2024-02-23T12:18:46+01:00",
     "sp98_prix": "1.867",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-05-18 09:23:30",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "SP95"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de fioul domestique",
@@ -50,6 +65,7 @@
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

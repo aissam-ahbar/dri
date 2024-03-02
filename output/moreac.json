@@ -8,14 +8,15 @@
     "adresse": "Giratoire de Kérabuse",
     "ville": "Moréac",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:25:15\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:21:16\", \"@valeur\": \"1.838\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:21:17\", \"@valeur\": \"1.794\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:18:12\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:21:16\", \"@valeur\": \"1.838\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:21:17\", \"@valeur\": \"1.794\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-01 15:36:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-02-25 12:52:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -2.83932,
       "lat": 47.90027
     },
-    "gazole_maj": "2024-02-26T09:25:15+01:00",
-    "gazole_prix": "1.769",
+    "gazole_maj": "2024-03-01T09:18:12+01:00",
+    "gazole_prix": "1.759",
     "sp95_maj": "2024-02-28T09:21:16+01:00",
     "sp95_prix": "1.838",
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.794",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-09-01 15:36:58",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-02-25 12:52:46",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,11 +49,14 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Morbihan",
     "code_departement": "56",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]

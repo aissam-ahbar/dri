@@ -9,6 +9,7 @@
     "ville": "Basse-Ham",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Piste poids lourds\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 09:34:19\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 16:58:23\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 09:34:19\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 09:34:20\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-01 08:53:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-02-13 10:16:02\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 6.229,
@@ -26,6 +27,18 @@
     "e10_prix": "1.819",
     "sp98_maj": "2024-02-12T10:34:20+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-02-13 10:16:02",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-03-01 08:53:59",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Vente de pétrole lampant",
@@ -46,6 +61,7 @@
     "departement": "Moselle",
     "code_departement": "57",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": "Automate-24-24"
   }
 ]

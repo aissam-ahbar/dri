@@ -9,6 +9,7 @@
     "ville": "Épercieux-Saint-Paul",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:42:58\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 08:42:59\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 08:42:59\", \"@valeur\": \"1.914\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-08 12:36:05\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 4.19681,
@@ -26,6 +27,18 @@
     "e10_prix": "1.830",
     "sp98_maj": "2024-02-26T09:42:59+01:00",
     "sp98_prix": "1.914",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-10-08 12:36:05",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -43,6 +58,7 @@
     "departement": "Loire",
     "code_departement": "42",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

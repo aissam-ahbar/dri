@@ -9,6 +9,7 @@
     "ville": "Guitera-les-Bains",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 17:38:31\", \"@valeur\": \"1.938\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 17:38:31\", \"@valeur\": \"1.967\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-12-22 16:30:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-12-22 16:30:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-12-22 16:30:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-12-22 16:30:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"14.01\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"16.00\", \"@fermeture\": \"19.00\"}]}]}",
     "geom": {
       "lon": 9.0974515760268,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2023-12-22 16:30:38",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2023-12-22 16:30:38",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2023-12-22 16:30:38",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2023-12-22 16:30:38",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique non alimentaire",
@@ -50,6 +65,7 @@
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
     "region": "Corse",
-    "code_region": "94"
+    "code_region": "94",
+    "horaires_jour": "Automate-24-24, Lundi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"14.01\", Mardi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Mercredi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Jeudi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Vendredi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Samedi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Dimanche, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"16.00\", \"@fermeture\": \"19.00\""
   }
 ]

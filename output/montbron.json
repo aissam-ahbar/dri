@@ -9,6 +9,7 @@
     "ville": "Montbron",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:45:32\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 08:33:07\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 08:45:33\", \"@valeur\": \"1.799\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 09:26:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 09:26:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-01 09:26:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.501,
@@ -26,6 +27,18 @@
     "e10_prix": "1.799",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-09-01 09:26:09",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-01 09:26:08",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-01 09:26:08",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -50,6 +65,7 @@
     "departement": "Charente",
     "code_departement": "16",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

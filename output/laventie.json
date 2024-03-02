@@ -8,16 +8,17 @@
     "adresse": "57 Rue Robert Parfait",
     "ville": "Laventie",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:02:46\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-05 11:55:47\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 07:18:49\", \"@valeur\": \"0.999\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:51:49\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 07:51:50\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 07:18:49\", \"@valeur\": \"0.999\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-04-06 09:37:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-05-31 16:19:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-05-31 16:19:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "geom": {
       "lon": 2.773,
       "lat": 50.626
     },
-    "gazole_maj": "2024-02-16T09:02:46+01:00",
-    "gazole_prix": "1.819",
-    "sp95_maj": "2024-02-05T12:55:47+01:00",
-    "sp95_prix": "1.869",
+    "gazole_maj": "2024-03-01T08:51:49+01:00",
+    "gazole_prix": "1.839",
+    "sp95_maj": "2024-03-01T08:51:50+01:00",
+    "sp95_prix": "1.919",
     "e85_maj": "2024-01-12T08:18:49+01:00",
     "e85_prix": "0.999",
     "gplc_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2018-05-31 16:19:26",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2021-04-06 09:37:41",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2018-05-31 16:19:26",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -55,6 +70,7 @@
     "departement": "Pas-de-Calais",
     "code_departement": "62",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": "Automate-24-24, Lundi00.00-00.00, Mardi00.00-00.00, Mercredi00.00-00.00, Jeudi00.00-00.00, Vendredi00.00-00.00, Samedi00.00-00.00, Dimanche00.00-00.00"
   }
 ]

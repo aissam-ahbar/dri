@@ -9,6 +9,7 @@
     "ville": "Dangé-Saint-Romain",
     "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-09 09:41:02\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 09:13:36\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 09:13:49\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-28 11:53:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-09-04 11:44:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.60576,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-16T10:13:49+01:00",
     "sp98_prix": "1.899",
+    "e10_rupture_debut": "2019-09-04 11:44:19",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2023-03-28 11:53:05",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds",
@@ -45,6 +60,7 @@
     "departement": "Vienne",
     "code_departement": "86",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

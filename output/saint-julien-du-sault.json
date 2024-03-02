@@ -9,6 +9,7 @@
     "ville": "Saint-Julien-du-Sault",
     "services": "{\"service\": \"Station de gonflage\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 09:12:33\", \"@valeur\": \"1.928\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 09:12:39\", \"@valeur\": \"1.959\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-09-27 08:15:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-09-27 08:15:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-09-27 08:15:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-09-27 08:15:11\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.304,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2019-09-27 08:15:11",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2019-09-27 08:15:11",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2019-09-27 08:15:11",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2019-09-27 08:15:11",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage"
@@ -43,7 +58,8 @@
     "departement": "Yonne",
     "code_departement": "89",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": "Lundi07.30-19.00, Mardi07.30-19.00, Mercredi07.30-19.00, Jeudi07.30-19.00, Vendredi07.30-19.00, Samedi08.30-12.00, Dimanche"
   },
   {
     "id": 89330001,
@@ -55,6 +71,7 @@
     "ville": "Saint-Julien-du-Sault",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 10:58:53\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 10:58:53\", \"@valeur\": \"1.866\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 10:58:54\", \"@valeur\": \"1.928\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-10-10 11:50:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-06-23 12:01:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-06-23 12:01:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.30502,
@@ -72,6 +89,18 @@
     "e10_prix": "1.866",
     "sp98_maj": "2024-02-21T11:58:54+01:00",
     "sp98_prix": "1.928",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2018-10-10 11:50:43",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2020-06-23 12:01:24",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2020-06-23 12:01:24",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -82,6 +111,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
@@ -90,6 +121,7 @@
     "departement": "Yonne",
     "code_departement": "89",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]

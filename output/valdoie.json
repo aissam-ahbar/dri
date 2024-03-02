@@ -9,6 +9,7 @@
     "ville": "Valdoie",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:24:57\", \"@valeur\": \"1.794\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-23 08:24:57\", \"@valeur\": \"1.810\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-23 08:24:57\", \"@valeur\": \"0.958\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 08:24:58\", \"@valeur\": \"1.859\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-06-23 19:42:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-06-13 19:34:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.842203087160001,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-23T09:24:58+01:00",
     "sp98_prix": "1.859",
+    "e10_rupture_debut": "2022-06-13 19:34:57",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-06-23 19:42:05",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E85",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -52,6 +67,7 @@
     "departement": "Territoire de Belfort",
     "code_departement": "90",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]

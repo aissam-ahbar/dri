@@ -9,6 +9,7 @@
     "ville": "Le Pouliguen",
     "services": "{\"service\": [\"Laverie\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:40:02\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 09:40:02\", \"@valeur\": \"1.791\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 09:40:03\", \"@valeur\": \"1.869\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-02-25 16:08:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-12 10:05:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-12 10:05:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -2.44083,
@@ -26,6 +27,18 @@
     "e10_prix": "1.791",
     "sp98_maj": "2024-02-23T10:40:03+01:00",
     "sp98_prix": "1.869",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-02-25 16:08:46",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-12 10:05:18",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-12 10:05:18",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -50,6 +65,7 @@
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

@@ -1,53 +1,5 @@
 [
   {
-    "id": 83136009,
-    "latitude": "4331600",
-    "longitude": 607400,
-    "cp": "83136",
-    "pop": "R",
-    "adresse": "Impasse des chênes verts",
-    "ville": "Rocbaron",
-    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:34:20\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-08 08:04:01\", \"@valeur\": \"0.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 09:24:33\", \"@valeur\": \"1.805\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 09:24:33\", \"@valeur\": \"1.885\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
-    "geom": {
-      "lon": 6.074,
-      "lat": 43.316
-    },
-    "gazole_maj": "2024-02-27T10:34:20+01:00",
-    "gazole_prix": "1.764",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-08T09:04:01+01:00",
-    "e85_prix": "0.898",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-20T10:24:33+01:00",
-    "e10_prix": "1.805",
-    "sp98_maj": "2024-02-20T10:24:33+01:00",
-    "sp98_prix": "1.885",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 83136007,
     "latitude": "4331800",
     "longitude": 607600,
@@ -56,24 +8,37 @@
     "adresse": "ZAC DE FRAY REDON",
     "ville": "Rocbaron",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 00:01:00\", \"@valeur\": \"1.853\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 00:01:00\", \"@valeur\": \"1.882\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.845\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-05 00:01:00\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.888\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 08:30:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 08:30:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 6.076,
       "lat": 43.318
     },
-    "gazole_maj": "2024-02-28T01:01:00+01:00",
-    "gazole_prix": "1.853",
+    "gazole_maj": "2024-03-02T01:01:00+01:00",
+    "gazole_prix": "1.845",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-01-05T01:01:00+01:00",
     "e85_prix": "0.919",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-27T01:01:00+01:00",
-    "e10_prix": "1.882",
+    "e10_maj": "2024-03-02T01:01:00+01:00",
+    "e10_prix": "1.888",
     "sp98_maj": "2024-02-27T01:01:00+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-08-31 08:30:32",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-08-31 08:30:32",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -84,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique alimentaire",
@@ -103,6 +70,71 @@
     "departement": "Var",
     "code_departement": "83",
     "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
+    "code_region": "93",
+    "horaires_jour": "Automate-24-24, Lundi07.00-19.00, Mardi07.00-19.00, Mercredi07.00-19.00, Jeudi07.00-19.00, Vendredi07.00-19.00, Samedi07.00-19.00, Dimanche"
+  },
+  {
+    "id": 83136009,
+    "latitude": "4331600",
+    "longitude": 607400,
+    "cp": "83136",
+    "pop": "R",
+    "adresse": "Impasse des chênes verts",
+    "ville": "Rocbaron",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:34:20\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-08 08:04:01\", \"@valeur\": \"0.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 09:24:33\", \"@valeur\": \"1.805\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 09:24:33\", \"@valeur\": \"1.885\"}]",
+    "rupture": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
+    "geom": {
+      "lon": 6.074,
+      "lat": 43.316
+    },
+    "gazole_maj": "2024-02-27T10:34:20+01:00",
+    "gazole_prix": "1.764",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-08T09:04:01+01:00",
+    "e85_prix": "0.898",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-20T10:24:33+01:00",
+    "e10_prix": "1.805",
+    "sp98_maj": "2024-02-20T10:24:33+01:00",
+    "sp98_prix": "1.885",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93",
+    "horaires_jour": "Automate-24-24, Lundi00.00-23.59, Mardi00.00-23.59, Mercredi00.00-23.59, Jeudi00.00-23.59, Vendredi00.00-23.59, Samedi00.00-23.59, Dimanche00.00-23.59"
   }
 ]

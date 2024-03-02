@@ -9,6 +9,7 @@
     "ville": "Vélines",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 06:00:38\", \"@valeur\": \"1.793\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-23 06:00:39\", \"@valeur\": \"1.846\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 06:00:39\", \"@valeur\": \"1.893\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-10-21 07:12:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-10-21 07:12:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-10-21 07:12:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.1036584,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-23T07:00:39+01:00",
     "sp98_prix": "1.893",
+    "e10_rupture_debut": "2023-10-21 07:12:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2023-10-21 07:12:19",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2023-10-21 07:12:19",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -45,6 +60,7 @@
     "departement": "Dordogne",
     "code_departement": "24",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

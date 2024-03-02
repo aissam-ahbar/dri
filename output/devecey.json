@@ -9,6 +9,7 @@
     "ville": "Devecey",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 11:16:22\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 11:16:22\", \"@valeur\": \"1.860\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-25 14:31:05\", \"@valeur\": \"0.960\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 11:16:23\", \"@valeur\": \"1.965\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-23 11:47:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-22 07:41:08\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.01064,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-27T12:16:23+01:00",
     "sp98_prix": "1.965",
+    "e10_rupture_debut": "2022-10-22 07:41:08",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-23 11:47:22",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Doubs",
     "code_departement": "25",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Aimargues",
     "services": "{\"service\": \"Automate CB 24/24\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 07:04:37\", \"@valeur\": \"1.771\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 07:04:38\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 07:04:38\", \"@valeur\": \"1.890\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-09-10 05:29:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-10 05:29:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-04-21 13:20:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}]}",
     "geom": {
       "lon": 4.209,
@@ -26,6 +27,18 @@
     "e10_prix": "1.786",
     "sp98_maj": "2024-02-26T08:04:38+01:00",
     "sp98_prix": "1.890",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-04-21 13:20:18",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2022-09-10 05:29:16",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-09-10 05:29:16",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"
@@ -43,7 +58,8 @@
     "departement": "Gard",
     "code_departement": "30",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24, Lundi07.00-19.00, Mardi07.00-19.00, Mercredi07.00-19.00, Jeudi07.00-19.00, Vendredi07.00-19.00, Samedi07.00-19.00, Dimanche07.00-19.00"
   },
   {
     "id": 30470004,
@@ -54,24 +70,37 @@
     "adresse": "RD 6313 - ROUTE DE LA PETITE CAM",
     "ville": "Aimargues",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.771\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.896\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.896\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-15 11:20:52\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 4.20011726025,
       "lat": 43.696285922600005
     },
-    "gazole_maj": "2024-03-01T01:01:00+01:00",
-    "gazole_prix": "1.771",
+    "gazole_maj": "2024-03-02T01:01:00+01:00",
+    "gazole_prix": "1.766",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-03-01T01:01:00+01:00",
+    "e85_maj": "2024-03-02T01:01:00+01:00",
     "e85_prix": "0.899",
-    "gplc_maj": "2024-03-01T01:01:00+01:00",
+    "gplc_maj": "2024-03-02T01:01:00+01:00",
     "gplc_prix": "0.979",
-    "e10_maj": "2024-03-01T01:01:00+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-03-01T01:01:00+01:00",
+    "e10_maj": "2024-03-02T01:01:00+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2024-03-02T01:01:00+01:00",
     "sp98_prix": "1.896",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-01-15 11:20:52",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -82,6 +111,8 @@
     "carburants_indisponibles": [
       "SP95"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -95,7 +126,8 @@
     "departement": "Gard",
     "code_departement": "30",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   },
   {
     "id": 30470001,
@@ -107,6 +139,7 @@
     "ville": "Aimargues",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:53:08\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-10 09:03:55\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 08:36:23\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 08:36:57\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 08:23:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-12-23 06:56:16\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}, {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}]}]}",
     "geom": {
       "lon": 4.203,
@@ -124,6 +157,18 @@
     "e10_prix": "1.788",
     "sp98_maj": "2024-02-19T09:36:57+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-12-23 06:56:16",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-01 08:23:54",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -134,6 +179,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -153,6 +200,7 @@
     "departement": "Gard",
     "code_departement": "30",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24, Lundi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Mardi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Mercredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Jeudi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Vendredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Samedi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Dimanche, \"horaire\": \"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\", \"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\""
   }
 ]

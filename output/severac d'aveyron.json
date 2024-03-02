@@ -9,6 +9,7 @@
     "ville": "Sévérac d'Aveyron",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 09:50:51\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-23 09:57:21\", \"@valeur\": \"1.847\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 09:50:51\", \"@valeur\": \"1.879\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2013-09-17 16:16:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2013-09-17 16:16:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2013-09-17 16:16:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.06825,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-29T10:50:51+01:00",
     "sp98_prix": "1.879",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de pétrole lampant",
@@ -45,7 +60,68 @@
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
+  },
+  {
+    "id": 12150006,
+    "latitude": "4433000",
+    "longitude": 308200,
+    "cp": "12150",
+    "pop": "A",
+    "adresse": "AUTOROUTE A75 - AIRE DE L'AVEYRON",
+    "ville": "Sévérac d'Aveyron",
+    "services": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:00:00\", \"@valeur\": \"1.964\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 09:00:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-03-01 09:00:00\", \"@valeur\": \"1.064\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 09:00:00\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 09:00:00\", \"@valeur\": \"1.990\"}]",
+    "rupture": null,
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 3.082,
+      "lat": 44.33
+    },
+    "gazole_maj": "2024-03-01T10:00:00+01:00",
+    "gazole_prix": "1.964",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-03-01T10:00:00+01:00",
+    "e85_prix": "0.999",
+    "gplc_maj": "2024-03-01T10:00:00+01:00",
+    "gplc_prix": "1.064",
+    "e10_maj": "2024-03-01T10:00:00+01:00",
+    "e10_prix": "1.990",
+    "sp98_maj": "2024-03-01T10:00:00+01:00",
+    "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": null,
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": null
   },
   {
     "id": 12150004,
@@ -57,6 +133,7 @@
     "ville": "Sévérac d'Aveyron",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 09:07:26\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 17:24:42\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 09:07:31\", \"@valeur\": \"1.879\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2013-09-11 09:05:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2013-09-11 09:05:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2015-10-15 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.06544,
@@ -74,6 +151,18 @@
     "e10_prix": "1.839",
     "sp98_maj": "2024-02-29T10:07:31+01:00",
     "sp98_prix": "1.879",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -84,6 +173,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
@@ -91,51 +182,8 @@
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
-    "code_region": "76"
-  },
-  {
-    "id": 12150006,
-    "latitude": "4433000",
-    "longitude": 308200,
-    "cp": "12150",
-    "pop": "A",
-    "adresse": "AUTOROUTE A75 - AIRE DE L'AVEYRON",
-    "ville": "Sévérac d'Aveyron",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.974\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.064\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 09:00:00\", \"@valeur\": \"1.990\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 3.082,
-      "lat": 44.33
-    },
-    "gazole_maj": "2024-02-29T10:00:00+01:00",
-    "gazole_prix": "1.974",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-29T10:00:00+01:00",
-    "e85_prix": "0.999",
-    "gplc_maj": "2024-02-29T10:00:00+01:00",
-    "gplc_prix": "1.064",
-    "e10_maj": "2024-02-29T10:00:00+01:00",
-    "e10_prix": "1.990",
-    "sp98_maj": "2024-02-29T10:00:00+01:00",
-    "sp98_prix": "1.990",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   },
   {
     "id": 12150007,
@@ -146,24 +194,37 @@
     "adresse": "37 AVENUE DE PARIS",
     "ville": "Sévérac d'Aveyron",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 11:44:55\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-22 08:42:59\", \"@valeur\": \"1.848\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 08:42:59\", \"@valeur\": \"1.898\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 11:58:34\", \"@valeur\": \"1.756\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 11:58:34\", \"@valeur\": \"1.876\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 11:58:35\", \"@valeur\": \"1.938\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-05-19 11:34:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-05-19 11:34:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-06-01 17:38:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 3.069316338544,
       "lat": 44.329328023608994
     },
-    "gazole_maj": "2024-02-27T12:44:55+01:00",
-    "gazole_prix": "1.765",
-    "sp95_maj": "2024-02-22T09:42:59+01:00",
-    "sp95_prix": "1.848",
+    "gazole_maj": "2024-03-01T12:58:34+01:00",
+    "gazole_prix": "1.756",
+    "sp95_maj": "2024-03-01T12:58:34+01:00",
+    "sp95_prix": "1.876",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-22T09:42:59+01:00",
-    "sp98_prix": "1.898",
+    "sp98_maj": "2024-03-01T12:58:35+01:00",
+    "sp98_prix": "1.938",
+    "e10_rupture_debut": "2022-06-01 17:38:36",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-05-19 11:34:35",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-05-19 11:34:35",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -174,6 +235,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Station de gonflage",
@@ -184,7 +247,8 @@
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24"
   },
   {
     "id": 12150005,
@@ -196,6 +260,7 @@
     "ville": "Sévérac d'Aveyron",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 23:59:00\", \"@valeur\": \"1.778\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 23:59:00\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-17 23:59:00\", \"@valeur\": \"0.999\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-06-02 17:55:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-05-17 15:06:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-05-17 15:06:59\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.972,
@@ -213,6 +278,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2022-05-17 15:06:59",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-05-17 15:06:59",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-06-02 17:55:45",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -223,6 +300,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -237,6 +316,7 @@
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

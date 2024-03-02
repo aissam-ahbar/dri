@@ -8,24 +8,37 @@
     "adresse": "14 RUE D'ALTKIRCH",
     "ville": "Wittersdorf",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 19:49:49\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 19:49:50\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 19:49:50\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 19:49:50\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 19:27:09\", \"@valeur\": \"1.871\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 19:27:10\", \"@valeur\": \"0.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 19:27:10\", \"@valeur\": \"1.883\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 19:27:10\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-16 09:04:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-16 09:04:21\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 7.27143926147,
       "lat": 47.62337553930001
     },
-    "gazole_maj": "2024-02-26T20:49:49+01:00",
-    "gazole_prix": "1.879",
+    "gazole_maj": "2024-03-01T20:27:09+01:00",
+    "gazole_prix": "1.871",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-26T20:49:50+01:00",
+    "e85_maj": "2024-03-01T20:27:10+01:00",
     "e85_prix": "0.919",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-26T20:49:50+01:00",
+    "e10_maj": "2024-03-01T20:27:10+01:00",
     "e10_prix": "1.883",
-    "sp98_maj": "2024-02-26T20:49:50+01:00",
+    "sp98_maj": "2024-03-01T20:27:10+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-01-16 09:04:21",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-01-16 09:04:22",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -46,6 +61,7 @@
     "departement": "Haut-Rhin",
     "code_departement": "68",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": null
   }
 ]

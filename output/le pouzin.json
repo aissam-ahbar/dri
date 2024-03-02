@@ -9,6 +9,7 @@
     "ville": "Le Pouzin",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 08:28:42\", \"@valeur\": \"1.894\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 08:28:42\", \"@valeur\": \"1.958\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-11 12:17:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-11 12:17:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-06-11 12:17:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-06-11 12:17:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.74503,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2018-06-11 12:17:26",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2018-06-11 12:17:26",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-06-11 12:17:25",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-06-11 12:17:25",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,7 +66,8 @@
     "departement": "Ardèche",
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   },
   {
     "id": 7250004,
@@ -63,6 +79,7 @@
     "ville": "Le Pouzin",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 08:36:28\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 08:36:28\", \"@valeur\": \"1.910\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-29 08:36:28\", \"@valeur\": \"1.010\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 08:36:29\", \"@valeur\": \"1.940\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-07 07:43:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-07 07:43:51\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.75673,
@@ -80,6 +97,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-29T09:36:29+01:00",
     "sp98_prix": "1.940",
+    "e10_rupture_debut": "2017-11-07 07:43:51",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-11-07 07:43:50",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -90,6 +119,8 @@
       "E85",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique non alimentaire",
@@ -100,6 +131,7 @@
     "departement": "Ardèche",
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

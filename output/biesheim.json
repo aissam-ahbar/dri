@@ -8,14 +8,15 @@
     "adresse": "CD 52 ZONE INDUSTRIELLE",
     "ville": "Biesheim",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 18:59:09\", \"@valeur\": \"1.880\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 18:59:10\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 20:52:39\", \"@valeur\": \"1.872\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 18:59:10\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-16 14:37:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-07-16 14:37:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-21 07:53:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-16 14:37:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 7.556,
       "lat": 48.043
     },
-    "gazole_maj": "2024-02-24T19:59:09+01:00",
-    "gazole_prix": "1.880",
+    "gazole_maj": "2024-03-01T21:52:39+01:00",
+    "gazole_prix": "1.872",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.889",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2021-07-16 14:37:50",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2022-04-21 07:53:40",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2021-07-16 14:37:49",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-07-16 14:37:50",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10"
@@ -36,11 +49,14 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Haut-Rhin",
     "code_departement": "68",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": null
   }
 ]

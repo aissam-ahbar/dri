@@ -8,15 +8,16 @@
     "adresse": "11 AVENUE DE LA GARE",
     "ville": "Paulhaguet",
     "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:03:16\", \"@valeur\": \"1.804\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 08:03:17\", \"@valeur\": \"1.874\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 08:03:17\", \"@valeur\": \"1.917\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 13:49:25\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 13:49:25\", \"@valeur\": \"1.874\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 13:49:26\", \"@valeur\": \"1.917\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-08-13 08:47:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-08-13 08:47:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-08-13 08:47:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.50687903911,
       "lat": 45.2087954502
     },
-    "gazole_maj": "2024-02-21T09:03:16+01:00",
-    "gazole_prix": "1.804",
-    "sp95_maj": "2024-02-21T09:03:17+01:00",
+    "gazole_maj": "2024-03-01T14:49:25+01:00",
+    "gazole_prix": "1.754",
+    "sp95_maj": "2024-03-01T14:49:25+01:00",
     "sp95_prix": "1.874",
     "e85_maj": null,
     "e85_prix": null,
@@ -24,8 +25,20 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-21T09:03:17+01:00",
+    "sp98_maj": "2024-03-01T14:49:26+01:00",
     "sp98_prix": "1.917",
+    "e10_rupture_debut": "2019-08-13 08:47:20",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2019-08-13 08:47:20",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2019-08-13 08:47:20",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds",
@@ -44,6 +59,7 @@
     "departement": "Haute-Loire",
     "code_departement": "43",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Saint-Molf",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 11:04:56\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 11:04:56\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 11:04:56\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 11:04:57\", \"@valeur\": \"1.828\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-05-31 16:44:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-14 11:35:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": -2.432,
@@ -26,6 +27,18 @@
     "e10_prix": "1.759",
     "sp98_maj": "2024-02-29T12:04:57+01:00",
     "sp98_prix": "1.828",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-05-31 16:44:48",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2024-02-14 11:35:37",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,11 +49,14 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "SP95;GPLc",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": "Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]

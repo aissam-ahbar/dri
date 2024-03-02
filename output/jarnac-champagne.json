@@ -9,6 +9,7 @@
     "ville": "Jarnac-Champagne",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-03 14:14:34\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-05 12:16:26\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-30 12:09:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-03-30 12:09:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-30 12:09:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-03-30 12:09:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "geom": {
       "lon": -0.402,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2023-12-05T13:16:26+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": "2023-03-30 12:09:01",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-03-30 12:09:01",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2023-03-30 12:09:01",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2023-03-30 12:09:01",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP98"
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Relais colis",
@@ -54,6 +69,7 @@
     "departement": "Charente-Maritime",
     "code_departement": "17",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Automate-24-24, Lundi00.00-23.59, Mardi00.00-23.59, Mercredi00.00-23.59, Jeudi00.00-23.59, Vendredi00.00-23.59, Samedi00.00-23.59, Dimanche00.00-23.59"
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Séguret",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-02 14:06:55\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-26 09:06:03\", \"@valeur\": \"1.939\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-01-17 12:51:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-01-17 12:51:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-01-17 12:51:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-01-17 12:51:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 5.0139130168282,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2022-01-17 12:51:12",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-01-17 12:51:12",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-01-17 12:51:12",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-01-17 12:51:12",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Station de gonflage",
@@ -48,6 +63,7 @@
     "departement": "Vaucluse",
     "code_departement": "84",
     "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
+    "code_region": "93",
+    "horaires_jour": "Automate-24-24, Lundi07.00-18.30, Mardi07.00-18.30, Mercredi07.00-18.30, Jeudi07.00-18.30, Vendredi07.00-18.30, Samedi, Dimanche"
   }
 ]

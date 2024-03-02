@@ -9,6 +9,7 @@
     "ville": "Chaveignes",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 19:00:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 19:00:00\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 08:45:27\", \"@valeur\": \"1.859\"}]",
+    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-02-27 17:23:04\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 0.33397,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-20T09:45:27+01:00",
     "sp98_prix": "1.859",
+    "e10_rupture_debut": "2019-02-27 17:23:04",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de fioul domestique",
@@ -46,6 +61,7 @@
     "departement": "Indre-et-Loire",
     "code_departement": "37",
     "region": "Centre-Val de Loire",
-    "code_region": "24"
+    "code_region": "24",
+    "horaires_jour": null
   }
 ]

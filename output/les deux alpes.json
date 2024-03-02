@@ -8,15 +8,16 @@
     "adresse": "8 Avenue de la Muzelle",
     "ville": "Les Deux Alpes",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 08:01:00\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 08:01:00\", \"@valeur\": \"1.980\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 08:01:00\", \"@valeur\": \"2.030\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:22:11\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 07:22:11\", \"@valeur\": \"1.980\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 07:22:11\", \"@valeur\": \"2.040\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2020-03-22 11:07:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-01-11 14:12:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-11 14:12:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 6.125,
       "lat": 45.019
     },
-    "gazole_maj": "2024-02-15T09:01:00+01:00",
-    "gazole_prix": "1.930",
-    "sp95_maj": "2024-02-15T09:01:00+01:00",
+    "gazole_maj": "2024-03-01T08:22:11+01:00",
+    "gazole_prix": "1.880",
+    "sp95_maj": "2024-03-01T08:22:11+01:00",
     "sp95_prix": "1.980",
     "e85_maj": null,
     "e85_prix": null,
@@ -24,8 +25,20 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-15T09:01:00+01:00",
-    "sp98_prix": "2.030",
+    "sp98_maj": "2024-03-01T08:22:11+01:00",
+    "sp98_prix": "2.040",
+    "e10_rupture_debut": "2020-03-22 11:07:32",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-01-11 14:12:57",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-01-11 14:12:57",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Vente de fioul domestique",
@@ -45,6 +60,7 @@
     "departement": "Isère",
     "code_departement": "38",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24"
   }
 ]

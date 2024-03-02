@@ -8,14 +8,15 @@
     "adresse": "D 949 -LES QUATRE CHEMINS",
     "ville": "Sainte-Gemme-la-Plaine",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:49:23\", \"@valeur\": \"1.881\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 08:40:56\", \"@valeur\": \"1.914\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-27 08:32:47\", \"@valeur\": \"0.980\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:30:21\", \"@valeur\": \"1.871\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 08:40:56\", \"@valeur\": \"1.914\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-10-27 08:32:47\", \"@valeur\": \"0.980\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 18:45:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-08-29 18:45:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-08-29 18:45:51\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -1.111,
       "lat": 46.468
     },
-    "gazole_maj": "2024-02-28T08:49:23+01:00",
-    "gazole_prix": "1.881",
+    "gazole_maj": "2024-03-01T08:30:21+01:00",
+    "gazole_prix": "1.871",
     "sp95_maj": "2024-02-13T09:40:56+01:00",
     "sp95_prix": "1.914",
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-08-29 18:45:51",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-08-29 18:45:51",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-08-29 18:45:51",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -52,6 +67,7 @@
     "departement": "Vendée",
     "code_departement": "85",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": "Lundi07.00-19.00, Mardi07.00-19.00, Mercredi07.00-19.00, Jeudi07.00-19.00, Vendredi07.00-19.00, Samedi09.00-17.00, Dimanche"
   }
 ]

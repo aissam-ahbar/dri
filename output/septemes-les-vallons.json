@@ -9,6 +9,7 @@
     "ville": "Septèmes-les-Vallons",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 14:05:10\", \"@valeur\": \"1.828\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 14:05:11\", \"@valeur\": \"1.865\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-11-08 14:45:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-11-08 14:45:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-11-08 14:45:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-11-08 14:45:39\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}]}",
     "geom": {
       "lon": 5.364,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2021-11-08 14:45:39",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2021-11-08 14:45:39",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2021-11-08 14:45:39",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-11-08 14:45:39",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -51,6 +66,7 @@
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",
     "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
+    "code_region": "93",
+    "horaires_jour": "Lundi06.00-19.30, Mardi06.00-19.30, Mercredi06.00-19.30, Jeudi06.00-19.30, Vendredi06.00-19.30, Samedi06.00-19.30, Dimanche07.00-19.30"
   }
 ]

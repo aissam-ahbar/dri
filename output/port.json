@@ -8,24 +8,37 @@
     "adresse": "Rue de l'industrie",
     "ville": "Port",
     "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:17:56\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 08:33:56\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 08:33:56\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:17:56\", \"@valeur\": \"1.915\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:01:55\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 08:33:56\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 08:01:57\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 08:01:57\", \"@valeur\": \"1.919\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-04-13 07:54:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-09-21 15:11:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 5.571,
       "lat": 46.166
     },
-    "gazole_maj": "2024-02-28T09:17:56+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2024-03-01T09:01:55+01:00",
+    "gazole_prix": "1.779",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-26T09:33:56+01:00",
     "e85_prix": "0.849",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-26T09:33:56+01:00",
-    "e10_prix": "1.855",
-    "sp98_maj": "2024-02-28T09:17:56+01:00",
-    "sp98_prix": "1.915",
+    "e10_maj": "2024-03-01T09:01:57+01:00",
+    "e10_prix": "1.859",
+    "sp98_maj": "2024-03-01T09:01:57+01:00",
+    "sp98_prix": "1.919",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-04-13 07:54:27",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2020-09-21 15:11:18",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Piste poids lourds",
@@ -44,6 +59,7 @@
     "departement": "Ain",
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24"
   }
 ]

@@ -8,14 +8,15 @@
     "adresse": "Avenue de la Promenade",
     "ville": "Cers",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:46:26\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 09:44:08\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 09:44:08\", \"@valeur\": \"1.816\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 09:46:27\", \"@valeur\": \"1.899\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:05:10\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 09:44:08\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 09:44:08\", \"@valeur\": \"1.816\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 09:46:27\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-08-31 10:02:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-09-27 18:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.302,
       "lat": 43.319
     },
-    "gazole_maj": "2024-02-27T10:46:26+01:00",
-    "gazole_prix": "1.759",
+    "gazole_maj": "2024-03-01T10:05:10+01:00",
+    "gazole_prix": "1.739",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-01-12T10:44:08+01:00",
@@ -26,6 +27,18 @@
     "e10_prix": "1.816",
     "sp98_maj": "2024-02-27T10:46:27+01:00",
     "sp98_prix": "1.899",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-09-27 18:43:32",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2021-08-31 10:02:30",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -46,6 +61,7 @@
     "departement": "Hérault",
     "code_departement": "34",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

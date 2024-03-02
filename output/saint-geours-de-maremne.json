@@ -8,24 +8,37 @@
     "adresse": "ZAE Atlantisud 90 rue du pays d'orthe",
     "ville": "Saint-Geours-de-Maremne",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 11:53:20\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-07 23:59:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-25 23:59:00\", \"@valeur\": \"1.856\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-25 23:59:00\", \"@valeur\": \"1.959\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 12:02:21\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 12:02:21\", \"@valeur\": \"0.949\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 12:02:21\", \"@valeur\": \"1.856\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 12:02:21\", \"@valeur\": \"1.959\"}]",
+    "rupture": null,
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -1.233,
       "lat": 43.714
     },
-    "gazole_maj": "2024-02-29T12:53:20+01:00",
-    "gazole_prix": "1.815",
+    "gazole_maj": "2024-03-01T13:02:21+01:00",
+    "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-08T00:59:00+01:00",
+    "e85_maj": "2024-03-01T13:02:21+01:00",
     "e85_prix": "0.949",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-26T00:59:00+01:00",
+    "e10_maj": "2024-03-01T13:02:21+01:00",
     "e10_prix": "1.856",
-    "sp98_maj": "2024-02-26T00:59:00+01:00",
+    "sp98_maj": "2024-03-01T13:02:21+01:00",
     "sp98_prix": "1.959",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
@@ -49,6 +64,7 @@
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Automate-24-24"
   }
 ]

@@ -8,7 +8,8 @@
     "adresse": "Route du Mans",
     "ville": "Luceau",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:29:27\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 08:29:27\", \"@valeur\": \"1.826\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 08:29:27\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 08:29:27\", \"@valeur\": \"1.860\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:29:27\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 08:29:27\", \"@valeur\": \"1.826\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 08:29:27\", \"@valeur\": \"1.788\"}]",
+    "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-03-01 12:56:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "horaires": null,
     "geom": {
       "lon": 0.406,
@@ -24,18 +25,32 @@
     "gplc_prix": null,
     "e10_maj": "2024-02-27T09:29:27+01:00",
     "e10_prix": "1.788",
-    "sp98_maj": "2024-02-27T09:29:27+01:00",
-    "sp98_prix": "1.860",
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2024-03-01 12:56:10",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
+    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Sarthe",
     "code_departement": "72",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

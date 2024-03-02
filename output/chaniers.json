@@ -9,6 +9,7 @@
     "ville": "Chaniers",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Carburant additivé\", \"Wifi\"]}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2022-02-07 07:15:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-17 09:31:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-02-07 07:18:58\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-03-11 09:26:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-03-11 09:26:44\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -0.562,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2022-03-11 09:26:43",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-03-11 09:26:44",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2022-02-07 07:18:58",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2017-10-17 09:31:20",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": "2022-02-07 07:15:40",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;SP95",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -41,6 +56,7 @@
     "departement": "Charente-Maritime",
     "code_departement": "17",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Lundi06.30-19.30, Mardi06.30-19.30, Mercredi06.30-19.30, Jeudi06.30-19.30, Vendredi06.30-19.30, Samedi08.00-12.30, Dimanche"
   }
 ]

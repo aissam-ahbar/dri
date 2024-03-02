@@ -1,51 +1,5 @@
 [
   {
-    "id": 71850004,
-    "latitude": "4630800",
-    "longitude": 481100,
-    "cp": "71850",
-    "pop": "R",
-    "adresse": "60, Grande Rue de la Coupée",
-    "ville": "Charnay-lès-Mâcon",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 23:54:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 23:54:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 23:54:00\", \"@valeur\": \"1.899\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 4.811,
-      "lat": 46.308
-    },
-    "gazole_maj": "2024-02-29T00:54:00+01:00",
-    "gazole_prix": "1.799",
-    "sp95_maj": "2024-02-29T00:54:00+01:00",
-    "sp95_prix": "1.869",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-02-29T00:54:00+01:00",
-    "sp98_prix": "1.899",
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Saône-et-Loire",
-    "code_departement": "71",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
-  },
-  {
     "id": 71850002,
     "latitude": "4631100",
     "longitude": 479100,
@@ -55,6 +9,7 @@
     "ville": "Charnay-lès-Mâcon",
     "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 07:11:03\", \"@valeur\": \"1.900\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-20 07:11:03\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 07:11:04\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-01-04 08:13:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-01-04 08:13:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-04 08:13:29\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 4.791,
@@ -72,6 +27,18 @@
     "e10_prix": "1.900",
     "sp98_maj": "2024-02-20T08:11:04+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2018-01-04 08:13:29",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2018-01-04 08:13:29",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-01-04 08:13:29",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -82,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -95,7 +64,70 @@
     "departement": "Saône-et-Loire",
     "code_departement": "71",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24, Lundi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Mardi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Mercredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Jeudi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Vendredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\", Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
+    "id": 71850004,
+    "latitude": "4630800",
+    "longitude": 481100,
+    "cp": "71850",
+    "pop": "R",
+    "adresse": "60, Grande Rue de la Coupée",
+    "ville": "Charnay-lès-Mâcon",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 23:54:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 23:54:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 23:54:00\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-09-19 11:04:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-09-19 11:04:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-09-19 11:04:17\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 4.811,
+      "lat": 46.308
+    },
+    "gazole_maj": "2024-02-29T00:54:00+01:00",
+    "gazole_prix": "1.799",
+    "sp95_maj": "2024-02-29T00:54:00+01:00",
+    "sp95_prix": "1.869",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-02-29T00:54:00+01:00",
+    "sp98_prix": "1.899",
+    "e10_rupture_debut": "2018-09-19 11:04:17",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-09-19 11:04:16",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-09-19 11:04:17",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Saône-et-Loire",
+    "code_departement": "71",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24, Lundi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Mardi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Mercredi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Jeudi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Vendredi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\", Samedi07.00-12.00, Dimanche"
   },
   {
     "id": 71850001,
@@ -106,14 +138,15 @@
     "adresse": "Rue de la Chapelle",
     "ville": "Charnay-lès-Mâcon",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 10:02:22\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 10:08:22\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 12:03:23\", \"@valeur\": \"1.829\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 17:41:01\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 10:08:22\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 12:03:23\", \"@valeur\": \"1.829\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 4.81183,
       "lat": 46.30944
     },
-    "gazole_maj": "2024-02-23T11:02:22+01:00",
-    "gazole_prix": "1.789",
+    "gazole_maj": "2024-03-01T18:41:01+01:00",
+    "gazole_prix": "1.779",
     "sp95_maj": "2024-02-29T11:08:22+01:00",
     "sp95_prix": "1.869",
     "e85_maj": null,
@@ -124,6 +157,18 @@
     "e10_prix": "1.829",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -134,6 +179,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -149,6 +196,7 @@
     "departement": "Saône-et-Loire",
     "code_departement": "71",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]

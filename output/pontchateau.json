@@ -8,14 +8,15 @@
     "adresse": "RELAIS DE BEAULIEU RN 165",
     "ville": "Pontchâteau",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 07:30:00\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 07:30:00\", \"@valeur\": \"1.960\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 18:07:07\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:30:00\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 07:30:00\", \"@valeur\": \"1.960\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-02 18:07:07\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-04-16 16:49:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-04-16 16:49:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-04-16 16:49:14\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": -2.127482917,
       "lat": 47.449842495365004
     },
-    "gazole_maj": "2024-02-16T08:30:00+01:00",
-    "gazole_prix": "1.930",
+    "gazole_maj": "2024-03-01T08:30:00+01:00",
+    "gazole_prix": "1.890",
     "sp95_maj": "2024-02-16T08:30:00+01:00",
     "sp95_prix": "1.960",
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-02T19:07:07+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": "2021-04-16 16:49:14",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2021-04-16 16:49:13",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-04-16 16:49:13",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,12 +49,15 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": "Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche"
   },
   {
     "id": 44160003,
@@ -53,6 +69,7 @@
     "ville": "Pontchâteau",
     "services": "{\"service\": [\"Lavage automatique\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 12:12:38\", \"@valeur\": \"1.729\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-01-02 08:45:14\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 09:33:55\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-21 09:09:02\", \"@valeur\": \"1.829\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 11:24:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 12:28:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "geom": {
       "lon": -2.083,
@@ -70,6 +87,18 @@
     "e10_prix": "1.759",
     "sp98_maj": "2024-02-21T10:09:02+01:00",
     "sp98_prix": "1.829",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-08-31 12:28:26",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-01 11:24:36",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
@@ -80,6 +109,8 @@
       "SP95",
       "E85"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Lavage automatique",
@@ -89,6 +120,7 @@
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": "Automate-24-24, Lundi00.00-00.00, Mardi00.00-00.00, Mercredi00.00-00.00, Jeudi00.00-00.00, Vendredi00.00-00.00, Samedi00.00-00.00, Dimanche00.00-00.00"
   }
 ]

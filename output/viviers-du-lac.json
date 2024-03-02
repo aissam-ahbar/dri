@@ -8,24 +8,37 @@
     "adresse": "La Coua",
     "ville": "Viviers-du-Lac",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:46:53\", \"@valeur\": \"1.765\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 09:46:54\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:46:55\", \"@valeur\": \"1.909\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:21:41\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 09:21:41\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 09:21:42\", \"@valeur\": \"1.909\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-12-27 09:11:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-12-06 10:32:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-12-06 10:32:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.8939178300199995,
       "lat": 45.6473617151
     },
-    "gazole_maj": "2024-02-28T10:46:53+01:00",
-    "gazole_prix": "1.765",
+    "gazole_maj": "2024-03-01T10:21:41+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-28T10:46:54+01:00",
-    "e10_prix": "1.818",
-    "sp98_maj": "2024-02-28T10:46:55+01:00",
+    "e10_maj": "2024-03-01T10:21:41+01:00",
+    "e10_prix": "1.819",
+    "sp98_maj": "2024-03-01T10:21:42+01:00",
     "sp98_prix": "1.909",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-12-27 09:11:16",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2019-12-06 10:32:04",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2019-12-06 10:32:04",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -52,6 +67,7 @@
     "departement": "Savoie",
     "code_departement": "73",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

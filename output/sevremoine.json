@@ -1,5 +1,70 @@
 [
   {
+    "id": 49710001,
+    "latitude": "4702300",
+    "longitude": -105600,
+    "cp": "49710",
+    "pop": "R",
+    "adresse": "23 rue d'Anjou",
+    "ville": "Sèvremoine",
+    "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Lavage manuel\", \"Services réparation / entretien\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:07:34\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 09:07:39\", \"@valeur\": \"1.950\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-09-27 15:46:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-27 15:46:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-27 15:46:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-27 15:46:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": -1.056,
+      "lat": 47.023
+    },
+    "gazole_maj": "2024-02-15T10:07:34+01:00",
+    "gazole_prix": "1.940",
+    "sp95_maj": "2024-02-15T10:07:39+01:00",
+    "sp95_prix": "1.950",
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2022-09-27 15:46:35",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-09-27 15:46:35",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-09-27 15:46:35",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-09-27 15:46:35",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "Location de véhicule",
+      "Lavage manuel",
+      "Services réparation / entretien"
+    ],
+    "departement": "Maine-et-Loire",
+    "code_departement": "49",
+    "region": "Pays de la Loire",
+    "code_region": "52",
+    "horaires_jour": "Lundi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Mardi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Mercredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Jeudi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Vendredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Samedi08.00-12.30, Dimanche"
+  },
+  {
     "id": 49450006,
     "latitude": "4712100",
     "longitude": -98400,
@@ -9,6 +74,7 @@
     "ville": "Sèvremoine",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-10-03 14:47:56\", \"@valeur\": \"1.987\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-10-03 14:47:57\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-10-03 14:47:57\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-03-21 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-03-21 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 11:25:34\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-02 08:01:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-02 08:01:39\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -0.984,
@@ -26,6 +92,18 @@
     "e10_prix": "1.990",
     "sp98_maj": "2023-10-03T16:47:57+02:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-02 08:01:39",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-08-31 11:25:34",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2017-09-02 08:01:39",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +114,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "E85",
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -54,110 +134,8 @@
     "departement": "Maine-et-Loire",
     "code_departement": "49",
     "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 49450003,
-    "latitude": "4709600",
-    "longitude": -100500,
-    "cp": "49450",
-    "pop": "R",
-    "adresse": "1 rue André Ampère",
-    "ville": "Sèvremoine",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:52:10\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 08:40:19\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 09:27:01\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 09:08:08\", \"@valeur\": \"1.858\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "geom": {
-      "lon": -1.005,
-      "lat": 47.096
-    },
-    "gazole_maj": "2024-02-26T09:52:10+01:00",
-    "gazole_prix": "1.749",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-12T09:40:19+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-16T10:27:01+01:00",
-    "e10_prix": "1.788",
-    "sp98_maj": "2024-02-19T10:08:08+01:00",
-    "sp98_prix": "1.858",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Location de véhicule",
-      "Piste poids lourds",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Wifi",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Maine-et-Loire",
-    "code_departement": "49",
-    "region": "Pays de la Loire",
-    "code_region": "52"
-  },
-  {
-    "id": 49710001,
-    "latitude": "4702300",
-    "longitude": -105600,
-    "cp": "49710",
-    "pop": "R",
-    "adresse": "23 rue d'Anjou",
-    "ville": "Sèvremoine",
-    "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Lavage manuel\", \"Services réparation / entretien\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:07:34\", \"@valeur\": \"1.940\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 09:07:39\", \"@valeur\": \"1.950\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": -1.056,
-      "lat": 47.023
-    },
-    "gazole_maj": "2024-02-15T10:07:34+01:00",
-    "gazole_prix": "1.940",
-    "sp95_maj": "2024-02-15T10:07:39+01:00",
-    "sp95_prix": "1.950",
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
-      "Location de véhicule",
-      "Lavage manuel",
-      "Services réparation / entretien"
-    ],
-    "departement": "Maine-et-Loire",
-    "code_departement": "49",
-    "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": "Automate-24-24, Lundi, Mardi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\", Mercredi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\", Jeudi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\", Vendredi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\", Samedi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"13.30\", \"@fermeture\": \"17.30\", Dimanche"
   },
   {
     "id": 49230003,
@@ -169,6 +147,7 @@
     "ville": "Sèvremoine",
     "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:06:33\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-16 15:57:24\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 15:57:25\", \"@valeur\": \"1.789\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-02-10 10:46:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-02-10 10:46:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-02-10 10:46:30\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "geom": {
       "lon": -1.0997591906432,
@@ -186,6 +165,18 @@
     "e10_prix": "1.789",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2020-02-10 10:46:30",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2020-02-10 10:46:29",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2020-02-10 10:46:30",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -196,6 +187,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Carburant additivé",
@@ -204,7 +197,8 @@
     "departement": "Maine-et-Loire",
     "code_departement": "49",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": "Automate-24-24, Lundi00.00-23.59, Mardi00.00-23.59, Mercredi00.00-23.59, Jeudi00.00-23.59, Vendredi00.00-23.59, Samedi00.00-23.59, Dimanche00.00-23.59"
   },
   {
     "id": 49450001,
@@ -216,6 +210,7 @@
     "ville": "Sèvremoine",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 10:23:10\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 20:05:50\", \"@valeur\": \"0.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:52:26\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 13:34:42\", \"@valeur\": \"1.868\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-05-28 08:23:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-02-23 09:53:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.991832348626,
@@ -233,6 +228,18 @@
     "e10_prix": "1.788",
     "sp98_maj": "2024-02-23T14:34:42+01:00",
     "sp98_prix": "1.868",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-02-23 09:53:09",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2021-05-28 08:23:46",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -243,11 +250,84 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Maine-et-Loire",
     "code_departement": "49",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
+  },
+  {
+    "id": 49450003,
+    "latitude": "4709600",
+    "longitude": -100500,
+    "cp": "49450",
+    "pop": "R",
+    "adresse": "1 rue André Ampère",
+    "ville": "Sèvremoine",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:52:10\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-12 08:40:19\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 09:27:01\", \"@valeur\": \"1.788\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 09:08:08\", \"@valeur\": \"1.858\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-12 08:40:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 18:24:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "geom": {
+      "lon": -1.005,
+      "lat": 47.096
+    },
+    "gazole_maj": "2024-02-26T09:52:10+01:00",
+    "gazole_prix": "1.749",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-12T09:40:19+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-16T10:27:01+01:00",
+    "e10_prix": "1.788",
+    "sp98_maj": "2024-02-19T10:08:08+01:00",
+    "sp98_prix": "1.858",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-01-12 08:40:48",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-26 18:24:12",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Wifi",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Maine-et-Loire",
+    "code_departement": "49",
+    "region": "Pays de la Loire",
+    "code_region": "52",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]

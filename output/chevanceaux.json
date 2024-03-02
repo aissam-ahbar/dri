@@ -9,6 +9,7 @@
     "ville": "Chevanceaux",
     "services": "{\"service\": [\"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 11:07:29\", \"@valeur\": \"1.810\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-16 16:47:10\", \"@valeur\": \"1.830\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 11:07:30\", \"@valeur\": \"1.920\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-30 11:45:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-21 10:29:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-11-21 10:29:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.23916880000000001,
@@ -26,6 +27,18 @@
     "e10_prix": "1.830",
     "sp98_maj": "2024-02-29T12:07:30+01:00",
     "sp98_prix": "1.920",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-09-30 11:45:03",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2018-11-21 10:29:08",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2018-11-21 10:29:09",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc",
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Douches",
@@ -51,6 +66,7 @@
     "departement": "Charente-Maritime",
     "code_departement": "17",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

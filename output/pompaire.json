@@ -8,24 +8,37 @@
     "adresse": "46 route de ST-MAIXENT",
     "ville": "Pompaire",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 07:54:19\", \"@valeur\": \"1.771\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 07:54:19\", \"@valeur\": \"1.815\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 07:54:19\", \"@valeur\": \"1.842\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:24:05\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 08:24:06\", \"@valeur\": \"1.813\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 08:24:06\", \"@valeur\": \"1.840\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-30 07:27:14\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-30 07:27:14\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-21 10:52:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.23516606,
       "lat": 46.6094029
     },
-    "gazole_maj": "2024-02-29T08:54:19+01:00",
-    "gazole_prix": "1.771",
-    "sp95_maj": "2024-02-29T08:54:19+01:00",
-    "sp95_prix": "1.815",
+    "gazole_maj": "2024-03-01T09:24:05+01:00",
+    "gazole_prix": "1.765",
+    "sp95_maj": "2024-03-01T09:24:06+01:00",
+    "sp95_prix": "1.813",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-29T08:54:19+01:00",
-    "sp98_prix": "1.842",
+    "sp98_maj": "2024-03-01T09:24:06+01:00",
+    "sp98_prix": "1.840",
+    "e10_rupture_debut": "2017-10-21 10:52:05",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-30 07:27:14",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2017-09-30 07:27:14",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc;E10",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
@@ -43,6 +58,7 @@
     "departement": "Deux-Sèvres",
     "code_departement": "79",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

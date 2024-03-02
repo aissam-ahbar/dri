@@ -9,6 +9,7 @@
     "ville": "Châteaubourg",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 10:15:32\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-24 09:03:36\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-05 10:10:42\", \"@valeur\": \"0.889\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 09:59:06\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 10:56:58\", \"@valeur\": \"1.849\"}]",
+    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-07-22 19:08:34\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -1.3775118,
@@ -26,6 +27,18 @@
     "e10_prix": "1.769",
     "sp98_maj": "2024-02-13T11:56:58+01:00",
     "sp98_prix": "1.849",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2023-07-22 19:08:34",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de pétrole lampant",
@@ -46,6 +61,7 @@
     "departement": "Ille-et-Vilaine",
     "code_departement": "35",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]

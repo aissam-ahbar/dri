@@ -8,24 +8,37 @@
     "adresse": "Autoroute A36",
     "ville": "Écot",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Espace bébé\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 10:18:00\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-29 10:21:30\", \"@valeur\": \"1.945\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 10:18:00\", \"@valeur\": \"1.069\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 10:18:01\", \"@valeur\": \"1.925\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 10:18:01\", \"@valeur\": \"2.045\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 10:32:20\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-12-29 10:21:30\", \"@valeur\": \"1.945\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 10:32:20\", \"@valeur\": \"1.075\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 10:32:21\", \"@valeur\": \"1.925\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 10:32:21\", \"@valeur\": \"2.045\"}]",
+    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-02-26 14:25:31\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "geom": {
       "lon": 6.729,
       "lat": 47.441
     },
-    "gazole_maj": "2024-02-29T11:18:00+01:00",
-    "gazole_prix": "1.889",
+    "gazole_maj": "2024-03-01T11:32:20+01:00",
+    "gazole_prix": "1.890",
     "sp95_maj": "2023-12-29T11:21:30+01:00",
     "sp95_prix": "1.945",
-    "e85_maj": "2024-02-29T11:18:00+01:00",
-    "e85_prix": "1.069",
+    "e85_maj": "2024-03-01T11:32:20+01:00",
+    "e85_prix": "1.075",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-29T11:18:01+01:00",
+    "e10_maj": "2024-03-01T11:32:21+01:00",
     "e10_prix": "1.925",
-    "sp98_maj": "2024-02-29T11:18:01+01:00",
+    "sp98_maj": "2024-03-01T11:32:21+01:00",
     "sp98_prix": "2.045",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2021-02-26 14:25:31",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -57,6 +72,7 @@
     "departement": "Doubs",
     "code_departement": "25",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": "Lundi00.00-23.59, Mardi00.00-23.59, Mercredi00.00-23.59, Jeudi00.00-23.59, Vendredi00.00-23.59, Samedi00.00-23.59, Dimanche00.00-23.59"
   }
 ]

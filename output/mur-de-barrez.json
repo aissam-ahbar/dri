@@ -9,6 +9,7 @@
     "ville": "Mur-de-Barrez",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 18:32:25\", \"@valeur\": \"1.856\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 18:32:25\", \"@valeur\": \"1.894\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 18:32:26\", \"@valeur\": \"1.926\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-01-03 07:33:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-01-03 07:33:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-01-03 07:33:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.663,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-15T19:32:26+01:00",
     "sp98_prix": "1.926",
+    "e10_rupture_debut": "2023-01-03 07:33:20",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2023-01-03 07:33:20",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2023-01-03 07:33:20",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -43,7 +58,8 @@
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   },
   {
     "id": 12600002,
@@ -55,6 +71,7 @@
     "ville": "Mur-de-Barrez",
     "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 14:26:48\", \"@valeur\": \"1.840\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-14 07:10:00\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-14 07:10:00\", \"@valeur\": \"1.930\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 11:13:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 11:13:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-04 11:13:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.6647,
@@ -72,6 +89,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-14T08:10:00+01:00",
     "sp98_prix": "1.930",
+    "e10_rupture_debut": "2017-09-04 11:13:55",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-04 11:13:55",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-04 11:13:55",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -82,6 +111,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Carburant additivé",
@@ -90,6 +121,7 @@
     "departement": "Aveyron",
     "code_departement": "12",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

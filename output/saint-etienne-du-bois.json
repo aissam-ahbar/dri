@@ -8,14 +8,15 @@
     "adresse": "40 Chemin de la Bergaderie",
     "ville": "Saint-Étienne-du-Bois",
     "services": "{\"service\": [\"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 10:41:01\", \"@valeur\": \"1.787\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 10:05:22\", \"@valeur\": \"1.806\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 10:05:22\", \"@valeur\": \"1.903\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:48:29\", \"@valeur\": \"1.768\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 10:05:22\", \"@valeur\": \"1.806\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 10:05:22\", \"@valeur\": \"1.903\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-20 09:50:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-20 09:50:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-20 09:50:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.293,
       "lat": 46.27
     },
-    "gazole_maj": "2024-02-29T11:41:01+01:00",
-    "gazole_prix": "1.787",
+    "gazole_maj": "2024-03-01T10:48:29+01:00",
+    "gazole_prix": "1.768",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.806",
     "sp98_maj": "2024-02-27T11:05:22+01:00",
     "sp98_prix": "1.903",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-20 09:50:48",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-20 09:50:49",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-20 09:50:50",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -45,6 +60,7 @@
     "departement": "Ain",
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

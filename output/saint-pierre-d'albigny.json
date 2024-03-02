@@ -8,7 +8,8 @@
     "adresse": "ZI DU CAROUGE",
     "ville": "Saint-Pierre-d'Albigny",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 16:56:05\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 16:56:06\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 16:56:06\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 08:09:49\", \"@valeur\": \"1.899\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 16:56:05\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 10:05:48\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 16:56:06\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 08:09:49\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.16274,
@@ -16,8 +17,8 @@
     },
     "gazole_maj": "2024-02-28T17:56:05+01:00",
     "gazole_prix": "1.719",
-    "sp95_maj": "2024-02-28T17:56:06+01:00",
-    "sp95_prix": "1.819",
+    "sp95_maj": "2024-03-01T11:05:48+01:00",
+    "sp95_prix": "1.829",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.799",
     "sp98_maj": "2024-02-22T09:09:49+01:00",
     "sp98_prix": "1.899",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-02 15:37:10",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-02 15:37:10",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -47,6 +62,7 @@
     "departement": "Savoie",
     "code_departement": "73",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

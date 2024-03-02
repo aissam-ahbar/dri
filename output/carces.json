@@ -9,6 +9,7 @@
     "ville": "Carcès",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 10:30:52\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-26 10:20:45\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 10:21:01\", \"@valeur\": \"1.849\"}]",
+    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-09 14:46:30\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 6.17634,
@@ -26,6 +27,18 @@
     "e10_prix": "1.849",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-11-09 14:46:30",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,11 +49,14 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Var",
     "code_departement": "83",
     "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
+    "code_region": "93",
+    "horaires_jour": null
   }
 ]

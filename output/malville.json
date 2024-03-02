@@ -9,6 +9,7 @@
     "ville": "Malville",
     "services": "{\"service\": \"Piste poids lourds\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 15:33:24\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 10:24:05\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 10:24:25\", \"@valeur\": \"1.880\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2015-11-05 10:45:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-08-19 20:41:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2020-08-19 20:41:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.86116,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-16T11:24:25+01:00",
     "sp98_prix": "1.880",
+    "e10_rupture_debut": "2020-08-19 20:41:50",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2020-08-19 20:41:50",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds"
@@ -43,6 +58,7 @@
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

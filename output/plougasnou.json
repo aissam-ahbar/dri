@@ -9,6 +9,7 @@
     "ville": "Plougasnou",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:45:14\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 08:48:14\", \"@valeur\": \"1.865\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-11 08:42:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-11 08:42:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-11 08:42:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-11 08:42:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -3.788,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-09-11 08:42:43",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-09-11 08:42:43",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-11 08:42:42",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-11 08:42:42",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
@@ -50,6 +65,7 @@
     "departement": "Finistère",
     "code_departement": "29",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": "Automate-24-24, Lundi, Mardi, Mercredi, Jeudi, Vendredi09.00-12.00, Samedi, Dimanche"
   }
 ]

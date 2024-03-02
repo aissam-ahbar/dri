@@ -8,13 +8,14 @@
     "adresse": "Boulevard Georges Bidault",
     "ville": "Croissy-Beaubourg",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 10:27:22\", \"@valeur\": \"1.820\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 10:18:59\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 09:56:19\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:56:19\", \"@valeur\": \"1.933\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 11:20:12\", \"@valeur\": \"1.820\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-16 10:18:59\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 09:56:19\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:56:19\", \"@valeur\": \"1.933\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-29 11:37:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 11:37:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.644,
       "lat": 48.828
     },
-    "gazole_maj": "2024-02-26T11:27:22+01:00",
+    "gazole_maj": "2024-03-01T12:20:12+01:00",
     "gazole_prix": "1.820",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.852",
     "sp98_maj": "2024-02-28T10:56:19+01:00",
     "sp98_prix": "1.933",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-08-29 11:37:26",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-08-29 11:37:26",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -52,6 +67,7 @@
     "departement": "Seine-et-Marne",
     "code_departement": "77",
     "region": "Île-de-France",
-    "code_region": "11"
+    "code_region": "11",
+    "horaires_jour": null
   }
 ]

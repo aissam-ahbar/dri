@@ -9,6 +9,7 @@
     "ville": "Lignan-sur-Orb",
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 15:16:24\", \"@valeur\": \"1.791\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-19 09:28:22\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 15:16:24\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 09:30:00\", \"@valeur\": \"1.921\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-14 11:24:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-20 11:52:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.1779261921799997,
@@ -26,6 +27,18 @@
     "e10_prix": "1.829",
     "sp98_maj": "2024-02-17T10:30:00+01:00",
     "sp98_prix": "1.921",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-01-14 11:24:19",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-11-20 11:52:47",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -45,6 +60,7 @@
     "departement": "Hérault",
     "code_departement": "34",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

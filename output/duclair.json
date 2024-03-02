@@ -9,6 +9,7 @@
     "ville": "Duclair",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:25:50\", \"@valeur\": \"1.888\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 07:25:50\", \"@valeur\": \"1.907\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 07:25:50\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2009-07-24 09:07:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2014-02-12 09:13:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-19 14:09:06\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.87266844882,
@@ -26,6 +27,18 @@
     "e10_prix": "1.907",
     "sp98_maj": "2024-02-28T08:25:50+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-10-19 14:09:06",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique non alimentaire",
@@ -48,6 +63,7 @@
     "departement": "Seine-Maritime",
     "code_departement": "76",
     "region": "Normandie",
-    "code_region": "28"
+    "code_region": "28",
+    "horaires_jour": null
   }
 ]

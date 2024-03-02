@@ -8,14 +8,15 @@
     "adresse": "265 avenue des pins",
     "ville": "Saint-Sorlin-en-Valloire",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:37:59\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 09:17:06\", \"@valeur\": \"1.819\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:27:45\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-19 09:17:06\", \"@valeur\": \"1.819\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-22 11:42:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-22 11:42:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-10-06 08:40:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-10-30 11:10:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.9531349732032,
       "lat": 45.29073441572199
     },
-    "gazole_maj": "2024-02-23T10:37:59+01:00",
-    "gazole_prix": "1.779",
+    "gazole_maj": "2024-03-01T10:27:45+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.819",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2023-10-30 11:10:31",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2023-10-06 08:40:09",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-22 11:42:07",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-22 11:42:08",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10"
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -60,6 +75,7 @@
     "departement": "Drôme",
     "code_departement": "26",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

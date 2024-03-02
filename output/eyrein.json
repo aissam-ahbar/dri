@@ -9,6 +9,7 @@
     "ville": "Eyrein",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-08 10:51:36\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-08 10:51:36\", \"@valeur\": \"1.873\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-08 10:51:36\", \"@valeur\": \"1.913\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 1.93384921776,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-08T11:51:36+01:00",
     "sp98_prix": "1.913",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -47,6 +62,7 @@
     "departement": "Corrèze",
     "code_departement": "19",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

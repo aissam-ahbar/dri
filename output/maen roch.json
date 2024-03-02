@@ -9,6 +9,7 @@
     "ville": "Maen Roch",
     "services": "{\"service\": \"Piste poids lourds\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:17:23\", \"@valeur\": \"1.758\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 10:39:38\", \"@valeur\": \"0.882\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-15 10:05:41\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 10:39:38\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 10:39:38\", \"@valeur\": \"1.859\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-12-28 08:50:41\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -1.37195,
@@ -26,6 +27,18 @@
     "e10_prix": "1.779",
     "sp98_maj": "2024-02-26T11:39:38+01:00",
     "sp98_prix": "1.859",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-12-28 08:50:41",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "SP95"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds"
@@ -43,6 +58,7 @@
     "departement": "Ille-et-Vilaine",
     "code_departement": "35",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]

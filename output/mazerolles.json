@@ -8,14 +8,15 @@
     "adresse": "RD32 ROUTE D'ARZACQ",
     "ville": "Mazerolles",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.889\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.968\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.884\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.978\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-14 10:08:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-14 10:08:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-14 10:08:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-14 10:08:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.4664254,
       "lat": 43.436444
     },
-    "gazole_maj": "2024-03-01T01:01:00+01:00",
-    "gazole_prix": "1.889",
+    "gazole_maj": "2024-03-02T01:01:00+01:00",
+    "gazole_prix": "1.884",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -24,8 +25,20 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-03-01T01:01:00+01:00",
-    "sp98_prix": "1.968",
+    "sp98_maj": "2024-03-02T01:01:00+01:00",
+    "sp98_prix": "1.978",
+    "e10_rupture_debut": "2022-10-14 10:08:01",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-10-14 10:08:01",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2022-10-14 10:08:01",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-10-14 10:08:01",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP98"
@@ -36,11 +49,14 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Pyrénées-Atlantiques",
     "code_departement": "64",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

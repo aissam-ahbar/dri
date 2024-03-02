@@ -8,14 +8,15 @@
     "adresse": "Quartier Les ChampsSaint Etienne Fontbellon",
     "ville": "Saint-Étienne-de-Fontbellon",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Espace bébé\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 13:00:55\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 13:00:56\", \"@valeur\": \"1.862\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-27 14:49:36\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 13:00:56\", \"@valeur\": \"1.808\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 13:00:57\", \"@valeur\": \"1.888\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:56:58\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 13:00:56\", \"@valeur\": \"1.862\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-27 14:49:36\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 13:00:56\", \"@valeur\": \"1.808\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 13:00:57\", \"@valeur\": \"1.888\"}]",
+    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-05-11 09:42:26\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 4.38424813182,
       "lat": 44.599599809299995
     },
-    "gazole_maj": "2024-02-29T14:00:55+01:00",
-    "gazole_prix": "1.769",
+    "gazole_maj": "2024-03-01T09:56:58+01:00",
+    "gazole_prix": "1.765",
     "sp95_maj": "2024-02-29T14:00:56+01:00",
     "sp95_prix": "1.862",
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.808",
     "sp98_maj": "2024-02-29T14:00:57+01:00",
     "sp98_prix": "1.888",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2021-05-11 09:42:26",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "E85"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -58,6 +73,7 @@
     "departement": "Ardèche",
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

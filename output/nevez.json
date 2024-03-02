@@ -8,24 +8,37 @@
     "adresse": "30 rue de l'Atlantique",
     "ville": "Névez",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 20:00:00\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 19:25:00\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 20:00:00\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 20:00:00\", \"@valeur\": \"1.855\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 13:30:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 19:25:00\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 13:30:00\", \"@valeur\": \"1.792\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 13:30:00\", \"@valeur\": \"1.859\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-05 07:19:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 07:19:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -3.7944494748689,
       "lat": 47.824069252154
     },
-    "gazole_maj": "2024-02-22T21:00:00+01:00",
-    "gazole_prix": "1.785",
+    "gazole_maj": "2024-03-01T14:30:00+01:00",
+    "gazole_prix": "1.759",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-29T20:25:00+01:00",
     "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-22T21:00:00+01:00",
-    "e10_prix": "1.795",
-    "sp98_maj": "2024-02-22T21:00:00+01:00",
-    "sp98_prix": "1.855",
+    "e10_maj": "2024-03-01T14:30:00+01:00",
+    "e10_prix": "1.792",
+    "sp98_maj": "2024-03-01T14:30:00+01:00",
+    "sp98_prix": "1.859",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-05 07:19:54",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-05 07:19:55",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -49,6 +64,7 @@
     "departement": "Finistère",
     "code_departement": "29",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]

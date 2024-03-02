@@ -1,5 +1,67 @@
 [
   {
+    "id": 94270005,
+    "latitude": "4881193",
+    "longitude": 236180,
+    "cp": "94270",
+    "pop": "R",
+    "adresse": "Avenue de Fontainebleau",
+    "ville": "Le Kremlin-Bicêtre",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-02 00:00:00\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-02 00:00:00\", \"@valeur\": \"1.865\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-02 00:00:00\", \"@valeur\": \"1.945\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-12-11 07:11:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-02-14 09:37:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-02-14 09:37:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.3618,
+      "lat": 48.81193
+    },
+    "gazole_maj": "2024-03-02T01:00:00+01:00",
+    "gazole_prix": "1.829",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-03-02T01:00:00+01:00",
+    "e10_prix": "1.865",
+    "sp98_maj": "2024-03-02T01:00:00+01:00",
+    "sp98_prix": "1.945",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-02-14 09:37:57",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2019-02-14 09:37:57",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2019-12-11 07:11:40",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_definitive": "SP95;E85",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Val-de-Marne",
+    "code_departement": "94",
+    "region": "Île-de-France",
+    "code_region": "11",
+    "horaires_jour": null
+  },
+  {
     "id": 92120004,
     "latitude": "4881300",
     "longitude": 235700,
@@ -8,24 +70,37 @@
     "adresse": "70-74 AV ARISTIDE BRIAND",
     "ville": "Le Kremlin-Bicêtre",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 16:15:00\", \"@valeur\": \"1.909\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-07 13:35:00\", \"@valeur\": \"1.159\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 16:30:00\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 16:30:00\", \"@valeur\": \"2.019\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 14:50:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-12-07 13:35:00\", \"@valeur\": \"1.159\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 14:50:00\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 14:50:00\", \"@valeur\": \"2.039\"}]",
+    "rupture": null,
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"22.00\"}}]}",
     "geom": {
       "lon": 2.357,
       "lat": 48.813
     },
-    "gazole_maj": "2024-02-20T17:15:00+01:00",
-    "gazole_prix": "1.909",
+    "gazole_maj": "2024-03-01T15:50:00+01:00",
+    "gazole_prix": "1.919",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2023-12-07T14:35:00+01:00",
     "e85_prix": "1.159",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-28T17:30:00+01:00",
-    "e10_prix": "1.899",
-    "sp98_maj": "2024-02-28T17:30:00+01:00",
-    "sp98_prix": "2.019",
+    "e10_maj": "2024-03-01T15:50:00+01:00",
+    "e10_prix": "1.919",
+    "sp98_maj": "2024-03-01T15:50:00+01:00",
+    "sp98_prix": "2.039",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +111,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique alimentaire",
@@ -50,52 +127,7 @@
     "departement": "Val-de-Marne",
     "code_departement": "94",
     "region": "Île-de-France",
-    "code_region": "11"
-  },
-  {
-    "id": 94270005,
-    "latitude": "4881193",
-    "longitude": 236180,
-    "cp": "94270",
-    "pop": "R",
-    "adresse": "Avenue de Fontainebleau",
-    "ville": "Le Kremlin-Bicêtre",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 00:00:00\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 00:00:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 00:00:00\", \"@valeur\": \"1.939\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.3618,
-      "lat": 48.81193
-    },
-    "gazole_maj": "2024-02-29T01:00:00+01:00",
-    "gazole_prix": "1.839",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-28T01:00:00+01:00",
-    "e10_prix": "1.869",
-    "sp98_maj": "2024-02-28T01:00:00+01:00",
-    "sp98_prix": "1.939",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Val-de-Marne",
-    "code_departement": "94",
-    "region": "Île-de-France",
-    "code_region": "11"
+    "code_region": "11",
+    "horaires_jour": "Automate-24-24, Lundi06.00-22.00, Mardi06.00-22.00, Mercredi06.00-22.00, Jeudi06.00-22.00, Vendredi06.00-22.00, Samedi06.00-22.00, Dimanche07.00-22.00"
   }
 ]

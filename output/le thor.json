@@ -1,52 +1,5 @@
 [
   {
-    "id": 84250001,
-    "latitude": "4392500",
-    "longitude": 497800,
-    "cp": "84250",
-    "pop": "R",
-    "adresse": "Route d'Avignon",
-    "ville": "Le Thor",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:00:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-13 08:00:55\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 16:51:46\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 16:51:46\", \"@valeur\": \"1.929\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.978,
-      "lat": 43.925
-    },
-    "gazole_maj": "2024-02-21T09:00:00+01:00",
-    "gazole_prix": "1.809",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-02-13T09:00:55+01:00",
-    "e85_prix": "0.848",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-15T17:51:46+01:00",
-    "e10_prix": "1.859",
-    "sp98_maj": "2024-02-15T17:51:46+01:00",
-    "sp98_prix": "1.929",
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
-  },
-  {
     "id": 84250002,
     "latitude": "4392743.59",
     "longitude": 499879.12,
@@ -56,6 +9,7 @@
     "ville": "Le Thor",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-08 10:04:28\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 10:32:01\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 10:32:02\", \"@valeur\": \"2.010\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-02-08 15:09:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-02-08 15:09:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-02-08 15:09:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"14.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.9987912,
@@ -73,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-20T11:32:02+01:00",
     "sp98_prix": "2.010",
+    "e10_rupture_debut": "2022-02-08 15:09:09",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-02-08 15:09:09",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-02-08 15:09:09",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -83,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -94,6 +62,70 @@
     "departement": "Vaucluse",
     "code_departement": "84",
     "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93"
+    "code_region": "93",
+    "horaires_jour": "Lundi, Mardi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Mercredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Jeudi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Vendredi, \"horaire\": \"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Samedi08.00-14.00, Dimanche"
+  },
+  {
+    "id": 84250001,
+    "latitude": "4392500",
+    "longitude": 497800,
+    "cp": "84250",
+    "pop": "R",
+    "adresse": "Route d'Avignon",
+    "ville": "Le Thor",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 08:00:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-13 08:00:55\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 16:51:46\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 16:51:46\", \"@valeur\": \"1.929\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-03-09 08:46:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-03-09 08:46:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.978,
+      "lat": 43.925
+    },
+    "gazole_maj": "2024-02-21T09:00:00+01:00",
+    "gazole_prix": "1.809",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-02-13T09:00:55+01:00",
+    "e85_prix": "0.848",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-15T17:51:46+01:00",
+    "e10_prix": "1.859",
+    "sp98_maj": "2024-02-15T17:51:46+01:00",
+    "sp98_prix": "1.929",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-03-09 08:46:36",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2020-03-09 08:46:37",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93",
+    "horaires_jour": null
   }
 ]

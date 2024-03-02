@@ -9,6 +9,7 @@
     "ville": "La Roche-sur-Foron",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 19:30:00\", \"@valeur\": \"1.937\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-01 11:39:10\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-19 14:34:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-09-06 17:18:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-28 18:07:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-17 13:40:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.30528,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2022-10-19 14:34:14",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2021-09-06 17:18:07",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-10-17 13:40:04",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2022-09-28 18:07:22",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": "E85",
+    "carburants_rupture_definitive": "GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -52,6 +67,7 @@
     "departement": "Haute-Savoie",
     "code_departement": "74",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

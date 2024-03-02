@@ -9,6 +9,7 @@
     "ville": "Moliets-et-Maa",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 14:16:30\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 14:16:30\", \"@valeur\": \"0.976\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 14:16:31\", \"@valeur\": \"1.784\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 10:23:48\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-12-14 11:53:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-08-16 18:24:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.3549578500000001,
@@ -26,6 +27,18 @@
     "e10_prix": "1.784",
     "sp98_maj": "2024-02-13T11:23:48+01:00",
     "sp98_prix": "1.899",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-12-14 11:53:37",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-08-16 18:24:46",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -47,6 +62,7 @@
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

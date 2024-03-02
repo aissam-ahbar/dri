@@ -9,6 +9,7 @@
     "ville": "Mirebeau-sur-Bèze",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2020-10-21 05:36:54\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-02-05 11:25:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-02-05 11:25:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-02-05 11:25:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-09-26 10:24:56\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-10-16 11:31:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.323108,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2018-02-05 11:25:41",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2020-09-26 10:24:56",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2020-10-16 11:31:33",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2018-02-05 11:25:41",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-02-05 11:25:41",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": "2020-10-21 05:36:54",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;SP95;SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -35,6 +50,7 @@
     "departement": "Côte-d'Or",
     "code_departement": "21",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]

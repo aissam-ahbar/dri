@@ -8,24 +8,37 @@
     "adresse": "ROUTE DE CARNON - CS61015",
     "ville": "Lattes",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 10:07:13\", \"@valeur\": \"1.807\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 10:07:13\", \"@valeur\": \"1.914\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 10:07:13\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 10:07:14\", \"@valeur\": \"1.943\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:33:00\", \"@valeur\": \"1.807\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 09:33:00\", \"@valeur\": \"1.908\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 09:33:01\", \"@valeur\": \"1.843\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 09:33:01\", \"@valeur\": \"1.958\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 09:46:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 09:46:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.9306244927600003,
       "lat": 43.5804556372
     },
-    "gazole_maj": "2024-02-29T11:07:13+01:00",
+    "gazole_maj": "2024-03-01T10:33:00+01:00",
     "gazole_prix": "1.807",
-    "sp95_maj": "2024-02-29T11:07:13+01:00",
-    "sp95_prix": "1.914",
+    "sp95_maj": "2024-03-01T10:33:00+01:00",
+    "sp95_prix": "1.908",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-29T11:07:13+01:00",
-    "e10_prix": "1.849",
-    "sp98_maj": "2024-02-29T11:07:14+01:00",
-    "sp98_prix": "1.943",
+    "e10_maj": "2024-03-01T10:33:01+01:00",
+    "e10_prix": "1.843",
+    "sp98_maj": "2024-03-01T10:33:01+01:00",
+    "sp98_prix": "1.958",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-08-29 09:46:54",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-08-29 09:46:54",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
@@ -44,6 +59,7 @@
     "departement": "Hérault",
     "code_departement": "34",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

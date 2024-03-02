@@ -9,6 +9,7 @@
     "ville": "Perros-Guirec",
     "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 09:30:12\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 09:30:12\", \"@valeur\": \"1.908\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 09:30:13\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-01-25 15:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-04-26 19:48:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 10:59:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -3.443,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-28T10:30:13+01:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": "2018-04-26 19:48:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-26 10:59:49",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -49,6 +64,7 @@
     "departement": "Côtes-d'Armor",
     "code_departement": "22",
     "region": "Bretagne",
-    "code_region": "53"
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]

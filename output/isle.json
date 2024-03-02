@@ -9,6 +9,7 @@
     "ville": "Isle",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 19:23:36\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 19:23:37\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 19:23:37\", \"@valeur\": \"1.879\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-08-25 08:24:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-11-17 16:48:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-11-17 16:48:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.219,
@@ -26,6 +27,18 @@
     "e10_prix": "1.795",
     "sp98_maj": "2024-02-27T20:23:37+01:00",
     "sp98_prix": "1.879",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-08-25 08:24:03",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2020-11-17 16:48:43",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2020-11-17 16:48:43",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de fioul domestique",
@@ -46,6 +61,7 @@
     "departement": "Haute-Vienne",
     "code_departement": "87",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

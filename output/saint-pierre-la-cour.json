@@ -9,6 +9,7 @@
     "ville": "Saint-Pierre-la-Cour",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Restauration à emporter\", \"Piste poids lourds\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 09:31:10\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 09:31:11\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 09:31:11\", \"@valeur\": \"1.895\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-28 09:28:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-28 09:28:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-28 09:28:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.027,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-16T10:31:11+01:00",
     "sp98_prix": "1.895",
+    "e10_rupture_debut": "2017-09-28 09:28:50",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-28 09:28:50",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-28 09:28:50",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -45,6 +60,7 @@
     "departement": "Mayenne",
     "code_departement": "53",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

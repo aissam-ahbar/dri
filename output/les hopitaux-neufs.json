@@ -9,6 +9,7 @@
     "ville": "Les Hôpitaux-Neufs",
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:27:49\", \"@valeur\": \"1.778\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-16 09:20:10\", \"@valeur\": \"1.815\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-16 09:20:11\", \"@valeur\": \"1.855\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-06-18 09:08:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-11 16:05:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-11 16:05:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.37855,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-16T10:20:11+01:00",
     "sp98_prix": "1.855",
+    "e10_rupture_debut": "2019-06-18 09:08:05",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-10-11 16:05:46",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-10-11 16:05:47",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Lavage manuel",
@@ -45,6 +60,7 @@
     "departement": "Doubs",
     "code_departement": "25",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]

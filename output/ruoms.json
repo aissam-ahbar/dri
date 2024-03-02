@@ -9,6 +9,7 @@
     "ville": "Ruoms",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 08:22:43\", \"@valeur\": \"1.770\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 08:22:44\", \"@valeur\": \"1.864\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 08:22:44\", \"@valeur\": \"0.930\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-29 08:22:44\", \"@valeur\": \"1.020\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 08:22:44\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 08:22:45\", \"@valeur\": \"1.889\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 4.348132517390001,
@@ -26,6 +27,18 @@
     "e10_prix": "1.809",
     "sp98_maj": "2024-02-29T09:22:45+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -35,6 +48,8 @@
       "SP98"
     ],
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -57,6 +72,7 @@
     "departement": "Ardèche",
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

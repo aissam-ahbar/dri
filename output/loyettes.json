@@ -8,16 +8,17 @@
     "adresse": "63 Rue du Bugey",
     "ville": "Loyettes",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 18:48:49\", \"@valeur\": \"1.895\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 18:42:08\", \"@valeur\": \"1.961\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 19:11:24\", \"@valeur\": \"1.896\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 19:11:25\", \"@valeur\": \"1.966\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-28 19:02:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-28 19:02:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-28 19:02:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-28 19:02:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.213,
       "lat": 45.779
     },
-    "gazole_maj": "2024-02-29T19:48:49+01:00",
-    "gazole_prix": "1.895",
-    "sp95_maj": "2024-02-21T19:42:08+01:00",
-    "sp95_prix": "1.961",
+    "gazole_maj": "2024-03-01T20:11:24+01:00",
+    "gazole_prix": "1.896",
+    "sp95_maj": "2024-03-01T20:11:25+01:00",
+    "sp95_prix": "1.966",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-09-28 19:02:47",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-09-28 19:02:47",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-28 19:02:47",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-28 19:02:47",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -53,6 +68,7 @@
     "departement": "Ain",
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

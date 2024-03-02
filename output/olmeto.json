@@ -9,6 +9,7 @@
     "ville": "Olmeto",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-25 20:12:31\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 20:08:23\", \"@valeur\": \"1.970\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-17 09:52:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-17 09:52:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-07-17 09:52:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-07-17 09:52:39\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.00\", \"@fermeture\": \"20.00\"}}]}",
     "geom": {
       "lon": 8.915,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2021-07-17 09:52:39",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2021-07-17 09:52:39",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2021-07-17 09:52:39",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-07-17 09:52:39",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -54,7 +69,8 @@
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
     "region": "Corse",
-    "code_region": "94"
+    "code_region": "94",
+    "horaires_jour": "Automate-24-24, Lundi05.00-20.00, Mardi05.00-20.00, Mercredi05.00-20.00, Jeudi05.00-20.00, Vendredi05.00-20.00, Samedi05.00-20.00, Dimanche05.00-20.00"
   },
   {
     "id": 20113001,
@@ -65,7 +81,8 @@
     "adresse": "Marinca - RD 157",
     "ville": "Olmeto",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:07:26\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 11:02:42\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:07:26\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 07:41:19\", \"@valeur\": \"1.970\"}]",
+    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2012-04-19 14:53:00\", \"@fin\": \"\", \"@type\": \"\"}",
     "horaires": null,
     "geom": {
       "lon": 8.8967,
@@ -73,8 +90,8 @@
     },
     "gazole_maj": "2024-02-26T09:07:26+01:00",
     "gazole_prix": "1.920",
-    "sp95_maj": "2024-02-20T12:02:42+01:00",
-    "sp95_prix": "1.990",
+    "sp95_maj": "2024-03-01T08:41:19+01:00",
+    "sp95_prix": "1.970",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -83,6 +100,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -93,6 +122,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -111,6 +142,7 @@
     "departement": "Corse-du-Sud",
     "code_departement": "2A",
     "region": "Corse",
-    "code_region": "94"
+    "code_region": "94",
+    "horaires_jour": null
   }
 ]

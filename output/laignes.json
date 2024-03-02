@@ -9,6 +9,7 @@
     "ville": "Laignes",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-13 08:11:34\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 08:11:34\", \"@valeur\": \"1.949\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-13 08:11:34\", \"@valeur\": \"0.899\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-06 14:19:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-06 14:19:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-05-24 13:54:42\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.37160784,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-09-06 14:19:44",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-05-24 13:54:42",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-06 14:19:44",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique non alimentaire",
@@ -46,6 +61,7 @@
     "departement": "Côte-d'Or",
     "code_departement": "21",
     "region": "Bourgogne-Franche-Comté",
-    "code_region": "27"
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]

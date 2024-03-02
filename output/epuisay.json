@@ -9,6 +9,7 @@
     "ville": "Épuisay",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-19 08:26:54\", \"@valeur\": \"1.960\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-19 08:26:54\", \"@valeur\": \"1.950\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 08:26:54\", \"@valeur\": \"1.970\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-24 09:25:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-25 16:39:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-25 16:39:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.9175049294909999,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-19T09:26:54+01:00",
     "sp98_prix": "1.970",
+    "e10_rupture_debut": "2017-10-25 16:39:54",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-10-24 09:25:14",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-25 16:39:54",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Loir-et-Cher",
     "code_departement": "41",
     "region": "Centre-Val de Loire",
-    "code_region": "24"
+    "code_region": "24",
+    "horaires_jour": null
   }
 ]

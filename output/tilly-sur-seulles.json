@@ -9,6 +9,7 @@
     "ville": "Tilly-sur-Seulles",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 06:57:23\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-24 06:57:23\", \"@valeur\": \"1.840\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-17 07:41:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-17 07:41:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-10-17 07:41:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-13 07:47:06\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.62255,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-10-17 07:41:22",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-10-17 07:41:22",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-11-13 07:47:06",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-17 07:41:22",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -47,6 +62,7 @@
     "departement": "Calvados",
     "code_departement": "14",
     "region": "Normandie",
-    "code_region": "28"
+    "code_region": "28",
+    "horaires_jour": null
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Sainte-Sigolène",
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 16:02:39\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-10 14:12:49\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-30 18:17:24\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-01-30 18:17:24\", \"@valeur\": \"1.849\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-21 08:12:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-12-19 09:27:28\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.24106,
@@ -26,6 +27,18 @@
     "e10_prix": "1.779",
     "sp98_maj": "2024-01-30T19:17:24+01:00",
     "sp98_prix": "1.849",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-12-19 09:27:28",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-21 08:12:55",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -44,7 +59,8 @@
     "departement": "Haute-Loire",
     "code_departement": "43",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   },
   {
     "id": 43600003,
@@ -56,6 +72,7 @@
     "ville": "Sainte-Sigolène",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 08:08:07\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-17 09:35:21\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-17 09:35:21\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-04 10:59:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-04 10:59:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-04 10:59:14\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.215,
@@ -73,6 +90,18 @@
     "e10_prix": "1.799",
     "sp98_maj": "2024-02-17T10:35:21+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-11-04 10:59:13",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-11-04 10:59:13",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-11-04 10:59:14",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -83,6 +112,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -90,6 +121,7 @@
     "departement": "Haute-Loire",
     "code_departement": "43",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

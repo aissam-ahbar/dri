@@ -8,13 +8,14 @@
     "adresse": "ZONE DU GROS CHENE",
     "ville": "Isneauville",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 20:15:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 07:56:36\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 20:15:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 20:15:00\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 20:15:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 07:56:36\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 20:15:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 20:15:00\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-06 09:57:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-06 09:57:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.15396459007,
       "lat": 49.5039875947
     },
-    "gazole_maj": "2024-02-29T21:15:00+01:00",
+    "gazole_maj": "2024-03-01T21:15:00+01:00",
     "gazole_prix": "1.789",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -22,10 +23,22 @@
     "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-29T21:15:00+01:00",
+    "e10_maj": "2024-03-01T21:15:00+01:00",
     "e10_prix": "1.809",
-    "sp98_maj": "2024-02-29T21:15:00+01:00",
+    "sp98_maj": "2024-03-01T21:15:00+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-06 09:57:24",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-06 09:57:24",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -50,6 +65,7 @@
     "departement": "Seine-Maritime",
     "code_departement": "76",
     "region": "Normandie",
-    "code_region": "28"
+    "code_region": "28",
+    "horaires_jour": null
   }
 ]

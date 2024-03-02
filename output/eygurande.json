@@ -9,6 +9,7 @@
     "ville": "Eygurande",
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-08-02 08:53:13\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2023-08-02 08:53:13\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-08-02 08:53:14\", \"@valeur\": \"1.920\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-10 09:37:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-10 09:37:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-10 09:37:48\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 2.445,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2023-08-02T10:53:14+02:00",
     "sp98_prix": "1.920",
+    "e10_rupture_debut": "2017-10-10 09:37:48",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-10 09:37:48",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-10 09:37:48",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -50,7 +65,8 @@
     "departement": "Corrèze",
     "code_departement": "19",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Lundi, \"horaire\": \"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Mardi, \"horaire\": \"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Mercredi, \"horaire\": \"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Jeudi, \"horaire\": \"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"17.00\", Vendredi, \"horaire\": \"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\", \"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\", Samedi, Dimanche"
   },
   {
     "id": 19340001,
@@ -62,6 +78,7 @@
     "ville": "Eygurande",
     "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\"]}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2012-12-31 09:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2012-12-31 09:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.45215,
@@ -79,8 +96,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -89,6 +120,7 @@
     "departement": "Corrèze",
     "code_departement": "19",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

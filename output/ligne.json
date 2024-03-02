@@ -8,14 +8,15 @@
     "adresse": "89, rue du Souvenir",
     "ville": "Ligné",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:00:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-20 06:59:57\", \"@valeur\": \"0.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 07:21:26\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 08:23:59\", \"@valeur\": \"1.855\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:15:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-20 06:59:57\", \"@valeur\": \"0.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-14 07:21:26\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 08:23:59\", \"@valeur\": \"1.855\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-30 08:40:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 08:40:07\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.392,
       "lat": 47.414
     },
-    "gazole_maj": "2024-02-23T10:00:00+01:00",
-    "gazole_prix": "1.759",
+    "gazole_maj": "2024-03-01T10:15:00+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-20T07:59:57+01:00",
@@ -26,6 +27,18 @@
     "e10_prix": "1.769",
     "sp98_maj": "2024-02-19T09:23:59+01:00",
     "sp98_prix": "1.855",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-08-30 08:40:07",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-08-30 08:40:07",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -46,6 +61,7 @@
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

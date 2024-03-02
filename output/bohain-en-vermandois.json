@@ -9,6 +9,7 @@
     "ville": "Bohain-en-Vermandois",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 06:09:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-03 06:11:50\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 06:09:00\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 06:09:00\", \"@valeur\": \"1.900\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-26 06:03:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 09:19:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.15\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.15\"}}]}",
     "geom": {
       "lon": 3.451,
@@ -26,6 +27,18 @@
     "e10_prix": "1.825",
     "sp98_maj": "2024-02-24T07:09:00+01:00",
     "sp98_prix": "1.900",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-10-26 06:03:36",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-26 09:19:50",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
@@ -47,7 +62,8 @@
     "departement": "Aisne",
     "code_departement": "02",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": "Automate-24-24, Lundi08.30-19.15, Mardi08.30-19.15, Mercredi08.30-19.15, Jeudi08.30-19.15, Vendredi08.30-19.15, Samedi08.30-19.15, Dimanche09.00-12.15"
   },
   {
     "id": 2110004,
@@ -59,6 +75,7 @@
     "ville": "Bohain-en-Vermandois",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-10-10 11:47:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-10-10 11:47:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2018-10-15 09:36:25\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.4533715999999997,
@@ -76,8 +93,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2018-10-10 11:47:02",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2018-10-10 11:47:01",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": "2018-10-15 09:36:25",
+    "gazole_rupture_type": "definitive",
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
@@ -85,6 +116,7 @@
     "departement": "Aisne",
     "code_departement": "02",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

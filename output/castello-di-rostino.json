@@ -9,6 +9,7 @@
     "ville": "Castello-di-Rostino",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 17:07:13\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 17:07:13\", \"@valeur\": \"1.970\"}]",
+    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-11-10 09:51:09\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 9.28306,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2020-11-10 09:51:09",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -50,6 +65,7 @@
     "departement": "Haute-Corse",
     "code_departement": "2B",
     "region": "Corse",
-    "code_region": "94"
+    "code_region": "94",
+    "horaires_jour": null
   }
 ]

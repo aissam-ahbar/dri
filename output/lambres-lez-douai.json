@@ -9,6 +9,7 @@
     "ville": "Lambres-lez-Douai",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"1970-01-01 00:59:58\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2012-06-05 08:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-07-13 06:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-07-13 06:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2017-09-05 14:27:57\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-05 14:29:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 14:29:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 14:29:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-05 14:29:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-05 14:29:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.09041,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-09-05 14:29:17",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-09-05 14:29:18",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2017-09-05 14:29:17",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-05 14:29:17",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-05 14:29:17",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": "2017-09-05 14:27:57",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -44,6 +59,7 @@
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

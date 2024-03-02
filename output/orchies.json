@@ -1,5 +1,67 @@
 [
   {
+    "id": 59310006,
+    "latitude": "5046946.111",
+    "longitude": 322780.197,
+    "cp": "59310",
+    "pop": "R",
+    "adresse": "route dpt 938 zone de l' europe",
+    "ville": "Orchies",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 06:42:21\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 06:42:21\", \"@valeur\": \"1.793\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 06:42:22\", \"@valeur\": \"1.906\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-21 07:59:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-21 07:59:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-21 07:59:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 3.22780197,
+      "lat": 50.46946111
+    },
+    "gazole_maj": "2024-03-01T07:42:21+01:00",
+    "gazole_prix": "1.764",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-03-01T07:42:21+01:00",
+    "e10_prix": "1.793",
+    "sp98_maj": "2024-03-01T07:42:22+01:00",
+    "sp98_prix": "1.906",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-11-21 07:59:44",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-11-21 07:59:44",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-11-21 07:59:45",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32",
+    "horaires_jour": null
+  },
+  {
     "id": 59310001,
     "latitude": "5047073",
     "longitude": 324699,
@@ -8,24 +70,37 @@
     "adresse": "RUE CLAUDE JEAN",
     "ville": "Orchies",
     "services": "{\"service\": [\"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 14:09:13\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 08:59:39\", \"@valeur\": \"0.845\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 14:09:13\", \"@valeur\": \"1.784\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:49:52\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-06 08:59:39\", \"@valeur\": \"0.845\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 07:49:52\", \"@valeur\": \"1.785\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-01-24 08:41:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-02-12 09:19:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-10-04 17:35:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.24699,
       "lat": 50.47073
     },
-    "gazole_maj": "2024-02-22T15:09:13+01:00",
-    "gazole_prix": "1.769",
+    "gazole_maj": "2024-03-01T08:49:52+01:00",
+    "gazole_prix": "1.759",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-06T09:59:39+01:00",
     "e85_prix": "0.845",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-22T15:09:13+01:00",
-    "e10_prix": "1.784",
+    "e10_maj": "2024-03-01T08:49:52+01:00",
+    "e10_prix": "1.785",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2022-10-04 17:35:43",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2023-01-24 08:41:50",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2018-02-12 09:19:48",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +111,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Location de véhicule",
@@ -45,7 +122,8 @@
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   },
   {
     "id": 59310004,
@@ -56,14 +134,15 @@
     "adresse": "Carrière Pierre Tockaert",
     "ville": "Orchies",
     "services": "{\"service\": [\"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:34:40\", \"@valeur\": \"1.775\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 13:02:15\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 08:34:41\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 08:34:41\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:38:08\", \"@valeur\": \"1.763\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-08 13:02:15\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 08:34:41\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 08:38:08\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-27 17:25:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-08-29 16:33:13\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.247,
       "lat": 50.48
     },
-    "gazole_maj": "2024-02-23T09:34:40+01:00",
-    "gazole_prix": "1.775",
+    "gazole_maj": "2024-03-01T09:38:08+01:00",
+    "gazole_prix": "1.763",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-01-08T14:02:15+01:00",
@@ -72,8 +151,20 @@
     "gplc_prix": null,
     "e10_maj": "2024-02-23T09:34:41+01:00",
     "e10_prix": "1.789",
-    "sp98_maj": "2024-02-23T09:34:41+01:00",
-    "sp98_prix": "1.889",
+    "sp98_maj": "2024-03-01T09:38:08+01:00",
+    "sp98_prix": "1.899",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-08-29 16:33:13",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2018-12-27 17:25:59",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -84,6 +175,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds",
@@ -95,52 +188,7 @@
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
-    "id": 59310006,
-    "latitude": "5046946.111",
-    "longitude": 322780.197,
-    "cp": "59310",
-    "pop": "R",
-    "adresse": "route dpt 938 zone de l' europe",
-    "ville": "Orchies",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 13:25:29\", \"@valeur\": \"1.776\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 13:25:29\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 13:36:00\", \"@valeur\": \"1.898\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 3.22780197,
-      "lat": 50.46946111
-    },
-    "gazole_maj": "2024-02-22T14:25:29+01:00",
-    "gazole_prix": "1.776",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-22T14:25:29+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-02-22T14:36:00+01:00",
-    "sp98_prix": "1.898",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

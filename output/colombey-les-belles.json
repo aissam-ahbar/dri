@@ -9,6 +9,7 @@
     "ville": "Colombey-les-Belles",
     "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-30 11:56:25\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-30 11:56:59\", \"@valeur\": \"1.990\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 5.89412,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -46,6 +61,7 @@
     "departement": "Meurthe-et-Moselle",
     "code_departement": "54",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": null
   }
 ]

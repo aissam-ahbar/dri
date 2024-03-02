@@ -9,6 +9,7 @@
     "ville": "Étagnac",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2014-06-06 16:07:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2014-06-30 12:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2014-06-30 12:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2014-06-30 12:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.7899497856259999,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -40,6 +55,7 @@
     "departement": "Charente",
     "code_departement": "16",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

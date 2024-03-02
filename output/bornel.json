@@ -9,6 +9,7 @@
     "ville": "Bornel",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 10:50:59\", \"@valeur\": \"1.858\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-15 10:50:59\", \"@valeur\": \"1.938\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 10:50:59\", \"@valeur\": \"1.928\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-07-19 09:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-07-19 09:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 09:38:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 09:38:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-07-31 10:39:29\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.2042972,
@@ -26,6 +27,18 @@
     "e10_prix": "1.938",
     "sp98_maj": "2024-02-15T11:50:59+01:00",
     "sp98_prix": "1.928",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-07-31 10:39:29",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2017-09-05 09:38:20",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-05 09:38:20",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -51,6 +66,7 @@
     "departement": "Oise",
     "code_departement": "60",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

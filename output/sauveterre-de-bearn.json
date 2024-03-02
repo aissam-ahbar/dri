@@ -8,14 +8,15 @@
     "adresse": "Carrères du Dessus",
     "ville": "Sauveterre-de-Béarn",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 08:46:37\", \"@valeur\": \"1.805\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 08:30:00\", \"@valeur\": \"1.865\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 08:30:00\", \"@valeur\": \"1.822\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:26:58\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-13 08:30:00\", \"@valeur\": \"1.865\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 08:30:00\", \"@valeur\": \"1.822\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2012-03-30 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2012-03-30 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2012-03-30 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-02 08:19:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-02 08:19:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-02 08:19:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.948,
       "lat": 43.401
     },
-    "gazole_maj": "2024-02-23T09:46:37+01:00",
-    "gazole_prix": "1.805",
+    "gazole_maj": "2024-03-01T09:26:58+01:00",
+    "gazole_prix": "1.786",
     "sp95_maj": "2024-02-13T09:30:00+01:00",
     "sp95_prix": "1.865",
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.822",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-09-02 08:19:35",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-02 08:19:35",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-02 08:19:35",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -47,6 +62,7 @@
     "departement": "Pyrénées-Atlantiques",
     "code_departement": "64",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

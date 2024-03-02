@@ -8,14 +8,15 @@
     "adresse": "214 Chemin de la Boisière",
     "ville": "Drumettaz-Clarafond",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 08:00:00\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-22 09:16:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 08:00:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-09-25 08:00:00\", \"@valeur\": \"1.025\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 09:13:00\", \"@valeur\": \"1.909\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:00:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-22 09:16:00\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 08:00:00\", \"@valeur\": \"0.949\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-09-25 08:00:00\", \"@valeur\": \"1.025\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 09:13:00\", \"@valeur\": \"1.909\"}]",
+    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-06-25 07:45:14\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 5.911,
       "lat": 45.657
     },
-    "gazole_maj": "2024-02-27T09:00:00+01:00",
-    "gazole_prix": "1.765",
+    "gazole_maj": "2024-03-01T09:00:00+01:00",
+    "gazole_prix": "1.749",
     "sp95_maj": "2024-02-22T10:16:00+01:00",
     "sp95_prix": "1.869",
     "e85_maj": "2024-01-04T09:00:00+01:00",
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-23T10:13:00+01:00",
     "sp98_prix": "1.909",
+    "e10_rupture_debut": "2021-06-25 07:45:14",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -49,6 +64,7 @@
     "departement": "Savoie",
     "code_departement": "73",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

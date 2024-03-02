@@ -8,24 +8,37 @@
     "adresse": "1 RUE DE LA GARENNE",
     "ville": "Puiseaux",
     "services": "{\"service\": [\"Laverie\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 10:28:29\", \"@valeur\": \"1.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-27 10:28:30\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 10:28:30\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 14:26:44\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 14:26:45\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 14:26:45\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-04-17 15:14:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-04-17 15:14:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-08-19 09:38:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}}]}",
     "geom": {
       "lon": 2.457,
       "lat": 48.205
     },
-    "gazole_maj": "2024-02-27T11:28:29+01:00",
-    "gazole_prix": "1.779",
+    "gazole_maj": "2024-03-01T15:26:44+01:00",
+    "gazole_prix": "1.769",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-27T11:28:30+01:00",
+    "e10_maj": "2024-03-01T15:26:45+01:00",
     "e10_prix": "1.799",
-    "sp98_maj": "2024-02-27T11:28:30+01:00",
+    "sp98_maj": "2024-03-01T15:26:45+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-08-19 09:38:04",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2020-04-17 15:14:59",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2020-04-17 15:14:59",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
@@ -50,6 +65,7 @@
     "departement": "Loiret",
     "code_departement": "45",
     "region": "Centre-Val de Loire",
-    "code_region": "24"
+    "code_region": "24",
+    "horaires_jour": "Lundi09.00-19.30, Mardi09.00-19.30, Mercredi09.00-19.30, Jeudi09.00-19.30, Vendredi09.00-19.30, Samedi09.00-19.30, Dimanche09.00-12.30"
   }
 ]

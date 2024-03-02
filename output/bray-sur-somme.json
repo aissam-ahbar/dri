@@ -1,52 +1,5 @@
 [
   {
-    "id": 80340003,
-    "latitude": "4993800",
-    "longitude": 271800,
-    "cp": "80340",
-    "pop": "R",
-    "adresse": "zi route d'etinehem",
-    "ville": "Bray-sur-Somme",
-    "services": "{\"service\": [\"Vente de fioul domestique\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 10:35:46\", \"@valeur\": \"1.780\"}",
-    "horaires": null,
-    "geom": {
-      "lon": 2.718,
-      "lat": 49.938
-    },
-    "gazole_maj": "2024-02-27T11:35:46+01:00",
-    "gazole_prix": "1.780",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Somme",
-    "code_departement": "80",
-    "region": "Hauts-de-France",
-    "code_region": "32"
-  },
-  {
     "id": 80340004,
     "latitude": "4993969.75",
     "longitude": 271766.2,
@@ -56,6 +9,7 @@
     "ville": "Bray-sur-Somme",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-15 09:11:12\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-15 09:11:17\", \"@valeur\": \"1.845\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 09:11:25\", \"@valeur\": \"1.921\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-01-31 09:57:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-01-31 09:57:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-01-31 09:57:13\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 2.7176620000000002,
@@ -73,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-15T10:11:25+01:00",
     "sp98_prix": "1.921",
+    "e10_rupture_debut": "2024-01-31 09:57:13",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-01-31 09:57:13",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-01-31 09:57:13",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -83,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -95,6 +63,70 @@
     "departement": "Somme",
     "code_departement": "80",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": "Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
+    "id": 80340003,
+    "latitude": "4993800",
+    "longitude": 271800,
+    "cp": "80340",
+    "pop": "R",
+    "adresse": "zi route d'etinehem",
+    "ville": "Bray-sur-Somme",
+    "services": "{\"service\": [\"Vente de fioul domestique\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 10:35:46\", \"@valeur\": \"1.780\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-29 16:18:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-29 16:18:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-29 16:18:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-29 16:18:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-29 16:18:27\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.718,
+      "lat": 49.938
+    },
+    "gazole_maj": "2024-02-27T11:35:46+01:00",
+    "gazole_prix": "1.780",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2017-09-29 16:18:27",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-09-29 16:18:27",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2017-09-29 16:18:26",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-29 16:18:26",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-29 16:18:26",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;E10;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Somme",
+    "code_departement": "80",
+    "region": "Hauts-de-France",
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

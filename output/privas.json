@@ -8,24 +8,37 @@
     "adresse": "Boulevard de Paste",
     "ville": "Privas",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-12 21:16:48\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-12 21:16:48\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-12 21:16:48\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 21:16:48\", \"@valeur\": \"1.929\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 21:31:24\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 21:31:25\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 21:31:25\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 21:31:25\", \"@valeur\": \"1.929\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-16 15:14:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-20 09:07:52\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.597,
       "lat": 44.727
     },
-    "gazole_maj": "2024-02-12T22:16:48+01:00",
-    "gazole_prix": "1.839",
+    "gazole_maj": "2024-03-01T22:31:24+01:00",
+    "gazole_prix": "1.799",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-12T22:16:48+01:00",
+    "e85_maj": "2024-03-01T22:31:25+01:00",
     "e85_prix": "0.848",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-12T22:16:48+01:00",
+    "e10_maj": "2024-03-01T22:31:25+01:00",
     "e10_prix": "1.859",
-    "sp98_maj": "2024-02-12T22:16:48+01:00",
+    "sp98_maj": "2024-03-01T22:31:25+01:00",
     "sp98_prix": "1.929",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-11-16 15:14:06",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-20 09:07:52",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -47,6 +62,7 @@
     "departement": "Ardèche",
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

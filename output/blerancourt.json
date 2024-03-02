@@ -9,6 +9,7 @@
     "ville": "Blérancourt",
     "services": "{\"service\": [\"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-20 08:43:02\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-20 08:43:02\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-20 08:43:03\", \"@valeur\": \"1.939\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-12-23 10:51:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-15 10:40:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-15 10:40:05\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.1492908,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-20T09:43:03+01:00",
     "sp98_prix": "1.939",
+    "e10_rupture_debut": "2023-12-23 10:51:08",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-15 10:40:05",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-15 10:40:05",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Restauration à emporter",
@@ -44,6 +59,7 @@
     "departement": "Aisne",
     "code_departement": "02",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

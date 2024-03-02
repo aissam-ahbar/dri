@@ -8,24 +8,37 @@
     "adresse": "Avenue des Martyrs",
     "ville": "Ligueil",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:52:58\", \"@valeur\": \"1.827\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 09:52:58\", \"@valeur\": \"1.837\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 09:52:59\", \"@valeur\": \"1.923\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:26:37\", \"@valeur\": \"1.813\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 09:26:37\", \"@valeur\": \"1.841\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 09:26:38\", \"@valeur\": \"1.933\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-07 09:34:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 09:34:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 09:34:29\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.8177814413319999,
       "lat": 47.041046596600005
     },
-    "gazole_maj": "2024-02-23T10:52:58+01:00",
-    "gazole_prix": "1.827",
+    "gazole_maj": "2024-03-01T10:26:37+01:00",
+    "gazole_prix": "1.813",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-23T10:52:58+01:00",
-    "e10_prix": "1.837",
-    "sp98_maj": "2024-02-23T10:52:59+01:00",
-    "sp98_prix": "1.923",
+    "e10_maj": "2024-03-01T10:26:37+01:00",
+    "e10_prix": "1.841",
+    "sp98_maj": "2024-03-01T10:26:38+01:00",
+    "sp98_prix": "1.933",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-07 09:34:28",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-07 09:34:29",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-07 09:34:29",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -47,6 +62,7 @@
     "departement": "Indre-et-Loire",
     "code_departement": "37",
     "region": "Centre-Val de Loire",
-    "code_region": "24"
+    "code_region": "24",
+    "horaires_jour": null
   }
 ]

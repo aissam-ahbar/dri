@@ -8,16 +8,17 @@
     "adresse": "5, place de la République",
     "ville": "Vermelles",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:49:26\", \"@valeur\": \"1.742\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-29 07:40:54\", \"@valeur\": \"1.817\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 07:40:55\", \"@valeur\": \"1.846\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:55:05\", \"@valeur\": \"1.716\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 07:55:05\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 07:40:55\", \"@valeur\": \"1.846\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-31 08:42:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-31 08:42:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-10-17 07:39:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.746,
       "lat": 50.487
     },
-    "gazole_maj": "2024-02-28T08:49:26+01:00",
-    "gazole_prix": "1.742",
-    "sp95_maj": "2024-02-29T08:40:54+01:00",
-    "sp95_prix": "1.817",
+    "gazole_maj": "2024-03-01T08:55:05+01:00",
+    "gazole_prix": "1.716",
+    "sp95_maj": "2024-03-01T08:55:05+01:00",
+    "sp95_prix": "1.809",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-29T08:40:55+01:00",
     "sp98_prix": "1.846",
+    "e10_rupture_debut": "2017-10-31 08:42:15",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2023-10-17 07:39:33",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2017-10-31 08:42:15",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": "E85",
+    "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Vente de pétrole lampant",
@@ -45,6 +60,7 @@
     "departement": "Pas-de-Calais",
     "code_departement": "62",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": "Automate-24-24"
   }
 ]

@@ -9,6 +9,7 @@
     "ville": "Coarraze",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:47:11\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 07:47:11\", \"@valeur\": \"1.960\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-02-11 07:02:19\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-02-11 07:02:19\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-03 11:30:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-02-11 07:02:19\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.2382,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2022-11-03 11:30:41",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2020-02-11 07:02:19",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2020-02-11 07:02:19",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2020-02-11 07:02:19",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,12 +49,15 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": "E85;GPLc;SP98",
+    "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Pyrénées-Atlantiques",
     "code_departement": "64",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   },
   {
     "id": 64800005,
@@ -53,6 +69,7 @@
     "ville": "Coarraze",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 12:19:48\", \"@valeur\": \"1.851\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-19 18:48:15\", \"@valeur\": \"1.854\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-21 17:56:53\", \"@valeur\": \"1.856\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-19 18:48:16\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2009-10-05 11:47:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-10-19 08:57:33\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.23574,
@@ -70,6 +87,18 @@
     "e10_prix": "1.856",
     "sp98_maj": "2024-02-19T19:48:16+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-10-19 08:57:33",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -80,6 +109,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -92,6 +123,7 @@
     "departement": "Pyrénées-Atlantiques",
     "code_departement": "64",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

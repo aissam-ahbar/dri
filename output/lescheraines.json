@@ -9,6 +9,7 @@
     "ville": "Lescheraines",
     "services": "{\"service\": [\"Relais colis\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 12:29:45\", \"@valeur\": \"1.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-10 09:54:18\", \"@valeur\": \"1.953\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-05-29 08:44:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-05-29 08:44:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-05-29 08:44:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-08-16 13:18:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}]}",
     "geom": {
       "lon": 6.105881521871201,
@@ -26,6 +27,18 @@
     "e10_prix": "1.953",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2019-05-29 08:44:06",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2021-08-16 13:18:03",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2019-05-29 08:44:06",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2019-05-29 08:44:06",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10"
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Relais colis",
@@ -48,6 +63,7 @@
     "departement": "Savoie",
     "code_departement": "73",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24, Lundi00.00-23.00, Mardi00.00-23.00, Mercredi00.00-23.00, Jeudi00.00-23.00, Vendredi00.00-23.00, Samedi00.00-23.00, Dimanche00.00-23.00"
   }
 ]

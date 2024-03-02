@@ -8,24 +8,37 @@
     "adresse": "Z.I. Nord",
     "ville": "Saint-Just-en-Chaussée",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:55:12\", \"@valeur\": \"1.796\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:55:13\", \"@valeur\": \"1.853\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 09:22:55\", \"@valeur\": \"0.890\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 09:43:52\", \"@valeur\": \"1.874\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:37:13\", \"@valeur\": \"1.786\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:55:13\", \"@valeur\": \"1.853\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 08:37:14\", \"@valeur\": \"0.885\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 09:43:52\", \"@valeur\": \"1.874\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-02-21 09:53:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-02-21 09:53:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "geom": {
       "lon": 2.431,
       "lat": 49.512
     },
-    "gazole_maj": "2024-02-28T09:55:12+01:00",
-    "gazole_prix": "1.796",
+    "gazole_maj": "2024-03-01T09:37:13+01:00",
+    "gazole_prix": "1.786",
     "sp95_maj": "2024-02-28T09:55:13+01:00",
     "sp95_prix": "1.853",
-    "e85_maj": "2024-02-26T10:22:55+01:00",
-    "e85_prix": "0.890",
+    "e85_maj": "2024-03-01T09:37:14+01:00",
+    "e85_prix": "0.885",
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
     "sp98_maj": "2024-02-22T10:43:52+01:00",
     "sp98_prix": "1.874",
+    "e10_rupture_debut": "2022-02-21 09:53:09",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-02-21 09:53:09",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Station de gonflage",
@@ -50,6 +65,7 @@
     "departement": "Oise",
     "code_departement": "60",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": "Automate-24-24, Lundi00.00-00.00, Mardi00.00-00.00, Mercredi00.00-00.00, Jeudi00.00-00.00, Vendredi00.00-00.00, Samedi00.00-00.00, Dimanche00.00-00.00"
   }
 ]

@@ -1,53 +1,5 @@
 [
   {
-    "id": 79110003,
-    "latitude": "4610700",
-    "longitude": -7000,
-    "cp": "79110",
-    "pop": "R",
-    "adresse": "6 avenue Louis Doignon",
-    "ville": "Chef-Boutonne",
-    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 12:00:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 09:00:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 09:00:00\", \"@valeur\": \"1.859\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": -0.07,
-      "lat": 46.107
-    },
-    "gazole_maj": "2024-02-27T13:00:00+01:00",
-    "gazole_prix": "1.749",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-13T10:00:00+01:00",
-    "e10_prix": "1.789",
-    "sp98_maj": "2024-02-13T10:00:00+01:00",
-    "sp98_prix": "1.859",
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Deux-Sèvres",
-    "code_departement": "79",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
-  },
-  {
     "id": 79110001,
     "latitude": "4610800",
     "longitude": -6800,
@@ -57,6 +9,7 @@
     "ville": "Chef-Boutonne",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:21:31\", \"@valeur\": \"1.764\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:21:32\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:21:32\", \"@valeur\": \"1.855\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-05-13 11:20:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-05-13 11:20:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-05-13 11:20:11\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}]}",
     "geom": {
       "lon": -0.068,
@@ -74,6 +27,18 @@
     "e10_prix": "1.772",
     "sp98_maj": "2024-02-28T09:21:32+01:00",
     "sp98_prix": "1.855",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-05-13 11:20:10",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2021-05-13 11:20:11",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-05-13 11:20:11",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -84,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -95,6 +62,71 @@
     "departement": "Deux-Sèvres",
     "code_departement": "79",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Lundi08.30-19.30, Mardi08.30-19.30, Mercredi08.30-19.30, Jeudi08.30-19.30, Vendredi08.30-19.30, Samedi08.30-19.30, Dimanche09.00-12.00"
+  },
+  {
+    "id": 79110003,
+    "latitude": "4610700",
+    "longitude": -7000,
+    "cp": "79110",
+    "pop": "R",
+    "adresse": "6 avenue Louis Doignon",
+    "ville": "Chef-Boutonne",
+    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 12:00:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-13 09:00:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-13 09:00:00\", \"@valeur\": \"1.859\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2016-05-23 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-02 11:45:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-02 11:45:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-02 11:45:16\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -0.07,
+      "lat": 46.107
+    },
+    "gazole_maj": "2024-02-27T13:00:00+01:00",
+    "gazole_prix": "1.749",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-13T10:00:00+01:00",
+    "e10_prix": "1.789",
+    "sp98_maj": "2024-02-13T10:00:00+01:00",
+    "sp98_prix": "1.859",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-09-02 11:45:16",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-02 11:45:16",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-02 11:45:16",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Deux-Sèvres",
+    "code_departement": "79",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

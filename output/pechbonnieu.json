@@ -8,24 +8,37 @@
     "adresse": "2, rue du 8 mai 1945",
     "ville": "Pechbonnieu",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 08:55:16\", \"@valeur\": \"1.764\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:55:17\", \"@valeur\": \"1.854\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-05 16:50:46\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:55:17\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:55:17\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 10:46:33\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 10:46:33\", \"@valeur\": \"1.854\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-05 16:50:46\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 10:46:34\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 10:46:34\", \"@valeur\": \"1.889\"}]",
+    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-25 11:27:14\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 1.466,
       "lat": 43.707
     },
-    "gazole_maj": "2024-02-28T09:55:16+01:00",
-    "gazole_prix": "1.764",
-    "sp95_maj": "2024-02-28T09:55:17+01:00",
+    "gazole_maj": "2024-03-01T11:46:33+01:00",
+    "gazole_prix": "1.749",
+    "sp95_maj": "2024-03-01T11:46:33+01:00",
     "sp95_prix": "1.854",
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": "2024-02-05T17:50:46+01:00",
     "gplc_prix": "1.049",
-    "e10_maj": "2024-02-28T09:55:17+01:00",
+    "e10_maj": "2024-03-01T11:46:34+01:00",
     "e10_prix": "1.779",
-    "sp98_maj": "2024-02-28T09:55:17+01:00",
+    "sp98_maj": "2024-03-01T11:46:34+01:00",
     "sp98_prix": "1.889",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-10-25 11:27:14",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "E85"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique alimentaire",
@@ -47,6 +62,7 @@
     "departement": "Haute-Garonne",
     "code_departement": "31",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]

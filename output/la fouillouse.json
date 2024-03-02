@@ -9,6 +9,7 @@
     "ville": "La Fouillouse",
     "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-16 11:55:24\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-27 10:35:34\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-25 15:55:58\", \"@valeur\": \"1.858\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-25 15:55:58\", \"@valeur\": \"1.927\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-04-11 20:59:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-04-11 20:59:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.319,
@@ -26,6 +27,18 @@
     "e10_prix": "1.858",
     "sp98_maj": "2024-02-25T16:55:58+01:00",
     "sp98_prix": "1.927",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-04-11 20:59:18",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2021-04-11 20:59:19",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Piste poids lourds",
@@ -44,6 +59,7 @@
     "departement": "Loire",
     "code_departement": "42",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24, Lundi, Mardi, Mercredi, Jeudi, Vendredi08.00-12.00, Samedi, Dimanche"
   }
 ]

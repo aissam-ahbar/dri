@@ -9,6 +9,7 @@
     "ville": "Rieux-Volvestre",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": null,
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2015-08-31 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2015-08-31 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.19403,
@@ -26,8 +27,22 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": null,
     "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -40,7 +55,8 @@
     "departement": "Haute-Garonne",
     "code_departement": "31",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   },
   {
     "id": 31310004,
@@ -52,6 +68,7 @@
     "ville": "Rieux-Volvestre",
     "services": "{\"service\": [\"Carburant additivé\", \"Services réparation / entretien\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-24 22:07:58\", \"@valeur\": \"1.890\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-01-03 11:23:15\", \"@valeur\": \"1.970\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-19 11:12:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-19 11:12:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-01-17 09:11:39\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-03-22 17:13:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.194,
@@ -69,6 +86,18 @@
     "e10_prix": "1.970",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2023-01-17 09:11:39",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2021-03-22 17:13:12",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-10-19 11:12:12",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-19 11:12:12",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10"
@@ -79,6 +108,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Carburant additivé",
@@ -88,6 +119,7 @@
     "departement": "Haute-Garonne",
     "code_departement": "31",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24"
   }
 ]

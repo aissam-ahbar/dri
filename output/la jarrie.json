@@ -9,6 +9,7 @@
     "ville": "La Jarrie",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:48:43\", \"@valeur\": \"1.746\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-02 09:51:30\", \"@valeur\": \"0.848\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-17 08:43:09\", \"@valeur\": \"0.945\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:38:06\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-28 08:38:24\", \"@valeur\": \"1.854\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-12-30 12:25:55\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -1.007,
@@ -26,6 +27,18 @@
     "e10_prix": "1.785",
     "sp98_maj": "2024-02-28T09:38:24+01:00",
     "sp98_prix": "1.854",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2019-12-30 12:25:55",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
     "carburants_indisponibles": [
       "SP95"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de pétrole lampant",
@@ -46,6 +61,7 @@
     "departement": "Charente-Maritime",
     "code_departement": "17",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": "Lundi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\", Mardi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\", Mercredi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\", Jeudi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\", Vendredi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"15.30\", \"@fermeture\": \"18.45\", Samedi09.00-12.00, Dimanche"
   }
 ]

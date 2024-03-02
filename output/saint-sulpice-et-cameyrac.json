@@ -9,6 +9,7 @@
     "ville": "Saint-Sulpice-et-Cameyrac",
     "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 09:23:11\", \"@valeur\": \"1.768\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-08 10:48:34\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-12 11:50:05\", \"@valeur\": \"1.858\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-04-24 11:38:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-02-27 09:23:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-02-27 09:23:11\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.39117,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-12T12:50:05+01:00",
     "sp98_prix": "1.858",
+    "e10_rupture_debut": "2024-02-27 09:23:11",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-02-27 09:23:11",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-04-24 11:38:58",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
@@ -49,6 +64,7 @@
     "departement": "Gironde",
     "code_departement": "33",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

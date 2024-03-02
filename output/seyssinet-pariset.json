@@ -8,13 +8,14 @@
     "adresse": "115 AVENUE DE LA REPUBLIQUE",
     "ville": "Seyssinet-Pariset",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 00:01:00\", \"@valeur\": \"1.917\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-02 00:01:00\", \"@valeur\": \"1.917\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-01-15 16:31:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-01-15 16:31:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-01-15 16:31:27\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.69701,
       "lat": 45.1758
     },
-    "gazole_maj": "2024-03-01T01:01:00+01:00",
+    "gazole_maj": "2024-03-02T01:01:00+01:00",
     "gazole_prix": "1.739",
     "sp95_maj": null,
     "sp95_prix": null,
@@ -22,10 +23,22 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-03-01T01:01:00+01:00",
+    "e10_maj": "2024-03-02T01:01:00+01:00",
     "e10_prix": "1.822",
-    "sp98_maj": "2024-03-01T01:01:00+01:00",
+    "sp98_maj": "2024-03-02T01:01:00+01:00",
     "sp98_prix": "1.917",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-01-15 16:31:27",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2020-01-15 16:31:27",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2020-01-15 16:31:27",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -51,6 +66,7 @@
     "departement": "Isère",
     "code_departement": "38",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

@@ -8,7 +8,8 @@
     "adresse": "D809 Aire de la Garde",
     "ville": "Albaret-Sainte-Marie",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 12:25:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 12:25:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 12:25:00\", \"@valeur\": \"2.039\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 12:25:00\", \"@valeur\": \"1.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 12:40:00\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 12:40:00\", \"@valeur\": \"2.049\"}]",
+    "rupture": null,
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.253,
@@ -22,10 +23,22 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-22T13:25:00+01:00",
-    "e10_prix": "1.939",
-    "sp98_maj": "2024-02-22T13:25:00+01:00",
-    "sp98_prix": "2.039",
+    "e10_maj": "2024-03-01T13:40:00+01:00",
+    "e10_prix": "1.949",
+    "sp98_maj": "2024-03-01T13:40:00+01:00",
+    "sp98_prix": "2.049",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Station de gonflage",
@@ -46,6 +61,7 @@
     "departement": "Lozère",
     "code_departement": "48",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24"
   }
 ]

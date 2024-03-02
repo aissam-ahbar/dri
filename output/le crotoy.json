@@ -9,6 +9,7 @@
     "ville": "Le Crotoy",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-18 08:24:09\", \"@valeur\": \"1.854\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-18 08:24:09\", \"@valeur\": \"1.893\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-18 08:24:09\", \"@valeur\": \"1.966\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 1.625,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-18T09:24:09+01:00",
     "sp98_prix": "1.966",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -46,6 +61,7 @@
     "departement": "Somme",
     "code_departement": "80",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

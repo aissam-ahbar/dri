@@ -8,15 +8,16 @@
     "adresse": "AV. DU PIEMONT",
     "ville": "Valcourt",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 07:51:38\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-26 07:51:38\", \"@valeur\": \"1.990\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:01:19\", \"@valeur\": \"1.900\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 08:01:19\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-09-14 10:41:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-14 10:41:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-14 10:41:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-14 10:41:11\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.912,
       "lat": 48.617
     },
-    "gazole_maj": "2024-02-26T08:51:38+01:00",
-    "gazole_prix": "1.910",
-    "sp95_maj": "2024-02-26T08:51:38+01:00",
+    "gazole_maj": "2024-03-01T09:01:19+01:00",
+    "gazole_prix": "1.900",
+    "sp95_maj": "2024-03-01T09:01:19+01:00",
     "sp95_prix": "1.990",
     "e85_maj": null,
     "e85_prix": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2022-09-14 10:41:11",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-09-14 10:41:11",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-09-14 10:41:11",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-09-14 10:41:11",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -36,6 +49,8 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
@@ -49,6 +64,7 @@
     "departement": "Haute-Marne",
     "code_departement": "52",
     "region": "Grand Est",
-    "code_region": "44"
+    "code_region": "44",
+    "horaires_jour": null
   }
 ]

@@ -8,14 +8,15 @@
     "adresse": "Avenue Jean Vinatier",
     "ville": "Seilhac",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 08:27:06\", \"@valeur\": \"1.791\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 08:27:06\", \"@valeur\": \"0.852\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 08:27:07\", \"@valeur\": \"1.797\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 08:27:07\", \"@valeur\": \"1.878\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:57:32\", \"@valeur\": \"1.785\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-26 08:27:06\", \"@valeur\": \"0.852\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 08:27:07\", \"@valeur\": \"1.797\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 08:27:07\", \"@valeur\": \"1.878\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-03 09:22:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-07-22 09:33:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.7155,
       "lat": 45.36779
     },
-    "gazole_maj": "2024-02-26T09:27:06+01:00",
-    "gazole_prix": "1.791",
+    "gazole_maj": "2024-03-01T09:57:32+01:00",
+    "gazole_prix": "1.785",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-02-26T09:27:06+01:00",
@@ -26,6 +27,18 @@
     "e10_prix": "1.797",
     "sp98_maj": "2024-02-26T09:27:07+01:00",
     "sp98_prix": "1.878",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-07-22 09:33:35",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-03 09:22:49",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",
@@ -47,6 +62,7 @@
     "departement": "Corrèze",
     "code_departement": "19",
     "region": "Nouvelle-Aquitaine",
-    "code_region": "75"
+    "code_region": "75",
+    "horaires_jour": null
   }
 ]

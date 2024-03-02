@@ -8,14 +8,15 @@
     "adresse": "31 Rue de Pérenchies",
     "ville": "Verlinghem",
     "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-14 08:18:20\", \"@valeur\": \"1.890\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 07:55:44\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-06 07:43:31\", \"@valeur\": \"1.930\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:50:14\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-06 07:55:44\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-12-06 07:43:31\", \"@valeur\": \"1.930\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-03-04 10:01:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-04 10:01:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-03-04 10:01:21\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.99646,
       "lat": 50.68003
     },
-    "gazole_maj": "2024-02-14T09:18:20+01:00",
-    "gazole_prix": "1.890",
+    "gazole_maj": "2024-03-01T08:50:14+01:00",
+    "gazole_prix": "1.860",
     "sp95_maj": "2024-02-06T08:55:44+01:00",
     "sp95_prix": "1.930",
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2023-12-06T08:43:31+01:00",
     "sp98_prix": "1.930",
+    "e10_rupture_debut": "2022-03-04 10:01:21",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-03-04 10:01:21",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-03-04 10:01:21",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds",
@@ -44,6 +59,7 @@
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
-    "code_region": "32"
+    "code_region": "32",
+    "horaires_jour": null
   }
 ]

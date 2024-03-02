@@ -9,6 +9,7 @@
     "ville": "La Haye-Pesnel",
     "services": "{\"service\": [\"Relais colis\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-26 13:40:21\", \"@valeur\": \"1.780\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-26 13:40:21\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-26 13:40:22\", \"@valeur\": \"1.879\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-01 06:30:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-11-30 12:05:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-03-28 17:37:02\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -1.398,
@@ -26,6 +27,18 @@
     "e10_prix": "1.799",
     "sp98_maj": "2024-02-26T14:40:22+01:00",
     "sp98_prix": "1.879",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-04-01 06:30:42",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2022-03-28 17:37:02",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-11-30 12:05:47",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E10",
@@ -36,6 +49,8 @@
       "E85",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Relais colis",
@@ -48,6 +63,7 @@
     "departement": "Manche",
     "code_departement": "50",
     "region": "Normandie",
-    "code_region": "28"
+    "code_region": "28",
+    "horaires_jour": "Automate-24-24, Lundi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\", Mardi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\", Mercredi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\", Jeudi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\", Vendredi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\", Samedi, \"horaire\": \"@ouverture\": \"09.00\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\", Dimanche"
   }
 ]

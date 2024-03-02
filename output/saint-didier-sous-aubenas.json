@@ -8,24 +8,37 @@
     "adresse": "Rue de Montélimar",
     "ville": "Saint-Didier-sous-Aubenas",
     "services": "{\"service\": [\"Aire de camping-cars\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-28 07:54:23\", \"@valeur\": \"1.743\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-28 07:54:23\", \"@valeur\": \"1.079\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 07:54:23\", \"@valeur\": \"1.755\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 08:05:44\", \"@valeur\": \"1.736\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 08:05:45\", \"@valeur\": \"1.079\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 08:05:45\", \"@valeur\": \"1.777\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-10-09 18:19:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-09-18 17:29:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-04 17:16:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.409,
       "lat": 44.612
     },
-    "gazole_maj": "2024-02-28T08:54:23+01:00",
-    "gazole_prix": "1.743",
+    "gazole_maj": "2024-03-01T09:05:44+01:00",
+    "gazole_prix": "1.736",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-28T08:54:23+01:00",
+    "e85_maj": "2024-03-01T09:05:45+01:00",
     "e85_prix": "1.079",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-28T08:54:23+01:00",
-    "e10_prix": "1.755",
+    "e10_maj": "2024-03-01T09:05:45+01:00",
+    "e10_prix": "1.777",
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2021-09-18 17:29:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2022-10-04 17:16:20",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2018-10-09 18:19:37",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "GPLc",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Aire de camping-cars",
@@ -45,6 +60,7 @@
     "departement": "Ardèche",
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

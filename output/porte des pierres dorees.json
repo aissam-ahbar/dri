@@ -8,24 +8,37 @@
     "adresse": "2395, route de Tarare",
     "ville": "Porte des Pierres Dorées",
     "services": "{\"service\": [\"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-29 20:00:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-29 20:00:00\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-29 20:00:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-29 20:00:00\", \"@valeur\": \"1.999\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 20:00:00\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-01 20:00:00\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-01 20:00:00\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 20:00:00\", \"@valeur\": \"1.999\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-02-03 08:27:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-02-03 08:27:42\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.45\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"13.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.672,
       "lat": 45.97
     },
-    "gazole_maj": "2024-02-29T21:00:00+01:00",
+    "gazole_maj": "2024-03-01T21:00:00+01:00",
     "gazole_prix": "1.859",
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-02-29T21:00:00+01:00",
+    "e85_maj": "2024-03-01T21:00:00+01:00",
     "e85_prix": "0.929",
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-29T21:00:00+01:00",
+    "e10_maj": "2024-03-01T21:00:00+01:00",
     "e10_prix": "1.929",
-    "sp98_maj": "2024-02-29T21:00:00+01:00",
+    "sp98_maj": "2024-03-01T21:00:00+01:00",
     "sp98_prix": "1.999",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-02-03 08:27:42",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-02-03 08:27:42",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique non alimentaire",
@@ -49,6 +64,7 @@
     "departement": "Rhône",
     "code_departement": "69",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24, Lundi, \"horaire\": \"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\", Mardi, \"horaire\": \"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\", Mercredi, \"horaire\": \"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\", Jeudi, \"horaire\": \"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\", Vendredi, \"horaire\": \"@ouverture\": \"07.15\", \"@fermeture\": \"12.45\", \"@ouverture\": \"14.00\", \"@fermeture\": \"19.30\", Samedi, \"horaire\": \"@ouverture\": \"08.45\", \"@fermeture\": \"12.00\", \"@ouverture\": \"12.00\", \"@fermeture\": \"13.00\", Dimanche"
   }
 ]

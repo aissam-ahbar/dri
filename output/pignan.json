@@ -9,6 +9,7 @@
     "ville": "Pignan",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-04-14 08:49:24\", \"@valeur\": \"1.990\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-03-08 15:25:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2023-08-16 08:18:42\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-04-11 09:28:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-07 11:02:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-07 11:02:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.77903,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2023-04-14T10:49:24+02:00",
     "sp98_prix": "1.990",
+    "e10_rupture_debut": "2023-04-11 09:28:16",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2018-03-08 15:25:40",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2022-11-07 11:02:09",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-11-07 11:02:09",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": "2023-08-16 08:18:42",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
       "SP98"
     ],
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": "Gazole;E10",
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -51,6 +66,7 @@
     "departement": "Hérault",
     "code_departement": "34",
     "region": "Occitanie",
-    "code_region": "76"
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]

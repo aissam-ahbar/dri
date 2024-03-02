@@ -9,6 +9,7 @@
     "ville": "Viriville",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 05:30:00\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 05:30:00\", \"@valeur\": \"1.930\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-27 05:30:00\", \"@valeur\": \"1.980\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-05-12 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2016-05-12 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2016-05-12 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 19:42:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 19:42:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-04 19:42:39\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"12.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 5.207,
@@ -26,6 +27,18 @@
     "e10_prix": null,
     "sp98_maj": "2024-02-27T06:30:00+01:00",
     "sp98_prix": "1.980",
+    "e10_rupture_debut": "2017-09-04 19:42:39",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-04 19:42:38",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-04 19:42:39",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
@@ -36,6 +49,8 @@
       "GPLc",
       "E10"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
@@ -43,7 +58,8 @@
     "departement": "Isère",
     "code_departement": "38",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Lundi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\", Mardi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\", Mercredi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\", Jeudi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\", Vendredi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\", Samedi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"12.00\", \"@fermeture\": \"12.00\", Dimanche"
   },
   {
     "id": 38260008,
@@ -55,6 +71,7 @@
     "ville": "Viriville",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-27 05:30:00\", \"@valeur\": \"1.910\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 05:30:00\", \"@valeur\": \"1.930\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-05-17 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2016-05-17 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2016-05-17 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2016-05-17 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 19:43:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 19:43:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-04 19:43:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-04 19:43:30\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"12.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 5.197,
@@ -72,6 +89,18 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
+    "e10_rupture_debut": "2017-09-04 19:43:30",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-09-04 19:43:30",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-04 19:43:30",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-04 19:43:30",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95"
@@ -82,11 +111,14 @@
       "E10",
       "SP98"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Isère",
     "code_departement": "38",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": "Lundi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Mardi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Mercredi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Jeudi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Vendredi, \"horaire\": \"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\", Samedi, \"horaire\": \"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\", \"@ouverture\": \"12.00\", \"@fermeture\": \"12.00\", Dimanche"
   }
 ]

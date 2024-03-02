@@ -8,14 +8,15 @@
     "adresse": "Route des Vignes",
     "ville": "Saint-Julien-en-Genevois",
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 16:45:10\", \"@valeur\": \"1.815\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 09:09:18\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 16:45:11\", \"@valeur\": \"1.863\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 16:45:11\", \"@valeur\": \"1.949\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 17:20:51\", \"@valeur\": \"1.805\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 09:09:18\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 16:45:11\", \"@valeur\": \"1.863\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-23 16:45:11\", \"@valeur\": \"1.949\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-08 12:33:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-01-06 08:28:56\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.0699,
       "lat": 46.13929
     },
-    "gazole_maj": "2024-02-23T17:45:10+01:00",
-    "gazole_prix": "1.815",
+    "gazole_maj": "2024-03-01T18:20:51+01:00",
+    "gazole_prix": "1.805",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-01-04T10:09:18+01:00",
@@ -26,6 +27,18 @@
     "e10_prix": "1.863",
     "sp98_maj": "2024-02-23T17:45:11+01:00",
     "sp98_prix": "1.949",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-01-06 08:28:56",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-11-08 12:33:25",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
@@ -36,6 +49,8 @@
       "SP95",
       "GPLc"
     ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Lavage manuel",
@@ -45,6 +60,7 @@
     "departement": "Haute-Savoie",
     "code_departement": "74",
     "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84"
+    "code_region": "84",
+    "horaires_jour": null
   }
 ]

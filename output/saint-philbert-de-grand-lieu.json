@@ -8,14 +8,15 @@
     "adresse": "ESPACE CIAL GRAND LAC",
     "ville": "Saint-Philbert-de-Grand-Lieu",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-24 08:06:51\", \"@valeur\": \"1.749\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-24 08:06:51\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 08:06:51\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 08:06:52\", \"@valeur\": \"1.839\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 07:42:08\", \"@valeur\": \"1.739\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-24 08:06:51\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-24 08:06:51\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-24 08:06:52\", \"@valeur\": \"1.839\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-05-23 08:16:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-03-25 13:04:56\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.6403904800000002,
       "lat": 47.04729577
     },
-    "gazole_maj": "2024-02-24T09:06:51+01:00",
-    "gazole_prix": "1.749",
+    "gazole_maj": "2024-03-01T08:42:08+01:00",
+    "gazole_prix": "1.739",
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -26,6 +27,18 @@
     "e10_prix": "1.759",
     "sp98_maj": "2024-02-24T09:06:52+01:00",
     "sp98_prix": "1.839",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-05-23 08:16:18",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2023-03-25 13:04:56",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
@@ -36,6 +49,8 @@
       "SP95",
       "E85"
     ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
@@ -53,6 +68,7 @@
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
-    "code_region": "52"
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]
