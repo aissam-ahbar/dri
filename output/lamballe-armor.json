@@ -209,69 +209,6 @@
     "horaires_jour": "Automate-24-24, Lundi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.50\", Mardi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.50\", Mercredi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.50\", Jeudi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.50\", Vendredi, \"horaire\": \"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\", \"@ouverture\": \"14.30\", \"@fermeture\": \"19.50\", Samedi08.30-19.50, Dimanche"
   },
   {
-    "id": 22400005,
-    "latitude": "4846200",
-    "longitude": -250400,
-    "cp": "22400",
-    "pop": "R",
-    "adresse": "25 avenue Georges Clemenceau",
-    "ville": "Lamballe-Armor",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:57:09\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 09:12:23\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 10:00:46\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 08:53:14\", \"@valeur\": \"1.837\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:45:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-29 08:50:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": -2.504,
-      "lat": 48.462
-    },
-    "gazole_maj": "2024-03-01T10:57:09+01:00",
-    "gazole_prix": "1.729",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-01-04T10:12:23+01:00",
-    "e85_prix": "0.849",
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-23T11:00:46+01:00",
-    "e10_prix": "1.769",
-    "sp98_maj": "2024-02-15T09:53:14+01:00",
-    "sp98_prix": "1.837",
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2023-03-29 08:50:03",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2017-08-29 10:45:17",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Côtes-d'Armor",
-    "code_departement": "22",
-    "region": "Bretagne",
-    "code_region": "53",
-    "horaires_jour": null
-  },
-  {
     "id": 22400009,
     "latitude": "4848175.1064981",
     "longitude": -249810.10304171,
@@ -409,5 +346,68 @@
     "region": "Bretagne",
     "code_region": "53",
     "horaires_jour": "Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
+    "id": 22400005,
+    "latitude": "4846200",
+    "longitude": -250400,
+    "cp": "22400",
+    "pop": "R",
+    "adresse": "25 avenue Georges Clemenceau",
+    "ville": "Lamballe-Armor",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:57:09\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-04 09:12:23\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-23 10:00:46\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-15 08:53:14\", \"@valeur\": \"1.837\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-29 08:50:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:45:17\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": -2.504,
+      "lat": 48.462
+    },
+    "gazole_maj": "2024-03-01T10:57:09+01:00",
+    "gazole_prix": "1.729",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-01-04T10:12:23+01:00",
+    "e85_prix": "0.849",
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-02-23T11:00:46+01:00",
+    "e10_prix": "1.769",
+    "sp98_maj": "2024-02-15T09:53:14+01:00",
+    "sp98_prix": "1.837",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2023-03-29 08:50:03",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-08-29 10:45:17",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Côtes-d'Armor",
+    "code_departement": "22",
+    "region": "Bretagne",
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]
