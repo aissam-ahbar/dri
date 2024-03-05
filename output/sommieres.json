@@ -9,8 +9,8 @@
     "ville": "Sommières",
     "horaires": null,
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 14:00:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:20:00\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-23 07:30:00\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-28 08:20:00\", \"@valeur\": \"1.839\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2015-12-02 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 18:32:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 14:00:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-28 08:20:00\", \"@valeur\": \"1.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-04 07:30:00\", \"@valeur\": \"1.849\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2015-12-02 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-03-04 07:54:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 18:32:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 4.08168,
       "lat": 43.78095
@@ -19,12 +19,12 @@
     "gazole_prix": "1.759",
     "sp95_maj": "2024-02-28T09:20:00+01:00",
     "sp95_prix": "1.879",
-    "e85_maj": "2024-02-23T08:30:00+01:00",
-    "e85_prix": "0.849",
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-02-28T09:20:00+01:00",
-    "e10_prix": "1.839",
+    "e10_maj": "2024-03-04T08:30:00+01:00",
+    "e10_prix": "1.849",
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
@@ -33,8 +33,8 @@
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
+    "e85_rupture_debut": "2024-03-04 07:54:00",
+    "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2017-09-26 18:32:06",
     "gplc_rupture_type": "temporaire",
     "gazole_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
       "E10"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_temporaire": "E85;GPLc",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
