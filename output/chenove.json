@@ -1,69 +1,5 @@
 [
   {
-    "id": 21300001,
-    "latitude": "4728500",
-    "longitude": 502200,
-    "cp": "21300",
-    "pop": "R",
-    "adresse": "ZONE INDUSTRIELLE",
-    "ville": "Chenôve",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-04 07:20:00\", \"@valeur\": \"1.757\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-22 11:51:21\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-04 07:20:00\", \"@valeur\": \"1.791\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-04 07:20:00\", \"@valeur\": \"1.884\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 06:54:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 06:54:00\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 5.022,
-      "lat": 47.285
-    },
-    "gazole_maj": "2024-03-04T08:20:00+01:00",
-    "gazole_prix": "1.757",
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2024-02-22T12:51:21+01:00",
-    "gplc_prix": "0.899",
-    "e10_maj": "2024-03-04T08:20:00+01:00",
-    "e10_prix": "1.791",
-    "sp98_maj": "2024-03-04T08:20:00+01:00",
-    "sp98_prix": "1.884",
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2017-08-31 06:54:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2017-08-31 06:54:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
-      "Automate CB 24/24"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": "Automate-24-24"
-  },
-  {
     "id": 21300004,
     "latitude": "4729307",
     "longitude": 501616,
@@ -74,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-01 09:12:35\", \"@valeur\": \"1.773\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-01 09:12:42\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-01 09:12:48\", \"@valeur\": \"1.927\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-05-05 11:37:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-05-05 11:37:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-05 15:24:59\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-05 15:24:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-05-05 11:37:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-05-05 11:37:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 5.01616,
       "lat": 47.29307
@@ -125,5 +61,69 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": null
+  },
+  {
+    "id": 21300001,
+    "latitude": "4728500",
+    "longitude": 502200,
+    "cp": "21300",
+    "pop": "R",
+    "adresse": "ZONE INDUSTRIELLE",
+    "ville": "Chenôve",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-05 07:15:00\", \"@valeur\": \"1.758\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-02-22 11:51:21\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-05 07:15:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-05 07:15:00\", \"@valeur\": \"1.892\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 06:54:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 06:54:00\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 5.022,
+      "lat": 47.285
+    },
+    "gazole_maj": "2024-03-05T08:15:00+01:00",
+    "gazole_prix": "1.758",
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-02-22T12:51:21+01:00",
+    "gplc_prix": "0.899",
+    "e10_maj": "2024-03-05T08:15:00+01:00",
+    "e10_prix": "1.799",
+    "sp98_maj": "2024-03-05T08:15:00+01:00",
+    "sp98_prix": "1.892",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-08-31 06:54:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-08-31 06:54:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24"
   }
 ]
