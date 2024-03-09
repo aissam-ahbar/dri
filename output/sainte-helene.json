@@ -10,7 +10,7 @@
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-22 17:42:56\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-01-17 18:35:50\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 17:42:57\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-22 17:42:57\", \"@valeur\": \"1.889\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-27 11:43:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-12-24 14:54:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-12-24 14:54:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-27 11:43:23\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -0.893,
       "lat": 44.967
@@ -31,11 +31,11 @@
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2019-12-24 14:54:18",
+    "sp95_rupture_debut": "2019-12-24T15:54:18+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
-    "gplc_rupture_debut": "2017-09-27 11:43:23",
+    "gplc_rupture_debut": "2017-09-27T13:43:23+02:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
