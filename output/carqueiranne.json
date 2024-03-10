@@ -10,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-08 07:16:44\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-08 07:16:45\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-08 07:16:45\", \"@valeur\": \"1.999\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-18 07:30:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-03-09 18:50:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 6.07816,
       "lat": 43.09261
@@ -31,8 +31,8 @@
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-01-18T08:30:52+01:00",
-    "sp95_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2024-03-09T19:50:24+01:00",
+    "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-07T10:19:18+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-09-07T10:19:18+02:00",
@@ -49,8 +49,8 @@
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP95",
-    "carburants_rupture_definitive": "E85;GPLc",
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
