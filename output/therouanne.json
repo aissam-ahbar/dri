@@ -2,15 +2,15 @@
   {
     "id": 62129002,
     "latitude": "5063188.15",
-    "longitude": 226542.55,
+    "longitude": "226542.55",
     "cp": "62129",
     "pop": "R",
     "adresse": "24 CHAUSSEE BRUNEHAUT",
     "ville": "Thérouanne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-09 14:14:40\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-09 14:14:41\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-09 14:14:41\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-09 14:14:41\", \"@valeur\": \"1.919\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-09 14:14:40\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-09 14:14:41\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-09 14:14:41\", \"@valeur\": \"1.829\"}]",
+    "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-03-12 10:50:34\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "geom": {
       "lon": 2.2654255,
       "lat": 50.631881500000006
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-03-09T15:14:41+01:00",
     "e10_prix": 1.829,
-    "sp98_maj": "2024-03-09T15:14:41+01:00",
-    "sp98_prix": 1.919,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-03-12T11:50:34+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [

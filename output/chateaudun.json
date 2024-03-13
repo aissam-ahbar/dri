@@ -2,7 +2,7 @@
   {
     "id": 28200005,
     "latitude": "4809200",
-    "longitude": 133900,
+    "longitude": "133900",
     "cp": "28200",
     "pop": "R",
     "adresse": "Route de Chartres",
@@ -77,20 +77,20 @@
   {
     "id": 28200002,
     "latitude": "4806166",
-    "longitude": 133489,
+    "longitude": "133489",
     "cp": "28200",
     "pop": "R",
     "adresse": "8 BD DU 8 MAI",
     "ville": "Châteaudun",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-08 06:10:35\", \"@valeur\": \"1.852\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-12 08:57:07\", \"@valeur\": \"1.852\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-12 08:57:07\", \"@valeur\": \"1.990\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-28 07:16:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-28 07:16:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-23 07:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-02-07 16:51:56\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.33489,
       "lat": 48.06166
     },
-    "gazole_maj": "2024-03-08T07:10:35+01:00",
+    "gazole_maj": "2024-03-12T09:57:07+01:00",
     "gazole_prix": 1.852,
     "sp95_maj": null,
     "sp95_prix": null,
@@ -100,8 +100,8 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-03-12T09:57:07+01:00",
+    "sp98_prix": 1.99,
     "e10_rupture_debut": "2024-02-07T17:51:56+01:00",
     "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
@@ -115,14 +115,14 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
