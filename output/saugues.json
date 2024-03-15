@@ -1,5 +1,68 @@
 [
   {
+    "id": 43170003,
+    "latitude": "4496351",
+    "longitude": "354460",
+    "cp": "43170",
+    "pop": "R",
+    "adresse": "rue louis amargier route de lahgeac",
+    "ville": "Saugues",
+    "horaires": null,
+    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:24:18\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-07 18:52:15\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-07 18:52:15\", \"@valeur\": \"1.899\"}]",
+    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-01-05 17:52:34\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "geom": {
+      "lon": 3.5446,
+      "lat": 44.96351
+    },
+    "gazole_maj": "2024-02-23T10:24:18+01:00",
+    "gazole_prix": 1.809,
+    "sp95_maj": "2024-03-07T19:52:15+01:00",
+    "sp95_prix": 1.919,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-03-07T19:52:15+01:00",
+    "e10_prix": 1.899,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2023-01-05T18:52:34+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 43170002,
     "latitude": "4496900",
     "longitude": "354100",
@@ -65,69 +128,6 @@
     "horaires_jour": "Automate-24-24"
   },
   {
-    "id": 43170003,
-    "latitude": "4496351",
-    "longitude": "354460",
-    "cp": "43170",
-    "pop": "R",
-    "adresse": "rue louis amargier route de lahgeac",
-    "ville": "Saugues",
-    "horaires": null,
-    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-23 09:24:18\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-07 18:52:15\", \"@valeur\": \"1.919\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-07 18:52:15\", \"@valeur\": \"1.899\"}]",
-    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-01-05 17:52:34\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "geom": {
-      "lon": 3.5446,
-      "lat": 44.96351
-    },
-    "gazole_maj": "2024-02-23T10:24:18+01:00",
-    "gazole_prix": 1.809,
-    "sp95_maj": "2024-03-07T19:52:15+01:00",
-    "sp95_prix": 1.919,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-03-07T19:52:15+01:00",
-    "e10_prix": 1.899,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2023-01-05T18:52:34+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Piste poids lourds",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
-  },
-  {
     "id": 43170001,
     "latitude": "4495871",
     "longitude": "354987",
@@ -138,7 +138,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-09 09:11:30\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-09 09:11:37\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-09 09:11:38\", \"@valeur\": \"1.989\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-20 08:29:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-20 08:29:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-20 08:29:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-20 08:29:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-20 08:29:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-20 08:29:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 3.54987,
       "lat": 44.95871
