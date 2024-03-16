@@ -64,6 +64,68 @@
     "horaires_jour": null
   },
   {
+    "id": 27700001,
+    "latitude": "4924417.11809",
+    "longitude": "140819.19423",
+    "cp": "27700",
+    "pop": "R",
+    "adresse": "50 Avenue de la République",
+    "ville": "Les Andelys",
+    "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-06 15:57:48\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-15 09:46:24\", \"@valeur\": \"1.894\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-06 15:57:48\", \"@valeur\": \"1.959\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-29 09:47:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-29 09:47:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-29 09:47:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 1.4081919423,
+      "lat": 49.2441711809
+    },
+    "gazole_maj": "2024-03-06T16:57:48+01:00",
+    "gazole_prix": 1.819,
+    "sp95_maj": "2024-03-15T10:46:24+01:00",
+    "sp95_prix": 1.894,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-03-06T16:57:48+01:00",
+    "sp98_prix": 1.959,
+    "e10_rupture_debut": "2017-10-29T10:47:26+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-29T10:47:25+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-29T10:47:26+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Eure",
+    "code_departement": "27",
+    "region": "Normandie",
+    "code_region": "28",
+    "horaires_jour": null
+  },
+  {
     "id": 27700005,
     "latitude": "4924600",
     "longitude": "141500",
@@ -130,67 +192,5 @@
     "region": "Normandie",
     "code_region": "28",
     "horaires_jour": "Lundi06.00-20.00, Mardi06.00-20.00, Mercredi06.00-20.00, Jeudi06.00-20.00, Vendredi06.00-20.00, Samedi08.00-20.00, Dimanche08.00-20.00"
-  },
-  {
-    "id": 27700001,
-    "latitude": "4924417.11809",
-    "longitude": "140819.19423",
-    "cp": "27700",
-    "pop": "R",
-    "adresse": "50 Avenue de la République",
-    "ville": "Les Andelys",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-06 15:57:48\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-07 15:16:00\", \"@valeur\": \"1.887\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-06 15:57:48\", \"@valeur\": \"1.959\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-29 09:47:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-29 09:47:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-29 09:47:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 1.4081919423,
-      "lat": 49.2441711809
-    },
-    "gazole_maj": "2024-03-06T16:57:48+01:00",
-    "gazole_prix": 1.819,
-    "sp95_maj": "2024-03-07T16:16:00+01:00",
-    "sp95_prix": 1.887,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-03-06T16:57:48+01:00",
-    "sp98_prix": 1.959,
-    "e10_rupture_debut": "2017-10-29T10:47:26+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-10-29T10:47:25+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-10-29T10:47:26+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Eure",
-    "code_departement": "27",
-    "region": "Normandie",
-    "code_region": "28",
-    "horaires_jour": null
   }
 ]
