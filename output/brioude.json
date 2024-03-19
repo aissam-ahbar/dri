@@ -1,5 +1,67 @@
 [
   {
+    "id": 43100003,
+    "latitude": "4528982",
+    "longitude": "338717",
+    "cp": "43100",
+    "pop": "R",
+    "adresse": "Avenue Léon Blum",
+    "ville": "Brioude",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de fioul domestique\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-14 08:13:30\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-14 08:13:31\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-14 08:13:31\", \"@valeur\": \"2.029\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-30 08:12:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 08:12:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 08:12:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 3.38717,
+      "lat": 45.28982
+    },
+    "gazole_maj": "2024-03-14T09:13:30+01:00",
+    "gazole_prix": 1.819,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-03-14T09:13:31+01:00",
+    "e10_prix": 1.919,
+    "sp98_maj": "2024-03-14T09:13:31+01:00",
+    "sp98_prix": 2.029,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-08-30T10:12:30+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-08-30T10:12:30+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-08-30T10:12:31+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de fioul domestique"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 43100004,
     "latitude": "4530000",
     "longitude": "338000",
@@ -81,7 +143,7 @@
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-12 09:40:05\", \"@valeur\": \"1.762\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-12 09:40:05\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-12 09:40:06\", \"@valeur\": \"1.959\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-15 09:07:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-15 09:07:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-12-19 15:45:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-12-19 15:45:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-15 09:07:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-15 09:07:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 3.375,
       "lat": 45.311
@@ -142,68 +204,6 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 43100003,
-    "latitude": "4528982",
-    "longitude": "338717",
-    "cp": "43100",
-    "pop": "R",
-    "adresse": "Avenue Léon Blum",
-    "ville": "Brioude",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de fioul domestique\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-14 08:13:30\", \"@valeur\": \"1.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-14 08:13:31\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-14 08:13:31\", \"@valeur\": \"2.029\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-30 08:12:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 08:12:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 08:12:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 3.38717,
-      "lat": 45.28982
-    },
-    "gazole_maj": "2024-03-14T09:13:30+01:00",
-    "gazole_prix": 1.819,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-03-14T09:13:31+01:00",
-    "e10_prix": 1.919,
-    "sp98_maj": "2024-03-14T09:13:31+01:00",
-    "sp98_prix": 2.029,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2017-08-30T10:12:30+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2017-08-30T10:12:30+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-08-30T10:12:31+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de fioul domestique"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
   },
   {
     "id": 43100002,
