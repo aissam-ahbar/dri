@@ -9,8 +9,8 @@
     "ville": "Varces-Allières-et-Risset",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-18 06:00:00\", \"@valeur\": \"1.989\"}",
-    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-03-18 12:45:02\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-12-15 18:13:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-12-15 18:13:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-12-15 18:13:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-03-18 12:45:03\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": null,
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-03-19 10:35:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-12-15 18:13:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-12-15 18:13:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-12-15 18:13:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-03-18 12:45:02\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-03-18 12:45:03\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 5.683,
       "lat": 45.098
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-03-18T07:00:00+01:00",
-    "sp98_prix": 1.989,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2024-03-18T13:45:03+01:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-03-19T11:35:06+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2020-12-15T19:13:48+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2020-12-15T19:13:49+01:00",
@@ -39,18 +39,10 @@
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": "2024-03-18T13:45:02+01:00",
     "gazole_rupture_type": "temporaire",
-    "carburants_disponibles": [
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": "Gazole;E10",
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;E10;SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique alimentaire",
