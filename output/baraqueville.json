@@ -1,5 +1,68 @@
 [
   {
+    "id": 12160003,
+    "latitude": "4427700",
+    "longitude": "244400",
+    "cp": "12160",
+    "pop": "R",
+    "adresse": "600 Avenue de Rodez",
+    "ville": "Baraqueville",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-20 12:09:45\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-20 12:09:45\", \"@valeur\": \"1.889\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-20 10:35:01\", \"@valeur\": \"0.938\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-03-20 12:09:46\", \"@valeur\": \"1.849\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-21 13:03:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-12-20 11:32:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 2.444,
+      "lat": 44.277
+    },
+    "gazole_maj": "2024-03-20T13:09:45+01:00",
+    "gazole_prix": 1.769,
+    "sp95_maj": "2024-03-20T13:09:45+01:00",
+    "sp95_prix": 1.889,
+    "e85_maj": "2024-03-20T11:35:01+01:00",
+    "e85_prix": 0.938,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-03-20T13:09:46+01:00",
+    "e10_prix": 1.849,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2018-12-20T12:32:47+01:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2018-12-21T14:03:41+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": null
+  },
+  {
     "id": 12160002,
     "latitude": "4427800",
     "longitude": "243000",
@@ -66,68 +129,5 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": "Lundi07.30-19.00, Mardi07.30-19.15, Mercredi07.30-19.15, Jeudi07.30-19.15, Vendredi07.30-19.15, Samedi07.30-12.15, Dimanche"
-  },
-  {
-    "id": 12160003,
-    "latitude": "4427700",
-    "longitude": "244400",
-    "cp": "12160",
-    "pop": "R",
-    "adresse": "600 Avenue de Rodez",
-    "ville": "Baraqueville",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-13 14:22:56\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-27 18:17:39\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-13 14:22:56\", \"@valeur\": \"0.938\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-02-22 11:54:07\", \"@valeur\": \"1.829\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-12-20 11:32:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-21 13:03:41\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 2.444,
-      "lat": 44.277
-    },
-    "gazole_maj": "2024-03-13T15:22:56+01:00",
-    "gazole_prix": 1.749,
-    "sp95_maj": "2024-02-27T19:17:39+01:00",
-    "sp95_prix": 1.849,
-    "e85_maj": "2024-03-13T15:22:56+01:00",
-    "e85_prix": 0.938,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-02-22T12:54:07+01:00",
-    "e10_prix": 1.829,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2018-12-20T12:32:47+01:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2018-12-21T14:03:41+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "GPLc;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Aveyron",
-    "code_departement": "12",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": null
   }
 ]

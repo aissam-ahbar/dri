@@ -9,7 +9,7 @@
     "ville": "Loué",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 05:06:31\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-02-21 05:06:32\", \"@valeur\": \"1.909\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-02-01 05:30:25\", \"@valeur\": \"1.919\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-02-21 05:06:31\", \"@valeur\": \"1.875\"}",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-01-21 21:15:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-01-21 21:15:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-01-21 21:15:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -0.154,
@@ -17,16 +17,16 @@
     },
     "gazole_maj": "2024-02-21T06:06:31+01:00",
     "gazole_prix": 1.875,
-    "sp95_maj": "2024-02-21T06:06:32+01:00",
-    "sp95_prix": 1.909,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-02-01T06:30:25+01:00",
-    "sp98_prix": 1.919,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2021-01-21T22:15:37+01:00",
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": null,
@@ -40,14 +40,14 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",

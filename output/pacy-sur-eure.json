@@ -75,15 +75,15 @@
     "ville": "Pacy-sur-Eure",
     "horaires": null,
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-16 11:57:04\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-16 11:57:05\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-16 11:57:05\", \"@valeur\": \"1.899\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-05 09:11:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-05 09:11:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-12-06 09:51:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-20 08:39:41\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-20 08:39:41\", \"@valeur\": \"1.869\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-05 09:11:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-05 09:11:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-12-06 09:51:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-03-20 08:38:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.385,
       "lat": 49.015
     },
-    "gazole_maj": "2024-03-16T12:57:04+01:00",
+    "gazole_maj": "2024-03-20T09:39:41+01:00",
     "gazole_prix": 1.769,
-    "sp95_maj": "2024-03-16T12:57:05+01:00",
+    "sp95_maj": "2024-03-20T09:39:41+01:00",
     "sp95_prix": 1.869,
     "e85_maj": null,
     "e85_prix": null,
@@ -91,12 +91,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-03-16T12:57:05+01:00",
-    "sp98_prix": 1.899,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2018-12-06T10:51:37+01:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-03-20T09:38:32+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2017-10-05T11:11:45+02:00",
@@ -107,15 +107,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "SP98"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "E85;GPLc;E10",
+    "carburants_rupture_temporaire": "E85;GPLc;E10;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
