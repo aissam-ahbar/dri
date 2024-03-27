@@ -1,19 +1,19 @@
 [
   {
     "id": 23400001,
-    "latitude": "4595971",
-    "longitude": "175988",
+    "latitude": "4596000",
+    "longitude": "176000",
     "cp": "23400",
     "pop": "R",
     "adresse": "Route de Bénévent",
     "ville": "Bourganeuf",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Vente de pétrole lampant\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-20 14:29:04\", \"@valeur\": \"1.809\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-20 14:29:05\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-20 14:29:05\", \"@valeur\": \"1.967\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-22 08:42:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-22 08:42:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-22 08:42:21\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": 1.75988,
-      "lat": 45.95971
+      "lon": 1.76,
+      "lat": 45.96
     },
     "gazole_maj": "2024-03-20T15:29:04+01:00",
     "gazole_prix": 1.809,
@@ -51,15 +51,20 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Toilettes publiques",
+      "Relais colis",
+      "Vente de pétrole lampant",
+      "Location de véhicule",
       "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Creuse",
     "code_departement": "23",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]

@@ -9,14 +9,14 @@
     "ville": "Confrançon",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-25 08:23:15\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-25 08:23:16\", \"@valeur\": \"1.858\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-25 08:23:16\", \"@valeur\": \"1.910\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-20 11:08:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-20 11:08:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-20 11:08:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-25 08:23:16\", \"@valeur\": \"1.858\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-25 08:23:16\", \"@valeur\": \"1.910\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-20 11:08:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-20 11:08:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-20 11:08:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-03-26 08:16:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 5.057,
       "lat": 46.256
     },
-    "gazole_maj": "2024-03-25T09:23:15+01:00",
-    "gazole_prix": 1.746,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2024-03-25T09:23:16+01:00",
     "sp95_prix": 1.858,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-09-20T13:08:32+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-03-26T09:16:47+01:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
