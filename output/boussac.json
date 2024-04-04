@@ -75,16 +75,16 @@
     "ville": "Boussac",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-27 07:48:07\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-03-27 07:48:07\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-19 08:22:56\", \"@valeur\": \"1.944\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-12 18:42:24\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-08-14 08:27:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-27 07:48:07\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-03 14:00:00\", \"@valeur\": \"1.955\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-03-19 08:22:56\", \"@valeur\": \"1.944\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-08-14 08:27:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-04-03 09:26:08\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.217,
       "lat": 46.349
     },
     "gazole_maj": "2024-03-27T08:48:07+01:00",
     "gazole_prix": 1.789,
-    "sp95_maj": "2024-03-27T08:48:07+01:00",
-    "sp95_prix": 1.929,
+    "sp95_maj": "2024-04-03T16:00:00+02:00",
+    "sp95_prix": 1.955,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -101,8 +101,8 @@
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2019-08-14T10:27:54+02:00",
     "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2022-10-12T20:42:24+02:00",
-    "gplc_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2024-04-03T11:26:08+02:00",
+    "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
@@ -115,8 +115,8 @@
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "GPLc",
-    "carburants_rupture_definitive": "E85",
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)",
