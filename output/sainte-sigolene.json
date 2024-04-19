@@ -1,67 +1,5 @@
 [
   {
-    "id": 43600003,
-    "latitude": "4525100",
-    "longitude": "421500",
-    "cp": "43600",
-    "pop": "R",
-    "adresse": "Lieu-dit Chanibeau",
-    "ville": "Sainte-Sigolène",
-    "horaires": null,
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-30 19:35:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-09 09:17:13\", \"@valeur\": \"1.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-06 12:15:29\", \"@valeur\": \"1.939\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-04 10:59:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-04 10:59:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-04 10:59:14\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 4.215,
-      "lat": 45.251
-    },
-    "gazole_maj": "2024-03-30T20:35:00+01:00",
-    "gazole_prix": 1.749,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-04-09T11:17:13+02:00",
-    "e10_prix": 1.855,
-    "sp98_maj": "2024-04-06T14:15:29+02:00",
-    "sp98_prix": 1.939,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2017-11-04T11:59:13+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2017-11-04T11:59:13+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-11-04T11:59:14+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
-  },
-  {
     "id": 43600002,
     "latitude": "4524806",
     "longitude": "424106",
@@ -72,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-08 15:45:34\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-10 14:12:49\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-09 07:20:52\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-09 07:20:53\", \"@valeur\": \"1.959\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-12-19 09:27:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-21 08:12:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-21 08:12:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-12-19 09:27:28\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 4.24106,
       "lat": 45.24806
@@ -117,6 +55,68 @@
     "services_service": [
       "Station de gonflage",
       "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
+    "id": 43600003,
+    "latitude": "4525100",
+    "longitude": "421500",
+    "cp": "43600",
+    "pop": "R",
+    "adresse": "Lieu-dit Chanibeau",
+    "ville": "Sainte-Sigolène",
+    "horaires": null,
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-03-30 19:35:00\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-18 08:30:43\", \"@valeur\": \"1.875\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-18 08:30:44\", \"@valeur\": \"1.969\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-04 10:59:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-04 10:59:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-04 10:59:14\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 4.215,
+      "lat": 45.251
+    },
+    "gazole_maj": "2024-03-30T20:35:00+01:00",
+    "gazole_prix": 1.749,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-04-18T10:30:43+02:00",
+    "e10_prix": 1.875,
+    "sp98_maj": "2024-04-18T10:30:44+02:00",
+    "sp98_prix": 1.969,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2017-11-04T11:59:13+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-11-04T11:59:13+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-11-04T11:59:14+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Loire",
     "code_departement": "43",
