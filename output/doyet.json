@@ -79,7 +79,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Piste poids lourds\", \"Espace bébé\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-16 07:00:00\", \"@valeur\": \"1.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-16 07:00:00\", \"@valeur\": \"2.079\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-16 07:00:00\", \"@valeur\": \"2.179\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-02 17:01:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-01-02 17:01:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-04-15 12:53:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-02 17:01:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-01-02 17:01:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.8003,
       "lat": 46.35591
@@ -104,8 +104,8 @@
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2019-01-02T18:01:55+01:00",
     "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-04-15T14:53:40+02:00",
-    "gplc_rupture_type": "temporaire",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
@@ -118,7 +118,7 @@
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
