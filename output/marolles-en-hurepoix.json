@@ -9,16 +9,16 @@
     "ville": "Marolles-en-Hurepoix",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-14 09:40:10\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-15 14:49:59\", \"@valeur\": \"1.945\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-10 15:17:50\", \"@valeur\": \"0.920\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-15 14:50:00\", \"@valeur\": \"1.977\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-07 15:19:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-17 08:57:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-14 09:40:10\", \"@valeur\": \"1.795\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-10 15:17:50\", \"@valeur\": \"0.920\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-15 14:50:00\", \"@valeur\": \"1.977\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-17 08:57:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-07 15:19:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-04-20 12:55:11\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.29216,
       "lat": 48.56445
     },
     "gazole_maj": "2024-04-14T11:40:10+02:00",
     "gazole_prix": 1.795,
-    "sp95_maj": "2024-04-15T16:49:59+02:00",
-    "sp95_prix": 1.945,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": "2024-04-10T17:17:50+02:00",
     "e85_prix": 0.92,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2024-04-20T14:55:11+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2019-01-07T16:19:05+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "E85",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": "SP95;E10",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
