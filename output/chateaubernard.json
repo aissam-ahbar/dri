@@ -9,28 +9,28 @@
     "ville": "Châteaubernard",
     "horaires": null,
     "services": "{\"service\": [\"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-18 10:00:00\", \"@valeur\": \"1.733\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-03-06 09:00:55\", \"@valeur\": \"0.938\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-18 10:00:00\", \"@valeur\": \"1.870\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-18 10:00:00\", \"@valeur\": \"1.952\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 09:02:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-01 08:53:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-22 10:00:00\", \"@valeur\": \"1.710\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-03-06 09:00:55\", \"@valeur\": \"0.938\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-22 10:00:00\", \"@valeur\": \"1.854\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-04-22 08:41:27\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-01 08:53:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 09:02:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -0.30463,
       "lat": 45.68397
     },
-    "gazole_maj": "2024-04-18T12:00:00+02:00",
-    "gazole_prix": 1.733,
+    "gazole_maj": "2024-04-22T12:00:00+02:00",
+    "gazole_prix": 1.71,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": "2024-03-06T10:00:55+01:00",
     "gplc_prix": 0.938,
-    "e10_maj": "2024-04-18T12:00:00+02:00",
-    "e10_prix": 1.87,
-    "sp98_maj": "2024-04-18T12:00:00+02:00",
-    "sp98_prix": 1.952,
+    "e10_maj": "2024-04-22T12:00:00+02:00",
+    "e10_prix": 1.854,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-04-22T10:41:27+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2020-09-01T10:53:50+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-01T11:02:35+02:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85"
+      "E85",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
