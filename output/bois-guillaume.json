@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "Rue de la République",
     "ville": "Bois-Guillaume",
-    "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-19 09:21:53\", \"@valeur\": \"1.778\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-21 09:24:17\", \"@valeur\": \"1.931\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-19 09:21:54\", \"@valeur\": \"1.998\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-01-27 11:03:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-01-27 11:45:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-07-06 09:21:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
     "geom": {
       "lon": 1.11748807822,
       "lat": 49.470116509600004
@@ -70,30 +70,30 @@
     "pop": "R",
     "adresse": "AVENUE DE L'EUROPE",
     "ville": "Bois-Guillaume",
-    "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-20 08:08:20\", \"@valeur\": \"1.771\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-20 08:08:21\", \"@valeur\": \"1.917\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-20 08:08:21\", \"@valeur\": \"1.998\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-01-20 09:20:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-01-20 09:20:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-08-30 09:51:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-23 08:41:46\", \"@valeur\": \"1.744\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-23 08:41:47\", \"@valeur\": \"1.902\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-04-23 12:44:14\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-01-20 09:20:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-01-20 09:20:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-08-30 09:51:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
     "geom": {
       "lon": 1.10624,
       "lat": 49.47557
     },
-    "gazole_maj": "2024-04-20T10:08:20+02:00",
-    "gazole_prix": 1.771,
+    "gazole_maj": "2024-04-23T10:41:46+02:00",
+    "gazole_prix": 1.744,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-04-20T10:08:21+02:00",
-    "e10_prix": 1.917,
-    "sp98_maj": "2024-04-20T10:08:21+02:00",
-    "sp98_prix": 1.998,
+    "e10_maj": "2024-04-23T10:41:47+02:00",
+    "e10_prix": 1.902,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-04-23T14:44:14+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2021-08-30T11:51:32+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2020-01-20T10:20:09+01:00",
@@ -104,15 +104,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
