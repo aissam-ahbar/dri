@@ -8,8 +8,8 @@
     "adresse": "43 avenue de béziers",
     "ville": "Puisserguier",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-18 13:06:10\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-18 13:06:51\", \"@valeur\": \"1.991\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-18 13:06:30\", \"@valeur\": \"1.041\"}]",
-    "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-04-18 15:02:43\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-18 13:06:10\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-18 13:06:51\", \"@valeur\": \"1.991\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-18 13:06:30\", \"@valeur\": \"1.041\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-24 08:43:50\", \"@valeur\": \"2.031\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 3.04868,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-04-24T10:43:50+02:00",
+    "sp98_prix": 2.031,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-04-18T17:02:43+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85"
+      "E85",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
