@@ -8,29 +8,29 @@
     "adresse": "Route de Paris",
     "ville": "Saint-Sulpice-sur-Risle",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-22 08:39:50\", \"@valeur\": \"1.679\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-03 08:24:49\", \"@valeur\": \"0.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-22 08:39:51\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-22 08:39:51\", \"@valeur\": \"1.949\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-04 09:17:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-10-28 17:07:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-25 08:15:32\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-03 08:24:49\", \"@valeur\": \"0.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-25 08:15:32\", \"@valeur\": \"1.839\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-10-28 17:07:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-04 09:17:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-04-25 17:54:41\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.6507,
       "lat": 48.76223
     },
-    "gazole_maj": "2024-04-22T10:39:50+02:00",
-    "gazole_prix": 1.679,
+    "gazole_maj": "2024-04-25T10:15:32+02:00",
+    "gazole_prix": 1.699,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-04-03T10:24:49+02:00",
     "e85_prix": 0.809,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-04-22T10:39:51+02:00",
-    "e10_prix": 1.819,
-    "sp98_maj": "2024-04-22T10:39:51+02:00",
-    "sp98_prix": 1.949,
+    "e10_maj": "2024-04-25T10:15:32+02:00",
+    "e10_prix": 1.839,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-04-25T19:54:41+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2020-10-28T18:07:57+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

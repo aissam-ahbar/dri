@@ -8,15 +8,15 @@
     "adresse": "25, rue de l'hotel saint denis",
     "ville": "Gavray-sur-Sienne",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-05 07:18:28\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-16 06:54:40\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-16 06:54:40\", \"@valeur\": \"1.959\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-25 11:34:19\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-16 06:54:40\", \"@valeur\": \"1.919\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-04-25 06:45:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.35262,
       "lat": 48.91277
     },
-    "gazole_maj": "2024-04-05T09:18:28+02:00",
-    "gazole_prix": 1.779,
+    "gazole_maj": "2024-04-25T13:34:19+02:00",
+    "gazole_prix": 1.739,
     "sp95_maj": "2024-04-16T08:54:40+02:00",
     "sp95_prix": 1.919,
     "e85_maj": null,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-04-16T08:54:40+02:00",
-    "sp98_prix": 1.959,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2017-09-08T09:16:47+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-04-25T08:45:23+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2017-09-08T09:16:47+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "SP98"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
