@@ -9,26 +9,26 @@
     "ville": "Bugnicourt",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-28 09:00:00\", \"@valeur\": \"1.723\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-04-28 09:00:00\", \"@valeur\": \"0.969\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-28 09:00:00\", \"@valeur\": \"1.986\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-02-22 09:14:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-07-31 13:59:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-28 18:17:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-29 10:25:01\", \"@valeur\": \"1.723\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-04-29 10:25:02\", \"@valeur\": \"0.969\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-29 10:25:02\", \"@valeur\": \"1.881\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-29 10:25:02\", \"@valeur\": \"1.986\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-02-22 09:14:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-07-31 13:59:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 3.145,
       "lat": 50.292
     },
-    "gazole_maj": "2024-04-28T11:00:00+02:00",
+    "gazole_maj": "2024-04-29T12:25:01+02:00",
     "gazole_prix": 1.723,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2024-04-28T11:00:00+02:00",
+    "gplc_maj": "2024-04-29T12:25:02+02:00",
     "gplc_prix": 0.969,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-04-28T11:00:00+02:00",
+    "e10_maj": "2024-04-29T12:25:02+02:00",
+    "e10_prix": 1.881,
+    "sp98_maj": "2024-04-29T12:25:02+02:00",
     "sp98_prix": 1.986,
-    "e10_rupture_debut": "2024-04-28T20:17:18+02:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2023-07-31T15:59:55+02:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "E10"
+      "E85"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [
