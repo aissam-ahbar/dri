@@ -7,16 +7,16 @@
     "pop": "R",
     "adresse": "Route de Saint-Cyr-en-Val",
     "ville": "Saint-Jean-le-Blanc",
-    "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-30 07:53:03\", \"@valeur\": \"1.708\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-30 15:32:34\", \"@valeur\": \"1.869\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-08-20 12:57:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-04-30 15:32:43\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-30 15:32:34\", \"@valeur\": \"1.869\"}",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-08-20 12:57:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-05-03 19:03:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-04-30 15:32:43\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": null,
     "geom": {
       "lon": 1.9348,
       "lat": 47.87568
     },
-    "gazole_maj": "2024-04-30T09:53:03+02:00",
-    "gazole_prix": 1.708,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-08-29T12:25:35+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-05-03T21:03:31+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E10"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "E85",
       "GPLc",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "Gazole;SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
