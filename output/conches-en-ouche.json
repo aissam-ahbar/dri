@@ -76,8 +76,8 @@
     "adresse": "13 AVENUE JEAN MOULIN",
     "ville": "Conches-en-Ouche",
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-24 10:07:35\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-24 10:07:35\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-24 10:07:58\", \"@valeur\": \"1.979\"}]",
-    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-02-25 16:38:38\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-24 10:07:35\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-24 10:07:35\", \"@valeur\": \"1.939\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-04 09:37:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-02-25 16:38:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.9354535676,
@@ -93,12 +93,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-04-24T12:07:58+02:00",
-    "sp98_prix": 1.979,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2022-02-25T17:38:38+01:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-05-04T11:37:59+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -109,15 +109,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "SP98"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": [

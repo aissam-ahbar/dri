@@ -1,5 +1,68 @@
 [
   {
+    "id": 40120003,
+    "latitude": "4401853.84",
+    "longitude": "-31264.28",
+    "cp": "40120",
+    "pop": "R",
+    "adresse": "AVENUE DE MARSAN",
+    "ville": "Sarbazan",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-27 07:47:47\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-27 07:47:48\", \"@valeur\": \"1.895\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-27 07:47:48\", \"@valeur\": \"1.865\"}]",
+    "rupture": null,
+    "horaires": null,
+    "geom": {
+      "lon": -0.3126428,
+      "lat": 44.0185384
+    },
+    "gazole_maj": "2024-04-27T09:47:47+02:00",
+    "gazole_prix": 1.725,
+    "sp95_maj": "2024-04-27T09:47:48+02:00",
+    "sp95_prix": 1.895,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-04-27T09:47:48+02:00",
+    "e10_prix": 1.865,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Landes",
+    "code_departement": "40",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75",
+    "horaires_jour": null
+  },
+  {
     "id": 40120001,
     "latitude": "4401900",
     "longitude": "-31300",
@@ -64,68 +127,5 @@
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 40120003,
-    "latitude": "4401853.84",
-    "longitude": "-31264.28",
-    "cp": "40120",
-    "pop": "R",
-    "adresse": "AVENUE DE MARSAN",
-    "ville": "Sarbazan",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-27 07:47:47\", \"@valeur\": \"1.725\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-04-27 07:47:48\", \"@valeur\": \"1.895\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-27 07:47:48\", \"@valeur\": \"1.865\"}]",
-    "rupture": null,
-    "horaires": null,
-    "geom": {
-      "lon": -0.3126428,
-      "lat": 44.0185384
-    },
-    "gazole_maj": "2024-04-27T09:47:47+02:00",
-    "gazole_prix": 1.725,
-    "sp95_maj": "2024-04-27T09:47:48+02:00",
-    "sp95_prix": 1.895,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-04-27T09:47:48+02:00",
-    "e10_prix": 1.865,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Landes",
-    "code_departement": "40",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75",
-    "horaires_jour": null
   }
 ]
