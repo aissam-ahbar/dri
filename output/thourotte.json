@@ -9,8 +9,8 @@
     "ville": "Thourotte",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-07 09:37:31\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-07 09:37:32\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-07 09:37:32\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-07 09:37:33\", \"@valeur\": \"1.929\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-22 07:44:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-22 07:44:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-07 09:37:31\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-07 09:37:32\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-07 09:37:32\", \"@valeur\": \"1.849\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-22 07:44:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-22 07:44:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-09 08:14:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.868,
       "lat": 49.479
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-05-07T11:37:32+02:00",
     "e10_prix": 1.849,
-    "sp98_maj": "2024-05-07T11:37:33+02:00",
-    "sp98_prix": 1.929,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-05-09T10:14:59+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2023-03-22T08:44:53+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
