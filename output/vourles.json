@@ -10,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-23 18:57:05\", \"@valeur\": \"1.799\"}",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-07-05 09:44:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-05 09:44:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-07-05 09:44:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-06-22 18:32:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-05-07 18:29:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-07-05 09:44:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-05 09:44:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-07-05 09:44:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-06-22 18:32:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 4.75131,
       "lat": 45.65803
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": "2018-07-05T11:44:40+02:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": "2024-05-07T20:29:31+02:00",
-    "sp95_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
     "e85_rupture_debut": "2018-07-05T11:44:40+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2018-07-05T11:44:40+02:00",
@@ -49,7 +49,7 @@
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [

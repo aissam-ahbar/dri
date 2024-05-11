@@ -1,5 +1,68 @@
 [
   {
+    "id": 25500006,
+    "latitude": "4705733",
+    "longitude": "661078",
+    "cp": "25500",
+    "pop": "R",
+    "adresse": "4 Rue du Clos Jeune",
+    "ville": "Morteau",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-10 18:33:07\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-10 18:33:08\", \"@valeur\": \"1.909\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-19 08:50:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-02-21 08:41:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-29 09:23:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-29 09:23:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 6.61078,
+      "lat": 47.05733
+    },
+    "gazole_maj": "2024-05-10T20:33:07+02:00",
+    "gazole_prix": 1.759,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-05-10T20:33:08+02:00",
+    "e10_prix": 1.909,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2022-09-29T11:23:57+02:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2018-06-19T10:50:20+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2022-02-21T09:41:33+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-09-29T11:23:57+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": null
+  },
+  {
     "id": 25500005,
     "latitude": "4705600",
     "longitude": "661700",
@@ -206,68 +269,5 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": "Lundi06.45-20.00, Mardi06.45-20.00, Mercredi06.45-20.00, Jeudi06.45-20.00, Vendredi06.45-20.00, Samedi06.45-20.00, Dimanche"
-  },
-  {
-    "id": 25500006,
-    "latitude": "4705733",
-    "longitude": "661078",
-    "cp": "25500",
-    "pop": "R",
-    "adresse": "4 Rue du Clos Jeune",
-    "ville": "Morteau",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-04-25 14:41:39\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-04-25 14:41:40\", \"@valeur\": \"1.949\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-29 09:23:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-19 08:50:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-02-21 08:41:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-29 09:23:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 6.61078,
-      "lat": 47.05733
-    },
-    "gazole_maj": "2024-04-25T16:41:39+02:00",
-    "gazole_prix": 1.809,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-04-25T16:41:40+02:00",
-    "e10_prix": 1.949,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2022-09-29T11:23:57+02:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": "2018-06-19T10:50:20+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2022-02-21T09:41:33+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2022-09-29T11:23:57+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": null
   }
 ]
