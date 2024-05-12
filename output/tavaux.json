@@ -74,28 +74,28 @@
     "ville": "Tavaux",
     "horaires": null,
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-07 09:13:18\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-07 09:14:52\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-07 09:14:56\", \"@valeur\": \"1.896\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-02 09:32:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-11 09:23:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-10 06:34:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-11 10:06:38\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-11 10:06:39\", \"@valeur\": \"0.848\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-11 10:06:40\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-11 10:06:40\", \"@valeur\": \"1.982\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-02 09:32:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-11 09:23:15\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 5.41781,
       "lat": 47.04162
     },
-    "gazole_maj": "2024-05-07T11:13:18+02:00",
-    "gazole_prix": 1.699,
+    "gazole_maj": "2024-05-11T12:06:38+02:00",
+    "gazole_prix": 1.689,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-05-07T11:14:52+02:00",
+    "e85_maj": "2024-05-11T12:06:39+02:00",
     "e85_prix": 0.848,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-05-07T11:14:56+02:00",
-    "e10_prix": 1.896,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-05-11T12:06:40+02:00",
+    "e10_prix": 1.859,
+    "sp98_maj": "2024-05-11T12:06:40+02:00",
+    "sp98_prix": 1.982,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-05-10T08:34:09+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2019-01-11T10:23:15+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -107,14 +107,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
