@@ -9,22 +9,22 @@
     "ville": "Saint-Aignan",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-06 10:03:20\", \"@valeur\": \"1.705\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-14 08:18:26\", \"@valeur\": \"1.691\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-14 08:18:26\", \"@valeur\": \"1.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-14 08:18:27\", \"@valeur\": \"1.817\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-03-02 14:40:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-02 14:40:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-13 10:42:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.36226,
       "lat": 47.26053
     },
-    "gazole_maj": "2024-05-06T12:03:20+02:00",
-    "gazole_prix": 1.705,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2024-05-14T10:18:26+02:00",
+    "gazole_prix": 1.691,
+    "sp95_maj": "2024-05-14T10:18:26+02:00",
+    "sp95_prix": 1.869,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2024-05-14T10:18:27+02:00",
+    "e10_prix": 1.817,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
@@ -40,13 +40,13 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95",
+      "E10"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
-      "E10",
       "SP98"
     ],
     "carburants_rupture_temporaire": "SP98",
