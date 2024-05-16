@@ -9,28 +9,28 @@
     "ville": "Saint-Martial-d'Albarède",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-11 08:42:15\", \"@valeur\": \"1.691\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-11 08:42:16\", \"@valeur\": \"1.828\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-10-21 09:01:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-21 09:01:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-07 08:59:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-14 12:57:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-15 19:25:07\", \"@valeur\": \"1.675\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-15 19:25:08\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-15 19:25:09\", \"@valeur\": \"1.924\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-10-21 09:01:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-21 09:01:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-07 08:59:16\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 1.04339,
       "lat": 45.33308
     },
-    "gazole_maj": "2024-05-11T10:42:15+02:00",
-    "gazole_prix": 1.691,
+    "gazole_maj": "2024-05-15T21:25:07+02:00",
+    "gazole_prix": 1.675,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-05-11T10:42:16+02:00",
-    "e10_prix": 1.828,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-05-15T21:25:08+02:00",
+    "e10_prix": 1.819,
+    "sp98_maj": "2024-05-15T21:25:09+02:00",
+    "sp98_prix": 1.924,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-05-14T14:57:32+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2017-10-21T11:01:20+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-12-07T09:59:16+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

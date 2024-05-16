@@ -78,26 +78,26 @@
     "ville": "Saint-Père-sur-Loire",
     "horaires": null,
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-06 08:48:34\", \"@valeur\": \"1.684\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-25 10:08:43\", \"@valeur\": \"0.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-22 07:42:12\", \"@valeur\": \"1.955\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-23 08:47:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-30 10:45:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-05-14 16:03:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-15 09:51:45\", \"@valeur\": \"1.677\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-03-25 10:08:43\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-15 13:07:14\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-04-22 07:42:12\", \"@valeur\": \"1.955\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-23 08:47:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-30 10:45:10\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.37469262458,
       "lat": 47.7815546647
     },
-    "gazole_maj": "2024-05-06T10:48:34+02:00",
-    "gazole_prix": 1.684,
+    "gazole_maj": "2024-05-15T11:51:45+02:00",
+    "gazole_prix": 1.677,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-03-25T11:08:43+01:00",
     "e85_prix": 0.829,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2024-05-15T15:07:14+02:00",
+    "e10_prix": 1.838,
     "sp98_maj": "2024-04-22T09:42:12+02:00",
     "sp98_prix": 1.955,
-    "e10_rupture_debut": "2024-05-14T18:03:07+02:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2017-08-30T12:45:10+02:00",
@@ -111,14 +111,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
