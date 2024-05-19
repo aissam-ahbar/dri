@@ -9,28 +9,28 @@
     "ville": "Asnières-sur-Oise",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Relais colis\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-16 10:43:53\", \"@valeur\": \"1.721\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-16 10:43:54\", \"@valeur\": \"1.880\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 10:49:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-08-16 12:52:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-08-16 12:52:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-17 19:20:29\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-18 10:42:36\", \"@valeur\": \"1.713\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-18 10:42:37\", \"@valeur\": \"1.881\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-18 10:42:38\", \"@valeur\": \"1.925\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 10:49:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-08-16 12:52:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-08-16 12:52:52\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.373,
       "lat": 49.137
     },
-    "gazole_maj": "2024-05-16T12:43:53+02:00",
-    "gazole_prix": 1.721,
-    "sp95_maj": "2024-05-16T12:43:54+02:00",
-    "sp95_prix": 1.88,
+    "gazole_maj": "2024-05-18T12:42:36+02:00",
+    "gazole_prix": 1.713,
+    "sp95_maj": "2024-05-18T12:42:37+02:00",
+    "sp95_prix": 1.881,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-05-18T12:42:38+02:00",
+    "sp98_prix": 1.925,
     "e10_rupture_debut": "2018-08-16T14:52:52+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2024-05-17T21:20:29+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2018-08-16T14:52:52+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [

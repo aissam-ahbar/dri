@@ -9,24 +9,24 @@
     "ville": "Gavray-sur-Sienne",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-04 07:18:09\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-04 07:18:10\", \"@valeur\": \"1.909\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-18 07:16:20\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-18 07:16:20\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-18 07:16:21\", \"@valeur\": \"1.919\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-08 07:16:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -1.35262,
       "lat": 48.91277
     },
-    "gazole_maj": "2024-05-04T09:18:09+02:00",
-    "gazole_prix": 1.709,
-    "sp95_maj": "2024-05-04T09:18:10+02:00",
-    "sp95_prix": 1.909,
+    "gazole_maj": "2024-05-18T09:16:20+02:00",
+    "gazole_prix": 1.679,
+    "sp95_maj": "2024-05-18T09:16:20+02:00",
+    "sp95_prix": 1.879,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-05-18T09:16:21+02:00",
+    "sp98_prix": 1.919,
     "e10_rupture_debut": "2017-09-08T09:16:47+02:00",
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": null,
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
