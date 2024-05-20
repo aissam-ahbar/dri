@@ -9,14 +9,14 @@
     "ville": "Eaunes",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-18 06:38:45\", \"@valeur\": \"1.685\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-18 06:38:46\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-20 07:09:02\", \"@valeur\": \"0.845\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-18 06:38:46\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-18 06:38:47\", \"@valeur\": \"1.955\"}]",
-    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-19 14:47:51\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-18 06:38:46\", \"@valeur\": \"1.929\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-02-20 07:09:02\", \"@valeur\": \"0.845\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-18 06:38:46\", \"@valeur\": \"1.849\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-18 06:38:47\", \"@valeur\": \"1.955\"}]",
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-05-19 11:04:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-19 14:47:51\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 1.373,
       "lat": 43.42
     },
-    "gazole_maj": "2024-05-18T08:38:45+02:00",
-    "gazole_prix": 1.685,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2024-05-18T08:38:46+02:00",
     "sp95_prix": 1.929,
     "e85_maj": "2024-02-20T08:09:02+01:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2017-10-19T16:47:51+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-05-19T13:04:59+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
