@@ -79,13 +79,13 @@
     "ville": "Meudon",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-22 00:01:00\", \"@valeur\": \"1.889\"}",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-19 11:02:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-13 20:24:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-13 20:24:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-13 20:24:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-23 00:01:00\", \"@valeur\": \"1.889\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-13 20:24:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-13 20:24:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-13 20:24:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-05-22 13:15:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-19 11:02:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.21690094,
       "lat": 48.813200300000005
     },
-    "gazole_maj": "2024-05-22T02:01:00+02:00",
+    "gazole_maj": "2024-05-23T02:01:00+02:00",
     "gazole_prix": 1.889,
     "sp95_maj": null,
     "sp95_prix": null,
@@ -97,8 +97,8 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2024-05-22T15:15:23+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2024-05-19T13:02:09+02:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2018-06-13T22:24:42+02:00",
@@ -119,7 +119,7 @@
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

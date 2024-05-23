@@ -9,16 +9,16 @@
     "ville": "Maillat",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-21 09:52:37\", \"@valeur\": \"1.798\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-21 09:52:37\", \"@valeur\": \"1.978\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-21 09:52:38\", \"@valeur\": \"1.940\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-01-10 10:11:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-01-13 09:14:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-01-10 10:12:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-21 09:52:37\", \"@valeur\": \"1.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-21 09:52:38\", \"@valeur\": \"1.940\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-01-10 10:12:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-01-10 10:11:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-05-22 09:55:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-01-13 09:14:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 5.54,
       "lat": 46.128
     },
     "gazole_maj": "2024-05-21T11:52:37+02:00",
     "gazole_prix": 1.798,
-    "sp95_maj": "2024-05-21T11:52:37+02:00",
-    "sp95_prix": 1.978,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": null,
     "sp98_rupture_debut": "2022-01-13T10:14:43+01:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2024-05-22T11:55:35+02:00",
+    "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2022-01-10T11:11:11+01:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2022-01-10T11:12:20+01:00",
@@ -41,16 +41,16 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "E10"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "SP98"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;SP98",
+    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
