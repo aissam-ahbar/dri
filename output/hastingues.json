@@ -1,19 +1,19 @@
 [
   {
     "id": 40300009,
-    "latitude": "4352943.573",
-    "longitude": "-115155.841",
+    "latitude": "4352900",
+    "longitude": "-115200",
     "cp": "40300",
     "pop": "A",
     "adresse": "A64 - Aire d'Hastingues",
     "ville": "Hastingues",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Espace bébé\", \"DAB (Distributeur automatique de billets)\"]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Espace bébé\", \"Bornes électriques\", \"Wifi\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-28 08:30:00\", \"@valeur\": \"1.884\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-04-25 08:30:00\", \"@valeur\": \"1.060\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-23 08:30:00\", \"@valeur\": \"2.024\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-23 08:30:00\", \"@valeur\": \"2.124\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-05 17:00:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-05 17:00:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": -1.15155841,
-      "lat": 43.529435729999996
+      "lon": -1.152,
+      "lat": 43.529
     },
     "gazole_maj": "2024-05-28T10:30:00+02:00",
     "gazole_prix": 1.884,
@@ -51,7 +51,7 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
       "Douches",
@@ -65,12 +65,14 @@
       "Aire de camping-cars",
       "Piste poids lourds",
       "Espace bébé",
-      "DAB (Distributeur automatique de billets)"
+      "Bornes électriques",
+      "Wifi",
+      "Automate CB 24/24"
     ],
     "departement": "Landes",
     "code_departement": "40",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]

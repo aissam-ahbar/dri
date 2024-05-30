@@ -9,28 +9,28 @@
     "ville": "Magny-en-Vexin",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-18 07:32:36\", \"@valeur\": \"1.749\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-04-08 15:19:47\", \"@valeur\": \"0.950\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-18 07:32:37\", \"@valeur\": \"1.869\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-09-08 13:23:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-24 16:38:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-09 12:03:06\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-29 12:57:57\", \"@valeur\": \"1.709\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-04-08 15:19:47\", \"@valeur\": \"0.950\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-29 12:57:57\", \"@valeur\": \"1.836\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-29 12:57:58\", \"@valeur\": \"1.966\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-09-08 13:23:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-09 12:03:06\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 1.787,
       "lat": 49.147
     },
-    "gazole_maj": "2024-05-18T09:32:36+02:00",
-    "gazole_prix": 1.749,
+    "gazole_maj": "2024-05-29T14:57:57+02:00",
+    "gazole_prix": 1.709,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": "2024-04-08T17:19:47+02:00",
     "gplc_prix": 0.95,
-    "e10_maj": "2024-05-18T09:32:37+02:00",
-    "e10_prix": 1.869,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-05-29T14:57:57+02:00",
+    "e10_prix": 1.836,
+    "sp98_maj": "2024-05-29T14:57:58+02:00",
+    "sp98_prix": 1.966,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-05-24T18:38:22+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-01-09T13:03:06+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2021-09-08T15:23:38+02:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "SP98"
+      "E85"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [

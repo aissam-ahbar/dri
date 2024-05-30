@@ -1,19 +1,19 @@
 [
   {
     "id": 30960003,
-    "latitude": "4421834.8235169",
-    "longitude": "415639.82506168",
+    "latitude": "4421800",
+    "longitude": "415600",
     "cp": "30960",
     "pop": "R",
     "adresse": "LES CAMBONS",
     "ville": "Saint-Jean-de-Valériscle",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Automate CB 24/24\"]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-27 19:00:00\", \"@valeur\": \"1.750\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-27 19:00:00\", \"@valeur\": \"1.020\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-27 19:00:00\", \"@valeur\": \"1.920\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-27 19:00:00\", \"@valeur\": \"2.000\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-02 18:40:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-03-03 17:20:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": 4.1563982506168,
-      "lat": 44.218348235168996
+      "lon": 4.156,
+      "lat": 44.218
     },
     "gazole_maj": "2024-05-27T21:00:00+02:00",
     "gazole_prix": 1.75,
@@ -53,20 +53,25 @@
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Relais colis",
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Restauration à emporter",
       "Restauration sur place",
+      "Vente de fioul domestique",
+      "Station de gonflage",
       "Carburant additivé",
       "Piste poids lourds",
       "Lavage automatique",
       "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
       "Automate CB 24/24"
     ],
     "departement": "Gard",
     "code_departement": "30",
     "region": "Occitanie",
     "code_region": "76",
-    "horaires_jour": "Automate-24-24, Lundi06.30-19.30, Mardi06.30-19.30, Mercredi06.30-19.30, Jeudi06.30-19.30, Vendredi06.30-19.30, Samedi07.30-18.30, Dimanche"
+    "horaires_jour": "Automate-24-24, Lundi07.00-19.00, Mardi07.00-19.00, Mercredi07.00-19.00, Jeudi07.00-19.00, Vendredi07.00-19.00, Samedi, Dimanche"
   }
 ]
