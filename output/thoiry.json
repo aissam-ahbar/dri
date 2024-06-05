@@ -1,67 +1,5 @@
 [
   {
-    "id": 78770001,
-    "latitude": "4886575.764",
-    "longitude": "179757.381",
-    "cp": "78770",
-    "pop": "R",
-    "adresse": "4 Route de VERSAILLES",
-    "ville": "Thoiry",
-    "horaires": null,
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-30 09:54:00\", \"@valeur\": \"1.715\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-30 09:54:01\", \"@valeur\": \"1.894\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-30 09:54:01\", \"@valeur\": \"1.869\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-15 11:41:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 11:46:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 11:46:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 1.79757381,
-      "lat": 48.865757640000005
-    },
-    "gazole_maj": "2024-05-30T11:54:00+02:00",
-    "gazole_prix": 1.715,
-    "sp95_maj": "2024-05-30T11:54:01+02:00",
-    "sp95_prix": 1.894,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-05-30T11:54:01+02:00",
-    "e10_prix": 1.869,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-05-15T13:41:31+02:00",
-    "sp98_rupture_type": "temporaire",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-09-08T13:46:46+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-08T13:46:46+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": "SP98",
-    "carburants_rupture_definitive": "E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Yvelines",
-    "code_departement": "78",
-    "region": "Île-de-France",
-    "code_region": "11",
-    "horaires_jour": null
-  },
-  {
     "id": 1710001,
     "latitude": "4622700",
     "longitude": "599300",
@@ -131,6 +69,68 @@
     "code_departement": "01",
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
+    "horaires_jour": null
+  },
+  {
+    "id": 78770001,
+    "latitude": "4886575.764",
+    "longitude": "179757.381",
+    "cp": "78770",
+    "pop": "R",
+    "adresse": "4 Route de VERSAILLES",
+    "ville": "Thoiry",
+    "horaires": null,
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-30 09:54:00\", \"@valeur\": \"1.715\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-05-30 09:54:01\", \"@valeur\": \"1.894\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-30 09:54:01\", \"@valeur\": \"1.869\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 11:46:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 11:46:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-05-15 11:41:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "geom": {
+      "lon": 1.79757381,
+      "lat": 48.865757640000005
+    },
+    "gazole_maj": "2024-05-30T11:54:00+02:00",
+    "gazole_prix": 1.715,
+    "sp95_maj": "2024-05-30T11:54:01+02:00",
+    "sp95_prix": 1.894,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-05-30T11:54:01+02:00",
+    "e10_prix": 1.869,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2024-05-15T13:41:31+02:00",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-08T13:46:46+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-08T13:46:46+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_definitive": "E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Yvelines",
+    "code_departement": "78",
+    "region": "Île-de-France",
+    "code_region": "11",
     "horaires_jour": null
   }
 ]
