@@ -9,20 +9,20 @@
     "ville": "Ambérieu-en-Bugey",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-25 10:12:58\", \"@valeur\": \"1.659\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-01 08:36:43\", \"@valeur\": \"0.798\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-05-22 16:11:55\", \"@valeur\": \"1.047\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-22 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-22 08:30:00\", \"@valeur\": \"1.899\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-12-16 17:33:51\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-06 08:38:36\", \"@valeur\": \"1.654\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-01 08:36:43\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-22 08:30:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-22 08:30:00\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-12-16 17:33:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-06-06 19:31:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 5.338,
       "lat": 45.972
     },
-    "gazole_maj": "2024-05-25T12:12:58+02:00",
-    "gazole_prix": 1.659,
+    "gazole_maj": "2024-06-06T10:38:36+02:00",
+    "gazole_prix": 1.654,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-06-01T10:36:43+02:00",
     "e85_prix": 0.798,
-    "gplc_maj": "2024-05-22T18:11:55+02:00",
-    "gplc_prix": 1.047,
+    "gplc_maj": null,
+    "gplc_prix": null,
     "e10_maj": "2024-05-22T10:30:00+02:00",
     "e10_prix": 1.799,
     "sp98_maj": "2024-05-22T10:30:00+02:00",
@@ -35,21 +35,21 @@
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
+    "gplc_rupture_debut": "2024-06-06T21:31:07+02:00",
+    "gplc_rupture_type": "temporaire",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95"
+      "SP95",
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "GPLc",
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Oui",
     "services_service": [
