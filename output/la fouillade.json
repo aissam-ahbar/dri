@@ -10,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-22 18:44:38\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-31 11:32:33\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-31 11:32:33\", \"@valeur\": \"1.899\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-09 12:12:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-03-21 16:13:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-03-21 16:13:39\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-03-21 16:13:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-03-21 16:13:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-09 12:12:42\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.0328320468272003,
       "lat": 44.240241001506
@@ -64,5 +64,70 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": null
+  },
+  {
+    "id": 12270002,
+    "latitude": "4422900",
+    "longitude": "203800",
+    "cp": "12270",
+    "pop": "R",
+    "adresse": "15 route du rouergue",
+    "ville": "La Fouillade",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-06 18:58:15\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-06 18:58:16\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-06 18:58:16\", \"@valeur\": \"1.979\"}]",
+    "rupture": null,
+    "geom": {
+      "lon": 2.038,
+      "lat": 44.229
+    },
+    "gazole_maj": "2024-06-06T20:58:15+02:00",
+    "gazole_prix": 1.779,
+    "sp95_maj": "2024-06-06T20:58:16+02:00",
+    "sp95_prix": 1.959,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-06-06T20:58:16+02:00",
+    "sp98_prix": 1.979,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis",
+      "Boutique non alimentaire",
+      "Carburant additivé",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Aveyron",
+    "code_departement": "12",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": "Lundi07.30-19.00, Mardi07.30-19.00, Mercredi07.30-19.00, Jeudi07.30-19.00, Vendredi07.30-19.00, Samedi07.30-19.00, Dimanche"
   }
 ]
