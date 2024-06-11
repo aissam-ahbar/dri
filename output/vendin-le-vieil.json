@@ -9,14 +9,14 @@
     "ville": "Vendin-le-Vieil",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-08 00:01:00\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-08 00:03:00\", \"@valeur\": \"0.819\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-06-08 00:04:00\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-08 00:05:00\", \"@valeur\": \"1.789\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-05-17 15:39:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-04-24 07:20:07\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-08 00:03:00\", \"@valeur\": \"0.819\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-06-08 00:04:00\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-08 00:05:00\", \"@valeur\": \"1.789\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-04-24 07:20:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-06-10 17:47:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-05-17 15:39:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.827,
       "lat": 50.462
     },
-    "gazole_maj": "2024-06-08T02:01:00+02:00",
-    "gazole_prix": 1.689,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-06-08T02:03:00+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-06-10T19:47:05+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
