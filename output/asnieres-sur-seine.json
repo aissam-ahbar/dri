@@ -1,22 +1,22 @@
 [
   {
     "id": 92600007,
-    "latitude": "4891459",
-    "longitude": "228328",
+    "latitude": "4891500",
+    "longitude": "228300",
     "cp": "92600",
     "pop": "R",
     "adresse": "96 Avenue d'Argenteuil",
     "ville": "Asnières-sur-Seine",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-10 13:10:00\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-10 13:10:00\", \"@valeur\": \"1.969\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-10 13:10:00\", \"@valeur\": \"2.069\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.21\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"21.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-11 13:35:00\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-10 13:10:00\", \"@valeur\": \"1.969\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-10 13:10:00\", \"@valeur\": \"2.069\"}]",
     "rupture": null,
     "geom": {
-      "lon": 2.28328,
-      "lat": 48.91459
+      "lon": 2.283,
+      "lat": 48.915
     },
-    "gazole_maj": "2024-06-10T15:10:00+02:00",
-    "gazole_prix": 1.839,
+    "gazole_maj": "2024-06-11T15:35:00+02:00",
+    "gazole_prix": 1.849,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -53,17 +53,17 @@
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Station de gonflage",
       "Carburant additivé",
+      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Hauts-de-Seine",
     "code_departement": "92",
     "region": "Île-de-France",
     "code_region": "11",
-    "horaires_jour": null
+    "horaires_jour": "Lundi06.00-21.00, Mardi06.00-21.00, Mercredi06.00-21.00, Jeudi06.21-21.00, Vendredi06.00-21.00, Samedi07.00-21.00, Dimanche08.00-21.00"
   }
 ]
