@@ -9,24 +9,24 @@
     "ville": "Plédran",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-03 15:44:14\", \"@valeur\": \"1.789\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-12 14:32:19\", \"@valeur\": \"1.669\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-12 14:32:19\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-12 14:32:20\", \"@valeur\": \"1.879\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-09 14:39:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-09 14:39:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-09 14:39:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -2.7512954499999998,
       "lat": 48.445538320000004
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-06-12T16:32:19+02:00",
+    "gazole_prix": 1.669,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-06-03T17:44:14+02:00",
-    "e10_prix": 1.789,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-06-12T16:32:19+02:00",
+    "e10_prix": 1.779,
+    "sp98_maj": "2024-06-12T16:32:20+02:00",
+    "sp98_prix": 1.879,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -40,14 +40,14 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "E10"
+      "Gazole",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
