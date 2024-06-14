@@ -9,8 +9,8 @@
     "ville": "Saint-Jean-le-Blanc",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-11 09:15:02\", \"@valeur\": \"1.630\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-12 14:38:16\", \"@valeur\": \"1.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-11 09:15:03\", \"@valeur\": \"1.859\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-08-20 12:57:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-11 09:15:02\", \"@valeur\": \"1.630\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-12 14:38:16\", \"@valeur\": \"1.754\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-08-20 12:57:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-06-13 11:15:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.9348,
       "lat": 47.87568
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-06-12T16:38:16+02:00",
     "e10_prix": 1.754,
-    "sp98_maj": "2024-06-11T11:15:03+02:00",
-    "sp98_prix": 1.859,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-06-13T13:15:07+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2020-08-20T14:57:01+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-08-29T12:25:35+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
