@@ -1,5 +1,68 @@
 [
   {
+    "id": 80190003,
+    "latitude": "4998297.73",
+    "longitude": "156231.03625",
+    "cp": "80220",
+    "pop": "R",
+    "adresse": "rue charles de gaulle",
+    "ville": "Gamaches",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-15 11:03:36\", \"@valeur\": \"1.675\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-15 11:03:36\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-15 11:03:36\", \"@valeur\": \"1.849\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-23 16:52:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-23 16:52:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-23 16:52:13\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 1.5623103625,
+      "lat": 49.9829773
+    },
+    "gazole_maj": "2024-06-15T13:03:36+02:00",
+    "gazole_prix": 1.675,
+    "sp95_maj": "2024-06-15T13:03:36+02:00",
+    "sp95_prix": 1.819,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-06-15T13:03:36+02:00",
+    "sp98_prix": 1.849,
+    "e10_rupture_debut": "2017-10-23T18:52:13+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-23T18:52:12+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-23T18:52:13+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Somme",
+    "code_departement": "80",
+    "region": "Hauts-de-France",
+    "code_region": "32",
+    "horaires_jour": null
+  },
+  {
     "id": 80220001,
     "latitude": "4998400",
     "longitude": "157400",
@@ -66,68 +129,5 @@
     "region": "Hauts-de-France",
     "code_region": "32",
     "horaires_jour": "Automate-24-24, Lundi07.30-19.30, Mardi07.30-19.00, Mercredi07.30-19.30, Jeudi07.30-19.30, Vendredi07.30-19.30, Samedi 07.30-12.00 et 12.00-13.00, Dimanche"
-  },
-  {
-    "id": 80190003,
-    "latitude": "4998297.73",
-    "longitude": "156231.03625",
-    "cp": "80220",
-    "pop": "R",
-    "adresse": "rue charles de gaulle",
-    "ville": "Gamaches",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-15 11:03:36\", \"@valeur\": \"1.675\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-15 11:03:36\", \"@valeur\": \"1.819\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-15 11:03:36\", \"@valeur\": \"1.849\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-23 16:52:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-23 16:52:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-23 16:52:13\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 1.5623103625,
-      "lat": 49.9829773
-    },
-    "gazole_maj": "2024-06-15T13:03:36+02:00",
-    "gazole_prix": 1.675,
-    "sp95_maj": "2024-06-15T13:03:36+02:00",
-    "sp95_prix": 1.819,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-06-15T13:03:36+02:00",
-    "sp98_prix": 1.849,
-    "e10_rupture_debut": "2017-10-23T18:52:13+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-10-23T18:52:12+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-10-23T18:52:13+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Somme",
-    "code_departement": "80",
-    "region": "Hauts-de-France",
-    "code_region": "32",
-    "horaires_jour": null
   }
 ]

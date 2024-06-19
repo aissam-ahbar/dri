@@ -9,8 +9,8 @@
     "ville": "Le Rheu",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.00\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-17 11:39:57\", \"@valeur\": \"1.667\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-06 18:29:39\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-15 09:15:40\", \"@valeur\": \"1.739\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-08-13 16:45:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-08-13 16:45:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-06-17 09:27:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-17 11:39:57\", \"@valeur\": \"1.667\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-06 18:29:39\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-18 17:31:16\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-18 17:31:16\", \"@valeur\": \"1.865\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-08-13 16:45:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-08-13 16:45:52\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -1.793,
       "lat": 48.092
@@ -23,14 +23,14 @@
     "e85_prix": 0.798,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-06-15T11:15:40+02:00",
-    "e10_prix": 1.739,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-06-18T19:31:16+02:00",
+    "e10_prix": 1.745,
+    "sp98_maj": "2024-06-18T19:31:16+02:00",
+    "sp98_prix": 1.865,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-06-17T11:27:52+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2021-08-13T18:45:52+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
