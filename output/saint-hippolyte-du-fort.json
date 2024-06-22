@@ -1,22 +1,22 @@
 [
   {
     "id": 30170001,
-    "latitude": "4395132",
-    "longitude": "387348",
+    "latitude": "4395100",
+    "longitude": "387300",
     "cp": "30170",
     "pop": "R",
     "adresse": "Place de La Couronne",
     "ville": "Saint-Hippolyte-du-Fort",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-20 09:52:31\", \"@valeur\": \"1.679\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-07 16:54:18\", \"@valeur\": \"0.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-11 15:31:36\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-11 15:31:37\", \"@valeur\": \"1.889\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-06-26 09:00:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-06 15:18:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-21 15:30:45\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-07 16:54:18\", \"@valeur\": \"0.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-11 15:31:36\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-21 15:30:45\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-06 15:18:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-06-26 09:00:59\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": 3.87348,
-      "lat": 43.95132
+      "lon": 3.873,
+      "lat": 43.951
     },
-    "gazole_maj": "2024-06-20T11:52:31+02:00",
-    "gazole_prix": 1.679,
+    "gazole_maj": "2024-06-21T17:30:45+02:00",
+    "gazole_prix": 1.689,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-05-07T18:54:18+02:00",
@@ -25,8 +25,8 @@
     "gplc_prix": null,
     "e10_maj": "2024-06-11T17:31:36+02:00",
     "e10_prix": 1.779,
-    "sp98_maj": "2024-06-11T17:31:37+02:00",
-    "sp98_prix": 1.889,
+    "sp98_maj": "2024-06-21T17:30:45+02:00",
+    "sp98_prix": 1.899,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -51,26 +51,20 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Vente de pétrole lampant",
       "Station de gonflage",
-      "Carburant additivé",
       "Aire de camping-cars",
-      "Location de véhicule",
       "Piste poids lourds",
       "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Automate CB 24/24"
     ],
     "departement": "Gard",
     "code_departement": "30",
     "region": "Occitanie",
     "code_region": "76",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]
