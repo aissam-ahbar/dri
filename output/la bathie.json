@@ -1,5 +1,68 @@
 [
   {
+    "id": 73540002,
+    "latitude": "4564037",
+    "longitude": "643979",
+    "cp": "73540",
+    "pop": "R",
+    "adresse": "Route de l'Énergie",
+    "ville": "La Bâthie",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-19 09:30:05\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-19 12:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-19 12:00:00\", \"@valeur\": \"1.929\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-18 08:10:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-06-17 09:25:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-10-04 11:42:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 6.43979,
+      "lat": 45.64037
+    },
+    "gazole_maj": "2024-06-19T11:30:05+02:00",
+    "gazole_prix": 1.699,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-06-19T14:00:00+02:00",
+    "e10_prix": 1.799,
+    "sp98_maj": "2024-06-19T14:00:00+02:00",
+    "sp98_prix": 1.929,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-06-18T10:10:00+02:00",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": "2024-06-17T11:25:09+02:00",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2019-10-04T13:42:36+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": "SP95;E85",
+    "carburants_rupture_definitive": "GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Savoie",
+    "code_departement": "73",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 73540005,
     "latitude": "4562486.75",
     "longitude": "644991.61",
@@ -66,68 +129,5 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": "Lundi08.00-16.30, Mardi08.00-16.30, Mercredi08.00-16.30, Jeudi08.00-16.30, Vendredi08.00-16.30, Samedi, Dimanche"
-  },
-  {
-    "id": 73540002,
-    "latitude": "4564037",
-    "longitude": "643979",
-    "cp": "73540",
-    "pop": "R",
-    "adresse": "Route de l'Énergie",
-    "ville": "La Bâthie",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-19 09:30:05\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-19 12:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-19 12:00:00\", \"@valeur\": \"1.929\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-10-04 11:42:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-18 08:10:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-06-17 09:25:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "geom": {
-      "lon": 6.43979,
-      "lat": 45.64037
-    },
-    "gazole_maj": "2024-06-19T11:30:05+02:00",
-    "gazole_prix": 1.699,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-06-19T14:00:00+02:00",
-    "e10_prix": 1.799,
-    "sp98_maj": "2024-06-19T14:00:00+02:00",
-    "sp98_prix": 1.929,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-06-18T10:10:00+02:00",
-    "sp95_rupture_type": "temporaire",
-    "e85_rupture_debut": "2024-06-17T11:25:09+02:00",
-    "e85_rupture_type": "temporaire",
-    "gplc_rupture_debut": "2019-10-04T13:42:36+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": "SP95;E85",
-    "carburants_rupture_definitive": "GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Savoie",
-    "code_departement": "73",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
   }
 ]
