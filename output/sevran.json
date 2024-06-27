@@ -1,68 +1,5 @@
 [
   {
-    "id": 93270001,
-    "latitude": "4895100",
-    "longitude": "252800",
-    "cp": "93270",
-    "pop": "R",
-    "adresse": "ROUTE DES PETITS PONTS",
-    "ville": "Sevran",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.865\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.824\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.923\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2014-08-29 01:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 10:23:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 10:23:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 2.528,
-      "lat": 48.951
-    },
-    "gazole_maj": "2024-06-19T10:57:32+02:00",
-    "gazole_prix": 1.747,
-    "sp95_maj": "2024-06-19T10:57:32+02:00",
-    "sp95_prix": 1.865,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-06-19T10:57:32+02:00",
-    "e10_prix": 1.824,
-    "sp98_maj": "2024-06-19T10:57:32+02:00",
-    "sp98_prix": 1.923,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-08-30T12:23:19+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-08-30T12:23:19+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-Saint-Denis",
-    "code_departement": "93",
-    "region": "Île-de-France",
-    "code_region": "11",
-    "horaires_jour": null
-  },
-  {
     "id": 93270008,
     "latitude": "4893600",
     "longitude": "251500",
@@ -197,5 +134,68 @@
     "region": "Île-de-France",
     "code_region": "11",
     "horaires_jour": "Lundi07.00-21.00, Mardi07.00-21.00, Mercredi07.00-21.00, Jeudi07.00-21.00, Vendredi07.00-21.00, Samedi07.00-21.00, Dimanche07.00-21.00"
+  },
+  {
+    "id": 93270001,
+    "latitude": "4895100",
+    "longitude": "252800",
+    "cp": "93270",
+    "pop": "R",
+    "adresse": "ROUTE DES PETITS PONTS",
+    "ville": "Sevran",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.747\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.865\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.824\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-19 08:57:32\", \"@valeur\": \"1.923\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2014-08-29 01:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 10:23:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 10:23:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 2.528,
+      "lat": 48.951
+    },
+    "gazole_maj": "2024-06-19T10:57:32+02:00",
+    "gazole_prix": 1.747,
+    "sp95_maj": "2024-06-19T10:57:32+02:00",
+    "sp95_prix": 1.865,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-06-19T10:57:32+02:00",
+    "e10_prix": 1.824,
+    "sp98_maj": "2024-06-19T10:57:32+02:00",
+    "sp98_prix": 1.923,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-08-30T12:23:19+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-08-30T12:23:19+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-Saint-Denis",
+    "code_departement": "93",
+    "region": "Île-de-France",
+    "code_region": "11",
+    "horaires_jour": null
   }
 ]
