@@ -1,5 +1,67 @@
 [
   {
+    "id": 1640003,
+    "latitude": "4603487.6030469",
+    "longitude": "538945.26948339",
+    "cp": "01640",
+    "pop": "R",
+    "adresse": "573 route de Geneve",
+    "ville": "Saint-Jean-le-Vieux",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 19:28:39\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 19:28:39\", \"@valeur\": \"1.969\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 5.3894526948339,
+      "lat": 46.03487603046899
+    },
+    "gazole_maj": "2024-01-22T20:28:39+01:00",
+    "gazole_prix": 1.919,
+    "sp95_maj": "2024-01-22T20:28:39+01:00",
+    "sp95_prix": 1.969,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2023-05-12T23:23:47+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2023-05-12T23:23:47+02:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2023-05-12T23:23:47+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2023-05-12T23:23:47+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 64220002,
     "latitude": "4316500",
     "longitude": "-119500",
@@ -73,67 +135,5 @@
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
     "horaires_jour": "Automate-24-24, Lundi 07.00-12.15 et 13.45-19.00, Mardi 07.00-12.15 et 13.45-19.00, Mercredi 07.00-12.15 et 13.45-19.00, Jeudi 07.00-12.15 et 13.45-19.00, Vendredi 07.00-12.15 et 13.45-19.00, Samedi 07.30-13.30 et 13.30-13.30, Dimanche"
-  },
-  {
-    "id": 1640003,
-    "latitude": "4603487.6030469",
-    "longitude": "538945.26948339",
-    "cp": "01640",
-    "pop": "R",
-    "adresse": "573 route de Geneve",
-    "ville": "Saint-Jean-le-Vieux",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-01-22 19:28:39\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-01-22 19:28:39\", \"@valeur\": \"1.969\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-05-12 21:23:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 5.3894526948339,
-      "lat": 46.03487603046899
-    },
-    "gazole_maj": "2024-01-22T20:28:39+01:00",
-    "gazole_prix": 1.919,
-    "sp95_maj": "2024-01-22T20:28:39+01:00",
-    "sp95_prix": 1.969,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": "2023-05-12T23:23:47+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2023-05-12T23:23:47+02:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2023-05-12T23:23:47+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2023-05-12T23:23:47+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": "Automate-24-24"
   }
 ]

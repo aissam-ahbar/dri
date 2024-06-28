@@ -9,28 +9,28 @@
     "ville": "Thérouanne",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-24 11:10:09\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-24 11:10:09\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-26 12:14:16\", \"@valeur\": \"1.789\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-06-25 19:46:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-04-06 08:00:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-15 09:43:21\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-27 08:06:27\", \"@valeur\": \"1.713\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-27 08:06:27\", \"@valeur\": \"0.905\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-27 08:06:27\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-27 08:06:27\", \"@valeur\": \"1.891\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-04-06 08:00:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-15 09:43:21\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.2654255,
       "lat": 50.631881500000006
     },
-    "gazole_maj": "2024-06-24T13:10:09+02:00",
-    "gazole_prix": 1.699,
+    "gazole_maj": "2024-06-27T10:06:27+02:00",
+    "gazole_prix": 1.713,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2024-06-24T13:10:09+02:00",
-    "e85_prix": 0.899,
+    "e85_maj": "2024-06-27T10:06:27+02:00",
+    "e85_prix": 0.905,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-06-26T14:14:16+02:00",
-    "e10_prix": 1.789,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-06-27T10:06:27+02:00",
+    "e10_prix": 1.795,
+    "sp98_maj": "2024-06-27T10:06:27+02:00",
+    "sp98_prix": 1.891,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-06-25T21:46:51+02:00",
-    "sp98_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-06-15T11:43:21+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,15 +42,15 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc;SP98",
+    "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Automate CB 24/24"

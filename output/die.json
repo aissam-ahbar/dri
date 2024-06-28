@@ -1,5 +1,68 @@
 [
   {
+    "id": 26150001,
+    "latitude": "4476076",
+    "longitude": "535682",
+    "cp": "26150",
+    "pop": "R",
+    "adresse": "Route de la résistance Conches et Chamarges",
+    "ville": "Die",
+    "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-25 09:36:25\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-08 12:26:14\", \"@valeur\": \"1.861\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-06 12:15:17\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-25 09:36:25\", \"@valeur\": \"1.791\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-12 09:23:57\", \"@valeur\": \"1.871\"}]",
+    "rupture": null,
+    "geom": {
+      "lon": 5.35682,
+      "lat": 44.76076
+    },
+    "gazole_maj": "2024-06-25T11:36:25+02:00",
+    "gazole_prix": 1.699,
+    "sp95_maj": "2024-06-08T14:26:14+02:00",
+    "sp95_prix": 1.861,
+    "e85_maj": "2024-06-06T14:15:17+02:00",
+    "e85_prix": 0.798,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-06-25T11:36:25+02:00",
+    "e10_prix": 1.791,
+    "sp98_maj": "2024-06-12T11:23:57+02:00",
+    "sp98_prix": 1.871,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Drôme",
+    "code_departement": "26",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 26150002,
     "latitude": "4474800",
     "longitude": "538100",
@@ -71,68 +134,5 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 26150001,
-    "latitude": "4476076",
-    "longitude": "535682",
-    "cp": "26150",
-    "pop": "R",
-    "adresse": "Route de la résistance Conches et Chamarges",
-    "ville": "Die",
-    "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-25 09:36:25\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-08 12:26:14\", \"@valeur\": \"1.861\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-06 12:15:17\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-25 09:36:25\", \"@valeur\": \"1.791\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-12 09:23:57\", \"@valeur\": \"1.871\"}]",
-    "rupture": null,
-    "geom": {
-      "lon": 5.35682,
-      "lat": 44.76076
-    },
-    "gazole_maj": "2024-06-25T11:36:25+02:00",
-    "gazole_prix": 1.699,
-    "sp95_maj": "2024-06-08T14:26:14+02:00",
-    "sp95_prix": 1.861,
-    "e85_maj": "2024-06-06T14:15:17+02:00",
-    "e85_prix": 0.798,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-06-25T11:36:25+02:00",
-    "e10_prix": 1.791,
-    "sp98_maj": "2024-06-12T11:23:57+02:00",
-    "sp98_prix": 1.871,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Drôme",
-    "code_departement": "26",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
   }
 ]

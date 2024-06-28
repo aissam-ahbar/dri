@@ -1,19 +1,19 @@
 [
   {
     "id": 16100001,
-    "latitude": "4568397",
-    "longitude": "-30463",
+    "latitude": "4568400",
+    "longitude": "-30500",
     "cp": "16100",
     "pop": "R",
     "adresse": "40 rue de l'Annisserie",
     "ville": "Châteaubernard",
-    "horaires": null,
-    "services": "{\"service\": [\"Restauration sur place\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"17.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-21 10:00:49\", \"@valeur\": \"1.674\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-03-06 09:00:55\", \"@valeur\": \"0.938\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-25 10:00:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-25 10:00:00\", \"@valeur\": \"1.844\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 09:02:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-01 08:53:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": -0.30463,
-      "lat": 45.68397
+      "lon": -0.305,
+      "lat": 45.684
     },
     "gazole_maj": "2024-06-21T12:00:49+02:00",
     "gazole_prix": 1.674,
@@ -51,22 +51,17 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Restauration sur place",
-      "Bar",
-      "Vente de fioul domestique",
       "Station de gonflage",
-      "Carburant additivé",
       "Piste poids lourds",
-      "Lavage automatique",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Automate CB 24/24"
     ],
     "departement": "Charente",
     "code_departement": "16",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24, Lundi10.00-17.00, Mardi10.00-17.00, Mercredi10.00-17.00, Jeudi10.00-17.00, Vendredi10.00-17.00, Samedi10.00-17.00, Dimanche"
   }
 ]

@@ -9,14 +9,14 @@
     "ville": "Épercieux-Saint-Paul",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-26 05:47:29\", \"@valeur\": \"1.802\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-26 05:47:29\", \"@valeur\": \"1.885\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-08 12:36:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-06-26 13:01:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-27 08:15:03\", \"@valeur\": \"1.737\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-26 05:47:29\", \"@valeur\": \"1.802\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-26 05:47:29\", \"@valeur\": \"1.885\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-08 12:36:05\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 4.19681,
       "lat": 45.8102
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-06-27T10:15:03+02:00",
+    "gazole_prix": 1.737,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": "2024-06-26T15:01:45+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
