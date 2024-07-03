@@ -9,14 +9,14 @@
     "ville": "Fortschwihr",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-27 10:32:46\", \"@valeur\": \"1.828\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-29 09:56:21\", \"@valeur\": \"1.865\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2020-06-06 08:35:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-07-01 16:31:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-07-13 18:31:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-07-13 18:32:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-02 06:22:43\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-27 10:32:46\", \"@valeur\": \"1.828\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-29 09:56:21\", \"@valeur\": \"1.865\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2020-06-06 08:35:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-07-13 18:31:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-07-13 18:32:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 7.44,
       "lat": 48.096
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-07-02T08:22:43+02:00",
+    "gazole_prix": 1.679,
     "sp95_maj": "2024-06-27T12:32:46+02:00",
     "sp95_prix": 1.828,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2022-07-13T20:32:24+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2024-07-01T18:31:25+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [

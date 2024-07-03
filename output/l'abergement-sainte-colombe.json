@@ -9,14 +9,14 @@
     "ville": "L'Abergement-Sainte-Colombe",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-15 14:17:35\", \"@valeur\": \"1.690\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-10 17:04:28\", \"@valeur\": \"0.907\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-21 12:32:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-27 10:08:10\", \"@valeur\": \"1.892\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-01-24 16:09:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-01-24 16:09:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-10 17:04:28\", \"@valeur\": \"0.907\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-21 12:32:00\", \"@valeur\": \"1.812\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-27 10:08:10\", \"@valeur\": \"1.892\"}]",
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-07-02 10:45:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-01-24 16:09:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-01-24 16:09:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 5.012737123754,
       "lat": 46.754879682923
     },
-    "gazole_maj": "2024-06-15T16:17:35+02:00",
-    "gazole_prix": 1.69,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-06-10T19:04:28+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2023-01-24T17:09:34+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-07-02T12:45:20+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
