@@ -9,14 +9,14 @@
     "ville": "Saint-Palais",
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-28 11:59:22\", \"@valeur\": \"1.724\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-11 09:34:32\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-11 09:34:32\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-11 09:34:32\", \"@valeur\": \"1.889\"}]",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-11 09:34:32\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-11 09:34:32\", \"@valeur\": \"1.829\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-11 09:34:32\", \"@valeur\": \"1.889\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2015-12-08 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-08 16:00:44\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -1.0334585189475,
       "lat": 43.327224350857996
     },
-    "gazole_maj": "2024-06-28T13:59:22+02:00",
-    "gazole_prix": 1.724,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2024-06-11T11:34:32+02:00",
     "sp95_prix": 1.849,
     "e85_maj": null,
@@ -40,12 +40,12 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc"
     ],
