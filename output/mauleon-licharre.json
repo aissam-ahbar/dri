@@ -1,5 +1,69 @@
 [
   {
+    "id": 64130002,
+    "latitude": "4322600",
+    "longitude": "-88500",
+    "cp": "64130",
+    "pop": "R",
+    "adresse": "36, Boulevard des Pyrénées",
+    "ville": "Mauléon-Licharre",
+    "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-02 09:00:00\", \"@valeur\": \"1.716\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-02 09:00:00\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-02 09:00:00\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-28 08:30:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-02 09:53:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-02 09:53:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": -0.885,
+      "lat": 43.226
+    },
+    "gazole_maj": "2024-07-02T11:00:00+02:00",
+    "gazole_prix": 1.716,
+    "sp95_maj": "2024-07-02T11:00:00+02:00",
+    "sp95_prix": 1.838,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-07-02T11:00:00+02:00",
+    "sp98_prix": 1.899,
+    "e10_rupture_debut": "2022-10-28T10:30:59+02:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-11-02T10:53:18+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-11-02T10:53:19+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_definitive": "E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Pyrénées-Atlantiques",
+    "code_departement": "64",
+    "region": "Nouvelle-Aquitaine",
+    "code_region": "75",
+    "horaires_jour": null
+  },
+  {
     "id": 64130004,
     "latitude": "4322300",
     "longitude": "-88800",
@@ -10,7 +74,7 @@
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.45\", \"@fermeture\": \"20.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.45\", \"@fermeture\": \"20.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.45\", \"@fermeture\": \"20.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.45\", \"@fermeture\": \"20.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.45\", \"@fermeture\": \"20.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.45\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-05-24 08:07:10\", \"@valeur\": \"1.782\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-05-24 08:07:12\", \"@valeur\": \"1.937\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-05-24 08:07:13\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-10-08 13:35:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-19 13:20:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-19 13:20:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-19 13:20:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-19 13:20:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-10-08 13:35:23\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -0.888,
       "lat": 43.223
@@ -76,69 +140,5 @@
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
     "horaires_jour": "Automate-24-24, Lundi 07.30-12.00 et 12.45-20.00, Mardi 07.00-12.00 et 12.45-20.00, Mercredi 07.00-12.00 et 12.45-20.00, Jeudi 07.00-12.00 et 12.45-20.00, Vendredi 07.00-12.00 et 12.45-20.00, Samedi 07.00-12.00 et 12.45-19.30, Dimanche"
-  },
-  {
-    "id": 64130002,
-    "latitude": "4322600",
-    "longitude": "-88500",
-    "cp": "64130",
-    "pop": "R",
-    "adresse": "36, Boulevard des Pyrénées",
-    "ville": "Mauléon-Licharre",
-    "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-02 09:00:00\", \"@valeur\": \"1.716\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-02 09:00:00\", \"@valeur\": \"1.838\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-02 09:00:00\", \"@valeur\": \"1.899\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-28 08:30:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-02 09:53:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-02 09:53:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": -0.885,
-      "lat": 43.226
-    },
-    "gazole_maj": "2024-07-02T11:00:00+02:00",
-    "gazole_prix": 1.716,
-    "sp95_maj": "2024-07-02T11:00:00+02:00",
-    "sp95_prix": 1.838,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-07-02T11:00:00+02:00",
-    "sp98_prix": 1.899,
-    "e10_rupture_debut": "2022-10-28T10:30:59+02:00",
-    "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-11-02T10:53:18+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-11-02T10:53:19+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": "E10",
-    "carburants_rupture_definitive": "E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Pyrénées-Atlantiques",
-    "code_departement": "64",
-    "region": "Nouvelle-Aquitaine",
-    "code_region": "75",
-    "horaires_jour": null
   }
 ]

@@ -9,28 +9,28 @@
     "ville": "Saint-Avold",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Restauration à emporter\", \"Restauration sur place\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-27 00:00:00\", \"@valeur\": \"1.711\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-27 00:00:00\", \"@valeur\": \"1.763\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-06 15:42:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-06 15:42:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-08 09:40:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-06-30 08:32:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-05 00:00:00\", \"@valeur\": \"1.730\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-05 00:00:00\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-05 00:00:00\", \"@valeur\": \"1.890\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-08 09:40:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-06 15:42:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-06 15:42:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 6.719,
       "lat": 49.108
     },
-    "gazole_maj": "2024-06-27T02:00:00+02:00",
-    "gazole_prix": 1.711,
+    "gazole_maj": "2024-07-05T02:00:00+02:00",
+    "gazole_prix": 1.73,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-06-27T02:00:00+02:00",
-    "e10_prix": 1.763,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-07-05T02:00:00+02:00",
+    "e10_prix": 1.81,
+    "sp98_maj": "2024-07-05T02:00:00+02:00",
+    "sp98_prix": 1.89,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-06-30T10:32:20+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2020-07-08T11:40:09+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-06T17:42:19+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

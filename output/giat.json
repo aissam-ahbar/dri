@@ -9,26 +9,26 @@
     "ville": "Giat",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-22 14:20:14\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-12 21:19:00\", \"@valeur\": \"1.898\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-22 14:20:14\", \"@valeur\": \"1.898\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-22 14:20:14\", \"@valeur\": \"1.979\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-04 22:26:51\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-04 22:26:51\", \"@valeur\": \"1.928\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-04 22:26:51\", \"@valeur\": \"1.987\"}]",
+    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-07-04 22:26:51\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 2.47016,
       "lat": 45.80467
     },
-    "gazole_maj": "2024-06-22T16:20:14+02:00",
-    "gazole_prix": 1.749,
-    "sp95_maj": "2024-06-12T23:19:00+02:00",
-    "sp95_prix": 1.898,
+    "gazole_maj": "2024-07-05T00:26:51+02:00",
+    "gazole_prix": 1.759,
+    "sp95_maj": "2024-07-05T00:26:51+02:00",
+    "sp95_prix": 1.928,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-06-22T16:20:14+02:00",
-    "e10_prix": 1.898,
-    "sp98_maj": "2024-06-22T16:20:14+02:00",
-    "sp98_prix": 1.979,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-07-05T00:26:51+02:00",
+    "sp98_prix": 1.987,
+    "e10_rupture_debut": "2024-07-05T00:26:51+02:00",
+    "e10_rupture_type": "definitive",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
@@ -42,15 +42,15 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
+    "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
