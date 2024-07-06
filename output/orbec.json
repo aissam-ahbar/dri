@@ -1,68 +1,5 @@
 [
   {
-    "id": 14290001,
-    "latitude": "4902400",
-    "longitude": "41300",
-    "cp": "14290",
-    "pop": "R",
-    "adresse": "RTE DE BERNAY",
-    "ville": "Orbec",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-28 12:09:06\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-30 11:44:14\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-17 16:11:33\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-17 16:11:33\", \"@valeur\": \"1.869\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-04 14:30:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-04 14:30:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 0.413,
-      "lat": 49.024
-    },
-    "gazole_maj": "2024-06-28T14:09:06+02:00",
-    "gazole_prix": 1.709,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-04-30T13:44:14+02:00",
-    "e85_prix": 0.899,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-06-17T18:11:33+02:00",
-    "e10_prix": 1.789,
-    "sp98_maj": "2024-06-17T18:11:33+02:00",
-    "sp98_prix": 1.869,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2020-07-04T16:30:45+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2020-07-04T16:30:45+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Calvados",
-    "code_departement": "14",
-    "region": "Normandie",
-    "code_region": "28",
-    "horaires_jour": null
-  },
-  {
     "id": 14290002,
     "latitude": "4902401.7",
     "longitude": "40408.2",
@@ -124,5 +61,68 @@
     "region": "Normandie",
     "code_region": "28",
     "horaires_jour": "Automate-24-24, Lundi08.30-19.15, Mardi08.30-19.15, Mercredi08.30-19.15, Jeudi08.30-19.15, Vendredi08.30-20.15, Samedi08.30-19.15, Dimanche09.00-13.00"
+  },
+  {
+    "id": 14290001,
+    "latitude": "4902400",
+    "longitude": "41300",
+    "cp": "14290",
+    "pop": "R",
+    "adresse": "RTE DE BERNAY",
+    "ville": "Orbec",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-06-28 12:09:06\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-04-30 11:44:14\", \"@valeur\": \"0.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-06-17 16:11:33\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-17 16:11:33\", \"@valeur\": \"1.869\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-04 14:30:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-04 14:30:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 0.413,
+      "lat": 49.024
+    },
+    "gazole_maj": "2024-06-28T14:09:06+02:00",
+    "gazole_prix": 1.709,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-04-30T13:44:14+02:00",
+    "e85_prix": 0.899,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-06-17T18:11:33+02:00",
+    "e10_prix": 1.789,
+    "sp98_maj": "2024-06-17T18:11:33+02:00",
+    "sp98_prix": 1.869,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2020-07-04T16:30:45+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2020-07-04T16:30:45+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Calvados",
+    "code_departement": "14",
+    "region": "Normandie",
+    "code_region": "28",
+    "horaires_jour": null
   }
 ]

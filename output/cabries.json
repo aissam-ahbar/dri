@@ -1,5 +1,67 @@
 [
   {
+    "id": 13751002,
+    "latitude": "4341790.2507331",
+    "longitude": "536031.90980073",
+    "cp": "13751",
+    "pop": "R",
+    "adresse": "PLAN DE CAMPAGNE - BP 8",
+    "ville": "Cabriès",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-05 08:57:13\", \"@valeur\": \"1.632\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-27 07:41:37\", \"@valeur\": \"0.798\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-06-25 12:11:50\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-05 08:57:13\", \"@valeur\": \"1.727\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-05 08:57:13\", \"@valeur\": \"1.816\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-25 07:20:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
+    "geom": {
+      "lon": 5.3603190980073,
+      "lat": 43.417902507331
+    },
+    "gazole_maj": "2024-07-05T10:57:13+02:00",
+    "gazole_prix": 1.632,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-06-27T09:41:37+02:00",
+    "e85_prix": 0.798,
+    "gplc_maj": "2024-06-25T14:11:50+02:00",
+    "gplc_prix": 0.929,
+    "e10_maj": "2024-07-05T10:57:13+02:00",
+    "e10_prix": 1.727,
+    "sp98_maj": "2024-07-05T10:57:13+02:00",
+    "sp98_prix": 1.816,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-06-25T09:20:59+02:00",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Bouches-du-Rhône",
+    "code_departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
     "id": 13480001,
     "latitude": "4346500",
     "longitude": "535300",
@@ -71,67 +133,5 @@
     "region": "Provence-Alpes-Côte d'Azur",
     "code_region": "93",
     "horaires_jour": "Automate-24-24, Lundi07.15-19.30, Mardi07.15-19.30, Mercredi07.15-19.30, Jeudi07.15-19.30, Vendredi07.15-19.30, Samedi08.00-18.30, Dimanche08.30-12.30"
-  },
-  {
-    "id": 13751002,
-    "latitude": "4341790.2507331",
-    "longitude": "536031.90980073",
-    "cp": "13751",
-    "pop": "R",
-    "adresse": "PLAN DE CAMPAGNE - BP 8",
-    "ville": "Cabriès",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-03 07:20:22\", \"@valeur\": \"1.679\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-27 07:41:37\", \"@valeur\": \"0.798\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-06-25 12:11:50\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-03 07:20:23\", \"@valeur\": \"1.763\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-02 07:39:41\", \"@valeur\": \"1.832\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-25 07:20:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
-    "geom": {
-      "lon": 5.3603190980073,
-      "lat": 43.417902507331
-    },
-    "gazole_maj": "2024-07-03T09:20:22+02:00",
-    "gazole_prix": 1.679,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-06-27T09:41:37+02:00",
-    "e85_prix": 0.798,
-    "gplc_maj": "2024-06-25T14:11:50+02:00",
-    "gplc_prix": 0.929,
-    "e10_maj": "2024-07-03T09:20:23+02:00",
-    "e10_prix": 1.763,
-    "sp98_maj": "2024-07-02T09:39:41+02:00",
-    "sp98_prix": 1.832,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-06-25T09:20:59+02:00",
-    "sp95_rupture_type": "temporaire",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "carburants_rupture_temporaire": "SP95",
-    "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Bouches-du-Rhône",
-    "code_departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93",
-    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]
