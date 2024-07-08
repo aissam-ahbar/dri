@@ -9,14 +9,14 @@
     "ville": "Montivilliers",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-06 19:40:15\", \"@valeur\": \"1.686\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-24 07:34:48\", \"@valeur\": \"0.798\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-04 15:52:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-01-04 15:52:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-07-06 19:39:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-07-04 07:16:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-24 07:34:48\", \"@valeur\": \"0.798\"}",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-04 15:52:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-01-04 15:52:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-07-04 07:16:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-07-06 19:39:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-07-07 12:10:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 0.17773185000000002,
       "lat": 49.539957570000006
     },
-    "gazole_maj": "2024-07-06T21:40:15+02:00",
-    "gazole_prix": 1.686,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-06-24T09:34:48+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2018-01-04T16:52:28+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-07-07T14:10:37+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E85"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": "Gazole;E10",
     "carburants_rupture_definitive": "SP95;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": null,
