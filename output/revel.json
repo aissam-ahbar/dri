@@ -10,7 +10,7 @@
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-06 19:00:00\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-06 19:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-06 19:00:00\", \"@valeur\": \"1.889\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-03-01 17:54:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-03-13 08:30:17\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 17:46:27\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 17:46:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-03-13 08:30:17\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-03-01 17:54:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 1.994,
       "lat": 43.454
@@ -69,70 +69,6 @@
     "horaires_jour": "Automate-24-24, Lundi 08.30-12.30 et 14.00-19.00, Mardi 08.30-12.30 et 14.00-19.00, Mercredi 08.30-12.30 et 14.00-19.00, Jeudi 08.30-12.30 et 14.00-19.00, Vendredi 08.30-12.30 et 14.00-19.00, Samedi 08.30-12.30 et 14.00-19.00, Dimanche"
   },
   {
-    "id": 31250002,
-    "latitude": "4346286.84168",
-    "longitude": "200552.072067",
-    "cp": "31250",
-    "pop": "R",
-    "adresse": "Chemin des Bordes",
-    "ville": "Revel",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Aire de camping-cars\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-03 07:25:11\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-07 07:25:40\", \"@valeur\": \"0.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-05 07:53:34\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-26 07:21:02\", \"@valeur\": \"1.969\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-02 10:02:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-12-14 09:46:30\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 2.00552072067,
-      "lat": 43.4628684168
-    },
-    "gazole_maj": "2024-07-03T09:25:11+02:00",
-    "gazole_prix": 1.759,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-06-07T09:25:40+02:00",
-    "e85_prix": 0.879,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-07-05T09:53:34+02:00",
-    "e10_prix": 1.839,
-    "sp98_maj": "2024-06-26T09:21:02+02:00",
-    "sp98_prix": 1.969,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2021-12-14T10:46:30+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2019-01-02T11:02:49+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage",
-      "Aire de camping-cars",
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": null
-  },
-  {
     "id": 31250001,
     "latitude": "4345571.8",
     "longitude": "199862.6",
@@ -142,14 +78,14 @@
     "ville": "Revel",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-02 19:03:02\", \"@valeur\": \"1.812\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-20 18:46:31\", \"@valeur\": \"1.953\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-09 19:52:28\", \"@valeur\": \"1.807\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-06-20 18:46:31\", \"@valeur\": \"1.953\"}]",
     "rupture": null,
     "geom": {
       "lon": 1.998626,
       "lat": 43.455718
     },
-    "gazole_maj": "2024-07-02T21:03:02+02:00",
-    "gazole_prix": 1.812,
+    "gazole_maj": "2024-07-09T21:52:28+02:00",
+    "gazole_prix": 1.807,
     "sp95_maj": "2024-06-20T20:46:31+02:00",
     "sp95_prix": 1.953,
     "e85_maj": null,
@@ -199,5 +135,69 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": "Lundi06.30-20.00, Mardi06.30-20.00, Mercredi06.30-20.00, Jeudi06.30-20.00, Vendredi06.30-20.00, Samedi07.00-19.30, Dimanche07.30-19.00"
+  },
+  {
+    "id": 31250002,
+    "latitude": "4346286.84168",
+    "longitude": "200552.072067",
+    "cp": "31250",
+    "pop": "R",
+    "adresse": "Chemin des Bordes",
+    "ville": "Revel",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Aire de camping-cars\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-03 07:25:11\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-07 07:25:40\", \"@valeur\": \"0.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-09 08:24:53\", \"@valeur\": \"1.859\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-09 08:24:53\", \"@valeur\": \"1.979\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-02 10:02:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-12-14 09:46:30\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 2.00552072067,
+      "lat": 43.4628684168
+    },
+    "gazole_maj": "2024-07-03T09:25:11+02:00",
+    "gazole_prix": 1.759,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-06-07T09:25:40+02:00",
+    "e85_prix": 0.879,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-07-09T10:24:53+02:00",
+    "e10_prix": 1.859,
+    "sp98_maj": "2024-07-09T10:24:53+02:00",
+    "sp98_prix": 1.979,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-12-14T10:46:30+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2019-01-02T11:02:49+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Aire de camping-cars",
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]
