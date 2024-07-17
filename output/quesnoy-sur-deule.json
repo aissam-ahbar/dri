@@ -9,7 +9,7 @@
     "ville": "Quesnoy-sur-Deûle",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-09 05:59:15\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-25 06:12:43\", \"@valeur\": \"1.935\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-02-18 09:20:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-02-18 09:20:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-22 16:41:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-07-15 10:25:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-02-18 09:20:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-02-18 09:20:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-22 16:41:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.0016,
@@ -37,8 +37,8 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2020-02-18T10:20:33+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2024-07-15T12:25:50+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "E10",
       "SP98"
@@ -49,7 +49,7 @@
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
