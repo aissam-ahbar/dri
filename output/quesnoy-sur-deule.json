@@ -8,15 +8,15 @@
     "adresse": "Route de Comines",
     "ville": "Quesnoy-sur-Deûle",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-09 05:59:15\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-25 06:12:43\", \"@valeur\": \"1.935\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-18 13:02:11\", \"@valeur\": \"1.733\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-09 05:59:15\", \"@valeur\": \"1.826\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-06-25 06:12:43\", \"@valeur\": \"1.935\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-02-18 09:20:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-02-18 09:20:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-22 16:41:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.0016,
       "lat": 50.71687
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-07-18T15:02:11+02:00",
+    "gazole_prix": 1.733,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -40,11 +40,11 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc"
