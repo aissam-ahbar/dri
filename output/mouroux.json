@@ -8,7 +8,7 @@
     "adresse": "RN 34",
     "ville": "Mouroux",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-16 09:31:26\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-16 09:31:26\", \"@valeur\": \"1.930\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-16 09:31:26\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-24 14:34:24\", \"@valeur\": \"1.880\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-16 09:31:26\", \"@valeur\": \"1.930\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-10 08:42:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-10 08:42:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-07-22 13:10:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
@@ -17,8 +17,8 @@
     },
     "gazole_maj": "2024-07-16T11:31:26+02:00",
     "gazole_prix": 1.769,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "sp95_maj": "2024-07-24T16:34:24+02:00",
+    "sp95_prix": 1.88,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -41,10 +41,10 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
       "E10"
