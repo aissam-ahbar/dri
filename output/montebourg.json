@@ -8,8 +8,8 @@
     "adresse": "Lieu-dit Le Haut Gelé",
     "ville": "Montebourg",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-24 08:20:59\", \"@valeur\": \"1.675\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-24 08:20:59\", \"@valeur\": \"1.776\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-02-26 11:59:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-07-24 17:33:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-24 08:20:59\", \"@valeur\": \"1.675\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-24 08:20:59\", \"@valeur\": \"1.776\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-25 08:55:47\", \"@valeur\": \"1.875\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-02-26 11:59:29\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -1.39445,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-07-24T10:20:59+02:00",
     "e10_prix": 1.776,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-07-25T10:55:47+02:00",
+    "sp98_prix": 1.875,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-07-24T19:33:18+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2019-02-26T12:59:29+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": null,
