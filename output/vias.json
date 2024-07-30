@@ -76,8 +76,8 @@
     "adresse": "LIEUDIT LE GRANEVAS",
     "ville": "Vias",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Location de véhicule\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-24 10:32:25\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-10 08:35:19\", \"@valeur\": \"0.798\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-24 10:32:25\", \"@valeur\": \"1.959\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-03 09:21:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-03 09:21:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-07-28 07:49:56\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-24 10:32:25\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-06-10 08:35:19\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-29 08:28:53\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-24 10:32:25\", \"@valeur\": \"1.959\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-03 09:21:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-03 09:21:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.419,
@@ -91,12 +91,12 @@
     "e85_prix": 0.798,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2024-07-29T10:28:53+02:00",
+    "e10_prix": 1.839,
     "sp98_maj": "2024-07-24T12:32:25+02:00",
     "sp98_prix": 1.959,
-    "e10_rupture_debut": "2024-07-28T09:49:56+02:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2017-11-03T10:21:24+01:00",
@@ -110,14 +110,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
