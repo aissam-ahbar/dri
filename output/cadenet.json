@@ -8,8 +8,8 @@
     "adresse": "4 impasse Louis Astic, Zone artisanale Les Meillères",
     "ville": "Cadenet",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-29 08:58:52\", \"@valeur\": \"1.645\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-29 08:58:52\", \"@valeur\": \"1.818\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-07-29 08:58:52\", \"@valeur\": \"0.848\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-29 08:58:53\", \"@valeur\": \"1.848\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-05-31 13:41:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-05-31 13:41:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-29 08:58:52\", \"@valeur\": \"1.645\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-29 08:58:52\", \"@valeur\": \"1.818\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-29 08:58:53\", \"@valeur\": \"1.848\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-01 08:48:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-05-31 13:41:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-05-31 13:41:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 5.374,
@@ -19,8 +19,8 @@
     "gazole_prix": 1.645,
     "sp95_maj": "2024-07-29T10:58:52+02:00",
     "sp95_prix": 1.818,
-    "e85_maj": "2024-07-29T10:58:52+02:00",
-    "e85_prix": 0.848,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -33,8 +33,8 @@
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
+    "e85_rupture_debut": "2024-08-01T10:48:44+02:00",
+    "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2022-05-31T15:41:54+02:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E85",
     "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
