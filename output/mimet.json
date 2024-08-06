@@ -8,29 +8,29 @@
     "adresse": "Chemin des Fabres",
     "ville": "Mimet",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-07-30 08:23:32\", \"@valeur\": \"1.695\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-30 08:23:32\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-07-30 08:23:33\", \"@valeur\": \"1.795\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-30 08:23:33\", \"@valeur\": \"1.875\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-12 06:59:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-12 06:59:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-05 08:29:06\", \"@valeur\": \"1.685\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-07-30 08:23:32\", \"@valeur\": \"1.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-05 08:29:07\", \"@valeur\": \"1.789\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-12 06:59:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-12 06:59:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-05 08:28:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.47296,
       "lat": 43.42967
     },
-    "gazole_maj": "2024-07-30T10:23:32+02:00",
-    "gazole_prix": 1.695,
+    "gazole_maj": "2024-08-05T10:29:06+02:00",
+    "gazole_prix": 1.685,
     "sp95_maj": "2024-07-30T10:23:32+02:00",
     "sp95_prix": 1.839,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-07-30T10:23:33+02:00",
-    "e10_prix": 1.795,
-    "sp98_maj": "2024-07-30T10:23:33+02:00",
-    "sp98_prix": 1.875,
+    "e10_maj": "2024-08-05T10:29:07+02:00",
+    "e10_prix": 1.789,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-08-05T10:28:22+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2018-06-12T08:59:37+02:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
