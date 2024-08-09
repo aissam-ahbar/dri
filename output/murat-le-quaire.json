@@ -8,15 +8,15 @@
     "adresse": "AV DU MARECHAL LECLERC",
     "ville": "Murat-le-Quaire",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Aire de camping-cars\", \"Location de véhicule\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-05 15:19:19\", \"@valeur\": \"1.656\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-07-19 07:46:49\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-05 15:27:24\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-27 19:04:04\", \"@valeur\": \"1.865\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-02-16 09:25:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-16 09:25:48\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-07-19 07:46:49\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-05 15:27:24\", \"@valeur\": \"1.765\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-07-27 19:04:04\", \"@valeur\": \"1.865\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-02-16 09:25:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-16 09:25:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-08-08 15:06:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.75,
       "lat": 45.593
     },
-    "gazole_maj": "2024-08-05T17:19:19+02:00",
-    "gazole_prix": 1.656,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-07-19T09:46:49+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2024-02-16T10:25:48+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-08-08T17:06:06+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
