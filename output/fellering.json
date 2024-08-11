@@ -8,14 +8,14 @@
     "adresse": "2 rue des Fabriques",
     "ville": "Fellering",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-05 13:32:12\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-05 13:32:12\", \"@valeur\": \"1.879\"}]",
-    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-08-05 13:32:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-09 11:18:16\", \"@valeur\": \"1.669\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-09 11:18:16\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-09 11:18:16\", \"@valeur\": \"1.869\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": 6.9950323999999995,
       "lat": 47.8874507
     },
-    "gazole_maj": "2024-08-05T15:32:12+02:00",
+    "gazole_maj": "2024-08-09T13:18:16+02:00",
     "gazole_prix": 1.669,
     "sp95_maj": null,
     "sp95_prix": null,
@@ -23,12 +23,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-08-05T15:32:12+02:00",
-    "sp98_prix": 1.879,
-    "e10_rupture_debut": "2024-08-05T15:32:30+02:00",
-    "e10_rupture_type": "temporaire",
+    "e10_maj": "2024-08-09T13:18:16+02:00",
+    "e10_prix": 1.759,
+    "sp98_maj": "2024-08-09T13:18:16+02:00",
+    "sp98_prix": 1.869,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
