@@ -8,7 +8,7 @@
     "adresse": "Boulevard Louise Michel",
     "ville": "Somain",
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-10 10:21:23\", \"@valeur\": \"1.629\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-06-27 11:38:41\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-10 10:21:23\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-05 12:40:08\", \"@valeur\": \"1.849\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-10 10:21:23\", \"@valeur\": \"1.629\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-10 10:21:23\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-05 12:40:08\", \"@valeur\": \"1.849\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-14 11:11:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-04-17 10:05:15\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
@@ -21,8 +21,8 @@
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2024-06-27T13:38:41+02:00",
-    "gplc_prix": 0.979,
+    "gplc_maj": null,
+    "gplc_prix": null,
     "e10_maj": "2024-08-10T12:21:23+02:00",
     "e10_prix": 1.739,
     "sp98_maj": "2024-08-05T14:40:08+02:00",
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85"
+      "E85",
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",

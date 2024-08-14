@@ -8,29 +8,29 @@
     "adresse": "189 rue de Jersey",
     "ville": "Saint-Pair-sur-Mer",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Espace bébé\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-09 07:45:00\", \"@valeur\": \"1.611\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-08-02 12:22:03\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-09 07:45:00\", \"@valeur\": \"1.706\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-07-16 17:00:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-07-16 17:00:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-12 18:28:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-13 10:30:00\", \"@valeur\": \"1.611\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-08-13 10:30:00\", \"@valeur\": \"0.920\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-13 10:30:00\", \"@valeur\": \"1.710\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-13 10:30:00\", \"@valeur\": \"1.788\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-07-16 17:00:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-07-16 17:00:11\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -1.544,
       "lat": 48.814
     },
-    "gazole_maj": "2024-08-09T09:45:00+02:00",
+    "gazole_maj": "2024-08-13T12:30:00+02:00",
     "gazole_prix": 1.611,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2024-08-02T14:22:03+02:00",
+    "gplc_maj": "2024-08-13T12:30:00+02:00",
     "gplc_prix": 0.92,
-    "e10_maj": "2024-08-09T09:45:00+02:00",
-    "e10_prix": 1.706,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-08-13T12:30:00+02:00",
+    "e10_prix": 1.71,
+    "sp98_maj": "2024-08-13T12:30:00+02:00",
+    "sp98_prix": 1.788,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-08-12T20:28:52+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-07-16T19:00:11+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2024-07-16T19:00:11+02:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "SP98"
+      "E85"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [
