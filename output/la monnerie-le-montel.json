@@ -8,8 +8,8 @@
     "adresse": "RUE DE CHANTELAUZE",
     "ville": "La Monnerie-le-Montel",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-12 10:09:50\", \"@valeur\": \"1.634\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-08-09 16:11:34\", \"@valeur\": \"0.824\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-13 12:49:34\", \"@valeur\": \"1.750\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 10:48:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-06-29 13:47:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-13 12:49:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-12 10:09:50\", \"@valeur\": \"1.634\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-08-09 16:11:34\", \"@valeur\": \"0.824\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-13 12:49:34\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-14 08:06:52\", \"@valeur\": \"1.854\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 10:48:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-06-29 13:47:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 3.6328076412604,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-08-13T14:49:34+02:00",
     "e10_prix": 1.75,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-08-14T10:06:52+02:00",
+    "sp98_prix": 1.854,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-08-13T14:49:34+02:00",
-    "sp98_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2022-06-29T15:47:38+02:00",
     "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": null,
@@ -42,15 +42,15 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": "SP95",
-    "carburants_rupture_definitive": "GPLc;SP98",
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
