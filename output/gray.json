@@ -8,15 +8,15 @@
     "adresse": "ZA GRAY SUD CARREFOUR DES HAUTS PRES",
     "ville": "Gray",
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-13 11:55:29\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-13 11:55:29\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-06 12:11:16\", \"@valeur\": \"0.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-13 11:55:29\", \"@valeur\": \"1.899\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 09:07:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-07-24 11:56:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-13 11:55:29\", \"@valeur\": \"1.849\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-05-06 12:11:16\", \"@valeur\": \"0.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-13 11:55:29\", \"@valeur\": \"1.899\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 09:07:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-08-16 16:32:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-07-24 11:56:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.59935915428,
       "lat": 47.4380402238
     },
-    "gazole_maj": "2024-08-13T13:55:29+02:00",
-    "gazole_prix": 1.659,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2024-08-13T13:55:29+02:00",
     "sp95_prix": 1.849,
     "e85_maj": "2024-05-06T14:11:16+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2017-09-04T11:07:47+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-08-16T18:32:37+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": "Gazole;E10",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
