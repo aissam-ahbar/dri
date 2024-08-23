@@ -8,8 +8,8 @@
     "adresse": "Chemin de la Culee",
     "ville": "Villeneuve-en-Retz",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-16 13:24:46\", \"@valeur\": \"1.619\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-16 13:24:46\", \"@valeur\": \"1.719\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-04 08:42:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-04 08:42:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-19 18:32:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-12-18 12:07:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-16 13:24:46\", \"@valeur\": \"1.619\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-16 13:24:46\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-22 15:31:52\", \"@valeur\": \"1.829\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-04 08:42:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-04 08:42:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-12-18 12:07:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.95644,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-08-16T15:24:46+02:00",
     "e10_prix": 1.719,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-08-22T17:31:52+02:00",
+    "sp98_prix": 1.829,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-08-19T20:32:52+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2023-12-18T13:07:57+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2022-11-04T09:42:59+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,
@@ -68,7 +68,7 @@
     "adresse": "ROUTE DE BOUIN",
     "ville": "Villeneuve-en-Retz",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-21 06:39:32\", \"@valeur\": \"1.716\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-21 06:39:32\", \"@valeur\": \"1.857\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-21 06:39:32\", \"@valeur\": \"1.716\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-22 06:38:58\", \"@valeur\": \"1.847\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-01-11 07:40:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-11 07:40:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-01-11 07:40:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-01-11 07:40:33\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
@@ -77,8 +77,8 @@
     },
     "gazole_maj": "2024-08-21T08:39:32+02:00",
     "gazole_prix": 1.716,
-    "sp95_maj": "2024-08-21T08:39:32+02:00",
-    "sp95_prix": 1.857,
+    "sp95_maj": "2024-08-22T08:38:58+02:00",
+    "sp95_prix": 1.847,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
