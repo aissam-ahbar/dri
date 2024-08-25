@@ -1,5 +1,68 @@
 [
   {
+    "id": 6210010,
+    "latitude": "4353400",
+    "longitude": "693400",
+    "cp": "06210",
+    "pop": "R",
+    "adresse": "AVENUE DE FREJUS",
+    "ville": "Mandelieu-la-Napoule",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-22 06:32:08\", \"@valeur\": \"1.576\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2024-06-05 06:13:33\", \"@valeur\": \"0.946\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-22 06:32:08\", \"@valeur\": \"1.702\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-22 06:32:08\", \"@valeur\": \"1.781\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-05-16 10:01:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-05-07 08:58:02\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 6.934,
+      "lat": 43.534
+    },
+    "gazole_maj": "2024-08-22T08:32:08+02:00",
+    "gazole_prix": 1.576,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": "2024-06-05T08:13:33+02:00",
+    "gplc_prix": 0.946,
+    "e10_maj": "2024-08-22T08:32:08+02:00",
+    "e10_prix": 1.702,
+    "sp98_maj": "2024-08-22T08:32:08+02:00",
+    "sp98_prix": 1.781,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-05-07T10:58:02+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2024-05-16T12:01:16+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Alpes-Maritimes",
+    "code_departement": "06",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 6210009,
     "latitude": "4352200",
     "longitude": "689900",
