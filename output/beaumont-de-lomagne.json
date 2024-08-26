@@ -1,5 +1,68 @@
 [
   {
+    "id": 82500002,
+    "latitude": "4387759.4622519",
+    "longitude": "98767.084857828",
+    "cp": "82500",
+    "pop": "R",
+    "adresse": "Route du Blanc - Voie de Contournement",
+    "ville": "Beaumont-de-Lomagne",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-23 17:18:24\", \"@valeur\": \"1.639\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-23 17:18:49\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-23 17:19:17\", \"@valeur\": \"1.829\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-13 09:28:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 12:24:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 12:24:22\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 0.98767084857828,
+      "lat": 43.877594622519
+    },
+    "gazole_maj": "2024-08-23T19:18:24+02:00",
+    "gazole_prix": 1.639,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-08-23T19:18:49+02:00",
+    "e10_prix": 1.739,
+    "sp98_maj": "2024-08-23T19:19:17+02:00",
+    "sp98_prix": 1.829,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-04-13T11:28:47+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-07T14:24:21+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-07T14:24:22+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Tarn-et-Garonne",
+    "code_departement": "82",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": null
+  },
+  {
     "id": 82500003,
     "latitude": "4389218.4874046",
     "longitude": "101167.43792656",
@@ -67,68 +130,5 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 82500002,
-    "latitude": "4387759.4622519",
-    "longitude": "98767.084857828",
-    "cp": "82500",
-    "pop": "R",
-    "adresse": "Route du Blanc - Voie de Contournement",
-    "ville": "Beaumont-de-Lomagne",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-23 17:18:24\", \"@valeur\": \"1.639\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-23 17:18:49\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-23 17:19:17\", \"@valeur\": \"1.829\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 12:24:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 12:24:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-13 09:28:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 0.98767084857828,
-      "lat": 43.877594622519
-    },
-    "gazole_maj": "2024-08-23T19:18:24+02:00",
-    "gazole_prix": 1.639,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-08-23T19:18:49+02:00",
-    "e10_prix": 1.739,
-    "sp98_maj": "2024-08-23T19:19:17+02:00",
-    "sp98_prix": 1.829,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2022-04-13T11:28:47+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2017-09-07T14:24:21+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-07T14:24:22+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Tarn-et-Garonne",
-    "code_departement": "82",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": null
   }
 ]
