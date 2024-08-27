@@ -1,5 +1,67 @@
 [
   {
+    "id": 21120004,
+    "latitude": "4752000",
+    "longitude": "517900",
+    "cp": "21120",
+    "pop": "R",
+    "adresse": "51, route de Langres",
+    "ville": "Til-Châtel",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-23 11:19:28\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-23 11:19:28\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-23 11:19:28\", \"@valeur\": \"1.929\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-09 10:46:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-09 10:46:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-07-09 10:46:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 5.179,
+      "lat": 47.52
+    },
+    "gazole_maj": "2024-08-23T13:19:28+02:00",
+    "gazole_prix": 1.719,
+    "sp95_maj": "2024-08-23T13:19:28+02:00",
+    "sp95_prix": 1.879,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-08-23T13:19:28+02:00",
+    "sp98_prix": 1.929,
+    "e10_rupture_debut": "2021-07-09T12:46:12+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2021-07-09T12:46:12+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-07-09T12:46:12+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Côte-d'Or",
+    "code_departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24, Lundi, Mardi, Mercredi, Jeudi, Vendredi00.00-23.59, Samedi, Dimanche"
+  },
+  {
     "id": 21120002,
     "latitude": "4751251.6084916",
     "longitude": "517254.6",
@@ -63,67 +125,5 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": "Lundi06.00-19.30, Mardi06.00-19.30, Mercredi06.00-19.30, Jeudi06.00-19.30, Vendredi06.00-19.30, Samedi07.00-19.30, Dimanche07.00-19.30"
-  },
-  {
-    "id": 21120004,
-    "latitude": "4752000",
-    "longitude": "517900",
-    "cp": "21120",
-    "pop": "R",
-    "adresse": "51, route de Langres",
-    "ville": "Til-Châtel",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-23 11:19:28\", \"@valeur\": \"1.719\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-23 11:19:28\", \"@valeur\": \"1.879\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-23 11:19:28\", \"@valeur\": \"1.929\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-09 10:46:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-09 10:46:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-07-09 10:46:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 5.179,
-      "lat": 47.52
-    },
-    "gazole_maj": "2024-08-23T13:19:28+02:00",
-    "gazole_prix": 1.719,
-    "sp95_maj": "2024-08-23T13:19:28+02:00",
-    "sp95_prix": 1.879,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-08-23T13:19:28+02:00",
-    "sp98_prix": 1.929,
-    "e10_rupture_debut": "2021-07-09T12:46:12+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2021-07-09T12:46:12+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2021-07-09T12:46:12+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Côte-d'Or",
-    "code_departement": "21",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": "Automate-24-24, Lundi, Mardi, Mercredi, Jeudi, Vendredi00.00-23.59, Samedi, Dimanche"
   }
 ]
