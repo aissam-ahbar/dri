@@ -8,8 +8,8 @@
     "adresse": "Route d'Orthez",
     "ville": "Salies-de-Béarn",
     "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-21 08:55:57\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-20 08:23:55\", \"@valeur\": \"1.709\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-01-13 08:45:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-26 07:47:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-21 08:55:57\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-20 08:23:55\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-27 11:24:32\", \"@valeur\": \"1.789\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-01-13 08:45:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.91425000000002,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-08-20T10:23:55+02:00",
     "e10_prix": 1.709,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-08-27T13:24:32+02:00",
+    "sp98_prix": 1.789,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-08-26T09:47:25+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2023-01-13T09:45:40+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-05T10:43:32+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
