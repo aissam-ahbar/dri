@@ -8,23 +8,23 @@
     "adresse": "ZI DU CAROUGE",
     "ville": "Saint-Pierre-d'Albigny",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-27 08:39:38\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-26 07:54:48\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-26 07:54:48\", \"@valeur\": \"1.839\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-28 08:47:27\", \"@valeur\": \"1.609\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-26 07:54:48\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-28 08:47:27\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-26 07:54:48\", \"@valeur\": \"1.839\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.16274,
       "lat": 45.55458
     },
-    "gazole_maj": "2024-08-27T10:39:38+02:00",
-    "gazole_prix": 1.619,
+    "gazole_maj": "2024-08-28T10:47:27+02:00",
+    "gazole_prix": 1.609,
     "sp95_maj": "2024-08-26T09:54:48+02:00",
     "sp95_prix": 1.789,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2024-08-28T10:47:27+02:00",
+    "e10_prix": 1.749,
     "sp98_maj": "2024-08-26T09:54:48+02:00",
     "sp98_prix": 1.839,
     "e10_rupture_debut": null,
@@ -42,12 +42,12 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc",
