@@ -74,8 +74,8 @@
     "adresse": "48 avenue de la bouvine RD 571",
     "ville": "Eyragues",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-26 23:00:00\", \"@valeur\": \"1.589\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-21 09:41:59\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-21 09:41:59\", \"@valeur\": \"1.819\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-02 18:22:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 08:39:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 08:39:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-26 23:00:00\", \"@valeur\": \"1.589\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-08-21 09:41:59\", \"@valeur\": \"1.749\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-31 10:37:27\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-02 18:22:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 08:39:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 08:39:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.8368302888551,
@@ -91,12 +91,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-08-21T11:41:59+02:00",
     "e10_prix": 1.749,
-    "sp98_maj": "2024-08-21T11:41:59+02:00",
-    "sp98_prix": 1.819,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-08-31T12:37:27+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2017-11-02T19:22:07+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-04T10:39:17+02:00",
@@ -107,15 +107,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
