@@ -8,14 +8,14 @@
     "adresse": "Rue Jean-Baptiste Berlier",
     "ville": "Rive-de-Gier",
     "services": "{\"service\": [\"Station de gonflage\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-31 19:11:21\", \"@valeur\": \"1.617\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-31 19:11:21\", \"@valeur\": \"1.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-08-31 19:11:21\", \"@valeur\": \"1.809\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 11:39:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 11:39:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-01 11:39:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-03 09:53:43\", \"@valeur\": \"1.617\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-08-31 19:11:21\", \"@valeur\": \"1.769\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 11:39:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 11:39:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-01 11:39:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-09-03 09:50:03\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.6085,
       "lat": 45.52641
     },
-    "gazole_maj": "2024-08-31T21:11:21+02:00",
+    "gazole_maj": "2024-09-03T11:53:43+02:00",
     "gazole_prix": 1.617,
     "sp95_maj": "2024-08-31T21:11:21+02:00",
     "sp95_prix": 1.769,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-08-31T21:11:21+02:00",
-    "sp98_prix": 1.809,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2017-09-01T13:39:47+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-09-03T11:50:03+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2017-09-01T13:39:46+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "SP98"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
