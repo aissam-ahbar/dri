@@ -8,8 +8,8 @@
     "adresse": "36 Avenue du Président Franklin Roosevelt",
     "ville": "Avon",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-17 14:10:20\", \"@valeur\": \"1.612\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-09-17 14:10:20\", \"@valeur\": \"1.685\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-09-10 16:57:26\", \"@valeur\": \"1.725\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-12-31 18:10:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-31 18:10:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-12-31 18:10:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-17 14:10:20\", \"@valeur\": \"1.612\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-09-17 14:10:20\", \"@valeur\": \"1.685\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-12-31 18:10:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-31 18:10:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-12-31 18:10:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-09-22 09:56:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.71959190391,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-09-17T16:10:20+02:00",
     "e10_prix": 1.685,
-    "sp98_maj": "2024-09-10T18:57:26+02:00",
-    "sp98_prix": 1.725,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-09-22T11:56:06+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2017-12-31T19:10:37+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-12-31T19:10:37+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
