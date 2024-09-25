@@ -8,25 +8,25 @@
     "adresse": "Route de Saint-Cyr-en-Val",
     "ville": "Saint-Jean-le-Blanc",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-21 10:11:36\", \"@valeur\": \"1.552\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-09-21 10:11:36\", \"@valeur\": \"1.636\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-24 15:14:44\", \"@valeur\": \"1.556\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-09-24 15:14:44\", \"@valeur\": \"1.640\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-09-24 12:31:10\", \"@valeur\": \"1.710\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-08-20 12:57:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.9348,
       "lat": 47.87568
     },
-    "gazole_maj": "2024-09-21T12:11:36+02:00",
-    "gazole_prix": 1.552,
+    "gazole_maj": "2024-09-24T17:14:44+02:00",
+    "gazole_prix": 1.556,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-09-21T12:11:36+02:00",
-    "e10_prix": 1.636,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2024-09-24T17:14:44+02:00",
+    "e10_prix": 1.64,
+    "sp98_maj": "2024-09-24T14:31:10+02:00",
+    "sp98_prix": 1.71,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
