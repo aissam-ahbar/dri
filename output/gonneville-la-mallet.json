@@ -1,5 +1,69 @@
 [
   {
+    "id": 76280004,
+    "latitude": "4963900",
+    "longitude": "22600",
+    "cp": "76280",
+    "pop": "R",
+    "adresse": "20 RUE DU GENERAL FAIDHERBE",
+    "ville": "Gonneville-la-Mallet",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Vente d'additifs carburants\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-30 08:39:57\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-09-30 08:39:57\", \"@valeur\": \"1.910\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 0.226,
+      "lat": 49.639
+    },
+    "gazole_maj": "2024-09-30T10:39:57+02:00",
+    "gazole_prix": 1.75,
+    "sp95_maj": "2024-09-30T10:39:57+02:00",
+    "sp95_prix": 1.91,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2022-09-20T11:24:08+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-09-20T11:24:08+02:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-09-20T11:24:08+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-09-20T11:24:08+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Station de gonflage",
+      "Vente d'additifs carburants"
+    ],
+    "departement": "Seine-Maritime",
+    "code_departement": "76",
+    "region": "Normandie",
+    "code_region": "28",
+    "horaires_jour": "Lundi 08.00-12.00 et 13.30-19.00, Mardi 08.00-12.00 et 13.30-19.00, Mercredi 08.00-12.00 et 13.30-19.00, Jeudi 08.00-12.00 et 13.30-19.00, Vendredi 08.00-12.00 et 13.30-19.00, Samedi, Dimanche"
+  },
+  {
     "id": 76280002,
     "latitude": "4964033",
     "longitude": "22423",
@@ -9,7 +73,7 @@
     "ville": "Gonneville-la-Mallet",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-25 09:48:20\", \"@valeur\": \"1.562\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-09-25 09:48:20\", \"@valeur\": \"1.647\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-09-25 09:48:20\", \"@valeur\": \"1.718\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-01-12 10:38:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-12 10:38:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-11-29 09:41:28\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-11-29 09:41:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-01-12 10:38:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-12 10:38:58\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.22423,
@@ -61,69 +125,5 @@
     "region": "Normandie",
     "code_region": "28",
     "horaires_jour": null
-  },
-  {
-    "id": 76280004,
-    "latitude": "4963900",
-    "longitude": "22600",
-    "cp": "76280",
-    "pop": "R",
-    "adresse": "20 RUE DU GENERAL FAIDHERBE",
-    "ville": "Gonneville-la-Mallet",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Vente d'additifs carburants\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-09-23 08:20:22\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-09-23 08:20:22\", \"@valeur\": \"1.910\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-20 09:24:08\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 0.226,
-      "lat": 49.639
-    },
-    "gazole_maj": "2024-09-23T10:20:22+02:00",
-    "gazole_prix": 1.75,
-    "sp95_maj": "2024-09-23T10:20:22+02:00",
-    "sp95_prix": 1.91,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": "2022-09-20T11:24:08+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2022-09-20T11:24:08+02:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2022-09-20T11:24:08+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2022-09-20T11:24:08+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Station de gonflage",
-      "Vente d'additifs carburants"
-    ],
-    "departement": "Seine-Maritime",
-    "code_departement": "76",
-    "region": "Normandie",
-    "code_region": "28",
-    "horaires_jour": "Lundi 08.00-12.00 et 13.30-19.00, Mardi 08.00-12.00 et 13.30-19.00, Mercredi 08.00-12.00 et 13.30-19.00, Jeudi 08.00-12.00 et 13.30-19.00, Vendredi 08.00-12.00 et 13.30-19.00, Samedi, Dimanche"
   }
 ]
