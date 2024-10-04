@@ -9,7 +9,7 @@
     "ville": "Vétraz-Monthoux",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\"]}",
     "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-08-19 14:16:44\", \"@valeur\": \"1.860\"}",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-08-28 13:45:39\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-28 13:45:39\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-19 14:15:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-08-19 14:15:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-08-19 14:15:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-08-28 13:45:39\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-19 14:15:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-08-19 14:15:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-08-19 14:15:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 6.242,
@@ -29,8 +29,8 @@
     "sp98_prix": null,
     "e10_rupture_debut": "2024-08-19T16:15:47+02:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": "2024-08-28T15:45:39+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-08-28T15:45:39+02:00",
     "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2024-08-19T16:15:47+02:00",
@@ -49,7 +49,7 @@
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95;E85;GPLc;E10;SP98",
+    "carburants_rupture_temporaire": "SP95;E85;GPLc;E10",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
