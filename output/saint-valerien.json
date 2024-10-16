@@ -1,67 +1,5 @@
 [
   {
-    "id": 89150004,
-    "latitude": "4817800",
-    "longitude": "311000",
-    "cp": "89150",
-    "pop": "R",
-    "adresse": "Route de Sens",
-    "ville": "Saint-Valérien",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-10 00:00:00\", \"@valeur\": \"1.639\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-10-10 00:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-09-18 00:00:00\", \"@valeur\": \"1.849\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-02-12 16:39:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-17 14:37:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-08-28 12:26:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 3.11,
-      "lat": 48.178
-    },
-    "gazole_maj": "2024-10-10T02:00:00+02:00",
-    "gazole_prix": 1.639,
-    "sp95_maj": "2024-10-10T02:00:00+02:00",
-    "sp95_prix": 1.799,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-09-18T02:00:00+02:00",
-    "sp98_prix": 1.849,
-    "e10_rupture_debut": "2019-08-28T14:26:31+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2021-02-12T17:39:34+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2022-10-17T16:37:06+02:00",
-    "gplc_rupture_type": "temporaire",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": "GPLc",
-    "carburants_rupture_definitive": "E85;E10",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Yonne",
-    "code_departement": "89",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": "Automate-24-24"
-  },
-  {
     "id": 89150003,
     "latitude": "4817808",
     "longitude": "310960",
@@ -114,5 +52,67 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": null
+  },
+  {
+    "id": 89150004,
+    "latitude": "4817800",
+    "longitude": "311000",
+    "cp": "89150",
+    "pop": "R",
+    "adresse": "Route de Sens",
+    "ville": "Saint-Valérien",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-10 00:00:00\", \"@valeur\": \"1.639\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-10-10 00:00:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-09-18 00:00:00\", \"@valeur\": \"1.849\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-08-28 12:26:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-02-12 16:39:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-17 14:37:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 3.11,
+      "lat": 48.178
+    },
+    "gazole_maj": "2024-10-10T02:00:00+02:00",
+    "gazole_prix": 1.639,
+    "sp95_maj": "2024-10-10T02:00:00+02:00",
+    "sp95_prix": 1.799,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-09-18T02:00:00+02:00",
+    "sp98_prix": 1.849,
+    "e10_rupture_debut": "2019-08-28T14:26:31+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2021-02-12T17:39:34+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-10-17T16:37:06+02:00",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_definitive": "E85;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Yonne",
+    "code_departement": "89",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24"
   }
 ]
