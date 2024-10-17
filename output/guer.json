@@ -1,5 +1,68 @@
 [
   {
+    "id": 56380001,
+    "latitude": "4794146",
+    "longitude": "-213503",
+    "cp": "56380",
+    "pop": "R",
+    "adresse": "Résidence de Coëtquidan",
+    "ville": "Guer",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-08 08:50:01\", \"@valeur\": \"1.613\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-08 10:03:44\", \"@valeur\": \"0.805\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-10-12 10:22:13\", \"@valeur\": \"1.687\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-12 10:22:13\", \"@valeur\": \"1.755\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-23 10:55:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-08-24 09:00:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -2.13503,
+      "lat": 47.94146
+    },
+    "gazole_maj": "2024-10-08T10:50:01+02:00",
+    "gazole_prix": 1.613,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-10-08T12:03:44+02:00",
+    "e85_prix": 0.805,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-10-12T12:22:13+02:00",
+    "e10_prix": 1.687,
+    "sp98_maj": "2024-10-12T12:22:13+02:00",
+    "sp98_prix": 1.755,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-08-24T11:00:43+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2017-09-23T12:55:03+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Morbihan",
+    "code_departement": "56",
+    "region": "Bretagne",
+    "code_region": "53",
+    "horaires_jour": null
+  },
+  {
     "id": 56380002,
     "latitude": "4790500",
     "longitude": "-211300",
@@ -66,68 +129,5 @@
     "region": "Bretagne",
     "code_region": "53",
     "horaires_jour": "Automate-24-24, Lundi 09.00-12.30 et 15.00-19.30, Mardi 09.30-12.30 et 14.30-19.30, Mercredi 09.00-12.30 et 14.30-19.30, Jeudi 09.00-12.30 et 14.30-19.30, Vendredi 09.00-12.30 et 14.30-19.30, Samedi 09.00-12.30 et 14.30-19.30, Dimanche"
-  },
-  {
-    "id": 56380001,
-    "latitude": "4794146",
-    "longitude": "-213503",
-    "cp": "56380",
-    "pop": "R",
-    "adresse": "Résidence de Coëtquidan",
-    "ville": "Guer",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-08 08:50:01\", \"@valeur\": \"1.613\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-08 10:03:44\", \"@valeur\": \"0.805\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-10-12 10:22:13\", \"@valeur\": \"1.687\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-12 10:22:13\", \"@valeur\": \"1.755\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-08-24 09:00:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-23 10:55:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": -2.13503,
-      "lat": 47.94146
-    },
-    "gazole_maj": "2024-10-08T10:50:01+02:00",
-    "gazole_prix": 1.613,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-10-08T12:03:44+02:00",
-    "e85_prix": 0.805,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-10-12T12:22:13+02:00",
-    "e10_prix": 1.687,
-    "sp98_maj": "2024-10-12T12:22:13+02:00",
-    "sp98_prix": 1.755,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-08-24T11:00:43+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2017-09-23T12:55:03+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Morbihan",
-    "code_departement": "56",
-    "region": "Bretagne",
-    "code_region": "53",
-    "horaires_jour": null
   }
 ]
