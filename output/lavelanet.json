@@ -1,5 +1,69 @@
 [
   {
+    "id": 9300002,
+    "latitude": "4293739",
+    "longitude": "185335",
+    "cp": "09300",
+    "pop": "R",
+    "adresse": "Route de FOIX",
+    "ville": "Lavelanet",
+    "services": "{\"service\": [\"Location de véhicule\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-17 14:20:31\", \"@valeur\": \"1.614\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-08 15:48:26\", \"@valeur\": \"0.758\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-10-18 16:03:16\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-15 09:00:14\", \"@valeur\": \"1.849\"}]",
+    "rupture": null,
+    "horaires": null,
+    "geom": {
+      "lon": 1.85335,
+      "lat": 42.93739
+    },
+    "gazole_maj": "2024-10-17T16:20:31+02:00",
+    "gazole_prix": 1.614,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-10-08T17:48:26+02:00",
+    "e85_prix": 0.758,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-10-18T18:03:16+02:00",
+    "e10_prix": 1.745,
+    "sp98_maj": "2024-10-15T11:00:14+02:00",
+    "sp98_prix": 1.849,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Location de véhicule",
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ariège",
+    "code_departement": "09",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": null
+  },
+  {
     "id": 9300005,
     "latitude": "4292800",
     "longitude": "185800",
@@ -9,7 +73,7 @@
     "ville": "Lavelanet",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-14 10:35:27\", \"@valeur\": \"1.622\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-10-14 10:35:27\", \"@valeur\": \"1.778\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-14 10:35:27\", \"@valeur\": \"1.832\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-12-02 12:52:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-12-02 12:52:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.858,
@@ -67,69 +131,5 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 9300002,
-    "latitude": "4293739",
-    "longitude": "185335",
-    "cp": "09300",
-    "pop": "R",
-    "adresse": "Route de FOIX",
-    "ville": "Lavelanet",
-    "services": "{\"service\": [\"Location de véhicule\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-17 14:20:31\", \"@valeur\": \"1.614\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-08 15:48:26\", \"@valeur\": \"0.758\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-10-14 11:09:26\", \"@valeur\": \"1.738\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-15 09:00:14\", \"@valeur\": \"1.849\"}]",
-    "rupture": null,
-    "horaires": null,
-    "geom": {
-      "lon": 1.85335,
-      "lat": 42.93739
-    },
-    "gazole_maj": "2024-10-17T16:20:31+02:00",
-    "gazole_prix": 1.614,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-10-08T17:48:26+02:00",
-    "e85_prix": 0.758,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-10-14T13:09:26+02:00",
-    "e10_prix": 1.738,
-    "sp98_maj": "2024-10-15T11:00:14+02:00",
-    "sp98_prix": 1.849,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Location de véhicule",
-      "Piste poids lourds",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ariège",
-    "code_departement": "09",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": null
   }
 ]
