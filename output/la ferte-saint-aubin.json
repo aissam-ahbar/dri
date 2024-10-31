@@ -68,6 +68,69 @@
     "horaires_jour": null
   },
   {
+    "id": 45240001,
+    "latitude": "4772163.454",
+    "longitude": "194436.048044",
+    "cp": "45240",
+    "pop": "R",
+    "adresse": "RUE DES PRES FLEURIS",
+    "ville": "La Ferté-Saint-Aubin",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-18 08:12:17\", \"@valeur\": \"1.579\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-10-18 08:12:17\", \"@valeur\": \"1.721\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-18 08:12:18\", \"@valeur\": \"1.760\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-13 10:24:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-13 10:24:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-09 14:07:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 1.9443604804399999,
+      "lat": 47.72163454
+    },
+    "gazole_maj": "2024-10-18T10:12:17+02:00",
+    "gazole_prix": 1.579,
+    "sp95_maj": "2024-10-18T10:12:17+02:00",
+    "sp95_prix": 1.721,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-10-18T10:12:18+02:00",
+    "sp98_prix": 1.76,
+    "e10_rupture_debut": "2024-04-09T16:07:30+02:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-13T12:24:32+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-13T12:24:32+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_definitive": "E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loiret",
+    "code_departement": "45",
+    "region": "Centre-Val de Loire",
+    "code_region": "24",
+    "horaires_jour": null
+  },
+  {
     "id": 45240003,
     "latitude": "4770685.7",
     "longitude": "194427.2",
@@ -140,68 +203,5 @@
     "region": "Centre-Val de Loire",
     "code_region": "24",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 45240001,
-    "latitude": "4772163.454",
-    "longitude": "194436.048044",
-    "cp": "45240",
-    "pop": "R",
-    "adresse": "RUE DES PRES FLEURIS",
-    "ville": "La Ferté-Saint-Aubin",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-18 08:12:17\", \"@valeur\": \"1.579\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-10-18 08:12:17\", \"@valeur\": \"1.721\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-18 08:12:18\", \"@valeur\": \"1.760\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-13 10:24:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-13 10:24:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-09 14:07:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 1.9443604804399999,
-      "lat": 47.72163454
-    },
-    "gazole_maj": "2024-10-18T10:12:17+02:00",
-    "gazole_prix": 1.579,
-    "sp95_maj": "2024-10-18T10:12:17+02:00",
-    "sp95_prix": 1.721,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-10-18T10:12:18+02:00",
-    "sp98_prix": 1.76,
-    "e10_rupture_debut": "2024-04-09T16:07:30+02:00",
-    "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-09-13T12:24:32+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-13T12:24:32+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": "E10",
-    "carburants_rupture_definitive": "E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loiret",
-    "code_departement": "45",
-    "region": "Centre-Val de Loire",
-    "code_region": "24",
-    "horaires_jour": null
   }
 ]
