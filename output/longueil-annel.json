@@ -1,5 +1,68 @@
 [
   {
+    "id": 60150001,
+    "latitude": "4946878.60836",
+    "longitude": "286211.550724",
+    "cp": "60150",
+    "pop": "R",
+    "adresse": "ZAC CHAMP SAINTE CROIX",
+    "ville": "Longueil-Annel",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-12 10:57:04\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-10-12 10:57:04\", \"@valeur\": \"1.670\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-12 10:57:04\", \"@valeur\": \"1.770\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-18 12:34:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-18 12:34:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-09-23 15:46:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.8621155072399995,
+      "lat": 49.4687860836
+    },
+    "gazole_maj": "2024-10-12T12:57:04+02:00",
+    "gazole_prix": 1.599,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-10-12T12:57:04+02:00",
+    "e10_prix": 1.67,
+    "sp98_maj": "2024-10-12T12:57:04+02:00",
+    "sp98_prix": 1.77,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2021-09-23T17:46:45+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2022-10-18T14:34:28+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-10-18T14:34:28+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Oise",
+    "code_departement": "60",
+    "region": "Hauts-de-France",
+    "code_region": "32",
+    "horaires_jour": null
+  },
+  {
     "id": 60150005,
     "latitude": "4946956.2",
     "longitude": "286029.3",
@@ -60,68 +123,5 @@
     "region": "Hauts-de-France",
     "code_region": "32",
     "horaires_jour": "Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi01.00-01.00, Dimanche"
-  },
-  {
-    "id": 60150001,
-    "latitude": "4946878.60836",
-    "longitude": "286211.550724",
-    "cp": "60150",
-    "pop": "R",
-    "adresse": "ZAC CHAMP SAINTE CROIX",
-    "ville": "Longueil-Annel",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-10-12 10:57:04\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-10-12 10:57:04\", \"@valeur\": \"1.670\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-12 10:57:04\", \"@valeur\": \"1.770\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-09-23 15:46:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-18 12:34:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-18 12:34:28\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.8621155072399995,
-      "lat": 49.4687860836
-    },
-    "gazole_maj": "2024-10-12T12:57:04+02:00",
-    "gazole_prix": 1.599,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-10-12T12:57:04+02:00",
-    "e10_prix": 1.67,
-    "sp98_maj": "2024-10-12T12:57:04+02:00",
-    "sp98_prix": 1.77,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2021-09-23T17:46:45+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2022-10-18T14:34:28+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2022-10-18T14:34:28+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Oise",
-    "code_departement": "60",
-    "region": "Hauts-de-France",
-    "code_region": "32",
-    "horaires_jour": null
   }
 ]
