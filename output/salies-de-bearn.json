@@ -8,8 +8,8 @@
     "adresse": "Route d'Orthez",
     "ville": "Salies-de-Béarn",
     "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-06 08:38:13\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-30 08:43:14\", \"@valeur\": \"1.749\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-01-13 08:45:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-06 08:38:13\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-07 15:02:53\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-30 08:43:14\", \"@valeur\": \"1.749\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-01-13 08:45:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 08:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.91425000000002,
@@ -23,8 +23,8 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2024-11-07T16:02:53+01:00",
+    "e10_prix": 1.669,
     "sp98_maj": "2024-10-30T09:43:14+01:00",
     "sp98_prix": 1.749,
     "e10_rupture_debut": null,
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
