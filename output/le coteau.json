@@ -1,5 +1,68 @@
 [
   {
+    "id": 42120001,
+    "latitude": "4601373.57475",
+    "longitude": "409309.733969",
+    "cp": "42120",
+    "pop": "R",
+    "adresse": "LES PLAINES",
+    "ville": "Le Coteau",
+    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-07 10:18:09\", \"@valeur\": \"1.622\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-04 09:08:43\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-04 09:08:43\", \"@valeur\": \"1.824\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-05-25 14:39:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-05-25 14:39:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-05-25 14:39:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.09309733969,
+      "lat": 46.0137357475
+    },
+    "gazole_maj": "2024-11-07T11:18:09+01:00",
+    "gazole_prix": 1.622,
+    "sp95_maj": "2024-11-04T10:08:43+01:00",
+    "sp95_prix": 1.759,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-11-04T10:08:43+01:00",
+    "sp98_prix": 1.824,
+    "e10_rupture_debut": "2024-05-25T16:39:57+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-05-25T16:39:56+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-05-25T16:39:57+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loire",
+    "code_departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 42120002,
     "latitude": "4601100",
     "longitude": "409700",
@@ -70,68 +133,5 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": "Automate-24-24, Lundi07.00-19.30, Mardi07.00-19.30, Mercredi07.00-19.30, Jeudi07.00-19.30, Vendredi07.00-19.30, Samedi08.00-13.00, Dimanche"
-  },
-  {
-    "id": 42120001,
-    "latitude": "4601373.57475",
-    "longitude": "409309.733969",
-    "cp": "42120",
-    "pop": "R",
-    "adresse": "LES PLAINES",
-    "ville": "Le Coteau",
-    "services": "{\"service\": [\"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-07 10:18:09\", \"@valeur\": \"1.622\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-04 09:08:43\", \"@valeur\": \"1.759\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-04 09:08:43\", \"@valeur\": \"1.824\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-05-25 14:39:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-05-25 14:39:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-05-25 14:39:57\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.09309733969,
-      "lat": 46.0137357475
-    },
-    "gazole_maj": "2024-11-07T11:18:09+01:00",
-    "gazole_prix": 1.622,
-    "sp95_maj": "2024-11-04T10:08:43+01:00",
-    "sp95_prix": 1.759,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-11-04T10:08:43+01:00",
-    "sp98_prix": 1.824,
-    "e10_rupture_debut": "2024-05-25T16:39:57+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2024-05-25T16:39:56+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-05-25T16:39:57+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Piste poids lourds",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Loire",
-    "code_departement": "42",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
   }
 ]
