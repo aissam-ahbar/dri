@@ -8,8 +8,8 @@
     "adresse": "26 rue Valentin des Ormeaux",
     "ville": "Mûrs-Erigné",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-08 08:44:40\", \"@valeur\": \"1.585\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-11-06 09:50:51\", \"@valeur\": \"0.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-09 08:13:54\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-06 18:41:12\", \"@valeur\": \"1.749\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-11 08:29:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-04 08:39:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-08 08:44:40\", \"@valeur\": \"1.585\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-11-06 09:50:51\", \"@valeur\": \"0.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-09 08:13:54\", \"@valeur\": \"1.659\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-04 08:39:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-11 08:29:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-11-11 18:18:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.529,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2024-11-09T09:13:54+01:00",
     "e10_prix": 1.659,
-    "sp98_maj": "2024-11-06T19:41:12+01:00",
-    "sp98_prix": 1.749,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-11-11T19:18:26+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2017-09-04T10:39:24+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

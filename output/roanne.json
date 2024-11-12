@@ -69,20 +69,20 @@
     "horaires_jour": "Automate-24-24, Lundi 07.00-12.00 et 13.30-19.00, Mardi 07.00-12.00 et 13.30-19.00, Mercredi 07.00-12.00 et 13.30-19.00, Jeudi 07.00-12.00 et 13.30-19.00, Vendredi 07.00-12.00 et 13.30-19.00, Samedi08.00-12.00, Dimanche"
   },
   {
-    "id": 42300006,
-    "latitude": "4605684",
-    "longitude": "408682",
+    "id": 42300005,
+    "latitude": "4603973",
+    "longitude": "405404",
     "cp": "42300",
     "pop": "R",
-    "adresse": "Route de Charlieu",
+    "adresse": "142 Rue Mulsant",
     "ville": "Roanne",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\"]}",
     "prix": null,
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2014-10-13 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2016-10-28 10:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2016-10-28 10:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2014-10-14 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2015-02-25 14:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2015-06-30 19:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2015-06-30 19:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
-      "lon": 4.08682,
-      "lat": 46.05684
+      "lon": 4.05404,
+      "lat": 46.03973
     },
     "gazole_maj": null,
     "gazole_prix": null,
@@ -115,10 +115,9 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
+      "Vente de fioul domestique",
       "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Carburant additivé"
     ],
     "departement": "Loire",
     "code_departement": "42",
@@ -200,6 +199,69 @@
     "horaires_jour": "Automate-24-24, Lundi06.30-19.30, Mardi06.30-19.30, Mercredi06.30-19.30, Jeudi06.30-19.30, Vendredi06.30-19.30, Samedi08.00-13.30, Dimanche"
   },
   {
+    "id": 42300001,
+    "latitude": "4603273",
+    "longitude": "406744",
+    "cp": "42300",
+    "pop": "R",
+    "adresse": "RUE ALEXANDRE RAFFIN",
+    "ville": "Roanne",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-07 13:41:56\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-10-30 10:29:03\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-28 13:35:27\", \"@valeur\": \"1.839\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-01-06 10:32:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-07-22 10:56:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-01-06 10:32:14\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.06744,
+      "lat": 46.03273
+    },
+    "gazole_maj": "2024-11-07T14:41:56+01:00",
+    "gazole_prix": 1.599,
+    "sp95_maj": "2024-10-30T11:29:03+01:00",
+    "sp95_prix": 1.766,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2024-10-28T14:35:27+01:00",
+    "sp98_prix": 1.839,
+    "e10_rupture_debut": "2021-07-22T12:56:26+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-01-06T11:32:14+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-01-06T11:32:14+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Loire",
+    "code_departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 42300011,
     "latitude": "4605500",
     "longitude": "408600",
@@ -257,20 +319,20 @@
     "horaires_jour": "Automate-24-24"
   },
   {
-    "id": 42300005,
-    "latitude": "4603973",
-    "longitude": "405404",
+    "id": 42300006,
+    "latitude": "4605684",
+    "longitude": "408682",
     "cp": "42300",
     "pop": "R",
-    "adresse": "142 Rue Mulsant",
+    "adresse": "Route de Charlieu",
     "ville": "Roanne",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\"]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": null,
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2014-10-14 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2015-02-25 14:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2015-06-30 19:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2015-06-30 19:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
+    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2016-10-28 10:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2016-10-28 10:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2014-10-13 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "horaires": null,
     "geom": {
-      "lon": 4.05404,
-      "lat": 46.03973
+      "lon": 4.08682,
+      "lat": 46.05684
     },
     "gazole_maj": null,
     "gazole_prix": null,
@@ -303,72 +365,10 @@
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
-      "Vente de fioul domestique",
       "Station de gonflage",
-      "Carburant additivé"
-    ],
-    "departement": "Loire",
-    "code_departement": "42",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
-  },
-  {
-    "id": 42300001,
-    "latitude": "4603273",
-    "longitude": "406744",
-    "cp": "42300",
-    "pop": "R",
-    "adresse": "RUE ALEXANDRE RAFFIN",
-    "ville": "Roanne",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-07 13:41:56\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-10-30 10:29:03\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-28 13:35:27\", \"@valeur\": \"1.839\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-01-06 10:32:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-01-06 10:32:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-07-22 10:56:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.06744,
-      "lat": 46.03273
-    },
-    "gazole_maj": "2024-11-07T14:41:56+01:00",
-    "gazole_prix": 1.599,
-    "sp95_maj": "2024-10-30T11:29:03+01:00",
-    "sp95_prix": 1.766,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2024-10-28T14:35:27+01:00",
-    "sp98_prix": 1.839,
-    "e10_rupture_debut": "2021-07-22T12:56:26+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2022-01-06T11:32:14+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2022-01-06T11:32:14+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Carburant additivé",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Loire",
     "code_departement": "42",
