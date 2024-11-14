@@ -8,8 +8,8 @@
     "adresse": "60 rue de la lande",
     "ville": "Oradour-sur-Glane",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-07 09:05:32\", \"@valeur\": \"1.584\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-07 09:05:32\", \"@valeur\": \"1.714\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-11-07 09:05:32\", \"@valeur\": \"0.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-18 12:00:19\", \"@valeur\": \"1.798\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-27 08:44:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-01-27 08:44:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-07 09:05:32\", \"@valeur\": \"1.584\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-07 09:05:32\", \"@valeur\": \"1.714\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-10-18 12:00:19\", \"@valeur\": \"1.798\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-11-13 09:02:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-27 08:44:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-01-27 08:44:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"15.00\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.034,
@@ -19,8 +19,8 @@
     "gazole_prix": 1.584,
     "sp95_maj": "2024-11-07T10:05:32+01:00",
     "sp95_prix": 1.714,
-    "e85_maj": "2024-11-07T10:05:32+01:00",
-    "e85_prix": 0.749,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -33,8 +33,8 @@
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
+    "e85_rupture_debut": "2024-11-13T10:02:07+01:00",
+    "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2018-01-27T09:44:36+01:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E85",
     "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
