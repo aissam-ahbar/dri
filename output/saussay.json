@@ -8,16 +8,16 @@
     "adresse": "Route d'Anet",
     "ville": "Saussay",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-08 08:20:59\", \"@valeur\": \"1.609\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-07 08:06:53\", \"@valeur\": \"1.736\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-11-07 08:07:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-22 08:06:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-10-15 08:10:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-22 08:06:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-15 08:10:05\", \"@valeur\": \"1.625\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-15 08:10:05\", \"@valeur\": \"1.736\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-15 08:10:05\", \"@valeur\": \"1.775\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-11-07 08:07:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-22 08:06:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-22 08:06:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.42303,
       "lat": 48.85967
     },
-    "gazole_maj": "2024-11-08T09:20:59+01:00",
-    "gazole_prix": 1.609,
-    "sp95_maj": "2024-11-07T09:06:53+01:00",
+    "gazole_maj": "2024-11-15T09:10:05+01:00",
+    "gazole_prix": 1.625,
+    "sp95_maj": "2024-11-15T09:10:05+01:00",
     "sp95_prix": 1.736,
     "e85_maj": null,
     "e85_prix": null,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2024-11-15T09:10:05+01:00",
+    "sp98_prix": 1.775,
     "e10_rupture_debut": "2022-11-22T09:06:18+01:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": "2024-10-15T10:10:23+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2024-11-07T09:07:01+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": "E85;GPLc;E10;SP98",
+    "carburants_rupture_temporaire": "E85;GPLc;E10",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
