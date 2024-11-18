@@ -1,5 +1,67 @@
 [
   {
+    "id": 25310001,
+    "latitude": "4739111.4566038",
+    "longitude": "684714.52367977",
+    "cp": "25310",
+    "pop": "R",
+    "adresse": "32  GRANDE RUE",
+    "ville": "Blamont",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"1.619\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"1.759\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-01-12 12:33:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-12 12:33:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "geom": {
+      "lon": 6.847145236797699,
+      "lat": 47.391114566038
+    },
+    "gazole_maj": "2024-11-13T14:30:44+01:00",
+    "gazole_prix": 1.619,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2024-11-13T14:30:44+01:00",
+    "e85_prix": 0.829,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-11-13T14:30:44+01:00",
+    "e10_prix": 1.679,
+    "sp98_maj": "2024-11-13T14:30:44+01:00",
+    "sp98_prix": 1.759,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-01-12T13:33:45+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2024-01-12T13:33:45+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
     "id": 54450003,
     "latitude": "4858692",
     "longitude": "684452",
@@ -9,7 +71,7 @@
     "ville": "Blâmont",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-15 10:05:10\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-09-06 14:13:53\", \"@valeur\": \"0.758\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-15 10:05:10\", \"@valeur\": \"1.669\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-24 14:43:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-24 14:43:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.84452,
@@ -61,67 +123,5 @@
     "region": "Grand Est",
     "code_region": "44",
     "horaires_jour": null
-  },
-  {
-    "id": 25310001,
-    "latitude": "4739111.4566038",
-    "longitude": "684714.52367977",
-    "cp": "25310",
-    "pop": "R",
-    "adresse": "32  GRANDE RUE",
-    "ville": "Blamont",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"1.619\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-13 13:30:44\", \"@valeur\": \"1.759\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-12 12:33:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-01-12 12:33:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "geom": {
-      "lon": 6.847145236797699,
-      "lat": 47.391114566038
-    },
-    "gazole_maj": "2024-11-13T14:30:44+01:00",
-    "gazole_prix": 1.619,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2024-11-13T14:30:44+01:00",
-    "e85_prix": 0.829,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-11-13T14:30:44+01:00",
-    "e10_prix": 1.679,
-    "sp98_maj": "2024-11-13T14:30:44+01:00",
-    "sp98_prix": 1.759,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-01-12T13:33:45+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2024-01-12T13:33:45+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]
