@@ -8,23 +8,23 @@
     "adresse": "42, Route de Brienne (5 minutes A26 Sortie 21)",
     "ville": "Arcis-sur-Aube",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-18 09:34:32\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-13 09:44:27\", \"@valeur\": \"1.679\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-19 09:31:06\", \"@valeur\": \"1.629\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-18 09:34:32\", \"@valeur\": \"0.849\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-19 09:31:30\", \"@valeur\": \"1.689\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-30 16:40:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-09-27 17:35:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-08-14 06:26:48\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.15\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.45\", \"@fermeture\": \"19.15\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 4.156,
       "lat": 48.534
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2024-11-19T10:31:06+01:00",
+    "gazole_prix": 1.629,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2024-10-18T11:34:32+02:00",
     "e85_prix": 0.849,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2024-11-13T10:44:27+01:00",
-    "e10_prix": 1.679,
+    "e10_maj": "2024-11-19T10:31:30+01:00",
+    "e10_prix": 1.689,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
@@ -40,11 +40,11 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E85",
       "E10"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "GPLc",
       "SP98"
