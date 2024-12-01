@@ -1,68 +1,5 @@
 [
   {
-    "id": 77000003,
-    "latitude": "4852528",
-    "longitude": "269402.349348",
-    "cp": "77000",
-    "pop": "R",
-    "adresse": "RUE DES TROIS RODES",
-    "ville": "Vaux-le-Pénil",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-27 09:55:26\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-27 09:55:26\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-27 09:55:26\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-26 09:08:03\", \"@valeur\": \"1.799\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-03-05 08:35:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-01-07 10:28:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 2.69402349348,
-      "lat": 48.52528
-    },
-    "gazole_maj": "2024-11-27T10:55:26+01:00",
-    "gazole_prix": 1.669,
-    "sp95_maj": "2024-11-27T10:55:26+01:00",
-    "sp95_prix": 1.749,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-11-27T10:55:26+01:00",
-    "e10_prix": 1.699,
-    "sp98_maj": "2024-11-26T10:08:03+01:00",
-    "sp98_prix": 1.799,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2022-01-07T11:28:04+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-03-05T09:35:16+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Seine-et-Marne",
-    "code_departement": "77",
-    "region": "Île-de-France",
-    "code_region": "11",
-    "horaires_jour": null
-  },
-  {
     "id": 77000014,
     "latitude": "4854100",
     "longitude": "268000",
@@ -133,5 +70,68 @@
     "region": "Île-de-France",
     "code_region": "11",
     "horaires_jour": "Automate-24-24"
+  },
+  {
+    "id": 77000003,
+    "latitude": "4852528",
+    "longitude": "269402.349348",
+    "cp": "77000",
+    "pop": "R",
+    "adresse": "RUE DES TROIS RODES",
+    "ville": "Vaux-le-Pénil",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-27 09:55:26\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-27 09:55:26\", \"@valeur\": \"1.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-27 09:55:26\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-26 09:08:03\", \"@valeur\": \"1.799\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-01-07 10:28:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-03-05 08:35:16\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 2.69402349348,
+      "lat": 48.52528
+    },
+    "gazole_maj": "2024-11-27T10:55:26+01:00",
+    "gazole_prix": 1.669,
+    "sp95_maj": "2024-11-27T10:55:26+01:00",
+    "sp95_prix": 1.749,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-11-27T10:55:26+01:00",
+    "e10_prix": 1.699,
+    "sp98_maj": "2024-11-26T10:08:03+01:00",
+    "sp98_prix": 1.799,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2022-01-07T11:28:04+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-03-05T09:35:16+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Seine-et-Marne",
+    "code_departement": "77",
+    "region": "Île-de-France",
+    "code_region": "11",
+    "horaires_jour": null
   }
 ]
