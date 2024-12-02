@@ -1,5 +1,68 @@
 [
   {
+    "id": 88700003,
+    "latitude": "4833845",
+    "longitude": "663507",
+    "cp": "88700",
+    "pop": "R",
+    "adresse": "4 Avenue du 17ème B.C.P.",
+    "ville": "Rambervillers",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.661\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.732\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.696\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.767\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 08:46:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 08:46:27\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 6.63507,
+      "lat": 48.33845
+    },
+    "gazole_maj": "2024-11-22T16:56:22+01:00",
+    "gazole_prix": 1.661,
+    "sp95_maj": "2024-11-22T16:56:22+01:00",
+    "sp95_prix": 1.732,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-11-22T16:56:22+01:00",
+    "e10_prix": 1.696,
+    "sp98_maj": "2024-11-22T16:56:22+01:00",
+    "sp98_prix": 1.767,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-01T10:46:27+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-01T10:46:27+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vosges",
+    "code_departement": "88",
+    "region": "Grand Est",
+    "code_region": "44",
+    "horaires_jour": null
+  },
+  {
     "id": 88700001,
     "latitude": "4834100",
     "longitude": "663600",
@@ -9,7 +72,7 @@
     "ville": "Rambervillers",
     "services": null,
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-25 08:07:36\", \"@valeur\": \"1.661\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-25 08:07:36\", \"@valeur\": \"1.723\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-06 18:09:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-04-10 10:57:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-04-10 10:57:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-04-10 10:57:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-04-10 10:57:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-04-10 10:57:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-04-10 10:57:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-06 18:09:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 6.636,
@@ -127,68 +190,5 @@
     "region": "Grand Est",
     "code_region": "44",
     "horaires_jour": "Lundi 07.00-12.00 et 13.30-18.45, Mardi 07.00-12.00 et 13.30-18.45, Mercredi07.00-12.00, Jeudi 07.00-12.00 et 13.30-18.45, Vendredi 07.00-12.00 et 13.30-18.45, Samedi08.00-12.00, Dimanche"
-  },
-  {
-    "id": 88700003,
-    "latitude": "4833845",
-    "longitude": "663507",
-    "cp": "88700",
-    "pop": "R",
-    "adresse": "4 Avenue du 17ème B.C.P.",
-    "ville": "Rambervillers",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.661\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.732\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.696\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-11-22 15:56:22\", \"@valeur\": \"1.767\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 08:46:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 08:46:27\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 6.63507,
-      "lat": 48.33845
-    },
-    "gazole_maj": "2024-11-22T16:56:22+01:00",
-    "gazole_prix": 1.661,
-    "sp95_maj": "2024-11-22T16:56:22+01:00",
-    "sp95_prix": 1.732,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-11-22T16:56:22+01:00",
-    "e10_prix": 1.696,
-    "sp98_maj": "2024-11-22T16:56:22+01:00",
-    "sp98_prix": 1.767,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-09-01T10:46:27+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-01T10:46:27+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vosges",
-    "code_departement": "88",
-    "region": "Grand Est",
-    "code_region": "44",
-    "horaires_jour": null
   }
 ]
