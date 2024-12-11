@@ -1,5 +1,68 @@
 [
   {
+    "id": 35140002,
+    "latitude": "4825600",
+    "longitude": "-141600",
+    "cp": "35140",
+    "pop": "R",
+    "adresse": "2 rue de Trégor",
+    "ville": "Saint-Aubin-du-Cormier",
+    "services": "{\"service\": [\"Lavage manuel\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-26 06:30:50\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-26 06:30:50\", \"@valeur\": \"1.870\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-02-26 06:52:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-02-26 06:52:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-02-26 06:52:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-03-09 06:49:13\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": -1.416,
+      "lat": 48.256
+    },
+    "gazole_maj": "2024-11-26T07:30:50+01:00",
+    "gazole_prix": 1.79,
+    "sp95_maj": "2024-11-26T07:30:50+01:00",
+    "sp95_prix": 1.87,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2021-03-09T07:49:13+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2021-02-26T07:52:07+01:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2021-02-26T07:52:06+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2021-02-26T07:52:07+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Lavage manuel",
+      "Automate CB 24/24"
+    ],
+    "departement": "Ille-et-Vilaine",
+    "code_departement": "35",
+    "region": "Bretagne",
+    "code_region": "53",
+    "horaires_jour": "Automate-24-24, Lundi 07.30-12.00 et 13.30-18.30, Mardi 07.30-12.00 et 13.30-18.30, Mercredi 07.30-12.00 et 13.30-18.30, Jeudi 07.30-12.00 et 13.30-18.30, Vendredi 07.30-12.00 et 13.30-18.30, Samedi, Dimanche"
+  },
+  {
     "id": 35140001,
     "latitude": "4825900",
     "longitude": "-140800",
@@ -62,68 +125,5 @@
     "region": "Bretagne",
     "code_region": "53",
     "horaires_jour": null
-  },
-  {
-    "id": 35140002,
-    "latitude": "4825600",
-    "longitude": "-141600",
-    "cp": "35140",
-    "pop": "R",
-    "adresse": "2 rue de Trégor",
-    "ville": "Saint-Aubin-du-Cormier",
-    "services": "{\"service\": [\"Lavage manuel\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-26 06:30:50\", \"@valeur\": \"1.790\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-26 06:30:50\", \"@valeur\": \"1.870\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-03-09 06:49:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-02-26 06:52:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-02-26 06:52:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-02-26 06:52:07\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": -1.416,
-      "lat": 48.256
-    },
-    "gazole_maj": "2024-11-26T07:30:50+01:00",
-    "gazole_prix": 1.79,
-    "sp95_maj": "2024-11-26T07:30:50+01:00",
-    "sp95_prix": 1.87,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": "2021-03-09T07:49:13+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2021-02-26T07:52:07+01:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2021-02-26T07:52:06+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2021-02-26T07:52:07+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Lavage manuel",
-      "Automate CB 24/24"
-    ],
-    "departement": "Ille-et-Vilaine",
-    "code_departement": "35",
-    "region": "Bretagne",
-    "code_region": "53",
-    "horaires_jour": "Automate-24-24, Lundi 07.30-12.00 et 13.30-18.30, Mardi 07.30-12.00 et 13.30-18.30, Mercredi 07.30-12.00 et 13.30-18.30, Jeudi 07.30-12.00 et 13.30-18.30, Vendredi 07.30-12.00 et 13.30-18.30, Samedi, Dimanche"
   }
 ]
