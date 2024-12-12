@@ -8,29 +8,29 @@
     "adresse": "Route de Thumeries",
     "ville": "Ostricourt",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-02 08:30:00\", \"@valeur\": \"1.629\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-02 08:30:00\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-12-02 08:30:00\", \"@valeur\": \"0.758\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-12-02 08:30:00\", \"@valeur\": \"1.759\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-16 09:53:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-09-08 07:46:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-11 16:30:28\", \"@valeur\": \"1.598\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-11 16:30:28\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-12-02 08:30:00\", \"@valeur\": \"0.758\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-09-08 07:46:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-12-11 16:29:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-16 09:53:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.02745,
       "lat": 50.46512
     },
-    "gazole_maj": "2024-12-02T09:30:00+01:00",
-    "gazole_prix": 1.629,
-    "sp95_maj": "2024-12-02T09:30:00+01:00",
-    "sp95_prix": 1.709,
+    "gazole_maj": "2024-12-11T17:30:28+01:00",
+    "gazole_prix": 1.598,
+    "sp95_maj": "2024-12-11T17:30:28+01:00",
+    "sp95_prix": 1.699,
     "e85_maj": "2024-12-02T09:30:00+01:00",
     "e85_prix": 0.758,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2024-12-02T09:30:00+01:00",
-    "sp98_prix": 1.759,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2023-09-08T09:46:03+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2024-12-11T17:29:04+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
-      "SP98"
+      "E85"
     ],
     "carburants_indisponibles": [
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_temporaire": "GPLc;SP98",
     "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
