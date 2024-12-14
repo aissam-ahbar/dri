@@ -8,8 +8,8 @@
     "adresse": "Route de Villedieu",
     "ville": "Yquelon",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-12 11:15:30\", \"@valeur\": \"1.571\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-10 08:48:39\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-11-02 19:29:00\", \"@valeur\": \"0.789\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-03-11 08:59:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-03-23 09:24:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-12-06 17:18:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-12 11:15:30\", \"@valeur\": \"1.571\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-10 08:48:39\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-11-02 19:29:00\", \"@valeur\": \"0.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-12-13 12:32:21\", \"@valeur\": \"1.646\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-03-23 09:24:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-03-11 08:59:41\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -1.553,
@@ -23,12 +23,12 @@
     "e85_prix": 0.789,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2024-12-13T13:32:21+01:00",
+    "e10_prix": 1.646,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": "2024-12-06T18:18:44+01:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": "2022-03-23T10:24:26+01:00",
     "sp98_rupture_type": "definitive",
     "sp95_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85"
+      "E85",
+      "E10"
     ],
     "carburants_indisponibles": [
       "GPLc",
-      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "GPLc;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
