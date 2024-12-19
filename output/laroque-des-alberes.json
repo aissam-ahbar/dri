@@ -8,15 +8,15 @@
     "adresse": "ROUTE D ARGELES",
     "ville": "Laroque-des-Albères",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-16 15:05:53\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-16 08:45:00\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-12-16 08:45:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-12-16 08:45:00\", \"@valeur\": \"1.779\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-18 08:45:00\", \"@valeur\": \"1.579\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-16 08:45:00\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-12-16 08:45:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-12-16 08:45:00\", \"@valeur\": \"1.779\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-12-18 07:34:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-12-18 07:34:56\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.45\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 2.941,
       "lat": 42.548
     },
-    "gazole_maj": "2024-12-16T16:05:53+01:00",
-    "gazole_prix": 1.599,
+    "gazole_maj": "2024-12-18T09:45:00+01:00",
+    "gazole_prix": 1.579,
     "sp95_maj": "2024-12-16T09:45:00+01:00",
     "sp95_prix": 1.729,
     "e85_maj": null,
@@ -33,10 +33,10 @@
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
+    "e85_rupture_debut": "2024-12-18T08:34:56+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-12-18T08:34:56+01:00",
+    "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
@@ -50,7 +50,7 @@
       "GPLc"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "DAB (Distributeur automatique de billets)"
