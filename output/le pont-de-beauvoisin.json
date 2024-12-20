@@ -1,5 +1,68 @@
 [
   {
+    "id": 73330002,
+    "latitude": "4552956",
+    "longitude": "568477",
+    "cp": "73330",
+    "pop": "R",
+    "adresse": "zi Baronnie",
+    "ville": "Le Pont-de-Beauvoisin",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-16 08:54:16\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-05 08:25:20\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-12-16 08:54:16\", \"@valeur\": \"1.719\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-07-31 13:13:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-31 13:13:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-07-31 13:13:33\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 5.68477,
+      "lat": 45.52956
+    },
+    "gazole_maj": "2024-12-16T09:54:16+01:00",
+    "gazole_prix": 1.619,
+    "sp95_maj": "2024-12-05T09:25:20+01:00",
+    "sp95_prix": 1.759,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-12-16T09:54:16+01:00",
+    "e10_prix": 1.719,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2018-07-31T15:13:33+02:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-07-31T15:13:32+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-07-31T15:13:33+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Savoie",
+    "code_departement": "73",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 38480006,
     "latitude": "4553600",
     "longitude": "564500",
@@ -138,68 +201,5 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": "Automate-24-24, Lundi08.00-19.30, Mardi08.00-19.30, Mercredi08.00-19.30, Jeudi08.00-19.30, Vendredi08.00-19.30, Samedi08.00-19.30, Dimanche"
-  },
-  {
-    "id": 73330002,
-    "latitude": "4552956",
-    "longitude": "568477",
-    "cp": "73330",
-    "pop": "R",
-    "adresse": "zi Baronnie",
-    "ville": "Le Pont-de-Beauvoisin",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-16 08:54:16\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-05 08:25:20\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-12-16 08:54:16\", \"@valeur\": \"1.719\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-07-31 13:13:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-31 13:13:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-07-31 13:13:33\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 5.68477,
-      "lat": 45.52956
-    },
-    "gazole_maj": "2024-12-16T09:54:16+01:00",
-    "gazole_prix": 1.619,
-    "sp95_maj": "2024-12-05T09:25:20+01:00",
-    "sp95_prix": 1.759,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-12-16T09:54:16+01:00",
-    "e10_prix": 1.719,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2018-07-31T15:13:33+02:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2018-07-31T15:13:32+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2018-07-31T15:13:33+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Savoie",
-    "code_departement": "73",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
   }
 ]
