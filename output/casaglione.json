@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "Tiuccia",
     "ville": "Casaglione",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-17 11:54:21\", \"@valeur\": \"1.748\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-17 11:54:21\", \"@valeur\": \"1.849\"}]",
     "rupture": null,
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"20.00\"}}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"13.00\"}}]}",
     "geom": {
       "lon": 8.741,
       "lat": 42.062
@@ -54,8 +54,10 @@
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
+      "Laverie",
       "Boutique alimentaire",
       "Boutique non alimentaire",
+      "Restauration à emporter",
       "Vente de fioul domestique",
       "Vente de pétrole lampant",
       "Station de gonflage",
@@ -63,6 +65,7 @@
       "Piste poids lourds",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
       "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
@@ -70,6 +73,6 @@
     "code_departement": "2A",
     "region": "Corse",
     "code_region": "94",
-    "horaires_jour": "Automate-24-24, Lundi07.00-20.00, Mardi07.00-20.00, Mercredi07.00-20.00, Jeudi07.00-20.00, Vendredi07.00-20.00, Samedi07.00-20.00, Dimanche07.00-20.00"
+    "horaires_jour": "Automate-24-24, Lundi06.30-19.30, Mardi06.30-19.30, Mercredi06.30-19.30, Jeudi06.30-19.30, Vendredi06.30-19.30, Samedi06.30-19.30, Dimanche06.30-13.00"
   }
 ]
