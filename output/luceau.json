@@ -8,15 +8,15 @@
     "adresse": "Route du Mans",
     "ville": "Luceau",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.614\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.753\"}]",
-    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-12 18:57:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.753\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-12 18:57:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-12-31 11:43:42\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.406,
       "lat": 47.706
     },
-    "gazole_maj": "2024-12-20T12:52:04+01:00",
-    "gazole_prix": 1.614,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2024-12-20T12:52:04+01:00",
     "sp95_prix": 1.735,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2024-12-31T12:43:42+01:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": "Gazole;E10",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
