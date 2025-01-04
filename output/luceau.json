@@ -8,15 +8,15 @@
     "adresse": "Route du Mans",
     "ville": "Luceau",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.753\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-03 14:17:38\", \"@valeur\": \"1.627\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.735\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2024-12-20 11:52:04\", \"@valeur\": \"1.753\"}]",
     "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-04-12 18:57:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "horaires": null,
     "geom": {
       "lon": 0.406,
       "lat": 47.706
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2025-01-03T15:17:38+01:00",
+    "gazole_prix": 1.627,
     "sp95_maj": "2024-12-20T12:52:04+01:00",
     "sp95_prix": 1.735,
     "e85_maj": null,
@@ -40,11 +40,11 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10"
