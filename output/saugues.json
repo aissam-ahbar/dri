@@ -1,68 +1,5 @@
 [
   {
-    "id": 43170004,
-    "latitude": "4496347.7987",
-    "longitude": "354343.84262423",
-    "cp": "43170",
-    "pop": "R",
-    "adresse": "25 RUE LOUIS AMARGIER",
-    "ville": "Saugues",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-26 12:18:12\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-26 12:18:13\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-26 12:18:13\", \"@valeur\": \"1.779\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-28 15:47:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-08-28 15:47:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-28 15:47:58\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 3.5434384262423,
-      "lat": 44.963477987000005
-    },
-    "gazole_maj": "2024-11-26T13:18:12+01:00",
-    "gazole_prix": 1.659,
-    "sp95_maj": "2024-11-26T13:18:13+01:00",
-    "sp95_prix": 1.789,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2024-11-26T13:18:13+01:00",
-    "e10_prix": 1.779,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2024-08-28T17:47:58+02:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2024-08-28T17:47:57+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-08-28T17:47:57+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;SP98",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Haute-Loire",
-    "code_departement": "43",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": "Automate-24-24"
-  },
-  {
     "id": 43170002,
     "latitude": "4496900",
     "longitude": "354100",
@@ -197,5 +134,68 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": null
+  },
+  {
+    "id": 43170004,
+    "latitude": "4496347.7987",
+    "longitude": "354343.84262423",
+    "cp": "43170",
+    "pop": "R",
+    "adresse": "25 RUE LOUIS AMARGIER",
+    "ville": "Saugues",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2024-11-26 12:18:12\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2024-11-26 12:18:13\", \"@valeur\": \"1.789\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-11-26 12:18:13\", \"@valeur\": \"1.779\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-28 15:47:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-08-28 15:47:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-28 15:47:58\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 3.5434384262423,
+      "lat": 44.963477987000005
+    },
+    "gazole_maj": "2024-11-26T13:18:12+01:00",
+    "gazole_prix": 1.659,
+    "sp95_maj": "2024-11-26T13:18:13+01:00",
+    "sp95_prix": 1.789,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2024-11-26T13:18:13+01:00",
+    "e10_prix": 1.779,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2024-08-28T17:47:58+02:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-08-28T17:47:57+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-08-28T17:47:57+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Haute-Loire",
+    "code_departement": "43",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24"
   }
 ]
