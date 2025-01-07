@@ -8,7 +8,7 @@
     "adresse": "Avenue de Nissan",
     "ville": "Capestang",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-03 09:12:56\", \"@valeur\": \"1.649\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-12-23 10:31:39\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-03 09:12:56\", \"@valeur\": \"1.821\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-03 09:12:56\", \"@valeur\": \"1.649\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-01-06 18:18:43\", \"@valeur\": \"0.758\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2024-12-23 10:31:39\", \"@valeur\": \"1.720\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-03 09:12:56\", \"@valeur\": \"1.821\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 09:50:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 09:50:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
@@ -19,8 +19,8 @@
     "gazole_prix": 1.649,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2025-01-06T19:18:43+01:00",
+    "e85_prix": 0.758,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2024-12-23T11:31:39+01:00",
@@ -41,12 +41,12 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc"
     ],
     "carburants_rupture_temporaire": null,
