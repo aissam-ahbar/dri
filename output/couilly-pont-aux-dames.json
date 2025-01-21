@@ -8,8 +8,8 @@
     "adresse": "61 AVENUE DE L'ENSOLEILLEE",
     "ville": "Couilly-Pont-aux-Dames",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-17 05:37:12\", \"@valeur\": \"1.757\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-15 04:32:18\", \"@valeur\": \"0.758\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-01-17 05:37:12\", \"@valeur\": \"1.776\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-17 05:37:13\", \"@valeur\": \"1.871\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-01 04:53:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-06-01 04:53:14\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-17 05:37:12\", \"@valeur\": \"1.757\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2024-10-15 04:32:18\", \"@valeur\": \"0.758\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-01 04:53:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-06-01 04:53:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-01-20 05:07:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-01-20 05:07:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.8718865694261,
@@ -23,14 +23,14 @@
     "e85_prix": 0.758,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-01-17T06:37:12+01:00",
-    "e10_prix": 1.776,
-    "sp98_maj": "2025-01-17T06:37:13+01:00",
-    "sp98_prix": 1.871,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2025-01-20T06:07:16+01:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2025-01-20T06:07:16+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2024-06-01T06:53:14+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "E10",
-      "SP98"
+      "E85"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
