@@ -1,68 +1,5 @@
 [
   {
-    "id": 53960003,
-    "latitude": "4807324.52705",
-    "longitude": "-69312.6691",
-    "cp": "53960",
-    "pop": "R",
-    "adresse": "Rue du Bois-Hedin",
-    "ville": "Bonchamp-lès-Laval",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-18 11:19:30\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-01-16 09:07:09\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-22 09:13:03\", \"@valeur\": \"1.829\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-04-20 09:20:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-12-11 09:32:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-04-20 09:20:53\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": -0.693126691,
-      "lat": 48.073245270499996
-    },
-    "gazole_maj": "2025-01-18T12:19:30+01:00",
-    "gazole_prix": 1.699,
-    "sp95_maj": "2025-01-16T10:07:09+01:00",
-    "sp95_prix": 1.779,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-01-22T10:13:03+01:00",
-    "sp98_prix": 1.829,
-    "e10_rupture_debut": "2017-12-11T10:32:32+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2024-04-20T11:20:53+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-04-20T11:20:53+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Mayenne",
-    "code_departement": "53",
-    "region": "Pays de la Loire",
-    "code_region": "52",
-    "horaires_jour": null
-  },
-  {
     "id": 53960001,
     "latitude": "4809500",
     "longitude": "-69500",
@@ -138,5 +75,68 @@
     "region": "Pays de la Loire",
     "code_region": "52",
     "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
+    "id": 53960003,
+    "latitude": "4807324.52705",
+    "longitude": "-69312.6691",
+    "cp": "53960",
+    "pop": "R",
+    "adresse": "Rue du Bois-Hedin",
+    "ville": "Bonchamp-lès-Laval",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-18 11:19:30\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-01-16 09:07:09\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-22 09:13:03\", \"@valeur\": \"1.829\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-12-11 09:32:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-04-20 09:20:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-04-20 09:20:53\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": -0.693126691,
+      "lat": 48.073245270499996
+    },
+    "gazole_maj": "2025-01-18T12:19:30+01:00",
+    "gazole_prix": 1.699,
+    "sp95_maj": "2025-01-16T10:07:09+01:00",
+    "sp95_prix": 1.779,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-01-22T10:13:03+01:00",
+    "sp98_prix": 1.829,
+    "e10_rupture_debut": "2017-12-11T10:32:32+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-04-20T11:20:53+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-04-20T11:20:53+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Mayenne",
+    "code_departement": "53",
+    "region": "Pays de la Loire",
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]
