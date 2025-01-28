@@ -8,8 +8,8 @@
     "adresse": "Route de Thennes",
     "ville": "Moreuil",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-25 08:22:14\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-01-25 08:22:14\", \"@valeur\": \"0.783\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-01-25 08:22:14\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-25 08:22:15\", \"@valeur\": \"1.979\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-21 10:27:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-03-21 10:28:31\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-25 08:22:14\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-01-25 08:22:14\", \"@valeur\": \"0.783\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-01-25 08:22:14\", \"@valeur\": \"1.869\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-21 10:27:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-03-21 10:28:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-01-27 08:32:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.477,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2025-01-25T09:22:14+01:00",
     "e10_prix": 1.869,
-    "sp98_maj": "2025-01-25T09:22:15+01:00",
-    "sp98_prix": 1.979,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-01-27T09:32:08+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2022-03-21T11:28:31+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -84,15 +84,15 @@
     "adresse": "Route de Thennes",
     "ville": "Moreuil",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-21 10:59:25\", \"@valeur\": \"1.752\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-01-21 10:59:26\", \"@valeur\": \"1.787\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-21 10:59:26\", \"@valeur\": \"1.860\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:19:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-05-16 08:56:54\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-16 16:18:11\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-01-21 10:59:26\", \"@valeur\": \"1.787\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-21 10:59:26\", \"@valeur\": \"1.860\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:19:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-16 16:18:11\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-05-16 08:56:54\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-01-27 08:31:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 2.469,
       "lat": 49.788
     },
-    "gazole_maj": "2025-01-21T11:59:25+01:00",
-    "gazole_prix": 1.752,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -113,19 +113,19 @@
     "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2017-08-29T12:19:56+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-01-27T09:31:59+01:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP95;E85",
+    "carburants_rupture_temporaire": "Gazole;SP95;E85",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
