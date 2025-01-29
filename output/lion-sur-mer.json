@@ -8,15 +8,15 @@
     "adresse": "Boulevard Paul Doumer",
     "ville": "Lion-sur-Mer",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-01-27 12:01:15\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-27 12:01:15\", \"@valeur\": \"1.828\"}]",
-    "rupture": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-01-27 12:01:43\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-28 13:13:25\", \"@valeur\": \"1.678\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-01-27 12:01:15\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-01-27 12:01:15\", \"@valeur\": \"1.828\"}]",
+    "rupture": null,
     "horaires": null,
     "geom": {
       "lon": -0.31818,
       "lat": 49.30174
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2025-01-28T14:13:25+01:00",
+    "gazole_prix": 1.678,
     "sp95_maj": "2025-01-27T13:01:15+01:00",
     "sp95_prix": 1.779,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": "2025-01-27T13:01:43+01:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
