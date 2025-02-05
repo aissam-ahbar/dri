@@ -8,8 +8,8 @@
     "adresse": "Route de Thumeries",
     "ville": "Ostricourt",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-03 10:02:12\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-03 10:02:12\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-01-10 14:18:40\", \"@valeur\": \"0.758\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-16 09:53:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-09-08 07:46:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-12-11 16:29:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-03 10:02:12\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-03 10:02:12\", \"@valeur\": \"1.759\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-01-10 14:18:40\", \"@valeur\": \"0.758\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-04 16:28:36\", \"@valeur\": \"1.759\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-09-08 07:46:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-16 09:53:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.02745,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2025-02-04T17:28:36+01:00",
+    "sp98_prix": 1.759,
     "e10_rupture_debut": "2023-09-08T09:46:03+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2024-12-11T17:29:04+01:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85"
+      "E85",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": "GPLc;SP98",
+    "carburants_rupture_temporaire": "GPLc",
     "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
