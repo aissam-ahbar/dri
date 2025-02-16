@@ -1,19 +1,19 @@
 [
   {
     "id": 87430003,
-    "latitude": "4585575.5905985",
-    "longitude": "114585.57262421",
+    "latitude": "4585600",
+    "longitude": "114600",
     "cp": "87430",
     "pop": "R",
     "adresse": "les betoulles",
     "ville": "Verneuil-sur-Vienne",
-    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-12 09:21:37\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-12 09:21:37\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-12 09:21:38\", \"@valeur\": \"1.829\"}]",
     "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-10-18 15:18:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-31 09:56:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
-      "lon": 1.1458557262421,
-      "lat": 45.855755905985006
+      "lon": 1.146,
+      "lat": 45.856
     },
     "gazole_maj": "2025-02-12T10:21:37+01:00",
     "gazole_prix": 1.679,
@@ -51,21 +51,27 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;E10",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Relais colis",
+      "Restauration sur place",
+      "Bar",
       "Station de gonflage",
       "Location de véhicule",
       "Piste poids lourds",
       "Lavage automatique",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Haute-Vienne",
     "code_departement": "87",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   },
   {
     "id": 87430004,
