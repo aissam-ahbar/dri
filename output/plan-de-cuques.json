@@ -8,8 +8,8 @@
     "adresse": "89 AVENUE DE LA LIBERATION",
     "ville": "Plan-de-Cuques",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-15 06:50:00\", \"@valeur\": \"1.684\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-02-15 06:50:00\", \"@valeur\": \"0.844\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-02-15 06:50:00\", \"@valeur\": \"1.745\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-15 06:50:00\", \"@valeur\": \"1.837\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2011-04-27 09:02:00\", \"@fin\": \"\", \"@type\": \"\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-15 06:50:00\", \"@valeur\": \"1.684\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-02-15 06:50:00\", \"@valeur\": \"0.844\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-02-15 06:50:00\", \"@valeur\": \"1.745\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2011-04-27 09:02:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-02-16 13:16:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 5.457,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2025-02-15T07:50:00+01:00",
     "e10_prix": 1.745,
-    "sp98_maj": "2025-02-15T07:50:00+01:00",
-    "sp98_prix": 1.837,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-02-16T14:16:00+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": null,
