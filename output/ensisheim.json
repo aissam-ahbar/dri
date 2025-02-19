@@ -8,24 +8,24 @@
     "adresse": "Rue de la Gare",
     "ville": "Ensisheim",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-05 07:49:49\", \"@valeur\": \"1.785\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-05 07:49:50\", \"@valeur\": \"1.810\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-18 07:40:40\", \"@valeur\": \"1.685\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-18 07:40:40\", \"@valeur\": \"1.750\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-18 07:40:41\", \"@valeur\": \"1.810\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-13 11:45:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-06 09:02:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-06 09:02:05\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 7.34353,
       "lat": 47.86651
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": "2025-02-05T08:49:49+01:00",
-    "sp95_prix": 1.785,
+    "gazole_maj": "2025-02-18T08:40:40+01:00",
+    "gazole_prix": 1.685,
+    "sp95_maj": "2025-02-18T08:40:40+01:00",
+    "sp95_prix": 1.75,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2025-02-05T08:49:50+01:00",
+    "sp98_maj": "2025-02-18T08:40:41+01:00",
     "sp98_prix": 1.81,
     "e10_rupture_debut": "2022-10-06T11:02:05+02:00",
     "e10_rupture_type": "definitive",
@@ -40,11 +40,11 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10"
