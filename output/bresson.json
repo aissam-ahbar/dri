@@ -8,8 +8,8 @@
     "adresse": "ZI LES CONDAMINES",
     "ville": "Bresson",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-07 09:04:55\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-03 14:18:43\", \"@valeur\": \"1.808\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-07 09:04:55\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-03 14:18:43\", \"@valeur\": \"1.808\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-19 09:58:21\", \"@valeur\": \"1.848\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-02-19 09:56:21\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.73473,
@@ -25,10 +25,10 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "sp98_maj": "2025-02-19T10:58:21+01:00",
+    "sp98_prix": 1.848,
+    "e10_rupture_debut": "2025-02-19T10:56:21+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,
