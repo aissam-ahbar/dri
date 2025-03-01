@@ -8,25 +8,25 @@
     "adresse": "1 Avenue du Traité de Rome",
     "ville": "Saint-Pryvé-Saint-Mesmin",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-26 08:41:10\", \"@valeur\": \"1.650\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-26 08:41:10\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-02-26 08:41:10\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-26 08:41:11\", \"@valeur\": \"1.799\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-28 08:57:09\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-28 08:57:09\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-02-28 08:57:09\", \"@valeur\": \"1.679\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-14 15:43:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-12-14 15:43:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.8700648000000002,
       "lat": 47.8800466
     },
-    "gazole_maj": "2025-02-26T09:41:10+01:00",
-    "gazole_prix": 1.65,
-    "sp95_maj": "2025-02-26T09:41:10+01:00",
+    "gazole_maj": "2025-02-28T09:57:09+01:00",
+    "gazole_prix": 1.649,
+    "sp95_maj": "2025-02-28T09:57:09+01:00",
     "sp95_prix": 1.769,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-02-26T09:41:10+01:00",
-    "e10_prix": 1.689,
-    "sp98_maj": "2025-02-26T09:41:11+01:00",
-    "sp98_prix": 1.799,
+    "e10_maj": "2025-02-28T09:57:09+01:00",
+    "e10_prix": 1.679,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -42,12 +42,12 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc",
