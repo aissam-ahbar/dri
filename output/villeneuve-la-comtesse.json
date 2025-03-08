@@ -8,19 +8,19 @@
     "adresse": "7 RN",
     "ville": "Villeneuve-la-Comtesse",
     "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-01-10 16:52:21\", \"@valeur\": \"1.810\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-01-10 16:52:21\", \"@valeur\": \"1.870\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-07 18:30:08\", \"@valeur\": \"1.770\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-03-07 18:30:09\", \"@valeur\": \"1.960\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-03-07 18:30:09\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": -0.50192,
       "lat": 46.09855
     },
-    "gazole_maj": "2025-01-10T17:52:21+01:00",
-    "gazole_prix": 1.81,
-    "sp95_maj": "2025-01-10T17:52:21+01:00",
-    "sp95_prix": 1.87,
-    "e85_maj": null,
-    "e85_prix": null,
+    "gazole_maj": "2025-03-07T19:30:08+01:00",
+    "gazole_prix": 1.77,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2025-03-07T19:30:09+01:00",
+    "e85_prix": 1.96,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2025-03-07T19:30:09+01:00",
+    "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
@@ -41,16 +41,16 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "E85"
     ],
     "carburants_indisponibles": [
-      "E85",
+      "SP95",
       "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",

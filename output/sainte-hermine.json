@@ -1,5 +1,67 @@
 [
   {
+    "id": 85210010,
+    "latitude": "4656232.3",
+    "longitude": "-105918.5",
+    "cp": "85210",
+    "pop": "R",
+    "adresse": "132 ROUTE DE NANTES",
+    "ville": "Sainte-Hermine",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-07 06:47:55\", \"@valeur\": \"1.609\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-07 06:47:55\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-03-07 06:47:56\", \"@valeur\": \"1.739\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-10-18 08:45:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-10-18 08:45:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-10-18 08:45:22\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": -1.059185,
+      "lat": 46.562323
+    },
+    "gazole_maj": "2025-03-07T07:47:55+01:00",
+    "gazole_prix": 1.609,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-03-07T07:47:55+01:00",
+    "e10_prix": 1.659,
+    "sp98_maj": "2025-03-07T07:47:56+01:00",
+    "sp98_prix": 1.739,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-10-18T10:45:22+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2024-10-18T10:45:22+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-10-18T10:45:22+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Vendée",
+    "code_departement": "85",
+    "region": "Pays de la Loire",
+    "code_region": "52",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 85210007,
     "latitude": "4657335.0482882",
     "longitude": "-111685.92076898",
@@ -68,67 +130,5 @@
     "region": "Pays de la Loire",
     "code_region": "52",
     "horaires_jour": null
-  },
-  {
-    "id": 85210010,
-    "latitude": "4656232.3",
-    "longitude": "-105918.5",
-    "cp": "85210",
-    "pop": "R",
-    "adresse": "132 ROUTE DE NANTES",
-    "ville": "Sainte-Hermine",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-06 06:43:32\", \"@valeur\": \"1.639\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-06 06:43:32\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-03-06 06:43:32\", \"@valeur\": \"1.784\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-10-18 08:45:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-10-18 08:45:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-10-18 08:45:22\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": -1.059185,
-      "lat": 46.562323
-    },
-    "gazole_maj": "2025-03-06T07:43:32+01:00",
-    "gazole_prix": 1.639,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-03-06T07:43:32+01:00",
-    "e10_prix": 1.679,
-    "sp98_maj": "2025-03-06T07:43:32+01:00",
-    "sp98_prix": 1.784,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-10-18T10:45:22+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2024-10-18T10:45:22+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-10-18T10:45:22+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Vendée",
-    "code_departement": "85",
-    "region": "Pays de la Loire",
-    "code_region": "52",
-    "horaires_jour": "Automate-24-24"
   }
 ]
