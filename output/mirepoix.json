@@ -70,6 +70,68 @@
     "horaires_jour": "Automate-24-24"
   },
   {
+    "id": 9500002,
+    "latitude": "4308856",
+    "longitude": "186719",
+    "cp": "09500",
+    "pop": "R",
+    "adresse": "Avenue Gabriel Faure",
+    "ville": "Mirepoix",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-19 15:53:35\", \"@valeur\": \"1.730\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-19 15:53:55\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-19 15:54:13\", \"@valeur\": \"1.900\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-07-25 16:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2016-07-25 16:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 1.86719,
+      "lat": 43.08856
+    },
+    "gazole_maj": "2025-02-19T16:53:35+01:00",
+    "gazole_prix": 1.73,
+    "sp95_maj": "2025-02-19T16:53:55+01:00",
+    "sp95_prix": 1.86,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-02-19T16:54:13+01:00",
+    "sp98_prix": 1.9,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Ariège",
+    "code_departement": "09",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": null
+  },
+  {
     "id": 9500001,
     "latitude": "4308500",
     "longitude": "187600",
@@ -142,67 +204,5 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": "Automate-24-24, Lundi07.30-19.00, Mardi07.30-19.00, Mercredi07.30-19.00, Jeudi07.30-19.00, Vendredi07.30-19.00, Samedi 09.00-13.30 et 16.30-19.00, Dimanche 09.00-13.30 et 16.30-19.00"
-  },
-  {
-    "id": 9500002,
-    "latitude": "4308856",
-    "longitude": "186719",
-    "cp": "09500",
-    "pop": "R",
-    "adresse": "Avenue Gabriel Faure",
-    "ville": "Mirepoix",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-02-19 15:53:35\", \"@valeur\": \"1.730\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-02-19 15:53:55\", \"@valeur\": \"1.860\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-02-19 15:54:13\", \"@valeur\": \"1.900\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-07-25 16:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2016-07-25 16:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 1.86719,
-      "lat": 43.08856
-    },
-    "gazole_maj": "2025-02-19T16:53:35+01:00",
-    "gazole_prix": 1.73,
-    "sp95_maj": "2025-02-19T16:53:55+01:00",
-    "sp95_prix": 1.86,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-02-19T16:54:13+01:00",
-    "sp98_prix": 1.9,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Ariège",
-    "code_departement": "09",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": null
   }
 ]
