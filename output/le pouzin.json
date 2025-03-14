@@ -1,23 +1,23 @@
 [
   {
     "id": 7250001,
-    "latitude": "4474581",
-    "longitude": "474503",
+    "latitude": "4474600",
+    "longitude": "474500",
     "cp": "07250",
     "pop": "R",
-    "adresse": "RD86 SORTIE SUD",
+    "adresse": "160 Avenue du Soleil",
     "ville": "Le Pouzin",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-11 08:30:54\", \"@valeur\": \"1.696\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-03-11 08:30:55\", \"@valeur\": \"1.819\"}]",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-13 12:24:56\", \"@valeur\": \"1.692\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-03-13 12:24:57\", \"@valeur\": \"1.819\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-06-11 12:17:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-11 12:17:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-06-11 12:17:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2018-06-11 12:17:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": 4.74503,
-      "lat": 44.74581
+      "lon": 4.745,
+      "lat": 44.746
     },
-    "gazole_maj": "2025-03-11T09:30:54+01:00",
-    "gazole_prix": 1.696,
-    "sp95_maj": "2025-03-11T09:30:55+01:00",
+    "gazole_maj": "2025-03-13T13:24:56+01:00",
+    "gazole_prix": 1.692,
+    "sp95_maj": "2025-03-13T13:24:57+01:00",
     "sp95_prix": 1.819,
     "e85_maj": null,
     "e85_prix": null,
@@ -51,7 +51,7 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
       "Boutique alimentaire",
@@ -61,13 +61,15 @@
       "Lavage automatique",
       "Lavage manuel",
       "Services réparation / entretien",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
     ],
     "departement": "Ardèche",
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24, Lundi06.30-19.30, Mardi06.30-19.30, Mercredi06.30-19.30, Jeudi06.30-19.30, Vendredi06.30-19.30, Samedi07.00-19.00, Dimanche"
   },
   {
     "id": 7250004,

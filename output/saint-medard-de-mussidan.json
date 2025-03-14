@@ -8,15 +8,15 @@
     "adresse": "ZI",
     "ville": "Saint-Médard-de-Mussidan",
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-12 19:57:48\", \"@valeur\": \"1.581\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-03-12 19:57:48\", \"@valeur\": \"1.665\"}]",
-    "rupture": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-03-12 16:42:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-08-16 08:39:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-08-16 08:39:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-08-16 08:39:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-13 08:29:38\", \"@valeur\": \"1.554\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-12 19:57:48\", \"@valeur\": \"1.581\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-03-12 19:57:48\", \"@valeur\": \"1.665\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-08-16 08:39:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-08-16 08:39:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-08-16 08:39:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.354,
       "lat": 45.038
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2025-03-13T09:29:38+01:00",
+    "gazole_prix": 1.554,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2023-08-16T10:39:30+02:00",
     "gplc_rupture_type": "temporaire",
-    "gazole_rupture_debut": "2025-03-12T17:42:01+01:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole;SP95;E85;GPLc",
+    "carburants_rupture_temporaire": "SP95;E85;GPLc",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
