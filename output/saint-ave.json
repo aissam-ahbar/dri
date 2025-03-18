@@ -8,14 +8,14 @@
     "adresse": "4 Rue Marcel Dassault",
     "ville": "Saint-Avé",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Restauration à emporter\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-13 10:16:23\", \"@valeur\": \"1.619\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-13 10:16:24\", \"@valeur\": \"1.649\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 17:06:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 17:06:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-10-07 07:50:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-03-15 19:01:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-17 06:03:26\", \"@valeur\": \"1.619\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-17 06:03:26\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-03-17 06:03:26\", \"@valeur\": \"1.759\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 17:06:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 17:06:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-10-07 07:50:44\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": -2.7373650772103,
       "lat": 47.681471359867
     },
-    "gazole_maj": "2025-03-13T11:16:23+01:00",
+    "gazole_maj": "2025-03-17T07:03:26+01:00",
     "gazole_prix": 1.619,
     "sp95_maj": null,
     "sp95_prix": null,
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-03-13T11:16:24+01:00",
-    "e10_prix": 1.649,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2025-03-17T07:03:26+01:00",
+    "e10_prix": 1.659,
+    "sp98_maj": "2025-03-17T07:03:26+01:00",
+    "sp98_prix": 1.759,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2025-03-15T20:01:06+01:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2021-10-07T09:50:44+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-01T19:06:30+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
