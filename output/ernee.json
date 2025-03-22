@@ -73,6 +73,69 @@
     "horaires_jour": "Lundi00.00-23.59, Mardi00.00-23.59, Mercredi00.00-23.59, Jeudi00.00-23.59, Vendredi00.00-23.59, Samedi00.00-23.59, Dimanche00.00-23.59"
   },
   {
+    "id": 53500004,
+    "latitude": "4829239.99416",
+    "longitude": "-92665.4863355",
+    "cp": "53500",
+    "pop": "R",
+    "adresse": "La Hainaud",
+    "ville": "Ernée",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-21 12:06:04\", \"@valeur\": \"1.579\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-03-21 12:06:04\", \"@valeur\": \"1.686\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-21 12:06:04\", \"@valeur\": \"1.676\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-07-20 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2016-07-20 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 09:25:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 09:25:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-01 09:25:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -0.926654863355,
+      "lat": 48.2923999416
+    },
+    "gazole_maj": "2025-03-21T13:06:04+01:00",
+    "gazole_prix": 1.579,
+    "sp95_maj": "2025-03-21T13:06:04+01:00",
+    "sp95_prix": 1.686,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-03-21T13:06:04+01:00",
+    "e10_prix": 1.676,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2017-09-01T11:25:50+02:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-01T11:25:49+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-01T11:25:49+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Mayenne",
+    "code_departement": "53",
+    "region": "Pays de la Loire",
+    "code_region": "52",
+    "horaires_jour": null
+  },
+  {
     "id": 53500003,
     "latitude": "4829700",
     "longitude": "-91300",
@@ -142,68 +205,5 @@
     "region": "Pays de la Loire",
     "code_region": "52",
     "horaires_jour": "Automate-24-24, Lundi07.00-20.00, Mardi07.00-20.00, Mercredi07.00-20.00, Jeudi07.00-20.00, Vendredi07.00-20.00, Samedi07.30-13.00, Dimanche"
-  },
-  {
-    "id": 53500004,
-    "latitude": "4829239.99416",
-    "longitude": "-92665.4863355",
-    "cp": "53500",
-    "pop": "R",
-    "adresse": "La Hainaud",
-    "ville": "Ernée",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-14 08:35:03\", \"@valeur\": \"1.589\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-03-14 08:35:03\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-03-14 08:35:03\", \"@valeur\": \"1.689\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-07-20 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2016-07-20 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 09:25:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 09:25:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-01 09:25:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": -0.926654863355,
-      "lat": 48.2923999416
-    },
-    "gazole_maj": "2025-03-14T09:35:03+01:00",
-    "gazole_prix": 1.589,
-    "sp95_maj": "2025-03-14T09:35:03+01:00",
-    "sp95_prix": 1.699,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-03-14T09:35:03+01:00",
-    "e10_prix": 1.689,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2017-09-01T11:25:50+02:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-09-01T11:25:49+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-01T11:25:49+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Mayenne",
-    "code_departement": "53",
-    "region": "Pays de la Loire",
-    "code_region": "52",
-    "horaires_jour": null
   }
 ]
