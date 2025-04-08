@@ -1,67 +1,5 @@
 [
   {
-    "id": 37220002,
-    "latitude": "4711800",
-    "longitude": "41800",
-    "cp": "37220",
-    "pop": "R",
-    "adresse": "50 Rue Carnot",
-    "ville": "L'Île-Bouchard",
-    "services": "{\"service\": \"Carburant additivé\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-14 07:36:04\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-03-14 07:36:04\", \"@valeur\": \"1.900\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-13 07:46:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-13 07:46:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-10-18 07:43:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-13 07:46:42\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 0.418,
-      "lat": 47.118
-    },
-    "gazole_maj": "2025-03-14T08:36:04+01:00",
-    "gazole_prix": 1.8,
-    "sp95_maj": "2025-03-14T08:36:04+01:00",
-    "sp95_prix": 1.9,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": "2017-10-13T09:46:42+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2022-10-18T09:43:10+02:00",
-    "sp98_rupture_type": "temporaire",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-10-13T09:46:41+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-10-13T09:46:41+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": "SP98",
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé"
-    ],
-    "departement": "Indre-et-Loire",
-    "code_departement": "37",
-    "region": "Centre-Val de Loire",
-    "code_region": "24",
-    "horaires_jour": "Lundi07.30-19.00, Mardi07.30-19.00, Mercredi07.30-19.00, Jeudi07.30-19.00, Vendredi07.30-19.00, Samedi, Dimanche"
-  },
-  {
     "id": 37220001,
     "latitude": "4712200",
     "longitude": "43100",
@@ -134,5 +72,67 @@
     "region": "Centre-Val de Loire",
     "code_region": "24",
     "horaires_jour": "Automate-24-24, Lundi09.00-12.30, Mardi09.00-12.30, Mercredi09.00-12.30, Jeudi09.00-12.30, Vendredi09.00-12.30, Samedi09.00-12.30, Dimanche"
+  },
+  {
+    "id": 37220002,
+    "latitude": "4711800",
+    "longitude": "41800",
+    "cp": "37220",
+    "pop": "R",
+    "adresse": "50 Rue Carnot",
+    "ville": "L'Île-Bouchard",
+    "services": "{\"service\": \"Carburant additivé\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-03-14 07:36:04\", \"@valeur\": \"1.800\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-03-14 07:36:04\", \"@valeur\": \"1.900\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-13 07:46:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-13 07:46:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-13 07:46:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-10-18 07:43:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 0.418,
+      "lat": 47.118
+    },
+    "gazole_maj": "2025-03-14T08:36:04+01:00",
+    "gazole_prix": 1.8,
+    "sp95_maj": "2025-03-14T08:36:04+01:00",
+    "sp95_prix": 1.9,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2017-10-13T09:46:42+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2022-10-18T09:43:10+02:00",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-13T09:46:41+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-13T09:46:41+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé"
+    ],
+    "departement": "Indre-et-Loire",
+    "code_departement": "37",
+    "region": "Centre-Val de Loire",
+    "code_region": "24",
+    "horaires_jour": "Lundi07.30-19.00, Mardi07.30-19.00, Mercredi07.30-19.00, Jeudi07.30-19.00, Vendredi07.30-19.00, Samedi, Dimanche"
   }
 ]
