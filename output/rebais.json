@@ -8,8 +8,8 @@
     "adresse": "ZAC PRE ANCEL",
     "ville": "Rebais",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-07 10:28:49\", \"@valeur\": \"1.639\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-07 10:28:49\", \"@valeur\": \"1.779\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-07 10:28:49\", \"@valeur\": \"1.819\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-25 13:28:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 13:28:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-04-04 15:29:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-07 10:28:49\", \"@valeur\": \"1.639\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-07 10:28:49\", \"@valeur\": \"1.779\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-25 13:28:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 13:28:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-04-12 15:43:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-04-04 15:29:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.23114,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2025-04-07T12:28:49+02:00",
     "e10_prix": 1.779,
-    "sp98_maj": "2025-04-07T12:28:49+02:00",
-    "sp98_prix": 1.819,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-04-12T17:43:09+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2025-04-04T17:29:31+02:00",
     "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2017-09-25T15:28:32+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95;E85;GPLc",
+    "carburants_rupture_temporaire": "SP95;E85;GPLc;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
