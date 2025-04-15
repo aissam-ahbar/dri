@@ -63,6 +63,69 @@
     "horaires_jour": null
   },
   {
+    "id": 62660003,
+    "latitude": "5051300",
+    "longitude": "268900",
+    "cp": "62660",
+    "pop": "R",
+    "adresse": "ZONE DU MOULIN RUE ARTHUR LAMENDIN",
+    "ville": "Beuvry",
+    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-14 09:35:55\", \"@valeur\": \"1.476\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-04-14 09:35:55\", \"@valeur\": \"1.621\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-11 09:52:22\", \"@valeur\": \"1.668\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-02 08:38:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-02 08:38:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-10-16 11:26:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 2.689,
+      "lat": 50.513
+    },
+    "gazole_maj": "2025-04-14T11:35:55+02:00",
+    "gazole_prix": 1.476,
+    "sp95_maj": "2025-04-14T11:35:55+02:00",
+    "sp95_prix": 1.621,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-04-11T11:52:22+02:00",
+    "sp98_prix": 1.668,
+    "e10_rupture_debut": "2017-11-02T09:38:02+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-10-16T13:26:00+02:00",
+    "e85_rupture_type": "temporaire",
+    "gplc_rupture_debut": "2017-11-02T09:38:02+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": "E85",
+    "carburants_rupture_definitive": "GPLc;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de pétrole lampant",
+      "Automate CB 24/24"
+    ],
+    "departement": "Pas-de-Calais",
+    "code_departement": "62",
+    "region": "Hauts-de-France",
+    "code_region": "32",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 62660004,
     "latitude": "5052300",
     "longitude": "268100",
@@ -128,68 +191,5 @@
     "region": "Hauts-de-France",
     "code_region": "32",
     "horaires_jour": "Lundi 06.00-14.00 et 14.00-21.00, Mardi 06.00-14.00 et 14.00-21.00, Mercredi 06.00-14.00 et 14.00-21.00, Jeudi 06.00-14.00 et 14.00-21.00, Vendredi 06.00-14.00 et 14.00-21.00, Samedi 07.00-14.00 et 14.00-21.00, Dimanche 08.00-14.00 et 14.00-21.00"
-  },
-  {
-    "id": 62660003,
-    "latitude": "5051300",
-    "longitude": "268900",
-    "cp": "62660",
-    "pop": "R",
-    "adresse": "ZONE DU MOULIN RUE ARTHUR LAMENDIN",
-    "ville": "Beuvry",
-    "services": "{\"service\": [\"Vente de pétrole lampant\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-10 11:51:13\", \"@valeur\": \"1.480\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-04-11 09:52:22\", \"@valeur\": \"1.638\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-11 09:52:22\", \"@valeur\": \"1.668\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-02 08:38:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-02 08:38:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-10-16 11:26:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 2.689,
-      "lat": 50.513
-    },
-    "gazole_maj": "2025-04-10T13:51:13+02:00",
-    "gazole_prix": 1.48,
-    "sp95_maj": "2025-04-11T11:52:22+02:00",
-    "sp95_prix": 1.638,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-04-11T11:52:22+02:00",
-    "sp98_prix": 1.668,
-    "e10_rupture_debut": "2017-11-02T09:38:02+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2024-10-16T13:26:00+02:00",
-    "e85_rupture_type": "temporaire",
-    "gplc_rupture_debut": "2017-11-02T09:38:02+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": "E85",
-    "carburants_rupture_definitive": "GPLc;E10",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de pétrole lampant",
-      "Automate CB 24/24"
-    ],
-    "departement": "Pas-de-Calais",
-    "code_departement": "62",
-    "region": "Hauts-de-France",
-    "code_region": "32",
-    "horaires_jour": "Automate-24-24"
   }
 ]
