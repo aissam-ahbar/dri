@@ -8,8 +8,8 @@
     "adresse": "Lieu-dit La Dugeonnière",
     "ville": "Angles",
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de pétrole lampant\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-18 10:11:49\", \"@valeur\": \"1.499\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-18 10:11:49\", \"@valeur\": \"1.618\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-18 10:11:50\", \"@valeur\": \"1.699\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-08-23 08:45:31\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-18 10:11:49\", \"@valeur\": \"1.499\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-08-23 08:45:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-04-23 09:47:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-04-23 09:47:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.39324,
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-04-18T12:11:49+02:00",
-    "e10_prix": 1.618,
-    "sp98_maj": "2025-04-18T12:11:50+02:00",
-    "sp98_prix": 1.699,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2025-04-23T11:47:32+02:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2025-04-23T11:47:32+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2022-08-23T10:45:31+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
