@@ -8,29 +8,29 @@
     "adresse": "ESPACE CIAL GRAND LAC",
     "ville": "Saint-Philbert-de-Grand-Lieu",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-23 08:11:46\", \"@valeur\": \"1.489\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-04-19 08:02:01\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-23 08:11:46\", \"@valeur\": \"1.579\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-23 08:11:47\", \"@valeur\": \"1.669\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-03-25 07:56:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-03-25 13:04:56\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-26 07:40:27\", \"@valeur\": \"1.499\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-04-19 08:02:01\", \"@valeur\": \"0.939\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-26 07:40:28\", \"@valeur\": \"1.589\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-03-25 13:04:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-04-28 08:18:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-03-25 07:56:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.6403904800000002,
       "lat": 47.04729577
     },
-    "gazole_maj": "2025-04-23T10:11:46+02:00",
-    "gazole_prix": 1.489,
+    "gazole_maj": "2025-04-26T09:40:27+02:00",
+    "gazole_prix": 1.499,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": "2025-04-19T10:02:01+02:00",
     "gplc_prix": 0.939,
-    "e10_maj": "2025-04-23T10:11:46+02:00",
-    "e10_prix": 1.579,
-    "sp98_maj": "2025-04-23T10:11:47+02:00",
-    "sp98_prix": 1.669,
+    "e10_maj": "2025-04-26T09:40:28+02:00",
+    "e10_prix": 1.589,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-04-28T10:18:20+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2024-03-25T08:56:12+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2023-03-25T14:04:56+01:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85"
+      "E85",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
