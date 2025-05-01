@@ -8,8 +8,8 @@
     "adresse": "RN 10",
     "ville": "Villedômer",
     "services": "{\"service\": [\"Douches\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-30 00:01:00\", \"@valeur\": \"1.675\"}",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-04-29 13:46:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-04-29 14:04:42\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": null,
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-04-29 13:46:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-04-29 14:04:42\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-04-30 06:54:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.897356013533,
@@ -23,12 +23,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-04-30T02:01:00+02:00",
-    "e10_prix": 1.675,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2025-04-30T08:54:52+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2025-04-29T15:46:25+02:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
@@ -39,17 +39,9 @@
     "gplc_rupture_type": null,
     "gazole_rupture_debut": "2025-04-29T16:04:42+02:00",
     "gazole_rupture_type": "temporaire",
-    "carburants_disponibles": [
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": "Gazole;SP98",
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;E10;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
