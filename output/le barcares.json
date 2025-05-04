@@ -147,8 +147,8 @@
     "adresse": "BOULEVARD DU 14 JUILLET",
     "ville": "Le Barcarès",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-15 10:14:58\", \"@valeur\": \"1.519\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-23 10:49:10\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-23 10:49:11\", \"@valeur\": \"1.729\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-23 07:23:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-01-02 08:07:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-02 08:07:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-15 10:14:58\", \"@valeur\": \"1.519\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-04-23 10:49:10\", \"@valeur\": \"1.619\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-23 07:23:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-05-03 16:23:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-01-02 08:07:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-02 08:07:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.0349,
@@ -164,12 +164,12 @@
     "gplc_prix": null,
     "e10_maj": "2025-04-23T12:49:10+02:00",
     "e10_prix": 1.619,
-    "sp98_maj": "2025-04-23T12:49:11+02:00",
-    "sp98_prix": 1.729,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-05-03T18:23:59+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2018-06-23T09:23:45+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2018-01-02T09:07:20+01:00",
@@ -180,15 +180,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
