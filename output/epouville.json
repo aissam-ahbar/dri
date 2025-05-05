@@ -8,16 +8,16 @@
     "adresse": "RUE ARISTIDE BRIAND",
     "ville": "Épouville",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-02 08:27:05\", \"@valeur\": \"1.548\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-02 08:27:05\", \"@valeur\": \"1.694\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-02 08:27:05\", \"@valeur\": \"1.727\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-01-19 09:28:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-19 07:57:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-02-25 08:27:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-04 07:51:17\", \"@valeur\": \"1.548\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-04 07:51:17\", \"@valeur\": \"1.694\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-01-19 09:28:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-19 07:57:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-02-25 08:27:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-05-04 07:50:49\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.22054,
       "lat": 49.5618
     },
-    "gazole_maj": "2025-05-02T10:27:05+02:00",
+    "gazole_maj": "2025-05-04T09:51:17+02:00",
     "gazole_prix": 1.548,
-    "sp95_maj": "2025-05-02T10:27:05+02:00",
+    "sp95_maj": "2025-05-04T09:51:17+02:00",
     "sp95_prix": 1.694,
     "e85_maj": null,
     "e85_prix": null,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2025-05-02T10:27:05+02:00",
-    "sp98_prix": 1.727,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2023-02-25T09:27:20+01:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-05-04T09:50:49+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2023-01-19T10:28:51+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "SP98"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "E85;GPLc;E10",
+    "carburants_rupture_temporaire": "E85;GPLc;E10;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
