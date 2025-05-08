@@ -75,7 +75,7 @@
     "pop": "R",
     "adresse": "5 Avenue De La Presqu'île",
     "ville": "Lège-Cap-Ferret",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-05 09:04:15\", \"@valeur\": \"1.499\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-05 09:04:15\", \"@valeur\": \"1.660\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-05 09:04:15\", \"@valeur\": \"1.699\"}]",
     "rupture": null,
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
@@ -121,6 +121,10 @@
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Relais colis",
+      "Boutique alimentaire",
+      "Restauration à emporter",
+      "Vente de gaz domestique (Butane, Propane)",
       "Automate CB 24/24"
     ],
     "departement": "Gironde",

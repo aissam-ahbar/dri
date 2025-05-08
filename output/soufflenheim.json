@@ -75,17 +75,17 @@
     "adresse": "Route de Drusenheim",
     "ville": "Soufflenheim",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-05 13:31:54\", \"@valeur\": \"1.509\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-05 13:31:55\", \"@valeur\": \"1.629\"}]",
+    "prix": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-07 12:26:39\", \"@valeur\": \"1.639\"}",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-07 11:40:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-08-07 11:40:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-08-07 11:40:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-08-07 11:40:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 7.964,
       "lat": 48.819
     },
-    "gazole_maj": "2025-05-05T15:31:54+02:00",
-    "gazole_prix": 1.509,
-    "sp95_maj": "2025-05-05T15:31:55+02:00",
-    "sp95_prix": 1.629,
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": "2025-05-07T14:26:39+02:00",
+    "sp95_prix": 1.639,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -107,10 +107,10 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
       "SP95"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10",
