@@ -8,8 +8,8 @@
     "adresse": "Route de Tigy",
     "ville": "Vienne-en-Val",
     "services": "{\"service\": [\"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-07 11:09:50\", \"@valeur\": \"1.526\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-07 11:09:50\", \"@valeur\": \"1.650\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-07 11:09:50\", \"@valeur\": \"1.692\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-04-21 19:32:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-04-21 19:32:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-04-21 19:32:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-07 11:09:50\", \"@valeur\": \"1.526\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-07 11:09:50\", \"@valeur\": \"1.692\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-04-21 19:32:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-04-21 19:32:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-04-21 19:32:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-05-12 17:46:21\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.13956,
@@ -17,8 +17,8 @@
     },
     "gazole_maj": "2025-05-07T13:09:50+02:00",
     "gazole_prix": 1.526,
-    "sp95_maj": "2025-05-07T13:09:50+02:00",
-    "sp95_prix": 1.65,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2025-05-12T19:46:21+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2023-04-21T21:32:03+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2023-04-21T21:32:03+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP95",
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
