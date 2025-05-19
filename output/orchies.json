@@ -73,15 +73,15 @@
     "adresse": "route dpt 938 zone de l' europe",
     "ville": "Orchies",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-15 06:43:56\", \"@valeur\": \"1.507\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-15 06:43:56\", \"@valeur\": \"1.615\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-15 06:43:57\", \"@valeur\": \"1.709\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-05-14 06:51:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-21 07:59:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-21 07:59:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-15 06:43:56\", \"@valeur\": \"1.615\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-15 06:43:57\", \"@valeur\": \"1.709\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-21 07:59:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-21 07:59:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-05-18 10:01:57\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-05-14 06:51:00\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.22780197,
       "lat": 50.46946111
     },
-    "gazole_maj": "2025-05-15T08:43:56+02:00",
-    "gazole_prix": 1.507,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -102,19 +102,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-11-21T08:59:45+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-05-18T12:01:57+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
