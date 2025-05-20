@@ -1,5 +1,67 @@
 [
   {
+    "id": 27300007,
+    "latitude": "4908866.9140506",
+    "longitude": "60292.822220617",
+    "cp": "27300",
+    "pop": "R",
+    "adresse": "53 BD SYLLA LEFEVRE",
+    "ville": "Bernay",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-28 15:41:23\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-12 23:59:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-03-11 23:59:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-12 23:59:00\", \"@valeur\": \"1.839\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-01-26 16:31:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-01-26 16:31:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 0.60292822220617,
+      "lat": 49.08866914050599
+    },
+    "gazole_maj": "2025-04-28T17:41:23+02:00",
+    "gazole_prix": 1.659,
+    "sp95_maj": "2025-05-13T01:59:00+02:00",
+    "sp95_prix": 1.799,
+    "e85_maj": "2025-03-12T00:59:00+01:00",
+    "e85_prix": 0.899,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-05-13T01:59:00+02:00",
+    "sp98_prix": 1.839,
+    "e10_rupture_debut": "2023-01-26T17:31:36+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2023-01-26T17:31:36+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Eure",
+    "code_departement": "27",
+    "region": "Normandie",
+    "code_region": "28",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 27300005,
     "latitude": "4908550",
     "longitude": "59836",
@@ -63,67 +125,5 @@
     "region": "Normandie",
     "code_region": "28",
     "horaires_jour": null
-  },
-  {
-    "id": 27300007,
-    "latitude": "4908866.9140506",
-    "longitude": "60292.822220617",
-    "cp": "27300",
-    "pop": "R",
-    "adresse": "53 BD SYLLA LEFEVRE",
-    "ville": "Bernay",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-04-28 15:41:23\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-12 23:59:00\", \"@valeur\": \"1.799\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-03-11 23:59:00\", \"@valeur\": \"0.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-12 23:59:00\", \"@valeur\": \"1.839\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-01-26 16:31:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-01-26 16:31:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 0.60292822220617,
-      "lat": 49.08866914050599
-    },
-    "gazole_maj": "2025-04-28T17:41:23+02:00",
-    "gazole_prix": 1.659,
-    "sp95_maj": "2025-05-13T01:59:00+02:00",
-    "sp95_prix": 1.799,
-    "e85_maj": "2025-03-12T00:59:00+01:00",
-    "e85_prix": 0.899,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-05-13T01:59:00+02:00",
-    "sp98_prix": 1.839,
-    "e10_rupture_debut": "2023-01-26T17:31:36+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2023-01-26T17:31:36+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "GPLc;E10",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Eure",
-    "code_departement": "27",
-    "region": "Normandie",
-    "code_region": "28",
-    "horaires_jour": "Automate-24-24"
   }
 ]
