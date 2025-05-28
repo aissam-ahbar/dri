@@ -8,23 +8,23 @@
     "adresse": "217 rue du grand Arc Carrefour des vallées",
     "ville": "Tournon",
     "services": "{\"service\": [\"Toilettes publiques\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-26 09:36:47\", \"@valeur\": \"1.498\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-26 09:36:47\", \"@valeur\": \"1.668\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-04-22 09:48:33\", \"@valeur\": \"0.697\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-27 17:14:39\", \"@valeur\": \"1.508\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-27 17:14:40\", \"@valeur\": \"1.698\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-04-22 09:48:33\", \"@valeur\": \"0.697\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-27 17:14:40\", \"@valeur\": \"1.628\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 08:50:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-10-04 08:51:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 6.33,
       "lat": 45.646
     },
-    "gazole_maj": "2025-05-26T11:36:47+02:00",
-    "gazole_prix": 1.498,
-    "sp95_maj": "2025-05-26T11:36:47+02:00",
-    "sp95_prix": 1.668,
+    "gazole_maj": "2025-05-27T19:14:39+02:00",
+    "gazole_prix": 1.508,
+    "sp95_maj": "2025-05-27T19:14:40+02:00",
+    "sp95_prix": 1.698,
     "e85_maj": "2025-04-22T11:48:33+02:00",
     "e85_prix": 0.697,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2025-05-27T19:14:40+02:00",
+    "e10_prix": 1.628,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
@@ -42,11 +42,11 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85"
+      "E85",
+      "E10"
     ],
     "carburants_indisponibles": [
       "GPLc",
-      "E10",
       "SP98"
     ],
     "carburants_rupture_temporaire": null,
