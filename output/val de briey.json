@@ -1,5 +1,68 @@
 [
   {
+    "id": 54150002,
+    "latitude": "4925800",
+    "longitude": "594100",
+    "cp": "54150",
+    "pop": "R",
+    "adresse": "Avenue Marguerite Puhl Demange",
+    "ville": "Val de Briey",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Location de véhicule\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-30 15:08:58\", \"@valeur\": \"1.569\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-30 15:08:58\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-30 15:08:58\", \"@valeur\": \"1.749\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-11-23 08:38:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 08:52:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 08:52:11\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 5.941,
+      "lat": 49.258
+    },
+    "gazole_maj": "2025-05-30T17:08:58+02:00",
+    "gazole_prix": 1.569,
+    "sp95_maj": "2025-05-30T17:08:58+02:00",
+    "sp95_prix": 1.729,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-05-30T17:08:58+02:00",
+    "sp98_prix": 1.749,
+    "e10_rupture_debut": "2021-11-23T09:38:00+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-09-05T10:52:11+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-05T10:52:11+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Toilettes publiques",
+      "Location de véhicule"
+    ],
+    "departement": "Meurthe-et-Moselle",
+    "code_departement": "54",
+    "region": "Grand Est",
+    "code_region": "44",
+    "horaires_jour": null
+  },
+  {
     "id": 54150001,
     "latitude": "4925400",
     "longitude": "593700",
@@ -66,68 +129,5 @@
     "region": "Grand Est",
     "code_region": "44",
     "horaires_jour": "Lundi 07.00-12.00 et 13.30-19.00, Mardi 07.00-12.00 et 13.30-19.00, Mercredi 07.00-12.00 et 13.30-19.00, Jeudi 07.00-12.00 et 13.30-19.00, Vendredi 07.00-12.00 et 13.30-19.00, Samedi, Dimanche"
-  },
-  {
-    "id": 54150002,
-    "latitude": "4925800",
-    "longitude": "594100",
-    "cp": "54150",
-    "pop": "R",
-    "adresse": "Avenue Marguerite Puhl Demange",
-    "ville": "Val de Briey",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Location de véhicule\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-30 15:08:58\", \"@valeur\": \"1.569\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-05-30 15:08:58\", \"@valeur\": \"1.729\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-30 15:08:58\", \"@valeur\": \"1.749\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2021-11-23 08:38:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 08:52:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 08:52:11\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 5.941,
-      "lat": 49.258
-    },
-    "gazole_maj": "2025-05-30T17:08:58+02:00",
-    "gazole_prix": 1.569,
-    "sp95_maj": "2025-05-30T17:08:58+02:00",
-    "sp95_prix": 1.729,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-05-30T17:08:58+02:00",
-    "sp98_prix": 1.749,
-    "e10_rupture_debut": "2021-11-23T09:38:00+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-09-05T10:52:11+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-05T10:52:11+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Toilettes publiques",
-      "Location de véhicule"
-    ],
-    "departement": "Meurthe-et-Moselle",
-    "code_departement": "54",
-    "region": "Grand Est",
-    "code_region": "44",
-    "horaires_jour": null
   }
 ]
