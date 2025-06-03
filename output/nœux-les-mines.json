@@ -73,29 +73,29 @@
     "adresse": "Rue de Mazingarbe",
     "ville": "Nœux-les-Mines",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-30 08:22:28\", \"@valeur\": \"1.499\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-05-30 08:22:28\", \"@valeur\": \"0.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-30 08:22:29\", \"@valeur\": \"1.610\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-30 08:22:29\", \"@valeur\": \"1.695\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 08:04:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-10-22 07:55:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-02 08:36:36\", \"@valeur\": \"1.499\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-06-02 08:36:36\", \"@valeur\": \"0.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-02 08:36:36\", \"@valeur\": \"1.610\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 08:04:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-10-22 07:55:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-06-02 08:36:02\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.6781464899999996,
       "lat": 50.47753377
     },
-    "gazole_maj": "2025-05-30T10:22:28+02:00",
+    "gazole_maj": "2025-06-02T10:36:36+02:00",
     "gazole_prix": 1.499,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2025-05-30T10:22:28+02:00",
+    "e85_maj": "2025-06-02T10:36:36+02:00",
     "e85_prix": 0.689,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-05-30T10:22:29+02:00",
+    "e10_maj": "2025-06-02T10:36:36+02:00",
     "e10_prix": 1.61,
-    "sp98_maj": "2025-05-30T10:22:29+02:00",
-    "sp98_prix": 1.695,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-06-02T10:36:02+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2020-10-22T09:55:40+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -107,14 +107,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
