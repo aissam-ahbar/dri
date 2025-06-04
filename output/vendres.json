@@ -81,8 +81,8 @@
     "adresse": "2 Chemin des GRUSSANOTTES",
     "ville": "Vendres",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-05-20 12:33:47\", \"@valeur\": \"0.698\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-28 13:09:55\", \"@valeur\": \"1.634\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-28 13:09:55\", \"@valeur\": \"1.715\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-04-25 11:07:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-04-25 11:07:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-06-01 12:24:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-05-20 12:33:47\", \"@valeur\": \"0.698\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-03 11:58:09\", \"@valeur\": \"1.632\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-28 13:09:55\", \"@valeur\": \"1.715\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-04-25 11:07:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-04-25 11:07:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 3.2379809999999996,
@@ -96,8 +96,8 @@
     "e85_prix": 0.698,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-05-28T15:09:55+02:00",
-    "e10_prix": 1.634,
+    "e10_maj": "2025-06-03T13:58:09+02:00",
+    "e10_prix": 1.632,
     "sp98_maj": "2025-05-28T15:09:55+02:00",
     "sp98_prix": 1.715,
     "e10_rupture_debut": null,
@@ -110,8 +110,8 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2025-04-25T13:07:54+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2025-06-01T14:24:47+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "E85",
       "E10",
@@ -122,7 +122,7 @@
       "SP95",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
