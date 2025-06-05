@@ -8,8 +8,8 @@
     "adresse": "24 av de la Forge",
     "ville": "Les Eyzies",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-17 15:41:46\", \"@valeur\": \"1.604\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-06-03 10:13:17\", \"@valeur\": \"1.745\"}]",
-    "rupture": null,
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-17 15:41:46\", \"@valeur\": \"1.604\"}",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-06-04 10:21:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 1.02,
@@ -17,8 +17,8 @@
     },
     "gazole_maj": "2025-05-17T17:41:46+02:00",
     "gazole_prix": 1.604,
-    "sp95_maj": "2025-06-03T12:13:17+02:00",
-    "sp95_prix": 1.745,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2025-06-04T12:21:10+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "SP95"
+      "Gazole"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP95",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [

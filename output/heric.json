@@ -8,15 +8,15 @@
     "adresse": "51 RUE DE L'OCEAN",
     "ville": "Héric",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-26 09:00:00\", \"@valeur\": \"1.509\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-03 09:00:00\", \"@valeur\": \"1.619\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-04 14:45:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-05-17 08:01:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-03-07 11:15:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-05-31 15:05:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-04 09:00:00\", \"@valeur\": \"1.519\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-03 09:00:00\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-06-04 12:51:22\", \"@valeur\": \"1.709\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-04 14:45:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-05-17 08:01:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-03-07 11:15:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.66024,
       "lat": 47.41492
     },
-    "gazole_maj": "2025-05-26T11:00:00+02:00",
-    "gazole_prix": 1.509,
+    "gazole_maj": "2025-06-04T11:00:00+02:00",
+    "gazole_prix": 1.519,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2025-06-03T11:00:00+02:00",
     "e10_prix": 1.619,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2025-06-04T14:51:22+02:00",
+    "sp98_prix": 1.709,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2025-05-31T17:05:09+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-03-07T12:15:43+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2019-05-17T10:01:24+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "SP98"
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,
