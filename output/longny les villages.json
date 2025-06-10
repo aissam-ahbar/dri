@@ -1,19 +1,19 @@
 [
   {
     "id": 61290002,
-    "latitude": "4852700",
-    "longitude": "75000",
+    "latitude": "4852653.54",
+    "longitude": "74970.7",
     "cp": "61290",
     "pop": "R",
-    "adresse": "19 BIS RUE DU DOCTEUR JEAN VIVARES",
+    "adresse": "19 Bis Rue du Dr Jean Vivares",
     "ville": "Longny les Villages",
-    "services": "{\"service\": [\"Laverie\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "services": "{\"service\": [\"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-26 12:32:00\", \"@valeur\": \"1.539\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-15 18:16:13\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-19 09:58:55\", \"@valeur\": \"1.749\"}]",
     "rupture": null,
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}}]}",
     "geom": {
-      "lon": 0.75,
-      "lat": 48.527
+      "lon": 0.749707,
+      "lat": 48.5265354
     },
     "gazole_maj": "2025-05-26T14:32:00+02:00",
     "gazole_prix": 1.539,
@@ -51,15 +51,16 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Orne",
     "code_departement": "61",
     "region": "Normandie",
     "code_region": "28",
-    "horaires_jour": "Lundi09.00-19.30, Mardi09.00-19.30, Mercredi09.00-19.30, Jeudi09.00-19.30, Vendredi09.00-19.30, Samedi09.00-19.30, Dimanche09.15-12.30"
+    "horaires_jour": "Automate-24-24, Lundi09.00-19.30, Mardi09.00-19.30, Mercredi09.00-19.30, Jeudi09.00-19.30, Vendredi09.00-19.30, Samedi09.00-19.30, Dimanche09.15-12.30"
   }
 ]
