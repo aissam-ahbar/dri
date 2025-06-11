@@ -1,5 +1,69 @@
 [
   {
+    "id": 95420002,
+    "latitude": "4915700",
+    "longitude": "178400",
+    "cp": "95420",
+    "pop": "R",
+    "adresse": "route de rouen",
+    "ville": "Magny-en-Vexin",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-17 09:14:35\", \"@valeur\": \"1.569\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-05-28 10:38:21\", \"@valeur\": \"0.755\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-17 09:14:35\", \"@valeur\": \"1.683\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-15 08:08:06\", \"@valeur\": \"1.763\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-05-02 13:49:28\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-07-04 16:10:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "geom": {
+      "lon": 1.784,
+      "lat": 49.157
+    },
+    "gazole_maj": "2025-05-17T11:14:35+02:00",
+    "gazole_prix": 1.569,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2025-05-28T12:38:21+02:00",
+    "e85_prix": 0.755,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-05-17T11:14:35+02:00",
+    "e10_prix": 1.683,
+    "sp98_maj": "2025-05-15T10:08:06+02:00",
+    "sp98_prix": 1.763,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2025-05-02T15:49:28+02:00",
+    "sp95_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2024-07-04T18:10:07+02:00",
+    "gplc_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": "SP95;GPLc",
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Val-d'Oise",
+    "code_departement": "95",
+    "region": "Île-de-France",
+    "code_region": "11",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
     "id": 95420003,
     "latitude": "4914700",
     "longitude": "178700",
@@ -9,7 +73,7 @@
     "ville": "Magny-en-Vexin",
     "services": "{\"service\": [\"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-27 08:59:09\", \"@valeur\": \"1.555\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-05-27 11:22:29\", \"@valeur\": \"0.969\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-09 12:03:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-06-09 05:49:03\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-09-08 13:23:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-06-06 13:39:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-09-08 13:23:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-09 12:03:06\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-06-09 05:49:03\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-06-06 13:39:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
     "geom": {
       "lon": 1.787,
@@ -65,69 +129,5 @@
     "region": "Île-de-France",
     "code_region": "11",
     "horaires_jour": "Automate-24-24, Lundi00.00-00.00, Mardi00.00-00.00, Mercredi00.00-00.00, Jeudi00.00-00.00, Vendredi00.00-00.00, Samedi00.00-00.00, Dimanche00.00-00.00"
-  },
-  {
-    "id": 95420002,
-    "latitude": "4915700",
-    "longitude": "178400",
-    "cp": "95420",
-    "pop": "R",
-    "adresse": "route de rouen",
-    "ville": "Magny-en-Vexin",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-17 09:14:35\", \"@valeur\": \"1.569\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-05-28 10:38:21\", \"@valeur\": \"0.755\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-17 09:14:35\", \"@valeur\": \"1.683\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-15 08:08:06\", \"@valeur\": \"1.763\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-07-04 16:10:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-05-02 13:49:28\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "geom": {
-      "lon": 1.784,
-      "lat": 49.157
-    },
-    "gazole_maj": "2025-05-17T11:14:35+02:00",
-    "gazole_prix": 1.569,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2025-05-28T12:38:21+02:00",
-    "e85_prix": 0.755,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-05-17T11:14:35+02:00",
-    "e10_prix": 1.683,
-    "sp98_maj": "2025-05-15T10:08:06+02:00",
-    "sp98_prix": 1.763,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2025-05-02T15:49:28+02:00",
-    "sp95_rupture_type": "temporaire",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2024-07-04T18:10:07+02:00",
-    "gplc_rupture_type": "temporaire",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": "SP95;GPLc",
-    "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Val-d'Oise",
-    "code_departement": "95",
-    "region": "Île-de-France",
-    "code_region": "11",
-    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]
