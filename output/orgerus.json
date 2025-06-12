@@ -8,15 +8,15 @@
     "adresse": "17 rue de la vallée Jean Leloup - Route de Béhoust",
     "ville": "Orgerus",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-23 14:50:23\", \"@valeur\": \"1.545\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-23 14:50:24\", \"@valeur\": \"1.645\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-23 14:50:24\", \"@valeur\": \"1.736\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-30 11:42:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 11:42:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 11:42:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-23 14:50:24\", \"@valeur\": \"1.645\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-23 14:50:24\", \"@valeur\": \"1.736\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-30 11:42:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 11:42:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 11:42:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-06-11 15:39:53\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.70957925703,
       "lat": 48.834468619511
     },
-    "gazole_maj": "2025-05-23T16:50:23+02:00",
-    "gazole_prix": 1.545,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-08-30T13:42:47+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-06-11T17:39:53+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [

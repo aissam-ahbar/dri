@@ -9,7 +9,7 @@
     "ville": "Gouzon",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-06-02 08:49:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-06-02 08:49:00\", \"@valeur\": \"1.759\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 12:45:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 12:45:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-08-31 12:45:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-06-09 09:51:49\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 12:45:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 12:45:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-08-31 12:45:56\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.23891,
@@ -37,8 +37,8 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-08-31T14:45:56+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2025-06-09T11:51:49+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "SP95",
       "SP98"
@@ -49,7 +49,7 @@
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
