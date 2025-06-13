@@ -1,38 +1,38 @@
 [
   {
     "id": 23110002,
-    "latitude": "4616913",
-    "longitude": "248273",
+    "latitude": "4616900",
+    "longitude": "248300",
     "cp": "23110",
     "pop": "R",
     "adresse": "55 Avenue de la République",
     "ville": "Évaux-les-Bains",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-31 06:30:00\", \"@valeur\": \"1.539\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-05-31 06:30:00\", \"@valeur\": \"1.679\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-10-02 08:03:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-10-02 08:03:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-10-02 08:03:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-06-11 11:43:41\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": null,
+    "services": "{\"service\": [\"Laverie\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-12 07:37:59\", \"@valeur\": \"1.559\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-06-12 15:35:13\", \"@valeur\": \"1.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-12 07:37:59\", \"@valeur\": \"1.699\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-10-02 08:03:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-10-02 08:03:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-10-02 08:03:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": 2.48273,
-      "lat": 46.16913
+      "lon": 2.483,
+      "lat": 46.169
     },
-    "gazole_maj": "2025-05-31T08:30:00+02:00",
-    "gazole_prix": 1.539,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2025-06-12T09:37:59+02:00",
+    "gazole_prix": 1.559,
+    "sp95_maj": "2025-06-12T17:35:13+02:00",
+    "sp95_prix": 1.739,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-05-31T08:30:00+02:00",
-    "e10_prix": 1.679,
+    "e10_maj": "2025-06-12T09:37:59+02:00",
+    "e10_prix": 1.699,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": "2020-10-02T10:03:46+02:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": "2025-06-11T13:43:41+02:00",
-    "sp95_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
     "e85_rupture_debut": "2020-10-02T10:03:45+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2020-10-02T10:03:45+02:00",
@@ -41,22 +41,26 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
       "E10"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Laverie",
+      "Bornes électriques",
+      "Automate CB 24/24"
+    ],
     "departement": "Creuse",
     "code_departement": "23",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24, Lundi09.00-12.00, Mardi09.00-12.00, Mercredi09.00-12.00, Jeudi09.00-12.00, Vendredi09.00-12.00, Samedi09.00-12.00, Dimanche"
   }
 ]

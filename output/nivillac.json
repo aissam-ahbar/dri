@@ -1,5 +1,67 @@
 [
   {
+    "id": 56130002,
+    "latitude": "4753507",
+    "longitude": "-228322",
+    "cp": "56130",
+    "pop": "R",
+    "adresse": "routes de nantes",
+    "ville": "Nivillac",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-12 11:58:47\", \"@valeur\": \"1.519\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-04-15 16:32:36\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-15 16:32:36\", \"@valeur\": \"1.699\"}]",
+    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-08-23 09:09:01\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "horaires": null,
+    "geom": {
+      "lon": -2.28322,
+      "lat": 47.53507
+    },
+    "gazole_maj": "2025-06-12T13:58:47+02:00",
+    "gazole_prix": 1.519,
+    "sp95_maj": "2025-04-15T18:32:36+02:00",
+    "sp95_prix": 1.679,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-04-15T18:32:36+02:00",
+    "sp98_prix": 1.699,
+    "e10_rupture_debut": "2023-08-23T11:09:01+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Morbihan",
+    "code_departement": "56",
+    "region": "Bretagne",
+    "code_region": "53",
+    "horaires_jour": null
+  },
+  {
     "id": 56130003,
     "latitude": "4752100",
     "longitude": "-228300",
@@ -73,67 +135,5 @@
     "region": "Bretagne",
     "code_region": "53",
     "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
-  },
-  {
-    "id": 56130002,
-    "latitude": "4753507",
-    "longitude": "-228322",
-    "cp": "56130",
-    "pop": "R",
-    "adresse": "routes de nantes",
-    "ville": "Nivillac",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-05-15 11:52:36\", \"@valeur\": \"1.509\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-04-15 16:32:36\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-04-15 16:32:36\", \"@valeur\": \"1.699\"}]",
-    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2023-08-23 09:09:01\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "horaires": null,
-    "geom": {
-      "lon": -2.28322,
-      "lat": 47.53507
-    },
-    "gazole_maj": "2025-05-15T13:52:36+02:00",
-    "gazole_prix": 1.509,
-    "sp95_maj": "2025-04-15T18:32:36+02:00",
-    "sp95_prix": 1.679,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-04-15T18:32:36+02:00",
-    "sp98_prix": 1.699,
-    "e10_rupture_debut": "2023-08-23T11:09:01+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Morbihan",
-    "code_departement": "56",
-    "region": "Bretagne",
-    "code_region": "53",
-    "horaires_jour": null
   }
 ]
