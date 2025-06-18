@@ -9,7 +9,7 @@
     "ville": "Morlaix",
     "services": "{\"service\": [\"Restauration à emporter\", \"Carburant additivé\", \"Restauration sur place\", \"Bar\", \"Boutique alimentaire\", \"Station de gonflage\", \"Boutique non alimentaire\", \"Laverie\", \"Vente de gaz domestique (Butane, Propane)\", \"Location de véhicule\", \"Relais colis\", \"Aire de camping-cars\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\", \"Lavage automatique\", \"Lavage manuel\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-05 09:00:00\", \"@valeur\": \"1.509\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-04-25 09:00:00\", \"@valeur\": \"0.698\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-04-22 09:12:18\", \"@valeur\": \"0.959\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-05 09:00:00\", \"@valeur\": \"1.619\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-03-16 15:43:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-06-12 17:35:21\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-03-16 15:43:46\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"23.59\"}}]}",
     "geom": {
       "lon": -3.813,
@@ -29,8 +29,8 @@
     "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2025-06-12T19:35:21+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2021-03-16T16:43:46+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -49,7 +49,7 @@
       "SP95",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Oui",
     "services_service": [
