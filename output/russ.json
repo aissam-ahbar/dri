@@ -8,23 +8,23 @@
     "adresse": "Rue de la Creuse Fontaine",
     "ville": "Russ",
     "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-06-06 09:08:59\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-06 09:08:59\", \"@valeur\": \"1.639\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-06-06 09:08:59\", \"@valeur\": \"1.729\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-23 09:32:28\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-06-06 09:08:59\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-23 09:32:29\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-06-06 09:08:59\", \"@valeur\": \"1.729\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-04-17 17:51:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-04-17 17:51:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 7.25104,
       "lat": 48.49433
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2025-06-23T11:32:28+02:00",
+    "gazole_prix": 1.619,
     "sp95_maj": "2025-06-06T11:08:59+02:00",
     "sp95_prix": 1.689,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-06-06T11:08:59+02:00",
-    "e10_prix": 1.639,
+    "e10_maj": "2025-06-23T11:32:29+02:00",
+    "e10_prix": 1.649,
     "sp98_maj": "2025-06-06T11:08:59+02:00",
     "sp98_prix": 1.729,
     "e10_rupture_debut": null,
@@ -40,12 +40,12 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc"
     ],
