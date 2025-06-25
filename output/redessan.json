@@ -1,19 +1,19 @@
 [
   {
     "id": 30129003,
-    "latitude": "4382430.852",
-    "longitude": "449784.641",
+    "latitude": "4382523.2309078",
+    "longitude": "449590.62170312",
     "cp": "30129",
     "pop": "R",
-    "adresse": "Mas VoletteRoute de Beaucaire",
+    "adresse": "Route de Beaucaire - Mas Volette",
     "ville": "Redessan",
-    "services": "{\"service\": [\"Aire de camping-cars\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "services": "{\"service\": [\"Aire de camping-cars\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-23 09:57:46\", \"@valeur\": \"1.649\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-06-23 09:57:46\", \"@valeur\": \"0.659\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-23 09:57:47\", \"@valeur\": \"1.679\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-11 08:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-06-11 08:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-06-11 08:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
-      "lon": 4.49784641,
-      "lat": 43.82430852
+      "lon": 4.4959062170312,
+      "lat": 43.825232309078
     },
     "gazole_maj": "2025-06-23T11:57:46+02:00",
     "gazole_prix": 1.649,
@@ -51,15 +51,16 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc;SP98",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Aire de camping-cars",
-      "Vente de gaz domestique (Butane, Propane)"
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
     ],
     "departement": "Gard",
     "code_departement": "30",
     "region": "Occitanie",
     "code_region": "76",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]
