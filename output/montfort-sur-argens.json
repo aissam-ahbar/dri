@@ -8,7 +8,7 @@
     "adresse": "QUARTIER LE PIGEONNIER",
     "ville": "Montfort-sur-Argens",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-26 11:27:07\", \"@valeur\": \"1.688\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-06-20 11:10:36\", \"@valeur\": \"0.698\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-26 11:27:08\", \"@valeur\": \"1.727\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-05-17 08:09:48\", \"@valeur\": \"1.782\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-26 11:27:07\", \"@valeur\": \"1.688\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-06-20 11:10:36\", \"@valeur\": \"0.698\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-06-26 11:27:08\", \"@valeur\": \"1.727\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-02 14:13:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-12-08 17:29:08\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
@@ -25,8 +25,8 @@
     "gplc_prix": null,
     "e10_maj": "2025-06-26T13:27:08+02:00",
     "e10_prix": 1.727,
-    "sp98_maj": "2025-05-17T10:09:48+02:00",
-    "sp98_prix": 1.782,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -42,12 +42,12 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
