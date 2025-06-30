@@ -1,5 +1,68 @@
 [
   {
+    "id": 81700006,
+    "latitude": "4356619.3463721",
+    "longitude": "200496.97250702",
+    "cp": "81700",
+    "pop": "R",
+    "adresse": "483 Route de revel",
+    "ville": "Puylaurens",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-21 07:23:54\", \"@valeur\": \"1.695\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-06-21 07:23:54\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-06-21 07:23:55\", \"@valeur\": \"1.789\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-05-15 18:06:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-05-15 18:06:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-05-15 18:06:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"13.00\"}}]}",
+    "geom": {
+      "lon": 2.0049697250702,
+      "lat": 43.56619346372099
+    },
+    "gazole_maj": "2025-06-21T09:23:54+02:00",
+    "gazole_prix": 1.695,
+    "sp95_maj": "2025-06-21T09:23:54+02:00",
+    "sp95_prix": 1.749,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-06-21T09:23:55+02:00",
+    "sp98_prix": 1.789,
+    "e10_rupture_debut": "2024-05-15T20:06:01+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2024-05-15T20:06:00+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-05-15T20:06:00+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Automate CB 24/24"
+    ],
+    "departement": "Tarn",
+    "code_departement": "81",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24, Lundi08.00-20.00, Mardi08.00-20.00, Mercredi08.00-20.00, Jeudi08.00-20.00, Vendredi08.00-20.00, Samedi08.00-20.00, Dimanche09.00-13.00"
+  },
+  {
     "id": 81700003,
     "latitude": "4356700",
     "longitude": "200600",
@@ -69,68 +132,5 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 81700006,
-    "latitude": "4356619.3463721",
-    "longitude": "200496.97250702",
-    "cp": "81700",
-    "pop": "R",
-    "adresse": "483 Route de revel",
-    "ville": "Puylaurens",
-    "services": "{\"service\": [\"Piste poids lourds\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-21 07:23:54\", \"@valeur\": \"1.695\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-06-21 07:23:54\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-06-21 07:23:55\", \"@valeur\": \"1.789\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-05-15 18:06:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-05-15 18:06:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-05-15 18:06:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"13.00\"}}]}",
-    "geom": {
-      "lon": 2.0049697250702,
-      "lat": 43.56619346372099
-    },
-    "gazole_maj": "2025-06-21T09:23:54+02:00",
-    "gazole_prix": 1.695,
-    "sp95_maj": "2025-06-21T09:23:54+02:00",
-    "sp95_prix": 1.749,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-06-21T09:23:55+02:00",
-    "sp98_prix": 1.789,
-    "e10_rupture_debut": "2024-05-15T20:06:01+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2024-05-15T20:06:00+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-05-15T20:06:00+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Piste poids lourds",
-      "Automate CB 24/24"
-    ],
-    "departement": "Tarn",
-    "code_departement": "81",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": "Automate-24-24, Lundi08.00-20.00, Mardi08.00-20.00, Mercredi08.00-20.00, Jeudi08.00-20.00, Vendredi08.00-20.00, Samedi08.00-20.00, Dimanche09.00-13.00"
   }
 ]
