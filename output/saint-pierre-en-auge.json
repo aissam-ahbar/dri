@@ -78,8 +78,8 @@
     "adresse": "ROUTE DE LISIEUX",
     "ville": "Saint-Pierre-en-Auge",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-05 19:20:48\", \"@valeur\": \"1.555\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-04-29 09:56:11\", \"@valeur\": \"0.698\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-05 19:20:49\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-05 19:20:49\", \"@valeur\": \"1.763\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-10-23 15:32:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-10-23 15:32:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-05 19:20:48\", \"@valeur\": \"1.555\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-04-29 09:56:11\", \"@valeur\": \"0.698\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-05 19:20:49\", \"@valeur\": \"1.763\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-10-23 15:32:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-10-23 15:32:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-07-06 08:17:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": -0.026257792195654002,
@@ -93,12 +93,12 @@
     "e85_prix": 0.698,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-07-05T21:20:49+02:00",
-    "e10_prix": 1.669,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2025-07-05T21:20:49+02:00",
     "sp98_prix": 1.763,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2025-07-06T10:17:51+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-10-23T17:32:55+02:00",
@@ -112,14 +112,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
