@@ -8,15 +8,15 @@
     "adresse": "2, rue du 8 mai 1945",
     "ville": "Pechbonnieu",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-04 11:23:35\", \"@valeur\": \"1.548\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-04 11:23:36\", \"@valeur\": \"1.699\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-05-28 09:39:17\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-04 11:23:36\", \"@valeur\": \"1.618\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-04 11:23:36\", \"@valeur\": \"1.738\"}]",
-    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-25 11:27:14\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-04 11:23:36\", \"@valeur\": \"1.699\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-05-28 09:39:17\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-04 11:23:36\", \"@valeur\": \"1.618\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-04 11:23:36\", \"@valeur\": \"1.738\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-25 11:27:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-07-07 12:00:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 1.466,
       "lat": 43.707
     },
-    "gazole_maj": "2025-07-04T13:23:35+02:00",
-    "gazole_prix": 1.548,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2025-07-04T13:23:36+02:00",
     "sp95_prix": 1.699,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-07-07T14:00:22+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [

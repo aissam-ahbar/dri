@@ -8,15 +8,15 @@
     "adresse": "Chemin de la Messe",
     "ville": "Saint-Pierre-de-Varengeville",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-06-24 17:31:39\", \"@valeur\": \"1.658\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-02 10:42:55\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-02 10:38:33\", \"@valeur\": \"1.702\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-02 10:42:56\", \"@valeur\": \"1.790\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-02 10:42:55\", \"@valeur\": \"1.755\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-02 10:38:33\", \"@valeur\": \"1.702\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-02 10:42:56\", \"@valeur\": \"1.790\"}]",
+    "rupture": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-07-07 15:59:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "horaires": null,
     "geom": {
       "lon": 0.929,
       "lat": 49.498
     },
-    "gazole_maj": "2025-06-24T19:31:39+02:00",
-    "gazole_prix": 1.658,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2025-07-02T12:42:55+02:00",
     "sp95_prix": 1.755,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-07-07T17:59:52+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
