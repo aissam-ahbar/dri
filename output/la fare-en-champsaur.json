@@ -1,19 +1,19 @@
 [
   {
     "id": 5500001,
-    "latitude": "4467298.35113",
-    "longitude": "607366.85408",
+    "latitude": "4467300",
+    "longitude": "607400",
     "cp": "05500",
     "pop": "R",
-    "adresse": "Les Barraques RN85",
+    "adresse": "10 route de Gap",
     "ville": "La Fare-en-Champsaur",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-05 18:30:00\", \"@valeur\": \"1.569\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-05 18:30:00\", \"@valeur\": \"1.679\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-05 18:30:00\", \"@valeur\": \"1.629\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-08-19 09:45:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-08-19 09:45:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-08-19 09:45:08\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": 6.0736685408,
-      "lat": 44.672983511300004
+      "lon": 6.074,
+      "lat": 44.673
     },
     "gazole_maj": "2025-07-05T20:30:00+02:00",
     "gazole_prix": 1.569,
@@ -51,16 +51,17 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;SP98",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique non alimentaire",
       "Vente de fioul domestique",
-      "DAB (Distributeur automatique de billets)"
+      "Vente de pétrole lampant",
+      "Automate CB 24/24"
     ],
     "departement": "Hautes-Alpes",
     "code_departement": "05",
     "region": "Provence-Alpes-Côte d'Azur",
     "code_region": "93",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24, Lundi 07.30-12.15 et 14.00-18.30, Mardi07.30-12.15, Mercredi07.30-12.15, Jeudi07.30-12.15, Vendredi 07.30-12.15 et 14.00-18.30, Samedi08.00-12.00, Dimanche"
   }
 ]
