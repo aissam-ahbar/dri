@@ -8,7 +8,7 @@
     "adresse": "28 route de Tours",
     "ville": "Chaveignes",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-07 10:07:09\", \"@valeur\": \"1.589\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-07 10:07:09\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-04 10:05:43\", \"@valeur\": \"1.679\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-07 10:07:09\", \"@valeur\": \"1.589\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-07 10:07:09\", \"@valeur\": \"1.699\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-07-10 17:29:08\", \"@valeur\": \"0.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-04 10:05:43\", \"@valeur\": \"1.679\"}]",
     "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-02-27 17:23:04\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
@@ -21,8 +21,8 @@
     "sp95_prix": 1.699,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
+    "gplc_maj": "2025-07-10T19:29:08+02:00",
+    "gplc_prix": 0.989,
     "e10_maj": null,
     "e10_prix": null,
     "sp98_maj": "2025-07-04T12:05:43+02:00",
@@ -42,11 +42,11 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
+      "GPLc",
       "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc",
       "E10"
     ],
     "carburants_rupture_temporaire": null,
