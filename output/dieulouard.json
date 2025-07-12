@@ -1,5 +1,67 @@
 [
   {
+    "id": 54380003,
+    "latitude": "4883800",
+    "longitude": "606600",
+    "cp": "54380",
+    "pop": "R",
+    "adresse": "Rue Emile Gallé",
+    "ville": "Dieulouard",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-11 15:32:17\", \"@valeur\": \"1.629\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-07-11 15:32:17\", \"@valeur\": \"0.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-11 15:32:18\", \"@valeur\": \"1.639\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-07-02 13:33:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-07 15:10:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-12-15 17:40:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 6.066,
+      "lat": 48.838
+    },
+    "gazole_maj": "2025-07-11T17:32:17+02:00",
+    "gazole_prix": 1.629,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2025-07-11T17:32:17+02:00",
+    "e85_prix": 0.749,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-07-11T17:32:18+02:00",
+    "e10_prix": 1.639,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2020-07-02T15:33:36+02:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2020-07-07T17:10:20+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2022-12-15T18:40:38+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc;SP98",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Meurthe-et-Moselle",
+    "code_departement": "54",
+    "region": "Grand Est",
+    "code_region": "44",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 54380008,
     "latitude": "4884600",
     "longitude": "607100",
@@ -66,67 +128,5 @@
     "region": "Grand Est",
     "code_region": "44",
     "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
-  },
-  {
-    "id": 54380003,
-    "latitude": "4883800",
-    "longitude": "606600",
-    "cp": "54380",
-    "pop": "R",
-    "adresse": "Rue Emile Gallé",
-    "ville": "Dieulouard",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-09 15:24:27\", \"@valeur\": \"1.639\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-07-09 15:24:27\", \"@valeur\": \"0.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-09 15:24:27\", \"@valeur\": \"1.649\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-07-02 13:33:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-07 15:10:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-12-15 17:40:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 6.066,
-      "lat": 48.838
-    },
-    "gazole_maj": "2025-07-09T17:24:27+02:00",
-    "gazole_prix": 1.639,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2025-07-09T17:24:27+02:00",
-    "e85_prix": 0.749,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-07-09T17:24:27+02:00",
-    "e10_prix": 1.649,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2020-07-02T15:33:36+02:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": "2020-07-07T17:10:20+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2022-12-15T18:40:38+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc;SP98",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Meurthe-et-Moselle",
-    "code_departement": "54",
-    "region": "Grand Est",
-    "code_region": "44",
-    "horaires_jour": "Automate-24-24"
   }
 ]
