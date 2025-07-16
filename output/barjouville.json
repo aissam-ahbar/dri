@@ -8,8 +8,8 @@
     "adresse": "1 rue des Orvilles",
     "ville": "Barjouville",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-11 10:08:44\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-11 10:08:45\", \"@valeur\": \"1.659\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-03-18 14:40:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-03-18 14:40:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-07-14 09:47:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-07-14 09:47:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-11 10:08:44\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-07-11 10:08:45\", \"@valeur\": \"1.659\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-15 09:01:22\", \"@valeur\": \"1.615\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-15 09:01:23\", \"@valeur\": \"1.695\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-03-18 14:40:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-03-18 14:40:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 1.463,
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": "2025-07-14T11:47:40+02:00",
-    "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": "2025-07-14T11:47:40+02:00",
-    "sp98_rupture_type": "temporaire",
+    "e10_maj": "2025-07-15T11:01:22+02:00",
+    "e10_prix": 1.615,
+    "sp98_maj": "2025-07-15T11:01:23+02:00",
+    "sp98_prix": 1.695,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2024-03-18T15:40:04+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
+      "SP95",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "E10;SP98",
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
