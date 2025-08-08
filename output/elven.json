@@ -8,7 +8,7 @@
     "adresse": "Rue Opération Savana",
     "ville": "Elven",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-01 07:48:50\", \"@valeur\": \"1.609\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-01 07:48:50\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-01 07:48:50\", \"@valeur\": \"1.779\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-01 07:48:50\", \"@valeur\": \"1.609\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-08-07 11:46:16\", \"@valeur\": \"1.059\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-01 07:48:50\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-01 07:48:50\", \"@valeur\": \"1.779\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-10-25 14:57:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-10-25 14:57:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
@@ -21,8 +21,8 @@
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
+    "gplc_maj": "2025-08-07T13:46:16+02:00",
+    "gplc_prix": 1.059,
     "e10_maj": "2025-08-01T09:48:50+02:00",
     "e10_prix": 1.669,
     "sp98_maj": "2025-08-01T09:48:50+02:00",
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
-      "GPLc"
+      "E85"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85",
