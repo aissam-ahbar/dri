@@ -8,17 +8,17 @@
     "adresse": "81 Route de Thonon",
     "ville": "Perrignier",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-30 09:52:03\", \"@valeur\": \"1.780\"}",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-25 13:57:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-09-30 07:49:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-30 07:49:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-30 07:49:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-07 21:36:55\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-08 14:17:06\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-08-08 07:43:24\", \"@valeur\": \"1.889\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2022-09-30 07:49:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-25 13:57:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-09-30 07:49:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-30 07:49:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.45\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 6.437,
       "lat": 46.304
     },
-    "gazole_maj": "2025-07-30T11:52:03+02:00",
-    "gazole_prix": 1.78,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2025-08-08T16:17:06+02:00",
+    "gazole_prix": 1.766,
+    "sp95_maj": "2025-08-08T09:43:24+02:00",
+    "sp95_prix": 1.889,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": "2022-09-30T09:49:35+02:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": "2025-08-07T23:36:55+02:00",
-    "sp95_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
     "e85_rupture_debut": "2022-09-30T09:49:35+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2022-09-30T09:49:35+02:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
