@@ -1,5 +1,68 @@
 [
   {
+    "id": 39140003,
+    "latitude": "4674500",
+    "longitude": "545000",
+    "cp": "39140",
+    "pop": "R",
+    "adresse": "4 Faubourg d'Aval",
+    "ville": "Bletterans",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-15 05:43:15\", \"@valeur\": \"1.559\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-08-14 05:39:14\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-14 05:39:14\", \"@valeur\": \"1.725\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-21 18:04:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-06 10:54:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-06 10:54:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 5.45,
+      "lat": 46.745
+    },
+    "gazole_maj": "2025-08-15T07:43:15+02:00",
+    "gazole_prix": 1.559,
+    "sp95_maj": "2025-08-14T07:39:14+02:00",
+    "sp95_prix": 1.689,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-08-14T07:39:14+02:00",
+    "sp98_prix": 1.725,
+    "e10_rupture_debut": "2017-10-06T12:54:49+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-06T12:54:49+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-21T20:04:57+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Jura",
+    "code_departement": "39",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Lundi 07.30-12.15 et 14.15-19.00, Mardi 07.30-12.15 et 14.15-19.00, Mercredi 07.30-12.15 et 14.15-19.00, Jeudi 07.30-12.15 et 14.15-19.00, Vendredi 07.30-12.15 et 14.15-19.00, Samedi 07.30-12.15 et 14.15-19.00, Dimanche"
+  },
+  {
     "id": 39140001,
     "latitude": "4674600",
     "longitude": "545700",
@@ -68,68 +131,5 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": null
-  },
-  {
-    "id": 39140003,
-    "latitude": "4674500",
-    "longitude": "545000",
-    "cp": "39140",
-    "pop": "R",
-    "adresse": "4 Faubourg d'Aval",
-    "ville": "Bletterans",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-15 05:43:15\", \"@valeur\": \"1.559\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-08-14 05:39:14\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-14 05:39:14\", \"@valeur\": \"1.725\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-21 18:04:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-06 10:54:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-06 10:54:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.15\"}, {\"@ouverture\": \"14.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 5.45,
-      "lat": 46.745
-    },
-    "gazole_maj": "2025-08-15T07:43:15+02:00",
-    "gazole_prix": 1.559,
-    "sp95_maj": "2025-08-14T07:39:14+02:00",
-    "sp95_prix": 1.689,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-08-14T07:39:14+02:00",
-    "sp98_prix": 1.725,
-    "e10_rupture_debut": "2017-10-06T12:54:49+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-10-06T12:54:49+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-21T20:04:57+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Jura",
-    "code_departement": "39",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": "Lundi 07.30-12.15 et 14.15-19.00, Mardi 07.30-12.15 et 14.15-19.00, Mercredi 07.30-12.15 et 14.15-19.00, Jeudi 07.30-12.15 et 14.15-19.00, Vendredi 07.30-12.15 et 14.15-19.00, Samedi 07.30-12.15 et 14.15-19.00, Dimanche"
   }
 ]
