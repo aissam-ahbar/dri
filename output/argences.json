@@ -8,8 +8,8 @@
     "adresse": "Rue de la Gare",
     "ville": "Argences",
     "services": "{\"service\": [\"Restauration sur place\", \"Bar\", \"Vente de pétrole lampant\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-14 14:05:26\", \"@valeur\": \"1.539\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-08-04 08:32:38\", \"@valeur\": \"0.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-12 08:47:47\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-14 14:05:27\", \"@valeur\": \"1.709\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-30 15:40:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-12-27 08:16:15\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-14 14:05:26\", \"@valeur\": \"1.539\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-08-04 08:32:38\", \"@valeur\": \"0.979\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-14 14:05:27\", \"@valeur\": \"1.709\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-12-30 15:40:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-12-27 08:16:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-08-18 14:01:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.17523,
@@ -23,12 +23,12 @@
     "e85_prix": null,
     "gplc_maj": "2025-08-04T10:32:38+02:00",
     "gplc_prix": 0.979,
-    "e10_maj": "2025-08-12T10:47:47+02:00",
-    "e10_prix": 1.619,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2025-08-14T16:05:27+02:00",
     "sp98_prix": 1.709,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2025-08-18T16:01:50+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-12-27T09:16:15+01:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "GPLc",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85"
+      "E85",
+      "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
