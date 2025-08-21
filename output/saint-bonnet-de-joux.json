@@ -8,8 +8,8 @@
     "adresse": "Lieu-dit Les Renauds",
     "ville": "Saint-Bonnet-de-Joux",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-19 07:30:10\", \"@valeur\": \"1.549\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-08-19 07:30:10\", \"@valeur\": \"1.686\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-08-11 07:29:08\", \"@valeur\": \"0.688\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-08-06 07:11:15\", \"@valeur\": \"0.969\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-01 08:28:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-08-21 08:49:03\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-19 07:30:10\", \"@valeur\": \"1.549\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-08-11 07:29:08\", \"@valeur\": \"0.688\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-08-06 07:11:15\", \"@valeur\": \"0.969\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-01 08:28:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-08-21 08:49:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-20 08:35:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 4.425,
@@ -17,8 +17,8 @@
     },
     "gazole_maj": "2025-08-19T09:30:10+02:00",
     "gazole_prix": 1.549,
-    "sp95_maj": "2025-08-19T09:30:10+02:00",
-    "sp95_prix": 1.686,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": "2025-08-11T09:29:08+02:00",
     "e85_prix": 0.688,
     "gplc_maj": "2025-08-06T09:11:15+02:00",
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": "2019-08-21T10:49:03+02:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2025-08-20T10:35:52+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "E85",
       "GPLc"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP95",
     "carburants_rupture_definitive": "E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
