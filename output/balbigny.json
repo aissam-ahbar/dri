@@ -1,5 +1,67 @@
 [
   {
+    "id": 42510001,
+    "latitude": "4582099",
+    "longitude": "417891",
+    "cp": "42510",
+    "pop": "R",
+    "adresse": "RUE DES GLACIERES",
+    "ville": "Balbigny",
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-20 11:32:12\", \"@valeur\": \"1.569\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-08-20 10:47:17\", \"@valeur\": \"0.719\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-12 14:48:32\", \"@valeur\": \"1.658\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-12 14:48:32\", \"@valeur\": \"1.750\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-01-04 11:19:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-04 11:19:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 4.17891,
+      "lat": 45.82099
+    },
+    "gazole_maj": "2025-08-20T13:32:12+02:00",
+    "gazole_prix": 1.569,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2025-08-20T12:47:17+02:00",
+    "e85_prix": 0.719,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-08-12T16:48:32+02:00",
+    "e10_prix": 1.658,
+    "sp98_maj": "2025-08-12T16:48:32+02:00",
+    "sp98_prix": 1.75,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2018-01-04T12:19:49+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2018-01-04T12:19:49+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Loire",
+    "code_departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": null
+  },
+  {
     "id": 42510003,
     "latitude": "4582500",
     "longitude": "417700",
@@ -71,67 +133,5 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": "Automate-24-24, Lundi07.00-19.00, Mardi07.00-19.00, Mercredi07.00-19.00, Jeudi07.00-19.00, Vendredi07.00-19.00, Samedi08.00-12.00, Dimanche"
-  },
-  {
-    "id": 42510001,
-    "latitude": "4582099",
-    "longitude": "417891",
-    "cp": "42510",
-    "pop": "R",
-    "adresse": "RUE DES GLACIERES",
-    "ville": "Balbigny",
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-20 11:32:12\", \"@valeur\": \"1.569\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-08-20 10:47:17\", \"@valeur\": \"0.719\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-12 14:48:32\", \"@valeur\": \"1.658\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-12 14:48:32\", \"@valeur\": \"1.750\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-01-04 11:19:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-04 11:19:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 4.17891,
-      "lat": 45.82099
-    },
-    "gazole_maj": "2025-08-20T13:32:12+02:00",
-    "gazole_prix": 1.569,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2025-08-20T12:47:17+02:00",
-    "e85_prix": 0.719,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-08-12T16:48:32+02:00",
-    "e10_prix": 1.658,
-    "sp98_maj": "2025-08-12T16:48:32+02:00",
-    "sp98_prix": 1.75,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2018-01-04T12:19:49+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2018-01-04T12:19:49+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Loire",
-    "code_departement": "42",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": null
   }
 ]
