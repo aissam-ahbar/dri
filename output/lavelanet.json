@@ -73,7 +73,7 @@
     "ville": "Lavelanet",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-16 18:18:12\", \"@valeur\": \"1.564\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-16 18:18:13\", \"@valeur\": \"1.757\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-07-03 11:16:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-08-17 11:45:55\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-07-03 11:16:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.858,
@@ -91,8 +91,8 @@
     "e10_prix": null,
     "sp98_maj": "2025-08-16T20:18:13+02:00",
     "sp98_prix": 1.757,
-    "e10_rupture_debut": "2025-08-17T13:45:55+02:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2025-07-03T13:16:01+02:00",
@@ -113,7 +113,7 @@
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
