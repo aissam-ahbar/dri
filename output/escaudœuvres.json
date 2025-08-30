@@ -9,7 +9,7 @@
     "ville": "Escaudœuvres",
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-26 09:33:12\", \"@valeur\": \"1.548\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-26 09:33:12\", \"@valeur\": \"1.625\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-26 09:33:12\", \"@valeur\": \"1.713\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 08:58:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-04-12 09:18:13\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-08-28 14:01:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-08 08:58:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-04-12 09:18:13\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.254,
@@ -35,8 +35,8 @@
     "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2017-09-08T10:58:47+02:00",
     "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2025-08-28T16:01:26+02:00",
-    "gplc_rupture_type": "temporaire",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
@@ -49,7 +49,7 @@
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP95;GPLc",
+    "carburants_rupture_temporaire": "SP95",
     "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
