@@ -8,8 +8,8 @@
     "adresse": "Route de Challans",
     "ville": "Saint-Jean-de-Monts",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Carburant additivé\", \"Aire de camping-cars\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-29 09:23:30\", \"@valeur\": \"1.549\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-08-21 10:03:01\", \"@valeur\": \"0.663\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-29 09:23:30\", \"@valeur\": \"1.624\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-29 09:23:31\", \"@valeur\": \"1.719\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-04-19 07:44:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-28 13:02:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-29 09:23:30\", \"@valeur\": \"1.549\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-08-21 10:03:01\", \"@valeur\": \"0.663\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-08-29 09:23:30\", \"@valeur\": \"1.624\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-04-19 07:44:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-28 13:02:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-08-30 16:44:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -2.046,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2025-08-29T11:23:30+02:00",
     "e10_prix": 1.624,
-    "sp98_maj": "2025-08-29T11:23:31+02:00",
-    "sp98_prix": 1.719,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-08-30T18:44:38+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2019-04-19T09:44:05+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
