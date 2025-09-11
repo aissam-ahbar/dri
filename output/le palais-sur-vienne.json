@@ -8,8 +8,8 @@
     "adresse": "Avenue de Limoges",
     "ville": "Le Palais-sur-Vienne",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-03 13:12:11\", \"@valeur\": \"1.579\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-03 13:12:12\", \"@valeur\": \"1.729\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-09-03 13:12:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-05-24 12:45:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-05-24 12:45:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-05-24 12:45:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-03 13:12:11\", \"@valeur\": \"1.579\"}",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-09-10 09:15:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-05-24 12:45:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-05-24 12:45:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-05-24 12:45:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-09-03 13:12:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.3093986,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2025-09-03T15:12:12+02:00",
-    "sp98_prix": 1.729,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2025-09-03T15:12:12+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-09-10T11:15:32+02:00",
+    "sp98_rupture_type": "definitive",
     "sp95_rupture_debut": "2018-05-24T14:45:19+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2018-05-24T14:45:19+02:00",
@@ -40,17 +40,17 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc;E10",
+    "carburants_rupture_definitive": "SP95;E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Station de gonflage",

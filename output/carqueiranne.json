@@ -1,5 +1,67 @@
 [
   {
+    "id": 83320002,
+    "latitude": "4309285.5",
+    "longitude": "607927.7",
+    "cp": "83320",
+    "pop": "R",
+    "adresse": "QUARTIER ST VINCENT - RN 559",
+    "ville": "Carqueiranne",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-10 07:00:00\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-10 07:00:00\", \"@valeur\": \"1.677\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-10 07:00:00\", \"@valeur\": \"1.776\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-11-05 08:26:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-11-05 08:26:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-11-05 08:26:42\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 6.079276999999999,
+      "lat": 43.092855
+    },
+    "gazole_maj": "2025-09-10T09:00:00+02:00",
+    "gazole_prix": 1.599,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-09-10T09:00:00+02:00",
+    "e10_prix": 1.677,
+    "sp98_maj": "2025-09-10T09:00:00+02:00",
+    "sp98_prix": 1.776,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-11-05T09:26:42+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2024-11-05T09:26:42+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2024-11-05T09:26:42+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Var",
+    "code_departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 83320001,
     "latitude": "4309261",
     "longitude": "607816",
@@ -9,7 +71,7 @@
     "ville": "Carqueiranne",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
     "prix": null,
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-03-09 18:50:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-09-18 10:46:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-09-21 11:48:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-09-22 11:20:14\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 08:19:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-03-09 18:50:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-09-18 10:46:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2024-09-22 11:20:14\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2024-09-21 11:48:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.07816,
@@ -52,67 +114,5 @@
     "region": "Provence-Alpes-Côte d'Azur",
     "code_region": "93",
     "horaires_jour": null
-  },
-  {
-    "id": 83320002,
-    "latitude": "4309285.5",
-    "longitude": "607927.7",
-    "cp": "83320",
-    "pop": "R",
-    "adresse": "QUARTIER ST VINCENT - RN 559",
-    "ville": "Carqueiranne",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-08 08:52:06\", \"@valeur\": \"1.572\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-08 08:52:07\", \"@valeur\": \"1.643\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-08 08:52:07\", \"@valeur\": \"1.756\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-11-05 08:26:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-11-05 08:26:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-11-05 08:26:42\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 6.079276999999999,
-      "lat": 43.092855
-    },
-    "gazole_maj": "2025-09-08T10:52:06+02:00",
-    "gazole_prix": 1.572,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-09-08T10:52:07+02:00",
-    "e10_prix": 1.643,
-    "sp98_maj": "2025-09-08T10:52:07+02:00",
-    "sp98_prix": 1.756,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-11-05T09:26:42+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2024-11-05T09:26:42+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2024-11-05T09:26:42+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Var",
-    "code_departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93",
-    "horaires_jour": "Automate-24-24"
   }
 ]

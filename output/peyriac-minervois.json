@@ -9,7 +9,7 @@
     "ville": "Peyriac-Minervois",
     "services": "{\"service\": [\"Laverie\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-05 13:43:28\", \"@valeur\": \"1.555\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-09-05 13:43:28\", \"@valeur\": \"1.699\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-08-22 11:25:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-08-22 11:25:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-08-22 11:25:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-09-09 05:08:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-08-22 11:25:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-08-22 11:25:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-08-22 11:25:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 2.5747807541329997,
@@ -29,8 +29,8 @@
     "sp98_prix": null,
     "e10_rupture_debut": "2022-08-22T13:25:12+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2025-09-09T07:08:51+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2022-08-22T13:25:12+02:00",
@@ -49,7 +49,7 @@
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
