@@ -125,69 +125,6 @@
     "horaires_jour": null
   },
   {
-    "id": 60800009,
-    "latitude": "4923186.7",
-    "longitude": "288625.17249882",
-    "cp": "60800",
-    "pop": "R",
-    "adresse": "20 rue Charles de Gaulle",
-    "ville": "Crépy-en-Valois",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-19 09:45:56\", \"@valeur\": \"1.637\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-19 09:45:57\", \"@valeur\": \"1.723\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-19 09:45:57\", \"@valeur\": \"1.795\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-18 18:12:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-18 18:12:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-24 13:11:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"17.15\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.15\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 2.8862517249882,
-      "lat": 49.231867
-    },
-    "gazole_maj": "2025-09-19T11:45:56+02:00",
-    "gazole_prix": 1.637,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-09-19T11:45:57+02:00",
-    "e10_prix": 1.723,
-    "sp98_maj": "2025-09-19T11:45:57+02:00",
-    "sp98_prix": 1.795,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2022-11-24T14:11:32+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2022-11-18T19:12:37+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2022-11-18T19:12:37+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
-    ],
-    "departement": "Oise",
-    "code_departement": "60",
-    "region": "Hauts-de-France",
-    "code_region": "32",
-    "horaires_jour": "Automate-24-24, Lundi, Mardi, Mercredi, Jeudi, Vendredi 09.30-12.30 et 15.30-17.15, Samedi 09.30-12.30 et 14.30-17.15, Dimanche"
-  },
-  {
     "id": 60800005,
     "latitude": "4922465.9428094",
     "longitude": "290549.13758613",
@@ -251,5 +188,68 @@
     "region": "Hauts-de-France",
     "code_region": "32",
     "horaires_jour": null
+  },
+  {
+    "id": 60800009,
+    "latitude": "4923186.7",
+    "longitude": "288625.17249882",
+    "cp": "60800",
+    "pop": "R",
+    "adresse": "20 rue Charles de Gaulle",
+    "ville": "Crépy-en-Valois",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-19 09:45:56\", \"@valeur\": \"1.637\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-19 09:45:57\", \"@valeur\": \"1.723\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-19 09:45:57\", \"@valeur\": \"1.795\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-24 13:11:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-18 18:12:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-18 18:12:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.30\", \"@fermeture\": \"17.15\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.15\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 2.8862517249882,
+      "lat": 49.231867
+    },
+    "gazole_maj": "2025-09-19T11:45:56+02:00",
+    "gazole_prix": 1.637,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-09-19T11:45:57+02:00",
+    "e10_prix": 1.723,
+    "sp98_maj": "2025-09-19T11:45:57+02:00",
+    "sp98_prix": 1.795,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2022-11-24T14:11:32+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2022-11-18T19:12:37+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2022-11-18T19:12:37+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
+    "departement": "Oise",
+    "code_departement": "60",
+    "region": "Hauts-de-France",
+    "code_region": "32",
+    "horaires_jour": "Automate-24-24, Lundi, Mardi, Mercredi, Jeudi, Vendredi 09.30-12.30 et 15.30-17.15, Samedi 09.30-12.30 et 14.30-17.15, Dimanche"
   }
 ]
