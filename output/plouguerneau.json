@@ -54,68 +54,6 @@
     "horaires_jour": null
   },
   {
-    "id": 29880005,
-    "latitude": "4860691.645",
-    "longitude": "-451105.60012668",
-    "cp": "29880",
-    "pop": "R",
-    "adresse": "Rue d'Armorique",
-    "ville": "Plouguerneau",
-    "services": "{\"service\": \"Relais colis\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-17 14:30:49\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-08-30 10:37:38\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-30 10:37:38\", \"@valeur\": \"1.729\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-13 16:51:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-13 16:51:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-13 16:51:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": -4.5110560012668,
-      "lat": 48.60691644999999
-    },
-    "gazole_maj": "2025-09-17T16:30:49+02:00",
-    "gazole_prix": 1.599,
-    "sp95_maj": "2025-08-30T12:37:38+02:00",
-    "sp95_prix": 1.699,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-08-30T12:37:38+02:00",
-    "sp98_prix": 1.729,
-    "e10_rupture_debut": "2017-10-13T18:51:01+02:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-10-13T18:51:01+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-10-13T18:51:01+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Relais colis"
-    ],
-    "departement": "Finistère",
-    "code_departement": "29",
-    "region": "Bretagne",
-    "code_region": "53",
-    "horaires_jour": null
-  },
-  {
     "id": 29880002,
     "latitude": "4860600",
     "longitude": "-450400",
@@ -179,5 +117,67 @@
     "region": "Bretagne",
     "code_region": "53",
     "horaires_jour": "Lundi08.45-19.30, Mardi08.45-19.30, Mercredi08.45-19.30, Jeudi08.45-19.30, Vendredi08.45-19.45, Samedi08.45-19.30, Dimanche09.00-12.30"
+  },
+  {
+    "id": 29880005,
+    "latitude": "4860691.645",
+    "longitude": "-451105.60012668",
+    "cp": "29880",
+    "pop": "R",
+    "adresse": "Rue d'Armorique",
+    "ville": "Plouguerneau",
+    "services": "{\"service\": \"Relais colis\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-17 14:30:49\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-08-30 10:37:38\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-08-30 10:37:38\", \"@valeur\": \"1.729\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-13 16:51:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-13 16:51:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-13 16:51:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": -4.5110560012668,
+      "lat": 48.60691644999999
+    },
+    "gazole_maj": "2025-09-17T16:30:49+02:00",
+    "gazole_prix": 1.599,
+    "sp95_maj": "2025-08-30T12:37:38+02:00",
+    "sp95_prix": 1.699,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-08-30T12:37:38+02:00",
+    "sp98_prix": 1.729,
+    "e10_rupture_debut": "2017-10-13T18:51:01+02:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-10-13T18:51:01+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-10-13T18:51:01+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Relais colis"
+    ],
+    "departement": "Finistère",
+    "code_departement": "29",
+    "region": "Bretagne",
+    "code_region": "53",
+    "horaires_jour": null
   }
 ]
