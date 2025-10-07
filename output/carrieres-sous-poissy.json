@@ -8,8 +8,8 @@
     "adresse": "55, Route d'Andresy",
     "ville": "Carrières-sous-Poissy",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-30 09:51:34\", \"@valeur\": \"1.618\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-09-30 09:51:35\", \"@valeur\": \"1.725\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-30 09:51:35\", \"@valeur\": \"1.677\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-30 09:51:36\", \"@valeur\": \"1.758\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-14 09:06:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-05-14 17:27:00\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-30 09:51:34\", \"@valeur\": \"1.618\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-09-30 09:51:35\", \"@valeur\": \"1.725\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-30 09:51:35\", \"@valeur\": \"1.677\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-06-14 09:06:07\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-05-14 17:27:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-10-06 09:09:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 2.042,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2025-09-30T11:51:35+02:00",
     "e10_prix": 1.677,
-    "sp98_maj": "2025-09-30T11:51:36+02:00",
-    "sp98_prix": 1.758,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2025-10-06T11:09:38+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2019-05-14T19:27:00+02:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
@@ -71,7 +71,7 @@
     "ville": "Carrières-sous-Poissy",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-30 10:15:20\", \"@valeur\": \"1.618\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-09-22 09:48:49\", \"@valeur\": \"0.734\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-30 10:15:20\", \"@valeur\": \"1.677\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-30 10:15:20\", \"@valeur\": \"1.758\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-31 18:11:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-02-20 19:49:18\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-02-20 19:49:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-31 18:11:22\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 2.029,
