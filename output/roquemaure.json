@@ -1,67 +1,5 @@
 [
   {
-    "id": 30150001,
-    "latitude": "4405271",
-    "longitude": "477918",
-    "cp": "30150",
-    "pop": "R",
-    "adresse": "Boulevard National",
-    "ville": "Roquemaure",
-    "services": "{\"service\": \"Station de gonflage\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-04 07:39:03\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-04 09:07:31\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-04 09:07:07\", \"@valeur\": \"1.852\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-05-31 09:08:35\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "horaires": null,
-    "geom": {
-      "lon": 4.77918,
-      "lat": 44.05271
-    },
-    "gazole_maj": "2025-08-04T09:39:03+02:00",
-    "gazole_prix": 1.699,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-09-04T11:07:31+02:00",
-    "e10_prix": 1.772,
-    "sp98_maj": "2025-09-04T11:07:07+02:00",
-    "sp98_prix": 1.852,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2018-05-31T11:08:35+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Station de gonflage"
-    ],
-    "departement": "Gard",
-    "code_departement": "30",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": null
-  },
-  {
     "id": 30150002,
     "latitude": "4404500",
     "longitude": "478700",
@@ -71,7 +9,7 @@
     "ville": "Roquemaure",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-07-18 08:43:59\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-07-18 08:43:59\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-07-18 08:43:59\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-07-18 08:44:00\", \"@valeur\": \"1.849\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-05 09:41:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-05 09:41:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-05 09:41:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-07-05 09:41:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"15.15\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.15\", \"@fermeture\": \"12.00\"}}]}",
     "geom": {
       "lon": 4.787,
@@ -136,5 +74,67 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": "Automate-24-24, Lundi 08.30-12.30 et 15.15-19.00, Mardi 08.30-12.30 et 15.15-19.00, Mercredi 08.30-12.30 et 15.15-19.00, Jeudi 08.30-12.30 et 15.15-19.00, Vendredi 08.30-12.30 et 15.15-19.00, Samedi 08.30-12.30 et 15.15-19.00, Dimanche09.15-12.00"
+  },
+  {
+    "id": 30150001,
+    "latitude": "4405271",
+    "longitude": "477918",
+    "cp": "30150",
+    "pop": "R",
+    "adresse": "Boulevard National",
+    "ville": "Roquemaure",
+    "services": "{\"service\": \"Station de gonflage\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-08-04 07:39:03\", \"@valeur\": \"1.699\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-09-04 09:07:31\", \"@valeur\": \"1.772\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-04 09:07:07\", \"@valeur\": \"1.852\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-05-31 09:08:35\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "horaires": null,
+    "geom": {
+      "lon": 4.77918,
+      "lat": 44.05271
+    },
+    "gazole_maj": "2025-08-04T09:39:03+02:00",
+    "gazole_prix": 1.699,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-09-04T11:07:31+02:00",
+    "e10_prix": 1.772,
+    "sp98_maj": "2025-09-04T11:07:07+02:00",
+    "sp98_prix": 1.852,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2018-05-31T11:08:35+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage"
+    ],
+    "departement": "Gard",
+    "code_departement": "30",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": null
   }
 ]
