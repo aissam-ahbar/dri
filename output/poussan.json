@@ -8,8 +8,8 @@
     "adresse": "AVENUE DE SETE",
     "ville": "Poussan",
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-10-18 16:15:12\", \"@valeur\": \"1.609\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-10-18 16:15:12\", \"@valeur\": \"1.719\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-08-27 08:46:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-08-29 11:13:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-08-27 08:46:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-08-04 11:29:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-10-18 16:15:12\", \"@valeur\": \"1.609\"}",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-08-27 08:46:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-08-04 11:29:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-10-19 07:43:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-08-27 08:46:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-08-29 11:13:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.6713791,
@@ -17,8 +17,8 @@
     },
     "gazole_maj": "2025-10-18T18:15:12+02:00",
     "gazole_prix": 1.609,
-    "sp95_maj": "2025-10-18T18:15:12+02:00",
-    "sp95_prix": 1.719,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": "2021-08-27T10:46:14+02:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2025-10-19T09:43:20+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2023-08-29T13:13:45+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2021-08-27T10:46:13+02:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "SP95"
+      "Gazole"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP95",
     "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
