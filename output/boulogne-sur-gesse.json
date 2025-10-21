@@ -1,5 +1,68 @@
 [
   {
+    "id": 31350004,
+    "latitude": "4328550.2903295",
+    "longitude": "65090.652068242",
+    "cp": "31350",
+    "pop": "R",
+    "adresse": "avenue Charles Suran",
+    "ville": "Boulogne-sur-Gesse",
+    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-10-20 23:50:00\", \"@valeur\": \"1.619\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-20 23:50:00\", \"@valeur\": \"0.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-20 23:50:00\", \"@valeur\": \"1.729\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-11-03 08:55:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-11-03 08:55:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-11-03 08:55:53\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 0.65090652068242,
+      "lat": 43.285502903295004
+    },
+    "gazole_maj": "2025-10-21T01:50:00+02:00",
+    "gazole_prix": 1.619,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2025-10-21T01:50:00+02:00",
+    "e85_prix": 0.769,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-10-21T01:50:00+02:00",
+    "e10_prix": 1.729,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2023-11-03T09:55:53+01:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": "2023-11-03T09:55:53+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2023-11-03T09:55:53+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;GPLc;SP98",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Carburant additivé",
+      "Automate CB 24/24"
+    ],
+    "departement": "Haute-Garonne",
+    "code_departement": "31",
+    "region": "Occitanie",
+    "code_region": "76",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 31350002,
     "latitude": "4328438",
     "longitude": "66086",
@@ -64,68 +127,5 @@
     "region": "Occitanie",
     "code_region": "76",
     "horaires_jour": null
-  },
-  {
-    "id": 31350004,
-    "latitude": "4328550.2903295",
-    "longitude": "65090.652068242",
-    "cp": "31350",
-    "pop": "R",
-    "adresse": "avenue Charles Suran",
-    "ville": "Boulogne-sur-Gesse",
-    "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-10-14 23:50:00\", \"@valeur\": \"1.649\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-14 23:50:00\", \"@valeur\": \"0.779\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-14 23:50:00\", \"@valeur\": \"1.739\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-11-03 08:55:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-11-03 08:55:53\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-11-03 08:55:53\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 0.65090652068242,
-      "lat": 43.285502903295004
-    },
-    "gazole_maj": "2025-10-15T01:50:00+02:00",
-    "gazole_prix": 1.649,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2025-10-15T01:50:00+02:00",
-    "e85_prix": 0.779,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-10-15T01:50:00+02:00",
-    "e10_prix": 1.739,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2023-11-03T09:55:53+01:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": "2023-11-03T09:55:53+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2023-11-03T09:55:53+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc;SP98",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Carburant additivé",
-      "Automate CB 24/24"
-    ],
-    "departement": "Haute-Garonne",
-    "code_departement": "31",
-    "region": "Occitanie",
-    "code_region": "76",
-    "horaires_jour": "Automate-24-24"
   }
 ]
