@@ -8,15 +8,15 @@
     "adresse": "LE RUISSEAU",
     "ville": "Parigné-l'Évêque",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-10-18 07:56:41\", \"@valeur\": \"1.549\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-10-18 07:56:41\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-18 07:56:41\", \"@valeur\": \"0.729\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-18 07:56:41\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-10-18 07:56:42\", \"@valeur\": \"1.739\"}]",
-    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-17 07:36:46\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-10-18 07:56:41\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-18 07:56:41\", \"@valeur\": \"0.729\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-18 07:56:41\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-10-18 07:56:42\", \"@valeur\": \"1.739\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-17 07:36:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-10-21 12:00:36\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.354735227494,
       "lat": 47.9404382707
     },
-    "gazole_maj": "2025-10-18T09:56:41+02:00",
-    "gazole_prix": 1.549,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2025-10-18T09:56:41+02:00",
     "sp95_prix": 1.689,
     "e85_maj": "2025-10-18T09:56:41+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2024-02-17T08:36:46+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-10-21T14:00:36+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,
