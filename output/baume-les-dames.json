@@ -81,68 +81,6 @@
     "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   },
   {
-    "id": 25110004,
-    "latitude": "4734990.88497",
-    "longitude": "634694.382569",
-    "cp": "25110",
-    "pop": "R",
-    "adresse": "24 Rue Ernest Nicolas",
-    "ville": "Baume-les-Dames",
-    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-10-28 10:24:43\", \"@valeur\": \"1.593\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-10-28 10:24:43\", \"@valeur\": \"1.671\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-14 08:36:19\", \"@valeur\": \"0.678\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-18 19:33:16\", \"@valeur\": \"1.629\"}]",
-    "rupture": null,
-    "horaires": null,
-    "geom": {
-      "lon": 6.34694382569,
-      "lat": 47.3499088497
-    },
-    "gazole_maj": "2025-10-28T11:24:43+01:00",
-    "gazole_prix": 1.593,
-    "sp95_maj": "2025-10-28T11:24:43+01:00",
-    "sp95_prix": 1.671,
-    "e85_maj": "2025-10-14T10:36:19+02:00",
-    "e85_prix": 0.678,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-10-18T21:33:16+02:00",
-    "e10_prix": 1.629,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)"
-    ],
-    "departement": "Doubs",
-    "code_departement": "25",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": null
-  },
-  {
     "id": 25110003,
     "latitude": "4735200",
     "longitude": "635000",
@@ -277,5 +215,67 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": "Lundi07.00-19.30, Mardi07.00-19.30, Mercredi07.00-19.30, Jeudi07.00-19.30, Vendredi07.00-19.30, Samedi07.00-19.30, Dimanche"
+  },
+  {
+    "id": 25110004,
+    "latitude": "4734990.88497",
+    "longitude": "634694.382569",
+    "cp": "25110",
+    "pop": "R",
+    "adresse": "24 Rue Ernest Nicolas",
+    "ville": "Baume-les-Dames",
+    "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-10-28 10:24:43\", \"@valeur\": \"1.593\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-10-28 10:24:43\", \"@valeur\": \"1.671\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-14 08:36:19\", \"@valeur\": \"0.678\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-18 19:33:16\", \"@valeur\": \"1.629\"}]",
+    "rupture": null,
+    "horaires": null,
+    "geom": {
+      "lon": 6.34694382569,
+      "lat": 47.3499088497
+    },
+    "gazole_maj": "2025-10-28T11:24:43+01:00",
+    "gazole_prix": 1.593,
+    "sp95_maj": "2025-10-28T11:24:43+01:00",
+    "sp95_prix": 1.671,
+    "e85_maj": "2025-10-14T10:36:19+02:00",
+    "e85_prix": 0.678,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-10-18T21:33:16+02:00",
+    "e10_prix": 1.629,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": null,
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)"
+    ],
+    "departement": "Doubs",
+    "code_departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": null
   }
 ]
