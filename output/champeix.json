@@ -79,8 +79,8 @@
     "adresse": "ROUTE DE CLERMONT D 978",
     "ville": "Champeix",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-19 07:45:58\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-09-19 07:45:58\", \"@valeur\": \"1.799\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-09-19 07:45:58\", \"@valeur\": \"1.020\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-19 07:45:58\", \"@valeur\": \"1.859\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-09-19 07:45:58\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-09-19 07:45:58\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-09-19 07:45:58\", \"@valeur\": \"1.859\"}]",
+    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-11-06 07:43:12\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"12.30\"}}]}",
     "geom": {
       "lon": 3.139,
@@ -92,8 +92,8 @@
     "sp95_prix": 1.799,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2025-09-19T09:45:58+02:00",
-    "gplc_prix": 1.02,
+    "gplc_maj": null,
+    "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
     "sp98_maj": "2025-09-19T09:45:58+02:00",
@@ -106,22 +106,22 @@
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
+    "gplc_rupture_debut": "2025-11-06T08:43:12+01:00",
+    "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "GPLc",
       "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
+      "GPLc",
       "E10"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
+    "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",

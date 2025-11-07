@@ -9,7 +9,7 @@
     "ville": "Lion-sur-Mer",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-10-09 10:39:37\", \"@valeur\": \"1.689\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-10-09 10:39:37\", \"@valeur\": \"1.715\"}]",
-    "rupture": null,
+    "rupture": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-11-06 09:32:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "horaires": null,
     "geom": {
       "lon": -0.31818,
@@ -37,8 +37,8 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-11-06T10:32:45+01:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
       "SP95",
       "SP98"
@@ -49,7 +49,7 @@
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
