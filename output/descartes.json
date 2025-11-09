@@ -8,15 +8,15 @@
     "adresse": "Rue Jean Monnet",
     "ville": "Descartes",
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-24 08:51:01\", \"@valeur\": \"0.678\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-31 15:18:43\", \"@valeur\": \"1.633\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-04 09:24:37\", \"@valeur\": \"1.723\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-27 09:02:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-04-18 09:11:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-11-07 08:44:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-08 08:52:18\", \"@valeur\": \"1.607\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-24 08:51:01\", \"@valeur\": \"0.678\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-10-31 15:18:43\", \"@valeur\": \"1.633\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-04 09:24:37\", \"@valeur\": \"1.723\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-27 09:02:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-04-18 09:11:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.69,
       "lat": 46.981
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2025-11-08T09:52:18+01:00",
+    "gazole_prix": 1.607,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2025-10-24T10:51:01+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2017-09-27T11:02:38+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2025-11-07T09:44:05+01:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
