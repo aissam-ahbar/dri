@@ -1,32 +1,32 @@
 [
   {
-    "id": 17000011,
-    "latitude": "4616600",
-    "longitude": "-117800",
+    "id": 17000012,
+    "latitude": "4615600",
+    "longitude": "-111900",
     "cp": "17000",
     "pop": "R",
-    "adresse": "14/16 Cours Forbin",
+    "adresse": "RUE JEAN-PAUL SARTRE",
     "ville": "La Rochelle",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-14 09:48:31\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-11-14 09:48:31\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-14 09:48:31\", \"@valeur\": \"1.859\"}]",
-    "rupture": null,
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-18 00:01:00\", \"@valeur\": \"1.729\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-11-18 00:01:00\", \"@valeur\": \"0.751\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-11-18 00:01:00\", \"@valeur\": \"1.771\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-18 00:01:00\", \"@valeur\": \"1.881\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2015-06-23 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2014-07-03 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}]}",
     "geom": {
-      "lon": -1.178,
-      "lat": 46.166
+      "lon": -1.119,
+      "lat": 46.156
     },
-    "gazole_maj": "2025-11-14T10:48:31+01:00",
-    "gazole_prix": 1.689,
+    "gazole_maj": "2025-11-18T01:01:00+01:00",
+    "gazole_prix": 1.729,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2025-11-18T01:01:00+01:00",
+    "e85_prix": 0.751,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-11-14T10:48:31+01:00",
-    "e10_prix": 1.739,
-    "sp98_maj": "2025-11-14T10:48:31+01:00",
-    "sp98_prix": 1.859,
+    "e10_maj": "2025-11-18T01:01:00+01:00",
+    "e10_prix": 1.771,
+    "sp98_maj": "2025-11-18T01:01:00+01:00",
+    "sp98_prix": 1.881,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -41,12 +41,12 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc"
     ],
     "carburants_rupture_temporaire": null,
@@ -55,15 +55,18 @@
     "services_service": [
       "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Station de gonflage",
       "Carburant additivé",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Vente d'additifs carburants",
       "Automate CB 24/24"
     ],
     "departement": "Charente-Maritime",
     "code_departement": "17",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": "Automate-24-24"
+    "horaires_jour": "Automate-24-24, Lundi06.00-22.00, Mardi06.00-22.00, Mercredi06.00-22.00, Jeudi06.00-22.00, Vendredi06.00-22.00, Samedi06.00-22.00, Dimanche06.00-22.00"
   },
   {
     "id": 17000010,
@@ -202,33 +205,33 @@
     "horaires_jour": "Automate-24-24"
   },
   {
-    "id": 17000012,
-    "latitude": "4615600",
-    "longitude": "-111900",
+    "id": 17000011,
+    "latitude": "4616600",
+    "longitude": "-117800",
     "cp": "17000",
     "pop": "R",
-    "adresse": "RUE JEAN-PAUL SARTRE",
+    "adresse": "14/16 Cours Forbin",
     "ville": "La Rochelle",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-17 00:01:00\", \"@valeur\": \"1.731\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-11-17 00:01:00\", \"@valeur\": \"0.751\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-11-17 00:01:00\", \"@valeur\": \"1.766\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-17 00:01:00\", \"@valeur\": \"1.876\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2015-06-23 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2014-07-03 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-17 10:08:38\", \"@valeur\": \"1.709\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-11-17 10:08:38\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-17 10:08:38\", \"@valeur\": \"1.859\"}]",
+    "rupture": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
-      "lon": -1.119,
-      "lat": 46.156
+      "lon": -1.178,
+      "lat": 46.166
     },
-    "gazole_maj": "2025-11-17T01:01:00+01:00",
-    "gazole_prix": 1.731,
+    "gazole_maj": "2025-11-17T11:08:38+01:00",
+    "gazole_prix": 1.709,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2025-11-17T01:01:00+01:00",
-    "e85_prix": 0.751,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-11-17T01:01:00+01:00",
-    "e10_prix": 1.766,
-    "sp98_maj": "2025-11-17T01:01:00+01:00",
-    "sp98_prix": 1.876,
+    "e10_maj": "2025-11-17T11:08:38+01:00",
+    "e10_prix": 1.739,
+    "sp98_maj": "2025-11-17T11:08:38+01:00",
+    "sp98_prix": 1.859,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -243,12 +246,12 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E85",
       "GPLc"
     ],
     "carburants_rupture_temporaire": null,
@@ -257,18 +260,15 @@
     "services_service": [
       "Boutique alimentaire",
       "Boutique non alimentaire",
+      "Station de gonflage",
       "Carburant additivé",
-      "Lavage automatique",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Vente d'additifs carburants",
       "Automate CB 24/24"
     ],
     "departement": "Charente-Maritime",
     "code_departement": "17",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": "Automate-24-24, Lundi06.00-22.00, Mardi06.00-22.00, Mercredi06.00-22.00, Jeudi06.00-22.00, Vendredi06.00-22.00, Samedi06.00-22.00, Dimanche06.00-22.00"
+    "horaires_jour": "Automate-24-24"
   },
   {
     "id": 17000007,
