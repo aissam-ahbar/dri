@@ -1,5 +1,68 @@
 [
   {
+    "id": 36100001,
+    "latitude": "4694210",
+    "longitude": "198786",
+    "cp": "36100",
+    "pop": "R",
+    "adresse": "59 Rue Haute Saint-Paterne",
+    "ville": "Issoudun",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-07 11:34:21\", \"@valeur\": \"1.680\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-11-19 12:18:22\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-19 12:18:23\", \"@valeur\": \"1.782\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-04-29 09:44:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-15 11:47:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-15 11:47:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 1.98786,
+      "lat": 46.9421
+    },
+    "gazole_maj": "2025-11-07T12:34:21+01:00",
+    "gazole_prix": 1.68,
+    "sp95_maj": "2025-11-19T13:18:22+01:00",
+    "sp95_prix": 1.746,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2025-11-19T13:18:23+01:00",
+    "sp98_prix": 1.782,
+    "e10_rupture_debut": "2017-11-15T12:47:50+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-04-29T11:44:50+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-11-15T12:47:50+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Indre",
+    "code_departement": "36",
+    "region": "Centre-Val de Loire",
+    "code_region": "24",
+    "horaires_jour": null
+  },
+  {
     "id": 36100002,
     "latitude": "4695700",
     "longitude": "200300",
@@ -150,68 +213,5 @@
     "region": "Centre-Val de Loire",
     "code_region": "24",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 36100001,
-    "latitude": "4694210",
-    "longitude": "198786",
-    "cp": "36100",
-    "pop": "R",
-    "adresse": "59 Rue Haute Saint-Paterne",
-    "ville": "Issoudun",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-07 11:34:21\", \"@valeur\": \"1.680\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-11-19 12:18:22\", \"@valeur\": \"1.746\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-19 12:18:23\", \"@valeur\": \"1.782\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-04-29 09:44:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-15 11:47:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-15 11:47:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 1.98786,
-      "lat": 46.9421
-    },
-    "gazole_maj": "2025-11-07T12:34:21+01:00",
-    "gazole_prix": 1.68,
-    "sp95_maj": "2025-11-19T13:18:22+01:00",
-    "sp95_prix": 1.746,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-11-19T13:18:23+01:00",
-    "sp98_prix": 1.782,
-    "e10_rupture_debut": "2017-11-15T12:47:50+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2018-04-29T11:44:50+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-11-15T12:47:50+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Indre",
-    "code_departement": "36",
-    "region": "Centre-Val de Loire",
-    "code_region": "24",
-    "horaires_jour": null
   }
 ]
