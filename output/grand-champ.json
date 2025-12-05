@@ -8,8 +8,8 @@
     "adresse": "ROUTE DE VANNES",
     "ville": "Grand-Champ",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-28 08:08:49\", \"@valeur\": \"1.608\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-12-02 07:41:30\", \"@valeur\": \"1.718\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-22 12:00:34\", \"@valeur\": \"0.638\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-11-28 08:08:49\", \"@valeur\": \"1.618\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-04 11:49:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-03 16:06:58\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-11-28 08:08:49\", \"@valeur\": \"1.608\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-12-04 07:37:07\", \"@valeur\": \"1.702\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-10-22 12:00:34\", \"@valeur\": \"0.638\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-04 11:49:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-03 16:06:58\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-12-04 16:14:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -2.843,
@@ -17,18 +17,18 @@
     },
     "gazole_maj": "2025-11-28T09:08:49+01:00",
     "gazole_prix": 1.608,
-    "sp95_maj": "2025-12-02T08:41:30+01:00",
-    "sp95_prix": 1.718,
+    "sp95_maj": "2025-12-04T08:37:07+01:00",
+    "sp95_prix": 1.702,
     "e85_maj": "2025-10-22T14:00:34+02:00",
     "e85_prix": 0.638,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-11-28T09:08:49+01:00",
-    "e10_prix": 1.618,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2025-12-04T17:14:18+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2017-09-04T13:49:15+02:00",
     "sp98_rupture_type": "definitive",
     "sp95_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
-      "E10"
+      "E85"
     ],
     "carburants_indisponibles": [
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_temporaire": "GPLc;E10",
     "carburants_rupture_definitive": "SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
