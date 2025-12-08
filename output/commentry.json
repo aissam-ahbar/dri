@@ -60,6 +60,68 @@
     "horaires_jour": null
   },
   {
+    "id": 3600001,
+    "latitude": "4629400",
+    "longitude": "274100",
+    "cp": "03600",
+    "pop": "R",
+    "adresse": "Avenue Edouard Vaillant",
+    "ville": "Commentry",
+    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-02 17:03:39\", \"@valeur\": \"1.629\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-11-21 18:58:28\", \"@valeur\": \"1.704\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-21 18:58:29\", \"@valeur\": \"1.799\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 08:52:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 08:52:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-09-19 12:28:13\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 2.741,
+      "lat": 46.294
+    },
+    "gazole_maj": "2025-12-02T18:03:39+01:00",
+    "gazole_prix": 1.629,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2025-11-21T19:58:28+01:00",
+    "e10_prix": 1.704,
+    "sp98_maj": "2025-11-21T19:58:29+01:00",
+    "sp98_prix": 1.799,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-09-19T14:28:13+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2017-09-07T10:52:23+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-09-07T10:52:23+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Allier",
+    "code_departement": "03",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": "Lundi 09.15-12.30 et 14.30-17.30, Mardi 09.15-12.30 et 14.30-17.30, Mercredi 09.15-12.30 et 14.30-17.30, Jeudi 09.15-12.30 et 14.30-17.30, Vendredi 09.15-12.30 et 14.30-17.30, Samedi 09.15-12.30 et 14.30-17.30, Dimanche"
+  },
+  {
     "id": 3600004,
     "latitude": "4628900",
     "longitude": "274400",
@@ -124,67 +186,5 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": "Lundi07.30-19.00, Mardi07.30-19.00, Mercredi07.30-19.00, Jeudi07.30-19.00, Vendredi07.30-19.00, Samedi08.30-18.00, Dimanche"
-  },
-  {
-    "id": 3600001,
-    "latitude": "4629400",
-    "longitude": "274100",
-    "cp": "03600",
-    "pop": "R",
-    "adresse": "Avenue Edouard Vaillant",
-    "ville": "Commentry",
-    "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-02 17:03:39\", \"@valeur\": \"1.629\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-11-21 18:58:28\", \"@valeur\": \"1.704\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-11-21 18:58:29\", \"@valeur\": \"1.799\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 08:52:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 08:52:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-09-19 12:28:13\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"09.15\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"14.30\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 2.741,
-      "lat": 46.294
-    },
-    "gazole_maj": "2025-12-02T18:03:39+01:00",
-    "gazole_prix": 1.629,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2025-11-21T19:58:28+01:00",
-    "e10_prix": 1.704,
-    "sp98_maj": "2025-11-21T19:58:29+01:00",
-    "sp98_prix": 1.799,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-09-19T14:28:13+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2017-09-07T10:52:23+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-09-07T10:52:23+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Allier",
-    "code_departement": "03",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": "Lundi 09.15-12.30 et 14.30-17.30, Mardi 09.15-12.30 et 14.30-17.30, Mercredi 09.15-12.30 et 14.30-17.30, Jeudi 09.15-12.30 et 14.30-17.30, Vendredi 09.15-12.30 et 14.30-17.30, Samedi 09.15-12.30 et 14.30-17.30, Dimanche"
   }
 ]
