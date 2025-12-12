@@ -8,17 +8,17 @@
     "adresse": "ZI DU CAROUGE",
     "ville": "Saint-Pierre-d'Albigny",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-10 04:50:36\", \"@valeur\": \"1.508\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-12-10 04:50:36\", \"@valeur\": \"1.635\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-12-10 04:50:37\", \"@valeur\": \"1.585\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-10 04:50:37\", \"@valeur\": \"1.677\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-12-11 11:10:12\", \"@valeur\": \"1.633\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-12-10 04:50:37\", \"@valeur\": \"1.585\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-10 04:50:37\", \"@valeur\": \"1.677\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-02 15:37:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-12-11 11:09:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.16274,
       "lat": 45.55458
     },
-    "gazole_maj": "2025-12-10T05:50:36+01:00",
-    "gazole_prix": 1.508,
-    "sp95_maj": "2025-12-10T05:50:36+01:00",
-    "sp95_prix": 1.635,
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": "2025-12-11T12:10:12+01:00",
+    "sp95_prix": 1.633,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-10-02T17:37:10+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2025-12-11T12:09:45+01:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
