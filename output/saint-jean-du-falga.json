@@ -8,7 +8,7 @@
     "adresse": "Avenue des Pyrénées",
     "ville": "Saint-Jean-du-Falga",
     "services": "{\"service\": [\"Vente de pétrole lampant\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.545\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"0.675\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.645\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.725\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.545\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"0.675\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.645\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.725\"}]",
     "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-03-03 13:31:22\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
@@ -21,8 +21,8 @@
     "sp95_prix": null,
     "e85_maj": "2025-12-29T10:00:00+01:00",
     "e85_prix": 0.675,
-    "gplc_maj": "2025-12-29T10:00:00+01:00",
-    "gplc_prix": 0.989,
+    "gplc_maj": null,
+    "gplc_prix": null,
     "e10_maj": "2025-12-29T10:00:00+01:00",
     "e10_prix": 1.645,
     "sp98_maj": "2025-12-29T10:00:00+01:00",
@@ -42,12 +42,12 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95"
+      "SP95",
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",

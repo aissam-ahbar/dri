@@ -8,24 +8,24 @@
     "adresse": "ROUTE NATIONALE 57 - VOIE EXPRESS",
     "ville": "Vincey",
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.674\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"0.769\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-29 09:00:00\", \"@valeur\": \"1.849\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-30 07:57:14\", \"@valeur\": \"1.669\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-30 09:00:00\", \"@valeur\": \"0.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-12-30 09:00:00\", \"@valeur\": \"1.739\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-30 09:00:00\", \"@valeur\": \"1.849\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2015-02-17 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-15 17:06:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.332,
       "lat": 48.337
     },
-    "gazole_maj": "2025-12-29T10:00:00+01:00",
-    "gazole_prix": 1.674,
+    "gazole_maj": "2025-12-30T08:57:14+01:00",
+    "gazole_prix": 1.669,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2025-12-29T10:00:00+01:00",
+    "e85_maj": "2025-12-30T10:00:00+01:00",
     "e85_prix": 0.769,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2025-12-29T10:00:00+01:00",
+    "e10_maj": "2025-12-30T10:00:00+01:00",
+    "e10_prix": 1.739,
+    "sp98_maj": "2025-12-30T10:00:00+01:00",
     "sp98_prix": 1.849,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
@@ -42,12 +42,12 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": "SP95",
     "carburants_rupture_definitive": null,
