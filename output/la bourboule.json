@@ -78,8 +78,8 @@
     "adresse": "BOULEVARD DES VERNIERES",
     "ville": "La Bourboule",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-19 09:10:47\", \"@valeur\": \"0.678\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-12-30 09:23:46\", \"@valeur\": \"1.600\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-29 08:48:53\", \"@valeur\": \"1.696\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-03 10:40:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-19 08:22:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-12-30 12:21:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-19 09:10:47\", \"@valeur\": \"0.678\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-29 08:48:53\", \"@valeur\": \"1.696\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-03 10:40:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-19 08:22:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2025-12-30 12:21:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-12-31 16:13:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.758,
@@ -93,12 +93,12 @@
     "e85_prix": 0.678,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-12-30T10:23:46+01:00",
-    "e10_prix": 1.6,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2025-12-29T09:48:53+01:00",
     "sp98_prix": 1.696,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2025-12-31T17:13:50+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2025-08-19T10:22:20+02:00",
@@ -111,15 +111,15 @@
     "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "Gazole",
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": "Gazole;E10",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
