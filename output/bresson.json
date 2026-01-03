@@ -8,8 +8,8 @@
     "adresse": "ZI LES CONDAMINES",
     "ville": "Bresson",
     "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-29 09:47:02\", \"@valeur\": \"1.556\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-12-29 09:47:02\", \"@valeur\": \"1.701\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2025-12-29 09:47:02\", \"@valeur\": \"1.643\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-29 09:47:02\", \"@valeur\": \"1.741\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2025-12-29 09:47:02\", \"@valeur\": \"1.556\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2025-12-29 09:47:02\", \"@valeur\": \"1.701\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2025-12-29 09:47:02\", \"@valeur\": \"1.741\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 09:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-01-02 08:15:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 5.73473,
@@ -23,12 +23,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2025-12-29T10:47:02+01:00",
-    "e10_prix": 1.643,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2025-12-29T10:47:02+01:00",
     "sp98_prix": 1.741,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-01-02T09:15:23+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
