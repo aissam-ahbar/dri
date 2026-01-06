@@ -8,8 +8,8 @@
     "adresse": "9004 Av. de Thiers",
     "ville": "Saint-Yorre",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-02 13:51:59\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-02 13:51:59\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-02 13:51:59\", \"@valeur\": \"1.779\"}]",
-    "rupture": null,
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-02 13:51:59\", \"@valeur\": \"1.599\"}",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-01-05 09:06:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-01-05 09:06:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 3.4702738520894,
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-01-02T14:51:59+01:00",
-    "e10_prix": 1.679,
-    "sp98_maj": "2026-01-02T14:51:59+01:00",
-    "sp98_prix": 1.779,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2026-01-05T10:06:40+01:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2026-01-05T10:06:40+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
