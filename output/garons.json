@@ -1,19 +1,19 @@
 [
   {
     "id": 30128001,
-    "latitude": "4377776.9826268",
-    "longitude": "442820.13029367",
+    "latitude": "4377766.7615294",
+    "longitude": "442860.0305955",
     "cp": "30128",
     "pop": "R",
-    "adresse": "1 RUE JACQUES FLORY, ROUTE DE BOUILLARGUES",
+    "adresse": "1 rue Jacques Flory, Rte de Bouillargues",
     "ville": "Garons",
     "services": "{\"service\": [\"Relais colis\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-04 10:05:29\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-04 10:05:29\", \"@valeur\": \"0.669\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-04 10:05:29\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-04 10:05:30\", \"@valeur\": \"1.765\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-12-18 10:33:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-12-18 10:33:02\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
-      "lon": 4.4282013029367,
-      "lat": 43.777769826268006
+      "lon": 4.428600305955,
+      "lat": 43.777667615294
     },
     "gazole_maj": "2026-01-04T11:05:29+01:00",
     "gazole_prix": 1.599,
@@ -51,7 +51,7 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Relais colis",
       "Piste poids lourds",
@@ -62,6 +62,6 @@
     "code_departement": "30",
     "region": "Occitanie",
     "code_region": "76",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]
