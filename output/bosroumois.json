@@ -8,8 +8,8 @@
     "adresse": "RN313",
     "ville": "Bosroumois",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-05 14:11:45\", \"@valeur\": \"1.579\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-19 09:43:35\", \"@valeur\": \"0.678\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-02 09:43:40\", \"@valeur\": \"1.629\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-02 09:43:41\", \"@valeur\": \"1.729\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:19:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-23 14:24:25\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-05 14:11:45\", \"@valeur\": \"1.579\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2025-12-19 09:43:35\", \"@valeur\": \"0.678\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-02 09:43:41\", \"@valeur\": \"1.729\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:19:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-23 14:24:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-01-09 15:07:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 0.911,
@@ -23,12 +23,12 @@
     "e85_prix": 0.678,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-01-02T10:43:40+01:00",
-    "e10_prix": 1.629,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-01-02T10:43:41+01:00",
     "sp98_prix": 1.729,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-01-09T16:07:22+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2023-03-23T15:24:25+01:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
