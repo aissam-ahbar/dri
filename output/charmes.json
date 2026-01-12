@@ -1,5 +1,67 @@
 [
   {
+    "id": 88130001,
+    "latitude": "4837279.73657",
+    "longitude": "628222.010719",
+    "cp": "88130",
+    "pop": "R",
+    "adresse": "10 Rue René Didierjean",
+    "ville": "Charmes",
+    "services": "{\"service\": \"Piste poids lourds\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-05 10:55:16\", \"@valeur\": \"1.629\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-05 10:55:16\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-09 10:37:34\", \"@valeur\": \"1.759\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-07-13 15:26:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-07-13 15:27:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-13 15:27:00\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 6.282220107190001,
+      "lat": 48.372797365699995
+    },
+    "gazole_maj": "2026-01-05T11:55:16+01:00",
+    "gazole_prix": 1.629,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2026-01-05T11:55:16+01:00",
+    "e10_prix": 1.679,
+    "sp98_maj": "2026-01-09T11:37:34+01:00",
+    "sp98_prix": 1.759,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2018-07-13T17:26:59+02:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": "2018-07-13T17:27:00+02:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-07-13T17:27:00+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Piste poids lourds"
+    ],
+    "departement": "Vosges",
+    "code_departement": "88",
+    "region": "Grand Est",
+    "code_region": "44",
+    "horaires_jour": null
+  },
+  {
     "id": 88130002,
     "latitude": "4837100",
     "longitude": "629200",
@@ -71,67 +133,5 @@
     "region": "Grand Est",
     "code_region": "44",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 88130001,
-    "latitude": "4837279.73657",
-    "longitude": "628222.010719",
-    "cp": "88130",
-    "pop": "R",
-    "adresse": "10 Rue René Didierjean",
-    "ville": "Charmes",
-    "services": "{\"service\": \"Piste poids lourds\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-05 10:55:16\", \"@valeur\": \"1.629\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-05 10:55:16\", \"@valeur\": \"1.679\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-09 10:37:34\", \"@valeur\": \"1.759\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-07-13 15:26:59\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-07-13 15:27:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-13 15:27:00\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 6.282220107190001,
-      "lat": 48.372797365699995
-    },
-    "gazole_maj": "2026-01-05T11:55:16+01:00",
-    "gazole_prix": 1.629,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2026-01-05T11:55:16+01:00",
-    "e10_prix": 1.679,
-    "sp98_maj": "2026-01-09T11:37:34+01:00",
-    "sp98_prix": 1.759,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2018-07-13T17:26:59+02:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2018-07-13T17:27:00+02:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2018-07-13T17:27:00+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Piste poids lourds"
-    ],
-    "departement": "Vosges",
-    "code_departement": "88",
-    "region": "Grand Est",
-    "code_region": "44",
-    "horaires_jour": null
   }
 ]
