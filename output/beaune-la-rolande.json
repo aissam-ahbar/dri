@@ -1,5 +1,67 @@
 [
   {
+    "id": 45340005,
+    "latitude": "4808400",
+    "longitude": "247200",
+    "cp": "45340",
+    "pop": "A",
+    "adresse": "Autoroute A19",
+    "ville": "Beaune-la-Rolande",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"0.931\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.064\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.922\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-12-27 16:20:16\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "geom": {
+      "lon": 2.472,
+      "lat": 48.084
+    },
+    "gazole_maj": "2026-01-13T00:50:00+01:00",
+    "gazole_prix": 1.769,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2026-01-13T00:50:00+01:00",
+    "e85_prix": 0.931,
+    "gplc_maj": "2026-01-13T00:50:00+01:00",
+    "gplc_prix": 1.064,
+    "e10_maj": "2026-01-13T00:50:00+01:00",
+    "e10_prix": 1.822,
+    "sp98_maj": "2026-01-13T00:50:00+01:00",
+    "sp98_prix": 1.922,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2024-12-27T17:20:16+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Loiret",
+    "code_departement": "45",
+    "region": "Centre-Val de Loire",
+    "code_region": "24",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+  },
+  {
     "id": 45340001,
     "latitude": "4806500",
     "longitude": "242100",
@@ -70,67 +132,5 @@
     "region": "Centre-Val de Loire",
     "code_region": "24",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 45340005,
-    "latitude": "4808400",
-    "longitude": "247200",
-    "cp": "45340",
-    "pop": "A",
-    "adresse": "Autoroute A19",
-    "ville": "Beaune-la-Rolande",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.769\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"0.931\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.064\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.822\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-12 23:50:00\", \"@valeur\": \"1.922\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-12-27 16:20:16\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "geom": {
-      "lon": 2.472,
-      "lat": 48.084
-    },
-    "gazole_maj": "2026-01-13T00:50:00+01:00",
-    "gazole_prix": 1.769,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2026-01-13T00:50:00+01:00",
-    "e85_prix": 0.931,
-    "gplc_maj": "2026-01-13T00:50:00+01:00",
-    "gplc_prix": 1.064,
-    "e10_maj": "2026-01-13T00:50:00+01:00",
-    "e10_prix": 1.822,
-    "sp98_maj": "2026-01-13T00:50:00+01:00",
-    "sp98_prix": 1.922,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2024-12-27T17:20:16+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Loiret",
-    "code_departement": "45",
-    "region": "Centre-Val de Loire",
-    "code_region": "24",
-    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]
