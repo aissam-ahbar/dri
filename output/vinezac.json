@@ -1,8 +1,8 @@
 [
   {
     "id": 7110006,
-    "latitude": "4453726.2",
-    "longitude": "434638.9",
+    "latitude": "4453737.3090373",
+    "longitude": "434672.85781021",
     "cp": "07110",
     "pop": "R",
     "adresse": "635 route d'ales",
@@ -10,10 +10,10 @@
     "services": "{\"service\": [\"Relais colis\", \"Boutique alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-16 09:33:55\", \"@valeur\": \"1.649\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-16 09:33:55\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-16 09:33:55\", \"@valeur\": \"1.799\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-09 10:05:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-01-09 10:05:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-01-09 10:05:16\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": 4.346389,
-      "lat": 44.537262
+      "lon": 4.3467285781021,
+      "lat": 44.537373090372995
     },
     "gazole_maj": "2026-01-16T10:33:55+01:00",
     "gazole_prix": 1.649,
@@ -51,7 +51,7 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Relais colis",
       "Boutique alimentaire",
@@ -66,6 +66,6 @@
     "code_departement": "07",
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
-    "horaires_jour": "Lundi07.30-18.00, Mardi07.30-18.00, Mercredi07.30-18.00, Jeudi07.30-18.00, Vendredi07.30-18.00, Samedi, Dimanche"
+    "horaires_jour": "Automate-24-24, Lundi07.30-18.00, Mardi07.30-18.00, Mercredi07.30-18.00, Jeudi07.30-18.00, Vendredi07.30-18.00, Samedi, Dimanche"
   }
 ]
