@@ -62,8 +62,8 @@
     "adresse": "2, RUE DE BROCÉLIANDE",
     "ville": "Romillé",
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-15 17:58:44\", \"@valeur\": \"1.609\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-22 09:01:09\", \"@valeur\": \"1.619\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-21 11:31:59\", \"@valeur\": \"1.710\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-02-22 12:49:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-06-22 10:09:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-22 14:21:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-15 17:58:44\", \"@valeur\": \"1.609\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-21 11:31:59\", \"@valeur\": \"1.710\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-02-22 12:49:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-06-22 10:09:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-22 14:21:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-01-24 09:45:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": -1.886,
@@ -77,12 +77,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-01-22T10:01:09+01:00",
-    "e10_prix": 1.619,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-01-21T12:31:59+01:00",
     "sp98_prix": 1.71,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-01-24T10:45:00+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2026-01-22T15:21:04+01:00",
@@ -95,15 +95,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_temporaire": "SP95;E10",
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,
