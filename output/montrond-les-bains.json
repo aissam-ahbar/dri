@@ -62,6 +62,68 @@
     "horaires_jour": null
   },
   {
+    "id": 42210004,
+    "latitude": "4565420.8",
+    "longitude": "423100.1",
+    "cp": "42210",
+    "pop": "R",
+    "adresse": "60 RUE DE LA SAUVETE ZAC DES BERGERES",
+    "ville": "Montrond-les-Bains",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-21 07:35:07\", \"@valeur\": \"1.656\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-20 07:20:48\", \"@valeur\": \"0.728\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-20 07:20:48\", \"@valeur\": \"1.675\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-20 07:20:48\", \"@valeur\": \"1.786\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-11-08 19:22:56\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 4.231001,
+      "lat": 45.654208
+    },
+    "gazole_maj": "2026-01-21T08:35:07+01:00",
+    "gazole_prix": 1.656,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2026-01-20T08:20:48+01:00",
+    "e85_prix": 0.728,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2026-01-20T08:20:48+01:00",
+    "e10_prix": 1.675,
+    "sp98_maj": "2026-01-20T08:20:48+01:00",
+    "sp98_prix": 1.786,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": "2025-11-08T20:22:56+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "E85",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "SP95",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Loire",
+    "code_departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 42210003,
     "latitude": "4563477",
     "longitude": "423902",
@@ -131,67 +193,5 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": null
-  },
-  {
-    "id": 42210004,
-    "latitude": "4565420.8",
-    "longitude": "423100.1",
-    "cp": "42210",
-    "pop": "R",
-    "adresse": "60 RUE DE LA SAUVETE ZAC DES BERGERES",
-    "ville": "Montrond-les-Bains",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-21 07:35:07\", \"@valeur\": \"1.656\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-20 07:20:48\", \"@valeur\": \"0.728\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-20 07:20:48\", \"@valeur\": \"1.675\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-20 07:20:48\", \"@valeur\": \"1.786\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-11-08 19:22:56\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 4.231001,
-      "lat": 45.654208
-    },
-    "gazole_maj": "2026-01-21T08:35:07+01:00",
-    "gazole_prix": 1.656,
-    "sp95_maj": null,
-    "sp95_prix": null,
-    "e85_maj": "2026-01-20T08:20:48+01:00",
-    "e85_prix": 0.728,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2026-01-20T08:20:48+01:00",
-    "e10_prix": 1.675,
-    "sp98_maj": "2026-01-20T08:20:48+01:00",
-    "sp98_prix": 1.786,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2025-11-08T20:22:56+01:00",
-    "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Loire",
-    "code_departement": "42",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": "Automate-24-24"
   }
 ]
