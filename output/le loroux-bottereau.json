@@ -66,31 +66,31 @@
   },
   {
     "id": 44430004,
-    "latitude": "4723378.83",
-    "longitude": "-136691.72",
+    "latitude": "4723400",
+    "longitude": "-136700",
     "cp": "44430",
     "pop": "R",
     "adresse": "Canton de la Haute Landelle, Routes de Nantes",
     "ville": "Le Loroux-Bottereau",
-    "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-27 01:16:00\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-27 01:16:00\", \"@valeur\": \"0.679\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-27 01:16:00\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-27 01:16:00\", \"@valeur\": \"1.689\"}]",
+    "services": "{\"service\": [\"Piste poids lourds\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-28 01:16:00\", \"@valeur\": \"1.599\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-28 01:16:00\", \"@valeur\": \"0.679\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-28 01:16:00\", \"@valeur\": \"1.599\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-28 01:16:00\", \"@valeur\": \"1.689\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-01-14 17:34:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-01-14 17:34:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
-      "lon": -1.3669172,
-      "lat": 47.2337883
+      "lon": -1.367,
+      "lat": 47.234
     },
-    "gazole_maj": "2026-01-27T02:16:00+01:00",
+    "gazole_maj": "2026-01-28T02:16:00+01:00",
     "gazole_prix": 1.599,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-01-27T02:16:00+01:00",
+    "e85_maj": "2026-01-28T02:16:00+01:00",
     "e85_prix": 0.679,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-01-27T02:16:00+01:00",
+    "e10_maj": "2026-01-28T02:16:00+01:00",
     "e10_prix": 1.599,
-    "sp98_maj": "2026-01-27T02:16:00+01:00",
+    "sp98_maj": "2026-01-28T02:16:00+01:00",
     "sp98_prix": 1.689,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
@@ -116,12 +116,16 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Piste poids lourds",
+      "Vente d'additifs carburants",
+      "Automate CB 24/24"
+    ],
     "departement": "Loire-Atlantique",
     "code_departement": "44",
     "region": "Pays de la Loire",
     "code_region": "52",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]
