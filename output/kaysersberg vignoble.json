@@ -73,8 +73,8 @@
     "adresse": "13 Rue de la Weiss",
     "ville": "Kaysersberg Vignoble",
     "services": "{\"service\": [\"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-30 09:05:32\", \"@valeur\": \"1.659\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-30 09:05:32\", \"@valeur\": \"1.659\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-17 16:50:07\", \"@valeur\": \"1.739\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-07 13:29:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-11-07 13:29:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-06-10 11:01:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-30 09:05:32\", \"@valeur\": \"1.659\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-30 09:05:32\", \"@valeur\": \"1.659\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-07 13:29:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-11-07 13:29:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-06-10 11:01:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-01-31 09:20:17\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 7.26749,
@@ -90,12 +90,12 @@
     "gplc_prix": null,
     "e10_maj": "2026-01-30T10:05:32+01:00",
     "e10_prix": 1.659,
-    "sp98_maj": "2026-01-17T17:50:07+01:00",
-    "sp98_prix": 1.739,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-01-31T10:20:17+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2025-06-10T13:01:46+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2018-11-07T14:29:57+01:00",
@@ -106,15 +106,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
