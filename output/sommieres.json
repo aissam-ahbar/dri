@@ -8,23 +8,23 @@
     "adresse": "Route de Saussines",
     "ville": "Sommières",
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-30 07:30:00\", \"@valeur\": \"1.659\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-20 16:09:52\", \"@valeur\": \"0.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-23 07:30:00\", \"@valeur\": \"1.789\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-03 07:30:00\", \"@valeur\": \"1.689\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-20 16:09:52\", \"@valeur\": \"0.728\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-02-03 07:30:00\", \"@valeur\": \"1.709\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-23 07:30:00\", \"@valeur\": \"1.789\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 18:32:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-07-30 16:17:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 4.08168,
       "lat": 43.78095
     },
-    "gazole_maj": "2026-01-30T08:30:00+01:00",
-    "gazole_prix": 1.659,
+    "gazole_maj": "2026-02-03T08:30:00+01:00",
+    "gazole_prix": 1.689,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2026-01-20T17:09:52+01:00",
     "e85_prix": 0.728,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2026-02-03T08:30:00+01:00",
+    "e10_prix": 1.709,
     "sp98_maj": "2026-01-23T08:30:00+01:00",
     "sp98_prix": 1.789,
     "e10_rupture_debut": null,
@@ -42,12 +42,12 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": "GPLc",
     "carburants_rupture_definitive": "SP95",

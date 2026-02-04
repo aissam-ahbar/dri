@@ -1,5 +1,68 @@
 [
   {
+    "id": 5400004,
+    "latitude": "4453739.83",
+    "longitude": "583462.1",
+    "cp": "05400",
+    "pop": "R",
+    "adresse": "ROUTE DE GAP",
+    "ville": "Veynes",
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-27 13:57:05\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-01-27 13:57:05\", \"@valeur\": \"1.759\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 5.834620999999999,
+      "lat": 44.5373983
+    },
+    "gazole_maj": "2026-01-27T14:57:05+01:00",
+    "gazole_prix": 1.649,
+    "sp95_maj": "2026-01-27T14:57:05+01:00",
+    "sp95_prix": 1.759,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2017-11-10T20:19:25+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": "2017-11-10T20:19:25+01:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2017-11-10T20:19:25+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2017-11-10T20:19:25+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Hautes-Alpes",
+    "code_departement": "05",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93",
+    "horaires_jour": null
+  },
+  {
     "id": 5400002,
     "latitude": "4453627",
     "longitude": "583174",
@@ -140,68 +203,5 @@
     "region": "Provence-Alpes-Côte d'Azur",
     "code_region": "93",
     "horaires_jour": "Automate-24-24, Lundi08.00-20.00, Mardi08.00-20.00, Mercredi08.00-20.00, Jeudi08.00-20.00, Vendredi08.00-20.00, Samedi08.00-20.00, Dimanche"
-  },
-  {
-    "id": 5400004,
-    "latitude": "4453739.83",
-    "longitude": "583462.1",
-    "cp": "05400",
-    "pop": "R",
-    "adresse": "ROUTE DE GAP",
-    "ville": "Veynes",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-27 13:57:05\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-01-27 13:57:05\", \"@valeur\": \"1.759\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-11-10 19:19:25\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": null,
-    "geom": {
-      "lon": 5.834620999999999,
-      "lat": 44.5373983
-    },
-    "gazole_maj": "2026-01-27T14:57:05+01:00",
-    "gazole_prix": 1.649,
-    "sp95_maj": "2026-01-27T14:57:05+01:00",
-    "sp95_prix": 1.759,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": "2017-11-10T20:19:25+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2017-11-10T20:19:25+01:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2017-11-10T20:19:25+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2017-11-10T20:19:25+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Hautes-Alpes",
-    "code_departement": "05",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93",
-    "horaires_jour": null
   }
 ]
