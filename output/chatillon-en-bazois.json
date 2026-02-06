@@ -1,67 +1,5 @@
 [
   {
-    "id": 58110003,
-    "latitude": "4705200",
-    "longitude": "365400",
-    "cp": "58110",
-    "pop": "R",
-    "adresse": "CHAMPS DE LA BARRIERE",
-    "ville": "Châtillon-en-Bazois",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-20 00:00:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-01-01 00:00:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-01 00:00:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-01 00:00:00\", \"@valeur\": \"1.859\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-12-26 16:36:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-26 16:36:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "geom": {
-      "lon": 3.654,
-      "lat": 47.052
-    },
-    "gazole_maj": "2026-01-20T01:00:00+01:00",
-    "gazole_prix": 1.699,
-    "sp95_maj": "2026-01-01T01:00:00+01:00",
-    "sp95_prix": 1.809,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2026-01-01T01:00:00+01:00",
-    "e10_prix": 1.789,
-    "sp98_maj": "2026-01-01T01:00:00+01:00",
-    "sp98_prix": 1.859,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2018-12-26T17:36:20+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2018-12-26T17:36:20+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Nièvre",
-    "code_departement": "58",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": "Automate-24-24"
-  },
-  {
     "id": 58110001,
     "latitude": "4704500",
     "longitude": "364300",
@@ -129,5 +67,67 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": "Automate-24-24, Lundi 08.00-12.00 et 14.00-18.00, Mardi 08.00-12.00 et 14.00-18.00, Mercredi 08.00-12.00 et 14.00-18.00, Jeudi 08.00-12.00 et 14.00-18.00, Vendredi 08.00-12.00 et 14.00-17.00, Samedi, Dimanche"
+  },
+  {
+    "id": 58110003,
+    "latitude": "4705200",
+    "longitude": "365400",
+    "cp": "58110",
+    "pop": "R",
+    "adresse": "CHAMPS DE LA BARRIERE",
+    "ville": "Châtillon-en-Bazois",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-01-20 00:00:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-01-01 00:00:00\", \"@valeur\": \"1.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-01-01 00:00:00\", \"@valeur\": \"1.789\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-01 00:00:00\", \"@valeur\": \"1.859\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-12-26 16:36:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-26 16:36:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "geom": {
+      "lon": 3.654,
+      "lat": 47.052
+    },
+    "gazole_maj": "2026-01-20T01:00:00+01:00",
+    "gazole_prix": 1.699,
+    "sp95_maj": "2026-01-01T01:00:00+01:00",
+    "sp95_prix": 1.809,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2026-01-01T01:00:00+01:00",
+    "e10_prix": 1.789,
+    "sp98_maj": "2026-01-01T01:00:00+01:00",
+    "sp98_prix": 1.859,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2018-12-26T17:36:20+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2018-12-26T17:36:20+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Nièvre",
+    "code_departement": "58",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": "Automate-24-24"
   }
 ]
