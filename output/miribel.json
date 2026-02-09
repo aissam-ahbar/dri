@@ -1,67 +1,5 @@
 [
   {
-    "id": 1700005,
-    "latitude": "4582783.8629064",
-    "longitude": "497054.86061045",
-    "cp": "01700",
-    "pop": "R",
-    "adresse": "RUE DU FIGUIER",
-    "ville": "Miribel",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"1.639\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"1.715\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"0.754\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"1.769\"}]",
-    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-07-06 08:46:20\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "geom": {
-      "lon": 4.9705486061045,
-      "lat": 45.827838629064004
-    },
-    "gazole_maj": "2026-02-03T16:43:23+01:00",
-    "gazole_prix": 1.639,
-    "sp95_maj": "2026-02-03T16:43:23+01:00",
-    "sp95_prix": 1.715,
-    "e85_maj": "2026-02-03T16:43:23+01:00",
-    "e85_prix": 0.754,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2026-02-03T16:43:23+01:00",
-    "e10_prix": 1.669,
-    "sp98_maj": "2026-02-03T16:43:23+01:00",
-    "sp98_prix": 1.769,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2025-07-06T10:46:20+02:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "GPLc"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "GPLc",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Ain",
-    "code_departement": "01",
-    "region": "Auvergne-Rhône-Alpes",
-    "code_region": "84",
-    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
-  },
-  {
     "id": 1700003,
     "latitude": "4587100",
     "longitude": "491200",
@@ -120,5 +58,67 @@
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
     "horaires_jour": null
+  },
+  {
+    "id": 1700005,
+    "latitude": "4582783.8629064",
+    "longitude": "497054.86061045",
+    "cp": "01700",
+    "pop": "R",
+    "adresse": "RUE DU FIGUIER",
+    "ville": "Miribel",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"1.639\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"1.715\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"0.754\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-03 15:43:23\", \"@valeur\": \"1.769\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-07-06 08:46:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-02-08 10:45:29\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
+    "geom": {
+      "lon": 4.9705486061045,
+      "lat": 45.827838629064004
+    },
+    "gazole_maj": "2026-02-03T16:43:23+01:00",
+    "gazole_prix": 1.639,
+    "sp95_maj": "2026-02-03T16:43:23+01:00",
+    "sp95_prix": 1.715,
+    "e85_maj": "2026-02-03T16:43:23+01:00",
+    "e85_prix": 0.754,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2026-02-03T16:43:23+01:00",
+    "sp98_prix": 1.769,
+    "e10_rupture_debut": "2026-02-08T11:45:29+01:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2025-07-06T10:46:20+02:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_definitive": "GPLc",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Ain",
+    "code_departement": "01",
+    "region": "Auvergne-Rhône-Alpes",
+    "code_region": "84",
+    "horaires_jour": "Automate-24-24, Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
   }
 ]

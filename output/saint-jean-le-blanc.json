@@ -8,25 +8,25 @@
     "adresse": "Route de Saint-Cyr-en-Val",
     "ville": "Saint-Jean-le-Blanc",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-03 17:34:42\", \"@valeur\": \"1.665\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-08 08:37:30\", \"@valeur\": \"1.628\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-02-08 08:37:31\", \"@valeur\": \"1.645\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-08 08:37:31\", \"@valeur\": \"1.733\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-29 10:25:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-08-20 12:57:01\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 1.9348,
       "lat": 47.87568
     },
-    "gazole_maj": "2026-02-03T18:34:42+01:00",
-    "gazole_prix": 1.665,
+    "gazole_maj": "2026-02-08T09:37:30+01:00",
+    "gazole_prix": 1.628,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2026-02-08T09:37:31+01:00",
+    "e10_prix": 1.645,
+    "sp98_maj": "2026-02-08T09:37:31+01:00",
+    "sp98_prix": 1.733,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -40,14 +40,14 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
