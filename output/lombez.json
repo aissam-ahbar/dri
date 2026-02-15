@@ -8,8 +8,8 @@
     "adresse": "Avenue Maquis Meilhan",
     "ville": "Lombez",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-12 09:17:25\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-01-20 08:30:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-11-10 12:15:55\", \"@valeur\": \"1.081\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-02-07 08:30:00\", \"@valeur\": \"1.699\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-03 08:30:00\", \"@valeur\": \"1.799\"}]",
-    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-03-16 08:14:55\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-12 09:17:25\", \"@valeur\": \"1.669\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-01-20 08:30:00\", \"@valeur\": \"1.759\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2025-11-10 12:15:55\", \"@valeur\": \"1.081\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-03-16 08:14:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-02-14 18:38:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-02-14 18:38:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.92231,
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": "2025-11-10T13:15:55+01:00",
     "gplc_prix": 1.081,
-    "e10_maj": "2026-02-07T09:30:00+01:00",
-    "e10_prix": 1.699,
-    "sp98_maj": "2026-02-03T09:30:00+01:00",
-    "sp98_prix": 1.799,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2026-02-14T19:38:23+01:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2026-02-14T19:38:23+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2022-03-16T09:14:55+01:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "GPLc",
+      "GPLc"
+    ],
+    "carburants_indisponibles": [
+      "E85",
       "E10",
       "SP98"
     ],
-    "carburants_indisponibles": [
-      "E85"
-    ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
