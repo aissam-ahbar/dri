@@ -8,15 +8,15 @@
     "adresse": "12, avenue des Peupliers",
     "ville": "Fresne-Saint-Mamès",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-06 19:16:56\", \"@valeur\": \"1.749\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-01 08:34:03\", \"@valeur\": \"1.909\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-12-17 17:38:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-14 11:20:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-01-01 08:34:03\", \"@valeur\": \"1.909\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-14 11:20:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-02-15 08:49:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 5.85614,
       "lat": 47.55117
     },
-    "gazole_maj": "2026-02-06T20:16:56+01:00",
-    "gazole_prix": 1.749,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -35,21 +35,21 @@
     "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
-    "gplc_rupture_debut": "2019-12-17T18:38:50+01:00",
-    "gplc_rupture_type": "temporaire",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": "2026-02-15T09:49:00+01:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "SP95;GPLc",
+    "carburants_rupture_temporaire": "Gazole;SP95",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
