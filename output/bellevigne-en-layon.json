@@ -8,8 +8,8 @@
     "adresse": "2 BD DE LA REPUBLIQUE",
     "ville": "Bellevigne-en-Layon",
     "services": "{\"service\": [\"Relais colis\", \"Location de véhicule\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-06 09:20:47\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-16 07:50:29\", \"@valeur\": \"1.759\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-02 10:13:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-10-02 10:13:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-03-09 08:24:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-17 11:17:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-06 09:20:47\", \"@valeur\": \"1.649\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-02-18 11:39:13\", \"@valeur\": \"1.649\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-16 07:50:29\", \"@valeur\": \"1.759\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-02 10:13:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-03-09 08:24:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-17 11:17:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -0.50396,
@@ -23,12 +23,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2026-02-18T12:39:13+01:00",
+    "e10_prix": 1.649,
     "sp98_maj": "2026-02-16T08:50:29+01:00",
     "sp98_prix": 1.759,
-    "e10_rupture_debut": "2017-10-02T12:13:24+02:00",
-    "e10_rupture_type": "definitive",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2026-02-17T12:17:47+01:00",
@@ -41,16 +41,16 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc;E10",
+    "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Relais colis",
