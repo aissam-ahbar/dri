@@ -78,23 +78,23 @@
     "adresse": "BOULEVARD DES VERNIERES",
     "ville": "La Bourboule",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-24 12:04:26\", \"@valeur\": \"1.704\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-02-13 11:18:41\", \"@valeur\": \"0.728\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-24 12:04:27\", \"@valeur\": \"1.825\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-03 09:44:31\", \"@valeur\": \"1.714\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-02-13 11:18:41\", \"@valeur\": \"0.728\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-03 09:44:31\", \"@valeur\": \"1.717\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-24 12:04:27\", \"@valeur\": \"1.825\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-03 10:40:23\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-19 08:22:20\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": 2.758,
       "lat": 45.591
     },
-    "gazole_maj": "2026-02-24T13:04:26+01:00",
-    "gazole_prix": 1.704,
+    "gazole_maj": "2026-03-03T10:44:31+01:00",
+    "gazole_prix": 1.714,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2026-02-13T12:18:41+01:00",
     "e85_prix": 0.728,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2026-03-03T10:44:31+01:00",
+    "e10_prix": 1.717,
     "sp98_maj": "2026-02-24T13:04:27+01:00",
     "sp98_prix": 1.825,
     "e10_rupture_debut": null,
@@ -112,12 +112,12 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
