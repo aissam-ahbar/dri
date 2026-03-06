@@ -8,8 +8,8 @@
     "adresse": "Boulevard de la Tournaille",
     "ville": "Guénange",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Bar\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-27 09:53:29\", \"@valeur\": \"1.697\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-02-27 09:53:29\", \"@valeur\": \"1.700\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-02-27 09:53:29\", \"@valeur\": \"1.782\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-07-02 11:06:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-03 09:37:14\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-02-27 09:53:29\", \"@valeur\": \"1.697\"}",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-07-02 11:06:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-03 09:37:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-03-05 12:55:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-03-05 12:55:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 6.2093,
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-02-27T10:53:29+01:00",
-    "e10_prix": 1.7,
-    "sp98_maj": "2026-02-27T10:53:29+01:00",
-    "sp98_prix": 1.782,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2026-03-05T13:55:16+01:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2026-03-05T13:55:16+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2026-02-03T10:37:14+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2020-07-02T13:06:38+02:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
