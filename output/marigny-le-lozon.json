@@ -8,7 +8,7 @@
     "adresse": "RUE DE LA CHAPONIERE",
     "ville": "Marigny-Le-Lozon",
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-07 08:35:37\", \"@valeur\": \"1.999\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-07 08:35:37\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-09 10:41:20\", \"@valeur\": \"1.869\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-09 10:41:20\", \"@valeur\": \"1.939\"}]",
     "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2015-12-01 09:00:00\", \"@fin\": \"\", \"@type\": \"\"}",
     "horaires": null,
     "geom": {
@@ -17,16 +17,16 @@
     },
     "gazole_maj": "2026-03-07T09:35:37+01:00",
     "gazole_prix": 1.999,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "sp95_maj": "2026-03-09T11:41:20+01:00",
+    "sp95_prix": 1.869,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2026-03-09T11:41:20+01:00",
+    "sp98_prix": 1.939,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -40,14 +40,14 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": null,
