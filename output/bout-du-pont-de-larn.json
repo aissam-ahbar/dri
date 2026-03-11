@@ -8,8 +8,8 @@
     "adresse": "CD 54 - RN 112 lieu dit Lagarrigue",
     "ville": "Bout-du-Pont-de-Larn",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-09 09:42:05\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-09 09:42:06\", \"@valeur\": \"1.859\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-09 09:42:06\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-09 09:42:06\", \"@valeur\": \"1.899\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-18 09:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-10-02 12:10:24\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-09 09:42:05\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-09 09:42:06\", \"@valeur\": \"1.859\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-03-10 15:45:51\", \"@valeur\": \"0.915\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-09 09:42:06\", \"@valeur\": \"1.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-09 09:42:06\", \"@valeur\": \"1.899\"}]",
+    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-18 09:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "horaires": null,
     "geom": {
       "lon": 2.4,
@@ -21,8 +21,8 @@
     "sp95_prix": 1.859,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
+    "gplc_maj": "2026-03-10T16:45:51+01:00",
+    "gplc_prix": 0.915,
     "e10_maj": "2026-03-09T10:42:06+01:00",
     "e10_prix": 1.799,
     "sp98_maj": "2026-03-09T10:42:06+01:00",
@@ -35,21 +35,21 @@
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2017-09-18T11:34:19+02:00",
     "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2023-10-02T14:10:24+02:00",
-    "gplc_rupture_type": "temporaire",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
+      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "E85",
-      "GPLc"
+      "E85"
     ],
-    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
