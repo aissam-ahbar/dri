@@ -1,5 +1,67 @@
 [
   {
+    "id": 59179002,
+    "latitude": "5036600",
+    "longitude": "330000",
+    "cp": "59179",
+    "pop": "R",
+    "adresse": "79 PLACE DES FUSILLES",
+    "ville": "Fenain",
+    "services": "{\"service\": \"Automate CB 24/24\"}",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-20 13:35:21\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-20 13:35:21\", \"@valeur\": \"2.019\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-03-20 13:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-20 13:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-03-20 13:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-03-22 09:25:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "geom": {
+      "lon": 3.3,
+      "lat": 50.366
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": "2026-03-20T14:35:21+01:00",
+    "sp95_prix": 1.939,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2026-03-20T14:35:21+01:00",
+    "sp98_prix": 2.019,
+    "e10_rupture_debut": "2026-03-20T14:35:21+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2026-03-20T14:35:21+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2026-03-20T14:35:21+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": "2026-03-22T10:25:04+01:00",
+    "gazole_rupture_type": "temporaire",
+    "carburants_disponibles": [
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "Gazole",
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Automate CB 24/24"
+    ],
+    "departement": "Nord",
+    "code_departement": "59",
+    "region": "Hauts-de-France",
+    "code_region": "32",
+    "horaires_jour": "Automate-24-24"
+  },
+  {
     "id": 59179001,
     "latitude": "5036593",
     "longitude": "330017",
@@ -60,67 +122,5 @@
     "region": "Hauts-de-France",
     "code_region": "32",
     "horaires_jour": null
-  },
-  {
-    "id": 59179002,
-    "latitude": "5036610.3",
-    "longitude": "330011.7",
-    "cp": "59179",
-    "pop": "R",
-    "adresse": "PLACE DES FUSILLES",
-    "ville": "Fenain",
-    "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-20 13:35:21\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-20 13:35:21\", \"@valeur\": \"2.019\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-03-20 13:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-20 13:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-03-20 13:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-03-22 09:25:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "geom": {
-      "lon": 3.300117,
-      "lat": 50.366102999999995
-    },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": "2026-03-20T14:35:21+01:00",
-    "sp95_prix": 1.939,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2026-03-20T14:35:21+01:00",
-    "sp98_prix": 2.019,
-    "e10_rupture_debut": "2026-03-20T14:35:21+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2026-03-20T14:35:21+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2026-03-20T14:35:21+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-03-22T10:25:04+01:00",
-    "gazole_rupture_type": "temporaire",
-    "carburants_disponibles": [
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "Gazole",
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": "Gazole",
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Oui",
-    "services_service": [
-      "Automate CB 24/24"
-    ],
-    "departement": "Nord",
-    "code_departement": "59",
-    "region": "Hauts-de-France",
-    "code_region": "32",
-    "horaires_jour": "Automate-24-24"
   }
 ]
