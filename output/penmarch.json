@@ -8,17 +8,17 @@
     "adresse": "RUE EDMOND MICHELET PRAT GOUZIEN",
     "ville": "Penmarch",
     "services": "{\"service\": \"Piste poids lourds\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-16 11:47:07\", \"@valeur\": \"2.089\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-16 11:47:07\", \"@valeur\": \"1.919\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-16 11:47:07\", \"@valeur\": \"1.995\"}]",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-26 09:04:24\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-16 11:47:07\", \"@valeur\": \"1.995\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-26 08:09:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 08:09:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-03-12 09:10:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
     "geom": {
       "lon": -4.33281,
       "lat": 47.8146
     },
-    "gazole_maj": "2026-03-16T12:47:07+01:00",
-    "gazole_prix": 2.089,
-    "sp95_maj": "2026-03-16T12:47:07+01:00",
-    "sp95_prix": 1.919,
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": "2026-03-26T10:04:24+01:00",
+    "sp95_prix": 1.989,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -40,11 +40,11 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10"
