@@ -8,7 +8,7 @@
     "adresse": "Creis Er Prat",
     "ville": "Plouay",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-25 15:35:00\", \"@valeur\": \"2.349\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-03-25 15:35:00\", \"@valeur\": \"0.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-25 15:35:00\", \"@valeur\": \"1.959\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-25 15:35:00\", \"@valeur\": \"2.089\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-25 15:35:00\", \"@valeur\": \"2.349\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-03-25 15:35:00\", \"@valeur\": \"0.839\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-25 15:35:00\", \"@valeur\": \"2.089\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-17 10:34:11\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-12-03 08:58:43\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
@@ -23,8 +23,8 @@
     "e85_prix": 0.839,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-03-25T16:35:00+01:00",
-    "e10_prix": 1.959,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-03-25T16:35:00+01:00",
     "sp98_prix": 2.089,
     "e10_rupture_debut": null,
@@ -42,12 +42,12 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "carburants_rupture_temporaire": "SP95;GPLc",
     "carburants_rupture_definitive": null,
