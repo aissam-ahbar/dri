@@ -8,8 +8,8 @@
     "adresse": "CD201",
     "ville": "Sainte-Marie-de-Ré",
     "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-27 12:19:57\", \"@valeur\": \"2.090\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-27 12:19:57\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-27 12:19:57\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2009-12-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-02-23 15:14:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-01 12:44:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-27 12:19:57\", \"@valeur\": \"2.090\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-27 12:19:57\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2009-12-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-02-23 15:14:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-06-01 12:44:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-03-29 12:11:21\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": -1.324,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2026-03-27T13:19:57+01:00",
     "e10_prix": 1.99,
-    "sp98_maj": "2026-03-27T13:19:57+01:00",
-    "sp98_prix": 1.99,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-03-29T14:11:21+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2018-06-01T14:44:05+02:00",
     "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2018-02-23T16:14:28+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_temporaire": "SP95;SP98",
     "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Oui",
     "services_service": [
