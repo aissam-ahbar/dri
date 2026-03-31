@@ -8,16 +8,16 @@
     "adresse": "CD 52 ZONE INDUSTRIELLE",
     "ville": "Biesheim",
     "services": "{\"service\": \"Automate CB 24/24\"}",
-    "prix": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-27 15:32:59\", \"@valeur\": \"1.990\"}",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-16 14:37:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-16 14:37:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-07-16 14:37:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-07-22 11:14:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-03-27 15:32:21\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-30 08:44:25\", \"@valeur\": \"2.090\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-30 08:44:25\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-16 14:37:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-16 14:37:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-07-16 14:37:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-07-22 11:14:49\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 7.556,
       "lat": 48.043
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
-    "sp95_maj": "2026-03-27T16:32:59+01:00",
+    "gazole_maj": "2026-03-30T10:44:25+02:00",
+    "gazole_prix": 2.09,
+    "sp95_maj": "2026-03-30T10:44:25+02:00",
     "sp95_prix": 1.99,
     "e85_maj": null,
     "e85_prix": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2021-07-16T16:37:50+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-03-27T16:32:21+01:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [

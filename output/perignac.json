@@ -8,8 +8,8 @@
     "adresse": "AUX NAULETS PEREUIL",
     "ville": "Pérignac",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-23 14:52:04\", \"@valeur\": \"2.379\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-23 14:52:04\", \"@valeur\": \"2.049\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-23 14:52:04\", \"@valeur\": \"2.099\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-05-15 10:01:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-06-05 14:17:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-01-06 11:41:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-23 14:52:04\", \"@valeur\": \"2.379\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-23 14:52:04\", \"@valeur\": \"2.049\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-05-15 10:01:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-06-05 14:17:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-01-06 11:41:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-03-30 16:16:12\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 0.048103320000000005,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": "2026-03-23T15:52:04+01:00",
     "e10_prix": 2.049,
-    "sp98_maj": "2026-03-23T15:52:04+01:00",
-    "sp98_prix": 2.099,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-03-30T18:16:12+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2019-06-05T16:17:38+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2026-01-06T12:41:38+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
