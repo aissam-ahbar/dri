@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "AVENUE ROBERT SCHUMANN - C I T",
     "ville": "Roncq",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-02 00:01:00\", \"@valeur\": \"1.969\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-02 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\"]}",
+    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-03 00:01:00\", \"@valeur\": \"1.969\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-03 00:01:00\", \"@valeur\": \"1.990\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2015-02-19 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2015-02-19 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-15 08:55:36\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-01 20:45:36\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"21.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 3.135,
       "lat": 50.754
@@ -23,9 +23,9 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-04-02T02:01:00+02:00",
+    "e10_maj": "2026-04-03T02:01:00+02:00",
     "e10_prix": 1.969,
-    "sp98_maj": "2026-04-02T02:01:00+02:00",
+    "sp98_maj": "2026-04-03T02:01:00+02:00",
     "sp98_prix": 1.99,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
@@ -51,9 +51,8 @@
     ],
     "carburants_rupture_temporaire": "Gazole;SP95",
     "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Restauration à emporter",
@@ -61,13 +60,12 @@
       "Carburant additivé",
       "Piste poids lourds",
       "Vente de gaz domestique (Butane, Propane)",
-      "Wifi",
-      "Automate CB 24/24"
+      "Wifi"
     ],
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
     "code_region": "32",
-    "horaires_jour": "Automate-24-24, Lundi06.00-21.00, Mardi06.00-21.00, Mercredi06.00-21.00, Jeudi06.00-21.00, Vendredi06.00-21.00, Samedi07.00-19.00, Dimanche"
+    "horaires_jour": "Lundi06.00-21.00, Mardi06.00-21.00, Mercredi06.00-21.00, Jeudi06.00-21.00, Vendredi06.00-21.00, Samedi07.00-19.00, Dimanche"
   }
 ]

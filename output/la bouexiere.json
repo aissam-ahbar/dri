@@ -7,16 +7,16 @@
     "pop": "R",
     "adresse": "46 rue de la Forêt",
     "ville": "La Bouëxière",
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-31 20:42:08\", \"@valeur\": \"2.089\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-31 20:42:08\", \"@valeur\": \"1.979\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-31 20:42:08\", \"@valeur\": \"2.099\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-02 18:11:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-02 18:11:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-01 17:36:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-02 12:54:58\", \"@valeur\": \"2.259\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-31 20:42:08\", \"@valeur\": \"2.089\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-31 20:42:08\", \"@valeur\": \"1.979\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-31 20:42:08\", \"@valeur\": \"2.099\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-02 18:11:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-02 18:11:44\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -1.438,
       "lat": 48.18
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-04-02T14:54:58+02:00",
+    "gazole_prix": 2.259,
     "sp95_maj": "2026-03-31T22:42:08+02:00",
     "sp95_prix": 2.089,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-09-02T20:11:44+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-04-01T19:36:59+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

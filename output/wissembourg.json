@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "6a Allée des Peupliers",
     "ville": "Wissembourg",
+    "horaires": null,
     "services": null,
     "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-24 12:47:24\", \"@valeur\": \"2.302\"}",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-01 15:56:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 15:56:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 15:56:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-01-16 14:57:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-03-10 11:31:58\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": null,
     "geom": {
       "lon": 7.96,
       "lat": 49.029
@@ -67,10 +67,10 @@
     "pop": "R",
     "adresse": "33 rue de la Pépiniére",
     "ville": "Wissembourg",
-    "services": null,
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-23 10:56:59\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-23 10:56:59\", \"@valeur\": \"2.099\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-07 07:53:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 07:53:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 07:53:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-03-03 19:18:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
+    "services": null,
+    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-23 10:56:59\", \"@valeur\": \"1.989\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-07 07:53:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-07 07:53:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 07:53:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-03-03 19:18:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 7.946439519559999,
       "lat": 49.0268909254
@@ -85,8 +85,8 @@
     "gplc_prix": null,
     "e10_maj": "2026-03-23T11:56:59+01:00",
     "e10_prix": 1.989,
-    "sp98_maj": "2026-03-23T11:56:59+01:00",
-    "sp98_prix": 2.099,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -100,14 +100,14 @@
     "gazole_rupture_debut": "2026-03-03T20:18:26+01:00",
     "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "Gazole",
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
     "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;E85;GPLc",

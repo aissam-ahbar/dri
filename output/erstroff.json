@@ -7,16 +7,16 @@
     "pop": "R",
     "adresse": "5 rue du Kreuzhof",
     "ville": "Erstroff",
-    "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-19 09:47:34\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-12 10:02:50\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-27 10:08:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2025-08-27 10:08:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-08-27 10:08:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-01 11:26:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.15\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.15\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.15\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.15\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.15\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"17.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-02 17:54:56\", \"@valeur\": \"2.090\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-03-19 09:47:34\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-03-12 10:02:50\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-27 10:08:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2025-08-27 10:08:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-08-27 10:08:10\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 6.784,
       "lat": 48.99
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-04-02T19:54:56+02:00",
+    "gazole_prix": 2.09,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2025-08-27T12:08:10+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-04-01T13:26:31+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

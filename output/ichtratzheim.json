@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "RD1083 - Rue de Lyon",
     "ville": "Ichtratzheim",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-02 00:01:00\", \"@valeur\": \"0.809\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-02 00:01:00\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-02 00:01:00\", \"@valeur\": \"1.968\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-02 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-21 08:04:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-01 20:43:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-03 00:01:00\", \"@valeur\": \"0.809\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-03 00:01:00\", \"@valeur\": \"1.009\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-21 08:04:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-01 20:43:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-04-02 06:11:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-02 16:09:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 7.6737249943185,
       "lat": 48.485373326754
@@ -19,18 +19,18 @@
     "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-04-02T02:01:00+02:00",
+    "e85_maj": "2026-04-03T02:01:00+02:00",
     "e85_prix": 0.809,
-    "gplc_maj": "2026-04-02T02:01:00+02:00",
+    "gplc_maj": "2026-04-03T02:01:00+02:00",
     "gplc_prix": 1.009,
-    "e10_maj": "2026-04-02T02:01:00+02:00",
-    "e10_prix": 1.968,
-    "sp98_maj": "2026-04-02T02:01:00+02:00",
-    "sp98_prix": 1.99,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2026-04-02T18:09:15+02:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2026-04-02T08:11:30+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2022-10-21T10:04:21+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -41,15 +41,15 @@
     "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
       "E85",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "carburants_indisponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": "Gazole;E10;SP98",
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
