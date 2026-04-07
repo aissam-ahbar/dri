@@ -9,8 +9,8 @@
     "ville": "Auchy-les-Mines",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"2.430\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"1.998\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"0.706\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"1.113\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"1.943\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"2.084\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"2.430\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"1.998\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"0.706\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"1.113\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-04 08:19:00\", \"@valeur\": \"2.084\"}]",
+    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-06 15:45:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "geom": {
       "lon": 2.784,
       "lat": 50.51
@@ -23,12 +23,12 @@
     "e85_prix": 0.706,
     "gplc_maj": "2026-04-04T10:19:00+02:00",
     "gplc_prix": 1.113,
-    "e10_maj": "2026-04-04T10:19:00+02:00",
-    "e10_prix": 1.943,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-04-04T10:19:00+02:00",
     "sp98_prix": 2.084,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-04-06T17:45:07+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
@@ -44,11 +44,12 @@
       "SP95",
       "E85",
       "GPLc",
-      "E10",
       "SP98"
     ],
-    "carburants_indisponibles": null,
-    "carburants_rupture_temporaire": null,
+    "carburants_indisponibles": [
+      "E10"
+    ],
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [

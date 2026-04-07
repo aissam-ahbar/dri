@@ -55,5 +55,72 @@
     "region": "Pays de la Loire",
     "code_region": "52",
     "horaires_jour": "Automate-24-24, Lundi 08.00-12.00 et 14.00-18.00, Mardi 08.00-12.00 et 14.00-18.00, Mercredi 08.00-12.00 et 14.00-18.00, Jeudi 08.00-12.00 et 14.00-18.00, Vendredi 08.00-12.00 et 14.00-18.00, Samedi, Dimanche"
+  },
+  {
+    "id": 72220001,
+    "latitude": "4783968.25321",
+    "longitude": "26262.3079173",
+    "cp": "72220",
+    "pop": "R",
+    "adresse": "CENTRE COMMERCIAL LE BELINOIS",
+    "ville": "Écommoy",
+    "horaires": null,
+    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-14 09:56:48\", \"@valeur\": \"0.768\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-03-06 09:14:24\", \"@valeur\": \"0.959\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-11-03 17:50:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-06 09:33:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-06 09:33:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-04-06 09:33:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "geom": {
+      "lon": 0.262623079173,
+      "lat": 47.8396825321
+    },
+    "gazole_maj": null,
+    "gazole_prix": null,
+    "sp95_maj": null,
+    "sp95_prix": null,
+    "e85_maj": "2026-01-14T10:56:48+01:00",
+    "e85_prix": 0.768,
+    "gplc_maj": "2026-03-06T10:14:24+01:00",
+    "gplc_prix": 0.959,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2026-04-06T11:33:18+02:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2026-04-06T11:33:18+02:00",
+    "sp98_rupture_type": "temporaire",
+    "sp95_rupture_debut": "2023-11-03T18:50:36+01:00",
+    "sp95_rupture_type": "definitive",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
+    "gazole_rupture_debut": "2026-04-06T11:33:18+02:00",
+    "gazole_rupture_type": "temporaire",
+    "carburants_disponibles": [
+      "E85",
+      "GPLc"
+    ],
+    "carburants_indisponibles": [
+      "Gazole",
+      "SP95",
+      "E10",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": "Gazole;E10;SP98",
+    "carburants_rupture_definitive": "SP95",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Station de gonflage",
+      "Location de véhicule",
+      "Lavage automatique",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Sarthe",
+    "code_departement": "72",
+    "region": "Pays de la Loire",
+    "code_region": "52",
+    "horaires_jour": null
   }
 ]

@@ -9,18 +9,18 @@
     "ville": "Blâmont",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-03-30 08:25:27\", \"@valeur\": \"2.275\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-03-06 17:56:37\", \"@valeur\": \"0.758\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-24 14:43:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-03 18:43:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-06 18:57:46\", \"@valeur\": \"2.439\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-03-24 14:43:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-03-31 09:29:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-03 18:43:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-04-06 18:57:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 6.84452,
       "lat": 48.58692
     },
-    "gazole_maj": "2026-03-30T10:25:27+02:00",
-    "gazole_prix": 2.275,
+    "gazole_maj": "2026-04-06T20:57:46+02:00",
+    "gazole_prix": 2.439,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-03-06T18:56:37+01:00",
-    "e85_prix": 0.758,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -33,23 +33,23 @@
     "sp98_rupture_type": "definitive",
     "sp95_rupture_debut": "2023-03-24T15:43:44+01:00",
     "sp95_rupture_type": "temporaire",
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
+    "e85_rupture_debut": "2026-04-06T20:57:23+02:00",
+    "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2023-03-31T11:29:22+02:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E85"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95;E10",
+    "carburants_rupture_temporaire": "SP95;E85;E10",
     "carburants_rupture_definitive": "GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
