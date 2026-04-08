@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "Avenue Jean Vinatier",
     "ville": "Seilhac",
-    "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-05 08:38:23\", \"@valeur\": \"2.347\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-25 08:19:46\", \"@valeur\": \"0.758\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-05 08:38:23\", \"@valeur\": \"2.029\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-05 08:38:24\", \"@valeur\": \"2.134\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-03 09:22:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-07-22 09:33:35\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-05 08:38:23\", \"@valeur\": \"2.347\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-01-25 08:19:46\", \"@valeur\": \"0.758\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-05 08:38:24\", \"@valeur\": \"2.134\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-03 09:22:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-07-22 09:33:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-07 10:40:54\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": null,
     "geom": {
       "lon": 1.7155,
       "lat": 45.36779
@@ -23,12 +23,12 @@
     "e85_prix": 0.758,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-04-05T10:38:23+02:00",
-    "e10_prix": 2.029,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-04-05T10:38:24+02:00",
     "sp98_prix": 2.134,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-04-07T12:40:54+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2021-07-22T11:33:35+02:00",
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
