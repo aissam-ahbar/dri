@@ -7,16 +7,16 @@
     "pop": "R",
     "adresse": "LES QUATRE ROUTES",
     "ville": "Nébouzat",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": null,
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-06-28 11:17:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-06-28 11:17:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-11-30 08:59:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-13 14:15:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-08 07:25:28\", \"@valeur\": \"2.250\"}",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-06-28 11:17:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-06-28 11:17:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2021-11-30 08:59:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-08-13 14:15:09\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.89526,
       "lat": 45.72613
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-04-08T09:25:28+02:00",
+    "gazole_prix": 2.25,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -39,10 +39,18 @@
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "carburants_disponibles": [
+      "Gazole"
+    ],
+    "carburants_indisponibles": [
+      "SP95",
+      "E85",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
+    "carburants_rupture_definitive": "SP95;E85;GPLc;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Toilettes publiques",
