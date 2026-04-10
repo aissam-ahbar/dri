@@ -9,14 +9,14 @@
     "ville": "Renwez",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Services réparation / entretien\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-08 11:45:56\", \"@valeur\": \"2.250\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-08 11:45:56\", \"@valeur\": \"1.990\"}]",
-    "rupture": null,
+    "prix": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-08 11:45:56\", \"@valeur\": \"1.990\"}",
+    "rupture": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-09 17:44:46\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "geom": {
       "lon": 4.603904,
       "lat": 49.833628
     },
-    "gazole_maj": "2026-04-08T13:45:56+02:00",
-    "gazole_prix": 2.25,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2026-04-08T13:45:56+02:00",
     "sp95_prix": 1.99,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2026-04-09T19:44:46+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
