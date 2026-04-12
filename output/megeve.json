@@ -1,36 +1,36 @@
 [
   {
     "id": 74120006,
-    "latitude": "4586477.4",
-    "longitude": "662550.7",
+    "latitude": "4586500",
+    "longitude": "662600",
     "cp": "74120",
     "pop": "R",
     "adresse": "ROUTE NATIONALE 522",
     "ville": "Megève",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Location de véhicule\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-11 00:01:00\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-11 00:01:00\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-11 00:01:00\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-11 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-08-14 21:59:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-08-14 21:59:56\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.50\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.50\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.50\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.50\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.50\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.50\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.50\"}}]}",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-12 00:01:00\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-12 00:01:00\", \"@valeur\": \"0.929\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-12 00:01:00\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-08-14 21:59:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2023-08-14 21:59:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-04-11 15:18:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
-      "lon": 6.625507,
-      "lat": 45.864774000000004
+      "lon": 6.626,
+      "lat": 45.865
     },
-    "gazole_maj": "2026-04-11T02:01:00+02:00",
+    "gazole_maj": "2026-04-12T02:01:00+02:00",
     "gazole_prix": 2.25,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-04-11T02:01:00+02:00",
+    "e85_maj": "2026-04-12T02:01:00+02:00",
     "e85_prix": 0.929,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-04-11T02:01:00+02:00",
+    "e10_maj": "2026-04-12T02:01:00+02:00",
     "e10_prix": 1.99,
-    "sp98_maj": "2026-04-11T02:01:00+02:00",
-    "sp98_prix": 1.99,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-04-11T17:18:44+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2023-08-14T23:59:56+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,29 +42,27 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Station de gonflage",
-      "Location de véhicule",
       "Lavage manuel",
-      "Services réparation / entretien",
       "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Haute-Savoie",
     "code_departement": "74",
     "region": "Auvergne-Rhône-Alpes",
     "code_region": "84",
-    "horaires_jour": null
+    "horaires_jour": "Lundi07.00-19.50, Mardi07.00-19.50, Mercredi07.00-19.50, Jeudi07.00-19.50, Vendredi07.00-19.50, Samedi07.00-19.50, Dimanche07.00-19.50"
   }
 ]
