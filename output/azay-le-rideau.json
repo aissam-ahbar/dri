@@ -9,14 +9,14 @@
     "ville": "Azay-le-Rideau",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-08 11:09:49\", \"@valeur\": \"2.480\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-08 11:09:49\", \"@valeur\": \"2.065\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-09-20 08:36:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-31 09:57:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-31 09:57:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-04-13 09:49:53\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-15 12:15:43\", \"@valeur\": \"2.299\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-08 11:09:49\", \"@valeur\": \"2.065\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-14 09:32:44\", \"@valeur\": \"2.150\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-09-20 08:36:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-31 09:57:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-31 09:57:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 0.47375205481099997,
       "lat": 47.264154177900004
     },
-    "gazole_maj": "2026-04-08T13:09:49+02:00",
-    "gazole_prix": 2.48,
+    "gazole_maj": "2026-04-15T14:15:43+02:00",
+    "gazole_prix": 2.299,
     "sp95_maj": "2026-04-08T13:09:49+02:00",
     "sp95_prix": 2.065,
     "e85_maj": null,
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2026-04-14T11:32:44+02:00",
+    "sp98_prix": 2.15,
     "e10_rupture_debut": "2022-10-31T10:57:22+01:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": "2026-04-13T11:49:53+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2022-10-31T10:57:06+01:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": "E85;E10;SP98",
+    "carburants_rupture_temporaire": "E85;E10",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
