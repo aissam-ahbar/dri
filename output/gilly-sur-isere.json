@@ -9,23 +9,23 @@
     "ville": "Gilly-sur-Isère",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-15 07:26:05\", \"@valeur\": \"2.279\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-15 07:26:05\", \"@valeur\": \"1.025\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-15 07:26:05\", \"@valeur\": \"1.969\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-15 07:26:06\", \"@valeur\": \"2.099\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-16 07:52:42\", \"@valeur\": \"2.269\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-16 07:52:42\", \"@valeur\": \"0.819\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-16 07:52:42\", \"@valeur\": \"1.025\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-16 07:52:42\", \"@valeur\": \"1.972\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-16 07:52:42\", \"@valeur\": \"2.099\"}]",
     "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-02-19 08:50:19\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 6.364,
       "lat": 45.655
     },
-    "gazole_maj": "2026-04-15T09:26:05+02:00",
-    "gazole_prix": 2.279,
+    "gazole_maj": "2026-04-16T09:52:42+02:00",
+    "gazole_prix": 2.269,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": "2026-04-15T09:26:05+02:00",
+    "e85_maj": "2026-04-16T09:52:42+02:00",
+    "e85_prix": 0.819,
+    "gplc_maj": "2026-04-16T09:52:42+02:00",
     "gplc_prix": 1.025,
-    "e10_maj": "2026-04-15T09:26:05+02:00",
-    "e10_prix": 1.969,
-    "sp98_maj": "2026-04-15T09:26:06+02:00",
+    "e10_maj": "2026-04-16T09:52:42+02:00",
+    "e10_prix": 1.972,
+    "sp98_maj": "2026-04-16T09:52:42+02:00",
     "sp98_prix": 2.099,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "E85"
+      "SP95"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",
