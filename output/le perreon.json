@@ -9,8 +9,8 @@
     "ville": "Le Perréon",
     "horaires": null,
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-11 18:49:22\", \"@valeur\": \"2.289\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-11 18:49:22\", \"@valeur\": \"2.079\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-11 18:49:22\", \"@valeur\": \"2.109\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-06 08:57:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-05 08:58:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-05-03 16:16:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-11 18:49:22\", \"@valeur\": \"2.289\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-11 18:49:22\", \"@valeur\": \"2.079\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-06 08:57:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-05 08:58:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-05-03 16:16:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-04-19 09:39:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 4.5999499003082,
       "lat": 46.061800691224995
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2026-04-11T20:49:22+02:00",
-    "sp98_prix": 2.109,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2025-05-03T18:16:05+02:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-04-19T11:39:08+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2017-09-06T10:57:47+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "SP98"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "GPLc;E10",
+    "carburants_rupture_temporaire": "GPLc;E10;SP98",
     "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [

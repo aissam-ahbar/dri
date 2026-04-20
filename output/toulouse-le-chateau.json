@@ -1,5 +1,67 @@
 [
   {
+    "id": 39230003,
+    "latitude": "4682600",
+    "longitude": "557400",
+    "cp": "39230",
+    "pop": "R",
+    "adresse": "Route de Dole",
+    "ville": "Toulouse-le-Château",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": \"Carburant additivé\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-19 13:50:49\", \"@valeur\": \"2.349\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-15 07:39:33\", \"@valeur\": \"2.169\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-15 07:39:33\", \"@valeur\": \"2.199\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-03-21 09:35:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-21 09:35:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-03-21 09:35:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "geom": {
+      "lon": 5.574,
+      "lat": 46.826
+    },
+    "gazole_maj": "2026-04-19T15:50:49+02:00",
+    "gazole_prix": 2.349,
+    "sp95_maj": "2026-04-15T09:39:33+02:00",
+    "sp95_prix": 2.169,
+    "e85_maj": null,
+    "e85_prix": null,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": "2026-04-15T09:39:33+02:00",
+    "sp98_prix": 2.199,
+    "e10_rupture_debut": "2026-03-21T10:35:19+01:00",
+    "e10_rupture_type": "definitive",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": "2026-03-21T10:35:19+01:00",
+    "e85_rupture_type": "definitive",
+    "gplc_rupture_debut": "2026-03-21T10:35:19+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "SP98"
+    ],
+    "carburants_indisponibles": [
+      "E85",
+      "GPLc",
+      "E10"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "E85;GPLc;E10",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Carburant additivé"
+    ],
+    "departement": "Jura",
+    "code_departement": "39",
+    "region": "Bourgogne-Franche-Comté",
+    "code_region": "27",
+    "horaires_jour": null
+  },
+  {
     "id": 39230002,
     "latitude": "4680800",
     "longitude": "558200",
@@ -67,67 +129,5 @@
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
     "horaires_jour": "Automate-24-24"
-  },
-  {
-    "id": 39230003,
-    "latitude": "4682600",
-    "longitude": "557400",
-    "cp": "39230",
-    "pop": "R",
-    "adresse": "Route de Dole",
-    "ville": "Toulouse-le-Château",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": \"Carburant additivé\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-15 07:39:33\", \"@valeur\": \"2.399\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-15 07:39:33\", \"@valeur\": \"2.169\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-15 07:39:33\", \"@valeur\": \"2.199\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-03-21 09:35:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-21 09:35:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-03-21 09:35:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 5.574,
-      "lat": 46.826
-    },
-    "gazole_maj": "2026-04-15T09:39:33+02:00",
-    "gazole_prix": 2.399,
-    "sp95_maj": "2026-04-15T09:39:33+02:00",
-    "sp95_prix": 2.169,
-    "e85_maj": null,
-    "e85_prix": null,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": "2026-04-15T09:39:33+02:00",
-    "sp98_prix": 2.199,
-    "e10_rupture_debut": "2026-03-21T10:35:19+01:00",
-    "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": "2026-03-21T10:35:19+01:00",
-    "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": "2026-03-21T10:35:19+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "SP98"
-    ],
-    "carburants_indisponibles": [
-      "E85",
-      "GPLc",
-      "E10"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "E85;GPLc;E10",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Carburant additivé"
-    ],
-    "departement": "Jura",
-    "code_departement": "39",
-    "region": "Bourgogne-Franche-Comté",
-    "code_region": "27",
-    "horaires_jour": null
   }
 ]
