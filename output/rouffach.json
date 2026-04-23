@@ -10,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-20 09:52:47\", \"@valeur\": \"2.249\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-20 09:52:47\", \"@valeur\": \"0.819\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-20 09:52:47\", \"@valeur\": \"1.949\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-20 09:52:47\", \"@valeur\": \"2.049\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-05-21 15:51:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-04-14 07:51:27\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-05-21 15:51:04\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 7.303083772090001,
       "lat": 47.967979908400004
@@ -35,8 +35,8 @@
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
-    "gplc_rupture_debut": "2026-04-14T09:51:27+02:00",
-    "gplc_rupture_type": "temporaire",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
@@ -49,7 +49,7 @@
       "SP95",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "GPLc",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
