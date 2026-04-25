@@ -10,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-04-23 09:33:28\", \"@valeur\": \"1.929\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-17 09:26:21\", \"@valeur\": \"2.099\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-07-06 08:05:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-12-24 09:17:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-12-24 09:17:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-04-23 17:32:44\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-07-06 08:05:00\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-12-24 09:17:55\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-12-24 09:17:55\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 3.78141,
       "lat": 47.81846
@@ -37,8 +37,8 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2022-07-06T10:05:00+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-04-23T19:32:44+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "E10",
       "SP98"
@@ -49,7 +49,7 @@
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
