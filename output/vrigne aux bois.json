@@ -9,16 +9,16 @@
     "ville": "Vrigne aux Bois",
     "horaires": null,
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-15 09:06:38\", \"@valeur\": \"2.359\"}",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-05-11 07:23:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-05-11 07:23:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-05-11 07:23:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-04-27 08:27:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-04-27 08:27:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-28 10:26:05\", \"@valeur\": \"2.229\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-28 10:26:05\", \"@valeur\": \"2.099\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-05-11 07:23:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-05-11 07:23:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-05-11 07:23:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-04-27 08:27:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 4.85,
       "lat": 49.735
     },
-    "gazole_maj": "2026-04-15T11:06:38+02:00",
-    "gazole_prix": 2.359,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "gazole_maj": "2026-04-28T12:26:05+02:00",
+    "gazole_prix": 2.229,
+    "sp95_maj": "2026-04-28T12:26:05+02:00",
+    "sp95_prix": 2.099,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": "2026-04-27T10:27:25+02:00",
     "sp98_rupture_type": "temporaire",
-    "sp95_rupture_debut": "2026-04-27T10:27:25+02:00",
-    "sp95_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
     "e85_rupture_debut": "2022-05-11T09:23:24+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2022-05-11T09:23:24+02:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95;SP98",
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
