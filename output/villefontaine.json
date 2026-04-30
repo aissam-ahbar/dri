@@ -74,16 +74,16 @@
     "ville": "Villefontaine",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-28 19:49:28\", \"@valeur\": \"2.219\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-28 19:49:28\", \"@valeur\": \"2.149\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-11-17 10:45:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-17 10:45:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-11-17 10:45:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-28 19:48:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-28 19:49:28\", \"@valeur\": \"2.219\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-29 07:17:38\", \"@valeur\": \"2.059\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-28 19:49:28\", \"@valeur\": \"2.149\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-17 10:45:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-11-17 10:45:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-04-28 19:48:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 5.144,
       "lat": 45.616
     },
     "gazole_maj": "2026-04-28T21:49:28+02:00",
     "gazole_prix": 2.219,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "sp95_maj": "2026-04-29T09:17:38+02:00",
+    "sp95_prix": 2.059,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -96,8 +96,8 @@
     "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": "2018-11-17T11:45:35+01:00",
-    "sp95_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
     "e85_rupture_debut": "2018-11-17T11:45:35+01:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2018-11-17T11:45:35+01:00",
@@ -106,16 +106,16 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
       "E10"
     ],
     "carburants_rupture_temporaire": "E10",
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "carburants_rupture_definitive": "E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Laverie",
