@@ -9,15 +9,15 @@
     "ville": "Usson-en-Forez",
     "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-07 05:42:04\", \"@valeur\": \"2.340\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-07 12:49:10\", \"@valeur\": \"2.190\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-30 06:21:44\", \"@valeur\": \"2.210\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-30 06:21:44\", \"@valeur\": \"2.190\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-04-30 06:21:44\", \"@valeur\": \"2.290\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-03 06:04:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-03 06:04:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-03 06:04:44\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 3.94694,
       "lat": 45.3902488032
     },
-    "gazole_maj": "2026-04-07T07:42:04+02:00",
-    "gazole_prix": 2.34,
-    "sp95_maj": "2026-04-07T14:49:10+02:00",
+    "gazole_maj": "2026-04-30T08:21:44+02:00",
+    "gazole_prix": 2.21,
+    "sp95_maj": "2026-04-30T08:21:44+02:00",
     "sp95_prix": 2.19,
     "e85_maj": null,
     "e85_prix": null,
@@ -25,8 +25,8 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2026-04-30T08:21:44+02:00",
+    "sp98_prix": 2.29,
     "e10_rupture_debut": "2022-11-03T07:04:44+01:00",
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": null,
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95"
+      "SP95",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
