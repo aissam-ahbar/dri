@@ -1,22 +1,22 @@
 [
   {
     "id": 86450001,
-    "latitude": "4672779.7",
-    "longitude": "65503.6",
+    "latitude": "4672779.8190941",
+    "longitude": "65485.974305441",
     "cp": "86450",
     "pop": "R",
     "adresse": "15 rue Guerstling",
     "ville": "Chenevelles",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"12.00\"}}]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"12.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.30\", \"@fermeture\": \"12.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Bar\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-04 09:51:39\", \"@valeur\": \"2.250\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-30 17:15:47\", \"@valeur\": \"1.990\"}]",
-    "rupture": null,
+    "prix": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-30 17:15:47\", \"@valeur\": \"1.990\"}",
+    "rupture": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-05-05 18:00:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "geom": {
-      "lon": 0.655036,
-      "lat": 46.727797
+      "lon": 0.65485974305441,
+      "lat": 46.727798190941
     },
-    "gazole_maj": "2026-05-04T11:51:39+02:00",
-    "gazole_prix": 2.25,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2026-04-30T19:15:47+02:00",
     "sp95_prix": 1.99,
     "e85_maj": null,
@@ -37,21 +37,21 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2026-05-05T20:00:59+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": null,
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Boutique alimentaire",
       "Bar",
@@ -62,6 +62,6 @@
     "code_departement": "86",
     "region": "Nouvelle-Aquitaine",
     "code_region": "75",
-    "horaires_jour": "Lundi, Mardi08.30-19.00, Mercredi08.30-19.00, Jeudi08.30-19.00, Vendredi08.30-19.00, Samedi09.00-12.00, Dimanche09.30-12.00"
+    "horaires_jour": "Automate-24-24, Lundi, Mardi08.30-19.00, Mercredi08.30-19.00, Jeudi08.30-19.00, Vendredi08.30-19.00, Samedi09.00-12.00, Dimanche09.30-12.00"
   }
 ]
