@@ -84,14 +84,14 @@
     "ville": "Isigny-sur-Mer",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-07 09:03:31\", \"@valeur\": \"2.199\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-04 08:55:04\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-04 08:55:04\", \"@valeur\": \"2.089\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-02-15 12:29:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-15 12:29:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-02-15 12:29:02\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-04 08:55:04\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-04 08:55:04\", \"@valeur\": \"2.089\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-02-15 12:29:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-15 12:29:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-02-15 12:29:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-05-09 11:11:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -1.1008957000000001,
       "lat": 49.3186292
     },
-    "gazole_maj": "2026-05-07T11:03:31+02:00",
-    "gazole_prix": 2.199,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": "2026-05-04T10:55:04+02:00",
     "sp95_prix": 1.999,
     "e85_maj": null,
@@ -112,19 +112,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2024-02-15T13:29:02+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2026-05-09T13:11:06+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
