@@ -9,16 +9,16 @@
     "ville": "Igon",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"09.00\", \"@fermeture\": \"19.00\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-04-13 13:22:33\", \"@valeur\": \"2.250\"}",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2015-02-09 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-14 11:00:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-14 11:00:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-02-28 21:08:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-04-10 10:28:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-11 15:05:12\", \"@valeur\": \"2.250\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-11 15:05:12\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2015-02-09 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-14 11:00:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-14 11:00:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2023-02-28 21:08:30\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -0.23,
       "lat": 43.157
     },
-    "gazole_maj": "2026-04-13T15:22:33+02:00",
+    "gazole_maj": "2026-05-11T17:05:12+02:00",
     "gazole_prix": 2.25,
-    "sp95_maj": null,
-    "sp95_prix": null,
+    "sp95_maj": "2026-05-11T17:05:12+02:00",
+    "sp95_prix": 1.99,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": null,
     "sp98_rupture_debut": "2023-02-28T22:08:30+01:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": "2026-04-10T12:28:48+02:00",
-    "sp95_rupture_type": "temporaire",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
     "e85_rupture_debut": "2017-11-14T12:00:01+01:00",
     "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2017-11-14T12:00:01+01:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "SP95"
     ],
     "carburants_indisponibles": [
-      "SP95",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP95;E85;GPLc",
+    "carburants_rupture_temporaire": "E85;GPLc",
     "carburants_rupture_definitive": "SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
