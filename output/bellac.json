@@ -80,14 +80,14 @@
     "ville": "Bellac",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-11 11:00:00\", \"@valeur\": \"2.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-05-11 11:00:00\", \"@valeur\": \"1.993\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-11 11:00:00\", \"@valeur\": \"2.139\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-07-02 17:16:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-02 17:16:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-12 10:14:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-05-11 11:00:00\", \"@valeur\": \"1.993\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-11 11:00:00\", \"@valeur\": \"2.139\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-07-02 17:16:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-02 17:16:39\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-12 10:14:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-05-12 19:07:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.055,
       "lat": 46.129
     },
-    "gazole_maj": "2026-05-11T13:00:00+02:00",
-    "gazole_prix": 2.099,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -108,19 +108,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2020-07-02T19:16:39+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2026-05-12T21:07:45+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
