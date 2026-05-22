@@ -9,14 +9,14 @@
     "ville": "Saint-Florent-sur-Cher",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-20 08:10:00\", \"@valeur\": \"2.135\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-20 08:10:00\", \"@valeur\": \"2.175\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-07-07 09:12:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-08-24 08:28:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-01-13 09:28:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-05-20 15:48:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-21 15:48:51\", \"@valeur\": \"2.150\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-20 08:10:00\", \"@valeur\": \"2.135\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-20 08:10:00\", \"@valeur\": \"2.175\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-07-07 09:12:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-08-24 08:28:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-01-13 09:28:46\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.249,
       "lat": 46.996
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-05-21T17:48:51+02:00",
+    "gazole_prix": 2.15,
     "sp95_maj": "2026-05-20T10:10:00+02:00",
     "sp95_prix": 2.135,
     "e85_maj": null,
@@ -37,20 +37,20 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2019-07-07T11:12:24+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-05-20T17:48:24+02:00",
-    "gazole_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "Gazole;E85;GPLc;E10",
+    "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Laverie",
