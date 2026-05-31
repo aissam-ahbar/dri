@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "Impasse des Terres Rouges",
     "ville": "Saint-Aignan",
-    "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-28 12:03:01\", \"@valeur\": \"2.065\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-28 12:03:02\", \"@valeur\": \"2.099\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-05-04 10:57:57\", \"@valeur\": \"0.799\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-05-28 12:03:02\", \"@valeur\": \"2.049\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-28 12:03:02\", \"@valeur\": \"2.149\"}]",
-    "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-02 14:40:41\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-28 12:03:01\", \"@valeur\": \"2.065\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-28 12:03:02\", \"@valeur\": \"2.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-05-28 12:03:02\", \"@valeur\": \"2.049\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-28 12:03:02\", \"@valeur\": \"2.149\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-02 14:40:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-05-29 08:00:28\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "horaires": null,
     "geom": {
       "lon": 1.36226,
       "lat": 47.26053
@@ -19,8 +19,8 @@
     "gazole_prix": 2.065,
     "sp95_maj": "2026-05-28T14:03:02+02:00",
     "sp95_prix": 2.099,
-    "e85_maj": "2026-05-04T12:57:57+02:00",
-    "e85_prix": 0.799,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2026-05-28T14:03:02+02:00",
@@ -33,8 +33,8 @@
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
+    "e85_rupture_debut": "2026-05-29T10:00:28+02:00",
+    "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2022-03-02T15:40:41+01:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E85",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
