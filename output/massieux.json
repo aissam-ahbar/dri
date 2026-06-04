@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "Avenue Lavoisier",
     "ville": "Massieux",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-29 09:45:57\", \"@valeur\": \"1.960\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-05-29 09:45:57\", \"@valeur\": \"1.935\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-29 09:45:57\", \"@valeur\": \"2.047\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-05-29 09:45:57\", \"@valeur\": \"1.960\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-06-03 08:59:25\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-05-29 09:45:57\", \"@valeur\": \"1.935\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-29 09:45:57\", \"@valeur\": \"2.047\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-11-01 09:20:16\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-01 09:20:17\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
     "geom": {
       "lon": 4.82,
       "lat": 45.904
@@ -19,8 +19,8 @@
     "gazole_prix": 1.96,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2026-06-03T10:59:25+02:00",
+    "e85_prix": 0.798,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2026-05-29T11:45:57+02:00",
@@ -41,12 +41,12 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc"
     ],
     "carburants_rupture_temporaire": null,

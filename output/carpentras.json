@@ -1,72 +1,5 @@
 [
   {
-    "id": 84976001,
-    "latitude": "4405145",
-    "longitude": "504122",
-    "cp": "84200",
-    "pop": "R",
-    "adresse": "Boulevard Naquet",
-    "ville": "Carpentras",
-    "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-03 07:02:20\", \"@valeur\": \"2.059\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-06-03 07:02:20\", \"@valeur\": \"2.079\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-28 09:33:52\", \"@valeur\": \"0.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-02 08:04:55\", \"@valeur\": \"2.039\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-03-20 07:13:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-12-15 06:44:23\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "geom": {
-      "lon": 5.04122,
-      "lat": 44.05145
-    },
-    "gazole_maj": "2026-06-03T09:02:20+02:00",
-    "gazole_prix": 2.059,
-    "sp95_maj": "2026-06-03T09:02:20+02:00",
-    "sp95_prix": 2.079,
-    "e85_maj": "2026-04-28T11:33:52+02:00",
-    "e85_prix": 0.749,
-    "gplc_maj": null,
-    "gplc_prix": null,
-    "e10_maj": "2026-06-02T10:04:55+02:00",
-    "e10_prix": 2.039,
-    "sp98_maj": null,
-    "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": "2019-03-20T08:13:01+01:00",
-    "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
-    "gplc_rupture_debut": "2021-12-15T07:44:23+01:00",
-    "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole",
-      "SP95",
-      "E85",
-      "E10"
-    ],
-    "carburants_indisponibles": [
-      "GPLc",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "GPLc;SP98",
-    "horaires_automate_24_24": "Non",
-    "services_service": [
-      "Boutique alimentaire",
-      "Boutique non alimentaire",
-      "Restauration sur place",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
-    ],
-    "departement": "Vaucluse",
-    "code_departement": "84",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "code_region": "93",
-    "horaires_jour": null
-  },
-  {
     "id": 84200012,
     "latitude": "4405700",
     "longitude": "505800",
@@ -74,10 +7,10 @@
     "pop": "R",
     "adresse": "417 bis avenue du Mont Ventoux",
     "ville": "Carpentras",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-02 10:19:57\", \"@valeur\": \"1.975\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-05-09 10:39:44\", \"@valeur\": \"0.739\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-02 10:19:57\", \"@valeur\": \"1.979\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-03-24 09:47:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-04-30 12:50:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-07-08 09:05:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
       "lon": 5.058,
       "lat": 44.057
@@ -139,10 +72,10 @@
     "pop": "R",
     "adresse": "2875 Route de malaucene",
     "ville": "Carpentras",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": \"Automate CB 24/24\"}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-02 09:41:34\", \"@valeur\": \"2.109\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-04-16 10:52:18\", \"@valeur\": \"2.149\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-03-04 13:02:48\", \"@valeur\": \"0.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-06-02 09:41:34\", \"@valeur\": \"2.169\"}]",
     "rupture": "{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2009-06-25 01:37:00\", \"@fin\": \"\", \"@type\": \"\"}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 5.067,
       "lat": 44.08
@@ -201,10 +134,10 @@
     "pop": "R",
     "adresse": "AVENUE DES MARCHES",
     "ville": "Carpentras",
-    "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-02 06:30:00\", \"@valeur\": \"2.049\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-06-02 06:30:00\", \"@valeur\": \"2.119\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-06-02 06:30:00\", \"@valeur\": \"2.149\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-05-03 16:50:42\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-05-03 16:50:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2018-05-03 16:50:43\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
     "geom": {
       "lon": 5.039,
       "lat": 44.034
@@ -262,6 +195,73 @@
     "horaires_jour": null
   },
   {
+    "id": 84976001,
+    "latitude": "4405145",
+    "longitude": "504122",
+    "cp": "84200",
+    "pop": "R",
+    "adresse": "Boulevard Naquet",
+    "ville": "Carpentras",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration sur place\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-03 07:02:20\", \"@valeur\": \"2.059\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-06-04 06:42:13\", \"@valeur\": \"2.069\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-04-28 09:33:52\", \"@valeur\": \"0.749\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-04 06:42:13\", \"@valeur\": \"2.029\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-03-20 07:13:01\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-12-15 06:44:23\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": null,
+    "geom": {
+      "lon": 5.04122,
+      "lat": 44.05145
+    },
+    "gazole_maj": "2026-06-03T09:02:20+02:00",
+    "gazole_prix": 2.059,
+    "sp95_maj": "2026-06-04T08:42:13+02:00",
+    "sp95_prix": 2.069,
+    "e85_maj": "2026-04-28T11:33:52+02:00",
+    "e85_prix": 0.749,
+    "gplc_maj": null,
+    "gplc_prix": null,
+    "e10_maj": "2026-06-04T08:42:13+02:00",
+    "e10_prix": 2.029,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
+    "sp98_rupture_debut": "2019-03-20T08:13:01+01:00",
+    "sp98_rupture_type": "definitive",
+    "sp95_rupture_debut": null,
+    "sp95_rupture_type": null,
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
+    "gplc_rupture_debut": "2021-12-15T07:44:23+01:00",
+    "gplc_rupture_type": "definitive",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
+    "carburants_disponibles": [
+      "Gazole",
+      "SP95",
+      "E85",
+      "E10"
+    ],
+    "carburants_indisponibles": [
+      "GPLc",
+      "SP98"
+    ],
+    "carburants_rupture_temporaire": null,
+    "carburants_rupture_definitive": "GPLc;SP98",
+    "horaires_automate_24_24": "Non",
+    "services_service": [
+      "Boutique alimentaire",
+      "Boutique non alimentaire",
+      "Restauration sur place",
+      "Lavage manuel",
+      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)"
+    ],
+    "departement": "Vaucluse",
+    "code_departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code_region": "93",
+    "horaires_jour": null
+  },
+  {
     "id": 84200011,
     "latitude": "4405500",
     "longitude": "505400",
@@ -269,10 +269,10 @@
     "pop": "R",
     "adresse": "80 chemin de la Lègue",
     "ville": "Carpentras",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Vente de pétrole lampant\", \"Carburant additivé\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-02 09:32:17\", \"@valeur\": \"1.898\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-05-20 10:31:48\", \"@valeur\": \"0.798\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-02 09:32:17\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-06-02 09:32:17\", \"@valeur\": \"2.069\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-02-02 13:04:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-02 13:04:29\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 5.054,
       "lat": 44.055
@@ -337,10 +337,10 @@
     "pop": "R",
     "adresse": "1050 Chemin du Castellas Route de Mazan",
     "ville": "Carpentras",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-01 12:28:30\", \"@valeur\": \"1.979\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-01 12:28:30\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-06-01 12:28:30\", \"@valeur\": \"2.069\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-04-28 08:02:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-04-14 12:23:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-11-30 10:16:16\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
       "lon": 5.0704285376765,
       "lat": 44.059915395230995
