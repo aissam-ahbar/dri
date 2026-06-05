@@ -1,19 +1,19 @@
 [
   {
     "id": 83700004,
-    "latitude": "4343285",
-    "longitude": "680672",
+    "latitude": "4343178.2649634",
+    "longitude": "680565.98657876",
     "cp": "83700",
     "pop": "R",
-    "adresse": "Boulevard de l'Aspé",
+    "adresse": "Boulevard de l'Aspé / 50 Av. Commandant Camille Suzanne",
     "ville": "Saint-Raphaël",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de fioul domestique\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-04 07:22:16\", \"@valeur\": \"2.019\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-06-02 07:21:51\", \"@valeur\": \"1.990\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-05-28 07:24:15\", \"@valeur\": \"0.858\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-05-28 07:24:15\", \"@valeur\": \"0.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-01 07:24:44\", \"@valeur\": \"1.939\"}]",
     "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-09-04 11:05:50\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "horaires": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
-      "lon": 6.80672,
-      "lat": 43.43285
+      "lon": 6.805659865787599,
+      "lat": 43.431782649633995
     },
     "gazole_maj": "2026-06-04T09:22:16+02:00",
     "gazole_prix": 2.019,
@@ -51,7 +51,7 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP98",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
       "Boutique alimentaire",
@@ -65,12 +65,13 @@
       "Lavage automatique",
       "Lavage manuel",
       "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24",
       "DAB (Distributeur automatique de billets)"
     ],
     "departement": "Var",
     "code_departement": "83",
     "region": "Provence-Alpes-Côte d'Azur",
     "code_region": "93",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]
