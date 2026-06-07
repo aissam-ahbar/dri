@@ -76,14 +76,14 @@
     "adresse": "36 Avenue du Général Leclerc",
     "ville": "Boissy-Saint-Léger",
     "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-05 11:23:46\", \"@valeur\": \"2.029\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-05 11:23:46\", \"@valeur\": \"1.899\"}]",
-    "rupture": null,
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-06 14:48:54\", \"@valeur\": \"2.029\"}",
+    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-06-06 12:39:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 2.509,
       "lat": 48.749
     },
-    "gazole_maj": "2026-06-05T13:23:46+02:00",
+    "gazole_maj": "2026-06-06T16:48:54+02:00",
     "gazole_prix": 2.029,
     "sp95_maj": null,
     "sp95_prix": null,
@@ -91,12 +91,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-06-05T13:23:46+02:00",
-    "e10_prix": 1.899,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-06-06T14:39:00+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
@@ -108,16 +108,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
