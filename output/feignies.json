@@ -70,8 +70,8 @@
     "adresse": "28 Rue Jean Jaurès",
     "ville": "Feignies",
     "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-05-12 09:01:00\", \"@valeur\": \"2.050\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-12 09:01:00\", \"@valeur\": \"2.150\"}]",
-    "rupture": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-10-22 11:11:09\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-05-12 09:01:00\", \"@valeur\": \"2.150\"}",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2025-10-22 11:11:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-06-08 07:56:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
     "geom": {
       "lon": 3.9173,
@@ -79,8 +79,8 @@
     },
     "gazole_maj": null,
     "gazole_prix": null,
-    "sp95_maj": "2026-05-12T11:01:00+02:00",
-    "sp95_prix": 2.05,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -93,8 +93,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2026-06-08T09:56:07+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
@@ -102,16 +102,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
       "Gazole",
+      "SP95",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP95",
     "carburants_rupture_definitive": "E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
