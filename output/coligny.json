@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "82 GRANDE RUE",
     "ville": "Coligny",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Automate CB 24/24\"]}",
     "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-04 10:35:12\", \"@valeur\": \"2.149\"}",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-11-23 18:15:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-11-23 18:15:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2020-11-23 18:15:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-04-23 14:32:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-06-08 19:20:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-11-23 18:15:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-11-23 18:15:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2020-11-23 18:15:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-04-23 14:32:40\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 5.345,
       "lat": 46.382
@@ -29,8 +29,8 @@
     "sp98_prix": null,
     "e10_rupture_debut": "2020-11-23T19:15:50+01:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2026-06-08T21:20:04+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2021-04-23T16:32:40+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2020-11-23T19:15:49+01:00",
@@ -49,7 +49,7 @@
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
