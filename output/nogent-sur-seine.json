@@ -9,16 +9,16 @@
     "ville": "Nogent-sur-Seine",
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-05 11:51:46\", \"@valeur\": \"2.004\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-06-02 09:39:58\", \"@valeur\": \"2.030\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-07 11:24:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-07 11:24:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-09 14:51:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-06-08 18:46:55\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-05 11:51:46\", \"@valeur\": \"2.004\"}",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-07 11:24:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-07 11:24:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-11-09 14:51:17\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-06-08 18:46:55\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-06-10 19:19:47\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 3.51288606446,
       "lat": 48.49240759359999
     },
     "gazole_maj": "2026-06-05T13:51:46+02:00",
     "gazole_prix": 2.004,
-    "sp95_maj": "2026-06-02T11:39:58+02:00",
-    "sp95_prix": 2.03,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": "2026-06-08T20:46:55+02:00",
     "sp98_rupture_type": "temporaire",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2026-06-10T21:19:47+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2022-10-07T13:24:35+02:00",
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2022-10-07T13:24:35+02:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "SP95"
+      "Gazole"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "SP95;SP98",
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
