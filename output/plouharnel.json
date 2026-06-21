@@ -9,21 +9,21 @@
     "ville": "Plouharnel",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
-    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-06 08:28:53\", \"@valeur\": \"1.990\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-06-20 08:36:43\", \"@valeur\": \"2.090\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-06-20 08:36:43\", \"@valeur\": \"1.990\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-06-19 15:11:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -3.11074,
       "lat": 47.59785
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-06-20T10:36:43+02:00",
+    "gazole_prix": 2.09,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-06-06T10:28:53+02:00",
+    "e10_maj": "2026-06-20T10:36:43+02:00",
     "e10_prix": 1.99,
     "sp98_maj": null,
     "sp98_prix": null,
@@ -40,10 +40,10 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E10"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc",
