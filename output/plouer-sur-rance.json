@@ -9,8 +9,8 @@
     "ville": "Plouër-sur-Rance",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-01 12:29:46\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-07-04 10:02:58\", \"@valeur\": \"1.909\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-05-23 11:26:14\", \"@valeur\": \"0.799\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-04 10:02:59\", \"@valeur\": \"1.949\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 10:31:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-07 10:31:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-01 12:29:46\", \"@valeur\": \"1.839\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-07-04 10:02:58\", \"@valeur\": \"1.909\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-04 10:02:59\", \"@valeur\": \"1.949\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-07 10:31:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-07 10:31:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-07-06 12:07:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -2.00716761564,
       "lat": 48.5322674691
@@ -19,8 +19,8 @@
     "gazole_prix": 1.839,
     "sp95_maj": "2026-07-04T12:02:58+02:00",
     "sp95_prix": 1.909,
-    "e85_maj": "2026-05-23T13:26:14+02:00",
-    "e85_prix": 0.799,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -33,8 +33,8 @@
     "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
+    "e85_rupture_debut": "2026-07-06T14:07:31+02:00",
+    "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2017-09-07T12:31:37+02:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E85",
     "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
