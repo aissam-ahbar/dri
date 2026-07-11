@@ -1,19 +1,19 @@
 [
   {
     "id": 68230002,
-    "latitude": "4809042.6",
-    "longitude": "728624.3",
+    "latitude": "4808496.4190236",
+    "longitude": "728807.20088281",
     "cp": "68230",
     "pop": "R",
     "adresse": "2 rue Jean-Marie Balduf",
     "ville": "Turckheim",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-09 19:49:50\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-07-09 19:49:50\", \"@valeur\": \"0.769\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-09 19:49:50\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-09 19:49:50\", \"@valeur\": \"1.959\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-07-09 19:49:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-07-09 19:49:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "geom": {
-      "lon": 7.286243000000001,
-      "lat": 48.090425999999994
+      "lon": 7.288072008828101,
+      "lat": 48.084964190236
     },
     "gazole_maj": "2026-07-09T21:49:50+02:00",
     "gazole_prix": 1.899,
@@ -51,7 +51,7 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
       "Laverie",
@@ -64,6 +64,6 @@
     "code_departement": "68",
     "region": "Grand Est",
     "code_region": "44",
-    "horaires_jour": "Lundi01.00-01.00, Mardi01.00-01.00, Mercredi01.00-01.00, Jeudi01.00-01.00, Vendredi01.00-01.00, Samedi01.00-01.00, Dimanche01.00-01.00"
+    "horaires_jour": "Automate-24-24"
   }
 ]
