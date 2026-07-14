@@ -9,8 +9,8 @@
     "ville": "Civray",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-10 14:51:05\", \"@valeur\": \"1.913\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-10 14:51:05\", \"@valeur\": \"1.911\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-10 14:51:06\", \"@valeur\": \"1.989\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-19 16:17:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-19 16:17:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-04-29 08:52:28\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-10 14:51:05\", \"@valeur\": \"1.913\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-10 14:51:06\", \"@valeur\": \"1.989\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-19 16:17:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-19 16:17:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-04-29 08:52:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-07-13 15:13:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 0.30294,
       "lat": 46.14157
@@ -23,12 +23,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-07-10T16:51:05+02:00",
-    "e10_prix": 1.911,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-07-10T16:51:06+02:00",
     "sp98_prix": 1.989,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-07-13T17:13:10+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2021-04-29T10:52:28+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
