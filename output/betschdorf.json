@@ -74,16 +74,16 @@
     "ville": "Betschdorf",
     "horaires": null,
     "services": "{\"service\": [\"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-01 08:53:53\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-06-08 19:15:47\", \"@valeur\": \"1.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-01 08:53:53\", \"@valeur\": \"1.990\"}]",
-    "rupture": null,
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-01 08:53:53\", \"@valeur\": \"1.990\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-01 08:53:53\", \"@valeur\": \"1.990\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-07-18 06:07:29\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 7.90872,
       "lat": 48.89911
     },
     "gazole_maj": "2026-07-01T10:53:53+02:00",
     "gazole_prix": 1.99,
-    "sp95_maj": "2026-06-08T21:15:47+02:00",
-    "sp95_prix": 1.99,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -96,8 +96,8 @@
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2026-07-18T08:07:29+02:00",
+    "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
@@ -106,16 +106,16 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
       "E10"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "SP98"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": null,
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Piste poids lourds",
