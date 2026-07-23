@@ -1,19 +1,19 @@
 [
   {
     "id": 74300009,
-    "latitude": "4601500.715",
-    "longitude": "662468.959",
+    "latitude": "4601500",
+    "longitude": "662500",
     "cp": "74300",
     "pop": "R",
     "adresse": "180 allée des Noyères",
     "ville": "Magland",
-    "services": null,
+    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Wifi\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-21 08:51:10\", \"@valeur\": \"2.164\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-07-21 08:51:10\", \"@valeur\": \"0.804\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-21 08:51:10\", \"@valeur\": \"2.014\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-21 08:51:10\", \"@valeur\": \"2.084\"}]",
     "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-01-30 09:00:23\", \"@fin\": \"\", \"@type\": \"definitive\"}",
-    "horaires": null,
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "geom": {
-      "lon": 6.62468959,
-      "lat": 46.015007149999995
+      "lon": 6.625,
+      "lat": 46.015
     },
     "gazole_maj": "2026-07-21T10:51:10+02:00",
     "gazole_prix": 2.164,
@@ -52,7 +52,20 @@
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
-    "services_service": null,
+    "services_service": [
+      "Toilettes publiques",
+      "Laverie",
+      "Relais colis",
+      "Boutique alimentaire",
+      "Restauration à emporter",
+      "Restauration sur place",
+      "Location de véhicule",
+      "Piste poids lourds",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Bornes électriques",
+      "Wifi",
+      "DAB (Distributeur automatique de billets)"
+    ],
     "departement": "Haute-Savoie",
     "code_departement": "74",
     "region": "Auvergne-Rhône-Alpes",
