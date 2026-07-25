@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "RUE DU 8 MAI 1945",
     "ville": "Lavelanet",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Relais colis\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-23 13:35:19\", \"@valeur\": \"2.142\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-21 14:20:52\", \"@valeur\": \"2.015\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-21 14:20:52\", \"@valeur\": \"2.020\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-11-06 11:34:48\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-06-29 11:03:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "geom": {
       "lon": 1.858,
       "lat": 42.928
@@ -76,10 +76,10 @@
     "pop": "R",
     "adresse": "Route de FOIX",
     "ville": "Lavelanet",
-    "services": "{\"service\": [\"Location de véhicule\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-22 08:01:45\", \"@valeur\": \"2.142\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-06-16 08:31:49\", \"@valeur\": \"0.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-20 07:50:04\", \"@valeur\": \"2.015\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-23 18:04:24\", \"@valeur\": \"2.091\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-01-21 08:37:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-03-18 14:33:51\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Location de véhicule\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-22 08:01:45\", \"@valeur\": \"2.142\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-06-16 08:31:49\", \"@valeur\": \"0.809\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-24 17:46:39\", \"@valeur\": \"2.061\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-23 18:04:24\", \"@valeur\": \"2.091\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-01-21 08:37:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-03-18 14:33:51\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 1.85335,
       "lat": 42.93739
@@ -92,8 +92,8 @@
     "e85_prix": 0.809,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-07-20T09:50:04+02:00",
-    "e10_prix": 2.015,
+    "e10_maj": "2026-07-24T19:46:39+02:00",
+    "e10_prix": 2.061,
     "sp98_maj": "2026-07-23T20:04:24+02:00",
     "sp98_prix": 2.091,
     "e10_rupture_debut": null,
