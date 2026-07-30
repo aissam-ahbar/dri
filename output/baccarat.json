@@ -9,24 +9,24 @@
     "ville": "Baccarat",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-28 07:42:31\", \"@valeur\": \"2.200\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-07-11 07:42:23\", \"@valeur\": \"0.842\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-29 07:01:34\", \"@valeur\": \"2.195\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-07-11 07:42:23\", \"@valeur\": \"0.842\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-29 07:02:51\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-29 07:02:51\", \"@valeur\": \"1.990\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-08-21 08:31:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-08-28 18:35:23\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 6.7408,
       "lat": 48.45803
     },
-    "gazole_maj": "2026-07-28T09:42:31+02:00",
-    "gazole_prix": 2.2,
+    "gazole_maj": "2026-07-29T09:01:34+02:00",
+    "gazole_prix": 2.195,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2026-07-11T09:42:23+02:00",
     "e85_prix": 0.842,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "e10_maj": "2026-07-29T09:02:51+02:00",
+    "e10_prix": 1.99,
+    "sp98_maj": "2026-07-29T09:02:51+02:00",
+    "sp98_prix": 1.99,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85"
+      "E85",
+      "E10",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc",
-      "E10",
-      "SP98"
+      "GPLc"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
