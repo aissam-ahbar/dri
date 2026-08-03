@@ -74,13 +74,13 @@
     "ville": "Muret",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-01 00:01:00\", \"@valeur\": \"2.224\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-01 00:01:00\", \"@valeur\": \"1.986\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-15 11:07:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-01-15 11:07:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-15 11:07:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-07-28 19:15:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-03 00:01:00\", \"@valeur\": \"2.224\"}",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-15 11:07:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-01-15 11:07:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-15 11:07:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-07-28 19:15:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-08-01 08:20:38\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.3402833353699999,
       "lat": 43.4884523805
     },
-    "gazole_maj": "2026-08-01T02:01:00+02:00",
+    "gazole_maj": "2026-08-03T02:01:00+02:00",
     "gazole_prix": 2.224,
     "sp95_maj": null,
     "sp95_prix": null,
@@ -88,12 +88,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-08-01T02:01:00+02:00",
-    "e10_prix": 1.986,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-08-01T10:20:38+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2026-07-28T21:15:07+02:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2019-01-15T12:07:04+01:00",
@@ -105,16 +105,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,

@@ -9,20 +9,20 @@
     "ville": "Bout-du-Pont-de-Larn",
     "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-24 14:07:46\", \"@valeur\": \"2.169\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-07-24 14:07:46\", \"@valeur\": \"2.039\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-05-16 09:39:39\", \"@valeur\": \"1.036\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-24 14:07:46\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-24 14:07:46\", \"@valeur\": \"2.099\"}]",
-    "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-18 09:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-01 16:25:36\", \"@valeur\": \"2.175\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-07-24 14:07:46\", \"@valeur\": \"2.039\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-24 14:07:46\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-24 14:07:46\", \"@valeur\": \"2.099\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-18 09:34:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-08-01 16:26:02\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.4,
       "lat": 43.498
     },
-    "gazole_maj": "2026-07-24T16:07:46+02:00",
-    "gazole_prix": 2.169,
+    "gazole_maj": "2026-08-01T18:25:36+02:00",
+    "gazole_prix": 2.175,
     "sp95_maj": "2026-07-24T16:07:46+02:00",
     "sp95_prix": 2.039,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2026-05-16T11:39:39+02:00",
-    "gplc_prix": 1.036,
+    "gplc_maj": null,
+    "gplc_prix": null,
     "e10_maj": "2026-07-24T16:07:46+02:00",
     "e10_prix": 1.989,
     "sp98_maj": "2026-07-24T16:07:46+02:00",
@@ -35,21 +35,21 @@
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2017-09-18T11:34:19+02:00",
     "e85_rupture_type": "definitive",
-    "gplc_rupture_debut": null,
-    "gplc_rupture_type": null,
+    "gplc_rupture_debut": "2026-08-01T18:26:02+02:00",
+    "gplc_rupture_type": "temporaire",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "E85"
+      "E85",
+      "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "GPLc",
     "carburants_rupture_definitive": "E85",
     "horaires_automate_24_24": "Non",
     "services_service": [
