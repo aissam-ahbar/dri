@@ -9,7 +9,7 @@
     "ville": "Saleux",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-08 14:10:05\", \"@valeur\": \"2.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-07 11:54:32\", \"@valeur\": \"1.899\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-08-07 11:54:33\", \"@valeur\": \"1.999\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-08 14:10:05\", \"@valeur\": \"2.099\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-08-07 11:54:33\", \"@valeur\": \"1.999\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-02-19 12:42:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-02-19 12:42:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-02-19 12:42:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.23121,
@@ -23,8 +23,8 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-08-07T13:54:32+02:00",
-    "e10_prix": 1.899,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-08-07T13:54:33+02:00",
     "sp98_prix": 1.999,
     "e10_rupture_debut": null,
@@ -41,13 +41,13 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",

@@ -86,8 +86,8 @@
     "ville": "Theillay",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Douches\", \"Boutique alimentaire\", \"Restauration à emporter\", \"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Espace bébé\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-30 06:00:00\", \"@valeur\": \"2.239\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-05-22 06:00:00\", \"@valeur\": \"1.149\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-30 06:00:00\", \"@valeur\": \"2.159\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-30 06:00:00\", \"@valeur\": \"2.259\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-03-25 15:50:31\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-08-09 09:23:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-30 06:00:00\", \"@valeur\": \"2.239\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-05-22 06:00:00\", \"@valeur\": \"1.149\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-08-10 13:36:44\", \"@valeur\": \"1.064\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-30 06:00:00\", \"@valeur\": \"2.159\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-30 06:00:00\", \"@valeur\": \"2.259\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-03-25 15:50:31\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 2.042,
       "lat": 47.314
@@ -98,8 +98,8 @@
     "sp95_prix": null,
     "e85_maj": "2026-05-22T08:00:00+02:00",
     "e85_prix": 1.149,
-    "gplc_maj": null,
-    "gplc_prix": null,
+    "gplc_maj": "2026-08-10T15:36:44+02:00",
+    "gplc_prix": 1.064,
     "e10_maj": "2026-07-30T08:00:00+02:00",
     "e10_prix": 2.159,
     "sp98_maj": "2026-07-30T08:00:00+02:00",
@@ -112,22 +112,22 @@
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
     "e85_rupture_type": null,
-    "gplc_rupture_debut": "2026-08-09T11:23:24+02:00",
-    "gplc_rupture_type": "definitive",
+    "gplc_rupture_debut": null,
+    "gplc_rupture_type": null,
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
       "E85",
+      "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "GPLc"
+      "SP95"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;GPLc",
+    "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Douches",
