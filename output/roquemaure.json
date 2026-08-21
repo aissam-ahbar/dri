@@ -9,8 +9,8 @@
     "ville": "Roquemaure",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Aire de camping-cars\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-18 12:49:11\", \"@valeur\": \"2.299\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-18 12:49:11\", \"@valeur\": \"2.149\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-08-18 12:49:11\", \"@valeur\": \"2.199\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-05 09:41:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-30 15:44:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-08-18 12:49:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-18 12:49:11\", \"@valeur\": \"2.299\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-19 18:00:33\", \"@valeur\": \"0.999\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-18 12:49:11\", \"@valeur\": \"2.149\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-08-18 12:49:11\", \"@valeur\": \"2.199\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-07-05 09:41:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-30 15:44:41\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 4.787,
       "lat": 44.045
@@ -19,8 +19,8 @@
     "gazole_prix": 2.299,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2026-08-19T20:00:33+02:00",
+    "e85_prix": 0.999,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": "2026-08-18T14:49:11+02:00",
@@ -33,23 +33,23 @@
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2026-01-30T16:44:41+01:00",
     "sp95_rupture_type": "definitive",
-    "e85_rupture_debut": "2026-08-18T14:49:31+02:00",
-    "e85_rupture_type": "temporaire",
+    "e85_rupture_debut": null,
+    "e85_rupture_type": null,
     "gplc_rupture_debut": "2020-07-05T11:41:46+02:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
+      "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "E85",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -78,14 +78,14 @@
     "ville": "Roquemaure",
     "horaires": null,
     "services": "{\"service\": \"Station de gonflage\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-17 07:43:28\", \"@valeur\": \"2.259\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-21 07:45:01\", \"@valeur\": \"2.089\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-21 07:45:20\", \"@valeur\": \"2.179\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-19 07:47:06\", \"@valeur\": \"2.299\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-21 07:45:01\", \"@valeur\": \"2.089\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-21 07:45:20\", \"@valeur\": \"2.179\"}]",
     "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-05-31 09:08:35\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 4.77918,
       "lat": 44.05271
     },
-    "gazole_maj": "2026-08-17T09:43:28+02:00",
-    "gazole_prix": 2.259,
+    "gazole_maj": "2026-08-19T09:47:06+02:00",
+    "gazole_prix": 2.299,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,

@@ -9,8 +9,8 @@
     "ville": "Matha",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-07-20 12:44:20\", \"@valeur\": \"2.049\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-07-20 12:44:20\", \"@valeur\": \"2.099\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-01-15 19:21:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-01-15 19:21:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-02 09:23:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-08-13 12:09:12\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-20 11:54:21\", \"@valeur\": \"2.049\"}",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-01-15 19:21:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-01-15 19:21:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-02-02 09:23:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-08-13 12:09:12\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-08-20 10:03:48\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -0.31139,
       "lat": 45.87435
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-07-20T14:44:20+02:00",
+    "e10_maj": "2026-08-20T13:54:21+02:00",
     "e10_prix": 2.049,
-    "sp98_maj": "2026-07-20T14:44:20+02:00",
-    "sp98_prix": 2.099,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-08-20T12:03:48+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2026-02-02T10:23:29+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2020-01-15T20:21:44+01:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": "2026-08-13T14:09:12+02:00",
     "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "Gazole",
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": "Gazole;SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
