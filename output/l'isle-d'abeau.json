@@ -149,26 +149,26 @@
     "ville": "L'Isle-d'Abeau",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Carburant additivé\", \"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Station de gonflage\", \"Espace bébé\", \"Boutique non alimentaire\", \"Aire de camping-cars\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\", \"Lavage automatique\", \"Bornes électriques\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-23 00:01:00\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-23 00:01:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-08-23 00:01:00\", \"@valeur\": \"1.079\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-23 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-26 21:05:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-08-22 16:49:53\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-24 00:01:00\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-24 00:01:00\", \"@valeur\": \"0.999\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-08-24 00:01:00\", \"@valeur\": \"1.079\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-06-26 21:05:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-08-22 16:49:53\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-08-23 16:21:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 5.213,
       "lat": 45.613
     },
-    "gazole_maj": "2026-08-23T02:01:00+02:00",
+    "gazole_maj": "2026-08-24T02:01:00+02:00",
     "gazole_prix": 2.25,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-08-23T02:01:00+02:00",
+    "e85_maj": "2026-08-24T02:01:00+02:00",
     "e85_prix": 0.999,
-    "gplc_maj": "2026-08-23T02:01:00+02:00",
+    "gplc_maj": "2026-08-24T02:01:00+02:00",
     "gplc_prix": 1.079,
-    "e10_maj": "2026-08-23T02:01:00+02:00",
-    "e10_prix": 1.99,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-08-23T18:21:31+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2026-08-22T18:49:53+02:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2024-06-26T23:05:49+02:00",
@@ -182,14 +182,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_indisponibles": [
       "SP95",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Oui",
     "services_service": [
