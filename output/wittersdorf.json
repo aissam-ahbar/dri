@@ -9,8 +9,8 @@
     "ville": "Wittersdorf",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
-    "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-23 11:30:05\", \"@valeur\": \"0.855\"}",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-16 09:04:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-16 09:04:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-08-21 17:19:53\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-08-22 16:22:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-08-23 11:29:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-24 14:54:52\", \"@valeur\": \"0.855\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-08-24 14:54:52\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-01-16 09:04:22\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-16 09:04:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-08-22 16:22:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-08-23 11:29:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 7.27143926147,
       "lat": 47.62337553930001
@@ -19,18 +19,18 @@
     "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-08-23T13:30:05+02:00",
+    "e85_maj": "2026-08-24T16:54:52+02:00",
     "e85_prix": 0.855,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2026-08-24T16:54:52+02:00",
+    "sp98_prix": 1.99,
     "e10_rupture_debut": "2026-08-23T13:29:50+02:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": "2026-08-21T19:19:53+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2019-01-16T10:04:21+01:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": "2026-08-22T18:22:26+02:00",
     "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "E85"
+      "E85",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "Gazole",
       "SP95",
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": "Gazole;E10;SP98",
+    "carburants_rupture_temporaire": "Gazole;E10",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
