@@ -9,8 +9,8 @@
     "ville": "Chaumes-en-Retz",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-20 07:56:13\", \"@valeur\": \"2.179\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-07-16 11:08:12\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-21 08:33:34\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-08-21 08:33:34\", \"@valeur\": \"2.069\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-23 08:30:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-10-04 07:50:04\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-20 07:56:13\", \"@valeur\": \"2.179\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-07-16 11:08:12\", \"@valeur\": \"0.829\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-25 09:11:33\", \"@valeur\": \"2.009\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-10-23 08:30:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-10-04 07:50:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-08-25 09:05:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -1.9511237760851,
       "lat": 47.114543249043
@@ -23,14 +23,14 @@
     "e85_prix": 0.829,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-08-21T10:33:34+02:00",
-    "e10_prix": 1.999,
-    "sp98_maj": "2026-08-21T10:33:34+02:00",
-    "sp98_prix": 2.069,
+    "e10_maj": "2026-08-25T11:11:33+02:00",
+    "e10_prix": 2.009,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-08-25T11:05:22+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2024-10-04T09:50:04+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "E85",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": null,
