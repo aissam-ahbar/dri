@@ -9,28 +9,28 @@
     "ville": "Saint-Barthélemy-d'Anjou",
     "horaires": null,
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-28 09:06:02\", \"@valeur\": \"2.159\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-25 12:02:03\", \"@valeur\": \"2.019\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-08-24 12:23:44\", \"@valeur\": \"2.109\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-26 10:55:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 10:55:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-26 10:55:38\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-31 10:58:04\", \"@valeur\": \"2.149\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-31 10:58:04\", \"@valeur\": \"2.029\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-26 10:55:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-26 10:55:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-26 10:55:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-08-31 11:00:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -0.4911358,
       "lat": 47.4773034
     },
-    "gazole_maj": "2026-08-28T11:06:02+02:00",
-    "gazole_prix": 2.159,
+    "gazole_maj": "2026-08-31T12:58:04+02:00",
+    "gazole_prix": 2.149,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-08-25T14:02:03+02:00",
-    "e10_prix": 2.019,
-    "sp98_maj": "2026-08-24T14:23:44+02:00",
-    "sp98_prix": 2.109,
+    "e10_maj": "2026-08-31T12:58:04+02:00",
+    "e10_prix": 2.029,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-08-31T13:00:52+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2017-09-26T12:55:38+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-26T12:55:38+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

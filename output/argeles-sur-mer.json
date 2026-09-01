@@ -83,8 +83,8 @@
     "ville": "Argelès-sur-Mer",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Carburant additivé\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-12 07:18:52\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-26 00:01:00\", \"@valeur\": \"0.895\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-26 10:23:02\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-05-26 09:37:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-07-16 14:36:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-08-18 08:49:26\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-12 07:18:52\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-26 00:01:00\", \"@valeur\": \"0.895\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-05-26 09:37:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-07-16 14:36:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2025-08-18 08:49:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-08-31 10:28:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 3.035,
       "lat": 42.575
@@ -97,12 +97,12 @@
     "e85_prix": 0.895,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-08-26T12:23:02+02:00",
-    "e10_prix": 1.99,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-08-31T12:28:37+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2025-08-18T10:49:26+02:00",
     "sp98_rupture_type": "definitive",
     "sp95_rupture_debut": "2025-07-16T16:36:09+02:00",
@@ -115,15 +115,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "E10"
+      "E85"
     ],
     "carburants_indisponibles": [
       "SP95",
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10",
     "carburants_rupture_definitive": "SP95;GPLc;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
