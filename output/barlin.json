@@ -9,8 +9,8 @@
     "ville": "Barlin",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}]}",
     "services": "{\"service\": [\"Relais colis\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-25 08:56:34\", \"@valeur\": \"2.196\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-08-20 08:34:17\", \"@valeur\": \"2.023\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-08-25 08:56:34\", \"@valeur\": \"0.839\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-08-25 08:56:34\", \"@valeur\": \"1.999\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 10:08:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-04-03 11:22:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-08-25 08:56:34\", \"@valeur\": \"2.196\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-08-20 08:34:17\", \"@valeur\": \"2.023\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-01 10:48:50\", \"@valeur\": \"1.999\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 10:08:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-04-03 11:22:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-09-01 10:47:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.607,
       "lat": 50.454
@@ -19,11 +19,11 @@
     "gazole_prix": 2.196,
     "sp95_maj": "2026-08-20T10:34:17+02:00",
     "sp95_prix": 2.023,
-    "e85_maj": "2026-08-25T10:56:34+02:00",
-    "e85_prix": 0.839,
+    "e85_maj": null,
+    "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-08-25T10:56:34+02:00",
+    "e10_maj": "2026-09-01T12:48:50+02:00",
     "e10_prix": 1.999,
     "sp98_maj": null,
     "sp98_prix": null,
@@ -33,8 +33,8 @@
     "sp98_rupture_type": "definitive",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
-    "e85_rupture_debut": null,
-    "e85_rupture_type": null,
+    "e85_rupture_debut": "2026-09-01T12:47:00+02:00",
+    "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2017-09-05T12:08:45+02:00",
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85",
       "E10"
     ],
     "carburants_indisponibles": [
+      "E85",
       "GPLc",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E85",
     "carburants_rupture_definitive": "GPLc;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
