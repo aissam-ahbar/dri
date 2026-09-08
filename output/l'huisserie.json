@@ -9,14 +9,14 @@
     "ville": "L'Huisserie",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-07 06:51:43\", \"@valeur\": \"2.215\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-07 06:51:43\", \"@valeur\": \"2.299\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 12:46:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-25 12:46:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-22 08:41:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-07 06:51:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-07 11:06:34\", \"@valeur\": \"2.274\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-07 06:51:43\", \"@valeur\": \"2.215\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-07 06:51:43\", \"@valeur\": \"2.299\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 12:46:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2017-09-25 12:46:58\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-22 08:41:34\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -0.769,
       "lat": 48.025
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-09-07T13:06:34+02:00",
+    "gazole_prix": 2.274,
     "sp95_maj": "2026-09-07T08:51:43+02:00",
     "sp95_prix": 2.215,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-09-25T14:46:58+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-09-07T08:51:06+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": null,
