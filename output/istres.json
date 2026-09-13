@@ -283,14 +283,14 @@
     "ville": "Istres",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-11 09:36:12\", \"@valeur\": \"2.244\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-09 09:24:44\", \"@valeur\": \"0.816\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-07-10 09:09:42\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-11 09:36:12\", \"@valeur\": \"2.077\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-11 09:36:12\", \"@valeur\": \"2.157\"}]",
-    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-05-14 08:56:50\", \"@fin\": \"\", \"@type\": \"definitive\"}",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-09 09:24:44\", \"@valeur\": \"0.816\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-07-10 09:09:42\", \"@valeur\": \"1.049\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-11 09:36:12\", \"@valeur\": \"2.077\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-11 09:36:12\", \"@valeur\": \"2.157\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-05-14 08:56:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-12 17:03:46\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 4.979,
       "lat": 43.498
     },
-    "gazole_maj": "2026-09-11T11:36:12+02:00",
-    "gazole_prix": 2.244,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2026-09-09T11:24:44+02:00",
@@ -311,19 +311,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": null,
     "gplc_rupture_type": null,
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2026-09-12T19:03:46+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": [
