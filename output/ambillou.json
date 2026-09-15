@@ -9,16 +9,16 @@
     "ville": "Ambillou",
     "horaires": null,
     "services": "{\"service\": [\"Laverie\", \"Station de gonflage\", \"Piste poids lourds\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-08 13:29:12\", \"@valeur\": \"2.259\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-11 09:15:38\", \"@valeur\": \"2.249\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-12 08:55:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-12 08:55:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-04-12 18:59:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-08 13:13:29\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-08 13:29:12\", \"@valeur\": \"2.259\"}",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-09-12 08:55:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-09-12 08:55:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2023-04-12 18:59:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-08 13:13:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-09-14 16:21:17\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 0.455,
       "lat": 47.451
     },
     "gazole_maj": "2026-09-08T15:29:12+02:00",
     "gazole_prix": 2.259,
-    "sp95_maj": "2026-09-11T11:15:38+02:00",
-    "sp95_prix": 2.249,
+    "sp95_maj": null,
+    "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -31,8 +31,8 @@
     "e10_rupture_type": "definitive",
     "sp98_rupture_debut": "2026-09-08T15:13:29+02:00",
     "sp98_rupture_type": "definitive",
-    "sp95_rupture_debut": null,
-    "sp95_rupture_type": null,
+    "sp95_rupture_debut": "2026-09-14T18:21:17+02:00",
+    "sp95_rupture_type": "temporaire",
     "e85_rupture_debut": "2023-04-12T20:59:04+02:00",
     "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2022-09-12T10:55:27+02:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "SP95"
+      "Gazole"
     ],
     "carburants_indisponibles": [
+      "SP95",
       "E85",
       "GPLc",
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "E85",
+    "carburants_rupture_temporaire": "SP95;E85",
     "carburants_rupture_definitive": "GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
