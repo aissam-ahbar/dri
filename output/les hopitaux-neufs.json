@@ -7,10 +7,10 @@
     "pop": "R",
     "adresse": "52, route de Lausanne",
     "ville": "Les Hôpitaux-Neufs",
-    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-14 07:20:07\", \"@valeur\": \"2.389\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-16 07:56:04\", \"@valeur\": \"2.229\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-12 07:31:20\", \"@valeur\": \"0.848\"}]",
-    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-06-18 09:08:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-11 16:05:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-16 07:53:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "horaires": null,
+    "services": "{\"service\": [\"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-14 07:20:07\", \"@valeur\": \"2.389\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-16 07:56:04\", \"@valeur\": \"2.229\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-12 07:31:20\", \"@valeur\": \"0.848\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-17 07:46:16\", \"@valeur\": \"2.289\"}]",
+    "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2019-06-18 09:08:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-11 16:05:47\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 6.37855,
       "lat": 46.77182
@@ -25,12 +25,12 @@
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": null,
-    "sp98_prix": null,
+    "sp98_maj": "2026-09-17T09:46:16+02:00",
+    "sp98_prix": 2.289,
     "e10_rupture_debut": "2019-06-18T11:08:05+02:00",
     "e10_rupture_type": "definitive",
-    "sp98_rupture_debut": "2026-09-16T09:53:50+02:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": null,
@@ -42,14 +42,14 @@
     "carburants_disponibles": [
       "Gazole",
       "SP95",
-      "E85"
+      "E85",
+      "SP98"
     ],
     "carburants_indisponibles": [
       "GPLc",
-      "E10",
-      "SP98"
+      "E10"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "GPLc;E10",
     "horaires_automate_24_24": "Non",
     "services_service": [
