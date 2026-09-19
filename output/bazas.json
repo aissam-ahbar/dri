@@ -143,7 +143,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Services réparation / entretien\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-04 07:55:18\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-04 07:55:18\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-05 11:48:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 11:48:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 11:48:27\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-05 11:48:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-05 11:48:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 11:48:27\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-18 16:43:15\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -0.231,
       "lat": 44.44
@@ -162,8 +162,8 @@
     "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-09-18T18:43:15+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2017-09-05T13:48:27+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-05T13:48:27+02:00",
@@ -182,7 +182,7 @@
       "GPLc",
       "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
