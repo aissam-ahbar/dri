@@ -10,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-17 08:05:38\", \"@valeur\": \"0.879\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-21 06:59:05\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-29 10:43:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-23 09:58:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-18 06:06:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-21 16:59:55\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-29 10:43:40\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-23 09:58:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-18 06:06:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 6.165216744079999,
       "lat": 49.2975507615
@@ -37,8 +37,8 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2017-09-29T12:43:40+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-09-21T18:59:55+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
       "E85",
       "E10"
@@ -49,7 +49,7 @@
       "GPLc",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "Gazole;SP98",
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

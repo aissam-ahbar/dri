@@ -142,8 +142,8 @@
     "ville": "Falaise",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"18.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-09 17:08:20\", \"@valeur\": \"2.449\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-09 17:08:20\", \"@valeur\": \"2.259\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-09 17:08:20\", \"@valeur\": \"2.401\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-03-14 14:10:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-09-26 07:43:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-09-26 07:43:52\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-09 17:08:20\", \"@valeur\": \"2.449\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-09 17:08:20\", \"@valeur\": \"2.401\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-03-14 14:10:46\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-09-26 07:43:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-09-26 07:43:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-22 09:19:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -0.191,
       "lat": 48.887
@@ -156,12 +156,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-09-09T19:08:20+02:00",
-    "e10_prix": 2.259,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": "2026-09-09T19:08:20+02:00",
     "sp98_prix": 2.401,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-09-22T11:19:36+02:00",
+    "e10_rupture_type": "definitive",
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2024-09-26T09:43:52+02:00",
@@ -174,16 +174,16 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10"
     ],
     "carburants_rupture_temporaire": null,
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "carburants_rupture_definitive": "SP95;E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
       "Toilettes publiques",
@@ -210,7 +210,7 @@
     "ville": "Falaise",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-21 07:50:00\", \"@valeur\": \"2.363\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-16 07:50:00\", \"@valeur\": \"2.321\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-15 07:50:00\", \"@valeur\": \"0.835\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-08-03 07:50:00\", \"@valeur\": \"0.947\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-21 07:50:00\", \"@valeur\": \"2.168\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-21 07:50:00\", \"@valeur\": \"2.363\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-16 07:50:00\", \"@valeur\": \"2.321\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-15 07:50:00\", \"@valeur\": \"0.835\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-08-03 07:50:00\", \"@valeur\": \"0.947\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-22 07:50:00\", \"@valeur\": \"2.149\"}]",
     "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2017-08-31 07:59:44\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": -0.206,
@@ -224,8 +224,8 @@
     "e85_prix": 0.835,
     "gplc_maj": "2026-08-03T09:50:00+02:00",
     "gplc_prix": 0.947,
-    "e10_maj": "2026-09-21T09:50:00+02:00",
-    "e10_prix": 2.168,
+    "e10_maj": "2026-09-22T09:50:00+02:00",
+    "e10_prix": 2.149,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
