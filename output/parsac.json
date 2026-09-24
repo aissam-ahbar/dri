@@ -9,8 +9,8 @@
     "ville": "Parsac",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Douches\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Restauration sur place\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Espace bébé\"]}",
-    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-23 00:01:00\", \"@valeur\": \"0.869\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-09-23 00:01:00\", \"@valeur\": \"0.989\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-23 00:01:00\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-08-04 15:39:24\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-22 17:53:24\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-22 18:23:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-24 00:01:00\", \"@valeur\": \"0.871\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-09-24 00:01:00\", \"@valeur\": \"0.989\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-08-04 15:39:24\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-22 17:53:24\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-22 18:23:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-23 10:22:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.18365471322,
       "lat": 46.1961564503
@@ -19,16 +19,16 @@
     "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-09-23T02:01:00+02:00",
-    "e85_prix": 0.869,
-    "gplc_maj": "2026-09-23T02:01:00+02:00",
+    "e85_maj": "2026-09-24T02:01:00+02:00",
+    "e85_prix": 0.871,
+    "gplc_maj": "2026-09-24T02:01:00+02:00",
     "gplc_prix": 0.989,
-    "e10_maj": "2026-09-23T02:01:00+02:00",
-    "e10_prix": 1.99,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-09-23T12:22:18+02:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2026-09-22T20:23:10+02:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2026-08-04T17:39:24+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
       "E85",
-      "GPLc",
-      "E10"
+      "GPLc"
     ],
     "carburants_indisponibles": [
       "Gazole",
       "SP95",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "Gazole;SP95;SP98",
+    "carburants_rupture_temporaire": "Gazole;SP95;E10;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
