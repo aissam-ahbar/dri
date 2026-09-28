@@ -1,19 +1,19 @@
 [
   {
     "id": 59554002,
-    "latitude": "5019307.46494",
-    "longitude": "321331.274963",
+    "latitude": "5019300",
+    "longitude": "321300",
     "cp": "59554",
     "pop": "R",
     "adresse": "RD 643",
     "ville": "Neuville-Saint-Rémy",
-    "horaires": null,
-    "services": "{\"service\": [\"Station de gonflage\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-25 08:45:00\", \"@valeur\": \"2.385\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-18 08:45:00\", \"@valeur\": \"0.858\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-25 08:45:00\", \"@valeur\": \"2.125\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-25 08:45:00\", \"@valeur\": \"2.245\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-05 07:44:28\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 07:44:29\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": 3.2133127496299996,
-      "lat": 50.1930746494
+      "lon": 3.213,
+      "lat": 50.193
     },
     "gazole_maj": "2026-09-25T10:45:00+02:00",
     "gazole_prix": 2.385,
@@ -51,17 +51,19 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;GPLc",
-    "horaires_automate_24_24": "Non",
+    "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Laverie",
+      "Relais colis",
       "Station de gonflage",
-      "Location de véhicule",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Bornes électriques",
+      "Automate CB 24/24"
     ],
     "departement": "Nord",
     "code_departement": "59",
     "region": "Hauts-de-France",
     "code_region": "32",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]

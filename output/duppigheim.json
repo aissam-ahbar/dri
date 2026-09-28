@@ -9,7 +9,7 @@
     "ville": "Duppigheim",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Carburant additivé\", \"Lavage automatique\", \"Services réparation / entretien\"]}",
-    "prix": null,
+    "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-26 07:45:11\", \"@valeur\": \"0.940\"}",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-10 15:23:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-09-14 10:57:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-17 14:14:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-26 05:04:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-26 05:04:09\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 7.59899,
@@ -19,8 +19,8 @@
     "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": null,
-    "e85_prix": null,
+    "e85_maj": "2026-09-26T09:45:11+02:00",
+    "e85_prix": 0.94,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
@@ -39,8 +39,16 @@
     "gplc_rupture_type": "temporaire",
     "gazole_rupture_debut": "2026-09-26T07:04:09+02:00",
     "gazole_rupture_type": "temporaire",
-    "carburants_disponibles": null,
-    "carburants_indisponibles": null,
+    "carburants_disponibles": [
+      "E85"
+    ],
+    "carburants_indisponibles": [
+      "Gazole",
+      "SP95",
+      "GPLc",
+      "E10",
+      "SP98"
+    ],
     "carburants_rupture_temporaire": "Gazole;SP95;GPLc;E10;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
