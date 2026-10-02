@@ -9,13 +9,13 @@
     "ville": "Plouharnel",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-30 15:16:43\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-30 15:16:43\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-30 15:16:43\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-02 08:02:11\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-02 08:02:11\", \"@valeur\": \"1.990\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-31 11:14:05\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-02 08:01:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -3.11074,
       "lat": 47.59785
     },
-    "gazole_maj": "2026-09-30T17:16:43+02:00",
+    "gazole_maj": "2026-10-02T10:02:11+02:00",
     "gazole_prix": 2.25,
     "sp95_maj": null,
     "sp95_prix": null,
@@ -23,14 +23,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-09-30T17:16:43+02:00",
+    "e10_maj": "2026-10-02T10:02:11+02:00",
     "e10_prix": 1.99,
-    "sp98_maj": "2026-09-30T17:16:43+02:00",
-    "sp98_prix": 1.99,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-10-02T10:01:52+02:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2017-08-31T13:14:05+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-08-31T13:14:05+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E10",
-      "SP98"
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
@@ -74,16 +74,16 @@
     "ville": "Plouharnel",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-26 08:42:24\", \"@valeur\": \"2.340\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-09-26 08:42:24\", \"@valeur\": \"2.231\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-26 08:42:24\", \"@valeur\": \"2.277\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-01 09:18:52\", \"@valeur\": \"2.304\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-10-01 09:18:52\", \"@valeur\": \"2.179\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-09-26 08:42:24\", \"@valeur\": \"2.277\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-07-02 08:52:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-07-02 08:52:41\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-07-02 08:52:41\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": -3.11087,
       "lat": 47.59997
     },
-    "gazole_maj": "2026-09-26T10:42:24+02:00",
-    "gazole_prix": 2.34,
-    "sp95_maj": "2026-09-26T10:42:24+02:00",
-    "sp95_prix": 2.231,
+    "gazole_maj": "2026-10-01T11:18:52+02:00",
+    "gazole_prix": 2.304,
+    "sp95_maj": "2026-10-01T11:18:52+02:00",
+    "sp95_prix": 2.179,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
