@@ -71,23 +71,23 @@
     "ville": "Tessancourt-sur-Aubette",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-01 10:55:46\", \"@valeur\": \"2.159\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-01 10:55:46\", \"@valeur\": \"2.259\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-02 11:25:18\", \"@valeur\": \"2.327\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-02 11:25:18\", \"@valeur\": \"2.159\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-02 11:25:18\", \"@valeur\": \"2.259\"}]",
     "rupture": null,
     "geom": {
       "lon": 1.9093,
       "lat": 49.0126
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-10-02T13:25:18+02:00",
+    "gazole_prix": 2.327,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-10-01T12:55:46+02:00",
+    "e10_maj": "2026-10-02T13:25:18+02:00",
     "e10_prix": 2.159,
-    "sp98_maj": "2026-10-01T12:55:46+02:00",
+    "sp98_maj": "2026-10-02T13:25:18+02:00",
     "sp98_prix": 2.259,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
@@ -102,11 +102,11 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc"
