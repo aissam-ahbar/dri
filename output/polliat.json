@@ -9,14 +9,14 @@
     "ville": "Polliat",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-28 09:53:11\", \"@valeur\": \"2.250\"}",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2013-06-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-25 18:41:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 18:41:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-02 12:56:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-02 20:48:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": null,
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2013-06-01 00:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-25 18:41:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-25 18:41:05\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-02 12:56:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-02 20:48:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-03 17:54:51\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 5.11211332738,
       "lat": 46.2508258935
     },
-    "gazole_maj": "2026-09-28T11:53:11+02:00",
-    "gazole_prix": 2.25,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -37,19 +37,11 @@
     "e85_rupture_type": "temporaire",
     "gplc_rupture_debut": "2017-09-25T20:41:05+02:00",
     "gplc_rupture_type": "temporaire",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": "E85;GPLc;E10;SP98",
+    "gazole_rupture_debut": "2026-10-03T19:54:51+02:00",
+    "gazole_rupture_type": "temporaire",
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;E85;GPLc;E10;SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
