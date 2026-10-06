@@ -9,7 +9,7 @@
     "ville": "Aizenay",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-03 09:02:20\", \"@valeur\": \"2.339\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-23 10:30:22\", \"@valeur\": \"0.849\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-06-24 10:21:14\", \"@valeur\": \"1.100\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-03 09:02:20\", \"@valeur\": \"2.135\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-03 09:02:20\", \"@valeur\": \"2.239\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-03 09:02:20\", \"@valeur\": \"2.339\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-23 10:30:22\", \"@valeur\": \"0.849\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-06-24 10:21:14\", \"@valeur\": \"1.100\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-05 12:11:12\", \"@valeur\": \"2.125\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-03 09:02:20\", \"@valeur\": \"2.239\"}]",
     "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-05-14 13:27:10\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": -1.591,
@@ -23,8 +23,8 @@
     "e85_prix": 0.849,
     "gplc_maj": "2026-06-24T12:21:14+02:00",
     "gplc_prix": 1.1,
-    "e10_maj": "2026-10-03T11:02:20+02:00",
-    "e10_prix": 2.135,
+    "e10_maj": "2026-10-05T14:11:12+02:00",
+    "e10_prix": 2.125,
     "sp98_maj": "2026-10-03T11:02:20+02:00",
     "sp98_prix": 2.239,
     "e10_rupture_debut": null,
@@ -78,14 +78,14 @@
     "ville": "Aizenay",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}]}",
     "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-01 16:08:13\", \"@valeur\": \"2.299\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-28 09:07:35\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-01 16:08:13\", \"@valeur\": \"2.113\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-01 16:08:13\", \"@valeur\": \"2.216\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-04-11 16:38:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-04-11 16:38:50\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-28 09:07:35\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-01 16:08:13\", \"@valeur\": \"2.113\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-01 16:08:13\", \"@valeur\": \"2.216\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-04-11 16:38:49\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-04-11 16:38:50\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-06 08:50:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -1.611,
       "lat": 46.737
     },
-    "gazole_maj": "2026-10-01T18:08:13+02:00",
-    "gazole_prix": 2.299,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2026-09-28T11:07:35+02:00",
@@ -106,19 +106,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2018-04-11T18:38:50+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2026-10-06T10:50:07+02:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "Gazole",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
