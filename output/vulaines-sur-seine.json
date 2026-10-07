@@ -63,31 +63,31 @@
   },
   {
     "id": 77870003,
-    "latitude": "4843300",
-    "longitude": "275300",
+    "latitude": "4843355.0793536",
+    "longitude": "275250.81683748",
     "cp": "77870",
     "pop": "R",
     "adresse": "44 Route d'Héricy",
     "ville": "Vulaines-sur-Seine",
-    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": \"Vente de gaz domestique (Butane, Propane)\"}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-05 11:08:53\", \"@valeur\": \"2.369\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-05 11:08:53\", \"@valeur\": \"2.149\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-05 11:08:53\", \"@valeur\": \"2.249\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-06 10:53:26\", \"@valeur\": \"2.359\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-06 10:53:26\", \"@valeur\": \"2.149\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-06 10:53:27\", \"@valeur\": \"2.249\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-10-03 14:32:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-10-03 14:32:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-10-03 14:32:45\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": 2.753,
-      "lat": 48.433
+      "lon": 2.7525081683748,
+      "lat": 48.433550793536
     },
-    "gazole_maj": "2026-10-05T13:08:53+02:00",
-    "gazole_prix": 2.369,
+    "gazole_maj": "2026-10-06T12:53:26+02:00",
+    "gazole_prix": 2.359,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-10-05T13:08:53+02:00",
+    "e10_maj": "2026-10-06T12:53:26+02:00",
     "e10_prix": 2.149,
-    "sp98_maj": "2026-10-05T13:08:53+02:00",
+    "sp98_maj": "2026-10-06T12:53:27+02:00",
     "sp98_prix": 2.249,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
@@ -113,7 +113,7 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Oui",
+    "horaires_automate_24_24": "Non",
     "services_service": [
       "Vente de gaz domestique (Butane, Propane)"
     ],
@@ -121,6 +121,6 @@
     "code_departement": "77",
     "region": "Île-de-France",
     "code_region": "11",
-    "horaires_jour": "Automate-24-24"
+    "horaires_jour": null
   }
 ]

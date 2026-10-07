@@ -9,14 +9,14 @@
     "ville": "Soultz-sous-Forêts",
     "horaires": null,
     "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-05 10:16:02\", \"@valeur\": \"2.339\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-05 10:16:02\", \"@valeur\": \"2.429\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 07:52:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-12 08:23:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-01-12 08:23:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-05 07:23:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-06 11:55:05\", \"@valeur\": \"2.281\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-05 10:16:02\", \"@valeur\": \"2.339\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-05 10:16:02\", \"@valeur\": \"2.429\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 07:52:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-01-12 08:23:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-01-12 08:23:52\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 7.88082,
       "lat": 48.93585
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-10-06T13:55:05+02:00",
+    "gazole_prix": 2.281,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -37,19 +37,19 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2017-09-08T09:52:15+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": "2026-10-05T09:23:18+02:00",
-    "gazole_rupture_type": "temporaire",
+    "gazole_rupture_debut": null,
+    "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "SP95",
       "E85",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "Gazole",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
