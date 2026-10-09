@@ -1,19 +1,19 @@
 [
   {
     "id": 25550003,
-    "latitude": "4748002.5",
-    "longitude": "673907.2",
+    "latitude": "4748000",
+    "longitude": "673900",
     "cp": "25550",
     "pop": "R",
-    "adresse": "36 GRANDE RUE",
+    "adresse": "34 GRANDE RUE",
     "ville": "Bavans",
-    "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
-    "services": null,
+    "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+    "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-06 07:17:05\", \"@valeur\": \"2.349\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-06 07:17:06\", \"@valeur\": \"2.170\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-06 07:17:06\", \"@valeur\": \"2.329\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-03-04 14:45:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-03-04 14:45:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-04 14:45:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": 6.739071999999999,
-      "lat": 47.480025
+      "lon": 6.739,
+      "lat": 47.48
     },
     "gazole_maj": "2026-10-06T09:17:05+02:00",
     "gazole_prix": 2.349,
@@ -51,12 +51,16 @@
     ],
     "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
-    "horaires_automate_24_24": "Non",
-    "services_service": null,
+    "horaires_automate_24_24": "Oui",
+    "services_service": [
+      "Station de gonflage",
+      "Vente de gaz domestique (Butane, Propane)",
+      "Automate CB 24/24"
+    ],
     "departement": "Doubs",
     "code_departement": "25",
     "region": "Bourgogne-Franche-Comté",
     "code_region": "27",
-    "horaires_jour": null
+    "horaires_jour": "Automate-24-24"
   }
 ]
