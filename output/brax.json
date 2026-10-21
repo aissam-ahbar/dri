@@ -9,20 +9,20 @@
     "ville": "Brax",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Station de gonflage\", \"Location de véhicule\", \"Piste poids lourds\", \"Lavage automatique\", \"Bornes électriques\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-10-06 14:00:00\", \"@valeur\": \"2.199\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-07-23 06:01:00\", \"@valeur\": \"1.100\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-12 08:27:50\", \"@valeur\": \"2.159\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-12 08:27:50\", \"@valeur\": \"2.269\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-20 09:07:25\", \"@valeur\": \"2.359\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-10-06 14:00:00\", \"@valeur\": \"2.199\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-10-20 09:08:51\", \"@valeur\": \"1.099\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-12 08:27:50\", \"@valeur\": \"2.159\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-12 08:27:50\", \"@valeur\": \"2.269\"}]",
     "rupture": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2019-09-12 09:59:38\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 0.554,
       "lat": 44.2
     },
-    "gazole_maj": null,
-    "gazole_prix": null,
+    "gazole_maj": "2026-10-20T11:07:25+02:00",
+    "gazole_prix": 2.359,
     "sp95_maj": "2026-10-06T16:00:00+02:00",
     "sp95_prix": 2.199,
     "e85_maj": null,
     "e85_prix": null,
-    "gplc_maj": "2026-07-23T08:01:00+02:00",
-    "gplc_prix": 1.1,
+    "gplc_maj": "2026-10-20T11:08:51+02:00",
+    "gplc_prix": 1.099,
     "e10_maj": "2026-10-12T10:27:50+02:00",
     "e10_prix": 2.159,
     "sp98_maj": "2026-10-12T10:27:50+02:00",
@@ -40,13 +40,13 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
+      "Gazole",
       "SP95",
       "GPLc",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "Gazole",
       "E85"
     ],
     "carburants_rupture_temporaire": null,
