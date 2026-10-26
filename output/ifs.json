@@ -77,14 +77,14 @@
     "ville": "Ifs",
     "horaires": null,
     "services": null,
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-25 00:01:00\", \"@valeur\": \"2.250\"}",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-03-13 09:50:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-13 09:50:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-09-09 07:46:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-23 14:35:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-24 18:55:41\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": null,
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-03-13 09:50:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-13 09:50:35\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-09-09 07:46:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-23 14:35:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-24 18:55:41\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-25 13:27:28\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -0.337385,
       "lat": 49.1421
     },
-    "gazole_maj": "2026-10-25T02:01:00+02:00",
-    "gazole_prix": 2.25,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -105,20 +105,12 @@
     "e85_rupture_type": "definitive",
     "gplc_rupture_debut": "2026-03-13T10:50:35+01:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
-    "carburants_rupture_temporaire": "E10;SP98",
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "gazole_rupture_debut": "2026-10-25T14:27:28+01:00",
+    "gazole_rupture_type": "temporaire",
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
+    "carburants_rupture_temporaire": "Gazole;E10;SP98",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": null,
     "departement": "Calvados",
@@ -206,7 +198,7 @@
     "horaires": null,
     "services": null,
     "prix": null,
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-03-13 10:06:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-13 10:06:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-10-18 15:03:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-24 10:36:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-24 18:48:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-24 20:52:01\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-03-13 10:06:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-03-13 10:06:14\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-10-18 15:03:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-24 10:36:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-24 18:48:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-25 11:52:11\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -0.34387913999999997,
       "lat": 49.15400414
@@ -223,7 +215,7 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": "2026-10-24T22:52:01+02:00",
+    "e10_rupture_debut": "2026-10-25T12:52:11+01:00",
     "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2026-10-24T12:36:52+02:00",
     "sp98_rupture_type": "temporaire",
