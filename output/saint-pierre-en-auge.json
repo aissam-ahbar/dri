@@ -9,14 +9,14 @@
     "ville": "Saint-Pierre-en-Auge",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Services réparation / entretien\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-19 14:20:09\", \"@valeur\": \"2.250\"}",
+    "prix": null,
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-02-27 19:13:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-12-31 17:51:51\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-12-09 10:13:15\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-21 10:14:58\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-24 11:40:25\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -0.02358,
       "lat": 49.0247
     },
-    "gazole_maj": "2026-10-19T16:20:09+02:00",
-    "gazole_prix": 2.25,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
@@ -39,18 +39,10 @@
     "gplc_rupture_type": "definitive",
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
-    "carburants_disponibles": [
-      "Gazole"
-    ],
-    "carburants_indisponibles": [
-      "SP95",
-      "E85",
-      "GPLc",
-      "E10",
-      "SP98"
-    ],
+    "carburants_disponibles": null,
+    "carburants_indisponibles": null,
     "carburants_rupture_temporaire": "E10;SP98",
-    "carburants_rupture_definitive": "SP95;E85;GPLc",
+    "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
       "Boutique alimentaire",
