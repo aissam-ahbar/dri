@@ -9,14 +9,14 @@
     "ville": "Rosheim",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-26 11:31:13\", \"@valeur\": \"2.453\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-23 16:12:28\", \"@valeur\": \"0.921\"}]",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-17 19:23:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-10-01 13:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-10-01 13:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-26 09:05:14\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-27 11:35:50\", \"@valeur\": \"2.448\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-23 16:12:28\", \"@valeur\": \"0.921\"}]",
+    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-17 19:23:59\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-10-01 13:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2026-10-01 13:36:12\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 7.485088,
       "lat": 48.501302
     },
-    "gazole_maj": "2026-10-26T12:31:13+01:00",
-    "gazole_prix": 2.453,
+    "gazole_maj": "2026-10-27T12:35:50+01:00",
+    "gazole_prix": 2.448,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2026-10-23T18:12:28+02:00",
@@ -27,8 +27,8 @@
     "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": "2026-10-26T10:05:14+01:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": "2026-10-17T21:23:59+02:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2026-10-01T15:36:12+02:00",
@@ -49,7 +49,7 @@
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "E10;SP98",
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
