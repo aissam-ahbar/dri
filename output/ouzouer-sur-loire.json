@@ -9,8 +9,8 @@
     "ville": "Ouzouer-sur-Loire",
     "horaires": null,
     "services": null,
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-27 08:52:37\", \"@valeur\": \"2.399\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-27 08:52:37\", \"@valeur\": \"0.869\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-09-11 07:29:01\", \"@valeur\": \"1.009\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-27 08:52:37\", \"@valeur\": \"2.249\"}]",
-    "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-02-02 12:21:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-10-27 08:51:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-27 08:52:37\", \"@valeur\": \"2.399\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-27 08:52:37\", \"@valeur\": \"0.869\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-10-28 17:14:11\", \"@valeur\": \"1.009\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-28 11:01:17\", \"@valeur\": \"2.099\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-27 08:52:37\", \"@valeur\": \"2.249\"}]",
+    "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-02-02 12:21:12\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 2.46292,
       "lat": 47.77782
@@ -21,14 +21,14 @@
     "sp95_prix": null,
     "e85_maj": "2026-10-27T09:52:37+01:00",
     "e85_prix": 0.869,
-    "gplc_maj": "2026-09-11T09:29:01+02:00",
+    "gplc_maj": "2026-10-28T18:14:11+01:00",
     "gplc_prix": 1.009,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2026-10-28T12:01:17+01:00",
+    "e10_prix": 2.099,
     "sp98_maj": "2026-10-27T09:52:37+01:00",
     "sp98_prix": 2.249,
-    "e10_rupture_debut": "2026-10-27T09:51:20+01:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": null,
     "sp98_rupture_type": null,
     "sp95_rupture_debut": "2019-02-02T13:21:12+01:00",
@@ -43,13 +43,13 @@
       "Gazole",
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
-      "SP95",
-      "E10"
+      "SP95"
     ],
-    "carburants_rupture_temporaire": "E10",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Non",
     "services_service": null,
