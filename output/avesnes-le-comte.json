@@ -8,7 +8,7 @@
     "adresse": "1000 avenue Francois Mitterand",
     "ville": "Avesnes-le-Comte",
     "horaires": null,
-    "services": "{\"service\": [\"Relais colis\", \"Location de véhicule\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Vente de gaz domestique (Butane, Propane)\", \"Piste poids lourds\", \"Location de véhicule\", \"Relais colis\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-23 07:51:42\", \"@valeur\": \"2.429\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-23 07:51:43\", \"@valeur\": \"2.120\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-23 07:51:43\", \"@valeur\": \"2.219\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-08 12:20:49\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-08 12:20:49\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-09-10 14:02:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
@@ -53,11 +53,11 @@
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Relais colis",
-      "Location de véhicule",
-      "Piste poids lourds",
+      "DAB (Distributeur automatique de billets)",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Piste poids lourds",
+      "Location de véhicule",
+      "Relais colis"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",
@@ -74,8 +74,8 @@
     "adresse": "149 Grand Rue",
     "ville": "Avesnes-le-Comte",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-01 12:49:32\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-02 17:37:24\", \"@valeur\": \"1.990\"}]",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"Boutique alimentaire\", \"Vente de gaz domestique (Butane, Propane)\", \"Carburant additivé\", \"Station de gonflage\", \"Bornes électriques\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-01 12:49:32\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-05 17:29:37\", \"@valeur\": \"1.990\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-11-27 11:07:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-02 18:28:23\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.533,
@@ -89,7 +89,7 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-11-02T18:37:24+01:00",
+    "e10_maj": "2026-11-05T18:29:37+01:00",
     "e10_prix": 1.99,
     "sp98_maj": null,
     "sp98_prix": null,
@@ -119,12 +119,12 @@
     "carburants_rupture_definitive": "SP95",
     "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Automate CB 24/24",
       "Boutique alimentaire",
-      "Station de gonflage",
-      "Carburant additivé",
       "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Automate CB 24/24"
+      "Carburant additivé",
+      "Station de gonflage",
+      "Bornes électriques"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",

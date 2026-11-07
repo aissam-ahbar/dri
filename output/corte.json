@@ -8,7 +8,7 @@
     "adresse": "RT 20",
     "ville": "Corte",
     "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\", \"Lavage automatique\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Toilettes publiques\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Lavage automatique\", \"Lavage manuel\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Piste poids lourds\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-03 18:35:30\", \"@valeur\": \"2.250\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-11-03 18:35:38\", \"@valeur\": \"2.190\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-05-05 08:43:28\", \"@valeur\": \"1.390\"}]",
     "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2015-09-14 19:10:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-01-22 13:36:36\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-01-22 13:36:37\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
@@ -53,17 +53,17 @@
     "carburants_rupture_definitive": "E85;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "DAB (Distributeur automatique de billets)",
       "Toilettes publiques",
       "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Restauration à emporter",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Piste poids lourds",
       "Lavage automatique",
       "Lavage manuel",
+      "Restauration à emporter",
       "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Vente de pétrole lampant",
+      "Station de gonflage",
+      "Piste poids lourds"
     ],
     "departement": "Haute-Corse",
     "code_departement": "2B",
@@ -80,7 +80,7 @@
     "adresse": "Avenue de la République",
     "ville": "Corte",
     "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Relais colis\", \"Boutique non alimentaire\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Toilettes publiques\", \"Relais colis\", \"Boutique non alimentaire\", \"Bar\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Lavage manuel\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-07-22 15:38:24\", \"@valeur\": \"2.250\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-03-14 18:46:27\", \"@valeur\": \"1.990\"}]",
     "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2020-11-10 15:11:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2020-11-10 15:16:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-11-10 15:16:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2020-11-10 15:16:29\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
@@ -125,15 +125,15 @@
     "carburants_rupture_definitive": "E85;GPLc;E10;SP98",
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "DAB (Distributeur automatique de billets)",
       "Toilettes publiques",
       "Relais colis",
       "Boutique non alimentaire",
       "Bar",
+      "Vente de gaz domestique (Butane, Propane)",
       "Vente de fioul domestique",
       "Station de gonflage",
-      "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Lavage manuel"
     ],
     "departement": "Haute-Corse",
     "code_departement": "2B",
@@ -150,7 +150,7 @@
     "adresse": "RN 193 - lieu dit Pentone",
     "ville": "Corte",
     "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Bar\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Toilettes publiques\", \"Boutique non alimentaire\", \"Bar\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente de fioul domestique\", \"Station de gonflage\", \"Lavage manuel\", \"Piste poids lourds\", \"Carburant additivé\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-03 18:58:01\", \"@valeur\": \"2.250\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-11-03 18:58:28\", \"@valeur\": \"2.190\"}]",
     "rupture": "[{\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2015-02-01 07:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2015-02-01 07:00:00\", \"@fin\": \"\", \"@type\": \"\"}]",
     "geom": {
@@ -195,16 +195,16 @@
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "DAB (Distributeur automatique de billets)",
       "Toilettes publiques",
       "Boutique non alimentaire",
       "Bar",
+      "Vente de gaz domestique (Butane, Propane)",
       "Vente de fioul domestique",
       "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
       "Lavage manuel",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Piste poids lourds",
+      "Carburant additivé"
     ],
     "departement": "Haute-Corse",
     "code_departement": "2B",

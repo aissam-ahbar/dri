@@ -8,16 +8,16 @@
     "adresse": "30 Avenue Joseph Callet",
     "ville": "Rognonas",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"00.00\", \"@fermeture\": \"00.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Lavage manuel\", \"Services réparation / entretien\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-27 12:05:19\", \"@valeur\": \"2.414\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-10-27 12:05:19\", \"@valeur\": \"2.108\"}]",
+    "services": "{\"service\": [\"Toilettes publiques\", \"Station de gonflage\", \"Services réparation / entretien\", \"Automate CB 24/24\", \"Lavage manuel\", \"Piste poids lourds\", \"Carburant additivé\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-04 16:05:45\", \"@valeur\": \"2.259\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-11-04 16:05:45\", \"@valeur\": \"2.108\"}]",
     "rupture": null,
     "geom": {
       "lon": 4.794,
       "lat": 43.897
     },
-    "gazole_maj": "2026-10-27T13:05:19+01:00",
-    "gazole_prix": 2.414,
-    "sp95_maj": "2026-10-27T13:05:19+01:00",
+    "gazole_maj": "2026-11-04T17:05:45+01:00",
+    "gazole_prix": 2.259,
+    "sp95_maj": "2026-11-04T17:05:45+01:00",
     "sp95_prix": 2.108,
     "e85_maj": null,
     "e85_prix": null,
@@ -55,11 +55,11 @@
     "services_service": [
       "Toilettes publiques",
       "Station de gonflage",
-      "Carburant additivé",
-      "Piste poids lourds",
-      "Lavage manuel",
       "Services réparation / entretien",
-      "Automate CB 24/24"
+      "Automate CB 24/24",
+      "Lavage manuel",
+      "Piste poids lourds",
+      "Carburant additivé"
     ],
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",
@@ -76,7 +76,7 @@
     "adresse": "23 Avenue du Général de Gaulle",
     "ville": "Rognonas",
     "horaires": null,
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-30 14:07:36\", \"@valeur\": \"2.369\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-30 14:07:36\", \"@valeur\": \"2.129\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-30 14:07:36\", \"@valeur\": \"2.229\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-01 15:47:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-01 15:47:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-01 15:47:19\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
@@ -121,11 +121,11 @@
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "DAB (Distributeur automatique de billets)",
       "Boutique alimentaire",
       "Boutique non alimentaire",
       "Restauration à emporter",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Bouches-du-Rhône",
     "code_departement": "13",

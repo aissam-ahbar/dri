@@ -8,29 +8,29 @@
     "adresse": "LA LOGE CITE BELLEVUE",
     "ville": "Azay-le-Rideau",
     "horaires": null,
-    "services": "{\"service\": [\"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-02 11:20:11\", \"@valeur\": \"2.262\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-11-02 11:20:11\", \"@valeur\": \"2.127\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-02 11:20:12\", \"@valeur\": \"2.184\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-09-20 08:36:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-31 09:57:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-31 09:57:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-06 12:00:29\", \"@valeur\": \"2.246\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-11-06 12:00:29\", \"@valeur\": \"2.061\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-09-20 08:36:56\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-10-31 09:57:06\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2022-10-31 09:57:22\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-04 12:41:56\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 0.47375205481099997,
       "lat": 47.264154177900004
     },
-    "gazole_maj": "2026-11-02T12:20:11+01:00",
-    "gazole_prix": 2.262,
-    "sp95_maj": "2026-11-02T12:20:11+01:00",
-    "sp95_prix": 2.127,
+    "gazole_maj": "2026-11-06T13:00:29+01:00",
+    "gazole_prix": 2.246,
+    "sp95_maj": "2026-11-06T13:00:29+01:00",
+    "sp95_prix": 2.061,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
     "e10_maj": null,
     "e10_prix": null,
-    "sp98_maj": "2026-11-02T12:20:12+01:00",
-    "sp98_prix": 2.184,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": "2022-10-31T10:57:22+01:00",
     "e10_rupture_type": "temporaire",
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "sp98_rupture_debut": "2026-11-04T13:41:56+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
     "sp95_rupture_type": null,
     "e85_rupture_debut": "2022-10-31T10:57:06+01:00",
@@ -41,20 +41,20 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "SP95",
-      "SP98"
+      "SP95"
     ],
     "carburants_indisponibles": [
       "E85",
       "GPLc",
-      "E10"
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": "E85;E10",
+    "carburants_rupture_temporaire": "E85;E10;SP98",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "DAB (Distributeur automatique de billets)",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Indre-et-Loire",
     "code_departement": "37",

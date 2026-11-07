@@ -8,7 +8,7 @@
     "adresse": "rue Bleuets",
     "ville": "Beaurains",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Laverie\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Lavage automatique\", \"Vente de gaz domestique (Butane, Propane)\", \"Bornes électriques\", \"Wifi\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"Bornes électriques\", \"Lavage automatique\", \"Laverie\", \"Station de gonflage\", \"Toilettes publiques\", \"Vente de pétrole lampant\", \"Wifi\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-03 11:59:05\", \"@valeur\": \"2.224\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-03 11:59:05\", \"@valeur\": \"2.046\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-03 11:59:05\", \"@valeur\": \"2.147\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-02-07 10:24:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-02-07 10:24:19\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-02-23 17:03:08\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
@@ -53,16 +53,16 @@
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Toilettes publiques",
-      "Laverie",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Lavage automatique",
+      "DAB (Distributeur automatique de billets)",
       "Vente de gaz domestique (Butane, Propane)",
-      "Bornes électriques",
-      "Wifi",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
+      "Bornes électriques",
+      "Lavage automatique",
+      "Laverie",
+      "Station de gonflage",
+      "Toilettes publiques",
+      "Vente de pétrole lampant",
+      "Wifi"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",

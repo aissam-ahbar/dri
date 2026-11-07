@@ -8,7 +8,7 @@
     "adresse": "RUE HYPPOLYTE NOIRET",
     "ville": "Fouilloy",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
-    "services": "{\"service\": [\"Laverie\", \"Relais colis\", \"Boutique alimentaire\", \"Vente de pétrole lampant\", \"Station de gonflage\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente de gaz domestique (Butane, Propane)\", \"Vente d'additifs carburants\", \"Wifi\", \"Automate CB 24/24\"]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"Laverie\", \"Piste poids lourds\", \"Relais colis\", \"Station de gonflage\", \"Vente d'additifs carburants\", \"Vente de gaz domestique (Butane, Propane)\", \"Wifi\", \"Boutique alimentaire\", \"Carburant additivé\", \"Vente de pétrole lampant\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-04 06:44:16\", \"@valeur\": \"2.169\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-20 08:01:45\", \"@valeur\": \"0.878\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-04 06:44:16\", \"@valeur\": \"2.029\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-04 06:44:16\", \"@valeur\": \"2.129\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-04-27 09:22:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-04-27 09:22:44\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
@@ -53,17 +53,17 @@
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
+      "Automate CB 24/24",
       "Laverie",
-      "Relais colis",
-      "Boutique alimentaire",
-      "Vente de pétrole lampant",
-      "Station de gonflage",
-      "Carburant additivé",
       "Piste poids lourds",
-      "Vente de gaz domestique (Butane, Propane)",
+      "Relais colis",
+      "Station de gonflage",
       "Vente d'additifs carburants",
+      "Vente de gaz domestique (Butane, Propane)",
       "Wifi",
-      "Automate CB 24/24"
+      "Boutique alimentaire",
+      "Carburant additivé",
+      "Vente de pétrole lampant"
     ],
     "departement": "Somme",
     "code_departement": "80",

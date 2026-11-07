@@ -8,23 +8,23 @@
     "adresse": "Rue de la Plaine",
     "ville": "Barlin",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"12.30\"}}]}",
-    "services": "{\"service\": [\"Relais colis\", \"Location de véhicule\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-29 10:52:46\", \"@valeur\": \"2.397\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-10-29 10:52:46\", \"@valeur\": \"2.132\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-29 10:52:46\", \"@valeur\": \"0.860\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-10-29 10:52:46\", \"@valeur\": \"2.092\"}]",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Automate CB 24/24\", \"Location de véhicule\", \"Relais colis\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-04 10:20:19\", \"@valeur\": \"2.178\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-11-04 10:20:19\", \"@valeur\": \"2.049\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-04 10:20:19\", \"@valeur\": \"0.836\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-04 10:20:20\", \"@valeur\": \"2.029\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 10:08:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2019-04-03 11:22:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.607,
       "lat": 50.454
     },
-    "gazole_maj": "2026-10-29T11:52:46+01:00",
-    "gazole_prix": 2.397,
-    "sp95_maj": "2026-10-29T11:52:46+01:00",
-    "sp95_prix": 2.132,
-    "e85_maj": "2026-10-29T11:52:46+01:00",
-    "e85_prix": 0.86,
+    "gazole_maj": "2026-11-04T11:20:19+01:00",
+    "gazole_prix": 2.178,
+    "sp95_maj": "2026-11-04T11:20:19+01:00",
+    "sp95_prix": 2.049,
+    "e85_maj": "2026-11-04T11:20:19+01:00",
+    "e85_prix": 0.836,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-10-29T11:52:46+01:00",
-    "e10_prix": 2.092,
+    "e10_maj": "2026-11-04T11:20:20+01:00",
+    "e10_prix": 2.029,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
@@ -53,11 +53,11 @@
     "carburants_rupture_definitive": "GPLc;SP98",
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Relais colis",
-      "Location de véhicule",
-      "Vente de gaz domestique (Butane, Propane)",
+      "DAB (Distributeur automatique de billets)",
       "Automate CB 24/24",
-      "DAB (Distributeur automatique de billets)"
+      "Location de véhicule",
+      "Relais colis",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",
@@ -74,8 +74,8 @@
     "adresse": "3 Rue d'Haillicourt",
     "ville": "Barlin",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.00\", \"@fermeture\": \"12.30\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"19.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-03 09:50:31\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-03 09:50:31\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-03 09:50:31\", \"@valeur\": \"1.990\"}]",
+    "services": "{\"service\": [\"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Station de gonflage\", \"Automate CB 24/24\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-03 09:50:31\", \"@valeur\": \"2.250\"}",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-20 18:39:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-09-07 18:25:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-10-06 12:47:34\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.616,
@@ -89,10 +89,10 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-11-03T10:50:31+01:00",
-    "e10_prix": 1.99,
-    "sp98_maj": "2026-11-03T10:50:31+01:00",
-    "sp98_prix": 1.99,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,
@@ -106,14 +106,14 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
     "carburants_rupture_temporaire": "E85",
     "carburants_rupture_definitive": "SP95;GPLc",
@@ -121,10 +121,10 @@
     "services_service": [
       "Boutique alimentaire",
       "Boutique non alimentaire",
-      "Station de gonflage",
       "Carburant additivé",
-      "Vente de gaz domestique (Butane, Propane)",
-      "Automate CB 24/24"
+      "Station de gonflage",
+      "Automate CB 24/24",
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Pas-de-Calais",
     "code_departement": "62",

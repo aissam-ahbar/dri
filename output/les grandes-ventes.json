@@ -8,7 +8,7 @@
     "adresse": "32 rue de Dieppe",
     "ville": "Les Grandes-Ventes",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"13.30\", \"@fermeture\": \"18.30\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Toilettes publiques\", \"Boutique non alimentaire\", \"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\"]}",
+    "services": "{\"service\": [\"Boutique non alimentaire\", \"Carburant additivé\", \"Station de gonflage\", \"Services réparation / entretien\", \"Piste poids lourds\", \"Location de véhicule\", \"Toilettes publiques\"]}",
     "prix": null,
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2016-05-25 14:00:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-10-03 09:22:29\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-10-03 09:22:29\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
@@ -45,13 +45,13 @@
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
-      "Toilettes publiques",
       "Boutique non alimentaire",
-      "Station de gonflage",
       "Carburant additivé",
-      "Location de véhicule",
+      "Station de gonflage",
+      "Services réparation / entretien",
       "Piste poids lourds",
-      "Services réparation / entretien"
+      "Location de véhicule",
+      "Toilettes publiques"
     ],
     "departement": "Seine-Maritime",
     "code_departement": "76",
@@ -68,17 +68,17 @@
     "adresse": "HAMEAU DES HAUT CHAMPS",
     "ville": "Les Grandes-Ventes",
     "horaires": null,
-    "services": "{\"service\": [\"Toilettes publiques\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-20 09:39:01\", \"@valeur\": \"2.399\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-10-20 09:39:01\", \"@valeur\": \"2.199\"}]",
+    "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Toilettes publiques\", \"Restauration à emporter\", \"Vente de gaz domestique (Butane, Propane)\"]}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-07 06:51:01\", \"@valeur\": \"2.399\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-11-07 06:51:01\", \"@valeur\": \"2.099\"}]",
     "rupture": null,
     "geom": {
       "lon": 1.21887113953,
       "lat": 49.7895378062
     },
-    "gazole_maj": "2026-10-20T11:39:01+02:00",
+    "gazole_maj": "2026-11-07T07:51:01+01:00",
     "gazole_prix": 2.399,
-    "sp95_maj": "2026-10-20T11:39:01+02:00",
-    "sp95_prix": 2.199,
+    "sp95_maj": "2026-11-07T07:51:01+01:00",
+    "sp95_prix": 2.099,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
@@ -113,10 +113,10 @@
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Non",
     "services_service": [
+      "DAB (Distributeur automatique de billets)",
       "Toilettes publiques",
       "Restauration à emporter",
-      "Vente de gaz domestique (Butane, Propane)",
-      "DAB (Distributeur automatique de billets)"
+      "Vente de gaz domestique (Butane, Propane)"
     ],
     "departement": "Seine-Maritime",
     "code_departement": "76",
@@ -133,7 +133,7 @@
     "adresse": "800 ROUTE DE DIEPPE",
     "ville": "Les Grandes-Ventes",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.45\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"17.30\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
-    "services": "{\"service\": [\"Station de gonflage\", \"Carburant additivé\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+    "services": "{\"service\": [\"Automate CB 24/24\", \"Location de véhicule\", \"Piste poids lourds\", \"Services réparation / entretien\", \"Station de gonflage\", \"Vente d'additifs carburants\", \"Carburant additivé\"]}",
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-10-30 08:48:03\", \"@valeur\": \"2.478\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@maj\": \"2026-10-27 16:23:45\", \"@valeur\": \"2.209\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-10-29 17:38:28\", \"@valeur\": \"2.226\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-10-10 08:16:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2024-10-10 08:16:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2024-11-20 11:10:24\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
@@ -178,13 +178,13 @@
     "carburants_rupture_definitive": "E85;GPLc;E10",
     "horaires_automate_24_24": "Oui",
     "services_service": [
-      "Station de gonflage",
-      "Carburant additivé",
+      "Automate CB 24/24",
       "Location de véhicule",
       "Piste poids lourds",
       "Services réparation / entretien",
+      "Station de gonflage",
       "Vente d'additifs carburants",
-      "Automate CB 24/24"
+      "Carburant additivé"
     ],
     "departement": "Seine-Maritime",
     "code_departement": "76",
