@@ -9,14 +9,14 @@
     "ville": "Ancizan",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Lavage manuel\", \"Piste poids lourds\", \"Bornes électriques\", \"Laverie\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-04 13:33:43\", \"@valeur\": \"2.195\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-17 06:53:16\", \"@valeur\": \"0.878\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-04 13:33:43\", \"@valeur\": \"2.025\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-04 13:33:44\", \"@valeur\": \"2.125\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-04-19 07:11:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-07-15 10:42:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-10-17 06:53:16\", \"@valeur\": \"0.878\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-04 13:33:43\", \"@valeur\": \"2.025\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-04 13:33:44\", \"@valeur\": \"2.125\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2019-04-19 07:11:26\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-07-15 10:42:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-11-07 16:09:54\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 0.34,
       "lat": 42.869
     },
-    "gazole_maj": "2026-11-04T14:33:43+01:00",
-    "gazole_prix": 2.195,
+    "gazole_maj": null,
+    "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": "2026-10-17T08:53:16+02:00",
@@ -37,19 +37,19 @@
     "e85_rupture_type": null,
     "gplc_rupture_debut": "2019-04-19T09:11:26+02:00",
     "gplc_rupture_type": "definitive",
-    "gazole_rupture_debut": null,
-    "gazole_rupture_type": null,
+    "gazole_rupture_debut": "2026-11-07T17:09:54+01:00",
+    "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "Gazole",
       "E85",
       "E10",
       "SP98"
     ],
     "carburants_indisponibles": [
+      "Gazole",
       "SP95",
       "GPLc"
     ],
-    "carburants_rupture_temporaire": "SP95",
+    "carburants_rupture_temporaire": "Gazole;SP95",
     "carburants_rupture_definitive": "GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
