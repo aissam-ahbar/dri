@@ -142,7 +142,7 @@
     "ville": "Royan",
     "horaires": null,
     "services": "{\"service\": [\"Boutique alimentaire\", \"Carburant additivé\", \"Relais colis\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-08 00:01:00\", \"@valeur\": \"0.881\"}",
+    "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-09 00:01:00\", \"@valeur\": \"0.881\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-09 00:01:00\", \"@valeur\": \"1.954\"}]",
     "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-03 16:20:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-11-08 07:33:32\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": -1.01317,
@@ -152,12 +152,12 @@
     "gazole_prix": null,
     "sp95_maj": null,
     "sp95_prix": null,
-    "e85_maj": "2026-11-08T01:01:00+01:00",
+    "e85_maj": "2026-11-09T01:01:00+01:00",
     "e85_prix": 0.881,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2026-11-09T01:01:00+01:00",
+    "e10_prix": 1.954,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
@@ -173,13 +173,13 @@
     "gazole_rupture_debut": "2026-11-08T08:33:32+01:00",
     "gazole_rupture_type": "temporaire",
     "carburants_disponibles": [
-      "E85"
+      "E85",
+      "E10"
     ],
     "carburants_indisponibles": [
       "Gazole",
       "SP95",
       "GPLc",
-      "E10",
       "SP98"
     ],
     "carburants_rupture_temporaire": "Gazole;SP98",
