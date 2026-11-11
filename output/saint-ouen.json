@@ -1,8 +1,8 @@
 [
   {
     "id": 41100003,
-    "latitude": "4780500",
-    "longitude": "107100",
+    "latitude": "4780527",
+    "longitude": "107196",
     "cp": "41100",
     "pop": "R",
     "adresse": "ROUTE NATIONAL 10",
@@ -12,8 +12,8 @@
     "prix": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-09 11:00:47\", \"@valeur\": \"0.900\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-09 11:00:48\", \"@valeur\": \"2.128\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-05 09:49:44\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-13 12:58:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-09 11:00:11\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-11-09 13:34:50\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
-      "lon": 1.071,
-      "lat": 47.805
+      "lon": 1.07196,
+      "lat": 47.80527
     },
     "gazole_maj": null,
     "gazole_prix": null,
@@ -75,8 +75,8 @@
     "ville": "Saint-Ouen",
     "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
     "services": "{\"service\": [\"Toilettes publiques\", \"Vente de gaz domestique (Butane, Propane)\", \"DAB (Distributeur automatique de billets)\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Lavage automatique\", \"Lavage manuel\", \"Station de gonflage\", \"Services réparation / entretien\", \"Piste poids lourds\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-10 07:12:21\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-10 07:12:21\", \"@valeur\": \"0.934\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-10 07:12:22\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-22 19:12:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-07-20 18:36:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-04 07:34:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-10 07:12:21\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-10 07:12:21\", \"@valeur\": \"0.934\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-03-22 19:12:38\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-07-20 18:36:33\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-04 07:34:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-11-10 13:20:52\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.0759,
       "lat": 47.81671
@@ -89,12 +89,12 @@
     "e85_prix": 0.934,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-11-10T08:12:22+01:00",
-    "e10_prix": 1.99,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-11-10T14:20:52+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2026-11-04T08:34:10+01:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2023-07-20T20:36:33+02:00",
@@ -107,15 +107,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "E10"
+      "E85"
     ],
     "carburants_indisponibles": [
       "SP95",
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [

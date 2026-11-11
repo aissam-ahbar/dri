@@ -1,8 +1,8 @@
 [
   {
     "id": 63700004,
-    "latitude": "4616000",
-    "longitude": "283800",
+    "latitude": "4615874",
+    "longitude": "283649",
     "cp": "63700",
     "pop": "R",
     "adresse": "Rue Jean Moulin",
@@ -12,8 +12,8 @@
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-09 12:00:00\", \"@valeur\": \"2.189\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-09 12:00:00\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-09 12:00:00\", \"@valeur\": \"2.169\"}]",
     "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-08 14:15:20\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2024-08-08 09:08:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2024-11-15 09:44:36\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": 2.838,
-      "lat": 46.16
+      "lon": 2.83649,
+      "lat": 46.15874
     },
     "gazole_maj": "2026-11-09T13:00:00+01:00",
     "gazole_prix": 2.189,
@@ -79,7 +79,7 @@
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Automate CB 24/24\", \"Carburant additivé\"]}",
     "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-09 08:42:01\", \"@valeur\": \"2.190\"}",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-30 18:43:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-30 18:43:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-07-22 14:33:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-09 08:42:08\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-30 18:43:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-30 18:43:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-07-22 14:33:10\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 2.835,
       "lat": 46.161
@@ -98,8 +98,8 @@
     "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2026-11-09T09:42:08+01:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2026-07-22T16:33:10+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2021-07-30T20:43:02+02:00",
@@ -118,7 +118,7 @@
       "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [

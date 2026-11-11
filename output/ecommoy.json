@@ -9,8 +9,8 @@
     "ville": "Écommoy",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"08.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"14.00\", \"@fermeture\": \"18.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Services réparation / entretien\", \"Piste poids lourds\", \"Automate CB 24/24\", \"Carburant additivé\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-10 08:22:44\", \"@valeur\": \"2.071\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-10 08:22:44\", \"@valeur\": \"1.979\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-10-02 19:06:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-05 18:51:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-03-27 11:07:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-02 17:33:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-10 08:22:44\", \"@valeur\": \"2.071\"}",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-10-02 19:06:37\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2018-11-05 18:51:03\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-03-27 11:07:52\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-02 17:33:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-11-10 15:33:45\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 0.26260409465559004,
       "lat": 47.840732388504
@@ -23,12 +23,12 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-11-10T09:22:44+01:00",
-    "e10_prix": 1.979,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-11-10T16:33:45+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2026-11-02T18:33:07+01:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2026-03-27T12:07:52+01:00",
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -74,7 +74,7 @@
     "ville": "Écommoy",
     "horaires": null,
     "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Vente de gaz domestique (Butane, Propane)\", \"Station de gonflage\", \"Lavage automatique\", \"Lavage manuel\", \"Location de véhicule\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-09 16:03:46\", \"@valeur\": \"2.134\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-03 12:34:06\", \"@valeur\": \"0.859\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-27 12:40:01\", \"@valeur\": \"1.019\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-09 08:45:42\", \"@valeur\": \"1.989\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-06 12:20:25\", \"@valeur\": \"2.099\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-09 16:03:46\", \"@valeur\": \"2.134\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-03 12:34:06\", \"@valeur\": \"0.859\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-04-27 12:40:01\", \"@valeur\": \"1.019\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-10 14:50:19\", \"@valeur\": \"1.975\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-10 14:50:19\", \"@valeur\": \"2.079\"}]",
     "rupture": "{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-11-03 17:50:36\", \"@fin\": \"\", \"@type\": \"definitive\"}",
     "geom": {
       "lon": 0.262623079173,
@@ -88,10 +88,10 @@
     "e85_prix": 0.859,
     "gplc_maj": "2026-04-27T14:40:01+02:00",
     "gplc_prix": 1.019,
-    "e10_maj": "2026-11-09T09:45:42+01:00",
-    "e10_prix": 1.989,
-    "sp98_maj": "2026-11-06T13:20:25+01:00",
-    "sp98_prix": 2.099,
+    "e10_maj": "2026-11-10T15:50:19+01:00",
+    "e10_prix": 1.975,
+    "sp98_maj": "2026-11-10T15:50:19+01:00",
+    "sp98_prix": 2.079,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
     "sp98_rupture_debut": null,

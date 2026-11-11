@@ -1,19 +1,19 @@
 [
   {
     "id": 59239002,
-    "latitude": "5047447.5983978",
-    "longitude": "305124.86498764",
+    "latitude": "5047443",
+    "longitude": "305115",
     "cp": "59239",
     "pop": "R",
     "adresse": "4 Rue Pasteur",
     "ville": "Thumeries",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\", \"horaire\": {\"@ouverture\": \"01.00\", \"@fermeture\": \"01.00\"}}]}",
     "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Automate CB 24/24\", \"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Laverie\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-05 08:58:05\", \"@valeur\": \"2.199\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-05 08:58:06\", \"@valeur\": \"0.869\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-05 08:58:06\", \"@valeur\": \"2.045\"}]",
-    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-19 18:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-07-31 08:49:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-10 07:39:35\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-05 08:58:05\", \"@valeur\": \"2.199\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-11-05 08:58:06\", \"@valeur\": \"0.869\"}]",
+    "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-19 18:35:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-07-31 08:49:09\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-10 07:39:35\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-11-10 12:02:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
-      "lon": 3.0512486498764,
-      "lat": 50.474475983977996
+      "lon": 3.05115,
+      "lat": 50.47443
     },
     "gazole_maj": "2026-11-05T09:58:05+01:00",
     "gazole_prix": 2.199,
@@ -23,12 +23,12 @@
     "e85_prix": 0.869,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-11-05T09:58:06+01:00",
-    "e10_prix": 2.045,
+    "e10_maj": null,
+    "e10_prix": null,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
+    "e10_rupture_debut": "2026-11-10T13:02:18+01:00",
+    "e10_rupture_type": "temporaire",
     "sp98_rupture_debut": "2026-11-10T08:39:35+01:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2026-07-31T10:49:09+02:00",
@@ -41,15 +41,15 @@
     "gazole_rupture_type": null,
     "carburants_disponibles": [
       "Gazole",
-      "E85",
-      "E10"
+      "E85"
     ],
     "carburants_indisponibles": [
       "SP95",
       "GPLc",
+      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [

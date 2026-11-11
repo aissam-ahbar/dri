@@ -9,22 +9,22 @@
     "ville": "Le Mée-sur-Seine",
     "horaires": null,
     "services": "{\"service\": [\"DAB (Distributeur automatique de billets)\", \"Services réparation / entretien\", \"Boutique alimentaire\", \"Boutique non alimentaire\", \"Carburant additivé\", \"Lavage automatique\", \"Restauration à emporter\", \"Station de gonflage\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-10 00:01:00\", \"@valeur\": \"2.078\"}",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-11 00:01:00\", \"@valeur\": \"2.079\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-11 00:01:00\", \"@valeur\": \"1.949\"}]",
     "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2017-09-04 07:12:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 07:12:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 07:12:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-21 10:37:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 2.63315746474,
       "lat": 48.5430139632
     },
-    "gazole_maj": "2026-11-10T01:01:00+01:00",
-    "gazole_prix": 2.078,
+    "gazole_maj": "2026-11-11T01:01:00+01:00",
+    "gazole_prix": 2.079,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2026-11-11T01:01:00+01:00",
+    "e10_prix": 1.949,
     "sp98_maj": null,
     "sp98_prix": null,
     "e10_rupture_debut": null,
@@ -40,13 +40,13 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
-      "E10",
       "SP98"
     ],
     "carburants_rupture_temporaire": "SP98",

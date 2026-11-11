@@ -1,8 +1,8 @@
 [
   {
     "id": 19130002,
-    "latitude": "4525900",
-    "longitude": "141300",
+    "latitude": "4525360",
+    "longitude": "141260",
     "cp": "19130",
     "pop": "R",
     "adresse": "AVENUE RAYMOND POINCARE",
@@ -12,8 +12,8 @@
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-07 09:48:35\", \"@valeur\": \"2.179\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-07 09:48:36\", \"@valeur\": \"1.990\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-07 09:48:36\", \"@valeur\": \"2.190\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2010-10-21 16:36:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2012-09-18 14:27:00\", \"@fin\": \"\", \"@type\": \"\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 09:37:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 09:37:21\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-06-29 16:03:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
-      "lon": 1.413,
-      "lat": 45.259
+      "lon": 1.4126,
+      "lat": 45.2536
     },
     "gazole_maj": "2026-11-07T10:48:35+01:00",
     "gazole_prix": 2.179,
@@ -72,8 +72,8 @@
     "ville": "Objat",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"1\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"1\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"1\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"1\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"1\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Station de gonflage\", \"Automate CB 24/24\"]}",
-    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-10 08:23:43\", \"@valeur\": \"2.168\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-10 08:23:44\", \"@valeur\": \"1.980\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-10 08:23:44\", \"@valeur\": \"1.990\"}]",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 07:42:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 07:42:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-09-21 16:30:54\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
+    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-10 08:23:43\", \"@valeur\": \"2.168\"}",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-08-30 07:42:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-08-30 07:42:30\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-09-21 16:30:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-11-10 13:50:27\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-11-10 13:50:27\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
     "geom": {
       "lon": 1.415,
       "lat": 45.244
@@ -86,14 +86,14 @@
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": "2026-11-10T09:23:44+01:00",
-    "e10_prix": 1.98,
-    "sp98_maj": "2026-11-10T09:23:44+01:00",
-    "sp98_prix": 1.99,
-    "e10_rupture_debut": null,
-    "e10_rupture_type": null,
-    "sp98_rupture_debut": null,
-    "sp98_rupture_type": null,
+    "e10_maj": null,
+    "e10_prix": null,
+    "sp98_maj": null,
+    "sp98_prix": null,
+    "e10_rupture_debut": "2026-11-10T14:50:27+01:00",
+    "e10_rupture_type": "temporaire",
+    "sp98_rupture_debut": "2026-11-10T14:50:27+01:00",
+    "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": "2026-09-21T18:30:54+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-08-30T09:42:30+02:00",
@@ -103,16 +103,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole",
-      "E10",
-      "SP98"
+      "Gazole"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
-      "GPLc"
+      "GPLc",
+      "E10",
+      "SP98"
     ],
-    "carburants_rupture_temporaire": null,
+    "carburants_rupture_temporaire": "E10;SP98",
     "carburants_rupture_definitive": "SP95;E85;GPLc",
     "horaires_automate_24_24": "Oui",
     "services_service": [

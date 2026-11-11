@@ -9,26 +9,26 @@
     "ville": "Pontorson",
     "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"07.30\", \"@fermeture\": \"18.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"1\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
     "services": "{\"service\": [\"Automate CB 24/24\", \"Boutique alimentaire\", \"Carburant additivé\", \"Piste poids lourds\", \"Vente d'additifs carburants\", \"Vente de gaz domestique (Butane, Propane)\"]}",
-    "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-07 09:16:26\", \"@valeur\": \"2.250\"}",
-    "rupture": "[{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-30 16:47:29\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-11-09 18:03:18\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-11 00:01:00\", \"@valeur\": \"2.210\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-10 20:43:32\", \"@valeur\": \"1.990\"}]",
+    "rupture": "{\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-30 16:47:29\", \"@fin\": \"\", \"@type\": \"temporaire\"}",
     "geom": {
       "lon": -1.501,
       "lat": 48.554
     },
-    "gazole_maj": "2026-11-07T10:16:26+01:00",
-    "gazole_prix": 2.25,
+    "gazole_maj": "2026-11-11T01:01:00+01:00",
+    "gazole_prix": 2.21,
     "sp95_maj": null,
     "sp95_prix": null,
     "e85_maj": null,
     "e85_prix": null,
     "gplc_maj": null,
     "gplc_prix": null,
-    "e10_maj": null,
-    "e10_prix": null,
+    "e10_maj": "2026-11-10T21:43:32+01:00",
+    "e10_prix": 1.99,
     "sp98_maj": null,
     "sp98_prix": null,
-    "e10_rupture_debut": "2026-11-09T19:03:18+01:00",
-    "e10_rupture_type": "temporaire",
+    "e10_rupture_debut": null,
+    "e10_rupture_type": null,
     "sp98_rupture_debut": "2026-10-30T17:47:29+01:00",
     "sp98_rupture_type": "temporaire",
     "sp95_rupture_debut": null,
@@ -40,16 +40,16 @@
     "gazole_rupture_debut": null,
     "gazole_rupture_type": null,
     "carburants_disponibles": [
-      "Gazole"
+      "Gazole",
+      "E10"
     ],
     "carburants_indisponibles": [
       "SP95",
       "E85",
       "GPLc",
-      "E10",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "E10;SP98",
+    "carburants_rupture_temporaire": "SP98",
     "carburants_rupture_definitive": null,
     "horaires_automate_24_24": "Oui",
     "services_service": [
@@ -68,8 +68,8 @@
   },
   {
     "id": 50170005,
-    "latitude": "4856000",
-    "longitude": "-150900",
+    "latitude": "4855874",
+    "longitude": "-150907",
     "cp": "50170",
     "pop": "R",
     "adresse": "2 route du Mont Saint Michel",
@@ -79,8 +79,8 @@
     "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-11-06 08:40:54\", \"@valeur\": \"2.164\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-06 08:40:54\", \"@valeur\": \"1.999\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2026-11-06 08:40:55\", \"@valeur\": \"2.139\"}]",
     "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-10-07 15:07:12\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-04-28 14:34:47\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-07-09 18:06:28\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
-      "lon": -1.509,
-      "lat": 48.56
+      "lon": -1.50907,
+      "lat": 48.55874
     },
     "gazole_maj": "2026-11-06T09:40:54+01:00",
     "gazole_prix": 2.164,
