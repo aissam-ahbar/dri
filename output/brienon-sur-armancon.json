@@ -10,7 +10,7 @@
     "horaires": null,
     "services": "{\"service\": \"DAB (Distributeur automatique de billets)\"}",
     "prix": "{\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-11-05 17:14:23\", \"@valeur\": \"1.990\"}",
-    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 16:27:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 16:27:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-04-22 10:17:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-26 14:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-10-27 09:48:04\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+    "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-04 16:27:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-04 16:27:04\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2026-04-22 10:17:18\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-10-26 14:43:32\", \"@fin\": \"\", \"@type\": \"definitive\"}]",
     "geom": {
       "lon": 3.606,
       "lat": 47.99
@@ -29,8 +29,8 @@
     "sp98_prix": null,
     "e10_rupture_debut": null,
     "e10_rupture_type": null,
-    "sp98_rupture_debut": "2026-10-27T10:48:04+01:00",
-    "sp98_rupture_type": "temporaire",
+    "sp98_rupture_debut": null,
+    "sp98_rupture_type": null,
     "sp95_rupture_debut": "2026-04-22T12:17:18+02:00",
     "sp95_rupture_type": "definitive",
     "e85_rupture_debut": "2017-09-04T18:27:04+02:00",
@@ -49,7 +49,7 @@
       "GPLc",
       "SP98"
     ],
-    "carburants_rupture_temporaire": "SP98",
+    "carburants_rupture_temporaire": null,
     "carburants_rupture_definitive": "Gazole;SP95;E85;GPLc",
     "horaires_automate_24_24": "Non",
     "services_service": [
